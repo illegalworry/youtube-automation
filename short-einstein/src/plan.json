@@ -1,0 +1,1276 @@
+{
+ "fps": 30,
+ "total": 1888,
+ "video": "video.mp4",
+ "voice": "voice.mp3",
+ "music": "music.wav",
+ "mix": {
+  "voice": 1,
+  "music": 0.11
+ },
+ "caption": {
+  "size": 92,
+  "stroke": 16,
+  "bottom": 600,
+  "highlight": null
+ },
+ "groups": [
+  {
+   "text": "The man who",
+   "start": 3,
+   "end": 18,
+   "words": [
+    {
+     "text": "The",
+     "start": 3,
+     "end": 6
+    },
+    {
+     "text": "man",
+     "start": 6,
+     "end": 12
+    },
+    {
+     "text": "who",
+     "start": 12,
+     "end": 18
+    }
+   ]
+  },
+  {
+   "text": "rewrote the universe",
+   "start": 18,
+   "end": 57,
+   "words": [
+    {
+     "text": "rewrote",
+     "start": 18,
+     "end": 32
+    },
+    {
+     "text": "the",
+     "start": 32,
+     "end": 38
+    },
+    {
+     "text": "universe",
+     "start": 38,
+     "end": 57
+    }
+   ]
+  },
+  {
+   "text": "couldn't even land",
+   "start": 57,
+   "end": 84,
+   "words": [
+    {
+     "text": "couldn't",
+     "start": 57,
+     "end": 70
+    },
+    {
+     "text": "even",
+     "start": 70,
+     "end": 77
+    },
+    {
+     "text": "land",
+     "start": 77,
+     "end": 84
+    }
+   ]
+  },
+  {
+   "text": "a university job.",
+   "start": 84,
+   "end": 116,
+   "words": [
+    {
+     "text": "a",
+     "start": 84,
+     "end": 86
+    },
+    {
+     "text": "university",
+     "start": 86,
+     "end": 104
+    },
+    {
+     "text": "job.",
+     "start": 104,
+     "end": 116
+    }
+   ]
+  },
+  {
+   "text": "Imagine you're his",
+   "start": 116,
+   "end": 155,
+   "words": [
+    {
+     "text": "Imagine",
+     "start": 116,
+     "end": 134
+    },
+    {
+     "text": "you're",
+     "start": 134,
+     "end": 148
+    },
+    {
+     "text": "his",
+     "start": 148,
+     "end": 155
+    }
+   ]
+  },
+  {
+   "text": "boss.",
+   "start": 155,
+   "end": 173,
+   "words": [
+    {
+     "text": "boss.",
+     "start": 155,
+     "end": 173
+    }
+   ]
+  },
+  {
+   "text": "1905,",
+   "start": 173,
+   "end": 219,
+   "words": [
+    {
+     "text": "1905,",
+     "start": 173,
+     "end": 219
+    }
+   ]
+  },
+  {
+   "text": "a Swiss patent",
+   "start": 219,
+   "end": 244,
+   "words": [
+    {
+     "text": "a",
+     "start": 219,
+     "end": 220
+    },
+    {
+     "text": "Swiss",
+     "start": 220,
+     "end": 231
+    },
+    {
+     "text": "patent",
+     "start": 231,
+     "end": 244
+    }
+   ]
+  },
+  {
+   "text": "office.",
+   "start": 244,
+   "end": 265,
+   "words": [
+    {
+     "text": "office.",
+     "start": 244,
+     "end": 265
+    }
+   ]
+  },
+  {
+   "text": "Your clerk Albert",
+   "start": 265,
+   "end": 300,
+   "words": [
+    {
+     "text": "Your",
+     "start": 265,
+     "end": 274
+    },
+    {
+     "text": "clerk",
+     "start": 274,
+     "end": 286
+    },
+    {
+     "text": "Albert",
+     "start": 286,
+     "end": 300
+    }
+   ]
+  },
+  {
+   "text": "checks inventions",
+   "start": 300,
+   "end": 332,
+   "words": [
+    {
+     "text": "checks",
+     "start": 300,
+     "end": 311
+    },
+    {
+     "text": "inventions",
+     "start": 311,
+     "end": 332
+    }
+   ]
+  },
+  {
+   "text": "all day.",
+   "start": 332,
+   "end": 353,
+   "words": [
+    {
+     "text": "all",
+     "start": 332,
+     "end": 338
+    },
+    {
+     "text": "day.",
+     "start": 338,
+     "end": 353
+    }
+   ]
+  },
+  {
+   "text": "Clocks.",
+   "start": 353,
+   "end": 382,
+   "words": [
+    {
+     "text": "Clocks.",
+     "start": 353,
+     "end": 382
+    }
+   ]
+  },
+  {
+   "text": "Typewriters.",
+   "start": 382,
+   "end": 410,
+   "words": [
+    {
+     "text": "Typewriters.",
+     "start": 382,
+     "end": 410
+    }
+   ]
+  },
+  {
+   "text": "More clocks.",
+   "start": 410,
+   "end": 436,
+   "words": [
+    {
+     "text": "More",
+     "start": 410,
+     "end": 415
+    },
+    {
+     "text": "clocks.",
+     "start": 415,
+     "end": 436
+    }
+   ]
+  },
+  {
+   "text": "Then,",
+   "start": 436,
+   "end": 455,
+   "words": [
+    {
+     "text": "Then,",
+     "start": 436,
+     "end": 455
+    }
+   ]
+  },
+  {
+   "text": "in one year,",
+   "start": 455,
+   "end": 485,
+   "words": [
+    {
+     "text": "in",
+     "start": 455,
+     "end": 457
+    },
+    {
+     "text": "one",
+     "start": 457,
+     "end": 465
+    },
+    {
+     "text": "year,",
+     "start": 465,
+     "end": 485
+    }
+   ]
+  },
+  {
+   "text": "he publishes four",
+   "start": 485,
+   "end": 515,
+   "words": [
+    {
+     "text": "he",
+     "start": 485,
+     "end": 487
+    },
+    {
+     "text": "publishes",
+     "start": 487,
+     "end": 508
+    },
+    {
+     "text": "four",
+     "start": 508,
+     "end": 515
+    }
+   ]
+  },
+  {
+   "text": "papers that flip",
+   "start": 515,
+   "end": 545,
+   "words": [
+    {
+     "text": "papers",
+     "start": 515,
+     "end": 527
+    },
+    {
+     "text": "that",
+     "start": 527,
+     "end": 537
+    },
+    {
+     "text": "flip",
+     "start": 537,
+     "end": 545
+    }
+   ]
+  },
+  {
+   "text": "physics upside down.",
+   "start": 545,
+   "end": 587,
+   "words": [
+    {
+     "text": "physics",
+     "start": 545,
+     "end": 558
+    },
+    {
+     "text": "upside",
+     "start": 558,
+     "end": 571
+    },
+    {
+     "text": "down.",
+     "start": 571,
+     "end": 587
+    }
+   ]
+  },
+  {
+   "text": "One proves atoms",
+   "start": 587,
+   "end": 620,
+   "words": [
+    {
+     "text": "One",
+     "start": 587,
+     "end": 594
+    },
+    {
+     "text": "proves",
+     "start": 594,
+     "end": 608
+    },
+    {
+     "text": "atoms",
+     "start": 608,
+     "end": 620
+    }
+   ]
+  },
+  {
+   "text": "are real.",
+   "start": 620,
+   "end": 644,
+   "words": [
+    {
+     "text": "are",
+     "start": 620,
+     "end": 627
+    },
+    {
+     "text": "real.",
+     "start": 627,
+     "end": 644
+    }
+   ]
+  },
+  {
+   "text": "One shows light",
+   "start": 644,
+   "end": 674,
+   "words": [
+    {
+     "text": "One",
+     "start": 644,
+     "end": 651
+    },
+    {
+     "text": "shows",
+     "start": 651,
+     "end": 662
+    },
+    {
+     "text": "light",
+     "start": 662,
+     "end": 674
+    }
+   ]
+  },
+  {
+   "text": "comes in tiny",
+   "start": 674,
+   "end": 699,
+   "words": [
+    {
+     "text": "comes",
+     "start": 674,
+     "end": 685
+    },
+    {
+     "text": "in",
+     "start": 685,
+     "end": 690
+    },
+    {
+     "text": "tiny",
+     "start": 690,
+     "end": 699
+    }
+   ]
+  },
+  {
+   "text": "packets,",
+   "start": 699,
+   "end": 719,
+   "words": [
+    {
+     "text": "packets,",
+     "start": 699,
+     "end": 719
+    }
+   ]
+  },
+  {
+   "text": "and later wins",
+   "start": 719,
+   "end": 746,
+   "words": [
+    {
+     "text": "and",
+     "start": 719,
+     "end": 726
+    },
+    {
+     "text": "later",
+     "start": 726,
+     "end": 737
+    },
+    {
+     "text": "wins",
+     "start": 737,
+     "end": 746
+    }
+   ]
+  },
+  {
+   "text": "him the Nobel",
+   "start": 746,
+   "end": 771,
+   "words": [
+    {
+     "text": "him",
+     "start": 746,
+     "end": 753
+    },
+    {
+     "text": "the",
+     "start": 753,
+     "end": 759
+    },
+    {
+     "text": "Nobel",
+     "start": 759,
+     "end": 771
+    }
+   ]
+  },
+  {
+   "text": "Prize.",
+   "start": 771,
+   "end": 790,
+   "words": [
+    {
+     "text": "Prize.",
+     "start": 771,
+     "end": 790
+    }
+   ]
+  },
+  {
+   "text": "One gives us",
+   "start": 790,
+   "end": 844,
+   "words": [
+    {
+     "text": "One",
+     "start": 790,
+     "end": 799
+    },
+    {
+     "text": "gives",
+     "start": 799,
+     "end": 814
+    },
+    {
+     "text": "us",
+     "start": 814,
+     "end": 844
+    }
+   ]
+  },
+  {
+   "text": "E=mc².",
+   "start": 844,
+   "end": 874,
+   "words": [
+    {
+     "text": "E=mc².",
+     "start": 844,
+     "end": 874
+    }
+   ]
+  },
+  {
+   "text": "And the wildest:",
+   "start": 874,
+   "end": 906,
+   "words": [
+    {
+     "text": "And",
+     "start": 874,
+     "end": 876
+    },
+    {
+     "text": "the",
+     "start": 876,
+     "end": 883
+    },
+    {
+     "text": "wildest:",
+     "start": 883,
+     "end": 906
+    }
+   ]
+  },
+  {
+   "text": "time isn't the",
+   "start": 906,
+   "end": 930,
+   "words": [
+    {
+     "text": "time",
+     "start": 906,
+     "end": 912
+    },
+    {
+     "text": "isn't",
+     "start": 912,
+     "end": 923
+    },
+    {
+     "text": "the",
+     "start": 923,
+     "end": 930
+    }
+   ]
+  },
+  {
+   "text": "same for everyone.",
+   "start": 930,
+   "end": 971,
+   "words": [
+    {
+     "text": "same",
+     "start": 930,
+     "end": 938
+    },
+    {
+     "text": "for",
+     "start": 938,
+     "end": 945
+    },
+    {
+     "text": "everyone.",
+     "start": 945,
+     "end": 971
+    }
+   ]
+  },
+  {
+   "text": "Move fast enough",
+   "start": 971,
+   "end": 1003,
+   "words": [
+    {
+     "text": "Move",
+     "start": 971,
+     "end": 979
+    },
+    {
+     "text": "fast",
+     "start": 979,
+     "end": 987
+    },
+    {
+     "text": "enough",
+     "start": 987,
+     "end": 1003
+    }
+   ]
+  },
+  {
+   "text": "and your clock",
+   "start": 1003,
+   "end": 1028,
+   "words": [
+    {
+     "text": "and",
+     "start": 1003,
+     "end": 1009
+    },
+    {
+     "text": "your",
+     "start": 1009,
+     "end": 1017
+    },
+    {
+     "text": "clock",
+     "start": 1017,
+     "end": 1028
+    }
+   ]
+  },
+  {
+   "text": "ticks slower.",
+   "start": 1028,
+   "end": 1057,
+   "words": [
+    {
+     "text": "ticks",
+     "start": 1028,
+     "end": 1038
+    },
+    {
+     "text": "slower.",
+     "start": 1038,
+     "end": 1057
+    }
+   ]
+  },
+  {
+   "text": "How is that",
+   "start": 1057,
+   "end": 1078,
+   "words": [
+    {
+     "text": "How",
+     "start": 1057,
+     "end": 1064
+    },
+    {
+     "text": "is",
+     "start": 1064,
+     "end": 1069
+    },
+    {
+     "text": "that",
+     "start": 1069,
+     "end": 1078
+    }
+   ]
+  },
+  {
+   "text": "possible?",
+   "start": 1078,
+   "end": 1104,
+   "words": [
+    {
+     "text": "possible?",
+     "start": 1078,
+     "end": 1104
+    }
+   ]
+  },
+  {
+   "text": "Picture a bowling",
+   "start": 1104,
+   "end": 1133,
+   "words": [
+    {
+     "text": "Picture",
+     "start": 1104,
+     "end": 1118
+    },
+    {
+     "text": "a",
+     "start": 1118,
+     "end": 1120
+    },
+    {
+     "text": "bowling",
+     "start": 1120,
+     "end": 1133
+    }
+   ]
+  },
+  {
+   "text": "ball on a",
+   "start": 1133,
+   "end": 1147,
+   "words": [
+    {
+     "text": "ball",
+     "start": 1133,
+     "end": 1141
+    },
+    {
+     "text": "on",
+     "start": 1141,
+     "end": 1146
+    },
+    {
+     "text": "a",
+     "start": 1146,
+     "end": 1147
+    }
+   ]
+  },
+  {
+   "text": "trampoline.",
+   "start": 1147,
+   "end": 1174,
+   "words": [
+    {
+     "text": "trampoline.",
+     "start": 1147,
+     "end": 1174
+    }
+   ]
+  },
+  {
+   "text": "Ten years later,",
+   "start": 1174,
+   "end": 1208,
+   "words": [
+    {
+     "text": "Ten",
+     "start": 1174,
+     "end": 1180
+    },
+    {
+     "text": "years",
+     "start": 1180,
+     "end": 1191
+    },
+    {
+     "text": "later,",
+     "start": 1191,
+     "end": 1208
+    }
+   ]
+  },
+  {
+   "text": "Einstein says gravity",
+   "start": 1208,
+   "end": 1246,
+   "words": [
+    {
+     "text": "Einstein",
+     "start": 1208,
+     "end": 1222
+    },
+    {
+     "text": "says",
+     "start": 1222,
+     "end": 1232
+    },
+    {
+     "text": "gravity",
+     "start": 1232,
+     "end": 1246
+    }
+   ]
+  },
+  {
+   "text": "is just that:",
+   "start": 1246,
+   "end": 1274,
+   "words": [
+    {
+     "text": "is",
+     "start": 1246,
+     "end": 1252
+    },
+    {
+     "text": "just",
+     "start": 1252,
+     "end": 1259
+    },
+    {
+     "text": "that:",
+     "start": 1259,
+     "end": 1274
+    }
+   ]
+  },
+  {
+   "text": "mass bending space",
+   "start": 1274,
+   "end": 1319,
+   "words": [
+    {
+     "text": "mass",
+     "start": 1274,
+     "end": 1285
+    },
+    {
+     "text": "bending",
+     "start": 1285,
+     "end": 1304
+    },
+    {
+     "text": "space",
+     "start": 1304,
+     "end": 1319
+    }
+   ]
+  },
+  {
+   "text": "and time.",
+   "start": 1319,
+   "end": 1346,
+   "words": [
+    {
+     "text": "and",
+     "start": 1319,
+     "end": 1326
+    },
+    {
+     "text": "time.",
+     "start": 1326,
+     "end": 1346
+    }
+   ]
+  },
+  {
+   "text": "In 1919,",
+   "start": 1346,
+   "end": 1380,
+   "words": [
+    {
+     "text": "In",
+     "start": 1346,
+     "end": 1351
+    },
+    {
+     "text": "1919,",
+     "start": 1351,
+     "end": 1380
+    }
+   ]
+  },
+  {
+   "text": "an eclipse proved",
+   "start": 1380,
+   "end": 1412,
+   "words": [
+    {
+     "text": "an",
+     "start": 1380,
+     "end": 1390
+    },
+    {
+     "text": "eclipse",
+     "start": 1390,
+     "end": 1400
+    },
+    {
+     "text": "proved",
+     "start": 1400,
+     "end": 1412
+    }
+   ]
+  },
+  {
+   "text": "starlight really",
+   "start": 1412,
+   "end": 1444,
+   "words": [
+    {
+     "text": "starlight",
+     "start": 1412,
+     "end": 1434
+    },
+    {
+     "text": "really",
+     "start": 1434,
+     "end": 1444
+    }
+   ]
+  },
+  {
+   "text": "bends around the",
+   "start": 1444,
+   "end": 1473,
+   "words": [
+    {
+     "text": "bends",
+     "start": 1444,
+     "end": 1454
+    },
+    {
+     "text": "around",
+     "start": 1454,
+     "end": 1467
+    },
+    {
+     "text": "the",
+     "start": 1467,
+     "end": 1473
+    }
+   ]
+  },
+  {
+   "text": "sun.",
+   "start": 1473,
+   "end": 1488,
+   "words": [
+    {
+     "text": "sun.",
+     "start": 1473,
+     "end": 1488
+    }
+   ]
+  },
+  {
+   "text": "Overnight,",
+   "start": 1488,
+   "end": 1514,
+   "words": [
+    {
+     "text": "Overnight,",
+     "start": 1488,
+     "end": 1514
+    }
+   ]
+  },
+  {
+   "text": "the clerk became",
+   "start": 1514,
+   "end": 1541,
+   "words": [
+    {
+     "text": "the",
+     "start": 1514,
+     "end": 1518
+    },
+    {
+     "text": "clerk",
+     "start": 1518,
+     "end": 1528
+    },
+    {
+     "text": "became",
+     "start": 1528,
+     "end": 1541
+    }
+   ]
+  },
+  {
+   "text": "the most famous",
+   "start": 1541,
+   "end": 1568,
+   "words": [
+    {
+     "text": "the",
+     "start": 1541,
+     "end": 1552
+    },
+    {
+     "text": "most",
+     "start": 1552,
+     "end": 1555
+    },
+    {
+     "text": "famous",
+     "start": 1555,
+     "end": 1568
+    }
+   ]
+  },
+  {
+   "text": "scientist alive.",
+   "start": 1568,
+   "end": 1604,
+   "words": [
+    {
+     "text": "scientist",
+     "start": 1568,
+     "end": 1587
+    },
+    {
+     "text": "alive.",
+     "start": 1587,
+     "end": 1604
+    }
+   ]
+  },
+  {
+   "text": "Today,",
+   "start": 1604,
+   "end": 1625,
+   "words": [
+    {
+     "text": "Today,",
+     "start": 1604,
+     "end": 1625
+    }
+   ]
+  },
+  {
+   "text": "every GPS satellite",
+   "start": 1625,
+   "end": 1666,
+   "words": [
+    {
+     "text": "every",
+     "start": 1625,
+     "end": 1634
+    },
+    {
+     "text": "GPS",
+     "start": 1634,
+     "end": 1642
+    },
+    {
+     "text": "satellite",
+     "start": 1642,
+     "end": 1666
+    }
+   ]
+  },
+  {
+   "text": "runs his math.",
+   "start": 1666,
+   "end": 1703,
+   "words": [
+    {
+     "text": "runs",
+     "start": 1666,
+     "end": 1675
+    },
+    {
+     "text": "his",
+     "start": 1675,
+     "end": 1682
+    },
+    {
+     "text": "math.",
+     "start": 1682,
+     "end": 1703
+    }
+   ]
+  },
+  {
+   "text": "Skip it,",
+   "start": 1703,
+   "end": 1722,
+   "words": [
+    {
+     "text": "Skip",
+     "start": 1703,
+     "end": 1708
+    },
+    {
+     "text": "it,",
+     "start": 1708,
+     "end": 1722
+    }
+   ]
+  },
+  {
+   "text": "and your map",
+   "start": 1722,
+   "end": 1735,
+   "words": [
+    {
+     "text": "and",
+     "start": 1722,
+     "end": 1722
+    },
+    {
+     "text": "your",
+     "start": 1722,
+     "end": 1730
+    },
+    {
+     "text": "map",
+     "start": 1730,
+     "end": 1735
+    }
+   ]
+  },
+  {
+   "text": "drifts about 10",
+   "start": 1735,
+   "end": 1769,
+   "words": [
+    {
+     "text": "drifts",
+     "start": 1735,
+     "end": 1747
+    },
+    {
+     "text": "about",
+     "start": 1747,
+     "end": 1757
+    },
+    {
+     "text": "10",
+     "start": 1757,
+     "end": 1769
+    }
+   ]
+  },
+  {
+   "text": "kilometers a day.",
+   "start": 1769,
+   "end": 1804,
+   "words": [
+    {
+     "text": "kilometers",
+     "start": 1769,
+     "end": 1788
+    },
+    {
+     "text": "a",
+     "start": 1788,
+     "end": 1790
+    },
+    {
+     "text": "day.",
+     "start": 1790,
+     "end": 1804
+    }
+   ]
+  },
+  {
+   "text": "Not bad for",
+   "start": 1804,
+   "end": 1818,
+   "words": [
+    {
+     "text": "Not",
+     "start": 1804,
+     "end": 1808
+    },
+    {
+     "text": "bad",
+     "start": 1808,
+     "end": 1813
+    },
+    {
+     "text": "for",
+     "start": 1813,
+     "end": 1818
+    }
+   ]
+  },
+  {
+   "text": "a guy who",
+   "start": 1818,
+   "end": 1829,
+   "words": [
+    {
+     "text": "a",
+     "start": 1818,
+     "end": 1819
+    },
+    {
+     "text": "guy",
+     "start": 1819,
+     "end": 1824
+    },
+    {
+     "text": "who",
+     "start": 1824,
+     "end": 1829
+    }
+   ]
+  },
+  {
+   "text": "checked clocks for",
+   "start": 1829,
+   "end": 1855,
+   "words": [
+    {
+     "text": "checked",
+     "start": 1829,
+     "end": 1841
+    },
+    {
+     "text": "clocks",
+     "start": 1841,
+     "end": 1850
+    },
+    {
+     "text": "for",
+     "start": 1850,
+     "end": 1855
+    }
+   ]
+  },
+  {
+   "text": "a living.",
+   "start": 1855,
+   "end": 1875,
+   "words": [
+    {
+     "text": "a",
+     "start": 1855,
+     "end": 1857
+    },
+    {
+     "text": "living.",
+     "start": 1857,
+     "end": 1875
+    }
+   ]
+  }
+ ]
+}
