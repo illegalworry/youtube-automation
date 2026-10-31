@@ -37,57 +37,79 @@ const face = (g, x, y, r, expr, o = {}) => {
 };
 const lift = (g, a = 0.12) => { g.save(); g.globalCompositeOperation = 'screen'; g.fillStyle = `rgba(255,220,180,${a})`; g.fillRect(0, 0, E.W, E.H); g.restore(); };
 
+// saturated bokeh discs + a coloured wash, so the blurred set reads bright, not brown
+const bokeh = (g, seed, cols, n = 26) => { const r = rng(seed); g.save(); g.globalCompositeOperation = 'lighter'; for (let i = 0; i < n; i++) { const x = r() * E.W, y = r() * E.H * 0.85, s = 30 + r() * 90; g.fillStyle = alpha(cols[i % cols.length], 0.10 + r() * 0.14); g.beginPath(); g.arc(x, y, s, 0, 7); g.fill(); } g.restore(); };
+const wash = (g, c1, c2, a = 0.28) => { g.save(); g.globalCompositeOperation = 'screen'; const gr = g.createLinearGradient(0, 0, E.W, E.H); gr.addColorStop(0, alpha(c1, a)); gr.addColorStop(1, alpha(c2, a)); g.fillStyle = gr; g.fillRect(0, 0, E.W, E.H); g.restore(); };
+const lines = (g, x, y, n, len, col, dx = -1) => { for (let i = 0; i < n; i++) seg(g, [[x, y + i * 34], [x + dx * len * (0.6 + (i % 3) * 0.2), y + i * 34]], 7, alpha(col, 0.75 - i * 0.08)); };
+
+// "What If You Could Think 10x Faster?"
 const T = {
-  // 100%. — a brain gauge pinned past the red
+  // 10x. — a THOUGHT SPEED gauge (1x..10x) with the needle pinned past 10x
   1(g, t) {
-    bgBlur(g, t, 'cafe', {}, { z: 1.4, blur: 18, veil: 0.1, y: -160 }); lift(g);
+    bgBlur(g, t, 'lab', {}, { z: 1.4, blur: 18, veil: 0.04, y: -160 }); wash(g, '#3a8cff', '#ff4ad8', 0.3); bokeh(g, 3, ['#5ff2e8', '#ff6ad5', '#ffd25a']); lift(g, 0.1);
     const cx = 1420, cy = 720, R = 360;
-    circle(g, cx, cy, R + 40, alpha('#0c0c14', 0.85)); ring(g, cx, cy, R + 40, 14, '#f4efe6');
-    const segs = 9; for (let i = 0; i < segs; i++) { const a0 = Math.PI + i / segs * Math.PI, a1 = a0 + Math.PI / segs - 0.03; g.strokeStyle = ['#3fb950', '#3fb950', '#8fd14f', '#d9e04a', '#f2c21a', '#f29a1a', '#f2601a', '#e8321a', '#c0101a'][i]; g.lineWidth = 70; g.beginPath(); g.arc(cx, cy, R - 40, a0, a1); g.stroke(); }
-    for (let i = 0; i <= 10; i++) { const a = Math.PI + i / 10 * Math.PI; seg(g, [[cx + Math.cos(a) * (R - 110), cy + Math.sin(a) * (R - 110)], [cx + Math.cos(a) * (R - 140), cy + Math.sin(a) * (R - 140)]], 6, '#f4efe6'); }
-    const na = Math.PI * 2.08; glow(g, cx + Math.cos(na) * R * 0.7, cy + Math.sin(na) * R * 0.7, 200, '#ff3a1a', 0.7);
-    seg(g, [[cx, cy], [cx + Math.cos(na) * (R - 20), cy + Math.sin(na) * (R - 20)]], 18, '#ff3a1a'); circle(g, cx, cy, 34, '#f4efe6');
-    for (let i = 0; i < 4; i++) seg(g, [[cx + 300 + i * 14, cy - 140 + i * 30], [cx + 340 + i * 14, cy - 150 + i * 30]], 6, alpha('#ffffff', 0.7));
-    text(g, 'BRAIN', cx, cy + 130, { size: 64, color: '#f4efe6', font: FONTS.ui, weight: 900, spacing: 8 });
-    FX.sparkle(g, cx + R * 0.85, cy - 30, 70, '#fff3c0', 1);
-    face(g, 500, 650, 300, 'smug', { halo: '#5ff2e8', haloA: 0.3, star: true });
+    glow(g, cx, cy - 80, 620, '#3aa0ff', 0.35);
+    circle(g, cx, cy, R + 40, alpha('#0c0c18', 0.9)); ring(g, cx, cy, R + 40, 14, '#f4efe6');
+    const segs = 10, cs = ['#3fb950', '#5fc94f', '#8fd14f', '#c6e04a', '#f2d21a', '#f2b21a', '#f29a1a', '#f2601a', '#e8321a', '#c0101a'];
+    for (let i = 0; i < segs; i++) { const a0 = Math.PI + i / segs * Math.PI, a1 = a0 + Math.PI / segs - 0.03; g.strokeStyle = cs[i]; g.lineWidth = 64; g.beginPath(); g.arc(cx, cy, R - 40, a0, a1); g.stroke(); }
+    for (let i = 1; i <= 10; i += 3) { const a = Math.PI + (i - 0.5) / 10 * Math.PI; text(g, i === 10 ? '10x' : i + 'x', cx + Math.cos(a) * (R - 150), cy + Math.sin(a) * (R - 150), { size: 44, color: '#f4efe6', font: FONTS.ui, weight: 900 }); }
+    const na = Math.PI * 2.1; glow(g, cx + Math.cos(na) * R * 0.75, cy + Math.sin(na) * R * 0.75, 230, '#ff3a1a', 0.8);
+    seg(g, [[cx, cy], [cx + Math.cos(na) * (R - 10), cy + Math.sin(na) * (R - 10)]], 18, '#ff3a1a'); circle(g, cx, cy, 34, '#f4efe6');
+    for (let i = 0; i < 4; i++) seg(g, [[cx + 310 + i * 14, cy - 150 + i * 32], [cx + 350 + i * 14, cy - 160 + i * 32]], 6, alpha('#ffffff', 0.75));
+    text(g, 'THOUGHTS', cx, cy + 120, { size: 56, color: '#f4efe6', font: FONTS.ui, weight: 900, spacing: 6 });
+    FX.sparkle(g, cx + R * 0.86, cy - 20, 80, '#fff3c0', 1);
+    face(g, 500, 650, 300, 'smug', { halo: '#5ff2e8', haloA: 0.4, star: true, hoodie: '#2f6fe0' });
   },
-  // TOO LOUD. — sound rings, voices and forks crowding the head
+  // FROZEN. — a coffee cup tipping over, the splash frozen mid-air with speed ticks
   2(g, t) {
-    bgBlur(g, t, 'canteen', {}, { z: 1.3, blur: 16, veil: 0.12, y: -150 }); lift(g, 0.1);
-    const x = 620, y = 700, r = 330, cols = ['#f2c21a', '#d64a33', '#5ff2e8', '#f29ac0'];
-    for (let i = 0; i < 5; i++) { g.strokeStyle = alpha(cols[i % 4], 0.85 - i * 0.13); g.lineWidth = 16 - i * 2; g.beginPath(); g.arc(x, y, r + 70 + i * 70, 0, Math.PI * 2); g.stroke(); }
-    const r2 = rng(5); const words = ['BLAH', 'HAHA', 'CLINK', 'HEY!', 'BZZZ', 'LOL', '!!!'];
-    words.forEach((w, i) => { const a = -2.6 + i * 0.75, d = r + 260 + (i % 2) * 90, bx = x + Math.cos(a) * d * 1.4, by = y + Math.sin(a) * d * 0.8; if (bx > E.W - 80 || by < 60 || (bx > 900 && by < 360)) return; g.save(); g.translate(bx, by); g.rotate((r2() - 0.5) * 0.4); rr(g, -120, -50, 240, 100, 40); g.fillStyle = '#f4efe6'; g.fill(); text(g, w, 0, 4, { size: 48, color: '#2a2236', font: FONTS.ui, weight: 900 }); g.restore(); });
-    for (let i = 0; i < 4; i++) { const fx = 1380 + i * 120, fy = 820 - (i % 2) * 140; g.save(); g.translate(fx, fy); g.rotate(-0.8 + i * 0.5); seg(g, [[-70, 0], [60, 0]], 14, '#d8dce6'); for (let k = 0; k < 3; k++) seg(g, [[60, -14 + k * 14], [100, -14 + k * 14]], 7, '#d8dce6'); g.restore(); }
-    face(g, x, y - 60, 300, 'scared', { halo: '#ff6a3a', haloA: 0.35 });
+    bgBlur(g, t, 'cafe', {}, { z: 1.4, blur: 18, veil: 0.02, y: -160 }); wash(g, '#ff9a3a', '#ff3a8a', 0.32); bokeh(g, 7, ['#ffd25a', '#ff8a5a', '#fff0c0']); lift(g, 0.12);
+    const cx = 1430, cy = 640; glow(g, cx, cy, 560, '#ffd28a', 0.45);
+    g.save(); g.translate(cx + 40, cy + 170); g.rotate(-0.55);                                          // tipped mug
+    rr(g, -110, -150, 220, 260, 30); g.fillStyle = '#f4efe6'; g.fill(); ring(g, 120, -20, 60, 26, '#f4efe6'); g.fillStyle = '#d64a33'; g.fillRect(-110, -60, 220, 40); g.restore();
+    const r2 = rng(11); g.fillStyle = '#7a4320';                                                      // the frozen splash
+    g.beginPath(); g.moveTo(cx - 40, cy + 30); g.bezierCurveTo(cx - 160, cy - 60, cx - 120, cy - 250, cx + 10, cy - 300); g.bezierCurveTo(cx + 80, cy - 200, cx + 40, cy - 80, cx + 60, cy + 40); g.closePath(); g.fill();
+    g.strokeStyle = alpha('#ffe2b0', 0.7); g.lineWidth = 12; g.lineCap = 'round'; g.beginPath(); g.moveTo(cx - 70, cy - 20); g.bezierCurveTo(cx - 120, cy - 110, cx - 90, cy - 220, cx - 10, cy - 260); g.stroke();
+    for (let i = 0; i < 14; i++) { const a = -2.6 + r2() * 2.2, d = 160 + r2() * 220, s = 12 + r2() * 26; circle(g, cx + Math.cos(a) * d, cy - 80 + Math.sin(a) * d, s, '#7a4320'); circle(g, cx + Math.cos(a) * d - s * 0.3, cy - 80 + Math.sin(a) * d - s * 0.3, s * 0.3, alpha('#ffe2b0', 0.8)); }
+    g.strokeStyle = alpha('#ffffff', 0.85); g.lineWidth = 10; g.setLineDash([26, 22]); g.beginPath(); g.arc(cx, cy - 60, 400, -2.9, -0.2); g.stroke(); g.setLineDash([]);
+    FX.sparkle(g, cx + 250, cy - 330, 70, '#fff3c0', 1);
+    face(g, 500, 650, 300, 'smug', { halo: '#ffb35a', haloA: 0.45, star: true, hoodie: '#2fa86a' });
   },
-  // TOO EASY. — a test, every answer ticked, 100 stamp
+  // TOO SLOW. — a glowing snail labelled EVERYONE: the rest of the world now crawls
   3(g, t) {
-    bgBlur(g, t, 'exam', {}, { z: 1.3, blur: 16, veil: 0.1, y: -140 }); lift(g, 0.12);
-    g.save(); g.translate(1400, 600); g.rotate(0.08); g.fillStyle = '#f6f1e6'; g.fillRect(-330, -420, 660, 860); g.fillStyle = '#c0392b'; g.fillRect(-330, -420, 660, 14);
-    for (let i = 0; i < 8; i++) { seg(g, [[-270, -320 + i * 92], [-270 + 360 * (0.6 + (i % 3) * 0.15), -320 + i * 92]], 12, alpha('#8a8a9a', 0.55)); seg(g, [[200, -320 + i * 92], [222, -298 + i * 92], [266, -346 + i * 92]], 12, '#3fb950'); }
-    g.save(); g.translate(60, 260); g.rotate(-0.25); ring(g, 0, 0, 150, 16, '#e8321a'); text(g, '100', 0, 6, { size: 120, color: '#e8321a', font: FONTS.ui, weight: 900 }); g.restore(); g.restore();
-    FX.clock(g, 1020, 300, 110, 9 * 3600 + 9 * 60, {});
-    face(g, 500, 650, 300, 'smug', { halo: '#f2c21a', haloA: 0.35, star: true });
+    bgBlur(g, t, 'street', {}, { z: 1.3, blur: 18, veil: 0.02, y: -150 }); wash(g, '#3ad8ff', '#a05aff', 0.32); bokeh(g, 21, ['#5ff2e8', '#c08aff', '#ffd25a']); lift(g, 0.1);
+    const cx = 1430, cy = 700; glow(g, cx, cy - 60, 600, '#8affd0', 0.35);
+    g.fillStyle = '#8fd14f'; g.beginPath(); g.moveTo(cx - 380, cy + 230); g.quadraticCurveTo(cx - 400, cy + 120, cx - 300, cy + 110); g.lineTo(cx + 300, cy + 130); g.quadraticCurveTo(cx + 400, cy + 160, cx + 380, cy + 240); g.closePath(); g.fill();   // body
+    g.fillStyle = '#8fd14f'; g.beginPath(); g.moveTo(cx - 300, cy + 140); g.quadraticCurveTo(cx - 400, cy, cx - 340, cy - 60); g.lineTo(cx - 280, cy - 40); g.quadraticCurveTo(cx - 300, cy + 40, cx - 220, cy + 120); g.fill(); // neck/head
+    for (const k of [0, 1]) { seg(g, [[cx - 330 + k * 40, cy - 50], [cx - 380 + k * 70, cy - 170]], 12, '#8fd14f'); circle(g, cx - 380 + k * 70, cy - 170, 22, '#f4efe6'); circle(g, cx - 384 + k * 70, cy - 166, 10, '#0b0a0f'); }
+    circle(g, cx + 40, cy - 30, 230, '#f2a23a'); g.strokeStyle = '#a8551a'; g.lineWidth = 26; g.beginPath(); for (let i = 0; i < 120; i++) { const a = i / 120 * Math.PI * 5.2, r = 200 - i * 1.62; const px = cx + 40 + Math.cos(a) * r, py = cy - 30 + Math.sin(a) * r; i ? g.lineTo(px, py) : g.moveTo(px, py); } g.stroke();
+    glow(g, cx - 40, cy - 140, 160, '#fff0c0', 0.35);
+    lines(g, cx + 430, cy - 20, 4, 90, '#ffffff', 1);
+    rr(g, cx - 160, cy + 260, 340, 80, 14); g.fillStyle = alpha('#0c0c14', 0.85); g.fill(); text(g, 'EVERYONE', cx + 10, cy + 302, { size: 50, color: '#f4efe6', font: FONTS.ui, weight: 900, spacing: 4 });
+    face(g, 500, 650, 300, 'smug', { halo: '#5ff2e8', haloA: 0.4, star: true, hoodie: '#d64a33' });
   },
-  // 2 SECONDS. — the giant screen falling on Leo, Max's shocked face
+  // TOO HOT. — shocked: a glowing BRAIN chip running at 10x, red-hot and smoking
   4(g, t) {
-    bgBlur(g, t, 'stage', { lightsOn: true }, { z: 1.1, blur: 8, veil: 0.08, y: -60, x: 0 }); lift(g, 0.06);
-    const sx = 1380, sy = 380; g.save(); g.translate(sx, sy); g.rotate(-0.18); rr(g, -420, -170, 840, 340, 12); g.fillStyle = '#0c0c12'; g.fill(); g.fillStyle = '#1d5a78'; g.fillRect(-400, -150, 800, 300); glow(g, 0, 0, 500, '#5ff2e8', 0.25); text(g, 'LUMEN', 40, 0, { size: 110, color: '#e8fbff', font: FONTS.title, weight: 700, spacing: 12 }); g.restore();
-    for (let i = 0; i < 6; i++) seg(g, [[sx - 380 + i * 150, sy - 260 - i * 6], [sx - 380 + i * 150, sy - 400 - i * 6]], 6, alpha('#ffffff', 0.55));
-    g.fillStyle = alpha('#000', 0.35); g.beginPath(); g.ellipse(1400, 980, 380, 50, 0, 0, 7); g.fill();
-    drawFigure(g, { x: 1330, y: 990, s: 1.1, outfit: CAST.leo, pose: POSES.lie, rot: -1.57, expr: 'sleepy', rim: { color: '#ffe2b0', dir: [0, -1] } });
-    poly(g, [[1640, 760], [1720, 620], [1800, 760]], '#f2c21a'); text(g, '!', 1720, 715, { size: 80, color: '#1a1622', font: FONTS.ui, weight: 900 });
-    face(g, 470, 650, 300, 'shocked', { halo: '#ff4a3a', haloA: 0.3 });
+    bgBlur(g, t, 'lab', {}, { z: 1.3, blur: 16, veil: 0.02, y: -140 }); wash(g, '#ff7a2a', '#ff2a6a', 0.34); bokeh(g, 33, ['#ffd25a', '#ff6a3a', '#fff0c0']); lift(g, 0.08);
+    const cx = 1420, cy = 600, s = 300; glow(g, cx, cy, 640, '#ff5a1a', 0.6);
+    for (let i = 0; i < 7; i++) { const o = -s + 50 + i * (2 * s - 100) / 6; for (const [x0, y0, x1, y1] of [[o, -s, o, -s - 70], [o, s, o, s + 70], [-s, o, -s - 70, o], [s, o, s + 70, o]]) seg(g, [[cx + x0, cy + y0], [cx + x1, cy + y1]], 20, '#d8c070'); }
+    rr(g, cx - s, cy - s, 2 * s, 2 * s, 30); g.fillStyle = '#1a1420'; g.fill();
+    rr(g, cx - s * 0.7, cy - s * 0.7, s * 1.4, s * 1.4, 18); g.fillStyle = '#ff4a1a'; g.fill(); glow(g, cx, cy, s, '#ffd04a', 0.7);
+    text(g, 'BRAIN', cx, cy - 40, { size: 84, color: '#1a0a06', font: FONTS.ui, weight: 900, spacing: 6 }); text(g, '10x', cx, cy + 60, { size: 96, color: '#fff6d0', font: FONTS.ui, weight: 900 });
+    for (let i = 0; i < 3; i++) { const sx = cx - 140 + i * 140; g.strokeStyle = alpha('#f4efe6', 0.75); g.lineWidth = 16; g.lineCap = 'round'; g.beginPath(); g.moveTo(sx, cy - s - 100); g.bezierCurveTo(sx - 50, cy - s - 160, sx + 50, cy - s - 210, sx, cy - s - 280); g.stroke(); }
+    face(g, 470, 650, 300, 'shocked', { halo: '#ff4a3a', haloA: 0.4, hoodie: '#2f6fe0' });
   },
-  // I KNEW. — 5:59, the alarm hasn't rung yet
+  // 1 HOUR = 10. — a wall clock with ten ghost minute hands sweeping in one hour
   5(g, t) {
-    bgBlur(g, t, 'bedroom', {}, { z: 1.3, blur: 14, veil: 0.05, y: -140 }); lift(g, 0.08);
-    const x = 1400, y = 560; rr(g, x - 380, y - 190, 760, 380, 60); g.fillStyle = '#121016'; g.fill(); g.fillStyle = '#0a0a0e'; g.fillRect(x - 320, y - 130, 640, 260);
-    glow(g, x, y, 520, '#ff3a2a', 0.3); text(g, '5:59', x, y + 6, { size: 230, color: '#ff4a3a', font: FONTS.ui, weight: 900, glow: 34, glowColor: 'rgba(255,74,58,.8)' });
-    for (const s of [-1, 1]) for (let i = 0; i < 3; i++) seg(g, [[x + s * (420 + i * 30), y - 150 + i * 90], [x + s * (470 + i * 30), y - 170 + i * 90]], 8, alpha('#ffd0c0', 0.5));
-    face(g, 500, 650, 300, 'smug', { halo: '#5ff2e8', haloA: 0.35 });
+    bgBlur(g, t, 'library', {}, { z: 1.3, blur: 16, veil: 0.02, y: -140 }); wash(g, '#ffd23a', '#3ad89a', 0.3); bokeh(g, 45, ['#fff0a0', '#8affc0', '#ffb35a']); lift(g, 0.1);
+    const cx = 1420, cy = 560, R = 390; glow(g, cx, cy, 620, '#ffe08a', 0.5);
+    circle(g, cx, cy, R + 30, '#1a1420'); circle(g, cx, cy, R, '#fbf6ea'); ring(g, cx, cy, R + 30, 12, '#f2c21a');
+    for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2; seg(g, [[cx + Math.cos(a) * (R - 20), cy + Math.sin(a) * (R - 20)], [cx + Math.cos(a) * (R - (i % 3 ? 50 : 80)), cy + Math.sin(a) * (R - (i % 3 ? 50 : 80))]], i % 3 ? 8 : 16, '#2a2236'); }
+    for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * 0.6; seg(g, [[cx, cy], [cx + Math.cos(a) * (R - 70), cy + Math.sin(a) * (R - 70)]], 14, alpha('#e8321a', 0.18 + i * 0.08)); }
+    g.strokeStyle = alpha('#e8321a', 0.5); g.lineWidth = 22; g.beginPath(); g.arc(cx, cy, R - 120, -Math.PI / 2, -Math.PI / 2 + 5.4); g.stroke();
+    seg(g, [[cx, cy], [cx + 0, cy - R * 0.45]], 24, '#2a2236'); circle(g, cx, cy, 30, '#2a2236');
+    rr(g, cx - 90, cy + 140, 180, 90, 16); g.fillStyle = '#e8321a'; g.fill(); text(g, 'x10', cx, cy + 186, { size: 64, color: '#ffffff', font: FONTS.ui, weight: 900 });
+    FX.sparkle(g, cx - R * 0.8, cy - R * 0.6, 70, '#fff3c0', 1);
+    face(g, 500, 650, 300, 'smug', { halo: '#ffd25a', haloA: 0.4, star: true, hoodie: '#7a4ad8' });
   },
 };
 for (const s of E.shots) if (s.params?.tpl === 'thumb') registerShot(s.id, { draw(g, t, info) { T[info.k](g, t); } });
