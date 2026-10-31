@@ -37,7 +37,7 @@ export const INSERTS = {
   },
   // toaster pops: toast springs up
   toast(g, t, info) {
-    BG(g, t, info); const tp = wt(info, 'pops', 0.4), ih = impact(t, tp, { amp: 10 }); g.save(); zoomAt(g, push(t, info, 0.08)); g.translate(ih.x, ih.y);
+    BG(g, t, info); const tp = wt(info, info.at || 'pops', info.popFb ?? 0.4), ih = impact(t, tp, { amp: 10 }); g.save(); zoomAt(g, push(t, info, 0.08)); g.translate(ih.x, ih.y);
     const x = E.W / 2, y = E.H * 0.72, k = spring(t, tp, { freq: 3, damp: 0.35 });
     for (const dx of [-90, 90]) { g.save(); g.translate(x + dx, y - 230 - 150 * clamp(k, 0, 1.4)); g.rotate(dx * 0.0008 * k); rr(g, -70, -90, 140, 180, 34); g.fillStyle = '#c98a4a'; g.fill(); rr(g, -56, -76, 112, 152, 26); g.fillStyle = '#e8b878'; g.fill(); g.restore(); }
     rr(g, x - 300, y - 260, 600, 300, 70); g.fillStyle = '#b9b2bd'; g.fill(); g.fillStyle = alpha('#fff', 0.3); g.fillRect(x - 260, y - 240, 520, 14);
@@ -135,7 +135,7 @@ export const INSERTS = {
     BG(g, t, info, { set: 'lab' }); g.save(); zoomAt(g, push(t, info, 0.06)); g.save(); g.translate(E.W / 2, E.H / 2); g.rotate(0.05); g.fillStyle = '#f4f0ea'; g.fillRect(-420, -360, 840, 720); for (let i = 0; i < 6; i++) { g.fillStyle = alpha('#d8d0c4', 0.5); g.fillRect(-420, -360 + i * 120, 840, 3); } g.restore();
     const routes = [['#c0392b', [[-300, -200], [-100, -150], [60, -220], [300, -120]]], ['#3a6ea5', [[-320, 40], [-80, 80], [120, -20], [320, 60]]], ['#3a8a5a', [[-280, 240], [-20, 180], [180, 260], [300, 200]]]];
     routes.forEach(([c, pts], i) => { const k = ease.inOut(prog(t, 0.2 + i * 0.4, 1 + i * 0.4)); const P = pts.map(([a, b]) => [E.W / 2 + a, E.H / 2 + b]); const n = Math.max(2, Math.ceil(k * P.length)); seg(g, P.slice(0, n), 9, c); P.slice(0, n).forEach(p => circle(g, p[0], p[1], 12, c)); });
-    kText(g, t, '−11 MIN', E.W / 2 + 280, E.H / 2 + 300, { start: wt(info, 'Eleven', 1.6), mode: 'slam', size: 90, color: COL().good, glow: 20 }); g.restore();
+    if (info.big) kText(g, t, info.big, E.W / 2 + 280, E.H / 2 + 300, { start: wt(info, info.at, 1.6), mode: 'slam', size: 90, color: COL().good, glow: 20 }); g.restore();
   },
   // falling coffee cup caught by a hand
   coffee(g, t, info) {
@@ -186,7 +186,7 @@ export const INSERTS = {
   pulse(g, t, info) {
     BG(g, t, info, { set: 'lab' }); const x = E.W * 0.18, y = E.H * 0.2, w = E.W * 0.64, h = E.H * 0.5; screenPanel(g, x, y, w, h, { bg: '#08140e', glow: '#5fd39a' });
     g.strokeStyle = '#5fd39a'; g.lineWidth = 6; g.beginPath(); for (let i = 0; i <= 200; i++) { const u = i / 200, ph = (u * 4 + t * 1.33) % 1, v = ph < 0.08 ? Math.sin(ph / 0.08 * Math.PI) * -1 : ph < 0.12 ? 0.4 : 0; const px = x + u * w, py = y + h * 0.55 + v * h * 0.35; i ? g.lineTo(px, py) : g.moveTo(px, py); } g.stroke();
-    text(g, '80', x + w - 60, y + 90, { size: 110, color: '#5fd39a', font: FONTS.ui, weight: 900, align: 'right', glow: 18, glowColor: alpha('#5fd39a', 0.6) }); text(g, 'BPM', x + w - 60, y + 160, { size: 34, color: '#5fd39a', font: FONTS.ui, weight: 900, align: 'right' });
+    text(g, String(info.bpm || 80), x + w - 60, y + 90, { size: 110, color: '#5fd39a', font: FONTS.ui, weight: 900, align: 'right', glow: 18, glowColor: alpha('#5fd39a', 0.6) }); text(g, 'BPM', x + w - 60, y + 160, { size: 34, color: '#5fd39a', font: FONTS.ui, weight: 900, align: 'right' });
   },
   // phone with the clip + view counter: {from, to, label}
   views(g, t, info) {

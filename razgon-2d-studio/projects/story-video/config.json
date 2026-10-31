@@ -1,5 +1,5 @@
 {
- "title": "Untitled",
+ "title": "What If You Used 100% of Your Brain",
  "aspect": "16:9",
  "resolution": "1080p",
  "fps": 24,
@@ -13,7 +13,7 @@
  "fadeOut": 0.8,
  "music": {
   "enabled": true,
-  "gainDb": -17
+  "gainDb": -9
  },
  "sfx": {
   "enabled": true,

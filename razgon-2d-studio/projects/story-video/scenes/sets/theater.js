@@ -1,4 +1,4 @@
-// sets/theater.js — the Old City Theater. Views: 'stage' (on stage, Mia under the rig), 'hall' (from the back row, stage far + rows of heads).
+// sets/theater.js — the Lumen Labs launch hall. Views: 'stage' (on stage, Leo under the screen rig), 'hall' (from the back row, stage far + rows of heads).
 // The stage spotlight is the key light; everything else is deep warm shadow with dusty velvet.
 import { E, V, mood, layer, rr, seg, circle, ring, poly, linGrad, radGrad, glow, alpha, shade, mix, text, rng, FONTS } from '/engine/core.js';
 import { ground, floor, label, FX } from './_kit.js';
@@ -6,32 +6,36 @@ import { ground, floor, label, FX } from './_kit.js';
 export const THEATER_MOOD = 'interiorWarm';
 const GOLD = '#d9a441', VELVET = '#6a1e2a';
 
-// the lighting rig: truss + 12 lamps. y = truss line. drop: 0..1+ (fall), broken: strands gone
+// the launch rig: a truss with 8 projectors and a giant LED screen hanging under it.
+// y = truss line. o.on: screen lit. o.crash: screen lying broken on the stage (drawn by stageView).
 export function rig(g, cx, y, w, t, o = {}) {
-  const lamps = 12, c = '#1a1620';
-  // cables to the ceiling
-  for (const dx of [-w / 2 + 40, w / 2 - 40]) { const n = o.strands ?? 16; for (let k = 0; k < Math.min(n, 4); k++) seg(g, [[cx + dx + k * 3, y - 2000], [cx + dx + k * 3, y]], 2, alpha('#b8b0a0', 0.6)); }
+  const c = '#1a1620';
+  for (const dx of [-w / 2 + 40, w / 2 - 40]) for (let k = 0; k < 3; k++) seg(g, [[cx + dx + k * 4 + (o.shake ? Math.sin(t * 60 + k) * o.shake : 0), y - 2000], [cx + dx + k * 4, y]], 2.5, alpha('#b8b0a0', 0.65));
   g.fillStyle = c; g.fillRect(cx - w / 2, y - 18, w, 36);
   g.strokeStyle = alpha('#4a4250', 0.9); g.lineWidth = 4; g.beginPath(); for (let x = cx - w / 2; x < cx + w / 2; x += 36) { g.moveTo(x, y - 18); g.lineTo(x + 18, y + 18); g.lineTo(x + 36, y - 18); } g.stroke();
-  for (let i = 0; i < lamps; i++) { const lx = cx - w / 2 + 30 + i * (w - 60) / (lamps - 1), sw = Math.sin(t * 1.3 + i) * (o.sway ?? 0.02);
-    g.save(); g.translate(lx, y + 18); g.rotate(sw); g.fillStyle = '#121016'; rr(g, -16, 0, 32, 46, 6); g.fill(); circle(g, 0, 46, 13, o.on === false ? '#3a3440' : '#fff3d0'); g.restore();
-    if (o.on !== false) glow(g, lx, y + 64, 60, '#ffd59a', 0.5); }
+  for (let i = 0; i < 8; i++) { const lx = cx - w / 2 + 70 + i * (w - 140) / 7; rr(g, lx - 30, y - 64, 60, 46, 8); g.fillStyle = '#121016'; g.fill(); circle(g, lx + 22, y - 40, 9, o.on === false ? '#3a3440' : '#fff3d0'); if (o.on !== false) glow(g, lx + 22, y - 40, 50, '#ffd59a', 0.5); }
+  // the screen
+  const sw = w * 0.8, sh = 330, sy = y + 30; seg(g, [[cx - sw / 2 + 30, y + 18], [cx - sw / 2 + 30, sy]], 4, '#2a2630'); seg(g, [[cx + sw / 2 - 30, y + 18], [cx + sw / 2 - 30, sy]], 4, '#2a2630');
+  rr(g, cx - sw / 2, sy, sw, sh, 10); g.fillStyle = '#0c0c12'; g.fill(); g.fillStyle = o.on === false ? '#101018' : linGrad(g, 0, sy, 0, sy + sh, ['#16304a', '#0c1828']); g.fillRect(cx - sw / 2 + 12, sy + 12, sw - 24, sh - 24);
+  if (o.on !== false) { glow(g, cx, sy + sh / 2, sw * 0.6, '#5ff2e8', 0.18); ring(g, cx - 170, sy + sh / 2, 60, 8, '#5ff2e8'); text(g, 'LUMEN', cx + 60, sy + sh / 2, { size: 96, color: '#e8fbff', font: FONTS.title, weight: 700, spacing: 14, glow: 20, glowColor: 'rgba(95,242,232,.7)' }); }
+  if (o.bolt) { circle(g, cx + w / 2 - 36, y, 10, o.bolt > 0.5 ? '#ff4a3a' : '#d8d0c4'); if (o.bolt > 0.5) glow(g, cx + w / 2 - 36, y, 60, '#ff4a3a', 0.6); }
 }
 
 export function stageView(g, t, cam, o = {}) {
   const M = mood(THEATER_MOOD), GY = ground(), CX = E.W / 2;
-  const rigY = GY - 760 + (o.rigDrop || 0) * 760;
+  const rigY = GY - 770 + Math.min(1, o.rigDrop || 0) * 410;
   layer(g, cam, 0.5, (g) => {
     g.fillStyle = '#0c080c'; g.fillRect(-E.W * 1.5, -E.H, E.W * 4, E.H * 3);
     // back curtain
     g.fillStyle = linGrad(g, 0, -200, 0, GY, [shade(VELVET, -0.6), shade(VELVET, -0.35), shade(VELVET, -0.55)]); g.fillRect(CX - 1300, -400, 2600, GY + 400);
     for (let x = CX - 1300; x < CX + 1300; x += 70) { g.fillStyle = alpha('#000', 0.22); g.fillRect(x, -400, 26, GY + 400); }
-    if (o.banner !== false) { g.fillStyle = alpha('#000', 0.4); rr(g, CX - 330, GY - 600, 660, 70, 12); g.fill(); text(g, 'SCHOOL TALENT SHOW', CX, GY - 565, { size: 40, color: alpha(GOLD, 0.85), font: FONTS.title, weight: 700, spacing: 4 }); }
+    if (o.banner !== false) { g.fillStyle = alpha('#000', 0.4); rr(g, CX - 330, GY - 600, 660, 70, 12); g.fill(); text(g, 'LUMEN LABS · LAUNCH', CX, GY - 565, { size: 40, color: alpha(GOLD, 0.85), font: FONTS.title, weight: 700, spacing: 4 }); }
   });
   layer(g, cam, 0.7, (g) => {
     // spotlight cone + rig
     if (o.spot !== false) { g.save(); g.globalCompositeOperation = 'lighter'; g.fillStyle = linGrad(g, 0, -E.H, 0, GY, [alpha('#fff3d6', 0), alpha('#fff3d6', 0.16)]); g.beginPath(); g.moveTo(CX + (o.spotX || 0) - 60, -E.H); g.lineTo(CX + (o.spotX || 0) + 60, -E.H); g.lineTo(CX + (o.spotX || 0) + 260, GY); g.lineTo(CX + (o.spotX || 0) - 260, GY); g.closePath(); g.fill(); g.restore(); }
-    if (o.rig !== false && !(o.rigDrop >= 1)) rig(g, CX, rigY, 1300, t, { on: o.lightsOn, sway: o.sway, strands: o.strands });
+    if (o.rig !== false && !(o.rigDrop >= 1)) rig(g, CX, rigY, 1300, t, { on: o.lightsOn, shake: o.shake, bolt: o.bolt });
+    if (o.rigDrop >= 1) { g.save(); g.translate(CX, GY - 40); g.rotate(-0.05); rr(g, -520, -60, 1040, 70, 8); g.fillStyle = '#0c0c12'; g.fill(); for (let i = 0; i < 9; i++) seg(g, [[-480 + i * 110, -50], [-430 + i * 110 + (i % 3) * 20, 0]], 3, alpha('#9fd8ff', 0.5)); g.restore(); }
   });
   layer(g, cam, 0.9, (g) => {
     // stage floor

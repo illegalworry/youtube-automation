@@ -8,8 +8,11 @@ import * as UI from '/engine/ui2d.js';
 import { CAST } from '../cast.js';
 import { drawSet, bgBlur, wt, COL, camPreset, toWorld, freezeLook, badgeTxt, fadeIO } from './_common.js';
 import { seatBacks } from '../sets/theater.js';
+import { railing } from '../sets/extra.js';
 import { INSERTS } from './_inserts.js';
+import './_inserts2.js';
 import { DIAGRAMS } from './_bp.js';
+import './_bp2.js';
 import { ACTFX } from './_actfx.js';
 
 // talk window: true (whole shot) | [a, b] seconds | 'word' (from that word to the end)
@@ -64,6 +67,7 @@ function actShot(g, t, info) {
     (p.fx2 || []).filter(f => !f.behind && !f.screen).forEach(f => ACTFX[f.k]?.(g, t, ctx, f));
   });
   if (set === 'hall') seatBacks(g, cam, GY);
+  if (set === 'balcony') railing(g, cam, GY, E.W / 2);
   if (p.desks) layer(g, cam, 1.12, (g) => p.desks.forEach(dx => { const c = '#22182a'; rr(g, dx * E.W - 110, GY - 110, 220, 16, 5); g.fillStyle = c; g.fill(); g.fillRect(dx * E.W - 100, GY - 96, 200, 96); }));
   // atmosphere + soft foreground
   FX.dust(g, t, { count: 34, color: M.key, a: 0.3 });
@@ -85,7 +89,7 @@ function softFg(g, t, cam, kind, side, M) {
 // ---------------------------------------------------------------- overlays: kinetic text, readouts, badges, freeze
 function overlays(g, t, info) {
   const p = info, C = COL();
-  if (p.freeze) freezeLook(g, t, { badge: p.badge ?? '10x' });
+  if (p.freeze) freezeLook(g, t, { badge: p.badge ?? '100%' });
   else if (p.badge) badgeTxt(g, p.badge, ease.out(prog(t, 0.2, 0.6)));
   (p.txt || []).forEach((tx, i) => {
     const st = wt(info, tx.at, 0.15 + i * 0.4) - 0.08, size = tx.size ?? 96, col = C[tx.color || 'gold'] || tx.color;
@@ -100,7 +104,7 @@ function overlays(g, t, info) {
 function faceShot(g, t, info) {
   const p = info, who = CAST[p.who] || CAST.max, dur = info.dur;
   bgBlur(g, t, p.set || 'kitchen', resolveSo(p, t, info), { z: p.bgZ ?? 1.6, x: (p.side ?? 0) * -220 + (p.bgX ?? 0), y: p.bgY ?? -140, blur: 14, veil: p.dark ?? 0.36 });
-  const M = mood(p.mood || ({ bedroom: 'night', street: 'night', lab: 'interiorCool', gym: 'interiorCool', hall: 'interiorWarm', stage: 'interiorWarm', track: 'golden' }[p.set] || 'interiorWarm'));
+  const M = mood(p.mood || ({ bedroom: 'night', street: 'night', lab: 'interiorCool', gym: 'interiorCool', hall: 'interiorWarm', stage: 'interiorWarm', track: 'golden', cafe: 'golden', market: 'interiorCool', hospital: 'day', music: 'dusk', fair: 'night', clinic: 'interiorCool', clinicNight: 'night', balcony: 'dusk', streetDusk: 'dusk', kitchenEve: 'dusk', kitchenNight: 'night' }[p.set] || 'interiorWarm'));
   const push = p.cam === 'crash' ? 1 + 0.18 * ease.out(prog(t, 0, 0.5)) : p.cam === 'pull' ? 1.08 - 0.08 * ease.inOut(t / dur) : 1 + 0.06 * ease.inOut(t / dur);
   const r = V(300, 330) * (p.r ?? 1) * push * (who.kid ? 0.9 : 1);
   const sx = E.W / 2 + (p.side ?? 0) * E.W * 0.2, sy = E.H * V(0.6, 0.55) + (p.dy || 0);
@@ -151,7 +155,7 @@ function titleShot(g, t, info) {
   layer(g, cam, 0.4, (g) => FX.skyline(g, { x: -300, y: E.H * 0.76, w: E.W + 600, maxH: 380, color: '#2a1f36', windowColor: alpha(M.practical, 0.7), seed: 21 }));
   layer(g, cam, 0.8, (g) => { g.fillStyle = '#140f1a'; g.fillRect(-E.W, E.H * 0.8, E.W * 3, E.H); FX.facade(g, { x: E.W * 0.12, y: E.H * 0.82, w: 360, h: 300, color: '#1e1626', win: M.practical, dark: '#120d18', cols: 3, rows: 2, lit: 0.5, seed: 3, door: true }); poly(g, [[E.W * 0.12 - 30, E.H * 0.82 - 300], [E.W * 0.12 + 180, E.H * 0.82 - 440], [E.W * 0.12 + 390, E.H * 0.82 - 300]], '#1a1220'); FX.tree(g, E.W * 0.85, E.H * 0.82, 2.4, '#120d18'); });
   FX.dust(g, t, { count: 30, color: '#ffd9b0', a: 0.4 });
-  UI.titleCard(g, t, { lines: ['WHAT IF YOU COULD', 'THINK 10X FASTER?'], dur: info.dur + 0.3, y: E.H * 0.42 });
+  UI.titleCard(g, t, { lines: info.lines || ['WHAT IF YOU USED', '100% OF YOUR BRAIN?'], dur: info.dur + 0.3, y: E.H * 0.42 });
 }
 
 // ---------------------------------------------------------------- FACT / FICTION cards
@@ -167,8 +171,8 @@ function factShot(g, t, info) {
 
 // ---------------------------------------------------------------- end screen
 function endShot(g, t, info) {
-  bgBlur(g, t, 'bedroom', { laptopOn: true }, { z: 1.2, blur: 16, veil: 0.5 });
-  UI.endScreen(g, t, { question: info.q || 'WHAT WOULD YOU DO WITH 10X?', cast: [CAST.max, CAST.mia, CAST.leo, CAST.lee, CAST.black], dur: info.dur });
+  bgBlur(g, t, info.set || 'bedroom', { laptopOn: true }, { z: 1.2, blur: 16, veil: 0.5 });
+  UI.endScreen(g, t, { question: info.q || 'WHAT WOULD YOU DO WITH 100% BRAIN?', cast: [CAST.max0, CAST.leo, CAST.mom, CAST.lee, CAST.black], dur: info.dur });
 }
 
 const TPL = {

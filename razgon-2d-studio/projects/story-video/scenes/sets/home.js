@@ -44,7 +44,7 @@ export function bedroom(g, t, cam, o = {}) {
     // drawing above the desk: big head, tiny legs
     const dx = CX + 640, dy = GY - 560; g.save(); g.translate(dx, dy); g.rotate(-0.03); g.fillStyle = '#ece3d0'; g.fillRect(-110, -90, 220, 170);
     g.strokeStyle = '#d64a33'; g.lineWidth = 5; g.beginPath(); g.arc(0, -20, 52, 0, 7); g.stroke(); seg(g, [[0, 32], [0, 50]], 4, '#3a3446'); seg(g, [[0, 50], [-8, 64]], 3, '#3a3446'); seg(g, [[0, 50], [8, 64]], 3, '#3a3446');
-    text(g, 'MY BROTHER, THE BRAIN', 0, 72, { size: 13, color: '#8a3a5a', font: FONTS.ui, weight: 900 }); g.restore();
+    text(g, 'MAX + LEO', 0, 72, { size: 13, color: '#8a3a5a', font: FONTS.ui, weight: 900 }); g.restore();
     wallClock(g, CX - 520, GY - 560, 40, t, { time: o.clock ?? (23.5 * 3600 + t * (o.clockSpeed ?? 1)) });
     // poster
     g.fillStyle = shade(M.wall, -0.4); g.fillRect(CX - 820, GY - 600, 150, 200); FX.stars(g, 0, { area: [CX - 810, GY - 590, 130, 180], count: 14, seed: 7, color: '#c9d4ff' });

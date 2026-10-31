@@ -6,6 +6,7 @@ import { kitchen, bedroom } from '../sets/home.js';
 import { school, gym, track } from '../sets/school.js';
 import { lab, street } from '../sets/city.js';
 import { stageView, hallView } from '../sets/theater.js';
+import { cafe, market, hospital, music, fair, clinic, balcony } from '../sets/extra.js';
 
 // set registry: name -> (g, t, cam, opts) => {GY, CX, M, rim}
 export const SETS = {
@@ -25,6 +26,15 @@ export const SETS = {
   streetDusk: (g, t, c, o) => street(g, t, c, { mood: 'dusk', ...o }),
   stage: (g, t, c, o) => stageView(g, t, c, o),
   hall: (g, t, c, o) => hallView(g, t, c, o),
+  cafe: (g, t, c, o) => cafe(g, t, c, o),
+  market: (g, t, c, o) => market(g, t, c, o),
+  hospital: (g, t, c, o) => hospital(g, t, c, o),
+  music: (g, t, c, o) => music(g, t, c, o),
+  fair: (g, t, c, o) => fair(g, t, c, o),
+  clinic: (g, t, c, o) => clinic(g, t, c, o),
+  clinicNight: (g, t, c, o) => clinic(g, t, c, { mood: 'night', ...o }),
+  balcony: (g, t, c, o) => balcony(g, t, c, o),
+  bedroomDay: (g, t, c, o) => bedroom(g, t, c, { mood: 'interiorWarm', ...o }),
   void: (g, t, c, o) => { const M = mood('void'); layer(g, c, 0.3, (g) => { g.fillStyle = M.sky[0]; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); glow(g, E.W / 2, E.H * 0.45, E.W * 0.6, '#2a3a6a', 0.35); }); FX.dust(g, t, { count: 30, color: '#9fb6d8', a: 0.25 }); return { GY: E.H * 0.8, CX: E.W / 2, M, rim: [0, -1] }; },
 };
 export const drawSet = (g, t, name, cam, o = {}) => (SETS[name] || SETS.void)(g, t, cam, o || {});
@@ -62,7 +72,7 @@ export function toWorld(X, Y, cam, d = 1) { const zd = 1 + ((cam.z ?? 1) - 1) * 
 export function freezeLook(g, t, o = {}) {
   FX.drops(g, t, { count: o.count ?? 40, color: '#d8e4ff', rMax: 8, drift: 2 });
   g.save(); g.globalCompositeOperation = 'soft-light'; g.fillStyle = 'rgba(80,120,255,.35)'; g.fillRect(0, 0, E.W, E.H); g.restore();
-  badgeTxt(g, o.badge ?? '10x', ease.out(prog(t, 0.15, 0.6)));
+  badgeTxt(g, o.badge ?? '100%', ease.out(prog(t, 0.15, 0.6)));
 }
 export function badgeTxt(g, str, a = 1) { text(g, str, E.W - 90, 110, { size: 40, color: COL().gold, glow: 18, glowColor: alpha(COL().gold, 0.6), align: 'right', alpha: a, font: FONTS.ui, weight: 900 }); }
 export const fadeIO = (t, dur, i = 0.3, o = 0.3) => clamp(Math.min(t / i, (dur - t) / o));

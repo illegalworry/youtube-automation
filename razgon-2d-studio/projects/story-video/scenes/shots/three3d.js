@@ -13,10 +13,11 @@ function theater(T, p) {
   for (const s of [-1, 1]) { st.add(T.box(3, 12, 0.6, '#b8862e', s * 8.6, 6, -6)); st.add(T.box(0.8, 12, 0.8, '#d9a441', s * 7.3, 6, -5.6)); }
   st.add(T.box(18, 1.6, 0.8, '#b8862e', 0, 11.4, -5.6));                                      // valance
   const rigG = new T.THREE.Group(); rigG.add(T.box(12, 0.35, 0.35, '#1a1620', 0, 0, 0)); for (let i = 0; i < 12; i++) { const l = T.cyl(0.18, 0.24, 0.45, '#121016', -5.5 + i, -0.35, 0); rigG.add(l); const bulb = T.sphere(0.12, T.basic('#fff3d0'), -5.5 + i, -0.6, 0); rigG.add(bulb); }
-  for (const s of [-1, 1]) rigG.add(T.cyl(0.02, 0.02, 10, '#b8b0a0', s * 5.5, 5, 0)); rigG.position.set(0, 7.5, -9); st.add(rigG);
+  for (const s of [-1, 1]) rigG.add(T.cyl(0.02, 0.02, 10, '#b8b0a0', s * 5.5, 5, 0)); rigG.position.set(0, 9.5, -9); st.add(rigG);
   const sh = T.shaft(3, 9, '#fff3d6', 0.09); sh.position.set(0, 5, -9); st.add(sh);
   const spot = new T.THREE.SpotLight(0xfff0d0, 120, 30, 0.35, 0.5, 1.2); spot.position.set(0, 12, -6); spot.target.position.set(0, 1, -9); spot.castShadow = true; st.add(spot, spot.target);
-  const mia = T.figure3D(CAST.mia, { rim: M.rim, pose: POSES.talk, s: 0.72 }); mia.position.set(0, 1.1, -9); mia.rotation.y = Math.PI / 2; st.add(mia);
+  for (let i = 0; i < 6; i++) { const f = T.figure3D(i === 2 ? CAST.leob : CAST.kidb, { rim: M.rim, pose: POSES.stand, s: 0.9 }); f.position.set(-5 + i * 2, 1.1, -9.5); f.rotation.y = Math.PI / 2; st.add(f); }
+  const scr = T.box(9, 4, 0.3, '#0c1828', 0, -2.6, 0.3); rigG.add(scr); const glowP = T.plane ? null : null; rigG.add(T.box(8.6, 3.6, 0.05, T.basic('#1d5a78'), 0, -2.6, 0.5));
   st.add(T.crowd3D({ rows: 14, perRow: 40, width: 20, step: 1.0, rise: 0.32, z0: -3.5, colors: ['#1e1418', '#2a1a20', '#24161c'], seed: 9 }));
   for (const s of [-1, 1]) for (let k = 0; k < 3; k++) st.add(T.box(2, 1.2, 1.2, '#3a1018', s * 11, 6 + k * 0.4, -1 + k * 4));
   return { stage: st, rigG };

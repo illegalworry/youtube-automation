@@ -1,0 +1,691 @@
+[00:00.00 -> 00:02.64] Your alarm hasn't rung yet, you're already awake.
+[00:03.16 -> 00:04.20] You hear everything.
+[00:04.64 -> 00:09.72] The fridge humming, a pipe knocking in the wall, a cat three floors down, sneezing.
+[00:10.24 -> 00:14.20] You open your history book, one glance, twelve pages, done.
+[00:14.76 -> 00:20.00] Your mom walks in, talking fast, milk, eggs, rice, soap, and that blue cheese you hate.
+[00:20.40 -> 00:22.20] You don't write it down, you don't need to.
+[00:22.56 -> 00:25.80] You remember every word, and the order she said them in.
+[00:26.32 -> 00:27.32] Mom stares at you.
+[00:27.32 -> 00:29.76] Max, since when do you listen?
+[00:30.34 -> 00:30.94] You just smile.
+[00:31.50 -> 00:34.46] At school, a teacher asks a question nobody can answer.
+[00:34.84 -> 00:36.82] You've answered it before he finishes asking.
+[00:37.48 -> 00:38.18] Leo leans over.
+[00:38.70 -> 00:39.94] Dude, what are you?
+[00:40.34 -> 00:40.80] You shrug.
+[00:41.28 -> 00:42.50] You just notice things.
+[00:42.84 -> 00:47.14] The clock, the crack in the board, the way your teacher blinks when he lies about homework.
+[00:47.76 -> 00:49.82] At lunch, a tray slides off a table.
+[00:50.16 -> 00:51.92] You see it coming, you catch it.
+[00:52.08 -> 00:52.92] Without even looking.
+[00:53.32 -> 00:54.86] The whole cafeteria turns.
+[00:55.42 -> 00:55.98] Somebody whispers.
+[00:56.42 -> 00:57.92] Did he just know?
+[00:58.62 -> 00:59.74] Yes, you did.
+[01:00.56 -> 01:01.82] After school, you walk home.
+[01:02.24 -> 01:03.00] You count the cars.
+[01:03.50 -> 01:03.70] 41.
+[01:04.36 -> 01:05.24] You count the pigeons.
+[01:05.60 -> 01:05.92] 9.
+[01:06.36 -> 01:07.20] You count your steps.
+[01:07.76 -> 01:08.16] 600.
+[01:08.76 -> 01:11.10] You even count the freckles on the bus driver's neck.
+[01:11.64 -> 01:12.10] Don't ask.
+[01:12.58 -> 01:17.02] And back at your place, your toast hasn't even popped and you already know it'll burn.
+[01:17.64 -> 01:19.58] Three weeks ago, none of this existed.
+[01:20.04 -> 01:20.66] You were normal.
+[01:21.18 -> 01:23.66] Most people can hold about four things in mind at once.
+[01:23.92 -> 01:24.74] You were one of them.
+[01:24.74 -> 01:28.12] Then, a man in a gray coat stopped you outside school.
+[01:28.68 -> 01:28.80] Mr.
+[01:29.06 -> 01:30.12] Black, free trial.
+[01:30.46 -> 01:32.36] One headband, 20 minutes a day.
+[01:32.78 -> 01:33.66] He said it was tested.
+[01:34.20 -> 01:34.32] Safe.
+[01:34.86 -> 01:35.38] Approved.
+[01:35.72 -> 01:37.22] He never showed you a single paper.
+[01:37.78 -> 01:39.96] Then he pointed at a tiny red switch.
+[01:40.56 -> 01:40.72] Burst.
+[01:41.32 -> 01:41.98] Emergencies only.
+[01:42.42 -> 01:42.88] One use.
+[01:43.42 -> 01:44.60] Then the band dies.
+[01:45.16 -> 01:45.56] You nodded.
+[01:46.04 -> 01:47.20] You never planned to touch it.
+[01:47.54 -> 01:47.96] He smiled.
+[01:48.54 -> 01:49.42] You know the old story.
+[01:49.86 -> 01:51.72] We only use 10 % of our brain.
+[01:52.18 -> 01:53.34] Imagine the other 90.
+[01:53.92 -> 01:54.20] Waiting.
+[01:54.68 -> 01:55.34] Locked away.
+[01:55.98 -> 01:56.32] You laughed.
+[01:56.90 -> 01:57.98] Then you put it on.
+[01:58.54 -> 02:00.46] Now you hold 40 things at once.
+[02:00.98 -> 02:01.22] Forty.
+[02:01.72 -> 02:03.82] A normal brain runs on about 20 watts.
+[02:04.20 -> 02:05.62] About as much as a dim light bulb.
+[02:06.12 -> 02:07.30] Yours runs on 60.
+[02:07.80 -> 02:10.66] A normal brain has about 86 billion neurons.
+[02:11.20 -> 02:12.74] Yours fire all of them.
+[02:13.90 -> 02:14.60] And here's the rule.
+[02:15.08 -> 02:16.02] Your brain got louder.
+[02:16.40 -> 02:17.42] Your body did not.
+[02:17.88 -> 02:18.52] Same stomach.
+[02:18.92 -> 02:19.36] Same blood.
+[02:19.74 -> 02:20.26] Same legs.
+[02:20.68 -> 02:22.32] You can think a thousand thoughts.
+[02:22.57 -> 02:24.54] You can only do one thing.
+[02:25.04 -> 02:26.54] And every thought burns fuel.
+[02:27.14 -> 02:29.10] A normal brain is 2 % of your weight.
+[02:29.24 -> 02:31.42] Yet it eats 20 % of your energy.
+[02:31.90 -> 02:33.76] Yours eats much, much more.
+[02:34.28 -> 02:35.90] Think big and you burn fast.
+[02:36.44 -> 02:39.02] So what if your brain used 100 % of its capacity?
+[02:39.80 -> 02:40.28] Day one.
+[02:40.58 -> 02:44.24] Plus, a normal adult reads about 250 words a minute.
+[02:44.70 -> 02:44.94] You?
+[02:45.48 -> 02:46.38] 5 ,000.
+[02:46.78 -> 02:48.68] You finish a whole novel on the bus.
+[02:49.18 -> 02:49.54] The catch?
+[02:49.96 -> 02:51.36] You notice every typo.
+[02:51.36 -> 02:53.48] Every single one.
+[02:53.76 -> 02:55.02] Your teacher hands you her essay.
+[02:55.50 -> 02:57.94] You hand it back with six pages of notes.
+[02:58.52 -> 02:58.88] Day two.
+[02:59.48 -> 02:59.90] Math test.
+[03:00.40 -> 03:00.92] 40 minutes.
+[03:01.44 -> 03:02.56] You finish in nine.
+[03:03.04 -> 03:04.52] Your teacher stares at your paper.
+[03:05.00 -> 03:05.94] Then at you.
+[03:06.64 -> 03:06.70] Max.
+[03:07.44 -> 03:08.06] Did you cheat?
+[03:08.54 -> 03:09.28] Ask me anything.
+[03:09.80 -> 03:10.20] He does.
+[03:10.70 -> 03:12.20] You answer before he finishes.
+[03:12.72 -> 03:14.34] Plus, a perfect score.
+[03:14.84 -> 03:16.90] Minus, he makes you retake it.
+[03:17.06 -> 03:17.42] Alone.
+[03:17.96 -> 03:18.56] In his office.
+[03:19.22 -> 03:19.88] Day three.
+[03:19.88 -> 03:22.06] Leo drops his phone off the balcony.
+[03:22.54 -> 03:23.10] You don't think.
+[03:23.46 -> 03:24.34] You just catch it.
+[03:24.52 -> 03:25.06] Two fingers.
+[03:25.66 -> 03:26.40] Leo screens.
+[03:27.06 -> 03:27.26] How?
+[03:27.54 -> 03:28.80] How did you do that?
+[03:29.22 -> 03:31.72] A normal person reacts in about a quarter of a second.
+[03:32.20 -> 03:32.40] You?
+[03:32.84 -> 03:33.98] A blink before that.
+[03:34.60 -> 03:35.00] Day four.
+[03:35.50 -> 03:37.92] A normal person needs months to learn a new language.
+[03:38.40 -> 03:39.68] You need six days.
+[03:40.20 -> 03:41.42] You order lunch in Spanish.
+[03:41.90 -> 03:43.30] The waiter answers in Spanish.
+[03:43.82 -> 03:44.82] You answer faster.
+[03:45.36 -> 03:46.22] He gets lost.
+[03:46.72 -> 03:48.24] His grandma applauds.
+[03:48.50 -> 03:49.22] Day five.
+[03:49.22 -> 03:51.92] The supermarket cashier scans your mom's cart.
+[03:52.36 -> 03:53.50] You glance at the screen.
+[03:54.02 -> 03:54.46] Wrong price.
+[03:54.88 -> 03:55.94] Two coins too many.
+[03:56.46 -> 03:57.22] Mom pays less.
+[03:57.74 -> 03:58.72] The cashier blushes.
+[03:59.38 -> 04:00.68] Mom tells everyone.
+[04:01.42 -> 04:01.84] Day six.
+[04:02.32 -> 04:04.90] A strong chess player looks about six moves ahead.
+[04:05.30 -> 04:06.30] You look 20.
+[04:06.68 -> 04:08.84] You beat the school champion in 11 moves.
+[04:09.32 -> 04:10.38] He asks for a rematch.
+[04:10.90 -> 04:13.22] You win again while eating a sandwich.
+[04:13.94 -> 04:14.48] Day seven.
+[04:14.84 -> 04:17.14] You remember every face you've ever seen.
+[04:17.14 -> 04:18.90] The bus driver from third grade.
+[04:19.32 -> 04:20.28] The lady at the pharmacy.
+[04:20.70 -> 04:22.24] A boy you passed once at the airport.
+[04:22.68 -> 04:24.30] You say hello to all of them.
+[04:24.64 -> 04:26.26] Plus, people feel special.
+[04:26.88 -> 04:28.58] Minus, people feel watched.
+[04:29.24 -> 04:29.66] Day eight.
+[04:30.16 -> 04:30.44] Basketball.
+[04:31.02 -> 04:32.16] You see everything.
+[04:32.62 -> 04:33.64] Where the ball will land.
+[04:33.90 -> 04:34.56] Who will pass.
+[04:34.92 -> 04:35.50] Who will slip.
+[04:35.94 -> 04:37.86] Plus, you know the perfect shot.
+[04:38.44 -> 04:40.82] Minus, your arms are still a teenager's.
+[04:41.06 -> 04:42.20] The ball hits the rim.
+[04:42.90 -> 04:43.50] Leo winces.
+[04:44.00 -> 04:44.32] Man.
+[04:44.78 -> 04:45.68] You solved it.
+[04:46.10 -> 04:47.00] And still missed.
+[04:47.74 -> 04:48.10] Day nine.
+[04:48.74 -> 04:50.04] Leo shows you his math homework.
+[04:50.54 -> 04:51.40] 14 problems.
+[04:52.02 -> 04:54.04] You solve them out loud while brushing your teeth.
+[04:54.62 -> 04:55.60] Leo copies nothing.
+[04:56.04 -> 04:56.70] He just watches.
+[04:57.26 -> 04:58.62] Then he sighs.
+[04:58.72 -> 04:58.96] Man.
+[04:59.52 -> 05:00.94] I wish I had a brain like that.
+[05:01.36 -> 05:01.84] You smile.
+[05:02.30 -> 05:02.94] You don't answer.
+[05:03.56 -> 05:04.00] Day ten.
+[05:04.46 -> 05:05.64] You try a strategy game.
+[05:05.98 -> 05:06.44] One night.
+[05:06.84 -> 05:09.92] By morning, you're ranked among the best players in the world.
+[05:10.50 -> 05:11.54] A pro team emails.
+[05:12.16 -> 05:12.82] Then another.
+[05:13.21 -> 05:14.72] Leo reads over your shoulder.
+[05:15.32 -> 05:17.04] Dude, they're offering you a car!
+[05:17.94 -> 05:18.36] Day eleven.
+[05:18.88 -> 05:20.68] A memory contest at the school fair.
+[05:21.16 -> 05:23.98] A normal person remembers about seven digits in a row.
+[05:24.38 -> 05:25.86] You remember 400.
+[05:26.44 -> 05:27.96] The judge runs out of numbers.
+[05:28.38 -> 05:29.78] He starts reading license plates.
+[05:30.26 -> 05:31.66] The crowd chants your name.
+[05:32.06 -> 05:33.40] You hear every voice.
+[05:33.84 -> 05:35.02] Every single one.
+[05:35.52 -> 05:36.30] Your hands shake.
+[05:37.00 -> 05:37.50] Day twelve.
+[05:38.00 -> 05:39.90] Your piano teacher plays a song once.
+[05:40.46 -> 05:41.02] Just once.
+[05:41.52 -> 05:42.22] You play it back.
+[05:42.56 -> 05:43.24] Both hands.
+[05:43.78 -> 05:44.02] Perfect.
+[05:44.72 -> 05:45.52] She drops her pencil.
+[05:46.06 -> 05:47.16] It took her three months.
+[05:47.64 -> 05:49.22] It took you 40 seconds.
+[05:50.06 -> 05:50.56] Day thirteen.
+[05:51.02 -> 05:52.92] You draw your whole city on a wall.
+[05:53.28 -> 05:53.94] Every street.
+[05:54.26 -> 05:55.14] Every shop sign.
+[05:55.46 -> 05:57.64] People walk past and find their own front doors.
+[05:58.08 -> 05:58.90] A woman cries.
+[05:59.50 -> 06:00.32] It's her old house.
+[06:00.84 -> 06:01.36] Long gone.
+[06:01.98 -> 06:02.66] Day fourteen.
+[06:03.10 -> 06:04.18] Your dad's tax form.
+[06:04.54 -> 06:06.78] You find three mistakes in 90 seconds.
+[06:07.20 -> 06:08.24] He saves a month's rent.
+[06:08.66 -> 06:09.28] He hugs you.
+[06:09.64 -> 06:10.54] He smells like coffee.
+[06:11.00 -> 06:11.82] Day fifteen.
+[06:12.40 -> 06:14.50] You fix the school Wi -Fi in six minutes.
+[06:14.92 -> 06:16.04] The tech guy sits down.
+[06:16.44 -> 06:17.60] He doesn't speak for a while.
+[06:18.30 -> 06:18.52] Minus.
+[06:18.96 -> 06:19.36] The noise.
+[06:19.98 -> 06:22.16] A normal brain filters out most of the world.
+[06:22.58 -> 06:23.40] Yours doesn't.
+[06:23.76 -> 06:24.64] A hundred voices.
+[06:25.06 -> 06:25.74] A hundred forks.
+[06:26.22 -> 06:28.20] A hundred things you can't stop hearing.
+[06:28.60 -> 06:30.10] By noon, your head pounds.
+[06:30.64 -> 06:32.22] By three, you wear earplugs.
+[06:32.52 -> 06:33.86] By dinner, two pairs.
+[06:34.66 -> 06:34.94] Minus.
+[06:35.52 -> 06:35.64] Sleep.
+[06:36.10 -> 06:37.78] A teenager needs about eight hours.
+[06:37.78 -> 06:38.88] You get four.
+[06:39.30 -> 06:40.74] And you dream in spreadsheets.
+[06:41.34 -> 06:42.64] And then there's the hunger.
+[06:43.16 -> 06:46.26] A normal brain burns about 120 grams of sugar a day.
+[06:46.70 -> 06:48.32] Yours burns almost 400.
+[06:49.00 -> 06:50.22] Your mom opens the fridge.
+[06:50.70 -> 06:50.98] Empty.
+[06:51.44 -> 06:51.76] Max.
+[06:52.30 -> 06:53.58] That's your fifth bowl of rice.
+[06:54.12 -> 06:56.20] Mom, it's my brain's fifth bowl.
+[06:56.84 -> 06:58.16] Sprinters know another rule.
+[06:58.50 -> 07:02.40] React faster than a tenth of a second and the judges decide you must have guessed.
+[07:02.78 -> 07:04.12] It's called a false start.
+[07:04.46 -> 07:05.14] You test it.
+[07:05.42 -> 07:06.58] Your brain shouts, go!
+[07:06.82 -> 07:08.22] Your legs say, wait!
+[07:08.64 -> 07:09.68] You can see the gun.
+[07:10.04 -> 07:11.34] You just can't beat it.
+[07:11.52 -> 07:13.24] Plus, you never false start.
+[07:13.76 -> 07:15.14] Minus, you never win.
+[07:15.70 -> 07:18.34] But where it gets really crazy is week three.
+[07:18.74 -> 07:20.64] A city asks you to fix its bus routes.
+[07:21.10 -> 07:22.92] You redraw them over one weekend.
+[07:23.32 -> 07:24.22] Waiting time drops.
+[07:24.64 -> 07:26.40] A million people ride faster.
+[07:26.78 -> 07:27.90] Nobody knows your name.
+[07:28.34 -> 07:31.96] Then you write a short proof for a problem that stumped professors for years.
+[07:32.40 -> 07:33.28] You post it online.
+[07:33.28 -> 07:36.14] By morning, three universities email you.
+[07:36.38 -> 07:38.16] One offers a full scholarship.
+[07:38.60 -> 07:41.12] By lunch, a TV crew stands outside your house.
+[07:41.48 -> 07:43.88] The headline, teen genius breaks math.
+[07:44.34 -> 07:45.22] Your mom cries.
+[07:45.70 -> 07:47.22] Your dad prints it and frames it.
+[07:47.48 -> 07:48.96] Your grandma sees it on the news.
+[07:49.34 -> 07:50.94] She asks only one thing.
+[07:51.44 -> 07:52.02] Did you eat?
+[07:52.30 -> 07:53.44] And one evening, Mr.
+[07:53.82 -> 07:54.82] Black knocks on your door.
+[07:55.32 -> 07:56.14] Same gray coat.
+[07:56.60 -> 07:57.30] Same smile.
+[07:58.02 -> 07:58.12] Max!
+[07:58.52 -> 07:59.04] You're famous!
+[07:59.50 -> 08:01.14] We want a thousand more of you.
+[08:01.14 -> 08:02.18] A big launch.
+[08:02.44 -> 08:03.24] A big stage.
+[08:03.74 -> 08:04.14] And you?
+[08:04.58 -> 08:05.42] You're our face.
+[08:06.02 -> 08:06.90] Your stomach drops.
+[08:07.46 -> 08:08.38] You can't say why.
+[08:08.84 -> 08:09.28] Not yet.
+[08:09.80 -> 08:10.56] And there's a cost.
+[08:11.08 -> 08:12.80] A cost nobody talks about.
+[08:13.36 -> 08:13.72] Boredom.
+[08:14.24 -> 08:16.72] You know every plot twist before the movie says it.
+[08:16.94 -> 08:18.80] You know the next note in every song.
+[08:19.20 -> 08:20.96] You know how every joke ends.
+[08:21.52 -> 08:22.10] Here's why.
+[08:22.66 -> 08:22.98] Dopamine.
+[08:23.54 -> 08:26.80] Those brain cells fire hardest when something is better than expected.
+[08:27.28 -> 08:27.82] A surprise.
+[08:28.26 -> 08:32.04] In 1997, a team led by Wolfram Schultz showed it.
+[08:32.18 -> 08:33.90] The cells didn't care about the reward.
+[08:34.30 -> 08:35.74] They cared about the surprise.
+[08:36.38 -> 08:38.92] So what happens to a brain that predicts everything?
+[08:39.38 -> 08:40.72] It never gets a surprise.
+[08:41.16 -> 08:42.94] And it never feels…
+[08:42.94 -> 08:43.36] the spark.
+[08:43.96 -> 08:44.66] You laugh anyway.
+[08:45.14 -> 08:46.20] You smile on cue.
+[08:46.60 -> 08:48.16] But inside, it's quiet.
+[08:48.64 -> 08:49.72] Like a song on mute.
+[08:50.22 -> 08:53.10] At 3am, your mom finds you staring at the ceiling.
+[08:53.60 -> 08:54.78] Max, you okay?
+[08:55.30 -> 08:55.96] You say yes.
+[08:55.96 -> 08:57.42] She doesn't believe you.
+[08:57.70 -> 08:58.44] She makes toast.
+[08:58.92 -> 09:00.26] You both listen to it pop.
+[09:00.80 -> 09:01.96] Nothing surprises you.
+[09:02.20 -> 09:03.10] Not even her love.
+[09:03.58 -> 09:04.64] That's the worst part.
+[09:05.24 -> 09:06.34] Then comes the loneliness.
+[09:07.12 -> 09:08.34] Kids stop sitting with you.
+[09:08.62 -> 09:09.58] They say you're scary.
+[09:09.96 -> 09:11.10] You hear them say it.
+[09:11.36 -> 09:12.24] You hear everything.
+[09:12.82 -> 09:14.08] So you start to hide.
+[09:14.46 -> 09:15.84] You miss questions on purpose.
+[09:16.34 -> 09:17.76] You fail a quiz on Friday.
+[09:18.46 -> 09:20.34] Hiding who you are costs something too.
+[09:20.84 -> 09:21.88] Then comes the headache.
+[09:22.30 -> 09:23.28] The band gets warm.
+[09:23.68 -> 09:24.20] Then hot.
+[09:24.20 -> 09:25.96] Hotter every day.
+[09:26.32 -> 09:26.98] You visit Dr.
+[09:27.22 -> 09:28.86] Lee, a neurologist near your school.
+[09:29.40 -> 09:30.22] She scans your head.
+[09:30.64 -> 09:32.10] Then she frowns.
+[09:32.16 -> 09:34.06] Max, that old story is wrong.
+[09:34.52 -> 09:36.22] You never use 10%.
+[09:36.22 -> 09:39.78] Scans show activity all over the brain, even when you sleep.
+[09:40.30 -> 09:42.28] This band didn't unlock a locked room.
+[09:42.56 -> 09:44.44] It turned the volume up on everything.
+[09:44.92 -> 09:46.56] And you can't run a furnace on empty.
+[09:47.02 -> 09:47.68] Is that dangerous?
+[09:48.24 -> 09:49.04] She doesn't answer.
+[09:49.48 -> 09:50.40] She taps the scan.
+[09:50.84 -> 09:51.28] See this?
+[09:51.82 -> 09:51.98] Sugar.
+[09:51.98 -> 09:54.58] Your brain is drinking your blood dry.
+[09:55.04 -> 09:57.78] Let the level fall too low and the brain shuts down.
+[09:58.24 -> 09:58.58] Fainting.
+[09:58.92 -> 09:59.38] Seizures.
+[09:59.78 -> 10:00.00] Worse.
+[10:00.70 -> 10:02.58] The band pushes harder every day.
+[10:03.04 -> 10:03.98] She looks you in the eye.
+[10:04.42 -> 10:04.94] Take it off.
+[10:05.32 -> 10:05.64] Tonight.
+[10:06.16 -> 10:06.60] You nod.
+[10:07.10 -> 10:07.68] You don't.
+[10:07.94 -> 10:08.38] Not yet.
+[10:08.82 -> 10:11.14] Because everybody finally sees you.
+[10:11.46 -> 10:13.34] Because it feels amazing.
+[10:14.18 -> 10:14.78] And awful.
+[10:15.32 -> 10:16.38] Usually both at once.
+[10:17.10 -> 10:20.00] There's one person who doesn't care how smart you are.
+[10:20.18 -> 10:20.50] Leo.
+[10:20.94 -> 10:22.70] Your best friend since you were 6.
+[10:23.18 -> 10:24.12] Terrible haircut.
+[10:24.60 -> 10:25.14] Worst jokes.
+[10:25.66 -> 10:26.52] And a secret knock.
+[10:27.00 -> 10:27.60] Too fast.
+[10:28.14 -> 10:28.68] One slow.
+[10:29.30 -> 10:31.08] Every night he taps it on your window.
+[10:31.40 -> 10:31.92] You open.
+[10:32.30 -> 10:32.94] He climbs in.
+[10:33.28 -> 10:35.36] He tells you a joke so bad it hurts.
+[10:35.98 -> 10:37.54] What do you call a bear with no teeth?
+[10:38.08 -> 10:38.86] A gummy bear.
+[10:39.32 -> 10:40.06] You groan.
+[10:40.50 -> 10:41.70] You always groan.
+[10:42.12 -> 10:45.10] Every Friday since 3rd grade you split a cheese sandwich.
+[10:45.54 -> 10:46.42] No crusts.
+[10:46.52 -> 10:46.94] His rule.
+[10:47.36 -> 10:48.10] Your rule now.
+[10:48.40 -> 10:50.40] But lately something is off.
+[10:51.00 -> 10:52.94] You know the punchline before he breathes in.
+[10:53.40 -> 10:54.10] You know his jokes.
+[10:54.58 -> 10:55.32] His moods.
+[10:55.48 -> 10:56.18] His next word.
+[10:56.70 -> 10:57.90] 10 years of data.
+[10:58.40 -> 11:00.14] So you laugh half a second late.
+[11:00.66 -> 11:01.22] Leo notices.
+[11:01.86 -> 11:02.08] Dude!
+[11:02.40 -> 11:03.10] You laughed late.
+[11:03.56 -> 11:04.16] I'm fine.
+[11:04.70 -> 11:05.22] You're not.
+[11:05.78 -> 11:06.60] He frowns.
+[11:06.80 -> 11:07.60] Then he grins.
+[11:08.10 -> 11:10.28] Whatever you are now, you're still my idiot.
+[11:10.92 -> 11:12.80] That night he falls asleep on your floor.
+[11:13.28 -> 11:13.82] Like always.
+[11:14.44 -> 11:14.96] Sneakers on.
+[11:15.40 -> 11:15.84] Mouth open.
+[11:16.28 -> 11:17.30] You listen to him breathe.
+[11:17.94 -> 11:18.22] Slow.
+[11:18.66 -> 11:19.08] Safe.
+[11:19.70 -> 11:23.08] Out of every sound in the world, it's the only one that doesn't hurt.
+[11:23.72 -> 11:25.16] You think about throwing the band away.
+[11:25.64 -> 11:26.86] Then your phone lights up.
+[11:27.22 -> 11:28.02] Another university.
+[11:28.54 -> 11:29.16] Another offer.
+[11:29.66 -> 11:30.98] You put the phone face down.
+[11:31.50 -> 11:34.80] Then one morning he asks the question you were afraid of.
+[11:35.14 -> 11:35.88] Can I try the band?
+[11:36.26 -> 11:37.86] If you can do it, why can't I?
+[11:38.26 -> 11:38.96] You hesitate.
+[11:39.54 -> 11:40.96] 40 students already wear it.
+[11:41.26 -> 11:42.26] Hundreds more are waiting.
+[11:42.80 -> 11:43.54] You say the words.
+[11:44.16 -> 11:44.58] It's safe.
+[11:45.26 -> 11:45.58] Is it?
+[11:45.58 -> 11:46.54] You don't know.
+[11:47.10 -> 11:47.84] You say it anyway.
+[11:48.58 -> 11:49.24] Leo whoops.
+[11:49.64 -> 11:50.76] He starts the next day.
+[11:51.16 -> 11:53.00] Within a week, he forgets lunch twice.
+[11:53.54 -> 11:54.76] He gets dizzy on the stairs.
+[11:55.26 -> 11:56.14] He says he's fine.
+[11:56.56 -> 11:58.06] You hear his heartbeat race.
+[11:58.60 -> 12:00.56] The night before launch, you go to the rehearsal.
+[12:01.12 -> 12:01.32] Mr.
+[12:01.60 -> 12:02.84] Black leaves his laptop open.
+[12:03.26 -> 12:04.24] You don't mean to look.
+[12:04.64 -> 12:05.82] You can't not look.
+[12:06.22 -> 12:06.74] A table.
+[12:07.26 -> 12:08.10] 41 names.
+[12:08.62 -> 12:09.82] 6 cells marked red.
+[12:10.20 -> 12:11.98] Next to each one, the same word.
+[12:12.52 -> 12:12.72] Hospital.
+[12:13.36 -> 12:13.84] And a note.
+[12:13.84 -> 12:15.44] Do not tell parents.
+[12:15.96 -> 12:17.08] Your blood runs cold.
+[12:17.48 -> 12:19.18] You copy every row in your head.
+[12:19.84 -> 12:21.24] Names, dates, all of it.
+[12:21.52 -> 12:22.66] You lie awake that night.
+[12:23.00 -> 12:23.64] Four hours.
+[12:24.18 -> 12:25.28] Your brain hums.
+[12:25.50 -> 12:27.24] And you feel something you can't predict.
+[12:28.02 -> 12:28.04] Dread.
+[12:28.86 -> 12:29.30] Launch day.
+[12:29.66 -> 12:30.40] A packed hall.
+[12:30.76 -> 12:32.08] A thousand people inside.
+[12:32.46 -> 12:34.06] Two hundred thousand more online.
+[12:34.50 -> 12:37.38] A giant screen hangs 20 meters above the stage.
+[12:37.72 -> 12:38.54] Eight projectors.
+[12:38.94 -> 12:39.10] Bright.
+[12:39.56 -> 12:39.74] Heavy.
+[12:40.30 -> 12:40.50] Mr.
+[12:40.78 -> 12:41.46] Black walks out.
+[12:41.76 -> 12:42.26] Arms wide.
+[12:42.26 -> 12:44.68] Ladies and gentlemen, the future!
+[12:45.40 -> 12:46.56] You sit in the front row.
+[12:47.06 -> 12:48.60] Leo grins at you on the way to the stage.
+[12:49.14 -> 12:49.80] Wave at me, okay?
+[12:50.20 -> 12:50.78] You promise.
+[12:51.40 -> 12:53.40] Leo stands on stage with the trial students.
+[12:53.78 -> 12:54.64] The lights are hot.
+[12:55.06 -> 12:55.64] Leo sways.
+[12:56.14 -> 12:56.98] He grins at you.
+[12:57.16 -> 12:57.66] He waves.
+[12:58.18 -> 12:59.44] Then, his hand drops.
+[12:59.86 -> 13:00.68] His knees fold.
+[13:01.08 -> 13:02.16] His eyes roll back.
+[13:02.52 -> 13:03.40] He hits the floor.
+[13:03.80 -> 13:06.18] His brain burned through everything he ate.
+[13:06.66 -> 13:08.64] And above him, a tiny click.
+[13:09.12 -> 13:10.18] A bolt in the ceiling.
+[13:10.72 -> 13:11.60] Nobody hears it.
+[13:11.90 -> 13:12.40] You do.
+[13:12.92 -> 13:13.82] Time doesn't slow.
+[13:14.34 -> 13:14.78] You do.
+[13:15.22 -> 13:17.26] Your brain hands you everything at once.
+[13:17.74 -> 13:19.52] The rig was built for four projectors.
+[13:19.86 -> 13:20.68] It carries eight.
+[13:21.10 -> 13:22.22] The bolt is stretching.
+[13:22.74 -> 13:23.80] The cable is shaking.
+[13:24.26 -> 13:25.74] The screen is coming down.
+[13:26.18 -> 13:28.96] A screen falling from 20 meters takes two seconds.
+[13:29.52 -> 13:31.28] Leo is 18 meters from you.
+[13:31.54 -> 13:34.14] A fit teenager runs about 6 meters per second.
+[13:34.54 -> 13:36.42] 18 meters means three seconds.
+[13:36.88 -> 13:37.62] You have two.
+[13:37.98 -> 13:40.28] Your brain runs 40 plans in a heartbeat.
+[13:40.28 -> 13:42.18] 39 and the same way.
+[13:42.54 -> 13:44.02] The 40th needs a miracle.
+[13:44.60 -> 13:46.56] You start moving the instant you hear the click.
+[13:46.96 -> 13:48.20] That buys you half a second.
+[13:48.62 -> 13:49.24] Still short.
+[13:49.78 -> 13:50.72] Half a second short.
+[13:51.18 -> 13:51.78] That's the rule.
+[13:52.26 -> 13:53.64] Your brain sees the answer.
+[13:53.98 -> 13:55.24] Your legs can't read it.
+[13:55.44 -> 13:56.66] Your legs can't go faster.
+[13:57.08 -> 13:58.48] They can only start earlier.
+[13:59.00 -> 13:59.48] And you did.
+[13:59.90 -> 14:00.92] And it isn't enough.
+[14:01.44 -> 14:03.32] Around you, a thousand heads turn.
+[14:03.76 -> 14:04.98] A thousand mouths open.
+[14:05.40 -> 14:06.56] Nobody has moved yet.
+[14:06.92 -> 14:07.88] You shout his name.
+[14:07.88 -> 14:11.62] Sound crosses 18 meters in about 500ths of a second.
+[14:12.00 -> 14:12.38] Fast.
+[14:12.94 -> 14:13.82] Leo doesn't move.
+[14:14.18 -> 14:15.02] He can't hear you.
+[14:15.30 -> 14:16.42] He can't hear anyone.
+[14:16.82 -> 14:18.88] The shadow of the screen grows over him.
+[14:19.30 -> 14:20.30] 1 .8 seconds.
+[14:20.70 -> 14:21.48] 1 .5.
+[14:21.88 -> 14:23.18] Leo's lips are gray.
+[14:23.56 -> 14:25.58] His hand is open like he's still waving.
+[14:25.98 -> 14:27.76] And your own tank is nearly dry.
+[14:28.16 -> 14:29.24] Your hands tremble.
+[14:29.54 -> 14:30.72] Your vision narrows.
+[14:30.98 -> 14:31.94] Then you remember.
+[14:32.38 -> 14:33.10] The red switch.
+[14:33.78 -> 14:33.82] Burst.
+[14:34.48 -> 14:35.20] Emergencies only.
+[14:35.62 -> 14:36.12] One use.
+[14:36.12 -> 14:38.48] Your muscles fire straight from the band.
+[14:38.86 -> 14:39.86] Nine meters per second.
+[14:40.12 -> 14:40.78] Like a sprinter.
+[14:41.22 -> 14:42.66] Then the band burns out.
+[14:43.00 -> 14:43.40] For good.
+[14:43.88 -> 14:44.34] The genius.
+[14:44.86 -> 14:45.38] The headlines.
+[14:45.78 -> 14:46.34] The scholarship.
+[14:46.80 -> 14:47.28] The offers.
+[14:47.80 -> 14:48.12] Everything.
+[14:48.72 -> 14:49.22] The gift.
+[14:49.62 -> 14:50.56] Or your best friend.
+[14:50.98 -> 14:52.26] You can always get smarter.
+[14:52.70 -> 14:54.00] You can't get another Leo.
+[14:54.48 -> 14:55.18] You press it.
+[14:55.46 -> 14:56.44] Your legs scream.
+[14:56.86 -> 14:57.82] The floor blurs.
+[14:58.22 -> 14:59.68] The air whistles above you.
+[14:59.96 -> 15:00.48] 12 meters.
+[15:01.06 -> 15:01.14] Six.
+[15:01.66 -> 15:01.96] Three.
+[15:02.32 -> 15:03.38] You slam into Leo.
+[15:03.70 -> 15:04.50] You both roll.
+[15:04.50 -> 15:06.92] Behind you, the screen hits the stage.
+[15:07.38 -> 15:09.84] Glass, metal, dust, silence.
+[15:10.44 -> 15:12.44] Then the band on your head goes cold.
+[15:12.84 -> 15:13.88] The noise vanishes.
+[15:14.34 -> 15:15.90] The world drops back to normal.
+[15:16.28 -> 15:18.44] Like someone switched off a thousand lights.
+[15:18.90 -> 15:19.00] Tea.
+[15:19.94 -> 15:20.66] Leo isn't moving.
+[15:21.20 -> 15:22.26] You dig into your pockets.
+[15:23.10 -> 15:23.30] Candy.
+[15:24.16 -> 15:24.46] Sugar cubes.
+[15:25.12 -> 15:25.44] Always.
+[15:26.02 -> 15:28.38] You packed them this morning because you were always hungry.
+[15:28.98 -> 15:30.26] You push one to his lips.
+[15:30.82 -> 15:32.62] Leo, come on, come on!
+[15:32.98 -> 15:34.14] His eyelids flutter.
+[15:34.74 -> 15:35.56] Medics rush in.
+[15:36.08 -> 15:36.22] Juice.
+[15:36.84 -> 15:37.42] Then fluids.
+[15:38.02 -> 15:38.84] He breathes.
+[15:39.18 -> 15:40.04] Your hands shake.
+[15:40.62 -> 15:40.86] Dr.
+[15:41.08 -> 15:43.04] Lee runs up, a folder under her arm.
+[15:43.40 -> 15:44.66] She looks at the broken stage.
+[15:45.14 -> 15:45.88] Then, at Mr.
+[15:46.14 -> 15:47.56] Black, he pulls you aside.
+[15:48.14 -> 15:49.22] Calm, quiet.
+[15:49.74 -> 15:51.78] Max, that was a freak accident.
+[15:52.30 -> 15:53.16] Nobody could have known.
+[15:53.70 -> 15:57.52] Say that just once on the stream and I'll give you a new band.
+[15:57.90 -> 15:58.72] A better band.
+[15:59.10 -> 16:01.92] Money, fame, a lab with your name on it.
+[16:01.92 -> 16:04.68] You look at his hand, at the camera behind him.
+[16:05.18 -> 16:06.62] Still red, still live.
+[16:07.24 -> 16:07.86] You could take it.
+[16:08.14 -> 16:10.00] You could be the smartest person alive.
+[16:10.44 -> 16:13.26] Again, all you'd have to do is lie.
+[16:13.72 -> 16:15.22] Or you could make him pay.
+[16:15.92 -> 16:17.38] Loud, angry, cruel.
+[16:17.94 -> 16:18.98] But that fixes nothing.
+[16:19.62 -> 16:20.14] Truth does.
+[16:20.68 -> 16:22.00] You think of Leo on the floor.
+[16:22.38 -> 16:24.60] You think of 40 kids with bands on their heads.
+[16:25.10 -> 16:26.28] You step to the microphone.
+[16:26.88 -> 16:29.90] 41 students, six hospital visits this month.
+[16:29.90 -> 16:32.48] A note that says, do not tell parents.
+[16:32.86 -> 16:35.64] A rig built for four projectors carrying eight.
+[16:36.12 -> 16:37.02] I saw the list.
+[16:37.32 -> 16:38.40] I wore the band too.
+[16:38.76 -> 16:39.82] I know what it does.
+[16:40.40 -> 16:40.62] Dr.
+[16:40.84 -> 16:41.68] Lee lifts her folder.
+[16:42.12 -> 16:44.68] The scans, the hospital records, the dates.
+[16:45.26 -> 16:46.30] Nobody says a word.
+[16:46.82 -> 16:48.04] Hundreds of phones rise.
+[16:48.82 -> 16:49.30] Parents stand.
+[16:49.64 -> 16:51.54] A girl in the back pulls off her band.
+[16:51.78 -> 16:52.32] Then a boy.
+[16:52.74 -> 16:53.54] Then 10 more.
+[16:53.86 -> 16:56.10] They drop them on the floor one by one.
+[16:56.60 -> 16:58.02] Click, click, click.
+[16:58.02 -> 16:59.60] It sounds like rain.
+[17:00.28 -> 17:02.06] Then a woman in the third row stands.
+[17:02.94 -> 17:03.28] Inspectors.
+[17:03.66 -> 17:04.52] A father follows.
+[17:04.90 -> 17:05.34] Then another.
+[17:05.70 -> 17:06.80] Then a whole row.
+[17:07.28 -> 17:07.56] Mr.
+[17:07.84 -> 17:08.72] Black looks for the exit.
+[17:09.16 -> 17:09.78] There isn't one.
+[17:10.24 -> 17:10.44] Dr.
+[17:10.70 -> 17:11.92] Lee puts a hand on your shoulder.
+[17:12.46 -> 17:13.18] You did good, kid.
+[17:13.64 -> 17:14.34] You say nothing.
+[17:14.78 -> 17:15.84] You're shaking too hard.
+[17:16.30 -> 17:18.62] By the end of the week, Lumen Labs is closed.
+[17:19.24 -> 17:23.58] Remember this, a real trial never asks you to hide side effects from your doctor.
+[17:24.10 -> 17:26.12] Three days later, hospital room.
+[17:26.12 -> 17:30.36] Leo sits up, pale, grinning, same terrible haircut.
+[17:30.82 -> 17:33.06] Your mom stands at the door with a bag of sandwiches.
+[17:33.54 -> 17:35.42] She hugs you so hard it hurts.
+[17:35.94 -> 17:37.32] You don't have the genius anymore.
+[17:37.72 -> 17:38.54] Your grades slip.
+[17:38.96 -> 17:41.88] Your head is quiet, normal, slow even.
+[17:42.40 -> 17:45.92] Yesterday, you walked outside and heard only birds, just birds.
+[17:46.40 -> 17:48.18] You stood still and cried a little.
+[17:48.56 -> 17:49.22] Nobody noticed.
+[17:49.60 -> 17:50.66] That was the best part.
+[17:51.04 -> 17:53.12] You're not the smartest person in the room anymore.
+[17:53.34 -> 17:55.68] You're just a boy holding his friend's hand.
+[17:55.68 -> 17:56.62] It's enough.
+[17:57.36 -> 17:57.36] Dr.
+[17:57.62 -> 17:58.36] Lee visits too.
+[17:58.68 -> 17:59.94] She sits on the edge of the bed.
+[18:00.44 -> 18:03.18] The band took your edge, but it didn't take what you built.
+[18:03.62 -> 18:05.30] The scholarship offer is still there.
+[18:05.84 -> 18:07.32] Slower, yes, but yours.
+[18:08.00 -> 18:08.38] You nod.
+[18:09.12 -> 18:09.96] Slower sounds nice.
+[18:10.70 -> 18:11.18] Leo squints.
+[18:11.68 -> 18:12.68] Hey, you came.
+[18:13.12 -> 18:14.04] Of course you came.
+[18:14.32 -> 18:15.36] You can always get smarter.
+[18:15.78 -> 18:17.10] You can't get another Leo.
+[18:17.58 -> 18:18.66] He frowns.
+[18:18.70 -> 18:21.12] Hey, how did you cross that stage so fast?
+[18:21.54 -> 18:22.64] Nobody runs like that.
+[18:23.04 -> 18:23.58] You smile.
+[18:23.96 -> 18:24.72] I started early.
+[18:24.72 -> 18:26.08] He rolls his eyes.
+[18:26.58 -> 18:27.40] Okay, okay.
+[18:27.76 -> 18:28.74] Listen, new joke.
+[18:29.18 -> 18:30.84] What did the ocean say to the beach?
+[18:31.28 -> 18:31.76] You shrug.
+[18:32.20 -> 18:33.34] You honestly don't know.
+[18:33.76 -> 18:34.08] Nothing.
+[18:34.48 -> 18:35.06] It just waved.
+[18:35.56 -> 18:36.12] And you laugh.
+[18:36.58 -> 18:37.44] Right on time.
+[18:37.80 -> 18:39.52] The spark finally lights up.
+[18:39.90 -> 18:40.64] Leo gasps.
+[18:41.04 -> 18:42.82] Dude, you laughed on time.
+[18:43.18 -> 18:43.64] You did.
+[18:44.04 -> 18:45.44] Then he taps the bed rail.
+[18:45.88 -> 18:47.34] Too fast, one slow.
+[18:47.74 -> 18:48.56] You tap it back.
+[18:49.04 -> 18:50.16] A week later, Dr.
+[18:50.38 -> 18:50.74] Lee calls.
+[18:51.38 -> 18:52.58] Max, come to the clinic.
+[18:52.94 -> 18:53.38] New scan.
+[18:53.38 -> 18:54.56] She shows you.
+[18:55.10 -> 18:58.40] Everything looks normal, except one small bright spot.
+[18:58.76 -> 18:59.76] It never switched off.
+[19:00.12 -> 19:01.92] Something in your brain is still awake.
+[19:02.44 -> 19:03.40] She doesn't know why.
+[19:03.80 -> 19:04.36] Neither do you.
+[19:04.66 -> 19:07.60] But you remember the last thing the band did before it died.
+[19:08.04 -> 19:08.84] It hummed.
+[19:09.08 -> 19:11.12] Like a door opening, not closing.
+[19:11.64 -> 19:13.04] Then your phone buzzes.
+[19:13.30 -> 19:13.98] Unknown number.
+[19:14.38 -> 19:15.26] A single message.
+[19:15.74 -> 19:17.36] We saw what you did on that stage.
+[19:17.76 -> 19:19.48] The band was only the beginning.
+[19:20.00 -> 19:25.60] Under it, a photo, a stage, a new headband, and a date, three days from now.
+[19:26.18 -> 19:28.62] So what would you do with 100 % brain?
+[19:29.10 -> 19:32.44] Would you learn every language or just finally beat Leo at chess?
+[19:33.02 -> 19:34.96] Tell us the first thing you'd learn in the comments.
+[19:35.52 -> 19:39.92] And if you'd have pressed that red switch for Leo, hit like and subscribe for part two.
