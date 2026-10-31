@@ -19,7 +19,7 @@ def txt(s,xy,size,fill,stroke=10,anchor='la',glow=None):
         g=Image.new('RGBA',(W,H),(0,0,0,0)); ImageDraw.Draw(g).text(xy,s,font=f,fill=glow,anchor=anchor,stroke_width=stroke+8,stroke_fill=glow)
         g=g.filter(ImageFilter.GaussianBlur(28)); canvas.paste(g,(0,0),g)
     ImageDraw.Draw(canvas).text(xy,s,font=f,fill=fill,anchor=anchor,stroke_width=stroke,stroke_fill=(0,0,0))
-txt('THINK',(1440,250),190,(255,255,255),anchor='mm')
-txt('10x',(1440,510),360,(255,196,40),stroke=14,anchor='mm',glow=(255,140,30,200))
-txt('FASTER?',(1440,780),190,(255,255,255),anchor='mm')
+import json
+L=json.loads(sys.argv[3])  # [[text,size,[r,g,b],glow_or_null,y], ...]
+for t,size,col,gl,y in L: txt(t,(1440,y),size,tuple(col),stroke=12,anchor='mm',glow=tuple(gl) if gl else None)
 canvas.resize((1280,720),Image.LANCZOS).save(out,quality=95)
