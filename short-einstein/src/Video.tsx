@@ -353,7 +353,7 @@ export const Video: React.FC = () => {
         <Sequence key={i} from={Math.round(s.t0 * FPS)} durationInFrames={Math.round((s.t1 - s.t0) * FPS)}>{s.el}</Sequence>
       ))}
       <Audio src={staticFile(plan.voice)} />
-      <Audio src={staticFile("music.wav")} loop
+      <Audio src={staticFile("music.wav")}
         volume={(f) => interpolate(f, [0, 20, durationInFrames - 45, durationInFrames], [0, 0.11, 0.11, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
       <Caption />
     </AbsoluteFill>
