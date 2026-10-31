@@ -1,0 +1,13 @@
+// cast.js — one outfit per recurring character. Signature colour = identity; keep it identical in every shot.
+export const MAX = { top: 'hoodie', color: '#d64a33', head: 'none' };                                          // "you"
+export const MIA = { top: 'dress', color: '#f29ac0', head: 'ponytail', headColor: '#f29ac0', kid: true };     // little sister
+export const LEO = { top: 'tshirt', color: '#34303f', head: 'cap', headColor: '#f2c21a' };                    // best friend
+export const LEE = { top: 'labcoat', face: 'glasses', head: 'none' };                                        // Dr. Lee
+export const BLACK = { top: 'trench', color: '#7c818c', head: 'fedora', headColor: '#6c717c', face: 'sunglasses' }; // Mr. Black
+export const TEACH = { top: 'none', head: 'bun' };
+export const COACH = { top: 'none', head: 'capBack', headColor: '#3a4258' };
+export const KID = { top: 'none', head: 'spiky' };
+export const KID2 = { top: 'none', head: 'curly' };
+export const MAN = { top: 'none', head: 'none' };
+export const NOVA = { top: 'none', head: 'headband', headColor: '#5ff2e8' };
+export const CAST = { max: MAX, mia: MIA, leo: LEO, lee: LEE, black: BLACK, teach: TEACH, coach: COACH, kid: KID, kid2: KID2, man: MAN, nova: NOVA };

@@ -1,0 +1,2714 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 0.0,
+  "speechEnd": 2.4,
+  "text": "7. 15. Your toast pops up.",
+  "end": 2.65
+ },
+ {
+  "i": 1,
+  "start": 2.65,
+  "speechStart": 2.8,
+  "speechEnd": 5.84,
+  "text": "You've already picked the jam, already planned your day. Twice.",
+  "end": 6.37
+ },
+ {
+  "i": 2,
+  "start": 6.37,
+  "speechStart": 6.52,
+  "speechEnd": 8.06,
+  "text": "Your little sister bursts in.",
+  "end": 8.27
+ },
+ {
+  "i": 3,
+  "start": 8.27,
+  "speechStart": 8.42,
+  "speechEnd": 14.88,
+  "text": "Max, where's my left shoe? You don't even look up. Under the couch. Behind the blue bag. She checks.",
+  "end": 15.23
+ },
+ {
+  "i": 4,
+  "start": 15.23,
+  "speechStart": 15.38,
+  "speechEnd": 18.44,
+  "text": "It's there. She stares at you. That's creepy.",
+  "end": 18.87
+ },
+ {
+  "i": 5,
+  "start": 18.87,
+  "speechStart": 19.02,
+  "speechEnd": 21.36,
+  "text": "Maybe, but you're only... thinking.",
+  "end": 21.97
+ },
+ {
+  "i": 6,
+  "start": 21.97,
+  "speechStart": 22.12,
+  "speechEnd": 24.6,
+  "text": "At school, your teacher writes a problem on the board.",
+  "end": 24.87
+ },
+ {
+  "i": 7,
+  "start": 24.87,
+  "speechStart": 25.02,
+  "speechEnd": 26.6,
+  "text": "12 numbers, four steps.",
+  "end": 26.45
+ },
+ {
+  "i": 8,
+  "start": 26.45,
+  "speechStart": 26.6,
+  "speechEnd": 33.5,
+  "text": "She turns to ask the class. You're already done. You raise your hand. 418. Silence.",
+  "end": 34.11
+ },
+ {
+  "i": 9,
+  "start": 34.11,
+  "speechStart": 34.26,
+  "speechEnd": 35.72,
+  "text": "Your best friend Leo leans over.",
+  "end": 36.07
+ },
+ {
+  "i": 10,
+  "start": 36.07,
+  "speechStart": 36.22,
+  "speechEnd": 39.96,
+  "text": "Mate, did you even look at it? You did. For about one second.",
+  "end": 40.21
+ },
+ {
+  "i": 11,
+  "start": 40.21,
+  "speechStart": 40.36,
+  "speechEnd": 42.04,
+  "text": "Which, for you, felt like 10.",
+  "end": 42.55
+ },
+ {
+  "i": 12,
+  "start": 42.55,
+  "speechStart": 42.7,
+  "speechEnd": 45.8,
+  "text": "At lunch, a boy drops his tray. Everyone gasps.",
+  "end": 46.33
+ },
+ {
+  "i": 13,
+  "start": 46.33,
+  "speechStart": 46.48,
+  "speechEnd": 52.68,
+  "text": "You see the fork, the cup, the soup, the exact spot where it will land. You step aside. Easy.",
+  "end": 52.53
+ },
+ {
+  "i": 14,
+  "start": 52.53,
+  "speechStart": 52.68,
+  "speechEnd": 58.36,
+  "text": "The soup misses your shoes by one centimeter. Leo claps slowly. Show off.",
+  "end": 58.85
+ },
+ {
+  "i": 15,
+  "start": 58.85,
+  "speechStart": 59.0,
+  "speechEnd": 64.26,
+  "text": "Back home, your sister wants tea. You pour the water. You plan her birthday. You rewrite your essay.",
+  "end": 64.53
+ },
+ {
+  "i": 16,
+  "start": 64.53,
+  "speechStart": 64.68,
+  "speechEnd": 66.12,
+  "text": "You solve a crossword in your head.",
+  "end": 66.27
+ },
+ {
+  "i": 17,
+  "start": 66.27,
+  "speechStart": 66.42,
+  "speechEnd": 68.06,
+  "text": "You even name your future dog.",
+  "end": 68.37
+ },
+ {
+  "i": 18,
+  "start": 68.37,
+  "speechStart": 68.52,
+  "speechEnd": 71.52,
+  "text": "And your tea is still brewing. Here's the thing.",
+  "end": 71.79
+ },
+ {
+  "i": 19,
+  "start": 71.79,
+  "speechStart": 71.94,
+  "speechEnd": 74.62,
+  "text": "A normal brain is busy, but it isn't fast.",
+  "end": 75.07
+ },
+ {
+  "i": 20,
+  "start": 75.07,
+  "speechStart": 75.22,
+  "speechEnd": 79.02,
+  "text": "A nerve signal travels at up to about 120 meters per second.",
+  "end": 79.27
+ },
+ {
+  "i": 21,
+  "start": 79.27,
+  "speechStart": 79.42,
+  "speechEnd": 81.48,
+  "text": "Your eyes jump about three times a second.",
+  "end": 81.33
+ },
+ {
+  "i": 22,
+  "start": 81.33,
+  "speechStart": 81.48,
+  "speechEnd": 84.9,
+  "text": "A person talks at roughly 150 words a minute.",
+  "end": 84.97
+ },
+ {
+  "i": 23,
+  "start": 84.97,
+  "speechStart": 85.12,
+  "speechEnd": 89.6,
+  "text": "And a normal human needs about a quarter of a second just to react to a flash of light.",
+  "end": 89.89
+ },
+ {
+  "i": 24,
+  "start": 89.89,
+  "speechStart": 90.04,
+  "speechEnd": 91.72,
+  "text": "That's the speed of the world.",
+  "end": 92.03
+ },
+ {
+  "i": 25,
+  "start": 92.03,
+  "speechStart": 92.18,
+  "speechEnd": 95.92,
+  "text": "Slow, patient, comfortable. Now look at yours.",
+  "end": 96.39
+ },
+ {
+  "i": 26,
+  "start": 96.39,
+  "speechStart": 96.54,
+  "speechEnd": 101.1,
+  "text": "One morning, nobody knows why, your brain wakes up running 10 times faster.",
+  "end": 101.43
+ },
+ {
+  "i": 27,
+  "start": 101.43,
+  "speechStart": 101.58,
+  "speechEnd": 104.72,
+  "text": "Same skull, same you, 10 times the speed.",
+  "end": 105.01
+ },
+ {
+  "i": 28,
+  "start": 105.01,
+  "speechStart": 105.16,
+  "speechEnd": 108.2,
+  "text": "A normal person gets one thought. You get 10.",
+  "end": 108.05
+ },
+ {
+  "i": 29,
+  "start": 108.05,
+  "speechStart": 108.2,
+  "speechEnd": 111.24,
+  "text": "A normal second becomes 10 seconds of thinking.",
+  "end": 111.47
+ },
+ {
+  "i": 30,
+  "start": 111.47,
+  "speechStart": 111.62,
+  "speechEnd": 114.74,
+  "text": "A normal minute becomes 10 minutes. But there's a rule.",
+  "end": 115.05
+ },
+ {
+  "i": 31,
+  "start": 115.05,
+  "speechStart": 115.2,
+  "speechEnd": 121.02,
+  "text": "Your brain got 10 times faster. Your body did not. Your legs did not. Your eyes did not.",
+  "end": 121.27
+ },
+ {
+  "i": 32,
+  "start": 121.27,
+  "speechStart": 121.42,
+  "speechEnd": 123.2,
+  "text": "Your stomach definitely did not.",
+  "end": 123.39
+ },
+ {
+  "i": 33,
+  "start": 123.39,
+  "speechStart": 123.54,
+  "speechEnd": 125.28,
+  "text": "And the world certainly did not.",
+  "end": 125.59
+ },
+ {
+  "i": 34,
+  "start": 125.59,
+  "speechStart": 125.74,
+  "speechEnd": 126.94,
+  "text": "You can't move faster.",
+  "end": 127.21
+ },
+ {
+  "i": 35,
+  "start": 127.21,
+  "speechStart": 127.36,
+  "speechEnd": 128.88,
+  "text": "You can only decide earlier.",
+  "end": 129.25
+ },
+ {
+  "i": 36,
+  "start": 129.25,
+  "speechStart": 129.4,
+  "speechEnd": 132.42,
+  "text": "So what if you could think 10 times faster? Let's start small.",
+  "end": 132.75
+ },
+ {
+  "i": 37,
+  "start": 132.75,
+  "speechStart": 132.9,
+  "speechEnd": 134.3,
+  "text": "A pencil rolls off a desk.",
+  "end": 134.15
+ },
+ {
+  "i": 38,
+  "start": 134.15,
+  "speechStart": 134.3,
+  "speechEnd": 138.16,
+  "text": "A normal hand starts moving after the pencil has fallen 30 centimeters.",
+  "end": 138.63
+ },
+ {
+  "i": 39,
+  "start": 138.63,
+  "speechStart": 138.78,
+  "speechEnd": 140.18,
+  "text": "Yours starts after three.",
+  "end": 140.47
+ },
+ {
+  "i": 40,
+  "start": 140.47,
+  "speechStart": 140.62,
+  "speechEnd": 143.7,
+  "text": "You catch it before it's really falling. Leo stares.",
+  "end": 144.03
+ },
+ {
+  "i": 41,
+  "start": 144.03,
+  "speechStart": 144.18,
+  "speechEnd": 145.48,
+  "text": "Okay, that's not fair.",
+  "end": 145.69
+ },
+ {
+  "i": 42,
+  "start": 145.69,
+  "speechStart": 145.84,
+  "speechEnd": 151.02,
+  "text": "Plus, you never drop anything again. Next, exams. One hour on the clock.",
+  "end": 151.31
+ },
+ {
+  "i": 43,
+  "start": 151.31,
+  "speechStart": 151.46,
+  "speechEnd": 153.3,
+  "text": "You read every question in minutes.",
+  "end": 153.55
+ },
+ {
+  "i": 44,
+  "start": 153.55,
+  "speechStart": 153.7,
+  "speechEnd": 154.92,
+  "text": "You know every answer.",
+  "end": 155.11
+ },
+ {
+  "i": 45,
+  "start": 155.11,
+  "speechStart": 155.26,
+  "speechEnd": 157.32,
+  "text": "But your pen still writes at normal speed.",
+  "end": 157.53
+ },
+ {
+  "i": 46,
+  "start": 157.53,
+  "speechStart": 157.68,
+  "speechEnd": 161.32,
+  "text": "So you finish early and your brain just sits there waiting for your hand.",
+  "end": 161.17
+ },
+ {
+  "i": 47,
+  "start": 161.17,
+  "speechStart": 161.32,
+  "speechEnd": 162.92,
+  "text": "The teacher frowns.",
+  "end": 163.11
+ },
+ {
+  "i": 48,
+  "start": 163.11,
+  "speechStart": 163.26,
+  "speechEnd": 169.38,
+  "text": "Max, why are you staring at the ceiling? Because I'm done. Twice. Then chess club. Blitz.",
+  "end": 169.61
+ },
+ {
+  "i": 49,
+  "start": 169.61,
+  "speechStart": 169.76,
+  "speechEnd": 170.52,
+  "text": "Three minutes each.",
+  "end": 170.81
+ },
+ {
+  "i": 50,
+  "start": 170.81,
+  "speechStart": 170.96,
+  "speechEnd": 172.22,
+  "text": "For you, that's 30.",
+  "end": 172.41
+ },
+ {
+  "i": 51,
+  "start": 172.41,
+  "speechStart": 172.56,
+  "speechEnd": 174.84,
+  "text": "You see five moves ahead. Then eight.",
+  "end": 175.13
+ },
+ {
+  "i": 52,
+  "start": 175.13,
+  "speechStart": 175.28,
+  "speechEnd": 180.36,
+  "text": "The school champion shakes your hand. His fingers tremble. How did you do that? You shrug.",
+  "end": 180.55
+ },
+ {
+  "i": 53,
+  "start": 180.55,
+  "speechStart": 180.7,
+  "speechEnd": 184.52,
+  "text": "I just had more time. Plus. But here's the minus.",
+  "end": 184.85
+ },
+ {
+  "i": 54,
+  "start": 184.85,
+  "speechStart": 185.0,
+  "speechEnd": 187.68,
+  "text": "People talk slowly. Painfully slowly.",
+  "end": 188.05
+ },
+ {
+  "i": 55,
+  "start": 188.05,
+  "speechStart": 188.2,
+  "speechEnd": 190.4,
+  "text": "Leo sounds like a record on the wrong speed.",
+  "end": 190.25
+ },
+ {
+  "i": 56,
+  "start": 190.25,
+  "speechStart": 190.4,
+  "speechEnd": 193.82,
+  "text": "So you finish his sentences. Wrong half the time.",
+  "end": 193.99
+ },
+ {
+  "i": 57,
+  "start": 193.99,
+  "speechStart": 194.14,
+  "speechEnd": 197.56,
+  "text": "Max, let me finish! Minus. You're getting annoying.",
+  "end": 197.95
+ },
+ {
+  "i": 58,
+  "start": 197.95,
+  "speechStart": 198.1,
+  "speechEnd": 199.44,
+  "text": "Reading is the same trap.",
+  "end": 199.69
+ },
+ {
+  "i": 59,
+  "start": 199.69,
+  "speechStart": 199.84,
+  "speechEnd": 201.74,
+  "text": "Your brain understands a page in a blink.",
+  "end": 201.95
+ },
+ {
+  "i": 60,
+  "start": 201.95,
+  "speechStart": 202.1,
+  "speechEnd": 205.42,
+  "text": "But your eyes still jump only three times a second. Always.",
+  "end": 205.73
+ },
+ {
+  "i": 61,
+  "start": 205.73,
+  "speechStart": 205.88,
+  "speechEnd": 207.58,
+  "text": "A novel still takes hours.",
+  "end": 207.93
+ },
+ {
+  "i": 62,
+  "start": 207.93,
+  "speechStart": 208.08,
+  "speechEnd": 210.2,
+  "text": "Your brain reads a page, then waits.",
+  "end": 210.47
+ },
+ {
+  "i": 63,
+  "start": 210.47,
+  "speechStart": 210.62,
+  "speechEnd": 213.26,
+  "text": "Like a sports car in traffic. Basketball next.",
+  "end": 213.55
+ },
+ {
+  "i": 64,
+  "start": 213.55,
+  "speechStart": 213.7,
+  "speechEnd": 215.22,
+  "text": "Coach fires a ball at your face.",
+  "end": 215.47
+ },
+ {
+  "i": 65,
+  "start": 215.47,
+  "speechStart": 215.62,
+  "speechEnd": 219.44,
+  "text": "A normal player sees it, decides, and moves in about a quarter of a second.",
+  "end": 219.29
+ },
+ {
+  "i": 66,
+  "start": 219.29,
+  "speechStart": 219.44,
+  "speechEnd": 225.88,
+  "text": "You, two and a half hundredths. You catch it one -handed. Coach blows the whistle. You knew where it was going.",
+  "end": 226.11
+ },
+ {
+  "i": 67,
+  "start": 226.11,
+  "speechStart": 226.26,
+  "speechEnd": 227.66,
+  "text": "Physics. Don't be smart.",
+  "end": 227.93
+ },
+ {
+  "i": 68,
+  "start": 227.93,
+  "speechStart": 228.08,
+  "speechEnd": 234.52,
+  "text": "But you still can't run faster than the others. You just start earlier. Then the track meet. The gun fires. You're gone.",
+  "end": 234.75
+ },
+ {
+  "i": 69,
+  "start": 234.75,
+  "speechStart": 234.9,
+  "speechEnd": 237.2,
+  "text": "Beep! False start! Here's the rule.",
+  "end": 237.39
+ },
+ {
+  "i": 70,
+  "start": 237.39,
+  "speechStart": 237.54,
+  "speechEnd": 242.28,
+  "text": "React faster than a tenth of a second, and officials decide you must have guessed. You didn't guess.",
+  "end": 242.47
+ },
+ {
+  "i": 71,
+  "start": 242.47,
+  "speechStart": 242.62,
+  "speechEnd": 249.66,
+  "text": "You just heard it ten times faster. Nobody believes that. Plus. You're quick. Minus. You're disqualified. Dr.",
+  "end": 249.65
+ },
+ {
+  "i": 72,
+  "start": 249.65,
+  "speechStart": 249.8,
+  "speechEnd": 252.84,
+  "text": "Lee, your old physics teacher, now works at the City University.",
+  "end": 253.15
+ },
+ {
+  "i": 73,
+  "start": 253.15,
+  "speechStart": 253.3,
+  "speechEnd": 259.7,
+  "text": "He gives you a problem his team couldn't solve in a year. You finish it over lunch. Between sandwiches. He drops his coffee.",
+  "end": 259.95
+ },
+ {
+  "i": 74,
+  "start": 259.95,
+  "speechStart": 260.1,
+  "speechEnd": 261.56,
+  "text": "You catch it. Of course you do.",
+  "end": 261.77
+ },
+ {
+  "i": 75,
+  "start": 261.77,
+  "speechStart": 261.92,
+  "speechEnd": 264.14,
+  "text": "You fix the school bus timetable on a napkin.",
+  "end": 264.27
+ },
+ {
+  "i": 76,
+  "start": 264.27,
+  "speechStart": 264.42,
+  "speechEnd": 266.34,
+  "text": "Eleven minutes saved on every route.",
+  "end": 266.45
+ },
+ {
+  "i": 77,
+  "start": 266.45,
+  "speechStart": 266.6,
+  "speechEnd": 270.06,
+  "text": "The principal nearly cries. Sports day. Dodgeball.",
+  "end": 270.25
+ },
+ {
+  "i": 78,
+  "start": 270.25,
+  "speechStart": 270.4,
+  "speechEnd": 273.44,
+  "text": "Twelve balls fly at once. You see every arc.",
+  "end": 273.53
+ },
+ {
+  "i": 79,
+  "start": 273.53,
+  "speechStart": 273.68,
+  "speechEnd": 275.08,
+  "text": "You know where each one lands.",
+  "end": 275.31
+ },
+ {
+  "i": 80,
+  "start": 275.31,
+  "speechStart": 275.46,
+  "speechEnd": 278.14,
+  "text": "You take one step, and every ball misses you.",
+  "end": 277.99
+ },
+ {
+  "i": 81,
+  "start": 277.99,
+  "speechStart": 278.14,
+  "speechEnd": 285.1,
+  "text": "The class goes quiet. Your gym teacher whistles. Max! You're cheating! I'm just early. Plus. You win.",
+  "end": 285.31
+ },
+ {
+  "i": 82,
+  "start": 285.31,
+  "speechStart": 285.46,
+  "speechEnd": 285.9,
+  "text": "Minus.",
+  "end": 286.07
+ },
+ {
+  "i": 83,
+  "start": 286.07,
+  "speechStart": 286.22,
+  "speechEnd": 288.68,
+  "text": "Nobody picks you for their team anymore. Quiz night.",
+  "end": 288.89
+ },
+ {
+  "i": 84,
+  "start": 288.89,
+  "speechStart": 289.04,
+  "speechEnd": 294.08,
+  "text": "Leo's team gets the capital of Australia. You know in a flash. Canberra. Not Sydney.",
+  "end": 294.33
+ },
+ {
+  "i": 85,
+  "start": 294.33,
+  "speechStart": 294.48,
+  "speechEnd": 296.2,
+  "text": "A normal team argues for a minute.",
+  "end": 296.41
+ },
+ {
+  "i": 86,
+  "start": 296.41,
+  "speechStart": 296.56,
+  "speechEnd": 300.74,
+  "text": "You wait ten minutes for them to agree on the wrong answer. Then arguments.",
+  "end": 301.21
+ },
+ {
+  "i": 87,
+  "start": 301.21,
+  "speechStart": 301.36,
+  "speechEnd": 305.52,
+  "text": "Your brain finds the perfect reply in a blink. And the next. And the next.",
+  "end": 305.67
+ },
+ {
+  "i": 88,
+  "start": 305.67,
+  "speechStart": 305.82,
+  "speechEnd": 312.38,
+  "text": "You win every single one. Plus. You're always right. Minus. You're losing friends. Music is next.",
+  "end": 312.61
+ },
+ {
+  "i": 89,
+  "start": 312.61,
+  "speechStart": 312.76,
+  "speechEnd": 314.98,
+  "text": "You try the guitar. You read the song once.",
+  "end": 315.27
+ },
+ {
+  "i": 90,
+  "start": 315.27,
+  "speechStart": 315.42,
+  "speechEnd": 320.9,
+  "text": "Your brain knows every note. Every chord. Every finger. Your fingers? Not a chance.",
+  "end": 321.35
+ },
+ {
+  "i": 91,
+  "start": 321.35,
+  "speechStart": 321.5,
+  "speechEnd": 324.22,
+  "text": "Muscles learn at muscle speed. They need weeks.",
+  "end": 324.61
+ },
+ {
+  "i": 92,
+  "start": 324.61,
+  "speechStart": 324.76,
+  "speechEnd": 328.4,
+  "text": "Your brain is a genius in a very slow body. The catch?",
+  "end": 328.77
+ },
+ {
+  "i": 93,
+  "start": 328.77,
+  "speechStart": 328.92,
+  "speechEnd": 330.2,
+  "text": "You can't skip the practice.",
+  "end": 330.73
+ },
+ {
+  "i": 94,
+  "start": 330.73,
+  "speechStart": 330.88,
+  "speechEnd": 332.3,
+  "text": "Languages are the same story.",
+  "end": 332.57
+ },
+ {
+  "i": 95,
+  "start": 332.57,
+  "speechStart": 332.72,
+  "speechEnd": 334.88,
+  "text": "You understand Spanish grammar in an afternoon.",
+  "end": 335.09
+ },
+ {
+  "i": 96,
+  "start": 335.09,
+  "speechStart": 335.24,
+  "speechEnd": 337.2,
+  "text": "But new words don't stick faster.",
+  "end": 337.05
+ },
+ {
+  "i": 97,
+  "start": 337.05,
+  "speechStart": 337.2,
+  "speechEnd": 339.72,
+  "text": "Your brain files memories while you sleep.",
+  "end": 339.93
+ },
+ {
+  "i": 98,
+  "start": 339.93,
+  "speechStart": 340.08,
+  "speechEnd": 344.52,
+  "text": "And sleep still takes eight hours. Even for you. Online games next.",
+  "end": 344.89
+ },
+ {
+  "i": 99,
+  "start": 344.89,
+  "speechStart": 345.04,
+  "speechEnd": 346.8,
+  "text": "You plan 20 moves in a blink.",
+  "end": 347.07
+ },
+ {
+  "i": 100,
+  "start": 347.07,
+  "speechStart": 347.22,
+  "speechEnd": 349.0,
+  "text": "But your hand clicks at hand speed.",
+  "end": 349.25
+ },
+ {
+  "i": 101,
+  "start": 349.25,
+  "speechStart": 349.4,
+  "speechEnd": 351.1,
+  "text": "The top player still beats you.",
+  "end": 351.31
+ },
+ {
+  "i": 102,
+  "start": 351.31,
+  "speechStart": 351.46,
+  "speechEnd": 353.44,
+  "text": "His fingers have 10 ,000 hours.",
+  "end": 353.77
+ },
+ {
+  "i": 103,
+  "start": 353.77,
+  "speechStart": 353.92,
+  "speechEnd": 356.54,
+  "text": "Yours have 10 minutes. Then cooking.",
+  "end": 356.95
+ },
+ {
+  "i": 104,
+  "start": 356.95,
+  "speechStart": 357.1,
+  "speechEnd": 358.46,
+  "text": "You plan every step.",
+  "end": 358.77
+ },
+ {
+  "i": 105,
+  "start": 358.77,
+  "speechStart": 358.92,
+  "speechEnd": 360.7,
+  "text": "The pasta still takes 10 minutes.",
+  "end": 361.01
+ },
+ {
+  "i": 106,
+  "start": 361.01,
+  "speechStart": 361.16,
+  "speechEnd": 363.2,
+  "text": "Water still boils at 100 degrees.",
+  "end": 363.61
+ },
+ {
+  "i": 107,
+  "start": 363.61,
+  "speechStart": 363.76,
+  "speechEnd": 365.04,
+  "text": "It takes as long as it takes.",
+  "end": 364.89
+ },
+ {
+  "i": 108,
+  "start": 364.89,
+  "speechStart": 365.04,
+  "speechEnd": 370.62,
+  "text": "You stare at the pot like it owes you money. Now the road. A car runs a red light.",
+  "end": 370.89
+ },
+ {
+  "i": 109,
+  "start": 370.89,
+  "speechStart": 371.04,
+  "speechEnd": 376.92,
+  "text": "A typical driver needs about one and a half seconds to see, decide, and break. You decide in a flash.",
+  "end": 377.23
+ },
+ {
+  "i": 110,
+  "start": 377.23,
+  "speechStart": 377.38,
+  "speechEnd": 379.6,
+  "text": "But the car still needs distance to stop.",
+  "end": 379.83
+ },
+ {
+  "i": 111,
+  "start": 379.83,
+  "speechStart": 379.98,
+  "speechEnd": 381.84,
+  "text": "Physics doesn't care how smart you are.",
+  "end": 382.13
+ },
+ {
+  "i": 112,
+  "start": 382.13,
+  "speechStart": 382.28,
+  "speechEnd": 383.66,
+  "text": "And waiting is torture.",
+  "end": 384.09
+ },
+ {
+  "i": 113,
+  "start": 384.09,
+  "speechStart": 384.24,
+  "speechEnd": 387.64,
+  "text": "An elevator ride of 20 seconds feels like more than three minutes.",
+  "end": 387.95
+ },
+ {
+  "i": 114,
+  "start": 387.95,
+  "speechStart": 388.1,
+  "speechEnd": 390.18,
+  "text": "A red light of one minute feels like 10.",
+  "end": 390.43
+ },
+ {
+  "i": 115,
+  "start": 390.43,
+  "speechStart": 390.58,
+  "speechEnd": 393.52,
+  "text": "At the dentist, a 10 -minute wait feels like 100.",
+  "end": 393.37
+ },
+ {
+  "i": 116,
+  "start": 393.37,
+  "speechStart": 393.52,
+  "speechEnd": 397.94,
+  "text": "The world plays like a movie in slow motion. And you can't skip ahead.",
+  "end": 398.43
+ },
+ {
+  "i": 117,
+  "start": 398.43,
+  "speechStart": 398.58,
+  "speechEnd": 399.92,
+  "text": "Then comes the big idea.",
+  "end": 400.33
+ },
+ {
+  "i": 118,
+  "start": 400.33,
+  "speechStart": 400.48,
+  "speechEnd": 402.14,
+  "text": "You sit in the library and think.",
+  "end": 402.41
+ },
+ {
+  "i": 119,
+  "start": 402.41,
+  "speechStart": 402.56,
+  "speechEnd": 409.44,
+  "text": "In one afternoon, you plan a bridge, a cure, a better battery, a week of thinking in a single day. Dr.",
+  "end": 409.47
+ },
+ {
+  "i": 120,
+  "start": 409.47,
+  "speechStart": 409.62,
+  "speechEnd": 410.52,
+  "text": "Lee reads your notes.",
+  "end": 410.83
+ },
+ {
+  "i": 121,
+  "start": 410.83,
+  "speechStart": 410.98,
+  "speechEnd": 412.46,
+  "text": "Max, this is brilliant!",
+  "end": 412.87
+ },
+ {
+  "i": 122,
+  "start": 412.87,
+  "speechStart": 413.02,
+  "speechEnd": 414.92,
+  "text": "But a lab test still takes weeks.",
+  "end": 415.33
+ },
+ {
+  "i": 123,
+  "start": 415.33,
+  "speechStart": 415.48,
+  "speechEnd": 417.4,
+  "text": "Bacteria grow at bacteria speed.",
+  "end": 417.71
+ },
+ {
+  "i": 124,
+  "start": 417.71,
+  "speechStart": 417.86,
+  "speechEnd": 420.44,
+  "text": "Concrete still needs about 28 days to cure.",
+  "end": 420.77
+ },
+ {
+  "i": 125,
+  "start": 420.77,
+  "speechStart": 420.92,
+  "speechEnd": 422.78,
+  "text": "Your mind can race ahead of the world.",
+  "end": 422.63
+ },
+ {
+  "i": 126,
+  "start": 422.63,
+  "speechStart": 422.78,
+  "speechEnd": 424.88,
+  "text": "It just can't drag the world with it.",
+  "end": 425.05
+ },
+ {
+  "i": 127,
+  "start": 425.05,
+  "speechStart": 425.2,
+  "speechEnd": 429.98,
+  "text": "The world has its own clock, and you don't own it. Then the headaches begin.",
+  "end": 430.39
+ },
+ {
+  "i": 128,
+  "start": 430.39,
+  "speechStart": 430.54,
+  "speechEnd": 432.02,
+  "text": "Three days at full speed.",
+  "end": 432.35
+ },
+ {
+  "i": 129,
+  "start": 432.35,
+  "speechStart": 432.5,
+  "speechEnd": 438.86,
+  "text": "You squint at every light. Your temples throb. Dr. Lee checks your pulse. 80 beats a minute. Normal.",
+  "end": 439.21
+ },
+ {
+  "i": 130,
+  "start": 439.21,
+  "speechStart": 439.36,
+  "speechEnd": 445.14,
+  "text": "But your brain is a marathon runner stuck in a sprint. Sleep, he says. Max, sleep!",
+  "end": 445.59
+ },
+ {
+  "i": 131,
+  "start": 445.59,
+  "speechStart": 445.74,
+  "speechEnd": 447.7,
+  "text": "Then there's the cost. Hunger.",
+  "end": 448.05
+ },
+ {
+  "i": 132,
+  "start": 448.05,
+  "speechStart": 448.2,
+  "speechEnd": 450.5,
+  "text": "Your brain is about 2 % of your body weight.",
+  "end": 450.35
+ },
+ {
+  "i": 133,
+  "start": 450.35,
+  "speechStart": 450.5,
+  "speechEnd": 452.88,
+  "text": "It burns about 20 % of your energy.",
+  "end": 453.13
+ },
+ {
+  "i": 134,
+  "start": 453.13,
+  "speechStart": 453.28,
+  "speechEnd": 454.54,
+  "text": "That's around 20 watts.",
+  "end": 454.85
+ },
+ {
+  "i": 135,
+  "start": 454.85,
+  "speechStart": 455.0,
+  "speechEnd": 457.04,
+  "text": "10 times faster means around 200.",
+  "end": 457.53
+ },
+ {
+  "i": 136,
+  "start": 457.53,
+  "speechStart": 457.68,
+  "speechEnd": 464.0,
+  "text": "A whole resting body runs on about 100. So you eat. Breakfast. Second breakfast. Third.",
+  "end": 464.31
+ },
+ {
+  "i": 137,
+  "start": 464.31,
+  "speechStart": 464.46,
+  "speechEnd": 466.6,
+  "text": "Leo counts. That's your fifth sandwich.",
+  "end": 466.95
+ },
+ {
+  "i": 138,
+  "start": 466.95,
+  "speechStart": 467.1,
+  "speechEnd": 468.52,
+  "text": "It's my brain's fifth sandwich.",
+  "end": 468.81
+ },
+ {
+  "i": 139,
+  "start": 468.81,
+  "speechStart": 468.96,
+  "speechEnd": 470.38,
+  "text": "And still, you're hungry.",
+  "end": 470.79
+ },
+ {
+  "i": 140,
+  "start": 470.79,
+  "speechStart": 470.94,
+  "speechEnd": 477.96,
+  "text": "At night, your stomach growls so loud your sister bangs on the wall. Quiet! Some of us are sleeping! You are not.",
+  "end": 478.29
+ },
+ {
+  "i": 141,
+  "start": 478.29,
+  "speechStart": 478.44,
+  "speechEnd": 480.04,
+  "text": "Your brain is replaying Tuesday.",
+  "end": 479.89
+ },
+ {
+  "i": 142,
+  "start": 479.89,
+  "speechStart": 480.04,
+  "speechEnd": 482.98,
+  "text": "For the ninth time. Then the clip.",
+  "end": 483.17
+ },
+ {
+  "i": 143,
+  "start": 483.17,
+  "speechStart": 483.32,
+  "speechEnd": 486.98,
+  "text": "Leo films you catching three pens at once. Posted as a joke.",
+  "end": 487.39
+ },
+ {
+  "i": 144,
+  "start": 487.39,
+  "speechStart": 487.54,
+  "speechEnd": 489.6,
+  "text": "By morning, 40 ,000 views.",
+  "end": 489.99
+ },
+ {
+  "i": 145,
+  "start": 489.99,
+  "speechStart": 490.14,
+  "speechEnd": 492.2,
+  "text": "By lunch, 200 ,000.",
+  "end": 492.49
+ },
+ {
+  "i": 146,
+  "start": 492.49,
+  "speechStart": 492.64,
+  "speechEnd": 495.94,
+  "text": "Comments say, fake. Edited. Maybe real.",
+  "end": 496.29
+ },
+ {
+  "i": 147,
+  "start": 496.29,
+  "speechStart": 496.44,
+  "speechEnd": 502.72,
+  "text": "And one comment, from an account with no photo, says, Very impressive, Max. We'd love to meet you. Wait.",
+  "end": 503.01
+ },
+ {
+  "i": 148,
+  "start": 503.01,
+  "speechStart": 503.16,
+  "speechEnd": 503.98,
+  "text": "They know your name.",
+  "end": 504.53
+ },
+ {
+  "i": 149,
+  "start": 504.53,
+  "speechStart": 504.68,
+  "speechEnd": 509.0,
+  "text": "Here's the part nobody warns you about. Boredom. Not the sleepy kind.",
+  "end": 508.85
+ },
+ {
+  "i": 150,
+  "start": 508.85,
+  "speechStart": 509.0,
+  "speechEnd": 510.3,
+  "text": "The loud kind.",
+  "end": 510.73
+ },
+ {
+  "i": 151,
+  "start": 510.73,
+  "speechStart": 510.88,
+  "speechEnd": 513.76,
+  "text": "Deep in your brain, a small group of cells release dopamine.",
+  "end": 514.17
+ },
+ {
+  "i": 152,
+  "start": 514.17,
+  "speechStart": 514.32,
+  "speechEnd": 518.3,
+  "text": "They fire hardest, not when something is good, but when it's better than expected.",
+  "end": 518.65
+ },
+ {
+  "i": 153,
+  "start": 518.65,
+  "speechStart": 518.8,
+  "speechEnd": 525.58,
+  "text": "A reward you predicted barely makes them whisper. Now think about your brain. You predict everything. The punchline.",
+  "end": 525.71
+ },
+ {
+  "i": 154,
+  "start": 525.71,
+  "speechStart": 525.86,
+  "speechEnd": 527.74,
+  "text": "The plot twist. The cake in the box.",
+  "end": 527.89
+ },
+ {
+  "i": 155,
+  "start": 527.89,
+  "speechStart": 528.04,
+  "speechEnd": 530.28,
+  "text": "What your mom will say before she opens her mouth.",
+  "end": 530.51
+ },
+ {
+  "i": 156,
+  "start": 530.51,
+  "speechStart": 530.66,
+  "speechEnd": 534.4,
+  "text": "So the spark never lights. Not once. A birthday party.",
+  "end": 534.65
+ },
+ {
+  "i": 157,
+  "start": 534.65,
+  "speechStart": 534.8,
+  "speechEnd": 537.0,
+  "text": "You knew about it three days ago. A movie.",
+  "end": 536.85
+ },
+ {
+  "i": 158,
+  "start": 536.85,
+  "speechStart": 537.0,
+  "speechEnd": 539.9,
+  "text": "You know the ending in 10 minutes. A song.",
+  "end": 540.15
+ },
+ {
+  "i": 159,
+  "start": 540.15,
+  "speechStart": 540.3,
+  "speechEnd": 541.96,
+  "text": "You hear the next note before it plays.",
+  "end": 542.39
+ },
+ {
+  "i": 160,
+  "start": 542.39,
+  "speechStart": 542.54,
+  "speechEnd": 548.38,
+  "text": "Your favorite song feels like a calendar. Even jokes. Leo starts one. You already know the end.",
+  "end": 548.63
+ },
+ {
+  "i": 161,
+  "start": 548.63,
+  "speechStart": 548.78,
+  "speechEnd": 550.36,
+  "text": "You smile anyway. Politely.",
+  "end": 550.73
+ },
+ {
+  "i": 162,
+  "start": 550.73,
+  "speechStart": 550.88,
+  "speechEnd": 553.88,
+  "text": "It's the smile you've practiced. Then come the nights.",
+  "end": 554.31
+ },
+ {
+  "i": 163,
+  "start": 554.31,
+  "speechStart": 554.46,
+  "speechEnd": 559.08,
+  "text": "Your thoughts don't turn off. They replay your day. Again. And again.",
+  "end": 559.43
+ },
+ {
+  "i": 164,
+  "start": 559.43,
+  "speechStart": 559.58,
+  "speechEnd": 562.24,
+  "text": "10 times before midnight. Your head pounds.",
+  "end": 562.49
+ },
+ {
+  "i": 165,
+  "start": 562.49,
+  "speechStart": 562.64,
+  "speechEnd": 565.78,
+  "text": "Your hands shake when you skip a meal. And you hide it all.",
+  "end": 565.63
+ },
+ {
+  "i": 166,
+  "start": 565.63,
+  "speechStart": 565.78,
+  "speechEnd": 569.24,
+  "text": "You count to two before you answer. You pause on purpose.",
+  "end": 569.65
+ },
+ {
+  "i": 167,
+  "start": 569.65,
+  "speechStart": 569.8,
+  "speechEnd": 572.12,
+  "text": "You fake a frown when someone asks something simple.",
+  "end": 572.53
+ },
+ {
+  "i": 168,
+  "start": 572.53,
+  "speechStart": 572.68,
+  "speechEnd": 574.16,
+  "text": "Being normal is hard work.",
+  "end": 574.47
+ },
+ {
+  "i": 169,
+  "start": 574.47,
+  "speechStart": 574.62,
+  "speechEnd": 578.2,
+  "text": "It's like walking in slow motion through a crowd that thinks you're just walking.",
+  "end": 578.55
+ },
+ {
+  "i": 170,
+  "start": 578.55,
+  "speechStart": 578.7,
+  "speechEnd": 585.0,
+  "text": "And somewhere out there, someone is watching your clip again. Slowly. Frame by frame. Taking notes.",
+  "end": 585.61
+ },
+ {
+  "i": 171,
+  "start": 585.61,
+  "speechStart": 585.76,
+  "speechEnd": 588.74,
+  "text": "Then there's Mia. Your sister. 11 years old.",
+  "end": 588.95
+ },
+ {
+  "i": 172,
+  "start": 588.95,
+  "speechStart": 589.1,
+  "speechEnd": 594.14,
+  "text": "Dinner is her favorite time. She tells you about her day. Slowly. Every detail.",
+  "end": 593.99
+ },
+ {
+  "i": 173,
+  "start": 593.99,
+  "speechStart": 594.14,
+  "speechEnd": 596.98,
+  "text": "The substitute teacher. A shoe that squeaked.",
+  "end": 597.17
+ },
+ {
+  "i": 174,
+  "start": 597.17,
+  "speechStart": 597.32,
+  "speechEnd": 600.58,
+  "text": "You've guessed the ending by her second sentence. But you listen anyway.",
+  "end": 600.87
+ },
+ {
+  "i": 175,
+  "start": 600.87,
+  "speechStart": 601.02,
+  "speechEnd": 603.96,
+  "text": "Her voice is the only sound that feels like real time.",
+  "end": 604.11
+ },
+ {
+  "i": 176,
+  "start": 604.11,
+  "speechStart": 604.26,
+  "speechEnd": 607.38,
+  "text": "And she is the only person in the world you can't predict.",
+  "end": 607.75
+ },
+ {
+  "i": 177,
+  "start": 607.75,
+  "speechStart": 607.9,
+  "speechEnd": 611.88,
+  "text": "One night, she announces she wants a hamster. You guessed pizza. Wrong.",
+  "end": 612.19
+ },
+ {
+  "i": 178,
+  "start": 612.19,
+  "speechStart": 612.34,
+  "speechEnd": 614.22,
+  "text": "She says the hamster should be named Doctor.",
+  "end": 614.57
+ },
+ {
+  "i": 179,
+  "start": 614.57,
+  "speechStart": 614.72,
+  "speechEnd": 617.16,
+  "text": "You never saw that coming. Not even a little.",
+  "end": 617.41
+ },
+ {
+  "i": 180,
+  "start": 617.41,
+  "speechStart": 617.56,
+  "speechEnd": 622.62,
+  "text": "And for one heartbeat, something flickers. A tiny spark. Then it's gone.",
+  "end": 622.47
+ },
+ {
+  "i": 181,
+  "start": 622.47,
+  "speechStart": 622.62,
+  "speechEnd": 627.02,
+  "text": "When she was five, thunder terrified her. So you invented a game.",
+  "end": 627.27
+ },
+ {
+  "i": 182,
+  "start": 627.27,
+  "speechStart": 627.42,
+  "speechEnd": 634.04,
+  "text": "If you ever yell pancake, she drops flat on the floor and rolls toward your voice. Fast. Safe. Straight to you.",
+  "end": 634.31
+ },
+ {
+  "i": 183,
+  "start": 634.31,
+  "speechStart": 634.46,
+  "speechEnd": 639.16,
+  "text": "Silly but sweet. She's 11 now. She still does it. After rolling her eyes.",
+  "end": 639.53
+ },
+ {
+  "i": 184,
+  "start": 639.53,
+  "speechStart": 639.68,
+  "speechEnd": 641.22,
+  "text": "Her school talent show is on Friday.",
+  "end": 641.41
+ },
+ {
+  "i": 185,
+  "start": 641.41,
+  "speechStart": 641.56,
+  "speechEnd": 642.76,
+  "text": "In the Old City Theater.",
+  "end": 643.29
+ },
+ {
+  "i": 186,
+  "start": 643.29,
+  "speechStart": 643.44,
+  "speechEnd": 646.18,
+  "text": "She has four minutes of the worst jokes in town.",
+  "end": 646.39
+ },
+ {
+  "i": 187,
+  "start": 646.39,
+  "speechStart": 646.54,
+  "speechEnd": 648.62,
+  "text": "Every evening, she practices in the kitchen.",
+  "end": 649.11
+ },
+ {
+  "i": 188,
+  "start": 649.11,
+  "speechStart": 649.26,
+  "speechEnd": 650.66,
+  "text": "Every evening, you listen.",
+  "end": 650.51
+ },
+ {
+  "i": 189,
+  "start": 650.51,
+  "speechStart": 650.66,
+  "speechEnd": 657.06,
+  "text": "And every evening, you know what's coming. Tonight, she finishes. Ta -da! You clap.",
+  "end": 657.43
+ },
+ {
+  "i": 190,
+  "start": 657.43,
+  "speechStart": 657.58,
+  "speechEnd": 660.8,
+  "text": "She looks at you. You didn't laugh. You used to laugh.",
+  "end": 661.09
+ },
+ {
+  "i": 191,
+  "start": 661.09,
+  "speechStart": 661.24,
+  "speechEnd": 667.74,
+  "text": "Now you just… wait. Her voice is small. Come Friday, okay? Sit in the back. Don't leave.",
+  "end": 668.09
+ },
+ {
+  "i": 192,
+  "start": 668.09,
+  "speechStart": 668.24,
+  "speechEnd": 668.72,
+  "text": "You promise.",
+  "end": 669.25
+ },
+ {
+  "i": 193,
+  "start": 669.25,
+  "speechStart": 669.4,
+  "speechEnd": 670.96,
+  "text": "Above your desk hangs her drawing.",
+  "end": 671.15
+ },
+ {
+  "i": 194,
+  "start": 671.15,
+  "speechStart": 671.3,
+  "speechEnd": 673.62,
+  "text": "A boy with a giant head and tiny legs.",
+  "end": 673.89
+ },
+ {
+  "i": 195,
+  "start": 673.89,
+  "speechStart": 674.04,
+  "speechEnd": 676.18,
+  "text": "Under it, my brother, the brain.",
+  "end": 676.61
+ },
+ {
+  "i": 196,
+  "start": 676.61,
+  "speechStart": 676.76,
+  "speechEnd": 678.78,
+  "text": "The legs, she says, are the funny part.",
+  "end": 678.63
+ },
+ {
+  "i": 197,
+  "start": 678.63,
+  "speechStart": 678.78,
+  "speechEnd": 684.16,
+  "text": "Later, you lie awake. You count her jokes. 41. You know everyone.",
+  "end": 684.67
+ },
+ {
+  "i": 198,
+  "start": 684.67,
+  "speechStart": 684.82,
+  "speechEnd": 687.9,
+  "text": "You'd give a lot to be surprised by just one. Dr.",
+  "end": 687.91
+ },
+ {
+  "i": 199,
+  "start": 687.91,
+  "speechStart": 688.06,
+  "speechEnd": 690.64,
+  "text": "Lee gives you three rules. Eat. Sleep.",
+  "end": 690.95
+ },
+ {
+  "i": 200,
+  "start": 690.95,
+  "speechStart": 691.1,
+  "speechEnd": 694.02,
+  "text": "And if anyone offers you a fortune, record every word.",
+  "end": 694.45
+ },
+ {
+  "i": 201,
+  "start": 694.45,
+  "speechStart": 694.6,
+  "speechEnd": 696.94,
+  "text": "On Wednesday, a gray car stops at your gate.",
+  "end": 697.19
+ },
+ {
+  "i": 202,
+  "start": 697.19,
+  "speechStart": 697.34,
+  "speechEnd": 702.5,
+  "text": "A tall man in a gray coat steps out. Mr. Black. Holden Institute. We saw your clip.",
+  "end": 702.89
+ },
+ {
+  "i": 203,
+  "start": 702.89,
+  "speechStart": 703.04,
+  "speechEnd": 708.3,
+  "text": "His smile is perfect. Too perfect. Two million. A private lab. A team.",
+  "end": 708.15
+ },
+ {
+  "i": 204,
+  "start": 708.15,
+  "speechStart": 708.3,
+  "speechEnd": 714.76,
+  "text": "All the food you can eat. You'd live on sight. What about my sister? She can visit. Weekends. Maybe.",
+  "end": 715.13
+ },
+ {
+  "i": 205,
+  "start": 715.13,
+  "speechStart": 715.28,
+  "speechEnd": 721.92,
+  "text": "He slides a contract across the table. Sign by Friday. Read it fast. We know you can. He laughs at his own joke.",
+  "end": 722.27
+ },
+ {
+  "i": 206,
+  "start": 722.27,
+  "speechStart": 722.42,
+  "speechEnd": 726.28,
+  "text": "You press record on your phone. Quietly. Dr. Lee would be proud.",
+  "end": 726.65
+ },
+ {
+  "i": 207,
+  "start": 726.65,
+  "speechStart": 726.8,
+  "speechEnd": 731.72,
+  "text": "Friday, 7 p .m. The Old City Theater. Gold curtains. Dusty velvet.",
+  "end": 732.09
+ },
+ {
+  "i": 208,
+  "start": 732.09,
+  "speechStart": 732.24,
+  "speechEnd": 736.46,
+  "text": "You sit in the very last row, 30 meters from the stage, because you promised.",
+  "end": 736.31
+ },
+ {
+  "i": 209,
+  "start": 736.31,
+  "speechStart": 736.46,
+  "speechEnd": 740.5,
+  "text": "You skip dinner to finish Mia's costume. Your stomach growls.",
+  "end": 740.75
+ },
+ {
+  "i": 210,
+  "start": 740.75,
+  "speechStart": 740.9,
+  "speechEnd": 742.16,
+  "text": "Leo sits beside you.",
+  "end": 742.31
+ },
+ {
+  "i": 211,
+  "start": 742.31,
+  "speechStart": 742.46,
+  "speechEnd": 748.88,
+  "text": "And in the third row, a gray coat. Mr. Black. Waiting. Mia walks on stage. Center.",
+  "end": 749.13
+ },
+ {
+  "i": 212,
+  "start": 749.13,
+  "speechStart": 749.28,
+  "speechEnd": 755.72,
+  "text": "Spotlight. She tells her first joke. The crowd laughs. You don't. You're scanning. You always are.",
+  "end": 756.09
+ },
+ {
+  "i": 213,
+  "start": 756.09,
+  "speechStart": 756.24,
+  "speechEnd": 762.54,
+  "text": "20 meters above her hangs the lighting rig. A steel frame. 12 heavy lights. Then you hear it. Tink.",
+  "end": 762.91
+ },
+ {
+  "i": 214,
+  "start": 762.91,
+  "speechStart": 763.06,
+  "speechEnd": 763.94,
+  "text": "A tiny sound.",
+  "end": 764.25
+ },
+ {
+  "i": 215,
+  "start": 764.25,
+  "speechStart": 764.4,
+  "speechEnd": 765.68,
+  "text": "A normal ear hears nothing.",
+  "end": 765.53
+ },
+ {
+  "i": 216,
+  "start": 765.53,
+  "speechStart": 765.68,
+  "speechEnd": 772.46,
+  "text": "You hear arithmetic. A cable strand. Snapping. Tink. Two. Tink. Three.",
+  "end": 772.83
+ },
+ {
+  "i": 217,
+  "start": 772.83,
+  "speechStart": 772.98,
+  "speechEnd": 774.14,
+  "text": "Your blood goes cold.",
+  "end": 774.49
+ },
+ {
+  "i": 218,
+  "start": 774.49,
+  "speechStart": 774.64,
+  "speechEnd": 779.32,
+  "text": "16 strands hold that rig. Five are gone. Now six. Seven.",
+  "end": 779.63
+ },
+ {
+  "i": 219,
+  "start": 779.63,
+  "speechStart": 779.78,
+  "speechEnd": 785.88,
+  "text": "The rest will give way in about one second. One second. For you, 10. Your thoughts sprint.",
+  "end": 786.13
+ },
+ {
+  "i": 220,
+  "start": 786.13,
+  "speechStart": 786.28,
+  "speechEnd": 787.84,
+  "text": "Your body stays in the chair.",
+  "end": 788.19
+ },
+ {
+  "i": 221,
+  "start": 788.19,
+  "speechStart": 788.34,
+  "speechEnd": 790.8,
+  "text": "A rig falling 20 meters takes two seconds.",
+  "end": 791.07
+ },
+ {
+  "i": 222,
+  "start": 791.07,
+  "speechStart": 791.22,
+  "speechEnd": 793.46,
+  "text": "It hits at nearly 70 kilometers per hour.",
+  "end": 793.71
+ },
+ {
+  "i": 223,
+  "start": 793.71,
+  "speechStart": 793.86,
+  "speechEnd": 796.04,
+  "text": "Mia is right beneath it. Smiling.",
+  "end": 796.29
+ },
+ {
+  "i": 224,
+  "start": 796.29,
+  "speechStart": 796.44,
+  "speechEnd": 797.94,
+  "text": "You are 30 meters away.",
+  "end": 798.21
+ },
+ {
+  "i": 225,
+  "start": 798.21,
+  "speechStart": 798.36,
+  "speechEnd": 803.4,
+  "text": "A fit teenager sprints about eight meters per second. 30 meters? Nearly four seconds.",
+  "end": 803.79
+ },
+ {
+  "i": 226,
+  "start": 803.79,
+  "speechStart": 803.94,
+  "speechEnd": 807.44,
+  "text": "Stairs, seats, legs. Not enough. Not even close.",
+  "end": 807.87
+ },
+ {
+  "i": 227,
+  "start": 807.87,
+  "speechStart": 808.02,
+  "speechEnd": 810.32,
+  "text": "Ten times the thinking gives you a hundred plans.",
+  "end": 810.55
+ },
+ {
+  "i": 228,
+  "start": 810.55,
+  "speechStart": 810.7,
+  "speechEnd": 811.94,
+  "text": "Not one of them has legs.",
+  "end": 812.25
+ },
+ {
+  "i": 229,
+  "start": 812.25,
+  "speechStart": 812.4,
+  "speechEnd": 817.66,
+  "text": "Every plan ends the same way. Too late. Your brain got faster. Your legs didn't.",
+  "end": 817.93
+ },
+ {
+  "i": 230,
+  "start": 817.93,
+  "speechStart": 818.08,
+  "speechEnd": 821.56,
+  "text": "You scan the room like a map. Row 12. Row 11.",
+  "end": 821.97
+ },
+ {
+  "i": 231,
+  "start": 821.97,
+  "speechStart": 822.12,
+  "speechEnd": 824.1,
+  "text": "A man with a giant popcorn tub.",
+  "end": 823.95
+ },
+ {
+  "i": 232,
+  "start": 823.95,
+  "speechStart": 824.1,
+  "speechEnd": 825.66,
+  "text": "A child on the aisle.",
+  "end": 826.09
+ },
+ {
+  "i": 233,
+  "start": 826.09,
+  "speechStart": 826.24,
+  "speechEnd": 827.62,
+  "text": "40 steps to the stage.",
+  "end": 827.87
+ },
+ {
+  "i": 234,
+  "start": 827.87,
+  "speechStart": 828.02,
+  "speechEnd": 831.0,
+  "text": "Each one a chance to trip. A hundred plans.",
+  "end": 831.31
+ },
+ {
+  "i": 235,
+  "start": 831.31,
+  "speechStart": 831.46,
+  "speechEnd": 834.24,
+  "text": "A hundred ways to be late. Your chest tightens.",
+  "end": 834.43
+ },
+ {
+  "i": 236,
+  "start": 834.43,
+  "speechStart": 834.58,
+  "speechEnd": 837.64,
+  "text": "Your thoughts have never felt so slow. Think!",
+  "end": 838.09
+ },
+ {
+  "i": 237,
+  "start": 838.09,
+  "speechStart": 838.24,
+  "speechEnd": 841.22,
+  "text": "Your vision goes gray at the edges. Your hands shake.",
+  "end": 841.49
+ },
+ {
+  "i": 238,
+  "start": 841.49,
+  "speechStart": 841.64,
+  "speechEnd": 842.92,
+  "text": "Your brain is starving.",
+  "end": 843.33
+ },
+ {
+  "i": 239,
+  "start": 843.33,
+  "speechStart": 843.48,
+  "speechEnd": 845.96,
+  "text": "200 watts and no dinner. Think!",
+  "end": 846.37
+ },
+ {
+  "i": 240,
+  "start": 846.37,
+  "speechStart": 846.52,
+  "speechEnd": 849.52,
+  "text": "Sound travels about 340 meters per second.",
+  "end": 849.81
+ },
+ {
+  "i": 241,
+  "start": 849.81,
+  "speechStart": 849.96,
+  "speechEnd": 852.22,
+  "text": "30 meters takes nine hundredths of a second.",
+  "end": 852.07
+ },
+ {
+  "i": 242,
+  "start": 852.07,
+  "speechStart": 852.22,
+  "speechEnd": 857.38,
+  "text": "Your legs are too slow. Your voice isn't. But what do you shout? Look out!",
+  "end": 857.73
+ },
+ {
+  "i": 243,
+  "start": 857.73,
+  "speechStart": 857.88,
+  "speechEnd": 859.18,
+  "text": "Panic makes people freeze.",
+  "end": 859.61
+ },
+ {
+  "i": 244,
+  "start": 859.61,
+  "speechStart": 859.76,
+  "speechEnd": 862.02,
+  "text": "She would need a quarter of a second just to hear it.",
+  "end": 862.15
+ },
+ {
+  "i": 245,
+  "start": 862.15,
+  "speechStart": 862.3,
+  "speechEnd": 865.04,
+  "text": "Then more time to understand it. Too slow.",
+  "end": 865.45
+ },
+ {
+  "i": 246,
+  "start": 865.45,
+  "speechStart": 865.6,
+  "speechEnd": 867.36,
+  "text": "You need a word that needs no thinking.",
+  "end": 867.61
+ },
+ {
+  "i": 247,
+  "start": 867.61,
+  "speechStart": 867.76,
+  "speechEnd": 869.56,
+  "text": "A word she's heard a hundred times.",
+  "end": 869.75
+ },
+ {
+  "i": 248,
+  "start": 869.75,
+  "speechStart": 869.9,
+  "speechEnd": 873.1,
+  "text": "A word that sends her toward you. And then you see the price.",
+  "end": 873.49
+ },
+ {
+  "i": 249,
+  "start": 873.49,
+  "speechStart": 873.64,
+  "speechEnd": 875.64,
+  "text": "If you shout now, everyone will turn.",
+  "end": 875.87
+ },
+ {
+  "i": 250,
+  "start": 875.87,
+  "speechStart": 876.02,
+  "speechEnd": 880.32,
+  "text": "Everyone will wonder how you knew. Mr. Black will know. The cameras will know.",
+  "end": 880.17
+ },
+ {
+  "i": 251,
+  "start": 880.17,
+  "speechStart": 880.32,
+  "speechEnd": 882.46,
+  "text": "Your normal life will be over.",
+  "end": 882.93
+ },
+ {
+  "i": 252,
+  "start": 882.93,
+  "speechStart": 883.08,
+  "speechEnd": 885.32,
+  "text": "Stay quiet and your secret stays safe.",
+  "end": 885.55
+ },
+ {
+  "i": 253,
+  "start": 885.55,
+  "speechStart": 885.7,
+  "speechEnd": 887.46,
+  "text": "Shout and she stays alive.",
+  "end": 887.89
+ },
+ {
+  "i": 254,
+  "start": 887.89,
+  "speechStart": 888.04,
+  "speechEnd": 894.08,
+  "text": "The secret or the sister? There's no third option. You stand on your chair. Anyone can be fast.",
+  "end": 894.39
+ },
+ {
+  "i": 255,
+  "start": 894.39,
+  "speechStart": 894.54,
+  "speechEnd": 900.38,
+  "text": "There's only one Mia. Pancake! The theater turns. Mia freezes. One tenth.",
+  "end": 900.77
+ },
+ {
+  "i": 256,
+  "start": 900.77,
+  "speechStart": 900.92,
+  "speechEnd": 901.6,
+  "text": "Two tenths.",
+  "end": 901.69
+ },
+ {
+  "i": 257,
+  "start": 901.69,
+  "speechStart": 901.84,
+  "speechEnd": 908.34,
+  "text": "Then she drops. Flat. She rolls. Toward your voice. Toward the edge. Over it.",
+  "end": 908.19
+ },
+ {
+  "i": 258,
+  "start": 908.19,
+  "speechStart": 908.34,
+  "speechEnd": 910.0,
+  "text": "Into the empty front row.",
+  "end": 910.37
+ },
+ {
+  "i": 259,
+  "start": 910.37,
+  "speechStart": 910.52,
+  "speechEnd": 917.6,
+  "text": "The rig hits the stage where she stood. Steel. Glass. Dust. Silence. Then screaming.",
+  "end": 918.07
+ },
+ {
+  "i": 260,
+  "start": 918.07,
+  "speechStart": 918.22,
+  "speechEnd": 921.9,
+  "text": "Your knees fold. The room goes dark. Leo catches you.",
+  "end": 922.11
+ },
+ {
+  "i": 261,
+  "start": 922.11,
+  "speechStart": 922.26,
+  "speechEnd": 928.44,
+  "text": "You wake up on the carpet with a sandwich in your hand. Leo shoved it there. Mia is alive. A scraped elbow.",
+  "end": 928.75
+ },
+ {
+  "i": 262,
+  "start": 928.75,
+  "speechStart": 928.9,
+  "speechEnd": 930.62,
+  "text": "A torn costume. That's it.",
+  "end": 930.85
+ },
+ {
+  "i": 263,
+  "start": 930.85,
+  "speechStart": 931.0,
+  "speechEnd": 933.84,
+  "text": "She crashes into you so hard you almost fall again.",
+  "end": 934.09
+ },
+ {
+  "i": 264,
+  "start": 934.09,
+  "speechStart": 934.24,
+  "speechEnd": 940.96,
+  "text": "How, how did you know? She whispers. You say nothing. You look around. Phones are up. Dozens.",
+  "end": 941.25
+ },
+ {
+  "i": 265,
+  "start": 941.25,
+  "speechStart": 941.4,
+  "speechEnd": 942.06,
+  "text": "All recording.",
+  "end": 942.37
+ },
+ {
+  "i": 266,
+  "start": 942.37,
+  "speechStart": 942.52,
+  "speechEnd": 948.48,
+  "text": "And a gray coat is already walking down the aisle. Mr. Black. Smiling. That was extraordinary.",
+  "end": 949.07
+ },
+ {
+  "i": 267,
+  "start": 949.07,
+  "speechStart": 949.22,
+  "speechEnd": 949.78,
+  "text": "Come with us.",
+  "end": 949.93
+ },
+ {
+  "i": 268,
+  "start": 949.93,
+  "speechStart": 950.08,
+  "speechEnd": 951.64,
+  "text": "We'll make sure nobody bothers you.",
+  "end": 951.79
+ },
+ {
+  "i": 269,
+  "start": 951.79,
+  "speechStart": 951.94,
+  "speechEnd": 958.16,
+  "text": "Your family will be taken care of. Two million. Sign tonight. You could do something else. You could outthink him.",
+  "end": 958.35
+ },
+ {
+  "i": 270,
+  "start": 958.35,
+  "speechStart": 958.5,
+  "speechEnd": 961.76,
+  "text": "Outsmart every lawyer in his building. Ruin him in a day.",
+  "end": 962.03
+ },
+ {
+  "i": 271,
+  "start": 962.03,
+  "speechStart": 962.18,
+  "speechEnd": 963.84,
+  "text": "But then you'd be just like him.",
+  "end": 964.01
+ },
+ {
+  "i": 272,
+  "start": 964.01,
+  "speechStart": 964.16,
+  "speechEnd": 969.38,
+  "text": "Instead you do the simplest thing. You tell the truth. Dr. Lee pushes through the crowd.",
+  "end": 969.47
+ },
+ {
+  "i": 273,
+  "start": 969.47,
+  "speechStart": 969.62,
+  "speechEnd": 973.74,
+  "text": "Out of breath holding the contract. He's read it twice. Clause 9.",
+  "end": 973.93
+ },
+ {
+  "i": 274,
+  "start": 973.93,
+  "speechStart": 974.08,
+  "speechEnd": 979.88,
+  "text": "Subject remains on site. Indefinitely. Clause 14. Phase 3. Acceleration.",
+  "end": 980.51
+ },
+ {
+  "i": 275,
+  "start": 980.51,
+  "speechStart": 980.66,
+  "speechEnd": 984.76,
+  "text": "They don't want to study him. Dr. Lee tells the room. They want to push him.",
+  "end": 984.99
+ },
+ {
+  "i": 276,
+  "start": 984.99,
+  "speechStart": 985.14,
+  "speechEnd": 987.5,
+  "text": "His brain already burns about 200 watts.",
+  "end": 987.79
+ },
+ {
+  "i": 277,
+  "start": 987.79,
+  "speechStart": 987.94,
+  "speechEnd": 994.82,
+  "text": "Push it harder and it overheats. And starves. Silence. You hold up your phone. You press play.",
+  "end": 994.67
+ },
+ {
+  "i": 278,
+  "start": 994.67,
+  "speechStart": 994.82,
+  "speechEnd": 1000.9,
+  "text": "Black's voice fills the theater. She can visit. Weekends. Maybe. A mother gasps.",
+  "end": 1001.29
+ },
+ {
+  "i": 279,
+  "start": 1001.29,
+  "speechStart": 1001.44,
+  "speechEnd": 1002.76,
+  "text": "A reporter lifts her notebook.",
+  "end": 1003.11
+ },
+ {
+  "i": 280,
+  "start": 1003.11,
+  "speechStart": 1003.26,
+  "speechEnd": 1005.48,
+  "text": "The manager crosses his arms. Mr.",
+  "end": 1005.49
+ },
+ {
+  "i": 281,
+  "start": 1005.49,
+  "speechStart": 1005.64,
+  "speechEnd": 1011.38,
+  "text": "Black's perfect smile cracks. He steps back. Then back again. Then he leaves.",
+  "end": 1011.83
+ },
+ {
+  "i": 282,
+  "start": 1011.83,
+  "speechStart": 1011.98,
+  "speechEnd": 1014.12,
+  "text": "Nobody chases him. Nobody needs to.",
+  "end": 1014.41
+ },
+ {
+  "i": 283,
+  "start": 1014.41,
+  "speechStart": 1014.56,
+  "speechEnd": 1015.9,
+  "text": "The truth is heavy enough.",
+  "end": 1016.29
+ },
+ {
+  "i": 284,
+  "start": 1016.29,
+  "speechStart": 1016.44,
+  "speechEnd": 1018.1,
+  "text": "Real offers never rush you.",
+  "end": 1018.27
+ },
+ {
+  "i": 285,
+  "start": 1018.27,
+  "speechStart": 1018.42,
+  "speechEnd": 1024.34,
+  "text": "And real contracts never hide the exit. Read twice. Always. Leo pats your shoulder.",
+  "end": 1024.19
+ },
+ {
+  "i": 286,
+  "start": 1024.19,
+  "speechStart": 1024.34,
+  "speechEnd": 1025.02,
+  "text": "Mate.",
+  "end": 1025.35
+ },
+ {
+  "i": 287,
+  "start": 1025.35,
+  "speechStart": 1025.5,
+  "speechEnd": 1027.48,
+  "text": "You just beat the smartest man in the room.",
+  "end": 1027.57
+ },
+ {
+  "i": 288,
+  "start": 1027.57,
+  "speechStart": 1027.72,
+  "speechEnd": 1030.0,
+  "text": "By not being clever at all. You nod.",
+  "end": 1030.37
+ },
+ {
+  "i": 289,
+  "start": 1030.37,
+  "speechStart": 1030.52,
+  "speechEnd": 1032.4,
+  "text": "For once you don't plan your answer.",
+  "end": 1032.59
+ },
+ {
+  "i": 290,
+  "start": 1032.59,
+  "speechStart": 1032.74,
+  "speechEnd": 1034.08,
+  "text": "You just feel it.",
+  "end": 1034.33
+ },
+ {
+  "i": 291,
+  "start": 1034.33,
+  "speechStart": 1034.48,
+  "speechEnd": 1037.94,
+  "text": "The manager apologizes to Mia. To the crowd. To you.",
+  "end": 1038.23
+ },
+ {
+  "i": 292,
+  "start": 1038.23,
+  "speechStart": 1038.38,
+  "speechEnd": 1042.4,
+  "text": "Then Mia asks to finish her act. Right there. On a broken stage.",
+  "end": 1042.81
+ },
+ {
+  "i": 293,
+  "start": 1042.81,
+  "speechStart": 1042.96,
+  "speechEnd": 1044.24,
+  "text": "The crowd sits back down.",
+  "end": 1044.47
+ },
+ {
+  "i": 294,
+  "start": 1044.47,
+  "speechStart": 1044.62,
+  "speechEnd": 1049.38,
+  "text": "She tells her last joke. Everyone laughs. Even Leo. Even Dr. Lee.",
+  "end": 1049.73
+ },
+ {
+  "i": 295,
+  "start": 1049.73,
+  "speechStart": 1049.88,
+  "speechEnd": 1053.78,
+  "text": "Later you and Mia sit on the edge of the ruined stage. Her feet swing.",
+  "end": 1053.63
+ },
+ {
+  "i": 296,
+  "start": 1053.63,
+  "speechStart": 1053.78,
+  "speechEnd": 1056.86,
+  "text": "By morning your clip has two million views.",
+  "end": 1057.03
+ },
+ {
+  "i": 297,
+  "start": 1057.03,
+  "speechStart": 1057.18,
+  "speechEnd": 1058.92,
+  "text": "But nobody is talking about the cable.",
+  "end": 1059.19
+ },
+ {
+  "i": 298,
+  "start": 1059.19,
+  "speechStart": 1059.34,
+  "speechEnd": 1061.88,
+  "text": "They're talking about one word. Pancake.",
+  "end": 1062.09
+ },
+ {
+  "i": 299,
+  "start": 1062.09,
+  "speechStart": 1062.24,
+  "speechEnd": 1068.9,
+  "text": "Mia hands you another sandwich. Eat. You obey. She grins. Hey Max. Want to hear a joke? Sure.",
+  "end": 1069.17
+ },
+ {
+  "i": 300,
+  "start": 1069.17,
+  "speechStart": 1069.32,
+  "speechEnd": 1070.74,
+  "text": "You'll know it. You always do.",
+  "end": 1071.05
+ },
+ {
+  "i": 301,
+  "start": 1071.05,
+  "speechStart": 1071.2,
+  "speechEnd": 1076.06,
+  "text": "What did the pancake say to the ceiling? You open your mouth. Nothing. No idea.",
+  "end": 1076.39
+ },
+ {
+  "i": 302,
+  "start": 1076.39,
+  "speechStart": 1076.54,
+  "speechEnd": 1082.36,
+  "text": "For the first time in months. No idea. Nothing. She says. It fell flat.",
+  "end": 1082.21
+ },
+ {
+  "i": 303,
+  "start": 1082.21,
+  "speechStart": 1082.36,
+  "speechEnd": 1086.7,
+  "text": "One second. Two. Then something warm. Something bright.",
+  "end": 1087.03
+ },
+ {
+  "i": 304,
+  "start": 1087.03,
+  "speechStart": 1087.18,
+  "speechEnd": 1092.98,
+  "text": "The spark finally lit up. You laugh. Loud. Messy. Ugly. Right on time.",
+  "end": 1093.31
+ },
+ {
+  "i": 305,
+  "start": 1093.31,
+  "speechStart": 1093.46,
+  "speechEnd": 1094.92,
+  "text": "And Mia laughs even harder.",
+  "end": 1095.13
+ },
+ {
+  "i": 306,
+  "start": 1095.13,
+  "speechStart": 1095.28,
+  "speechEnd": 1099.04,
+  "text": "Because she hasn't heard that sound in a year. Anyone can be fast.",
+  "end": 1099.33
+ },
+ {
+  "i": 307,
+  "start": 1099.33,
+  "speechStart": 1099.48,
+  "speechEnd": 1102.68,
+  "text": "There's only one Mia. Now what's real?",
+  "end": 1103.01
+ },
+ {
+  "i": 308,
+  "start": 1103.01,
+  "speechStart": 1103.16,
+  "speechEnd": 1105.48,
+  "text": "Let's separate fact from fiction. Fact.",
+  "end": 1105.85
+ },
+ {
+  "i": 309,
+  "start": 1105.85,
+  "speechStart": 1106.0,
+  "speechEnd": 1107.92,
+  "text": "Your brain weighs about one and a half kilograms.",
+  "end": 1108.47
+ },
+ {
+  "i": 310,
+  "start": 1108.47,
+  "speechStart": 1108.62,
+  "speechEnd": 1110.92,
+  "text": "It holds roughly 86 billion neurons.",
+  "end": 1110.77
+ },
+ {
+  "i": 311,
+  "start": 1110.77,
+  "speechStart": 1110.92,
+  "speechEnd": 1113.72,
+  "text": "It burns about 20 watts. Fiction.",
+  "end": 1113.95
+ },
+ {
+  "i": 312,
+  "start": 1113.95,
+  "speechStart": 1114.1,
+  "speechEnd": 1117.48,
+  "text": "No human has ever thought 10 times faster. Fact.",
+  "end": 1117.83
+ },
+ {
+  "i": 313,
+  "start": 1117.83,
+  "speechStart": 1117.98,
+  "speechEnd": 1121.26,
+  "text": "Nerve signals top out near 120 meters per second.",
+  "end": 1121.41
+ },
+ {
+  "i": 314,
+  "start": 1121.41,
+  "speechStart": 1121.56,
+  "speechEnd": 1124.2,
+  "text": "That's a speed limit built into the wiring. Fact.",
+  "end": 1124.57
+ },
+ {
+  "i": 315,
+  "start": 1124.57,
+  "speechStart": 1124.72,
+  "speechEnd": 1126.92,
+  "text": "Most people react in about a quarter of a second.",
+  "end": 1127.15
+ },
+ {
+  "i": 316,
+  "start": 1127.15,
+  "speechStart": 1127.3,
+  "speechEnd": 1128.66,
+  "text": "Athletes shave a little off.",
+  "end": 1128.83
+ },
+ {
+  "i": 317,
+  "start": 1128.83,
+  "speechStart": 1128.98,
+  "speechEnd": 1131.7,
+  "text": "Nobody gets near two and a half hundredths. Fact.",
+  "end": 1132.01
+ },
+ {
+  "i": 318,
+  "start": 1132.01,
+  "speechStart": 1132.16,
+  "speechEnd": 1137.12,
+  "text": "In 2007, David Eagleman's team dropped volunteers from a tall tower into a net.",
+  "end": 1137.29
+ },
+ {
+  "i": 319,
+  "start": 1137.29,
+  "speechStart": 1137.44,
+  "speechEnd": 1139.22,
+  "text": "Everyone said time slowed down.",
+  "end": 1139.07
+ },
+ {
+  "i": 320,
+  "start": 1139.07,
+  "speechStart": 1139.22,
+  "speechEnd": 1141.74,
+  "text": "But when tested, they couldn't read any faster.",
+  "end": 1142.01
+ },
+ {
+  "i": 321,
+  "start": 1142.01,
+  "speechStart": 1142.16,
+  "speechEnd": 1143.68,
+  "text": "Fear didn't speed up the brain.",
+  "end": 1143.87
+ },
+ {
+  "i": 322,
+  "start": 1143.87,
+  "speechStart": 1144.02,
+  "speechEnd": 1146.06,
+  "text": "It made the memory heavier. Fact.",
+  "end": 1146.43
+ },
+ {
+  "i": 323,
+  "start": 1146.43,
+  "speechStart": 1146.58,
+  "speechEnd": 1151.84,
+  "text": "In the 1990s, Wolfram Schultz and colleagues found that dopamine cells respond most to surprise.",
+  "end": 1152.29
+ },
+ {
+  "i": 324,
+  "start": 1152.29,
+  "speechStart": 1152.44,
+  "speechEnd": 1156.12,
+  "text": "Real science, real boredom. Fiction. The pancake trick.",
+  "end": 1156.27
+ },
+ {
+  "i": 325,
+  "start": 1156.27,
+  "speechStart": 1156.42,
+  "speechEnd": 1158.2,
+  "text": "Please don't test it on your sister.",
+  "end": 1158.69
+ },
+ {
+  "i": 326,
+  "start": 1158.69,
+  "speechStart": 1158.84,
+  "speechEnd": 1162.18,
+  "text": "So could a brain really keep getting faster? Forever?",
+  "end": 1162.69
+ },
+ {
+  "i": 327,
+  "start": 1162.69,
+  "speechStart": 1162.84,
+  "speechEnd": 1168.96,
+  "text": "That night, your laptop turns on by itself. A message appears. Good evening, Max. Not Halden.",
+  "end": 1169.11
+ },
+ {
+  "i": 328,
+  "start": 1169.11,
+  "speechStart": 1169.26,
+  "speechEnd": 1170.94,
+  "text": "Someone better. Quick question.",
+  "end": 1171.21
+ },
+ {
+  "i": 329,
+  "start": 1171.21,
+  "speechStart": 1171.36,
+  "speechEnd": 1173.1,
+  "text": "Have you ever wondered if you're the fastest?",
+  "end": 1173.57
+ },
+ {
+  "i": 330,
+  "start": 1173.57,
+  "speechStart": 1173.72,
+  "speechEnd": 1176.98,
+  "text": "Before you can answer, a photo loads. A girl your age.",
+  "end": 1177.11
+ },
+ {
+  "i": 331,
+  "start": 1177.11,
+  "speechStart": 1177.26,
+  "speechEnd": 1183.42,
+  "text": "Sitting in a glass room. Eyes closed. Wires on her temples. Underneath. Her name is Nova.",
+  "end": 1183.75
+ },
+ {
+  "i": 332,
+  "start": 1183.75,
+  "speechStart": 1183.9,
+  "speechEnd": 1187.48,
+  "text": "She thinks a hundred times faster than you. And she's asking for you.",
+  "end": 1187.81
+ },
+ {
+  "i": 333,
+  "start": 1187.81,
+  "speechStart": 1187.96,
+  "speechEnd": 1190.1,
+  "text": "You look at the clock on the wall. It ticks.",
+  "end": 1190.47
+ },
+ {
+  "i": 334,
+  "start": 1190.47,
+  "speechStart": 1190.62,
+  "speechEnd": 1194.08,
+  "text": "Slower than it did this morning. Much slower. You blink.",
+  "end": 1194.41
+ },
+ {
+  "i": 335,
+  "start": 1194.41,
+  "speechStart": 1194.56,
+  "speechEnd": 1196.0,
+  "text": "And somewhere inside your head.",
+  "end": 1195.85
+ },
+ {
+  "i": 336,
+  "start": 1195.85,
+  "speechStart": 1196.0,
+  "speechEnd": 1199.86,
+  "text": "Something just sped up. What do you think? Tell us in the comments.",
+  "end": 1200.15
+ },
+ {
+  "i": 337,
+  "start": 1200.15,
+  "speechStart": 1200.3,
+  "speechEnd": 1202.46,
+  "text": "And tell us which superpower we should do next.",
+  "end": 1202.65
+ },
+ {
+  "i": 338,
+  "start": 1202.65,
+  "speechStart": 1202.8,
+  "speechEnd": 1204.68,
+  "text": "Hit like and subscribe for part two.",
+  "end": 1206.18
+ }
+]
