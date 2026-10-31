@@ -1,0 +1,6 @@
+node_modules/
+razgon-2d-studio/projects/*/build/
+razgon-2d-studio/projects/*/out/
+razgon-2d-studio/projects/*/input/*.mp3
+razgon-2d-studio/projects/*/input/*.wav
+__pycache__/
