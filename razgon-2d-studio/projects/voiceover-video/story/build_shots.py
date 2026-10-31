@@ -68,7 +68,7 @@ sh(25, B('saved', at1='Sounds', at2='smells', at3='feelings', lockAt='feelings')
 sh(26, K('void', T('ONE RULE', 'rule', mode='slam', size=150)), w='but', sfx=[S('impact', 1.0, -10)])
 sh(27, F(M, 'neutral', 'living', side=0, cam='push', spark='only'))
 sh(28, K('void', T('COPY', 'copy', y=0.3, mode='rise', size=100, color='cream', strike='lend'), T('LEND', 'lend', y=0.5, mode='rise', size=100, color='cream', strike='prove'), T('PROVE', 'prove', y=0.7, mode='rise', size=100, color='cream', strike=3.1)), sfx=[S('swish', 1.2, -14), S('swish', 2.2, -14), S('swish', 3.1, -14)])
-sh(29, dict(tpl='title', lines=['WHAT IF YOU HAD A', 'PERFECT MEMORY?']), tr=X('fade', dur=0.5), sfx=[S('riser', 0, -10), S('impact', 2.2, -6)], bars='scope')
+sh(29, dict(tpl='title', lines=['WHAT IF YOU NEVER', 'FORGOT ANYTHING?']), tr=X('fade', dur=0.5), sfx=[S('riser', 0, -10), S('impact', 2.2, -6)], bars='scope')
 # =========================================================== PLUS (1:15 – 2:29)
 sh(30, A('exam', c('kid', 0.3, 'sit', 'worried', 1), c(M, 0.55, 'sit', 'neutral', 1), c('kid2', 0.78, 'sit', 'nervous', -1), fr='wide', cam='push', badge='MONDAY', txt=[T('POP QUIZ', 'pop', y=0.18, mode='slam', size=110)]), tr=X('dip', dur=0.4), sfx=[S('hit', 0.5, -10)])
 sh(31, I('bookflip', 'exam', at=0.2, n=60, speed=30, label='PAGES IN YOUR HEAD'), sfx=[S('swish', 0.3, -14), S('swish', 1.0, -14)])
@@ -278,7 +278,7 @@ music = [dict(start=0, end=48, mood='playful', intensity=0.35), dict(start=48, e
          dict(start=336.3, end=363.5, mood='mystery', intensity=0.45), dict(start=363.5, end=412.6, mood='tension', intensity=0.6), dict(start=412.6, end=433.6, mood='tension', intensity=0.8),
          dict(start=433.6, end=449.7, mood='epic', intensity=0.7), dict(start=449.7, end=460.2, mood='triumph', intensity=0.55), dict(start=460.2, end=501.8, mood='hopeful', intensity=0.4),
          dict(start=501.8, end=516.4, mood='mystery', intensity=0.5), dict(start=516.4, end=559.6, mood='wonder', intensity=0.35), dict(start=559.6, end=DUR, mood='hopeful', intensity=0.4)]
-out = dict(title='What If You Had a Perfect Memory?', duration=DUR, shots=shots, music=music, sfx=[])
+out = dict(title='What If You NEVER Forgot Anything?', duration=DUR, shots=shots, music=music, sfx=[])
 json.dump(out, open(os.path.join(HERE, 'shots.json'), 'w'), indent=1)
 d = [s['end'] - s['start'] for s in shots]; d.sort()
 print(f'{len(shots)} shots, duration {DUR}, median {d[len(d)//2]:.2f}s, min {d[0]:.2f}, max {d[-1]:.2f}')
