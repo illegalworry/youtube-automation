@@ -13,6 +13,8 @@ import { CH, CW, PLANE_H, PLANE_W, drawDoodle, Look, Pose } from "./doodle";
 
 export const FPS = 30;
 export const LINE = "#20180f";
+// Разрешение буфера размытия (при --scale=0.5 уменьшается вместе с кадром).
+export const DOF_H = 1080;
 type V3 = [number, number, number];
 
 // ------------------------------------------------------------------ время шота
@@ -254,13 +256,13 @@ export type LightPreset = "day" | "night" | "studio";
 const Lights: React.FC<{ preset: LightPreset; windowX: number }> = ({ preset, windowX }) => (
   preset === "day" ? (<>
     <hemisphereLight args={["#d6e6ff", "#3a3a5a", 0.9]} />
-    <directionalLight position={[windowX - 3, 4.5, 1.5]} intensity={2.6} color="#ffd9a8" castShadow shadow-mapSize-width={2048} shadow-mapSize-height={2048}
+    <directionalLight position={[windowX - 3, 4.5, 1.5]} intensity={2.6} color="#ffd9a8" castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024}
       shadow-radius={8} shadow-bias={-0.0005} shadow-camera-left={-5} shadow-camera-right={5} shadow-camera-top={5} shadow-camera-bottom={-5} />
     <directionalLight position={[3, 2.5, 5]} intensity={0.7} color="#cfe0ff" />
     <pointLight position={[0.4, 2.75, -0.3]} intensity={5} decay={1.4} color="#fff0d8" />
   </>) : preset === "night" ? (<>
     <hemisphereLight args={["#5a6fb0", "#0c1430", 0.5]} />
-    <directionalLight position={[windowX - 3, 4, 1]} intensity={1.4} color="#7d95ff" castShadow shadow-mapSize-width={2048} shadow-mapSize-height={2048} shadow-radius={8}
+    <directionalLight position={[windowX - 3, 4, 1]} intensity={1.4} color="#7d95ff" castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} shadow-radius={8}
       shadow-camera-left={-5} shadow-camera-right={5} shadow-camera-top={5} shadow-camera-bottom={-5} />
     <pointLight position={[0.5, 1.6, 0.4]} intensity={7} decay={1.3} color="#ffc477" castShadow />
   </>) : (<>
@@ -276,19 +278,21 @@ export const Scene3D: React.FC<{ t0: number; cam: CamKey[]; focus: V3; light?: L
     const frame = useCurrentFrame();
     const { width, height } = useVideoConfig();
     const t = t0 + frame / FPS;
+    // При --scale=0.5 сцена рендерится в половинном разрешении (без GPU это в 3–4 раза быстрее).
+    const dpr = typeof window !== "undefined" ? Math.min(1, window.devicePixelRatio) : 1;
     const [, p, l, fov] = camAt(t, cam);
     const pos = new THREE.Vector3(...p);
     pos.x += Math.sin(frame / 23) * 0.012; pos.y += Math.sin(frame / 17) * 0.008;   // «ручная» камера
     return (
       <ShotCtx.Provider value={{ t0, cam: pos }}>
-        <ThreeCanvas width={width} height={height} shadows={{ type: THREE.PCFSoftShadowMap }}
+        <ThreeCanvas width={width} height={height} dpr={dpr} shadows={{ type: THREE.PCFSoftShadowMap }}
           gl={{ toneMapping: THREE.AgXToneMapping, toneMappingExposure: 1.25, antialias: false }} style={{ backgroundColor: bg }}>
           <ShotCtx.Provider value={{ t0, cam: pos }}>
             <CamRig pos={pos} look={new THREE.Vector3(...l)} fov={fov ?? 74} />
             <Lights preset={light} windowX={windowX} />
             {children}
-            <EffectComposer multisampling={4}>
-              <DepthOfField target={focus} focalLength={0.012} bokehScale={7} height={1080} />
+            <EffectComposer multisampling={0}>
+              <DepthOfField target={focus} focalLength={0.012} bokehScale={7 * dpr} height={DOF_H * dpr} />
               <Bloom luminanceThreshold={1.0} intensity={0.35} mipmapBlur />
               <Vignette eskil={false} offset={0.25} darkness={0.45} />
             </EffectComposer>
