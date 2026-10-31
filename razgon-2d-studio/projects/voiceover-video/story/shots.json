@@ -1,0 +1,7776 @@
+{
+ "title": "What If You Had a Perfect Memory?",
+ "duration": 568.02,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.29,
+   "line": "Your alarm rings, you hit it before the second beep.",
+   "scene": "ins digiclock @ bedroom",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -10
+    },
+    {
+     "at": 1.1,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "digiclock",
+    "s": "6:30",
+    "at2": 0.15,
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s002",
+   "start": 1.29,
+   "end": 3.23,
+   "line": "",
+   "scene": "act  @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bedroom",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.24,
+      "pose": [
+       [
+        0,
+        "sit"
+       ],
+       [
+        0.15,
+        "sitReach"
+       ]
+      ],
+      "expr": "smirk",
+      "f": 1,
+      "chair": false,
+      "y": -55,
+      "spring": true
+     }
+    ],
+    "fr": "med",
+    "fx": 0.3,
+    "hit": 0.3,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s003",
+   "start": 3.23,
+   "end": 5.17,
+   "line": "Mia drops onto your couch.",
+   "scene": "act  @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "living",
+    "cast": [
+     {
+      "c": "mia",
+      "x": 0.46,
+      "pose": [
+       [
+        0,
+        "jump"
+       ],
+       [
+        0.45,
+        "sitBack"
+       ]
+      ],
+      "expr": "happy",
+      "f": 1,
+      "chair": false,
+      "y": -30,
+      "lift": [
+       [
+        0,
+        160
+       ],
+       [
+        0.45,
+        0
+       ]
+      ],
+      "spring": true
+     },
+     {
+      "c": "max",
+      "x": 0.72,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.55,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s004",
+   "start": 5.17,
+   "end": 8.31,
+   "line": "Hey, what was I wearing on our first day of sixth grade?",
+   "scene": "face mia @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "mia",
+    "expr": "smirk",
+    "set": "living",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s005",
+   "start": 8.31,
+   "end": 11.19,
+   "line": "Easy, green raincoat, torn left sleeve.",
+   "scene": "ins memory @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "mia6",
+      "x": -0.12,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "max6",
+      "x": 0.16,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "sky": "rain",
+    "caption": "GREEN RAINCOAT \u00b7 TORN LEFT SLEEVE",
+    "capAt": "green",
+    "date": "6TH GRADE \u00b7 DAY 1",
+    "dateAt": "Easy",
+    "set": "living"
+   }
+  },
+  {
+   "id": "s006",
+   "start": 11.19,
+   "end": 12.47,
+   "line": "She stares at you.",
+   "scene": "face mia @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "mia",
+    "expr": "surprised",
+    "set": "living",
+    "side": 1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s007",
+   "start": 12.47,
+   "end": 14.41,
+   "line": "What was the weather on my birthday?",
+   "scene": "act  @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "living",
+    "cast": [
+     {
+      "c": "mia",
+      "x": 0.44,
+      "pose": "sitTalk",
+      "expr": "smirk",
+      "f": 1,
+      "chair": false,
+      "y": -30,
+      "talk": true
+     },
+     {
+      "c": "max",
+      "x": 0.72,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.56,
+    "fg": "lamp",
+    "fgSide": 1
+   }
+  },
+  {
+   "id": "s008",
+   "start": 14.41,
+   "end": 17.47,
+   "line": "Rainy, 14 degrees, wind from the west.",
+   "scene": "ins memory @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -14
+    },
+    {
+     "at": 0,
+     "name": "rain",
+     "gain": -24
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "mia",
+      "x": 0,
+      "pose": "cheer",
+      "expr": "happy",
+      "f": 1
+     }
+    ],
+    "sky": "rain",
+    "caption": "RAINY \u00b7 14\u00b0 \u00b7 WIND FROM THE WEST",
+    "capAt": "Rainy",
+    "date": "MIA'S BIRTHDAY",
+    "dateAt": "Rainy",
+    "rot": 0.03,
+    "set": "living"
+   }
+  },
+  {
+   "id": "s009",
+   "start": 17.47,
+   "end": 20.09,
+   "line": "She checks her phone and goes quiet.",
+   "scene": "act  @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "living",
+    "cast": [
+     {
+      "c": "mia",
+      "x": 0.46,
+      "pose": "sitPhone",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        "quiet",
+        "shocked"
+       ]
+      ],
+      "f": 1,
+      "chair": false,
+      "y": -30
+     }
+    ],
+    "fr": "med",
+    "fx": 0.46,
+    "cam": "push",
+    "fg": "plant",
+    "fgSide": -1
+   }
+  },
+  {
+   "id": "s010",
+   "start": 20.09,
+   "end": 24.25,
+   "line": "At school, your teacher asks for page 214, line three.",
+   "scene": "act  @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "class",
+    "cast": [
+     {
+      "c": "teach",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "neutral",
+      "f": 1,
+      "talk": true
+     },
+     {
+      "c": "kid",
+      "x": 0.55,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "max",
+      "x": 0.72,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "cam": "right",
+    "txt": [
+     {
+      "s": "PAGE 214 \u00b7 LINE 3",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 70,
+      "at": "214"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 24.25,
+   "end": 25.99,
+   "line": "You say it word for word.",
+   "scene": "ins paper @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "paper",
+    "title": "PAGE 214",
+    "circles": [
+     {
+      "row": 2,
+      "at": "word"
+     }
+    ],
+    "stamp": "WORD FOR WORD",
+    "stampAt": "word",
+    "stampSize": 44,
+    "set": "class"
+   }
+  },
+  {
+   "id": "s012",
+   "start": 25.99,
+   "end": 28.33,
+   "line": "A tourist asks for the bus timetable.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "woman",
+      "x": 0.4,
+      "pose": "holdFront",
+      "expr": "confused",
+      "f": 1,
+      "prop": "paper",
+      "talk": true
+     },
+     {
+      "c": "max",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "cam": "left"
+   }
+  },
+  {
+   "id": "s013",
+   "start": 28.33,
+   "end": 31.23,
+   "line": "You recite it. Every stop, every minute.",
+   "scene": "ins timetable @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 0.8,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 1.3,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "timetable",
+    "at": "recite",
+    "speed": 4,
+    "set": "streetDay"
+   }
+  },
+  {
+   "id": "s014",
+   "start": 31.23,
+   "end": 34.41,
+   "line": "Not because you studied, because you saw it once.",
+   "scene": "face max @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.5,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "smirk",
+    "set": "streetDay",
+    "side": -1,
+    "txt": [
+     {
+      "s": "SEEN ONCE",
+      "y": 0.16,
+      "mode": "slam",
+      "size": 80,
+      "at": "once"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s015",
+   "start": 34.41,
+   "end": 35.63,
+   "line": "Mia shakes her head.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "mia",
+      "x": 0.4,
+      "pose": "crossArms",
+      "expr": "confused",
+      "f": 1
+     },
+     {
+      "c": "max",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "cam": "right"
+   }
+  },
+  {
+   "id": "s016",
+   "start": 35.63,
+   "end": 37.45,
+   "line": "Dude, that's creepy.",
+   "scene": "face mia @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "mia",
+    "expr": "confused",
+    "set": "streetDay",
+    "side": 1,
+    "talk": true,
+    "tilt": 0.06
+   }
+  },
+  {
+   "id": "s017",
+   "start": 37.45,
+   "end": 39.71,
+   "line": "Fine, but where are your keys?",
+   "scene": "face mia @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "mia",
+    "expr": "smirk",
+    "set": "streetDay",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s018",
+   "start": 39.71,
+   "end": 41.79,
+   "line": "You have no idea.",
+   "scene": "face max @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "confused",
+    "set": "streetDay",
+    "side": -1,
+    "thoughts": 5,
+    "icons": [
+     "q",
+     "q",
+     "q",
+     "q",
+     "q"
+    ]
+   }
+  },
+  {
+   "id": "s019",
+   "start": 41.79,
+   "end": 43.05,
+   "line": "You never looked at them.",
+   "scene": "act  @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "living",
+    "cast": [],
+    "fr": "med",
+    "fx": 0.46,
+    "so": {
+     "keys": true
+    },
+    "fx2": [
+     {
+      "k": "label",
+      "s": "KEYS",
+      "x": 0.46,
+      "y": 160,
+      "at": 0.4,
+      "color": "gold"
+     }
+    ],
+    "cam": "push",
+    "camAmt": 2
+   }
+  },
+  {
+   "id": "s020",
+   "start": 43.05,
+   "end": 48.27,
+   "line": "Your name is Max, you're 17, and your memory just became perfect.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "cam": "push",
+    "txt": [
+     {
+      "s": "MAX",
+      "x": 0.25,
+      "y": 0.3,
+      "mode": "drop",
+      "size": 90,
+      "at": "Max"
+     },
+     {
+      "s": "17",
+      "x": 0.75,
+      "y": 0.3,
+      "mode": "slam",
+      "size": 90,
+      "color": "cream",
+      "at": "17"
+     },
+     {
+      "s": "PERFECT MEMORY",
+      "y": 0.14,
+      "mode": "spread",
+      "size": 70,
+      "at": "perfect"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s021",
+   "start": 48.27,
+   "end": 53.15,
+   "line": "Most people hold about seven things in their head at once. You, 7 ,000.",
+   "scene": "bp span @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 3.2,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "span",
+    "at1": "seven",
+    "at2": "7"
+   }
+  },
+  {
+   "id": "s022",
+   "start": 53.15,
+   "end": 57.67,
+   "line": "A normal brain forgets much of a lecture by tomorrow. You, you forget nothing.",
+   "scene": "bp curve @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "swish",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "curve",
+    "at1": "normal",
+    "at2": "nothing"
+   }
+  },
+  {
+   "id": "s023",
+   "start": 57.67,
+   "end": 62.97,
+   "line": "Everything you notice is saved forever. Sounds, smells, feelings, but there's one rule.",
+   "scene": "bp saved @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 3.6,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 4.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "saved",
+    "at1": "Sounds",
+    "at2": "smells",
+    "at3": "feelings",
+    "lockAt": "feelings"
+   }
+  },
+  {
+   "id": "s024",
+   "start": 62.97,
+   "end": 64.37,
+   "line": "",
+   "scene": "card  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "card",
+    "set": "void",
+    "txt": [
+     {
+      "s": "ONE RULE",
+      "mode": "slam",
+      "size": 150,
+      "at": "rule"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s025",
+   "start": 64.37,
+   "end": 67.33,
+   "line": "Your memory lives in your head and only there.",
+   "scene": "face max @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "neutral",
+    "set": "living",
+    "side": 0,
+    "cam": "push",
+    "spark": "only"
+   }
+  },
+  {
+   "id": "s026",
+   "start": 67.33,
+   "end": 70.81,
+   "line": "You can't copy it, you can't lend it, you can't prove it.",
+   "scene": "card  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.2,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 3.1,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "card",
+    "set": "void",
+    "txt": [
+     {
+      "s": "COPY",
+      "y": 0.3,
+      "mode": "rise",
+      "size": 100,
+      "color": "cream",
+      "strike": "lend",
+      "at": "copy"
+     },
+     {
+      "s": "LEND",
+      "y": 0.5,
+      "mode": "rise",
+      "size": 100,
+      "color": "cream",
+      "strike": "prove",
+      "at": "lend"
+     },
+     {
+      "s": "PROVE",
+      "y": 0.7,
+      "mode": "rise",
+      "size": 100,
+      "color": "cream",
+      "strike": 3.1,
+      "at": "prove"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s027",
+   "start": 70.81,
+   "end": 74.53,
+   "line": "So what if you had a perfect memory forever?",
+   "scene": "title  @ void",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -10
+    },
+    {
+     "at": 2.2,
+     "name": "impact",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "WHAT IF YOU HAD A",
+     "PERFECT MEMORY?"
+    ]
+   }
+  },
+  {
+   "id": "s028",
+   "start": 74.53,
+   "end": 75.91,
+   "line": "Monday, pop quiz.",
+   "scene": "act  @ exam",
+   "set": "exam",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "exam",
+    "cast": [
+     {
+      "c": "kid",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "c": "max",
+      "x": 0.55,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "kid2",
+      "x": 0.78,
+      "pose": "sit",
+      "expr": "nervous",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "cam": "push",
+    "badge": "MONDAY",
+    "txt": [
+     {
+      "s": "POP QUIZ",
+      "y": 0.18,
+      "mode": "slam",
+      "size": 110,
+      "at": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s029",
+   "start": 75.91,
+   "end": 77.91,
+   "line": "You flip through the textbook in your mind.",
+   "scene": "ins bookflip @ exam",
+   "set": "exam",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "bookflip",
+    "at": 0.2,
+    "n": 60,
+    "speed": 30,
+    "label": "PAGES IN YOUR HEAD",
+    "set": "exam"
+   }
+  },
+  {
+   "id": "s030",
+   "start": 77.91,
+   "end": 82.73,
+   "line": "The margin doodle, the coffee stain, perfect score in four minutes.",
+   "scene": "ins paper @ exam",
+   "set": "exam",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 1.4,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 2.4,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "paper",
+    "title": "CHAPTER 7",
+    "circles": [
+     {
+      "row": 2,
+      "at": "doodle"
+     },
+     {
+      "row": 6,
+      "at": "coffee"
+     }
+    ],
+    "stamp": "100%",
+    "stampAt": "perfect",
+    "timer": "4:00",
+    "set": "exam"
+   }
+  },
+  {
+   "id": "s031",
+   "start": 82.73,
+   "end": 84.79,
+   "line": "Mia whispers, is that cheating?",
+   "scene": "act  @ exam",
+   "set": "exam",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "exam",
+    "cast": [
+     {
+      "c": "mia",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "talk": "is"
+     },
+     {
+      "c": "max",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5
+   }
+  },
+  {
+   "id": "s032",
+   "start": 84.79,
+   "end": 87.19,
+   "line": "It's reading, very fast reading.",
+   "scene": "face max @ exam",
+   "set": "exam",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "smirk",
+    "set": "exam",
+    "side": -1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s033",
+   "start": 87.19,
+   "end": 90.45,
+   "line": "Saturday party, 300 people.",
+   "scene": "act  @ party",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 1.6,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   },
+   "params": {
+    "tpl": "act",
+    "set": "party",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.5,
+      "pose": "wave",
+      "expr": "happy",
+      "f": 1
+     }
+    ],
+    "fr": "wide",
+    "cam": "push",
+    "badge": "SATURDAY",
+    "txt": [
+     {
+      "s": "300 PEOPLE",
+      "y": 0.2,
+      "mode": "slam",
+      "size": 100,
+      "at": "300"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s034",
+   "start": 90.45,
+   "end": 92.53,
+   "line": "You greet everyone by name.",
+   "scene": "ins faces @ party",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.45,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.15,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "faces",
+    "faces": [
+     {
+      "s": "SAM",
+      "outfit": "kid",
+      "at": 0.1
+     },
+     {
+      "s": "PRIYA",
+      "outfit": "girl",
+      "at": 0.45
+     },
+     {
+      "s": "OMAR",
+      "outfit": "man",
+      "at": 0.8
+     },
+     {
+      "s": "LENA",
+      "outfit": "woman",
+      "at": 1.15
+     },
+     {
+      "s": "JAKE",
+      "outfit": "jake",
+      "at": 1.5
+     }
+    ],
+    "set": "party"
+   }
+  },
+  {
+   "id": "s035",
+   "start": 92.53,
+   "end": 93.89,
+   "line": "Jake pulls you aside.",
+   "scene": "act  @ party",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   },
+   "params": {
+    "tpl": "act",
+    "set": "party",
+    "cast": [
+     {
+      "c": "jake",
+      "x": 0.36,
+      "pose": "reach",
+      "expr": "nervous",
+      "f": 1,
+      "slide": {
+       "at": 0,
+       "dx": 80,
+       "dur": 0.6
+      }
+     },
+     {
+      "c": "max",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5
+   }
+  },
+  {
+   "id": "s036",
+   "start": 93.89,
+   "end": 96.09,
+   "line": "How, how do you know my dog's name?",
+   "scene": "face jake @ party",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   },
+   "params": {
+    "tpl": "face",
+    "who": "jake",
+    "expr": "shocked",
+    "set": "party",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s037",
+   "start": 96.09,
+   "end": 99.37,
+   "line": "You heard it once, in 2019, at a bus stop.",
+   "scene": "ins memory @ party",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "jake",
+      "x": -0.18,
+      "pose": "phone",
+      "expr": "happy",
+      "f": 1
+     }
+    ],
+    "extra": [
+     "dog",
+     "bus"
+    ],
+    "sky": "day",
+    "caption": "BUS STOP \u00b7 2019",
+    "capAt": "2019",
+    "date": "BISCUIT",
+    "dateLabel": "DOG'S NAME",
+    "dateAt": "bus",
+    "set": "party"
+   }
+  },
+  {
+   "id": "s038",
+   "start": 99.37,
+   "end": 101.39,
+   "line": "Jake backs away slowly.",
+   "scene": "act  @ party",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   },
+   "params": {
+    "tpl": "act",
+    "set": "party",
+    "cast": [
+     {
+      "c": "jake",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1,
+      "slide": {
+       "at": 0.2,
+       "dx": -240,
+       "dur": 1.6
+      }
+     },
+     {
+      "c": "max",
+      "x": 0.62,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5
+   }
+  },
+  {
+   "id": "s039",
+   "start": 101.39,
+   "end": 102.85,
+   "line": "Plus, new cities.",
+   "scene": "pm  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "plus",
+    "set": "streetDay",
+    "sub": "NEW CITIES"
+   }
+  },
+  {
+   "id": "s040",
+   "start": 102.85,
+   "end": 105.95,
+   "line": "You walk a street once and never need a map again.",
+   "scene": "3d  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "carpass",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "3d",
+    "s3": "town",
+    "mood": "day",
+    "label": "NO MAP NEEDED"
+   }
+  },
+  {
+   "id": "s041",
+   "start": 105.95,
+   "end": 107.99,
+   "line": "Tourists follow you like ducklings.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": 1,
+      "walk": {
+       "at": 0
+      }
+     },
+     {
+      "c": "man",
+      "x": 0.28,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1,
+      "walk": {
+       "at": 0.2
+      }
+     },
+     {
+      "c": "woman",
+      "x": 0.18,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1,
+      "walk": {
+       "at": 0.35
+      }
+     },
+     {
+      "c": "girl",
+      "x": 0.08,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1,
+      "walk": {
+       "at": 0.5
+      }
+     },
+     {
+      "c": "kid",
+      "x": -0.02,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1,
+      "walk": {
+       "at": 0.6
+      }
+     }
+    ],
+    "fr": "wide",
+    "cam": "right",
+    "camAmt": 2
+   }
+  },
+  {
+   "id": "s042",
+   "start": 107.99,
+   "end": 110.55,
+   "line": "Plus, a car blows through a red light.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "carpass",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.78,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        "red",
+        "surprised"
+       ]
+      ],
+      "f": -1
+     }
+    ],
+    "fx2": [
+     {
+      "k": "car",
+      "x0": -0.4,
+      "x1": 1.5,
+      "at": "blows",
+      "dur": 1.0,
+      "color": "#7a2a3a"
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "txt": [
+     {
+      "s": "PLUS",
+      "x": 0.13,
+      "y": 0.14,
+      "size": 64,
+      "color": "good",
+      "mode": "slam",
+      "at": 0.02
+     },
+     {
+      "s": "RED LIGHT",
+      "y": 0.2,
+      "size": 70,
+      "color": "accent",
+      "mode": "slam",
+      "at": "red"
+     }
+    ]
+   },
+   "mb": 2
+  },
+  {
+   "id": "s043",
+   "start": 110.55,
+   "end": 112.85,
+   "line": "You read the plate, seven characters.",
+   "scene": "ins plate @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.9,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "plate",
+    "s": "KX7 4RM",
+    "at": "plate",
+    "gap": 0.14,
+    "set": "streetDay"
+   }
+  },
+  {
+   "id": "s044",
+   "start": 112.85,
+   "end": 114.81,
+   "line": "A police officer writes them down.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "cop",
+      "x": 0.4,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": 1,
+      "prop": "paper"
+     },
+     {
+      "c": "max",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "cam": "left"
+   }
+  },
+  {
+   "id": "s045",
+   "start": 114.81,
+   "end": 116.07,
+   "line": "Where, where were you standing?",
+   "scene": "face cop @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "cop",
+    "expr": "surprised",
+    "set": "streetDay",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s046",
+   "start": 116.07,
+   "end": 119.17,
+   "line": "Across the street, you only glanced.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "cop",
+      "x": 0.24,
+      "pose": "point",
+      "expr": "surprised",
+      "f": 1
+     },
+     {
+      "c": "max",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "so": {
+     "crosswalk": true
+    },
+    "fx2": [
+     {
+      "k": "label",
+      "s": "ACROSS THE STREET",
+      "x": 0.8,
+      "y": 360,
+      "at": "Across",
+      "color": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s047",
+   "start": 119.17,
+   "end": 120.77,
+   "line": "Plus, tests.",
+   "scene": "pm  @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "plus",
+    "set": "clinic",
+    "sub": "TESTS"
+   }
+  },
+  {
+   "id": "s048",
+   "start": 120.77,
+   "end": 126.05,
+   "line": "Memory champions can memorize a shuffled deck in under 30 seconds, after years of training.",
+   "scene": "bp bars @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "bars",
+    "title": "MEMORIZE A SHUFFLED DECK",
+    "rows": [
+     {
+      "l": "CHAMPIONS",
+      "v": 0.55,
+      "val": "< 30 s",
+      "at": "30"
+     }
+    ],
+    "txt": [
+     {
+      "s": "AFTER YEARS OF TRAINING",
+      "y": 0.75,
+      "mode": "rise",
+      "size": 56,
+      "color": "cream",
+      "at": "years"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s049",
+   "start": 126.05,
+   "end": 128.99,
+   "line": "You, one glance, 52 cards.",
+   "scene": "ins cards @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 2.0,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "cards",
+    "at": "glance",
+    "speed": 40,
+    "label": "52 CARDS",
+    "labelAt": "52",
+    "set": "clinic"
+   }
+  },
+  {
+   "id": "s050",
+   "start": 128.99,
+   "end": 130.91,
+   "line": "Dr. Lee drops her clipboard.",
+   "scene": "act  @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "clinic",
+    "cast": [
+     {
+      "c": "lee",
+      "x": 0.62,
+      "pose": [
+       [
+        0,
+        "holdFront"
+       ],
+       [
+        "drops",
+        "handsOnHead"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        "drops",
+        "shocked"
+       ]
+      ],
+      "f": -1,
+      "prop": [
+       [
+        0,
+        "paper"
+       ],
+       [
+        "drops",
+        null
+       ]
+      ],
+      "spring": true
+     },
+     {
+      "c": "max",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5
+   }
+  },
+  {
+   "id": "s051",
+   "start": 130.91,
+   "end": 132.69,
+   "line": "That's impossible.",
+   "scene": "face lee @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "lee",
+    "expr": "shocked",
+    "set": "clinic",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s052",
+   "start": 132.69,
+   "end": 138.17,
+   "line": "She scans your head, same brain, about 86 billion neurons, same as everyone's.",
+   "scene": "ins scan @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hum",
+     "gain": -16
+    },
+    {
+     "at": 2.6,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "scan",
+    "hot": 0.3,
+    "label": "86 BILLION NEURONS",
+    "at": "86",
+    "set": "clinic"
+   }
+  },
+  {
+   "id": "s053",
+   "start": 138.17,
+   "end": 141.73,
+   "line": "Nothing special, except what yours refuse to drop.",
+   "scene": "face max @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "thinking",
+    "set": "clinic",
+    "side": -1,
+    "cam": "push",
+    "txt": [
+     {
+      "s": "NOTHING GETS DROPPED",
+      "y": 0.86,
+      "mode": "rise",
+      "size": 60,
+      "at": "refuse"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s054",
+   "start": 141.73,
+   "end": 144.33,
+   "line": "You try to forget one card, you can't.",
+   "scene": "face max @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": [
+     [
+      0,
+      "determined"
+     ],
+     [
+      "can't",
+      "worried"
+     ]
+    ],
+    "set": "clinic",
+    "side": 1,
+    "sweat": true,
+    "txt": [
+     {
+      "s": "FORGET ONE CARD\u2026",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 60,
+      "color": "cream",
+      "at": "forget"
+     },
+     {
+      "s": "CAN'T",
+      "y": 0.86,
+      "mode": "slam",
+      "size": 100,
+      "color": "accent",
+      "at": "can't"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s055",
+   "start": 144.33,
+   "end": 147.19,
+   "line": "Plus, you read a French dictionary once.",
+   "scene": "pm  @ library",
+   "set": "library",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "plus",
+    "set": "library",
+    "sub": "FRENCH DICTIONARY",
+    "subAt": "French"
+   }
+  },
+  {
+   "id": "s056",
+   "start": 147.19,
+   "end": 149.13,
+   "line": "You can recite page 90.",
+   "scene": "ins paper @ library",
+   "set": "library",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "paper",
+    "title": "DICTIONNAIRE \u00b7 PAGE 90",
+    "rows": 12,
+    "notes": true,
+    "notesAt": 0.3,
+    "notesSpeed": 6,
+    "set": "library"
+   }
+  },
+  {
+   "id": "s057",
+   "start": 149.13,
+   "end": 151.71,
+   "line": "Minus, you still can't order a croissant.",
+   "scene": "act  @ cafe",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   },
+   "params": {
+    "tpl": "act",
+    "set": "cafe",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.4,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": 1
+     },
+     {
+      "c": "man",
+      "x": 0.66,
+      "pose": "stand",
+      "expr": "confused",
+      "f": -1
+     }
+    ],
+    "fx2": [
+     {
+      "k": "say",
+      "who": "max",
+      "s": "\u2026?",
+      "at": "croissant"
+     }
+    ],
+    "fr": "med",
+    "fx": 0.52,
+    "txt": [
+     {
+      "s": "MINUS",
+      "x": 0.13,
+      "y": 0.14,
+      "size": 64,
+      "color": "accent",
+      "mode": "slam",
+      "at": 0.02
+     }
+    ]
+   }
+  },
+  {
+   "id": "s058",
+   "start": 151.71,
+   "end": 154.07,
+   "line": "Remembering isn't understanding.",
+   "scene": "card  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "impact",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "card",
+    "set": "void",
+    "txt": [
+     {
+      "s": "REMEMBERING",
+      "y": 0.4,
+      "mode": "rise",
+      "size": 100,
+      "color": "cream",
+      "at": "Remembering"
+     },
+     {
+      "s": "\u2260 UNDERSTANDING",
+      "y": 0.58,
+      "mode": "slam",
+      "size": 110,
+      "color": "accent",
+      "at": "understanding"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s059",
+   "start": 154.07,
+   "end": 155.77,
+   "line": "Minus, arguments.",
+   "scene": "pm  @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "minus",
+    "set": "class",
+    "sub": "ARGUMENTS"
+   }
+  },
+  {
+   "id": "s060",
+   "start": 155.77,
+   "end": 158.15,
+   "line": "Jake swears he never borrowed your pen.",
+   "scene": "act  @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "class",
+    "cast": [
+     {
+      "c": "jake",
+      "x": 0.38,
+      "pose": "explain",
+      "expr": "angry",
+      "f": 1,
+      "talk": true
+     },
+     {
+      "c": "max",
+      "x": 0.62,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5
+   }
+  },
+  {
+   "id": "s061",
+   "start": 158.15,
+   "end": 162.23,
+   "line": "You give the date, the time, the color. The cap was chewed.",
+   "scene": "ins list @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 1.2,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "list",
+    "items": [
+     {
+      "s": "MARCH 3",
+      "at": "date"
+     },
+     {
+      "s": "10:42 AM",
+      "at": "time"
+     },
+     {
+      "s": "BLUE",
+      "at": "color"
+     },
+     {
+      "s": "CAP: CHEWED",
+      "at": "chewed",
+      "bad": true
+     }
+    ],
+    "set": "class"
+   }
+  },
+  {
+   "id": "s062",
+   "start": 162.23,
+   "end": 165.07,
+   "line": "Mutt, nobody likes a human receipt.",
+   "scene": "act  @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "class",
+    "cast": [
+     {
+      "c": "jake",
+      "x": 0.4,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1
+     },
+     {
+      "c": "max",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "txt": [
+     {
+      "s": "HUMAN RECEIPT",
+      "y": 0.18,
+      "mode": "slam",
+      "size": 90,
+      "color": "accent",
+      "at": "receipt"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s063",
+   "start": 165.07,
+   "end": 166.51,
+   "line": "Minus, clutter.",
+   "scene": "pm  @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "minus",
+    "set": "class",
+    "sub": "CLUTTER"
+   }
+  },
+  {
+   "id": "s064",
+   "start": 166.51,
+   "end": 171.65,
+   "line": "You remember Jake's phone password. Mia's locker code. Dr. Lee's laptop login.",
+   "scene": "ins codes @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 3.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "codes",
+    "at": [
+     "phone",
+     "locker",
+     "laptop"
+    ],
+    "set": "class"
+   }
+  },
+  {
+   "id": "s065",
+   "start": 171.65,
+   "end": 173.13,
+   "line": "You never wanted any of them.",
+   "scene": "face max @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "nervous",
+    "set": "class",
+    "side": -1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s066",
+   "start": 173.13,
+   "end": 176.45,
+   "line": "Awkward, very awkward.",
+   "scene": "face max @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "nervous",
+    "set": "class",
+    "side": 1,
+    "sweat": true,
+    "txt": [
+     {
+      "s": "AWKWARD",
+      "y": 0.18,
+      "mode": "rise",
+      "size": 80,
+      "color": "cream",
+      "at": "Awkward"
+     },
+     {
+      "s": "VERY AWKWARD",
+      "y": 0.84,
+      "mode": "slam",
+      "size": 90,
+      "color": "accent",
+      "at": "very"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s067",
+   "start": 176.45,
+   "end": 178.33,
+   "line": "Minus, promises.",
+   "scene": "pm  @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "minus",
+    "set": "bedroom",
+    "sub": "PROMISES"
+   }
+  },
+  {
+   "id": "s068",
+   "start": 178.33,
+   "end": 182.23,
+   "line": "Mia once promised to call you back. She forgot, you didn't.",
+   "scene": "ins chat @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 2.4,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "chat",
+    "head": "MIA",
+    "lines": [
+     {
+      "s": "I'll call you back! promise",
+      "at": "promised",
+      "time": "OCT 9 \u00b7 7:14 PM"
+     }
+    ],
+    "stamp": "NEVER CALLED",
+    "stampAt": "forgot",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s069",
+   "start": 182.23,
+   "end": 186.01,
+   "line": "You remember the date, the hour, her exact words.",
+   "scene": "ins memory @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "mia",
+      "x": 0,
+      "pose": "phone",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "sky": "dusk",
+    "caption": "\"I'LL CALL YOU BACK, PROMISE.\"",
+    "capAt": "exact",
+    "date": "OCT 9 \u00b7 7:14 PM",
+    "dateAt": "date",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s070",
+   "start": 186.01,
+   "end": 188.65,
+   "line": "Why, why does that still sting?",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "sad",
+    "set": "bedroom",
+    "side": -1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s071",
+   "start": 188.65,
+   "end": 190.57,
+   "line": "Because it never got old.",
+   "scene": "act  @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bedroom",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.24,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": false,
+      "y": -55
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.3,
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s072",
+   "start": 190.57,
+   "end": 191.99,
+   "line": "Minus, sleep.",
+   "scene": "pm  @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "minus",
+    "set": "bedroom",
+    "sub": "SLEEP"
+   }
+  },
+  {
+   "id": "s073",
+   "start": 191.99,
+   "end": 195.71,
+   "line": "A normal brain replays the day at night and keeps the useful parts.",
+   "scene": "bp filter @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "filter",
+    "at": 0.2
+   }
+  },
+  {
+   "id": "s074",
+   "start": 195.71,
+   "end": 196.27,
+   "line": "Yours keeps everything, every conversation, every sound, on loop.",
+   "scene": "bp filter @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "filter",
+    "mode": "yours",
+    "at": "Yours"
+   }
+  },
+  {
+   "id": "s075",
+   "start": 196.27,
+   "end": 200.37,
+   "line": "",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hum",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "sleepy",
+    "set": "bedroom",
+    "side": -1,
+    "thoughts": 9,
+    "thoughtStep": 0.2,
+    "icons": [
+     "note",
+     "q",
+     "clock",
+     "dog",
+     "pen",
+     "cal",
+     "pancake",
+     "gift",
+     "chess"
+    ]
+   }
+  },
+  {
+   "id": "s076",
+   "start": 200.37,
+   "end": 203.67,
+   "line": "You wake up tired, of course you do.",
+   "scene": "act  @ bedroomDay",
+   "set": "bedroomDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bedroomDay",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.5,
+      "pose": "sad",
+      "expr": "sleepy",
+      "f": 1
+     }
+    ],
+    "fx2": [
+     {
+      "k": "marks",
+      "who": "max",
+      "s": "Z"
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s077",
+   "start": 203.67,
+   "end": 205.69,
+   "line": "Plus, homework excuses.",
+   "scene": "pm  @ bedroomDay",
+   "set": "bedroomDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "plus",
+    "set": "bedroomDay",
+    "sub": "HOMEWORK EXCUSES"
+   }
+  },
+  {
+   "id": "s078",
+   "start": 205.69,
+   "end": 207.63,
+   "line": "Minus, you can't use any.",
+   "scene": "pm  @ bedroomDay",
+   "set": "bedroomDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "pm",
+    "kind": "minus",
+    "set": "bedroomDay",
+    "sub": "YOU CAN'T USE ANY",
+    "subAt": "can't"
+   }
+  },
+  {
+   "id": "s079",
+   "start": 207.63,
+   "end": 209.57,
+   "line": "Your mom asks if you cleaned your room.",
+   "scene": "act  @ bedroomDay",
+   "set": "bedroomDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bedroomDay",
+    "cast": [
+     {
+      "c": "mom",
+      "x": 0.68,
+      "pose": "talk",
+      "expr": "angry",
+      "f": -1,
+      "talk": true
+     },
+     {
+      "c": "max",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": 1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.54
+   }
+  },
+  {
+   "id": "s080",
+   "start": 209.57,
+   "end": 212.05,
+   "line": "You remember her asking 11 times.",
+   "scene": "ins count @ bedroomDay",
+   "set": "bedroomDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 1.8,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "count",
+    "label": "TIMES SHE ASKED",
+    "to": 11,
+    "at": "11",
+    "cdur": 1.0,
+    "set": "bedroomDay"
+   }
+  },
+  {
+   "id": "s081",
+   "start": 212.05,
+   "end": 215.13,
+   "line": "You remember ignoring her 11 times.",
+   "scene": "ins count @ bedroomDay",
+   "set": "bedroomDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 1.8,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "count",
+    "label": "TIMES YOU IGNORED HER",
+    "to": 11,
+    "at": "11",
+    "cdur": 1.0,
+    "set": "bedroomDay"
+   }
+  },
+  {
+   "id": "s082",
+   "start": 215.13,
+   "end": 217.05,
+   "line": "Busted, by yourself.",
+   "scene": "face max @ bedroomDay",
+   "set": "bedroomDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "nervous",
+    "set": "bedroomDay",
+    "side": -1,
+    "cam": "crash",
+    "hit": "Busted",
+    "txt": [
+     {
+      "s": "BUSTED",
+      "y": 0.18,
+      "mode": "slam",
+      "size": 120,
+      "color": "accent",
+      "at": "Busted"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s083",
+   "start": 217.05,
+   "end": 219.75,
+   "line": "By Friday, a local news crew is at your door.",
+   "scene": "ins tv @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "tv",
+    "badge": "FRIDAY"
+   }
+  },
+  {
+   "id": "s084",
+   "start": 219.75,
+   "end": 222.37,
+   "line": "Your video gets two million views.",
+   "scene": "ins views @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "views",
+    "to": 2000000,
+    "label": "kid remembers EVERYTHING",
+    "set": "living"
+   }
+  },
+  {
+   "id": "s085",
+   "start": 222.37,
+   "end": 224.45,
+   "line": "Mia grins. You're famous!",
+   "scene": "face mia @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "mia",
+    "expr": "joy",
+    "set": "living",
+    "side": 1,
+    "talk": "famous"
+   }
+  },
+  {
+   "id": "s086",
+   "start": 224.45,
+   "end": 227.81,
+   "line": "Grandpa Leo wipes his glasses. That's nice, kid.",
+   "scene": "act  @ livingEve",
+   "set": "livingEve",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "livingEve",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.46,
+      "pose": "sitHold",
+      "expr": "smile",
+      "f": 1,
+      "chair": false,
+      "y": -30,
+      "talk": "nice"
+     }
+    ],
+    "fr": "med",
+    "fx": 0.48,
+    "cam": "push",
+    "fg": "lamp",
+    "fgSide": 1
+   }
+  },
+  {
+   "id": "s087",
+   "start": 227.81,
+   "end": 231.19,
+   "line": "And somewhere in the city, someone watches you twice.",
+   "scene": "ins spy @ void",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "spy"
+   }
+  },
+  {
+   "id": "s088",
+   "start": 231.19,
+   "end": 232.35,
+   "line": "But here's the catch.",
+   "scene": "card  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "card",
+    "set": "void",
+    "txt": [
+     {
+      "s": "HERE'S THE CATCH",
+      "mode": "slam",
+      "size": 120,
+      "color": "accent",
+      "at": "catch"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s089",
+   "start": 232.35,
+   "end": 236.97,
+   "line": "A normal brain forgets on purpose. Forgetting is cleanup, not failure.",
+   "scene": "bp curve @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "curve",
+    "at1": "forgets",
+    "label": "CLEANUP, NOT FAILURE",
+    "labelAt": "cleanup"
+   }
+  },
+  {
+   "id": "s090",
+   "start": 236.97,
+   "end": 242.93,
+   "line": "It drops the details so patterns can show. You see every leaf and sometimes miss the forest.",
+   "scene": "bp forest @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "forest",
+    "at1": "details",
+    "at2": "forest"
+   }
+  },
+  {
+   "id": "s091",
+   "start": 242.93,
+   "end": 249.61,
+   "line": "It's also how pain softens. For most people, bad feelings fade faster than good ones. Yours don't.",
+   "scene": "bp curve @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "curve",
+    "kind": "feel",
+    "at1": "softens",
+    "at2": "bad",
+    "at3": "don't"
+   }
+  },
+  {
+   "id": "s092",
+   "start": 249.61,
+   "end": 251.75,
+   "line": "Your first heartbreak, still sharp.",
+   "scene": "ins memory @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "girl",
+      "x": 0.15,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1
+     },
+     {
+      "c": "max",
+      "x": -0.15,
+      "pose": "reach",
+      "expr": "sad",
+      "f": 1
+     }
+    ],
+    "sky": "dusk",
+    "caption": "FIRST HEARTBREAK",
+    "capAt": 0.2,
+    "tag": "STILL SHARP",
+    "tagAt": "sharp",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s093",
+   "start": 251.75,
+   "end": 253.49,
+   "line": "Your fifth grade stage fright, you're sweating right now.",
+   "scene": "ins memory @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "max6",
+      "x": 0,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1
+     }
+    ],
+    "sky": "stage",
+    "caption": "5TH GRADE PLAY",
+    "capAt": 0.2,
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s094",
+   "start": 253.49,
+   "end": 255.17,
+   "line": "",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "nervous",
+    "set": "bedroom",
+    "side": -1,
+    "sweat": true,
+    "cam": "crash"
+   }
+  },
+  {
+   "id": "s095",
+   "start": 255.17,
+   "end": 257.39,
+   "line": "Your most embarrassing moment, still hot.",
+   "scene": "ins memory @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "max",
+      "x": 0,
+      "pose": "fall",
+      "expr": "shocked",
+      "f": 1,
+      "rot": -0.5
+     }
+    ],
+    "sky": "day",
+    "caption": "MOST EMBARRASSING MOMENT",
+    "capAt": 0.2,
+    "tag": "STILL HOT",
+    "tagAt": "hot",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s096",
+   "start": 257.39,
+   "end": 260.81,
+   "line": "The worst day of your life, still full size.",
+   "scene": "ins memory @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "rain",
+     "gain": -22
+    },
+    {
+     "at": 2.4,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "max",
+      "x": 0,
+      "pose": "sad",
+      "expr": "cry",
+      "f": 1
+     }
+    ],
+    "sky": "rain",
+    "caption": "THE WORST DAY",
+    "capAt": 0.2,
+    "tag": "FULL SIZE",
+    "tagAt": "full",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s097",
+   "start": 260.81,
+   "end": 265.33,
+   "line": "With sound, with smell, every replay feels brand new.",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "cry",
+    "set": "bedroom",
+    "side": 1,
+    "thoughts": 6,
+    "icons": [
+     "note",
+     "pancake",
+     "q",
+     "clock",
+     "note",
+     "x"
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s098",
+   "start": 265.33,
+   "end": 268.31,
+   "line": "Dr. Lee frowns. Memory isn't a recording.",
+   "scene": "act  @ clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "clinic",
+    "cast": [
+     {
+      "c": "lee",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "worried",
+      "f": -1,
+      "talk": "Memory"
+     },
+     {
+      "c": "max",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "fg": "plant",
+    "fgSide": -1
+   }
+  },
+  {
+   "id": "s099",
+   "start": 268.31,
+   "end": 274.55,
+   "line": "Each time you recall it, your brain rebuilds it. Yours rebuilds it perfectly and perfectly hurts.",
+   "scene": "bp rebuild @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 4.2,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "rebuild",
+    "at1": "recall",
+    "at2": "rebuilds",
+    "label": "PERFECTLY HURTS",
+    "labelAt": "hurts",
+    "hurt": true
+   }
+  },
+  {
+   "id": "s100",
+   "start": 274.55,
+   "end": 277.67,
+   "line": "One night, you relive a bad day for six hours.",
+   "scene": "act  @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "clock",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bedroom",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.24,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": false,
+      "y": -55
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.3,
+    "cam": "push",
+    "so": {
+     "clockSpeed": 1800
+    },
+    "txt": [
+     {
+      "s": "6 HOURS",
+      "y": 0.18,
+      "mode": "slam",
+      "size": 100,
+      "color": "accent",
+      "at": "six"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s101",
+   "start": 277.67,
+   "end": 279.23,
+   "line": "Your pillow is soaked.",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "cry",
+    "set": "bedroom",
+    "side": -1,
+    "tilt": 0.25,
+    "dy": 40
+   }
+  },
+  {
+   "id": "s102",
+   "start": 279.23,
+   "end": 280.87,
+   "line": "Why can't you just let it go?",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "sad",
+    "set": "bedroom",
+    "side": 1,
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s103",
+   "start": 280.87,
+   "end": 283.49,
+   "line": "Because letting go needs forgetting.",
+   "scene": "card  @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "impact",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "card",
+    "set": "bedroom",
+    "txt": [
+     {
+      "s": "LETTING GO",
+      "y": 0.42,
+      "mode": "rise",
+      "size": 100,
+      "color": "cream",
+      "at": "letting"
+     },
+     {
+      "s": "NEEDS FORGETTING",
+      "y": 0.58,
+      "mode": "slam",
+      "size": 110,
+      "at": "forgetting"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s104",
+   "start": 283.49,
+   "end": 284.73,
+   "line": "Then there's Leo.",
+   "scene": "act  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "leoKitchen",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.58,
+      "pose": "sitHold",
+      "expr": "smile",
+      "f": -1,
+      "prop": "cup"
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s105",
+   "start": 284.73,
+   "end": 285.89,
+   "line": "He taught you to ride a bike.",
+   "scene": "ins memory @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "leo",
+      "x": -0.25,
+      "pose": "point",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "max6",
+      "x": 0.0,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "y": -40
+     }
+    ],
+    "extra": "bike",
+    "sky": "golden",
+    "caption": "RIDING LESSONS",
+    "capAt": 0.1,
+    "set": "leoKitchen"
+   }
+  },
+  {
+   "id": "s106",
+   "start": 285.89,
+   "end": 290.85,
+   "line": "He taught you the secret knock. Two quick taps on the kitchen table. One slow.",
+   "scene": "ins tap @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "tap",
+    "at": "Two",
+    "sleeve": "#3fb950"
+   }
+  },
+  {
+   "id": "s107",
+   "start": 290.85,
+   "end": 293.03,
+   "line": "He made it up for the nights you couldn't sleep.",
+   "scene": "ins memory @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "leo",
+      "x": -0.12,
+      "pose": "sitHold",
+      "expr": "smile",
+      "f": 1,
+      "y": -30
+     },
+     {
+      "c": "max6",
+      "x": 0.16,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": -1,
+      "y": -30
+     }
+    ],
+    "sky": "night",
+    "caption": "NIGHTS YOU COULDN'T SLEEP",
+    "capAt": 0.2,
+    "set": "leoKitchen"
+   }
+  },
+  {
+   "id": "s108",
+   "start": 293.03,
+   "end": 296.99,
+   "line": "Two taps meant, I'm here. The slow one meant, it's okay.",
+   "scene": "ins tap @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "tap",
+    "at": 0.1,
+    "means": true,
+    "means1": "here",
+    "means2": "okay"
+   }
+  },
+  {
+   "id": "s109",
+   "start": 296.99,
+   "end": 299.33,
+   "line": "On Sundays, he burns the pancakes.",
+   "scene": "act  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "leoKitchen",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.62,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "steam": true
+    },
+    "fr": "med",
+    "fx": 0.55,
+    "badge": "SUNDAY",
+    "fx2": [
+     {
+      "k": "marks",
+      "who": "leo",
+      "s": "~"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s110",
+   "start": 299.33,
+   "end": 305.17,
+   "line": "You remember every one. 412 burnt pancakes. You'd eat them all again.",
+   "scene": "ins pancakes @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "pancakes",
+    "at": "412"
+   }
+  },
+  {
+   "id": "s111",
+   "start": 305.17,
+   "end": 307.13,
+   "line": "Lately, Leo forgets things.",
+   "scene": "act  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "leoKitchen",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "confused",
+      "f": 1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s112",
+   "start": 307.13,
+   "end": 310.69,
+   "line": "His glasses, your birthday, sometimes your name.",
+   "scene": "ins fade @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "whoosh",
+     "gain": -18
+    },
+    {
+     "at": 2.6,
+     "name": "whoosh",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "fade",
+    "items": [
+     {
+      "s": "GLASSES",
+      "at": "glasses"
+     },
+     {
+      "s": "YOUR BIRTHDAY",
+      "at": "birthday"
+     },
+     {
+      "s": "\"MAX\"",
+      "at": "name"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s113",
+   "start": 310.69,
+   "end": 313.67,
+   "line": "So you tell his stories back to him, word for word.",
+   "scene": "act  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "leoKitchen",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.36,
+      "pose": "sitTalk",
+      "expr": "smile",
+      "f": 1,
+      "talk": true
+     },
+     {
+      "c": "leo",
+      "x": 0.64,
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "desks": [
+     0.5
+    ]
+   }
+  },
+  {
+   "id": "s114",
+   "start": 313.67,
+   "end": 314.53,
+   "line": "Did I tell you this one?",
+   "scene": "face leo @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "leo",
+    "expr": "smile",
+    "set": "leoKitchen",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s115",
+   "start": 314.53,
+   "end": 317.63,
+   "line": "Four times, grandpa. The third was funnier.",
+   "scene": "face max @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "smirk",
+    "set": "leoKitchen",
+    "side": -1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s116",
+   "start": 317.63,
+   "end": 319.79,
+   "line": "He laughs. Then his eyes drift.",
+   "scene": "face leo @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "leo",
+    "expr": [
+     [
+      0,
+      "joy"
+     ],
+     [
+      "eyes",
+      "neutral"
+     ]
+    ],
+    "set": "leoKitchen",
+    "side": 1,
+    "look": [
+     [
+      0,
+      [
+       0,
+       0
+      ]
+     ],
+     [
+      "drift",
+      [
+       0.7,
+       -0.3
+      ]
+     ]
+    ],
+    "talk": [
+     0,
+     0.8
+    ]
+   }
+  },
+  {
+   "id": "s117",
+   "start": 319.79,
+   "end": 322.87,
+   "line": "And he says the one sentence he never loses.",
+   "scene": "act  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "leoKitchen",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.36,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "leo",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "fg": "head",
+    "fgSide": -1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s118",
+   "start": 322.87,
+   "end": 325.81,
+   "line": "Nothing fades for you, Max. So make it worth keeping.",
+   "scene": "face leo @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "leo",
+    "expr": "smile",
+    "set": "leoKitchen",
+    "side": 1,
+    "talk": true,
+    "txt": [
+     {
+      "s": "NOTHING FADES",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 60,
+      "color": "cream",
+      "at": "Nothing"
+     },
+     {
+      "s": "MAKE IT WORTH KEEPING",
+      "y": 0.86,
+      "mode": "drop",
+      "size": 66,
+      "at": "worth"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s119",
+   "start": 325.81,
+   "end": 327.77,
+   "line": "You nod. Of course you keep it.",
+   "scene": "face max @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "happy",
+    "set": "leoKitchen",
+    "side": -1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s120",
+   "start": 327.77,
+   "end": 331.35,
+   "line": "He pats the table. Two quick taps. One slow.",
+   "scene": "ins tap @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "tap",
+    "at": "Two",
+    "sleeve": "#3fb950"
+   }
+  },
+  {
+   "id": "s121",
+   "start": 331.35,
+   "end": 332.93,
+   "line": "You answer with the same.",
+   "scene": "ins tap @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "tap",
+    "at": 0.15,
+    "sleeve": "#d64a33"
+   }
+  },
+  {
+   "id": "s122",
+   "start": 332.93,
+   "end": 336.39,
+   "line": "It's the only conversation that never needs words.",
+   "scene": "act  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "leoKitchen",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "leo",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s123",
+   "start": 336.39,
+   "end": 339.13,
+   "line": "Friday morning, a sticky note on the fridge.",
+   "scene": "act  @ kitchen",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "kitchen",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "badge": "FRIDAY",
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s124",
+   "start": 339.13,
+   "end": 343.53,
+   "line": "Leo's shaky handwriting. Bank. Noon. Safe account.",
+   "scene": "ins sticky @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "swish",
+     "gain": -16
+    },
+    {
+     "at": 2.7,
+     "name": "swish",
+     "gain": -16
+    },
+    {
+     "at": 3.4,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "sticky",
+    "lines": [
+     {
+      "s": "BANK.",
+      "at": "Bank"
+     },
+     {
+      "s": "NOON.",
+      "at": "Noon"
+     },
+     {
+      "s": "SAFE ACCOUNT",
+      "at": "Safe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s125",
+   "start": 343.53,
+   "end": 347.15,
+   "line": "You stare. Safe account? Where have you heard that?",
+   "scene": "face max @ kitchen",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      "heard",
+      "thinking"
+     ]
+    ],
+    "set": "kitchen",
+    "side": -1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s126",
+   "start": 347.15,
+   "end": 349.25,
+   "line": "You call Leo. No answer.",
+   "scene": "ins call @ kitchen",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "phonering",
+     "gain": -16
+    },
+    {
+     "at": 1.1,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "call",
+    "name": "GRANDPA LEO",
+    "statusAt": "No",
+    "set": "kitchen"
+   }
+  },
+  {
+   "id": "s127",
+   "start": 349.25,
+   "end": 350.23,
+   "line": "You run.",
+   "scene": "act  @ streetDay",
+   "set": "streetDay",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDay",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.25,
+      "pose": "stand",
+      "expr": "determined",
+      "f": 1,
+      "walk": {
+       "at": 0,
+       "run": true
+      },
+      "trail": {
+       "count": 3,
+       "dx": -40
+      }
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "cam": "right",
+    "camAmt": 3
+   },
+   "mb": 2
+  },
+  {
+   "id": "s128",
+   "start": 350.23,
+   "end": 353.43,
+   "line": "At noon, you find him at the bank counter, pen in hand.",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.5,
+      "pose": "holdFront",
+      "expr": "confused",
+      "f": 1,
+      "prop": "paper"
+     },
+     {
+      "c": "man",
+      "x": 0.15,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "woman",
+      "x": 0.85,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "cam": "push",
+    "so": {
+     "minutes": 0
+    }
+   }
+  },
+  {
+   "id": "s129",
+   "start": 353.43,
+   "end": 356.61,
+   "line": "A smiling man in a gray suit stands beside him.",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.42,
+      "pose": "holdFront",
+      "expr": "confused",
+      "f": 1,
+      "prop": "paper"
+     },
+     {
+      "c": "black",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "cam": "left"
+   }
+  },
+  {
+   "id": "s130",
+   "start": 356.61,
+   "end": 359.13,
+   "line": "Mr. Black. His phone is on speaker.",
+   "scene": "face black @ bank",
+   "set": "bank",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "black",
+    "expr": "smile",
+    "set": "bank",
+    "side": 1,
+    "txt": [
+     {
+      "s": "MR. BLACK",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 70,
+      "color": "cream",
+      "at": "Black"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s131",
+   "start": 359.13,
+   "end": 363.49,
+   "line": "Sir, your savings are in danger. Move them to a safe account. Now!",
+   "scene": "ins call @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.7,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "call",
+    "name": "\"BANK SECURITY\"",
+    "face": false,
+    "status": "\u25cf ON SPEAKER",
+    "statusAt": 0.05,
+    "ringC": "#e04a3a",
+    "txt": [
+     {
+      "s": "NOW!",
+      "y": 0.5,
+      "x": 0.8,
+      "mode": "slam",
+      "size": 120,
+      "color": "accent",
+      "at": "Now"
+     }
+    ],
+    "set": "bank"
+   }
+  },
+  {
+   "id": "s132",
+   "start": 363.49,
+   "end": 366.53,
+   "line": "Your stomach drops. You know that voice.",
+   "scene": "face max @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "shocked",
+    "set": "bank",
+    "side": -1,
+    "cam": "crash"
+   }
+  },
+  {
+   "id": "s133",
+   "start": 366.53,
+   "end": 375.53,
+   "line": "Three weeks ago, it called the house. The water company. 11 days ago, Leo's insurance. Today, the bank's security department.",
+   "scene": "bp voices @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 3.9,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 6.6,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "voices",
+    "at": [
+     "Three",
+     "11",
+     "Today"
+    ]
+   }
+  },
+  {
+   "id": "s134",
+   "start": 375.53,
+   "end": 378.85,
+   "line": "Same voice, same cough, same words.",
+   "scene": "card  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 1.4,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 2.4,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "card",
+    "set": "bank",
+    "txt": [
+     {
+      "s": "SAME VOICE",
+      "y": 0.32,
+      "mode": "slam",
+      "size": 90,
+      "color": "accent",
+      "at": "voice"
+     },
+     {
+      "s": "SAME COUGH",
+      "y": 0.5,
+      "mode": "slam",
+      "size": 90,
+      "color": "accent",
+      "at": "cough"
+     },
+     {
+      "s": "SAME WORDS",
+      "y": 0.68,
+      "mode": "slam",
+      "size": 90,
+      "color": "accent",
+      "at": "words"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s135",
+   "start": 378.85,
+   "end": 380.35,
+   "line": "Sir, this is urgent!",
+   "scene": "face black @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "black",
+    "expr": "smirk",
+    "set": "bank",
+    "side": 1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s136",
+   "start": 380.35,
+   "end": 383.71,
+   "line": "You grab your phone. You never recorded a single call.",
+   "scene": "ins call @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "call",
+    "name": "VOICE MEMOS",
+    "face": false,
+    "calling": "searching\u2026",
+    "status": "0 RECORDINGS",
+    "statusAt": "never",
+    "ringC": "#e04a3a",
+    "set": "bank"
+   }
+  },
+  {
+   "id": "s137",
+   "start": 383.71,
+   "end": 386.21,
+   "line": "Why would you? You never forget.",
+   "scene": "face max @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "sad",
+    "set": "bank",
+    "side": -1,
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s138",
+   "start": 386.21,
+   "end": 389.13,
+   "line": "Above the counter, a clock reads 1201.",
+   "scene": "ins digiclock @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "digiclock",
+    "s": "12:01",
+    "at2": "reads",
+    "set": "bank"
+   }
+  },
+  {
+   "id": "s139",
+   "start": 389.13,
+   "end": 391.39,
+   "line": "Leo's pen is one hand from the line.",
+   "scene": "ins sign @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "sign",
+    "touchAt": 99,
+    "set": "bank"
+   }
+  },
+  {
+   "id": "s140",
+   "start": 391.39,
+   "end": 399.31,
+   "line": "A signature takes two seconds. You're 20 meters away. A fast run is five meters per second. Four seconds. Too slow.",
+   "scene": "bp distance @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.7,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 6.3,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 7.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "distance",
+    "at1": "20",
+    "at2": "five",
+    "at3": "Four",
+    "at4": "Too",
+    "sigAt": "signature"
+   }
+  },
+  {
+   "id": "s141",
+   "start": 399.31,
+   "end": 400.31,
+   "line": "So you shout.",
+   "scene": "face max @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "angry",
+    "set": "bank",
+    "side": -1,
+    "cam": "crash"
+   }
+  },
+  {
+   "id": "s142",
+   "start": 400.31,
+   "end": 401.37,
+   "line": "It's a scam!",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "smash",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.25,
+      "pose": "point",
+      "expr": "angry",
+      "f": 1,
+      "talk": true
+     },
+     {
+      "c": "leo",
+      "x": 0.58,
+      "pose": "holdFront",
+      "expr": "surprised",
+      "f": -1,
+      "prop": "paper"
+     },
+     {
+      "c": "black",
+      "x": 0.72,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "hit": 0.15,
+    "txt": [
+     {
+      "s": "IT'S A SCAM!",
+      "y": 0.18,
+      "mode": "slam",
+      "size": 110,
+      "color": "accent",
+      "at": "scam"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s143",
+   "start": 401.37,
+   "end": 405.47,
+   "line": "Mr. Black smiles. Kid, I saw you on TV.",
+   "scene": "face black @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "black",
+    "expr": "smirk",
+    "set": "bank",
+    "side": 1,
+    "talk": "Kid"
+   }
+  },
+  {
+   "id": "s144",
+   "start": 405.47,
+   "end": 407.57,
+   "line": "Nobody can see inside your head.",
+   "scene": "face black @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "black",
+    "expr": "smile",
+    "set": "bank",
+    "side": 1,
+    "talk": true,
+    "tilt": 0.08,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s145",
+   "start": 407.57,
+   "end": 408.93,
+   "line": "The teller frowns.",
+   "scene": "face teller @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "teller",
+    "expr": "confused",
+    "set": "bank",
+    "side": -1
+   }
+  },
+  {
+   "id": "s146",
+   "start": 408.93,
+   "end": 412.69,
+   "line": "Sir, I can't stop a customer because of what a boy remembers.",
+   "scene": "face teller @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "teller",
+    "expr": "worried",
+    "set": "bank",
+    "side": -1,
+    "talk": true,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s147",
+   "start": 412.69,
+   "end": 414.09,
+   "line": "Your head floods.",
+   "scene": "face max @ bank",
+   "set": "bank",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "freeze",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "shocked",
+    "set": "bank",
+    "side": 0,
+    "cam": "crash",
+    "freeze": true,
+    "badge": "3 CALLS"
+   }
+  },
+  {
+   "id": "s148",
+   "start": 414.09,
+   "end": 416.37,
+   "line": "Three calls. Every word.",
+   "scene": "bp voices @ void",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "voices",
+    "at": [
+     0.05,
+     0.25,
+     0.45
+    ]
+   }
+  },
+  {
+   "id": "s149",
+   "start": 416.37,
+   "end": 417.59,
+   "line": "Loud as a siren.",
+   "scene": "face max @ bank",
+   "set": "bank",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "buzz",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "scared",
+    "set": "bank",
+    "side": 1,
+    "pulse": true,
+    "shake": 5,
+    "txt": [
+     {
+      "s": "LOUD AS A SIREN",
+      "y": 0.86,
+      "mode": "slam",
+      "size": 80,
+      "color": "accent",
+      "at": "siren"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s150",
+   "start": 417.59,
+   "end": 419.47,
+   "line": "And nobody else can hear it.",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "teller",
+      "x": 0.15,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "still": true
+     },
+     {
+      "c": "max",
+      "x": 0.42,
+      "pose": "handsOnHead",
+      "expr": "scared",
+      "f": 1
+     },
+     {
+      "c": "leo",
+      "x": 0.62,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1,
+      "still": true,
+      "prop": "paper"
+     },
+     {
+      "c": "black",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1,
+      "still": true
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "freeze": true,
+    "badge": "NOBODY HEARS IT",
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s151",
+   "start": 419.47,
+   "end": 423.87,
+   "line": "Mr. Black leans close. Stay quiet and I'll pay you 10 ,000.",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "angry",
+      "f": 1
+     },
+     {
+      "c": "black",
+      "x": 0.62,
+      "pose": "talk",
+      "expr": "smirk",
+      "f": -1,
+      "talk": "Stay",
+      "slide": {
+       "at": 0,
+       "dx": -70,
+       "dur": 1
+      }
+     }
+    ],
+    "fr": "close",
+    "fx": 0.52,
+    "txt": [
+     {
+      "s": "$10,000",
+      "y": 0.18,
+      "mode": "slam",
+      "size": 110,
+      "at": "10"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s152",
+   "start": 423.87,
+   "end": 426.61,
+   "line": "A memory like yours? We'd make a fortune.",
+   "scene": "face black @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "black",
+    "expr": "smirk",
+    "set": "bank",
+    "side": 1,
+    "talk": true,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s153",
+   "start": 426.61,
+   "end": 429.03,
+   "line": "The money or your grandfather.",
+   "scene": "bp choice @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "choice",
+    "l1": "$10,000",
+    "l2": "GRANDPA",
+    "tiltAt": "grandfather"
+   }
+  },
+  {
+   "id": "s154",
+   "start": 429.03,
+   "end": 432.09,
+   "line": "Leo looks up. Who, who are you?",
+   "scene": "face leo @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "leo",
+    "expr": "confused",
+    "set": "bank",
+    "side": 1,
+    "talk": "Who",
+    "look": [
+     -0.4,
+     -0.3
+    ]
+   }
+  },
+  {
+   "id": "s155",
+   "start": 432.09,
+   "end": 433.61,
+   "line": "The pen touches the paper.",
+   "scene": "ins sign @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "sign",
+    "touchAt": "touches",
+    "set": "bank"
+   }
+  },
+  {
+   "id": "s156",
+   "start": 433.61,
+   "end": 435.35,
+   "line": "You have one thing left.",
+   "scene": "face max @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "determined",
+    "set": "bank",
+    "side": -1,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s157",
+   "start": 435.35,
+   "end": 438.45,
+   "line": "Two quick taps on the counter. One slow.",
+   "scene": "ins tap @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "tap",
+    "counter": true,
+    "at": "Two",
+    "sleeve": "#d64a33"
+   }
+  },
+  {
+   "id": "s158",
+   "start": 438.45,
+   "end": 440.29,
+   "line": "Leo's hand freezes.",
+   "scene": "ins sign @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "slowmo",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "sign",
+    "touchAt": 0,
+    "stopAt": 0.5,
+    "set": "bank"
+   }
+  },
+  {
+   "id": "s159",
+   "start": 440.29,
+   "end": 440.97,
+   "line": "Max?",
+   "scene": "face leo @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "leo",
+    "expr": "surprised",
+    "set": "bank",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s160",
+   "start": 440.97,
+   "end": 444.27,
+   "line": "Nothing fades, grandpa. So make it worth keeping.",
+   "scene": "face max @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "smile",
+    "set": "bank",
+    "side": -1,
+    "talk": true,
+    "txt": [
+     {
+      "s": "NOTHING FADES",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 60,
+      "color": "cream",
+      "at": "Nothing"
+     },
+     {
+      "s": "MAKE IT WORTH KEEPING",
+      "y": 0.86,
+      "mode": "drop",
+      "size": 66,
+      "at": "worth"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s161",
+   "start": 444.27,
+   "end": 446.67,
+   "line": "His eyes clear. Just for a moment.",
+   "scene": "face leo @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "leo",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      "clear",
+      "determined"
+     ]
+    ],
+    "set": "bank",
+    "side": 1,
+    "spark": "clear"
+   }
+  },
+  {
+   "id": "s162",
+   "start": 446.67,
+   "end": 448.05,
+   "line": "He puts the pen down.",
+   "scene": "ins sign @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "sign",
+    "touchAt": 0,
+    "stopAt": 0,
+    "downAt": 0.3,
+    "set": "bank"
+   }
+  },
+  {
+   "id": "s163",
+   "start": 448.05,
+   "end": 449.63,
+   "line": "I don't know this man.",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.42,
+      "pose": "point",
+      "expr": "determined",
+      "f": 1,
+      "talk": true
+     },
+     {
+      "c": "black",
+      "x": 0.64,
+      "pose": "stand",
+      "expr": "scared",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.52,
+    "hit": 0.4
+   }
+  },
+  {
+   "id": "s164",
+   "start": 449.63,
+   "end": 451.31,
+   "line": "The teller steps back.",
+   "scene": "face teller @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "teller",
+    "expr": "surprised",
+    "set": "bank",
+    "side": -1
+   }
+  },
+  {
+   "id": "s165",
+   "start": 451.31,
+   "end": 455.59,
+   "line": "Sir, real banks never ask you to move money to a safe account.",
+   "scene": "card  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "card",
+    "set": "bank",
+    "txt": [
+     {
+      "s": "REAL BANKS NEVER ASK",
+      "y": 0.4,
+      "mode": "rise",
+      "size": 90,
+      "color": "cream",
+      "at": "real"
+     },
+     {
+      "s": "\"SAFE ACCOUNT\" = SCAM",
+      "y": 0.58,
+      "mode": "slam",
+      "size": 100,
+      "color": "accent",
+      "at": "safe"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s166",
+   "start": 455.59,
+   "end": 456.95,
+   "line": "Security walks Mr. Black out.",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "black",
+      "x": 0.55,
+      "pose": "sad",
+      "expr": "scared",
+      "f": -1,
+      "walk": {
+       "at": 0,
+       "dist": -420
+      }
+     },
+     {
+      "c": "cop",
+      "x": 0.7,
+      "pose": "stand",
+      "expr": "angry",
+      "f": -1,
+      "walk": {
+       "at": 0.1,
+       "dist": -420
+      }
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.45,
+    "cam": "left"
+   }
+  },
+  {
+   "id": "s167",
+   "start": 456.95,
+   "end": 460.19,
+   "line": "Behind you, the whole line starts clapping.",
+   "scene": "act  @ bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "applause",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "bank",
+    "cast": [
+     {
+      "c": "man",
+      "x": 0.14,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "woman",
+      "x": 0.26,
+      "pose": "cheer",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "max",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "leo",
+      "x": 0.64,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "girl",
+      "x": 0.86,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s168",
+   "start": 460.19,
+   "end": 462.93,
+   "line": "Later, you sit with Leo and write it all down.",
+   "scene": "act  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "leoKitchen",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.38,
+      "pose": "sitHold",
+      "expr": "determined",
+      "f": 1,
+      "prop": "paper"
+     },
+     {
+      "c": "leo",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "txt": [
+     {
+      "s": "LATER",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 60,
+      "color": "cream",
+      "at": "Later"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s169",
+   "start": 462.93,
+   "end": 466.33,
+   "line": "Three calls, 11 pages, every word.",
+   "scene": "ins paper @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "paper",
+    "title": "STATEMENT \u00b7 3 CALLS",
+    "notes": false,
+    "stamp": "11 PAGES",
+    "stampAt": "11",
+    "stampSize": 60,
+    "set": "leoKitchen"
+   }
+  },
+  {
+   "id": "s170",
+   "start": 466.33,
+   "end": 469.37,
+   "line": "Your memory can't be shared, but paper can.",
+   "scene": "card  @ leoKitchen",
+   "set": "leoKitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.1,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "card",
+    "set": "leoKitchen",
+    "txt": [
+     {
+      "s": "MEMORY: CAN'T BE SHARED",
+      "y": 0.42,
+      "mode": "rise",
+      "size": 80,
+      "color": "cream",
+      "at": "memory"
+     },
+     {
+      "s": "PAPER: CAN",
+      "y": 0.58,
+      "mode": "slam",
+      "size": 100,
+      "at": "paper"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s171",
+   "start": 469.37,
+   "end": 471.03,
+   "line": "The police read it twice.",
+   "scene": "act  @ lab",
+   "set": "lab",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "params": {
+    "tpl": "act",
+    "set": "lab",
+    "cast": [
+     {
+      "c": "cop",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "surprised",
+      "f": 1,
+      "prop": "paper"
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "so": {
+     "board": [
+      "CASE #4471",
+      "3 CALLS",
+      "11 PAGES",
+      "\"SAFE ACCOUNT\""
+     ]
+    },
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s172",
+   "start": 471.03,
+   "end": 473.85,
+   "line": "This is as good as a recording, an officer says.",
+   "scene": "face cop @ lab",
+   "set": "lab",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "params": {
+    "tpl": "face",
+    "who": "cop",
+    "expr": "smile",
+    "set": "lab",
+    "side": 1,
+    "talk": true
+   }
+  },
+  {
+   "id": "s173",
+   "start": 473.85,
+   "end": 475.71,
+   "line": "You could ruin Black alone.",
+   "scene": "face max @ streetDusk",
+   "set": "streetDusk",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "smirk",
+    "set": "streetDusk",
+    "side": -1,
+    "dark": 0.5,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s174",
+   "start": 475.71,
+   "end": 478.15,
+   "line": "Every secret he ever whispered near you.",
+   "scene": "ins memory @ streetDusk",
+   "set": "streetDusk",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "black",
+      "x": 0,
+      "pose": "talk",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "sky": "night",
+    "caption": "EVERY WHISPER",
+    "capAt": "whispered",
+    "tag": "SAVED",
+    "tagColor": "gold",
+    "tagAt": "secret",
+    "set": "streetDusk"
+   }
+  },
+  {
+   "id": "s175",
+   "start": 478.15,
+   "end": 480.25,
+   "line": "But then you'd be just like him.",
+   "scene": "face max @ streetDusk",
+   "set": "streetDusk",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "sad",
+    "set": "streetDusk",
+    "side": 1,
+    "gray": true
+   }
+  },
+  {
+   "id": "s176",
+   "start": 480.25,
+   "end": 481.81,
+   "line": "Leo hugs you in the car.",
+   "scene": "act  @ streetDusk",
+   "set": "streetDusk",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "params": {
+    "tpl": "act",
+    "set": "streetDusk",
+    "cast": [
+     {
+      "c": "max",
+      "x": 0.46,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "leo",
+      "x": 0.55,
+      "pose": "reach",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "fx2": [
+     {
+      "k": "car",
+      "x0": 0.5,
+      "x1": 0.5,
+      "at": 0,
+      "dur": 0.1,
+      "s": 1.35,
+      "color": "#3a6ea5",
+      "dy": 60
+     }
+    ],
+    "fr": "med",
+    "fx": 0.5,
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s177",
+   "start": 481.81,
+   "end": 484.21,
+   "line": "By dinner, he's forgotten the whole day.",
+   "scene": "act  @ kitchenEve",
+   "set": "kitchenEve",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "act",
+    "set": "kitchenEve",
+    "cast": [
+     {
+      "c": "leo",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "max",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "fr": "wide",
+    "fx": 0.5,
+    "txt": [
+     {
+      "s": "BY DINNER",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 60,
+      "color": "cream",
+      "at": "dinner"
+     }
+    ],
+    "cam": "pull"
+   }
+  },
+  {
+   "id": "s178",
+   "start": 484.21,
+   "end": 488.83,
+   "line": "You haven't. And for once, you're glad. Someone has to keep it.",
+   "scene": "face max @ kitchenEve",
+   "set": "kitchenEve",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "smile",
+    "set": "kitchenEve",
+    "side": -1,
+    "spark": "glad",
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s179",
+   "start": 488.83,
+   "end": 491.27,
+   "line": "That night, your worst day comes back.",
+   "scene": "ins memory @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "rain",
+     "gain": -22
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "max",
+      "x": 0,
+      "pose": "sad",
+      "expr": "cry",
+      "f": 1
+     }
+    ],
+    "sky": "rain",
+    "caption": "THE WORST DAY",
+    "capAt": 0.2,
+    "gray": true,
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s180",
+   "start": 491.27,
+   "end": 494.19,
+   "line": "You don't stay. You press play on another one.",
+   "scene": "ins memory @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "leo",
+      "x": -0.25,
+      "pose": "point",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "max6",
+      "x": 0.0,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "y": -40
+     }
+    ],
+    "extra": "bike",
+    "sky": "golden",
+    "caption": "\u25b6 PLAY: RIDING LESSONS",
+    "capAt": "play",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s181",
+   "start": 494.19,
+   "end": 496.39,
+   "line": "Two quick taps, one slow.",
+   "scene": "ins tap @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "tap",
+    "at": "Two",
+    "sleeve": "#3fb950",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s182",
+   "start": 496.39,
+   "end": 498.95,
+   "line": "And for the first time, it doesn't hurt.",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "happy",
+    "set": "bedroom",
+    "side": -1,
+    "spark": "first",
+    "cam": "push"
+   }
+  },
+  {
+   "id": "s183",
+   "start": 498.95,
+   "end": 501.87,
+   "line": "Nothing fades. So make it worth keeping.",
+   "scene": "card  @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "card",
+    "set": "bedroom",
+    "txt": [
+     {
+      "s": "NOTHING FADES.",
+      "y": 0.42,
+      "mode": "rise",
+      "size": 90,
+      "color": "cream",
+      "at": "Nothing"
+     },
+     {
+      "s": "SO MAKE IT WORTH KEEPING.",
+      "y": 0.58,
+      "mode": "drop",
+      "size": 90,
+      "at": "worth"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s184",
+   "start": 501.87,
+   "end": 503.59,
+   "line": "Then your phone lights up.",
+   "scene": "ins call @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "phonebuzz",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "call",
+    "name": "UNKNOWN NUMBER",
+    "face": false,
+    "calling": "incoming call",
+    "green": true,
+    "ringC": "#e04a3a",
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s185",
+   "start": 503.59,
+   "end": 508.15,
+   "line": "Unknown number, a woman's voice. Hello, Max. Do you remember me?",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "surprised",
+    "set": "bedroom",
+    "side": -1,
+    "txt": [
+     {
+      "s": "\"HELLO, MAX.\"",
+      "y": 0.16,
+      "mode": "rise",
+      "size": 64,
+      "color": "cream",
+      "at": "Hello"
+     },
+     {
+      "s": "\"DO YOU REMEMBER ME?\"",
+      "y": 0.86,
+      "mode": "rise",
+      "size": 64,
+      "at": "remember"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s186",
+   "start": 508.15,
+   "end": 511.89,
+   "line": "You search every voice, every face, nothing.",
+   "scene": "ins faces @ bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.7,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 3.0,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "faces",
+    "faces": [
+     {
+      "s": "?",
+      "outfit": "woman",
+      "at": 0.1
+     },
+     {
+      "s": "?",
+      "outfit": "girl",
+      "at": 0.5
+     },
+     {
+      "s": "?",
+      "outfit": "lee",
+      "at": 0.9
+     },
+     {
+      "s": "?",
+      "outfit": "teller",
+      "at": 1.3
+     },
+     {
+      "s": "?",
+      "outfit": "mom",
+      "at": 1.7
+     }
+    ],
+    "txt": [
+     {
+      "s": "NOTHING",
+      "y": 0.86,
+      "mode": "slam",
+      "size": 90,
+      "color": "accent",
+      "at": "nothing"
+     }
+    ],
+    "set": "bedroom"
+   }
+  },
+  {
+   "id": "s187",
+   "start": 511.89,
+   "end": 516.33,
+   "line": "You've never forgotten anything before. So why can't you remember her?",
+   "scene": "face max @ bedroom",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "face",
+    "who": "max",
+    "expr": "scared",
+    "set": "bedroom",
+    "side": 0,
+    "cam": "push",
+    "dark": 0.6,
+    "txt": [
+     {
+      "s": "WHO IS SHE?",
+      "y": 0.86,
+      "mode": "slam",
+      "size": 90,
+      "color": "accent",
+      "at": "why"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s188",
+   "start": 516.33,
+   "end": 518.47,
+   "line": "But how much of this is real?",
+   "scene": "card  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "card",
+    "set": "void",
+    "txt": [
+     {
+      "s": "HOW MUCH IS REAL?",
+      "mode": "slam",
+      "size": 110,
+      "at": "real"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s189",
+   "start": 518.47,
+   "end": 520.33,
+   "line": "Perfect memory doesn't exist.",
+   "scene": "fact  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "fact",
+    "kind": "fiction",
+    "lines": [
+     {
+      "s": "PERFECT MEMORY",
+      "at": "Perfect"
+     },
+     {
+      "s": "DOESN'T EXIST",
+      "at": "exist",
+      "color": "accent"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s190",
+   "start": 520.33,
+   "end": 527.01,
+   "line": "In 1956, psychologist George Miller showed we hold about seven items at once. That part is real.",
+   "scene": "bp miller @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 5.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "miller",
+    "at1": "1956",
+    "at2": "seven",
+    "realAt": "real"
+   }
+  },
+  {
+   "id": "s191",
+   "start": 527.01,
+   "end": 531.23,
+   "line": "Even vivid memories can be wrong. Confidence isn't accuracy.",
+   "scene": "fact  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "fact",
+    "kind": "fact",
+    "lines": [
+     {
+      "s": "VIVID \u2260 CORRECT",
+      "at": "wrong"
+     },
+     {
+      "s": "CONFIDENCE \u2260 ACCURACY",
+      "at": "Confidence"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s192",
+   "start": 531.23,
+   "end": 537.15,
+   "line": "A rare few people have highly superior autobiographical memory, first described in 2006.",
+   "scene": "bp hsam @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "hsam",
+    "at1": "2006",
+    "at2": "highly",
+    "label": "HIGHLY SUPERIOR AUTOBIOGRAPHICAL MEMORY"
+   }
+  },
+  {
+   "id": "s193",
+   "start": 537.15,
+   "end": 539.67,
+   "line": "They recall ordinary days in detail.",
+   "scene": "ins memory @ class",
+   "set": "class",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "ins",
+    "obj": "memory",
+    "figs": [
+     {
+      "c": "girl",
+      "x": 0,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1
+     }
+    ],
+    "sky": "day",
+    "caption": "TUESDAY, MARCH 3, 2009",
+    "capAt": "ordinary",
+    "date": "EVERY DAY",
+    "dateLabel": "RECALLED",
+    "set": "class"
+   }
+  },
+  {
+   "id": "s194",
+   "start": 539.67,
+   "end": 543.15,
+   "line": "But a 2013 study found they still fall for false memories.",
+   "scene": "bp falsemem @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "falsemem",
+    "at1": "2013",
+    "at2": "false"
+   }
+  },
+  {
+   "id": "s195",
+   "start": 543.15,
+   "end": 546.95,
+   "line": "Because memory isn't a recording. It's a rebuild.",
+   "scene": "bp rebuild @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "rebuild",
+    "at1": 0.2,
+    "at2": "rebuild",
+    "label": "NOT A RECORDING",
+    "labelAt": "recording"
+   }
+  },
+  {
+   "id": "s196",
+   "start": 546.95,
+   "end": 552.01,
+   "line": "And in a famous 1942 story, Borges imagined a man who forgot nothing.",
+   "scene": "bp borges @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "borges",
+    "at1": "1942"
+   }
+  },
+  {
+   "id": "s197",
+   "start": 552.01,
+   "end": 555.45,
+   "line": "He couldn't think. Thinking means ignoring details.",
+   "scene": "bp borges @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "bp",
+    "d": "borges",
+    "at1": 0,
+    "at2": "think",
+    "txt": [
+     {
+      "s": "THINKING = IGNORING DETAILS",
+      "y": 0.08,
+      "mode": "rise",
+      "size": 50,
+      "color": "gold",
+      "at": "ignoring"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s198",
+   "start": 555.45,
+   "end": 559.67,
+   "line": "So could a brain really remember everything and still think?",
+   "scene": "card  @ void",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -34
+   },
+   "params": {
+    "tpl": "card",
+    "set": "void",
+    "txt": [
+     {
+      "s": "REMEMBER EVERYTHING\u2026",
+      "y": 0.42,
+      "mode": "rise",
+      "size": 90,
+      "color": "cream",
+      "at": "remember"
+     },
+     {
+      "s": "\u2026AND STILL THINK?",
+      "y": 0.58,
+      "mode": "slam",
+      "size": 110,
+      "at": "still"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s199",
+   "start": 559.67,
+   "end": 568.02,
+   "line": "What do you think? Tell us in the comments and tell us which superpower we should do next. Hit like and subscribe for part two.",
+   "scene": "end  @ living",
+   "set": "living",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "params": {
+    "tpl": "end",
+    "set": "living",
+    "q": "WHAT DO YOU THINK?",
+    "cast": [
+     "max",
+     "mia",
+     "leo",
+     "lee",
+     "jake"
+    ]
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 48,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 48,
+   "end": 74.5,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 74.5,
+   "end": 231,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 231,
+   "end": 262,
+   "mood": "mystery",
+   "intensity": 0.35
+  },
+  {
+   "start": 262,
+   "end": 283.5,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 283.5,
+   "end": 336.3,
+   "mood": "hopeful",
+   "intensity": 0.4
+  },
+  {
+   "start": 336.3,
+   "end": 363.5,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 363.5,
+   "end": 412.6,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 412.6,
+   "end": 433.6,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 433.6,
+   "end": 449.7,
+   "mood": "epic",
+   "intensity": 0.7
+  },
+  {
+   "start": 449.7,
+   "end": 460.2,
+   "mood": "triumph",
+   "intensity": 0.55
+  },
+  {
+   "start": 460.2,
+   "end": 501.8,
+   "mood": "hopeful",
+   "intensity": 0.4
+  },
+  {
+   "start": 501.8,
+   "end": 516.4,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 516.4,
+   "end": 559.6,
+   "mood": "wonder",
+   "intensity": 0.35
+  },
+  {
+   "start": 559.6,
+   "end": 568.02,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

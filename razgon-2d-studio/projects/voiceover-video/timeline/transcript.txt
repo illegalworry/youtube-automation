@@ -1,0 +1,270 @@
+[00:00.00 -> 00:02.98] Your alarm rings, you hit it before the second beep.
+[00:03.38 -> 00:04.66] Mia drops onto your couch.
+[00:05.32 -> 00:07.90] Hey, what was I wearing on our first day of sixth grade?
+[00:08.46 -> 00:10.76] Easy, green raincoat, torn left sleeve.
+[00:11.34 -> 00:12.26] She stares at you.
+[00:12.62 -> 00:13.92] What was the weather on my birthday?
+[00:14.56 -> 00:17.04] Rainy, 14 degrees, wind from the west.
+[00:17.62 -> 00:19.76] She checks her phone and goes quiet.
+[00:20.24 -> 00:24.06] At school, your teacher asks for page 214, line three.
+[00:24.40 -> 00:25.82] You say it word for word.
+[00:26.14 -> 00:28.00] A tourist asks for the bus timetable.
+[00:28.48 -> 00:29.24] You recite it.
+[00:29.24 -> 00:31.02] Every stop, every minute.
+[00:31.38 -> 00:33.76] Not because you studied, because you saw it once.
+[00:34.56 -> 00:35.32] Mia shakes her head.
+[00:35.78 -> 00:36.96] Dude, that's creepy.
+[00:37.60 -> 00:39.22] Fine, but where are your keys?
+[00:39.86 -> 00:41.52] You have no idea.
+[00:41.94 -> 00:42.92] You never looked at them.
+[00:43.20 -> 00:47.82] Your name is Max, you're 17, and your memory just became perfect.
+[00:48.42 -> 00:50.94] Most people hold about seven things in their head at once.
+[00:51.46 -> 00:52.88] You, 7 ,000.
+[00:53.30 -> 00:55.74] A normal brain forgets much of a lecture by tomorrow.
+[00:56.24 -> 00:57.82] You, you forget nothing.
+[00:57.82 -> 01:00.34] Everything you notice is saved forever.
+[01:00.90 -> 01:04.04] Sounds, smells, feelings, but there's one rule.
+[01:04.52 -> 01:07.10] Your memory lives in your head and only there.
+[01:07.48 -> 01:10.64] You can't copy it, you can't lend it, you can't prove it.
+[01:10.96 -> 01:13.64] So what if you had a perfect memory forever?
+[01:14.68 -> 01:15.52] Monday, pop quiz.
+[01:16.06 -> 01:17.74] You flip through the textbook in your mind.
+[01:18.06 -> 01:22.26] The margin doodle, the coffee stain, perfect score in four minutes.
+[01:22.88 -> 01:24.40] Mia whispers, is that cheating?
+[01:24.94 -> 01:27.34] It's reading, very fast reading.
+[01:27.34 -> 01:30.16] Saturday party, 300 people.
+[01:30.60 -> 01:32.10] You greet everyone by name.
+[01:32.68 -> 01:33.52] Jake pulls you aside.
+[01:34.04 -> 01:35.78] How, how do you know my dog's name?
+[01:36.24 -> 01:38.96] You heard it once, in 2019, at a bus stop.
+[01:39.52 -> 01:40.76] Jake backs away slowly.
+[01:41.54 -> 01:42.48] Plus, new cities.
+[01:43.00 -> 01:45.52] You walk a street once and never need a map again.
+[01:46.10 -> 01:47.56] Tourists follow you like ducklings.
+[01:48.14 -> 01:50.40] Plus, a car blows through a red light.
+[01:50.70 -> 01:52.54] You read the plate, seven characters.
+[01:53.00 -> 01:54.54] A police officer writes them down.
+[01:54.96 -> 01:56.22] Where, where were you standing?
+[01:56.22 -> 01:58.52] Across the street, you only glanced.
+[01:59.32 -> 02:00.06] Plus, tests.
+[02:00.92 -> 02:05.72] Memory champions can memorize a shuffled deck in under 30 seconds, after years of training.
+[02:06.20 -> 02:08.62] You, one glance, 52 cards.
+[02:09.14 -> 02:09.38] Dr.
+[02:09.58 -> 02:10.46] Lee drops her clipboard.
+[02:11.06 -> 02:12.10] That's impossible.
+[02:12.84 -> 02:18.08] She scans your head, same brain, about 86 billion neurons, same as everyone's.
+[02:18.32 -> 02:21.44] Nothing special, except what yours refuse to drop.
+[02:21.88 -> 02:24.48] You try to forget one card, you can't.
+[02:24.48 -> 02:26.92] Plus, you read a French dictionary once.
+[02:27.34 -> 02:28.66] You can recite page 90.
+[02:29.28 -> 02:31.32] Minus, you still can't order a croissant.
+[02:31.86 -> 02:33.50] Remembering isn't understanding.
+[02:34.22 -> 02:35.20] Minus, arguments.
+[02:35.92 -> 02:37.88] Jake swears he never borrowed your pen.
+[02:38.30 -> 02:40.40] You give the date, the time, the color.
+[02:40.78 -> 02:41.82] The cap was chewed.
+[02:42.38 -> 02:44.40] Mutt, nobody likes a human receipt.
+[02:45.22 -> 02:46.14] Minus, clutter.
+[02:46.66 -> 02:48.26] You remember Jake's phone password.
+[02:48.74 -> 02:49.56] Mia's locker code.
+[02:49.96 -> 02:50.20] Dr.
+[02:50.32 -> 02:51.30] Lee's laptop login.
+[02:51.80 -> 02:53.28] You never wanted any of them.
+[02:53.28 -> 02:54.20] Awkward,
+[02:55.06 -> 02:55.84] very awkward.
+[02:56.60 -> 02:57.72] Minus, promises.
+[02:58.48 -> 03:00.04] Mia once promised to call you back.
+[03:00.44 -> 03:02.04] She forgot, you didn't.
+[03:02.38 -> 03:05.58] You remember the date, the hour, her exact words.
+[03:06.16 -> 03:08.24] Why, why does that still sting?
+[03:08.80 -> 03:10.02] Because it never got old.
+[03:10.72 -> 03:11.68] Minus, sleep.
+[03:12.14 -> 03:15.46] A normal brain replays the day at night and keeps the useful parts.
+[03:15.86 -> 03:20.52] Yours keeps everything, every conversation, every sound, on loop.
+[03:20.52 -> 03:23.42] You wake up tired, of course you do.
+[03:23.82 -> 03:25.18] Plus, homework excuses.
+[03:25.84 -> 03:27.40] Minus, you can't use any.
+[03:27.78 -> 03:29.40] Your mom asks if you cleaned your room.
+[03:29.72 -> 03:31.78] You remember her asking 11 times.
+[03:32.20 -> 03:34.70] You remember ignoring her 11 times.
+[03:35.28 -> 03:36.64] Busted, by yourself.
+[03:37.20 -> 03:39.56] By Friday, a local news crew is at your door.
+[03:39.90 -> 03:41.92] Your video gets two million views.
+[03:42.52 -> 03:43.12] Mia grins.
+[03:43.46 -> 03:44.10] You're famous!
+[03:44.60 -> 03:46.12] Grandpa Leo wipes his glasses.
+[03:46.64 -> 03:47.56] That's nice, kid.
+[03:47.96 -> 03:50.72] And somewhere in the city, someone watches you twice.
+[03:51.34 -> 03:52.02] But here's the catch.
+[03:52.50 -> 03:54.36] A normal brain forgets on purpose.
+[03:54.84 -> 03:56.74] Forgetting is cleanup, not failure.
+[03:57.12 -> 03:59.32] It drops the details so patterns can show.
+[03:59.60 -> 04:02.62] You see every leaf and sometimes miss the forest.
+[04:03.08 -> 04:04.78] It's also how pain softens.
+[04:05.16 -> 04:08.18] For most people, bad feelings fade faster than good ones.
+[04:08.58 -> 04:09.50] Yours don't.
+[04:09.76 -> 04:11.54] Your first heartbreak, still sharp.
+[04:11.90 -> 04:14.96] Your fifth grade stage fright, you're sweating right now.
+[04:15.32 -> 04:17.54] Your most embarrassing moment, still hot.
+[04:17.54 -> 04:20.62] The worst day of your life, still full size.
+[04:20.96 -> 04:24.96] With sound, with smell, every replay feels brand new.
+[04:25.48 -> 04:25.58] Dr.
+[04:25.80 -> 04:26.74] Lee frowns.
+[04:26.92 -> 04:28.12] Memory isn't a recording.
+[04:28.46 -> 04:30.94] Each time you recall it, your brain rebuilds it.
+[04:31.24 -> 04:34.14] Yours rebuilds it perfectly and perfectly hurts.
+[04:34.70 -> 04:37.42] One night, you relive a bad day for six hours.
+[04:37.82 -> 04:38.92] Your pillow is soaked.
+[04:39.38 -> 04:40.64] Why can't you just let it go?
+[04:41.02 -> 04:43.02] Because letting go needs forgetting.
+[04:43.64 -> 04:44.48] Then there's Leo.
+[04:44.88 -> 04:46.04] He taught you to ride a bike.
+[04:46.04 -> 04:47.72] He taught you the secret knock.
+[04:48.14 -> 04:49.60] Two quick taps on the kitchen table.
+[04:49.90 -> 04:50.60] One slow.
+[04:51.00 -> 04:52.84] He made it up for the nights you couldn't sleep.
+[04:53.18 -> 04:54.70] Two taps meant, I'm here.
+[04:54.94 -> 04:56.68] The slow one meant, it's okay.
+[04:57.14 -> 04:59.02] On Sundays, he burns the pancakes.
+[04:59.48 -> 05:00.86] You remember every one.
+[05:01.34 -> 05:03.30] 412 burnt pancakes.
+[05:03.72 -> 05:04.82] You'd eat them all again.
+[05:05.32 -> 05:06.96] Lately, Leo forgets things.
+[05:07.28 -> 05:10.40] His glasses, your birthday, sometimes your name.
+[05:10.84 -> 05:13.54] So you tell his stories back to him, word for word.
+[05:13.82 -> 05:14.68] Did I tell you this one?
+[05:14.68 -> 05:16.16] Four times, grandpa.
+[05:16.38 -> 05:17.36] The third was funnier.
+[05:17.78 -> 05:18.08] He laughs.
+[05:18.66 -> 05:19.56] Then his eyes drift.
+[05:19.94 -> 05:22.24] And he says the one sentence he never loses.
+[05:23.02 -> 05:24.04] Nothing fades for you, Max.
+[05:24.52 -> 05:25.50] So make it worth keeping.
+[05:25.96 -> 05:26.34] You nod.
+[05:26.74 -> 05:27.72] Of course you keep it.
+[05:27.92 -> 05:28.78] He pats the table.
+[05:29.20 -> 05:29.94] Two quick taps.
+[05:30.38 -> 05:31.00] One slow.
+[05:31.50 -> 05:32.60] You answer with the same.
+[05:33.08 -> 05:35.72] It's the only conversation that never needs words.
+[05:36.54 -> 05:38.62] Friday morning, a sticky note on the fridge.
+[05:39.28 -> 05:40.40] Leo's shaky handwriting.
+[05:41.22 -> 05:41.34] Bank.
+[05:42.06 -> 05:42.10] Noon.
+[05:42.74 -> 05:43.18] Safe account.
+[05:43.68 -> 05:44.14] You stare.
+[05:44.66 -> 05:45.38] Safe account?
+[05:45.90 -> 05:46.78] Where have you heard that?
+[05:47.30 -> 05:47.84] You call Leo.
+[05:48.38 -> 05:48.84] No answer.
+[05:49.40 -> 05:49.78] You run.
+[05:50.38 -> 05:53.12] At noon, you find him at the bank counter, pen in hand.
+[05:53.58 -> 05:56.08] A smiling man in a gray suit stands beside him.
+[05:56.76 -> 05:56.76] Mr.
+[05:57.06 -> 05:57.12] Black.
+[05:57.60 -> 05:58.64] His phone is on speaker.
+[05:59.28 -> 06:00.96] Sir, your savings are in danger.
+[06:01.32 -> 06:02.54] Move them to a safe account.
+[06:02.86 -> 06:03.12] Now!
+[06:03.64 -> 06:04.52] Your stomach drops.
+[06:05.12 -> 06:06.06] You know that voice.
+[06:06.68 -> 06:08.38] Three weeks ago, it called the house.
+[06:08.88 -> 06:09.66] The water company.
+[06:10.16 -> 06:12.16] 11 days ago, Leo's insurance.
+[06:12.88 -> 06:15.06] Today, the bank's security department.
+[06:15.68 -> 06:18.42] Same voice, same cough, same words.
+[06:19.00 -> 06:19.98] Sir, this is urgent!
+[06:20.50 -> 06:21.30] You grab your phone.
+[06:21.70 -> 06:23.38] You never recorded a single call.
+[06:23.86 -> 06:24.46] Why would you?
+[06:24.88 -> 06:25.78] You never forget.
+[06:26.36 -> 06:28.66] Above the counter, a clock reads 1201.
+[06:29.28 -> 06:31.16] Leo's pen is one hand from the line.
+[06:31.54 -> 06:33.14] A signature takes two seconds.
+[06:33.54 -> 06:34.68] You're 20 meters away.
+[06:35.04 -> 06:37.10] A fast run is five meters per second.
+[06:37.56 -> 06:38.08] Four seconds.
+[06:38.60 -> 06:39.06] Too slow.
+[06:39.46 -> 06:40.02] So you shout.
+[06:40.46 -> 06:41.08] It's a scam!
+[06:41.52 -> 06:41.82] Mr.
+[06:42.16 -> 06:42.60] Black smiles.
+[06:43.30 -> 06:44.94] Kid, I saw you on TV.
+[06:45.62 -> 06:47.32] Nobody can see inside your head.
+[06:47.72 -> 06:48.90] The teller frowns.
+[06:49.08 -> 06:52.24] Sir, I can't stop a customer because of what a boy remembers.
+[06:52.84 -> 06:53.70] Your head floods.
+[06:54.24 -> 06:54.88] Three calls.
+[06:55.30 -> 06:56.00] Every word.
+[06:56.52 -> 06:57.36] Loud as a siren.
+[06:57.74 -> 06:59.24] And nobody else can hear it.
+[06:59.62 -> 06:59.82] Mr.
+[07:00.12 -> 07:00.82] Black leans close.
+[07:01.38 -> 07:03.70] Stay quiet and I'll pay you 10 ,000.
+[07:04.02 -> 07:04.98] A memory like yours?
+[07:05.44 -> 07:06.28] We'd make a fortune.
+[07:06.76 -> 07:08.50] The money or your grandfather.
+[07:09.18 -> 07:09.84] Leo looks up.
+[07:09.84 -> 07:11.76] Who, who are you?
+[07:12.24 -> 07:13.36] The pen touches the paper.
+[07:13.76 -> 07:15.02] You have one thing left.
+[07:15.50 -> 07:16.80] Two quick taps on the counter.
+[07:17.28 -> 07:17.94] One slow.
+[07:18.60 -> 07:19.52] Leo's hand freezes.
+[07:20.44 -> 07:20.54] Max?
+[07:21.12 -> 07:22.38] Nothing fades, grandpa.
+[07:22.76 -> 07:23.94] So make it worth keeping.
+[07:24.42 -> 07:25.14] His eyes clear.
+[07:25.62 -> 07:26.46] Just for a moment.
+[07:26.82 -> 07:27.78] He puts the pen down.
+[07:28.20 -> 07:29.40] I don't know this man.
+[07:29.78 -> 07:30.88] The teller steps back.
+[07:31.46 -> 07:34.98] Sir, real banks never ask you to move money to a safe account.
+[07:35.74 -> 07:36.56] Security walks Mr.
+[07:36.80 -> 07:37.10] Black out.
+[07:37.10 -> 07:39.76] Behind you, the whole line starts clapping.
+[07:40.34 -> 07:42.64] Later, you sit with Leo and write it all down.
+[07:43.08 -> 07:46.02] Three calls, 11 pages, every word.
+[07:46.48 -> 07:49.10] Your memory can't be shared, but paper can.
+[07:49.52 -> 07:50.64] The police read it twice.
+[07:51.18 -> 07:53.56] This is as good as a recording, an officer says.
+[07:54.00 -> 07:55.40] You could ruin Black alone.
+[07:55.86 -> 07:58.04] Every secret he ever whispered near you.
+[07:58.30 -> 07:59.96] But then you'd be just like him.
+[08:00.40 -> 08:01.52] Leo hugs you in the car.
+[08:01.96 -> 08:03.92] By dinner, he's forgotten the whole day.
+[08:04.36 -> 08:05.12] You haven't.
+[08:05.12 -> 08:06.96] And for once, you're glad.
+[08:07.44 -> 08:08.60] Someone has to keep it.
+[08:08.98 -> 08:11.04] That night, your worst day comes back.
+[08:11.42 -> 08:12.10] You don't stay.
+[08:12.50 -> 08:13.98] You press play on another one.
+[08:14.34 -> 08:16.12] Two quick taps, one slow.
+[08:16.54 -> 08:18.72] And for the first time, it doesn't hurt.
+[08:19.10 -> 08:19.84] Nothing fades.
+[08:20.34 -> 08:21.50] So make it worth keeping.
+[08:22.02 -> 08:23.26] Then your phone lights up.
+[08:23.74 -> 08:25.66] Unknown number, a woman's voice.
+[08:26.22 -> 08:26.68] Hello, Max.
+[08:27.22 -> 08:27.94] Do you remember me?
+[08:28.30 -> 08:31.56] You search every voice, every face, nothing.
+[08:32.04 -> 08:33.92] You've never forgotten anything before.
+[08:33.92 -> 08:35.94] So why can't you remember her?
+[08:36.48 -> 08:37.82] But how much of this is real?
+[08:38.62 -> 08:39.94] Perfect memory doesn't exist.
+[08:40.48 -> 08:45.46] In 1956, psychologist George Miller showed we hold about seven items at once.
+[08:45.80 -> 08:46.66] That part is real.
+[08:47.16 -> 08:48.86] Even vivid memories can be wrong.
+[08:49.38 -> 08:50.84] Confidence isn't accuracy.
+[08:51.38 -> 08:56.76] A rare few people have highly superior autobiographical memory, first described in 2006.
+[08:57.30 -> 08:59.50] They recall ordinary days in detail.
+[08:59.82 -> 09:03.30] But a 2013 study found they still fall for false memories.
+[09:03.30 -> 09:05.44] Because memory isn't a recording.
+[09:05.92 -> 09:06.52] It's a rebuild.
+[09:07.10 -> 09:11.70] And in a famous 1942 story, Borges imagined a man who forgot nothing.
+[09:12.16 -> 09:12.86] He couldn't think.
+[09:13.38 -> 09:15.06] Thinking means ignoring details.
+[09:15.60 -> 09:19.26] So could a brain really remember everything and still think?
+[09:19.82 -> 09:20.44] What do you think?
+[09:20.80 -> 09:24.02] Tell us in the comments and tell us which superpower we should do next.
+[09:24.38 -> 09:26.24] Hit like and subscribe for part two.
