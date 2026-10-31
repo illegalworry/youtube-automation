@@ -1,0 +1,22 @@
+// cast.js — one outfit per recurring character. Signature colour = identity; keep it identical in every shot.
+// Max's cyan headband is the film's motif: on (cyan) during the trial, absent in the flashback, dead (gray) after the burst.
+export const BAND = '#5ff2e8';
+export const MAX = { top: 'hoodie', color: '#d64a33', head: 'headband', headColor: BAND };                 // "you", band on
+export const MAX0 = { top: 'hoodie', color: '#d64a33', head: 'none' };                                     // before the band / after
+export const MAXD = { top: 'hoodie', color: '#d64a33', head: 'headband', headColor: '#4a4f5a' };           // band burnt out
+export const LEO = { top: 'tshirt', color: '#34303f', head: 'cap', headColor: '#f2c21a' };                 // best friend, yellow cap
+export const LEOB = LEO;                                                                                   // Leo keeps his cap (identity) during the trial
+export const MOM = { top: 'dress', color: '#3fb950', head: 'bun', headColor: '#2a2030' };                   // Mom, green
+export const DAD = { top: 'tshirt', color: '#3a6ea5', head: 'none' };                                      // Dad, blue tee
+export const GRAN = { top: 'dress', color: '#8a5ad6', head: 'bun', headColor: '#d8d0c4' };                 // Grandma, purple
+export const LEE = { top: 'labcoat', face: 'glasses', head: 'ponytail', headColor: '#2a2030' };            // Dr. Lee, neurologist
+export const BLACK = { top: 'trench', color: '#7c818c', head: 'fedora', headColor: '#6c717c', face: 'sunglasses' }; // Mr. Black (Lumen Labs)
+export const TEACH = { top: 'suit', color: '#2a2836', head: 'none', face: 'glasses' };
+export const KID = { top: 'none', head: 'spiky' };
+export const KID2 = { top: 'none', head: 'curly' };
+export const KIDB = { top: 'none', head: 'headband', headColor: BAND };
+export const GIRL = { top: 'none', head: 'ponytail', headColor: BAND };
+export const MAN = { top: 'none', head: 'none' };
+export const WOMAN = { top: 'none', head: 'bun' };
+export const MEDIC = { top: 'tshirt', color: '#2a3a4a', head: 'capBack', headColor: '#c0392b' };
+export const CAST = { max: MAX, max0: MAX0, maxd: MAXD, leo: LEO, leob: LEOB, mom: MOM, dad: DAD, gran: GRAN, lee: LEE, black: BLACK, teach: TEACH, kid: KID, kid2: KID2, kidb: KIDB, girl: GIRL, man: MAN, woman: WOMAN, medic: MEDIC };

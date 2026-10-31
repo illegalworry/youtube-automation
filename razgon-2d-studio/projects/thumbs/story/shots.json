@@ -1,0 +1,98 @@
+{
+ "title": "thumbs",
+ "duration": 10,
+ "shots": [
+  {
+   "id": "t1",
+   "start": 0,
+   "end": 2,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "thumb",
+    "k": 1
+   },
+   "vignette": true
+  },
+  {
+   "id": "t2",
+   "start": 2,
+   "end": 4,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "thumb",
+    "k": 2
+   },
+   "vignette": true
+  },
+  {
+   "id": "t3",
+   "start": 4,
+   "end": 6,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "thumb",
+    "k": 3
+   },
+   "vignette": true
+  },
+  {
+   "id": "t4",
+   "start": 6,
+   "end": 8,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "thumb",
+    "k": 4
+   },
+   "vignette": true
+  },
+  {
+   "id": "t5",
+   "start": 8,
+   "end": 10,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "thumb",
+    "k": 5
+   },
+   "vignette": true
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
