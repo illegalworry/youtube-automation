@@ -16,7 +16,8 @@
    "sfx": [],
    "params": {
     "tpl": "thumb",
-    "k": 1
+    "k": 1,
+    "set": "forget"
    },
    "vignette": true
   },
@@ -34,7 +35,8 @@
    "sfx": [],
    "params": {
     "tpl": "thumb",
-    "k": 2
+    "k": 2,
+    "set": "forget"
    },
    "vignette": true
   },
@@ -52,7 +54,8 @@
    "sfx": [],
    "params": {
     "tpl": "thumb",
-    "k": 3
+    "k": 3,
+    "set": "forget"
    },
    "vignette": true
   },
@@ -70,7 +73,8 @@
    "sfx": [],
    "params": {
     "tpl": "thumb",
-    "k": 4
+    "k": 4,
+    "set": "forget"
    },
    "vignette": true
   },
@@ -88,7 +92,8 @@
    "sfx": [],
    "params": {
     "tpl": "thumb",
-    "k": 5
+    "k": 5,
+    "set": "forget"
    },
    "vignette": true
   }
