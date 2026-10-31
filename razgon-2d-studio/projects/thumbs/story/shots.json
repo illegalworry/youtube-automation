@@ -15,9 +15,8 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
-    "k": 1,
-    "set": "forget"
+    "tpl": "ifv",
+    "k": 1
    },
    "vignette": true
   },
@@ -34,9 +33,8 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
-    "k": 2,
-    "set": "forget"
+    "tpl": "ifv",
+    "k": 2
    },
    "vignette": true
   },
@@ -53,9 +51,8 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
-    "k": 3,
-    "set": "forget"
+    "tpl": "ifv",
+    "k": 3
    },
    "vignette": true
   },
@@ -72,9 +69,8 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
-    "k": 4,
-    "set": "forget"
+    "tpl": "ifv",
+    "k": 4
    },
    "vignette": true
   },
@@ -91,9 +87,8 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
-    "k": 5,
-    "set": "forget"
+    "tpl": "ifv",
+    "k": 5
    },
    "vignette": true
   }
