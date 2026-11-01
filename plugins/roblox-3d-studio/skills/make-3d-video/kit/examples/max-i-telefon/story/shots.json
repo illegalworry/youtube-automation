@@ -1,0 +1,1005 @@
+{
+ "title": "Макс и украденный телефон",
+ "duration": 28.16,
+ "scenes": [
+  {
+   "id": "park",
+   "set": "park",
+   "light": "day",
+   "actors": {
+    "max": {
+     "at": [
+      0,
+      -22
+     ],
+     "face": 0
+    },
+    "lily": {
+     "at": [
+      5,
+      1
+     ],
+     "face": 200,
+     "hold": "phone"
+    },
+    "bacon": {
+     "at": [
+      -22,
+      12
+     ],
+     "face": 90
+    }
+   },
+   "props": [
+    {
+     "id": "bench3",
+     "item": "bench",
+     "at": [
+      1,
+      -26.3
+     ],
+     "face": 0
+    }
+   ],
+   "acts": [
+    {
+     "who": "max",
+     "t": 0.0,
+     "do": "walk",
+     "to": [
+      0,
+      0
+     ],
+     "speed": 5
+    },
+    {
+     "who": "lily",
+     "t": 0.0,
+     "do": "type",
+     "dur": 4.4
+    },
+    {
+     "who": "lily",
+     "t": 4.4,
+     "do": "turn",
+     "face": "max",
+     "expr": "happy"
+    },
+    {
+     "who": "max",
+     "t": 4.5,
+     "do": "turn",
+     "face": "lily"
+    },
+    {
+     "who": "lily",
+     "t": 5.9,
+     "do": "wave",
+     "dur": 1.9
+    },
+    {
+     "who": "max",
+     "t": 6.5,
+     "do": "wave",
+     "dur": 1.3
+    },
+    {
+     "who": "max",
+     "t": 8.1,
+     "do": "face",
+     "expr": "surprised"
+    },
+    {
+     "who": "bacon",
+     "t": 7.9,
+     "do": "run",
+     "path": [
+      [
+       -6,
+       6
+      ],
+      [
+       3.2,
+       2.8
+      ]
+     ],
+     "speed": 13,
+     "expr": "evil"
+    },
+    {
+     "who": "bacon",
+     "t": 10.2,
+     "do": "hold",
+     "item": "phone",
+     "dur": 0.8,
+     "face": "lily"
+    },
+    {
+     "who": "lily",
+     "t": 10.5,
+     "do": "face",
+     "expr": "shocked",
+     "drop": true
+    },
+    {
+     "who": "bacon",
+     "t": 11.0,
+     "do": "run",
+     "path": [
+      [
+       7,
+       -10
+      ],
+      [
+       7,
+       -40
+      ]
+     ],
+     "speed": 7.5,
+     "expr": "laugh"
+    },
+    {
+     "who": "lily",
+     "t": 11.2,
+     "do": "shout",
+     "dur": 1.6,
+     "expr": "angry"
+    },
+    {
+     "who": "max",
+     "t": 10.8,
+     "do": "face",
+     "expr": "angry"
+    },
+    {
+     "who": "max",
+     "t": 13.1,
+     "do": "run",
+     "to": [
+      1,
+      -22.5
+     ],
+     "speed": 12,
+     "expr": "determined"
+    },
+    {
+     "who": "lily",
+     "t": 13.6,
+     "do": "run",
+     "path": [
+      [
+       6,
+       -10
+      ],
+      [
+       6,
+       -30
+      ],
+      [
+       3.5,
+       -33
+      ]
+     ],
+     "speed": 10
+    },
+    {
+     "who": "max",
+     "t": 15.0,
+     "do": "jump",
+     "to": [
+      1,
+      -30
+     ],
+     "h": 3.2
+    },
+    {
+     "who": "max",
+     "t": 16.05,
+     "do": "run",
+     "to": [
+      5.5,
+      -37.3
+     ],
+     "speed": 12
+    },
+    {
+     "who": "bacon",
+     "t": 16.75,
+     "do": "turn",
+     "face": "max",
+     "expr": "smug"
+    },
+    {
+     "who": "bacon",
+     "t": 17.0,
+     "do": "laugh",
+     "dur": 1.1
+    },
+    {
+     "who": "max",
+     "t": 16.9,
+     "do": "turn",
+     "face": "bacon",
+     "expr": "furious"
+    },
+    {
+     "who": "max",
+     "t": 18.2,
+     "do": "punch",
+     "target": "bacon",
+     "react": "knockback",
+     "reactOpts": {
+      "dist": 9,
+      "h": 2.2
+     }
+    },
+    {
+     "who": "bacon",
+     "t": 18.43,
+     "do": "face",
+     "drop": true
+    },
+    {
+     "who": "bacon",
+     "t": 19.5,
+     "do": "face",
+     "expr": "dizzy"
+    },
+    {
+     "who": "max",
+     "t": 19.4,
+     "do": "face",
+     "expr": "cool"
+    },
+    {
+     "who": "max",
+     "t": 19.9,
+     "do": "pickUp",
+     "item": "phone"
+    },
+    {
+     "who": "max",
+     "t": 21.1,
+     "do": "turn",
+     "face": "lily",
+     "expr": "happy"
+    },
+    {
+     "who": "max",
+     "t": 21.6,
+     "do": "walk",
+     "to": [
+      4.6,
+      -35.0
+     ],
+     "speed": 5
+    },
+    {
+     "who": "lily",
+     "t": 21.0,
+     "do": "turn",
+     "face": "max",
+     "expr": "worried"
+    },
+    {
+     "who": "max",
+     "t": 23.25,
+     "do": "face",
+     "drop": true
+    },
+    {
+     "who": "lily",
+     "t": 23.25,
+     "do": "hold",
+     "item": "phone",
+     "dur": 1.0,
+     "expr": "love"
+    },
+    {
+     "who": "max",
+     "t": 24.4,
+     "do": "cheer",
+     "dur": 2.6
+    },
+    {
+     "who": "lily",
+     "t": 24.5,
+     "do": "dance",
+     "dur": 3.6,
+     "expr": "happy"
+    },
+    {
+     "who": "max",
+     "t": 27.0,
+     "do": "dance2",
+     "dur": 1.2
+    }
+   ],
+   "fx": [
+    {
+     "t": 23.3,
+     "type": "sparkle",
+     "at": "lily.chest"
+    },
+    {
+     "t": 24.45,
+     "type": "confetti",
+     "at": [
+      4.5,
+      7,
+      -34
+     ]
+    },
+    {
+     "t": 19.3,
+     "type": "stars",
+     "at": "bacon.head",
+     "count": 8,
+     "color": "#ffd23f"
+    }
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.09,
+   "scene": "park",
+   "line": "Это Макс.",
+   "desc": "Max walks towards the lens, camera leads him",
+   "cam": {
+    "shot": "medium",
+    "target": "max",
+    "move": "lead"
+   },
+   "text": [
+    {
+     "at": 0.05,
+     "dur": 1.0,
+     "str": "МАКС",
+     "style": "tag",
+     "color": "#3aa0ff"
+    }
+   ]
+  },
+  {
+   "id": "s002",
+   "start": 1.09,
+   "end": 3.09,
+   "scene": "park",
+   "line": "Обычный день, обычный парк.",
+   "desc": "establishing: camera rises behind Max over the park",
+   "cam": {
+    "shot": "full",
+    "target": "max",
+    "az": 160,
+    "move": "rise"
+   }
+  },
+  {
+   "id": "s003",
+   "start": 3.09,
+   "end": 5.79,
+   "scene": "park",
+   "line": "Но сегодня Макс встретит Лили.",
+   "desc": "two-shot, Max arrives, Lily looks up from her phone",
+   "cam": {
+    "shot": "full",
+    "target": [
+     "max",
+     "lily"
+    ],
+    "move": "push"
+   }
+  },
+  {
+   "id": "s004",
+   "start": 5.79,
+   "end": 7.89,
+   "scene": "park",
+   "line": "Она машет ему рукой.",
+   "desc": "Lily waves, slow orbit",
+   "cam": {
+    "shot": "medium",
+    "target": "lily",
+    "az": 10,
+    "move": "orbit",
+    "arc": 24
+   }
+  },
+  {
+   "id": "s005",
+   "start": 7.89,
+   "end": 10.05,
+   "scene": "park",
+   "line": "И тут появляется Бекон.",
+   "desc": "low angle, Bacon sprints in",
+   "in": {
+    "type": "whip"
+   },
+   "cam": {
+    "shot": "low",
+    "target": "bacon",
+    "az": 35,
+    "move": "follow"
+   },
+   "text": [
+    {
+     "at": 0.4,
+     "dur": 1.6,
+     "str": "БЕКОН",
+     "style": "tag",
+     "color": "#4bd04b"
+    }
+   ]
+  },
+  {
+   "id": "s006",
+   "start": 10.05,
+   "end": 11.3,
+   "scene": "park",
+   "line": "Он хватает телефон Лили",
+   "desc": "the grab",
+   "cam": {
+    "shot": "medium",
+    "target": [
+     "bacon",
+     "lily"
+    ],
+    "move": "push"
+   }
+  },
+  {
+   "id": "s007",
+   "start": 11.3,
+   "end": 13.01,
+   "scene": "park",
+   "line": "и убегает!",
+   "desc": "Lily shouts, Bacon runs off behind her",
+   "cam": {
+    "shot": "close",
+    "target": "lily",
+    "az": -15,
+    "move": "push"
+   },
+   "text": [
+    {
+     "at": 0.1,
+     "dur": 1.4,
+     "str": "ЭЙ!",
+     "style": "slam",
+     "color": "#ff4a6a"
+    }
+   ]
+  },
+  {
+   "id": "s008",
+   "start": 13.01,
+   "end": 14.8,
+   "scene": "park",
+   "line": "Макс бросается в погоню.",
+   "desc": "tracking shot beside running Max",
+   "in": {
+    "type": "whip"
+   },
+   "cam": {
+    "shot": "full",
+    "target": "max",
+    "rel": false,
+    "az": 90,
+    "move": "follow",
+    "el": 5
+   }
+  },
+  {
+   "id": "s009",
+   "start": 14.8,
+   "end": 16.47,
+   "scene": "park",
+   "line": "Прыжок через скамейку!",
+   "desc": "low side angle, Max jumps over the bench",
+   "cam": {
+    "shot": "full",
+    "target": "max",
+    "rel": false,
+    "az": -80,
+    "el": -4,
+    "move": "pan",
+    "dist": 16
+   }
+  },
+  {
+   "id": "s010",
+   "start": 16.47,
+   "end": 18.25,
+   "scene": "park",
+   "line": "Бекон оборачивается.",
+   "desc": "OTS from Max: Bacon turns and laughs",
+   "cam": {
+    "shot": "ots",
+    "target": [
+     "max",
+     "bacon"
+    ]
+   }
+  },
+  {
+   "id": "s011",
+   "start": 18.25,
+   "end": 20.0,
+   "scene": "park",
+   "line": "Бам! Один удар,",
+   "desc": "the punch, Bacon flies",
+   "cam": {
+    "shot": "full",
+    "target": [
+     "max",
+     "bacon"
+    ],
+    "move": "pull",
+    "shake": true
+   },
+   "text": [
+    {
+     "at": 0.15,
+     "dur": 1.2,
+     "str": "БАМ!",
+     "style": "slam",
+     "color": "#ffd23f"
+    }
+   ]
+  },
+  {
+   "id": "s012",
+   "start": 20.0,
+   "end": 23.01,
+   "scene": "park",
+   "line": "и хулиган летит в траву.",
+   "desc": "high angle: Bacon dizzy on the grass, Max picks up the phone",
+   "cam": {
+    "shot": "high",
+    "target": [
+     "max",
+     "bacon"
+    ],
+    "move": "crane"
+   }
+  },
+  {
+   "id": "s013",
+   "start": 23.01,
+   "end": 24.31,
+   "scene": "park",
+   "line": "Телефон снова у Лили.",
+   "desc": "Max hands the phone back",
+   "cam": {
+    "shot": "medium",
+    "target": [
+     "max",
+     "lily"
+    ],
+    "move": "push"
+   }
+  },
+  {
+   "id": "s014",
+   "start": 24.31,
+   "end": 28.16,
+   "scene": "park",
+   "line": "Друзья празднуют победу!",
+   "desc": "celebration orbit, confetti",
+   "cam": {
+    "shot": "full",
+    "target": [
+     "max",
+     "lily"
+    ],
+    "move": "orbit",
+    "arc": 70
+   },
+   "text": [
+    {
+     "at": 0.9,
+     "dur": 2.7,
+     "str": "ПОБЕДА!",
+     "style": "title"
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 7.9,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 7.9,
+   "end": 18.3,
+   "mood": "action",
+   "intensity": 0.75
+  },
+  {
+   "start": 18.3,
+   "end": 24.3,
+   "mood": "triumph",
+   "intensity": 0.6
+  },
+  {
+   "start": 24.3,
+   "end": 28.16,
+   "mood": "playful",
+   "intensity": 0.7
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.22,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 0.66,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 1.1,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 1.54,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 3
+  },
+  {
+   "t": 1.98,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 4
+  },
+  {
+   "t": 2.42,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 2.86,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 3.3,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 3.74,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 3
+  },
+  {
+   "t": 4.18,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 4
+  },
+  {
+   "t": 7.84,
+   "name": "whoosh",
+   "gain": -11,
+   "auto": true
+  },
+  {
+   "t": 8.072,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 8.416,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 8.76,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 9.104,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 3
+  },
+  {
+   "t": 9.448,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 4
+  },
+  {
+   "t": 9.792,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 11.289,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 11.867,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 12.445,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 12.96,
+   "name": "whoosh",
+   "gain": -11,
+   "auto": true
+  },
+  {
+   "t": 13.023,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 3
+  },
+  {
+   "t": 13.288,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 13.601,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 4
+  },
+  {
+   "t": 13.663,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 13.818,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 14.038,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 14.179,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 14.255,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 14.414,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 3
+  },
+  {
+   "t": 14.692,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 14.757,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 14.789,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 4
+  },
+  {
+   "t": 15.129,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 3
+  },
+  {
+   "t": 15.25,
+   "name": "swish",
+   "gain": -14,
+   "auto": true
+  },
+  {
+   "t": 15.335,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 15.566,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 4
+  },
+  {
+   "t": 15.82,
+   "name": "footstep",
+   "gain": -10,
+   "auto": true
+  },
+  {
+   "t": 15.913,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 3
+  },
+  {
+   "t": 16.003,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 16.229,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 16.44,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 16.491,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 4
+  },
+  {
+   "t": 16.586,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 1
+  },
+  {
+   "t": 16.877,
+   "name": "footstep",
+   "gain": -15,
+   "auto": true,
+   "seed": 2
+  },
+  {
+   "t": 18.311,
+   "name": "swish",
+   "gain": -10,
+   "auto": true
+  },
+  {
+   "t": 18.431,
+   "name": "hit",
+   "gain": -5,
+   "auto": true
+  },
+  {
+   "t": 19.094,
+   "name": "impact",
+   "gain": -8,
+   "auto": true
+  },
+  {
+   "t": 19.3,
+   "name": "pop",
+   "gain": -10,
+   "auto": true
+  },
+  {
+   "t": 20.35,
+   "name": "pop",
+   "gain": -16,
+   "auto": true
+  },
+  {
+   "t": 21.847,
+   "name": "footstep",
+   "gain": -20,
+   "auto": true,
+   "seed": 0
+  },
+  {
+   "t": 23.3,
+   "name": "shimmer",
+   "gain": -10,
+   "auto": true
+  },
+  {
+   "t": 24.4,
+   "name": "ding",
+   "gain": -14,
+   "auto": true
+  },
+  {
+   "t": 24.45,
+   "name": "pop",
+   "gain": -10,
+   "auto": true
+  }
+ ]
+}
