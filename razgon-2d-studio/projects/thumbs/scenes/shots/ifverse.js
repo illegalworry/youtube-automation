@@ -5,14 +5,14 @@ import { E, registerShot, alpha, shade, mix, rr, circle, poly, seg, glow, text, 
 import * as FX from '/engine/fx2d.js';
 import { bgBlur } from './_common.js';
 
-const INK = '#0b0a0f', W = '#f7f3ea';
+export const INK = '#0b0a0f', W = '#f7f3ea';
 
 // ---------- look helpers ----------
-const wash = (g, top, bot, a = 0.5, op = 'soft-light') => { g.save(); g.globalCompositeOperation = op; g.globalAlpha = a; g.fillStyle = linGrad(g, 0, 0, 0, E.H, [top, bot]); g.fillRect(0, 0, E.W, E.H); g.restore(); };
-const vign = (g, a = 0.55) => { g.save(); g.fillStyle = radGrad(g, E.W / 2, E.H / 2, E.H * 0.45, E.W * 0.75, ['rgba(0,0,0,0)', `rgba(0,0,0,${a})`]); g.fillRect(0, 0, E.W, E.H); g.restore(); };
-const bokeh = (g, seed, n, cols, a = 0.35) => { const r = rng(seed); g.save(); g.globalCompositeOperation = 'lighter'; for (let i = 0; i < n; i++) { const x = r() * E.W, y = r() * E.H * 0.8, s = 14 + r() * 50, c = cols[i % cols.length]; g.fillStyle = radGrad(g, x, y, 0, s, [alpha(c, a), alpha(c, a * 0.6), alpha(c, 0)]); g.beginPath(); g.arc(x, y, s, 0, 7); g.fill(); } g.restore(); };
-const motes = (g, seed, n, c, area = [0, 0, E.W, E.H]) => { const r = rng(seed); for (let i = 0; i < n; i++) { const x = area[0] + r() * area[2], y = area[1] + r() * area[3], s = 1.5 + r() * 4; glow(g, x, y, s * 5, c, 0.5); circle(g, x, y, s, alpha('#ffffff', 0.85)); } };
-const star = (g, x, y, s, c = '#fff1a0') => { glow(g, x, y, s * 2.6, c, 0.9); glow(g, x, y, s * 1.1, '#ffffff', 0.9); g.fillStyle = '#ffffff'; g.beginPath(); for (let i = 0; i < 8; i++) { const a = i * Math.PI / 4 - Math.PI / 2, d = i % 2 ? s * 0.16 : (i % 4 ? s * 0.6 : s); g.lineTo(x + Math.cos(a) * d, y + Math.sin(a) * d); } g.closePath(); g.fill(); };
+export const wash = (g, top, bot, a = 0.5, op = 'soft-light') => { g.save(); g.globalCompositeOperation = op; g.globalAlpha = a; g.fillStyle = linGrad(g, 0, 0, 0, E.H, [top, bot]); g.fillRect(0, 0, E.W, E.H); g.restore(); };
+export const vign = (g, a = 0.55) => { g.save(); g.fillStyle = radGrad(g, E.W / 2, E.H / 2, E.H * 0.45, E.W * 0.75, ['rgba(0,0,0,0)', `rgba(0,0,0,${a})`]); g.fillRect(0, 0, E.W, E.H); g.restore(); };
+export const bokeh = (g, seed, n, cols, a = 0.35) => { const r = rng(seed); g.save(); g.globalCompositeOperation = 'lighter'; for (let i = 0; i < n; i++) { const x = r() * E.W, y = r() * E.H * 0.8, s = 14 + r() * 50, c = cols[i % cols.length]; g.fillStyle = radGrad(g, x, y, 0, s, [alpha(c, a), alpha(c, a * 0.6), alpha(c, 0)]); g.beginPath(); g.arc(x, y, s, 0, 7); g.fill(); } g.restore(); };
+export const motes = (g, seed, n, c, area = [0, 0, E.W, E.H]) => { const r = rng(seed); for (let i = 0; i < n; i++) { const x = area[0] + r() * area[2], y = area[1] + r() * area[3], s = 1.5 + r() * 4; glow(g, x, y, s * 5, c, 0.5); circle(g, x, y, s, alpha('#ffffff', 0.85)); } };
+export const star = (g, x, y, s, c = '#fff1a0') => { glow(g, x, y, s * 2.6, c, 0.9); glow(g, x, y, s * 1.1, '#ffffff', 0.9); g.fillStyle = '#ffffff'; g.beginPath(); for (let i = 0; i < 8; i++) { const a = i * Math.PI / 4 - Math.PI / 2, d = i % 2 ? s * 0.16 : (i % 4 ? s * 0.6 : s); g.lineTo(x + Math.cos(a) * d, y + Math.sin(a) * d); } g.closePath(); g.fill(); };
 
 // ---------- the character ----------
 // emo: smug | angry | shocked | sad | crazy.  o.dir: +1 looks right, -1 looks left.  o.rim: rim-light colour.
@@ -28,7 +28,11 @@ export function hero(g, x, y, r, emo = 'smug', o = {}) {
   g.fillStyle = shade(col, -0.2); g.beginPath(); g.ellipse(x, y + r * 0.96, r * 0.62, r * 0.13, 0, Math.PI, Math.PI * 2); g.fill();
   for (const k of [-1, 1]) { seg(g, [[x + k * r * 0.17, y + r * 1.1], [x + k * r * 0.21, y + r * 1.62]], r * 0.035, W); circle(g, x + k * r * 0.21, y + r * 1.64, r * 0.035, W); }
   g.fillStyle = INK; g.fillRect(x - r * 0.16, y + r * 0.78, r * 0.32, r * 0.24);                                  // neck
-  // head with a soft one-sided rim
+  face(g, x, y, r, emo, o);
+}
+// head + face only (used by hero and by the full-body figure)
+export function face(g, x, y, r, emo = 'smug', o = {}) {
+  const dir = o.dir ?? 1, rim = o.rim || '#5fd8ff';
   circle(g, x, y, r, INK);
   g.save(); g.beginPath(); g.arc(x, y, r, 0, Math.PI * 2); g.clip();
   const rg = g.createRadialGradient(x + dir * r * 1.05, y - r * 0.35, r * 0.05, x + dir * r * 1.05, y - r * 0.35, r * 0.95); rg.addColorStop(0, alpha(rim, 0.38)); rg.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = rg; g.fillRect(x - r, y - r, r * 2, r * 2);
@@ -68,13 +72,13 @@ export function hero(g, x, y, r, emo = 'smug', o = {}) {
 }
 
 // ---------- props ----------
-const brain = (g, x, y, s, c) => { // stylised brain outline (two lobes of bumps)
+export const brain = (g, x, y, s, c) => { // stylised brain outline (two lobes of bumps)
   g.save(); g.translate(x, y); g.scale(s, s); g.lineWidth = 7; g.strokeStyle = c; g.fillStyle = alpha(c, 0.16); g.lineJoin = 'round';
   g.beginPath(); for (let i = 0; i <= 14; i++) { const a = Math.PI * 0.95 - i / 14 * Math.PI * 1.9, px = Math.cos(a) * 150, py = Math.sin(a) * -105; if (!i) g.moveTo(px, py); else g.quadraticCurveTo(Math.cos(a + 0.07) * 185, Math.sin(a + 0.07) * -135, px, py); } g.closePath(); g.fill(); g.stroke();
   for (const [p, q] of [[[0, -110], [0, 90]], [[-100, -40], [-40, -10]], [[-70, 40], [-20, 20]], [[100, -50], [40, -20]], [[80, 40], [30, 30]], [[-120, 10], [-90, -10]]]) { g.beginPath(); g.moveTo(...p); g.quadraticCurveTo((p[0] + q[0]) / 2, p[1] - 25, ...q); g.stroke(); }
   g.beginPath(); g.moveTo(10, 100); g.quadraticCurveTo(30, 140, 0, 175); g.stroke(); g.restore();
 };
-const panelGlow = (g, x, y, w, h, c, a = 0.9) => { glow(g, x + w / 2, y + h / 2, Math.max(w, h) * 0.85, c, 0.35); g.save(); g.shadowColor = c; g.shadowBlur = 40; rr(g, x, y, w, h, 26); g.lineWidth = 8; g.strokeStyle = alpha(shade(c, 0.4), a); g.stroke(); g.restore(); };
+export const panelGlow = (g, x, y, w, h, c, a = 0.9) => { glow(g, x + w / 2, y + h / 2, Math.max(w, h) * 0.85, c, 0.35); g.save(); g.shadowColor = c; g.shadowBlur = 40; rr(g, x, y, w, h, 26); g.lineWidth = 8; g.strokeStyle = alpha(shade(c, 0.4), a); g.stroke(); g.restore(); };
 const photo = (g, x, y, s, rot, sky, draw) => { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.fillStyle = alpha('#000', 0.35); g.fillRect(-108, -118, 236, 276); g.fillStyle = '#f6f1e6'; g.fillRect(-118, -128, 236, 276); g.fillStyle = sky; g.fillRect(-100, -110, 200, 190); draw && draw(g); g.restore(); };
 const pic = {
   sun: (g) => { circle(g, 40, -50, 28, '#ffe27a'); poly(g, [[-100, 80], [-30, -10], [40, 80]], '#2f6a4a'); poly(g, [[0, 80], [60, 10], [100, 80]], '#3f8a5a'); },
@@ -165,10 +169,10 @@ const V = {
     hero(g, 560, 700, 245, 'crazy', { rim: '#ff8a3a', haloA: 0.35, dir: 1 });
   },
 };
-function lerp2(a, b, k) { return a + (b - a) * k; }
+export function lerp2(a, b, k) { return a + (b - a) * k; }
 
 // ---------- "What If You Used 100% of Your Brain?" (params.v === 'brain') ----------
-const gauge = (g, cx, cy, R, val, o = {}) => { // half-circle meter, val 0..1.15 (past the red zone)
+export const gauge = (g, cx, cy, R, val, o = {}) => { // half-circle meter, val 0..1.15 (past the red zone)
   const a0 = Math.PI, a1 = Math.PI * 2, ang = (v) => a0 + (a1 - a0) * v;
   glow(g, cx, cy - R * 0.3, R * 1.5, o.glowC || '#ff3a1a', 0.45);
   g.save(); g.beginPath(); g.arc(cx, cy, R + 34, Math.PI, 0); g.lineTo(cx + R + 34, cy + 70); g.lineTo(cx - R - 34, cy + 70); g.closePath(); g.fillStyle = '#121016'; g.fill(); g.restore();
@@ -180,8 +184,8 @@ const gauge = (g, cx, cy, R, val, o = {}) => { // half-circle meter, val 0..1.15
   const a = ang(val); g.save(); g.shadowColor = '#ffd08a'; g.shadowBlur = 30; seg(g, [[cx - Math.cos(a) * 30, cy - Math.sin(a) * 30], [cx + Math.cos(a) * (R - 30), cy + Math.sin(a) * (R - 30)]], 14, '#fff3d0'); g.restore();
   circle(g, cx, cy, 34, '#2a2230'); circle(g, cx, cy, 16, '#ff4a3a');
 };
-const holoCard = (g, x, y, s, rot, c, draw) => { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.shadowColor = c; g.shadowBlur = 40; rr(g, -120, -90, 240, 180, 22); g.fillStyle = alpha('#0a1030', 0.82); g.fill(); g.lineWidth = 7; g.strokeStyle = shade(c, 0.35); g.stroke(); g.shadowBlur = 0; draw(g); g.restore(); };
-const sym = (str, c, size = 78) => (g) => text(g, str, 0, size * 0.35, { size, color: c, font: FONTS.ui, weight: 900, glow: 18, glowColor: c });
+export const holoCard = (g, x, y, s, rot, c, draw) => { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.shadowColor = c; g.shadowBlur = 40; rr(g, -120, -90, 240, 180, 22); g.fillStyle = alpha('#0a1030', 0.82); g.fill(); g.lineWidth = 7; g.strokeStyle = shade(c, 0.35); g.stroke(); g.shadowBlur = 0; draw(g); g.restore(); };
+export const sym = (str, c, size = 78) => (g) => text(g, str, 0, size * 0.35, { size, color: c, font: FONTS.ui, weight: 900, glow: 18, glowColor: c });
 const VB = {
   // 1 SMUG + star eye — holographic brain lit at 100%: "GOD / MODE."
   1(g, t) {
