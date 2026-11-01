@@ -1,43 +1,43 @@
-# cartoon-shorts — Remotion project for the `cartoon-3d-short` skill
+# cartoon-shorts — Remotion-проект для скилла `cartoon-3d-short`
 
-Working project for the skill from [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts)
-(installed in `../.claude/skills/cartoon-3d-short/`). It contains the full source of the reference short
-"The Bridge That Fell for a Song" (`src/videos/bridge/`, composition `BridgeShort`, 1080x1920, 30 fps).
+Рабочий проект для скилла из [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts)
+(установлен в `../.claude/skills/cartoon-3d-short/`). Внутри полный исходник эталонного шортса
+«The Bridge That Fell for a Song» (`src/videos/bridge/`, композиция `BridgeShort`, 1080x1920, 30 fps).
 
-## Setup
+## Установка
 ```bash
-cartoon-shorts/setup.sh   # npm ci + pip (numpy, scipy, pillow) + skill reference frames
+cartoon-shorts/setup.sh   # npm ci + pip (numpy, scipy, pillow) + референс-кадры скилла
 ```
-Start a new short in Claude Code: *"Use the cartoon short skill and make a short about …"*.
+Чтобы сделать новый шортс, скажите в Claude Code: *«Используй скилл cartoon short и сделай шортс про …»*.
 
-## Commands
-| What | Command |
+## Команды
+| Что | Команда |
 |---|---|
-| Type check | `npm run check` |
-| Stills (QA) | `REMOTION_TMP=/tmp/remotion-tmp node scripts/bridge-stills.mjs out/bridge/x_ 100,1200 0.5` |
-| 2K video | `npm run render` (on Linux, `remotion.config.ts` turns on swangle, the local Chromium, timeout 10 min, 2 tabs) |
-| Frame QA | `python scripts/short_qa.py final.mp4 out/<name>/qa shots.json` |
+| Проверка типов | `npm run check` |
+| Тестовые кадры | `REMOTION_TMP=/tmp/remotion-tmp node scripts/bridge-stills.mjs out/bridge/x_ 100,1200 0.5` |
+| Видео 2K | `npm run render` (на Linux `remotion.config.ts` сам включает программный WebGL, локальный Chromium, таймаут 10 мин и 2 вкладки) |
+| Проверка кадров | `python scripts/short_qa.py final.mp4 out/<name>/qa shots.json` |
 
-Useful env vars for `bridge-stills.mjs`: `BRIDGE_ENTRY` (sandbox entry), `COMP` (composition id),
-`STILL_PROPS='{"post":{"ink":false}}'` (inputProps for A/B switches), `REMOTION_GL`, `BROWSER_EXECUTABLE`, `STILL_DEBUG=1` (all browser logs).
+Полезные переменные окружения для `bridge-stills.mjs`: `BRIDGE_ENTRY` (точка входа песочницы), `COMP` (id композиции),
+`STILL_PROPS='{"post":{"ink":false}}'` (inputProps для A/B-переключателей), `REMOTION_GL`, `BROWSER_EXECUTABLE`, `STILL_DEBUG=1` (все логи браузера).
 
-## Changes from the original template (to make it run in a Linux cloud without a GPU)
-- **`@react-three/postprocessing` is pinned to exactly 3.0.4.** In 3.1+ the EffectComposer is created asynchronously
-  (useEffect → setState), and under Remotion's `frameloop="never"` the frame stays empty (only the background colour).
-  `three` is pinned to 0.186.x (postprocessing 6.39 requires `< 0.187`). **Don't bump these versions without testing a still.**
-- `bridge-stills.mjs`: on Linux it uses `/opt/pw-browsers/chromium` and `gl: "swangle"` (software WebGL); otherwise Chrome + `angle`, as in the original.
-- `Bridge.tsx`: `null` → `<></>` in the EffectComposer children (3.0.4 types).
-- `bridge_merge.py`: ROOT = the project folder.
-- `remotion.config.ts`: Linux settings for the CLI render.
+## Отличия от оригинального шаблона (чтобы работало в Linux-облаке без GPU)
+- **`@react-three/postprocessing` закреплён ровно на 3.0.4.** В 3.1+ EffectComposer создаётся асинхронно
+  (useEffect → setState), и в режиме Remotion `frameloop="never"` кадр остаётся пустым (только цвет фона).
+  `three` закреплён на 0.186.x (postprocessing 6.39 требует `< 0.187`). **Не обновляйте эти версии, не проверив тестовый кадр.**
+- `bridge-stills.mjs`: на Linux использует `/opt/pw-browsers/chromium` и `gl: "swangle"` (программный WebGL); на других системах — Chrome + `angle`, как в оригинале.
+- `Bridge.tsx`: `null` → `<></>` в дочерних элементах EffectComposer (из-за типов 3.0.4).
+- `bridge_merge.py`: ROOT — папка проекта.
+- `remotion.config.ts`: настройки CLI-рендера для Linux.
 
-## Reference frames
-`references/frames` and `references/sheets` (the skill's private study material) are not committed to this repo; `setup.sh` pulls them from the original repo.
+## Референс-кадры
+`references/frames` и `references/sheets` (закрытые учебные материалы скилла) не хранятся в этом репозитории; `setup.sh` скачивает их из оригинального.
 
-## Limitations of this environment
-- With no GPU, rendering is software-only: about 25–55 s per still, and ~17 s per frame at 0.5 scale with 2 tabs.
-  A full 2K short (~2000 frames) would take many hours here, so render finals on a machine with a GPU.
-- **Kenney CC0 models** (`public/bridge/kenney/*.glb`: tree_oak, lantern, stall-red, banner-red, windmill, canoe …, list in
-  `src/videos/bridge/world.ts`) are not included: kenney.nl is blocked by the cloud's network policy. Without them the
-  scene still renders (the loader skips missing models), just without those props. Download the Nature Kit and the
-  Fantasy Town Kit from kenney.nl and put the `.glb` files into `public/bridge/kenney/` (they are in .gitignore).
-- The voice (`voice.wav` + `words.json`) is yours: ElevenLabs/Piper + Whisper word timings.
+## Ограничения этой среды
+- Без GPU рендер программный: 25–55 с на тестовый кадр и ~17 с на кадр видео при масштабе 0.5 и 2 вкладках.
+  Полный шортс в 2K (~2000 кадров) займёт здесь много часов, поэтому финальный рендер лучше делать на машине с видеокартой.
+- **CC0-модели Kenney** (`public/bridge/kenney/*.glb`: tree_oak, lantern, stall-red, banner-red, windmill, canoe и др., список в
+  `src/videos/bridge/world.ts`) не включены: kenney.nl заблокирован сетевой политикой облака. Сцена рендерится и без них
+  (загрузчик пропускает отсутствующие модели), только без этих объектов. Скачайте Nature Kit и Fantasy Town Kit
+  с kenney.nl и положите `.glb` в `public/bridge/kenney/` (они в .gitignore).
+- Озвучка (`voice.wav` + `words.json`) ваша: ElevenLabs/Piper + тайминги слов из Whisper.
