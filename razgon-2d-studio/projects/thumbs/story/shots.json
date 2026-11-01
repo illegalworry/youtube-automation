@@ -16,7 +16,8 @@
    "sfx": [],
    "params": {
     "tpl": "ifv",
-    "k": 1
+    "k": 1,
+    "v": "brain"
    },
    "vignette": true
   },
@@ -34,7 +35,8 @@
    "sfx": [],
    "params": {
     "tpl": "ifv",
-    "k": 2
+    "k": 2,
+    "v": "brain"
    },
    "vignette": true
   },
@@ -52,7 +54,8 @@
    "sfx": [],
    "params": {
     "tpl": "ifv",
-    "k": 3
+    "k": 3,
+    "v": "brain"
    },
    "vignette": true
   },
@@ -70,7 +73,8 @@
    "sfx": [],
    "params": {
     "tpl": "ifv",
-    "k": 4
+    "k": 4,
+    "v": "brain"
    },
    "vignette": true
   },
@@ -88,7 +92,8 @@
    "sfx": [],
    "params": {
     "tpl": "ifv",
-    "k": 5
+    "k": 5,
+    "v": "brain"
    },
    "vignette": true
   }

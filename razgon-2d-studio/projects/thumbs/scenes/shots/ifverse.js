@@ -167,4 +167,101 @@ const V = {
 };
 function lerp2(a, b, k) { return a + (b - a) * k; }
 
-for (const s of E.shots) if (s.params?.tpl === 'ifv') registerShot(s.id, { draw(g, t, info) { V[info.k](g, t); } });
+// ---------- "What If You Used 100% of Your Brain?" (params.v === 'brain') ----------
+const gauge = (g, cx, cy, R, val, o = {}) => { // half-circle meter, val 0..1.15 (past the red zone)
+  const a0 = Math.PI, a1 = Math.PI * 2, ang = (v) => a0 + (a1 - a0) * v;
+  glow(g, cx, cy - R * 0.3, R * 1.5, o.glowC || '#ff3a1a', 0.45);
+  g.save(); g.beginPath(); g.arc(cx, cy, R + 34, Math.PI, 0); g.lineTo(cx + R + 34, cy + 70); g.lineTo(cx - R - 34, cy + 70); g.closePath(); g.fillStyle = '#121016'; g.fill(); g.restore();
+  g.save(); g.beginPath(); g.arc(cx, cy, R + 14, Math.PI, 0); g.lineTo(cx + R + 14, cy + 52); g.lineTo(cx - R - 14, cy + 52); g.closePath(); g.fillStyle = '#060508'; g.fill(); g.restore();
+  const zones = [[0, 0.55, '#3fe0a0'], [0.55, 0.8, '#ffd02a'], [0.8, 1, '#ff3a2a']];
+  for (const [p, q, c] of zones) { g.save(); g.shadowColor = c; g.shadowBlur = 24; g.strokeStyle = c; g.lineWidth = 38; g.beginPath(); g.arc(cx, cy, R - 40, ang(p) + 0.02, ang(q) - 0.02); g.stroke(); g.restore(); }
+  for (let i = 0; i <= 10; i++) { const a = ang(i / 10), r1 = R - 80, r2 = R - (i % 5 ? 100 : 120); seg(g, [[cx + Math.cos(a) * r1, cy + Math.sin(a) * r1], [cx + Math.cos(a) * r2, cy + Math.sin(a) * r2]], i % 5 ? 5 : 9, '#f4efe6'); }
+  for (const [v, l] of [[0, '0'], [0.5, '50'], [1, '100']]) { const a = ang(v), rr2 = R - 160; text(g, l, cx + Math.cos(a) * rr2, cy + Math.sin(a) * rr2 + 14, { size: 40, color: '#f4efe6', font: FONTS.ui, weight: 900 }); }
+  const a = ang(val); g.save(); g.shadowColor = '#ffd08a'; g.shadowBlur = 30; seg(g, [[cx - Math.cos(a) * 30, cy - Math.sin(a) * 30], [cx + Math.cos(a) * (R - 30), cy + Math.sin(a) * (R - 30)]], 14, '#fff3d0'); g.restore();
+  circle(g, cx, cy, 34, '#2a2230'); circle(g, cx, cy, 16, '#ff4a3a');
+};
+const holoCard = (g, x, y, s, rot, c, draw) => { g.save(); g.translate(x, y); g.rotate(rot); g.scale(s, s); g.shadowColor = c; g.shadowBlur = 40; rr(g, -120, -90, 240, 180, 22); g.fillStyle = alpha('#0a1030', 0.82); g.fill(); g.lineWidth = 7; g.strokeStyle = shade(c, 0.35); g.stroke(); g.shadowBlur = 0; draw(g); g.restore(); };
+const sym = (str, c, size = 78) => (g) => text(g, str, 0, size * 0.35, { size, color: c, font: FONTS.ui, weight: 900, glow: 18, glowColor: c });
+const VB = {
+  // 1 SMUG + star eye — holographic brain lit at 100%: "GOD / MODE."
+  1(g, t) {
+    bgBlur(g, t, 'lab', {}, { z: 1.25, blur: 7, veil: 0.2, y: -120 });
+    wash(g, '#2a3cff', '#7a2aff', 0.75); bokeh(g, 13, 26, ['#5fd8ff', '#8a6aff', '#ff5ad8']); vign(g, 0.5);
+    const cx = 1440, cy = 470, c = '#3fe0ff';
+    FX.lightCone(g, cx, 1100, { angle: -Math.PI / 2, spread: 0.55, len: 900, color: c, a: 0.35 });
+    g.save(); g.globalCompositeOperation = 'lighter'; g.fillStyle = radGrad(g, cx, 1000, 0, 260, [alpha(c, 0.6), alpha(c, 0)]); g.beginPath(); g.ellipse(cx, 1000, 300, 60, 0, 0, 7); g.fill(); g.restore();
+    glow(g, cx, cy, 520, c, 0.55); glow(g, cx, cy, 260, '#ffffff', 0.25);
+    brain(g, cx, cy, 1.75, '#d8fbff');
+    const r = rng(3); for (let i = 0; i < 26; i++) { const a = r() * 6.28, d = 60 + r() * 220, x = cx + Math.cos(a) * d * 1.25, y = cy + Math.sin(a) * d * 0.85; glow(g, x, y, 40, '#fff6a0', 0.9); circle(g, x, y, 5, '#ffffff'); }
+    for (let i = 0; i < 3; i++) { g.save(); g.globalCompositeOperation = 'lighter'; g.strokeStyle = alpha(c, 0.4 - i * 0.1); g.lineWidth = 4; g.beginPath(); g.ellipse(cx, cy + 20, 360 + i * 60, 90 + i * 20, -0.12, 0, 7); g.stroke(); g.restore(); }
+    text(g, '100%', cx, cy + 420, { size: 130, color: '#e8fbff', font: FONTS.ui, weight: 900, glow: 40, glowColor: c });
+    motes(g, 4, 34, c, [1000, 60, 900, 900]);
+    hero(g, 560, 700, 245, 'smug', { rim: '#5fd8ff', dir: 1 });
+  },
+  // 2 ANGRY glowing eyes — the "10%" myth on a screen, stamped FAKE: "IT'S / A LIE."
+  2(g, t) {
+    bgBlur(g, t, 'class', {}, { z: 1.3, blur: 8, veil: 0.35, y: -140 });
+    wash(g, '#ff8a2a', '#5a1a0a', 0.8); bokeh(g, 23, 18, ['#ffb04a', '#ff6a2a']); vign(g, 0.65);
+    FX.lightCone(g, 1450, -20, { angle: Math.PI / 2, spread: 0.32, len: 1000, color: '#ffd59a', a: 0.22 });
+    const px = 1040, py = 220, pw = 780, ph = 540; glow(g, px + pw / 2, py + ph / 2, 560, '#ff9a3a', 0.4);
+    rr(g, px - 24, py - 24, pw + 48, ph + 48, 30); g.fillStyle = '#16121a'; g.fill();
+    g.save(); rr(g, px, py, pw, ph, 14); g.clip(); g.fillStyle = linGrad(g, 0, py, 0, py + ph, ['#1a3a5a', '#0a1a2a']); g.fillRect(px, py, pw, ph);
+    g.save(); g.beginPath(); g.rect(px + 60, py + 90, 360, 330); g.clip();
+    brain(g, px + 220, py + 250, 0.85, '#6ab8ff');
+    g.restore(); glow(g, px + 175, py + 215, 70, '#ffe24a', 0.7);
+    text(g, '10%', px + 560, py + 285, { size: 160, color: '#ffe8c0', font: FONTS.ui, weight: 900, glow: 20, glowColor: '#ffb04a' });
+    text(g, 'OF YOUR BRAIN', px + 560, py + 355, { size: 36, color: '#bfe0ff', font: FONTS.ui, weight: 900, spacing: 3 });
+    for (let i = 0; i < ph; i += 6) { g.fillStyle = 'rgba(0,0,0,.12)'; g.fillRect(px, py + i, pw, 2); } g.restore();
+    seg(g, [[px + 420, py + 140], [px + 720, py + 380]], 22, '#ff2a1a'); seg(g, [[px + 720, py + 140], [px + 420, py + 380]], 22, '#ff2a1a');
+    g.save(); g.translate(px + pw / 2, py + ph - 70); g.rotate(-0.1); g.shadowColor = '#ff2a1a'; g.shadowBlur = 30; rr(g, -190, -55, 380, 110, 14); g.lineWidth = 12; g.strokeStyle = '#ff3a2a'; g.stroke(); g.shadowBlur = 0; text(g, 'FAKE', 0, 30, { size: 90, color: '#ff3a2a', font: FONTS.ui, weight: 900, spacing: 10 }); g.restore();
+    motes(g, 8, 24, '#ffb04a', [900, 80, 1000, 900]);
+    hero(g, 560, 700, 245, 'angry', { rim: '#ff9a3a', haloA: 0.32, dir: 1 });
+  },
+  // 3 SHOCKED — all knowledge pouring into the head: "I KNOW / IT ALL."
+  3(g, t) {
+    bgBlur(g, t, 'lab', {}, { z: 1.2, blur: 8, veil: 0.25, y: -120 });
+    wash(g, '#3a1aff', '#ff3a9a', 0.7); bokeh(g, 33, 22, ['#ff5ad8', '#5fd8ff', '#ffd06a']); vign(g, 0.5);
+    const hx = 560, hy = 700;
+    FX.speedLines(g, 0, { cx: hx, cy: hy, count: 70, color: '#ffffff', a: 0.12, inner: 420 });
+    const items = [sym('E=mc²', '#ffd06a', 64), sym('π', '#5fd8ff', 110), sym('∑', '#ff7ad8', 110), sym('DNA', '#6affb0', 70), sym('√x', '#ffd06a', 90), sym('文', '#ff7ad8', 100), sym('∞', '#5fd8ff', 120), sym('H₂O', '#6affb0', 70), sym('♪', '#ffd06a', 110), sym('Ω', '#ff7ad8', 110), sym('42', '#5fd8ff', 100)];
+    const cols = ['#ffd06a', '#5fd8ff', '#ff7ad8', '#6affb0'];
+    const r = rng(17), pts = []; for (let i = 0; i < 11; i++) { const k = i / 10, x = lerp2(1860, 920, k) + (r() - 0.5) * 260, y = lerp2(130, 520, k) + (r() - 0.5) * 380; pts.push([x, y, 1.05 - k * 0.5 + r() * 0.2, (r() - 0.5) * 0.6, i]); }
+    for (const [x, y] of pts) { g.save(); g.globalCompositeOperation = 'lighter'; g.strokeStyle = linGrad(g, x, y, x + 260, y - 120, [alpha('#ffffff', 0.45), alpha('#ffffff', 0)]); g.lineWidth = 46; g.lineCap = 'round'; g.beginPath(); g.moveTo(x, y); g.lineTo(x + 260, y - 120); g.stroke(); g.restore(); }
+    pts.sort((a, b) => a[2] - b[2]).forEach(([x, y, s, rot, i]) => { glow(g, x, y, 190 * s, cols[i % 4], 0.35); holoCard(g, x, y, s * 0.85, rot, cols[i % 4], items[i]); });
+    motes(g, 9, 40, '#ffe0a0', [800, 0, 1120, 1000]);
+    hero(g, hx, hy, 245, 'shocked', { rim: '#ff7ad8', haloA: 0.35, dir: 1 });
+  },
+  // 4 SAD + tear — the brain drained the body's battery: "NO / ENERGY."
+  4(g, t) {
+    bgBlur(g, t, 'street', {}, { z: 1.25, blur: 8, veil: 0.3, y: -120 });
+    wash(g, '#1a4aff', '#0a1a4a', 0.8); bokeh(g, 43, 26, ['#5fa8ff', '#ff6a8a', '#ffd06a'], 0.3); vign(g, 0.6);
+    FX.rain(g, 0.6, { count: 260, color: '#bfe0ff', a: 0.35 });
+    const bx = 1150, by = 200, bw = 620, bh = 330, red = '#ff3a2a';
+    glow(g, bx + bw / 2, by + bh / 2, 560, red, 0.4);
+    g.save(); g.shadowColor = red; g.shadowBlur = 40; rr(g, bx, by, bw, bh, 40); g.lineWidth = 22; g.strokeStyle = '#f4efe6'; g.stroke(); g.restore();
+    rr(g, bx + bw + 6, by + bh / 2 - 60, 46, 120, 14); g.fillStyle = '#f4efe6'; g.fill();
+    rr(g, bx + 26, by + 26, bw - 52, bh - 52, 20); g.fillStyle = alpha('#05070f', 0.85); g.fill();
+    g.save(); g.shadowColor = red; g.shadowBlur = 40; rr(g, bx + 40, by + 40, 70, bh - 80, 14); g.fillStyle = red; g.fill(); g.restore();
+    text(g, '1%', bx + bw / 2 + 50, by + bh / 2 + 55, { size: 170, color: '#ff6a5a', font: FONTS.ui, weight: 900, glow: 30, glowColor: red });
+    const lx = bx + bw / 2, ly = by + bh + 130; g.save(); g.shadowColor = '#ffd02a'; g.shadowBlur = 30; poly(g, [[lx + 20, ly - 90], [lx - 50, ly + 10], [lx - 5, ly + 10], [lx - 25, ly + 95], [lx + 55, ly - 15], [lx + 8, ly - 15]], '#ffd02a'); g.restore();
+    text(g, 'BRAIN TOOK IT ALL', bx + bw / 2, ly + 180, { size: 50, color: '#cfe6ff', font: FONTS.ui, weight: 900, spacing: 2 });
+    motes(g, 12, 20, '#ffd8a0', [1000, 100, 900, 800]);
+    hero(g, 560, 700, 245, 'sad', { rim: '#5fa8ff', haloA: 0.3, dir: 1 });
+  },
+  // 5 CRAZY / overloaded — brain-activity gauge past the red line, skull cracked: "BRAIN / FRIED."
+  5(g, t) {
+    bgBlur(g, t, 'class', {}, { z: 1.25, blur: 8, veil: 0.35, y: -120 });
+    wash(g, '#ff2a1a', '#3a0a3a', 0.75); bokeh(g, 53, 20, ['#ff5a2a', '#ffb02a', '#ff2a8a']); vign(g, 0.6);
+    const cx = 1430, cy = 600, R = 400;
+    gauge(g, cx, cy, R, 0.985);
+    text(g, 'BRAIN ACTIVITY', cx, cy + 120, { size: 52, color: '#ff8a7a', font: FONTS.ui, weight: 900, spacing: 6 });
+    for (let i = 0; i < 9; i++) { const a = -2.0 + i * 0.4, sx = cx + Math.cos(-0.05 * Math.PI) * (R - 20), sy = cy + Math.sin(-0.05 * Math.PI) * (R - 20); seg(g, [[sx + Math.cos(a) * 50, sy + Math.sin(a) * 50], [sx + Math.cos(a) * (100 + (i % 3) * 30), sy + Math.sin(a) * (100 + (i % 3) * 30)]], 6, alpha('#ffd08a', 0.9)); }
+    { const sx = cx + Math.cos(-0.05 * Math.PI) * (R - 20), sy = cy + Math.sin(-0.05 * Math.PI) * (R - 20); glow(g, sx, sy, 170, '#ffd08a', 0.8); star(g, sx, sy, 40, '#ffe0a0'); }
+    rr(g, cx - 230, cy + 190, 460, 100, 18); g.fillStyle = '#e8321a'; g.fill(); text(g, '⚠ 100%', cx, cy + 258, { size: 58, color: '#ffffff', font: FONTS.ui, weight: 900 });
+    motes(g, 15, 30, '#ffb04a', [900, 60, 1000, 950]);
+    hero(g, 560, 700, 245, 'crazy', { rim: '#ff8a3a', haloA: 0.35, dir: 1 });
+  },
+};
+
+const SETS = { brain: VB };
+for (const s of E.shots) if (s.params?.tpl === 'ifv') registerShot(s.id, { draw(g, t, info) { (SETS[info.v] || V)[info.k](g, t); } });
