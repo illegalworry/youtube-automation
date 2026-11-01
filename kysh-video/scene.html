@@ -1,0 +1,330 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:720px;height:1280px;overflow:hidden;background:#0a0c1c;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,#1a1f45 0%,#0d1029 55%,#070816 100%)}
+#aur{position:absolute;inset:-100px;filter:blur(90px);opacity:.9}
+#aur div{position:absolute;border-radius:50%}
+canvas.full{position:absolute;inset:0;width:720px;height:1280px}
+#world{position:absolute;inset:0;transform-origin:360px 560px}
+#top{position:absolute;left:36px;top:44px;display:flex;align-items:center;gap:10px;font-size:19px;color:#fff;font-weight:800;white-space:nowrap}
+#top span{color:#a7a3c9;font-weight:500}
+#bars{display:flex;gap:3px;align-items:flex-end;height:18px}#bars i{display:block;width:4px;border-radius:1px;background:#a7a3c9}
+#stage{position:absolute;inset:0;perspective:1400px;perspective-origin:360px 520px}
+.card{position:absolute;left:36px;top:250px;width:648px;height:570px;border-radius:38px;background:linear-gradient(#1b1d2c,#14151f);display:none;
+ box-shadow:0 0 0 1.5px rgba(255,255,255,.07) inset}
+.glow{position:absolute;inset:-26px;border-radius:60px;filter:blur(30px);opacity:.55;z-index:-1}
+.hdr{position:absolute;left:24px;top:22px;display:flex;align-items:center;gap:13px}
+.ico{width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:26px}
+.ht{font-weight:800;font-size:22px;color:#fff;line-height:1.1}
+.hs{font-size:15px;color:#9c9ab3;margin-top:3px;font-weight:500}
+.cor{position:absolute;right:24px;top:22px;font-size:30px}
+.scn{position:absolute;left:18px;top:94px;width:612px;height:458px;border-radius:24px;overflow:hidden}
+.scn svg{position:absolute;inset:0}
+.chip{position:absolute;padding:7px 14px;border-radius:20px;font-size:15px;font-weight:800;color:#fff;white-space:nowrap;background:rgba(10,12,30,.62);border:1.5px solid rgba(255,255,255,.35);backdrop-filter:blur(4px)}
+#sub{position:absolute;left:30px;right:30px;top:858px;text-align:center}
+#ky{font-size:29px;font-weight:800;line-height:1.22;color:rgba(255,255,255,.28)}
+#ky b{font-weight:800}
+#ru{margin-top:12px;font-size:20px;font-weight:600;color:#b9b2f0;line-height:1.3}
+#bar{position:absolute;left:96px;top:1046px;width:528px;height:5px;border-radius:3px;background:rgba(255,255,255,.14)}
+#barf{height:100%;border-radius:3px;background:linear-gradient(90deg,#d7d3ff,#fff)}
+#t0,#t1{position:absolute;top:1064px;font-size:15px;color:#8f8ba8;font-weight:600}#t0{left:96px}#t1{right:96px}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:80;pointer-events:none}
+#warm{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 60%,rgba(255,140,60,.45),transparent 70%);mix-blend-mode:screen;opacity:0;z-index:70;pointer-events:none}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 50%,rgba(0,0,0,.55));z-index:71;pointer-events:none}
+#intro{position:absolute;inset:0;z-index:60}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+ <filter id="b0" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur id="bg0" stdDeviation="0"/></filter>
+ <filter id="b1" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur id="bg1" stdDeviation="0"/></filter>
+ <radialGradient id="gw"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <radialGradient id="gy"><stop offset="0" stop-color="#ffd27a" stop-opacity=".95"/><stop offset=".4" stop-color="#ffb347" stop-opacity=".45"/><stop offset="1" stop-color="#ff8a00" stop-opacity="0"/></radialGradient>
+ <radialGradient id="go"><stop offset="0" stop-color="#ff9a3c" stop-opacity=".9"/><stop offset="1" stop-color="#ff4d00" stop-opacity="0"/></radialGradient>
+ <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b4b86"/><stop offset="1" stop-color="#26305c"/></linearGradient>
+ <linearGradient id="nightsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1233"/><stop offset="1" stop-color="#27306a"/></linearGradient>
+ <linearGradient id="snowg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef3ff"/><stop offset="1" stop-color="#b9c6ec"/></linearGradient>
+</defs></svg>
+<div id="bg"></div><div id="aur"><div></div><div></div><div></div></div>
+<canvas class="full" id="stars" width="1080" height="1920"></canvas>
+<div id="world">
+ <div id="top"><div id="bars"><i></i><i></i><i></i><i></i></div>Бегиш ft. Арсен<span>· Кыш</span></div>
+ <div id="stage"></div>
+ <div id="sub"><div id="ky"></div><div id="ru"></div></div>
+ <div id="bar"><div id="barf"></div></div><div id="t0"></div><div id="t1"></div>
+ <div id="intro"></div>
+</div>
+<canvas class="full" id="snow" width="1080" height="1920" style="z-index:65"></canvas>
+<div id="warm"></div><div id="vig"></div><div id="flash"></div>
+<script>
+const A=window.AUDIO,B=A.beats,DUR=56.66;
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),lerp=(a,b,p)=>a+(b-a)*p,ph=(t,t0,d)=>clamp((t-t0)/d);
+const eo=p=>1-Math.pow(1-clamp(p),3),eio=p=>{p=clamp(p);return p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2};
+const spr=p=>p<=0?0:1-Math.exp(-5*p)*Math.cos(9*p);
+const back=p=>{p=clamp(p);const c=2;return 1+(c+1)*Math.pow(p-1,3)+c*Math.pow(p-1,2)};
+function rnd(s){s>>>=0;return()=>{s=(s*1664525+1013904223)>>>0;return s/4294967296}}
+const smp=(a,t,f)=>{const x=t*f,i=Math.floor(x),u=a[clamp(i,0,a.length-1)],v=a[clamp(i+1,0,a.length-1)];return u+(v-u)*(x-i)};
+const rms=t=>smp(A.rms,t,120),bass=t=>smp(A.bass,t,120);
+const beatE=(t,k=9)=>{let e=0;for(let i=0;i<B.length;i++){const d=t-B[i];if(d<0)break;if(d<1){const w=((i-1)%4==0)?1:.55;e=Math.max(e,w*Math.exp(-d*k))}}return e};
+const lastB=t=>{let j=-1;for(let i=0;i<B.length;i++)if(B[i]<=t)j=i;return j};
+const kickE=(t,k=10,th=.5)=>{let e=0;for(const[a,s]of A.kicks){if(a>t)break;if(s<th)continue;const d=t-a;if(d<1)e+=s*Math.exp(-d*k)}return Math.min(e,1.2)};
+const $=id=>document.getElementById(id);
+const g=(x,y,r,s,inner,extra='')=>`<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${(r||0).toFixed(2)}) scale(${s||1})" ${extra}>${inner}</g>`;
+const popS=(t,t0,d=.35)=>t<t0?0:(t-t0>=d?1:back((t-t0)/d));
+
+// ---------- characters ----------
+function hero(o){o=Object.assign({x:0,y:0,s:1,bob:0,aL:20,aR:-20,lL:0,lR:0,tilt:0,mouth:'smile',eyes:'open',brow:0,look:0,phones:0,scarf:0,blush:1,mittL:'',mittR:'',lean:0,shiver:0},o);
+ const sk='#f3c8a2',lim=(rot,len,w,col,end)=>`<g transform="rotate(${rot})"><rect x="${-w/2}" y="0" width="${w}" height="${len}" rx="${w/2}" fill="${col}"/>${end}</g>`;
+ const legs=`<g transform="translate(-13 -60)">${lim(o.lL,52,17,'#1d2240',`<ellipse cx="2" cy="52" rx="13" ry="8" fill="#0f1226"/>`)}</g><g transform="translate(13 -60)">${lim(o.lR,52,17,'#1d2240',`<ellipse cx="-2" cy="52" rx="13" ry="8" fill="#0f1226"/>`)}</g>`;
+ const arm=(side,rot)=>`<g transform="translate(${side*31} -108) rotate(${side*rot})">${lim(0,48,16,'#33417a',`<circle cx="0" cy="50" r="10" fill="#d8323f"/>`+(side<0?o.mittL:o.mittR))}</g>`;
+ const body=`<rect x="-34" y="-124" width="68" height="74" rx="26" fill="url(#coat)"/><path d="M-30 -100h60M-32 -80h64" stroke="#5065ad" stroke-width="2" opacity=".6"/><rect x="-2" y="-118" width="4" height="64" fill="#1e2650" opacity=".7"/>`;
+ const sc=o.scarf;const scarf=`<rect x="-30" y="-130" width="60" height="16" rx="8" fill="#e23b4a"/><path d="M14 -120 q${8+sc*6} ${16} ${4+sc*14} ${36} l-13 2 q2 -18 -4 -34z" fill="#c42a39"/>`;
+ const ey=o.eyes;const eyeF=x=>ey=='closed'?`<path d="M${x-7} -158 q7 6 14 0" stroke="#2a1a14" stroke-width="3" fill="none" stroke-linecap="round"/>`:ey=='happy'?`<path d="M${x-7} -156 q7 -8 14 0" stroke="#2a1a14" stroke-width="3.2" fill="none" stroke-linecap="round"/>`:
+  `<ellipse cx="${x+o.look*3}" cy="-157" rx="5.5" ry="${ey=='wide'?8:7}" fill="#2a1a14"/><circle cx="${x+o.look*3+2}" cy="-159.5" r="2" fill="#fff"/>`;
+ const br=o.brow;const brows=`<path d="M-21 ${-170+br*2} l14 ${br*6-1}" stroke="#3a2418" stroke-width="3.4" stroke-linecap="round"/><path d="M21 ${-170+br*2} l-14 ${br*6-1}" stroke="#3a2418" stroke-width="3.4" stroke-linecap="round"/>`;
+ const m=o.mouth;const mouth=m=='smile'?`<path d="M-9 -142 q9 9 18 0" stroke="#7a2e22" stroke-width="3.2" fill="none" stroke-linecap="round"/>`:m=='grin'?`<path d="M-11 -144 q11 14 22 0z" fill="#7a2e22"/>`:m=='frown'?`<path d="M-8 -138 q8 -7 16 0" stroke="#7a2e22" stroke-width="3.2" fill="none" stroke-linecap="round"/>`:m=='o'?`<ellipse cx="0" cy="-141" rx="5" ry="6.5" fill="#7a2e22"/>`:`<path d="M-7 -141 h14" stroke="#7a2e22" stroke-width="3.2" stroke-linecap="round"/>`;
+ const kalpak=`<path d="M-37 -183 Q-30 -238 0 -246 Q30 -238 37 -183 Z" fill="#f4f1ea"/><path d="M-22 -200 q22 -10 44 0 M-14 -222 q14 -6 28 0" stroke="#c9c2b4" stroke-width="2" fill="none"/><path d="M-40 -186 L-36 -173 L36 -173 L40 -186 L18 -190 L0 -186 L-18 -190 Z" fill="#1b1b22"/><circle cx="0" cy="-247" r="4" fill="#c42a39"/>`;
+ const phones=o.phones?`<path d="M-38 -165 q0 -50 38 -52 q38 2 38 52" stroke="#22253a" stroke-width="7" fill="none"/><rect x="-46" y="-172" width="15" height="26" rx="7" fill="#ff4f7a"/><rect x="31" y="-172" width="15" height="26" rx="7" fill="#ff4f7a"/>`:'';
+ const head=`<g transform="translate(0 ${o.bob*.4}) rotate(${o.tilt} 0 -150)"><circle cx="0" cy="-152" r="35" fill="${sk}"/>${o.blush?`<ellipse cx="-19" cy="-143" rx="7" ry="4.5" fill="#ff8f8f" opacity=".55"/><ellipse cx="19" cy="-143" rx="7" ry="4.5" fill="#ff8f8f" opacity=".55"/>`:''}${eyeF(-12)}${eyeF(12)}${brows}${mouth}${kalpak}${phones}</g>`;
+ const sh=o.shiver?Math.sin(T_*80)*o.shiver*2:0;
+ return g(o.x+sh,o.y,o.lean,o.s,`<ellipse cx="0" cy="2" rx="40" ry="8" fill="#000" opacity=".25"/><g transform="translate(0 ${o.bob})">${legs}${arm(-1,o.aL)}${body}${arm(1,o.aR)}${scarf}${head}</g>`);
+}
+function snowman(o){o=Object.assign({x:0,y:0,s:1,bob:0,aL:30,aR:-30,tilt:0,happy:1},o);
+ const arm=(side,r)=>`<g transform="translate(${side*24} -78) rotate(${side*(60+r)})"><path d="M0 0 L0 46 M0 30 l${side*-8} 10" stroke="#6b4a2e" stroke-width="4" stroke-linecap="round"/></g>`;
+ return g(o.x,o.y,0,o.s,`<ellipse cx="0" cy="2" rx="42" ry="8" fill="#000" opacity=".25"/><g transform="translate(0 ${o.bob})"><circle cx="0" cy="-36" r="38" fill="url(#snowg)"/><circle cx="0" cy="-98" r="29" fill="url(#snowg)"/>${arm(-1,o.aL)}${arm(1,o.aR)}<circle cx="0" cy="-90" r="3" fill="#333"/><circle cx="0" cy="-104" r="3" fill="#333"/>
+  <g transform="rotate(${o.tilt} 0 -140)"><circle cx="0" cy="-148" r="24" fill="url(#snowg)"/><circle cx="-8" cy="-152" r="3.6" fill="#1a1a2a"/><circle cx="8" cy="-152" r="3.6" fill="#1a1a2a"/><path d="M0 -146 l18 4 l-18 3z" fill="#ff8a1e"/>
+  <path d="${o.happy?'M-8 -138 q8 7 16 0':'M-8 -136 q8 -5 16 0'}" stroke="#333" stroke-width="2.6" fill="none" stroke-linecap="round"/><rect x="-20" y="-178" width="40" height="8" rx="3" fill="#2a2d44"/><rect x="-13" y="-200" width="26" height="24" rx="4" fill="#2a2d44"/><rect x="-13" y="-182" width="26" height="5" fill="#e23b4a"/></g>
+  <path d="M-24 -122 h48 v10 h-48z" fill="#4f8cff"/><path d="M14 -116 l6 26 l-10 1z" fill="#3c6fd8"/></g>`)}
+function person(x,y,s,c,ph){return g(x,y,0,s,`<g transform="translate(0 ${Math.abs(Math.sin(ph))*-4})"><rect x="-9" y="-40" width="7" height="${24}" rx="3.5" fill="#141833" transform="rotate(${Math.sin(ph)*25} -5 -40)"/><rect x="2" y="-40" width="7" height="24" rx="3.5" fill="#141833" transform="rotate(${-Math.sin(ph)*25} 5 -40)"/><rect x="-13" y="-78" width="26" height="42" rx="11" fill="${c}"/><circle cx="0" cy="-90" r="12" fill="#e9be97"/><path d="M-13 -94 q13 -16 26 0" fill="#2b2b3a"/></g>`)}
+function snowGround(w,h,y,c='#dfe7ff'){return `<path d="M0 ${y} Q ${w*.25} ${y-14} ${w*.5} ${y} T ${w} ${y} V ${h} H 0Z" fill="${c}"/>`}
+function starsSvg(n,seed,t,h=300){const R=rnd(seed);let s='';for(let i=0;i<n;i++){const x=R()*612,y=R()*h,r=.6+R()*1.6,tw=.4+.6*Math.abs(Math.sin(t*(1+R()*2)+R()*6));s+=`<circle cx="${x}" cy="${y}" r="${r}" fill="#fff" opacity="${tw}"/>`}return s}
+function flakes(n,seed,t,sp=40,h=458){const R=rnd(seed);let s='';for(let i=0;i<n;i++){const x=R()*612,r=1.2+R()*2.6,v=sp*(.5+R()),y=((R()*h+t*v)%(h+20))-10;s+=`<circle cx="${(x+Math.sin(t*1.3+i)*8).toFixed(1)}" cy="${y.toFixed(1)}" r="${r}" fill="#fff" opacity="${.5+R()*.5}"/>`}return s}
+const mnt=(y,c,seed,amp=60)=>{const R=rnd(seed);let d=`M0 458 L0 ${y}`;for(let x=0;x<=612;x+=51){d+=` L${x} ${y-R()*amp}`}return `<path d="${d} L612 458Z" fill="${c}"/>`};
+const sky=(c1,c2)=>`<rect width="612" height="458" fill="url(#sk_${c1.slice(1)}_${c2.slice(1)})"/><defs><linearGradient id="sk_${c1.slice(1)}_${c2.slice(1)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/></linearGradient></defs>`;
+let T_=0;
+
+// ---------- lyrics ----------
+const L=[
+[0.70,'Бир аз эшик суук, бирок жүрөктө жылуу','На улице холодно, но в сердце тепло'],
+[3.45,'Турамын карыз түндө мен, музыка угуп','Стою ночью и слушаю музыку'],
+[6.25,'Элдерди карасам баары шашылат','Смотрю на людей — все спешат'],
+[9.05,'Карысы да, жашы да, жана тайгаланган машина','И старый, и малый, и машины на льду'],
+[11.90,'Бул кыш мезгил, Африкада күтпөгөн','Это зима — в Африке такую не ждут'],
+[14.70,'Жылмаюуну алыстатып, кабактарды бүркөгөн','Прогоняет улыбки, хмурит брови'],
+[17.50,'Карапайым калкты кыйнап, убараны жүктөгөн','Мучает простой народ, грузит хлопотами'],
+[20.30,'Музга айлантып айлананы','Всё вокруг превращает в лёд'],
+[23.10,'Аны көзгө алба, бул да кайгыга салбайт','Не бери в голову — это не повод грустить'],
+[25.55,'Ишембиге даярданып, досторуң менен камдан','Готовься к субботе, собирайся с друзьями'],
+[28.35,'Салтка калган көнүгүү, лыжа менен өнүгүү','Добрая традиция — кататься на лыжах'],
+[31.00,'Аппак болуп жердин бети — кыштын сыйкыр бөлүгү','Земля белым-бела — волшебство зимы'],
+[34.20,'Эгер кар көп жааса, өзүң жалгыз калсаң','Если снега много и ты остался один'],
+[37.50,'токтогонсуйт көмүрүң','будто гаснет твой уголёк'],
+[39.62,'Жылытсын музыкам жанды, жүгүртүп тамырдан канды','Пусть моя музыка согреет душу и разгонит кровь'],
+[42.85,'Чыдап кой сен, бир аз калды, жаз да келет көрүнүп','Потерпи, осталось чуть-чуть — придёт весна'],
+[45.24,'Жаңы жыл келсин!','Пусть придёт Новый год!'],
+[47.90,'Жанып түнбөгөн…','Горящий, не гаснущий…'],
+[50.60,'Жарык жүктөгөн, эмне?','Несущий свет — а как же!'],
+];
+L.forEach((l,i)=>{l[3]=i<L.length-1?L[i+1][0]-.15:54.6});
+
+// ---------- scenes ----------
+const SC=[
+{t0:.81,c:'#ff6a7a',ico:'🌡️',ib:'#ff4d5e',h:'Погода',s:'снаружи холодно, в сердце тепло',cor:'❤️',draw(t,l){
+ const he=beatE(t,7);let s=sky('#0b1030','#2a3470')+starsSvg(30,1,t)+mnt(330,'#1d2550',3,40)+snowGround(612,458,380)+flakes(40,2,t);
+ s+=`<rect x="40" y="170" width="120" height="210" rx="10" fill="#3a2a2a"/><rect x="52" y="182" width="96" height="198" rx="6" fill="#ffb347" opacity=".9"/><circle cx="135" cy="290" r="5" fill="#5a3a1a"/>`;
+ s+=`<g transform="translate(500 150)"><rect x="-16" y="0" width="32" height="170" rx="16" fill="#e8eeff" opacity=".9"/><circle cx="0" cy="182" r="26" fill="#4aa8ff"/><rect x="-7" y="${150-40*(1-ph(t,1.2,1))}" width="14" height="${40+40*(1-ph(t,1.2,1))}" rx="7" fill="#4aa8ff"/><text x="34" y="40" fill="#bfe0ff" font-size="22" font-weight="800">−12°</text></g>`;
+ s+=hero({x:290,y:400,s:1.15,bob:Math.sin(t*2.2)*2,aL:15+Math.sin(t*3)*4,aR:-150+Math.sin(t*2)*6,mouth:'smile',eyes:t%3<.12?'closed':'open',shiver:.6,scarf:Math.sin(t*3)});
+ const hs=1+.35*he;s+=g(290,265,0,hs,`<circle r="30" fill="url(#gy)"/><path d="M0 9 c-14 -10 -16 -22 -7 -26 c4 -2 7 1 7 4 c0 -3 3 -6 7 -4 c9 4 7 16 -7 26z" fill="#ff4d6d"/>`);
+ return s+`<text x="306" y="64" text-anchor="middle" fill="#ffd2d8" font-size="20" font-weight="800" opacity="${ph(t,2.0,.3)}">+36,6° внутри</text>`}},
+{t0:3.65,c:'#a07bff',ico:'🎧',ib:'#7c5cff',h:'Музыка',s:'стою ночью, слушаю',cor:'🎵',draw(t,l){
+ let s=sky('#090b26','#231c55')+starsSvg(50,4,t)+mnt(360,'#191a44',5,50)+snowGround(612,458,400,'#cfd8f5')+flakes(30,6,t,30);
+ s+=`<rect x="438" y="110" width="8" height="300" fill="#2c2f4a"/><path d="M442 112 q30 -12 50 6" stroke="#2c2f4a" stroke-width="7" fill="none"/><ellipse cx="492" cy="128" rx="18" ry="8" fill="#ffe7a6"/><path d="M474 130 L410 420 L580 420 Z" fill="url(#gy)" opacity=".35"/>`;
+ const bE=beatE(t,8),j=lastB(t);s+=hero({x:300,y:420,s:1.2,phones:1,bob:-6*bE,tilt:(j%2?1:-1)*5*eo(clamp((t-B[Math.max(0,j)])/.3)),eyes:'closed',mouth:'smile',aL:12+8*bE,aR:-12-8*bE,lL:3*bE,lR:-3*bE});
+ const R=rnd(9);for(const b of B){const d=t-b;if(d<0||d>2.2||b<3.6)continue;const x=300+(R()-.5)*200,y=230-d*80,o=clamp(1-d/2.2);s+=`<text x="${x+Math.sin(d*4)*14}" y="${y}" font-size="${26+R()*10}" fill="#d6c4ff" opacity="${o}">${R()<.5?'♪':'♫'}</text>`}
+ return s}},
+{t0:6.46,c:'#4fc3ff',ico:'🏃',ib:'#2a9df4',h:'Час пик',s:'все куда-то спешат',cor:'⏱️',draw(t,l){
+ let s=sky('#0d1638','#2d3b7a')+starsSvg(20,7,t,150);
+ s+=`<rect x="0" y="120" width="612" height="260" fill="#151b3d"/>`;const R=rnd(8);for(let i=0;i<9;i++){const x=i*70-10,h=120+R()*120;s+=`<rect x="${x}" y="${380-h}" width="62" height="${h}" fill="#1c2453"/>`;for(let k=0;k<6;k++)if(R()<.5)s+=`<rect x="${x+10+(k%3)*16}" y="${380-h+16+Math.floor(k/3)*26}" width="9" height="13" fill="#ffd27a" opacity="${.5+.5*Math.sin(t*2+i+k)}"/>`}
+ s+=snowGround(612,458,380,'#d6def7');
+ const cols=['#ff6a7a','#ffd166','#7bdff2','#b892ff','#80ed99'];for(let i=0;i<8;i++){const dir=i%2?1:-1,sp=150+((i*37)%60),x=((i*97+t*sp*dir)%760+760)%760-70;s+=person(x,405+(i%3)*14,1,cols[i%5],t*14+i)}
+ s+=hero({x:306,y:430,s:1.05,look:Math.sin(t*3),eyes:'wide',mouth:'o',tilt:Math.sin(t*3)*6,aL:20,aR:-20});return s}},
+{t0:9.29,c:'#7ad7ff',ico:'🧊',ib:'#3db7e4',h:'Гололёд',s:'скользят все — и машины тоже',cor:'⚠️',draw(t,l){
+ let s=sky('#0a1235','#22306b')+starsSvg(25,9,t,180)+`<rect y="330" width="612" height="128" fill="#9fb6e8"/><rect y="330" width="612" height="128" fill="url(#gw)" opacity=".15"/><path d="M0 395 H612" stroke="#fff" stroke-width="4" stroke-dasharray="30 26" opacity=".5"/>`;
+ const lt=t-9.29;const cx=lerp(-120,380,eio(lt/2.6)),sw=Math.sin(lt*5.3)*18*(1-ph(t,11.4,.6));
+ s+=g(cx,385,sw,1,`<rect x="-62" y="-36" width="124" height="34" rx="12" fill="#ff5a5f"/><path d="M-38 -36 l14 -24 h52 l18 24z" fill="#ff7a7e"/><rect x="-22" y="-56" width="22" height="18" rx="3" fill="#bfe6ff"/><rect x="6" y="-56" width="24" height="18" rx="3" fill="#bfe6ff"/><circle cx="-36" cy="0" r="13" fill="#20232f"/><circle cx="36" cy="0" r="13" fill="#20232f"/><circle cx="64" cy="-24" r="5" fill="#fff6b0"/>`);
+ for(let i=0;i<6;i++){const d=(lt*3+i*.5)%3;s+=`<circle cx="${cx-70-d*30}" cy="${390-d*8}" r="${4+d*3}" fill="#fff" opacity="${.6*(1-d/3)}"/>`}
+ const sl=Math.sin(lt*7);s+=hero({x:470,y:345,s:.9,lean:sl*14,aL:80+sl*30,aR:-80+sl*30,lL:20*sl,lR:-25*sl,mouth:'o',eyes:'wide'});
+ s+=g(130,345,sl*-12,.85,`<g transform="translate(0 0)">${person(0,0,1.35,'#8d6e63',t*4).replace('#2b2b3a','#ddd')}</g><path d="M14 -60 l16 58" stroke="#6b4a2e" stroke-width="4"/>`);return s}},
+{t0:12.10,c:'#ffb347',ico:'🌍',ib:'#f08c2e',h:'Прогноз',s:'в Африке такую не ждут',cor:'🌴',draw(t,l){
+ let s=`<rect width="306" height="458" fill="#ffcf7a"/><rect x="306" width="306" height="458" fill="#1b2453"/>`;
+ s+=`<circle cx="150" cy="120" r="${46+6*beatE(t)}" fill="#fff3b0"/><circle cx="150" cy="120" r="80" fill="url(#gy)"/><rect y="370" width="306" height="88" fill="#f2b45a"/>`;
+ s+=g(90,370,Math.sin(t*1.5)*3,1,`<rect x="-6" y="-150" width="12" height="150" rx="6" fill="#8a5a2b"/>${[0,1,2,3,4].map(i=>`<ellipse cx="0" cy="-150" rx="50" ry="12" fill="#3aa65b" transform="rotate(${-160+i*35} 0 -150) translate(40 0)"/>`).join('')}`);
+ const giraffe=`<rect x="-40" y="-70" width="80" height="40" rx="18" fill="#f5c04a"/><rect x="20" y="-150" width="16" height="90" rx="8" fill="#f5c04a"/><ellipse cx="34" cy="-152" rx="20" ry="11" fill="#f5c04a"/><circle cx="40" cy="-156" r="3" fill="#333"/>${[0,1,2,3].map(i=>`<rect x="${-34+i*20}" y="-34" width="9" height="34" fill="#e0a836"/>`).join('')}`;
+ s+=g(220,375,0,.9,giraffe);
+ s+=starsSvg(15,12,t,200).replace(/cx="(\d+)/g,(m,a)=>`cx="${306+a%306}`)+`<rect x="306" y="360" width="306" height="98" fill="#dfe7ff"/>`+flakes(35,13,t,60).replace(/cx="([\d.]+)/g,(m,a)=>`cx="${306+(+a)%306}`);
+ s+=hero({x:460,y:390,s:.95,shiver:1.6,mouth:'frown',brow:.6,aL:-40,aR:40,scarf:Math.sin(t*6)});
+ s+=`<text x="153" y="60" text-anchor="middle" font-size="22" font-weight="800" fill="#7a3d00">+38°</text><text x="459" y="60" text-anchor="middle" font-size="22" font-weight="800" fill="#bfe0ff">−25°</text>`;
+ const f=popS(t,13.2);s+=g(306,250,0,f,`<circle r="34" fill="#fff"/><text y="12" text-anchor="middle" font-size="36">❄️</text>`);return s}},
+{t0:14.91,c:'#8fa3c8',ico:'😐',ib:'#6b7a99',h:'Настроение',s:'улыбки прячутся',cor:'☁️',draw(t,l){
+ const p=eio(ph(t,15.2,2.2));let s=sky('#141a33','#2b3350')+`<g opacity=".6">${[0,1,2].map(i=>`<ellipse cx="${100+i*200+Math.sin(t+i)*20}" cy="${70+i*10}" rx="90" ry="34" fill="#3b4366"/>`).join('')}</g>`+flakes(25,15,t);
+ s+=g(306,560,0,2.3,hero({x:0,y:0,mouth:p<.35?'smile':p<.6?'flat':'frown',brow:p,eyes:'open',look:Math.sin(t)*.5,aL:10,aR:-10}).replace(/^<g[^>]*>/,'<g>'));
+ s+=`<g transform="translate(470 120)"><rect x="-70" y="-26" width="140" height="52" rx="26" fill="rgba(0,0,0,.35)"/><text x="0" y="9" text-anchor="middle" font-size="26" font-weight="800" fill="#fff">${p<.35?'🙂':p<.6?'😐':'😒'} ${Math.round(100-p*85)}%</text></g>`;return s}},
+{t0:17.72,c:'#66d1c1',ico:'🧹',ib:'#2bb3a0',h:'Заботы',s:'зима грузит хлопотами',cor:'💦',draw(t,l){
+ let s=sky('#0b1532','#253a6e')+starsSvg(20,16,t,160)+snowGround(612,458,380);const j=lastB(t);let n=0;for(const b of B)if(b>=17.72&&b<=t)n++;
+ const ph2=clamp((t-B[Math.max(0,j)])/.7035),dig=Math.sin(ph2*Math.PI);
+ const pile=60+n*14;s+=`<path d="M380 380 Q${450} ${380-pile} 560 380Z" fill="#eef3ff"/>`;
+ s+=hero({x:230,y:400,s:1.05,lean:-12+dig*24,aL:-70+dig*80,aR:-100+dig*80,mouth:'flat',brow:.5,eyes:'open',bob:dig*4});
+ s+=g(230,400,-12+dig*24,1.05,`<g transform="translate(0 -95) rotate(${-60+dig*120})"><rect x="-3" y="0" width="6" height="110" fill="#8a5a2b"/><rect x="-18" y="104" width="36" height="26" rx="5" fill="#9aa4b8"/></g>`);
+ for(let i=0;i<8;i++){const d=(t-B[Math.max(0,j)])*1.6;if(d>1)break;s+=`<circle cx="${290+i*12+d*110}" cy="${300-Math.sin(d*Math.PI)*90+i*3}" r="${5+i%3}" fill="#fff"/>`}
+ s+=`<text x="170" y="220" font-size="22" opacity="${.5+.5*Math.sin(t*6)}">💧</text>`;
+ return s+`<foreignObject x="20" y="20" width="200" height="50"><div xmlns="http://www.w3.org/1999/xhtml" class="chip" style="position:static;display:inline-block">лопат снега: ${n*3}</div></foreignObject>`}},
+{t0:20.55,c:'#9ee7ff',ico:'🧊',ib:'#4cc9f0',h:'Заморозка',s:'всё вокруг превращает в лёд',cor:'❄️',draw(t,l){
+ const fz=eio(ph(t,20.6,2.1));let s=sky('#0b1838','#1f4a7a')+starsSvg(20,17,t,150)+snowGround(612,458,380,'#cfe9ff');
+ s+=hero({x:306,y:410,s:1.15,shiver:2*(1-fz)+.3,mouth:'o',eyes:'wide',aL:-30+20*(1-fz),aR:30-20*(1-fz),brow:.3});
+ s+=`<rect x="${306-110*fz}" y="${410-300*fz}" width="${220*fz}" height="${300*fz}" rx="16" fill="#bfeaff" opacity="${.45*fz}" stroke="#e8f8ff" stroke-width="3"/><path d="M${306-80*fz} ${410-260*fz} l${40*fz} ${30*fz}" stroke="#fff" stroke-width="4" opacity="${.7*fz}"/>`;
+ const R=rnd(18);for(let i=0;i<14;i++){const a=R()*6.28,x=R()<.5?0:612,y=R()*458,len=120*fz*(.5+R());s+=`<path d="M${x} ${y} l${(x?-1:1)*len*Math.abs(Math.cos(a))} ${len*Math.sin(a)*.4}" stroke="#e8f8ff" stroke-width="2.4" opacity=".75"/>`}
+ return s+`<rect width="612" height="458" fill="none" stroke="#dff6ff" stroke-width="${18*fz}" opacity=".5"/>`}},
+{t0:23.36,c:'#ffd166',ico:'💡',ib:'#f4a300',h:'Совет',s:'не повод грустить',cor:'😌',draw(t,l){
+ const br=eo(ph(t,23.36,.4));let s=sky('#1a1440','#3a2f6e')+starsSvg(35,19,t)+snowGround(612,458,385);
+ const R=rnd(20);for(let i=0;i<12;i++){const a=R()*6.28,d=br*(80+R()*160);s+=g(306+Math.cos(a)*d,280+Math.sin(a)*d+br*br*60,a*57+br*200,1,`<path d="M0 -16 L14 6 L-12 10Z" fill="#bfeaff" opacity="${1-ph(t,24.2,.6)}"/>`)}
+ const sh=eio(ph(t,23.9,.5));s+=hero({x:306,y:415,s:1.15,mouth:t>24.3?'grin':'smile',eyes:t>24.3?'happy':'open',aL:lerp(20,-100,sh)+Math.sin(t*8)*5*sh,aR:lerp(-20,100,sh)-Math.sin(t*8)*5*sh,tilt:6*Math.sin(t*3)*sh,bob:-6*beatE(t)});
+ const c=popS(t,24.5);s+=g(470,130,-8,c,`<rect x="-80" y="-24" width="160" height="48" rx="24" fill="#fff"/><text y="9" text-anchor="middle" font-size="22" font-weight="800" fill="#444">грусть</text><path d="M-70 0 H70" stroke="#ff4d5e" stroke-width="5" stroke-linecap="round"/>`);return s}},
+{t0:26.19,c:'#ff8ad8',ico:'📅',ib:'#e05cb5',h:'Суббота',s:'собираемся с друзьями',cor:'🎉',draw(t,l){
+ let s=sky('#1a1238','#45306e')+starsSvg(30,21,t,200)+snowGround(612,458,390,'#e6dcff');
+ const fl=eo(ph(t,26.3,.4));s+=g(510,110,0,1,`<rect x="-55" y="-55" width="110" height="110" rx="16" fill="#fff"/><rect x="-55" y="-55" width="110" height="30" rx="16" fill="#ff4d6d"/><text y="-33" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">ДЕК</text><g transform="scale(1 ${Math.abs(1-2*fl)})"><text y="${fl<.5?28:30}" text-anchor="middle" font-size="40" font-weight="800" fill="#222">${fl<.5?'ПТ':'СБ'}</text></g>`);
+ const sp=[26.89,27.59,28.31];const bE=beatE(t,8);
+ s+=hero({x:150,y:420,s:.95,mouth:'grin',eyes:'happy',aL:20,aR:-150+Math.sin(t*9)*20,bob:-5*bE});
+ const p1=popS(t,sp[0],.45);if(p1>0)s+=g(300,420,0,p1,snowman({bob:-5*bE,aL:30+Math.sin(t*8)*20,aR:-40}));
+ const p2=popS(t,sp[1],.45);if(p2>0)s+=g(420,420,0,p2,person(0,0,1.7,'#ffd166',t*3));
+ const p3=popS(t,sp[2],.45);if(p3>0)s+=g(520,425,0,p3,person(0,0,1.5,'#7bdff2',t*3+2));
+ return s}},
+{t0:29.00,c:'#7cf0c0',ico:'⛷️',ib:'#2bc48a',h:'Лыжи',s:'добрая традиция',cor:'🏔️',draw(t,l){
+ const lt=t-29;let s=sky('#0b1536','#2c4a86')+starsSvg(30,22,t,160)+mnt(220,'#2a3c75',23,70);
+ s+=`<path d="M0 200 L612 380 V458 H0Z" fill="#e8efff"/>`;
+ for(let i=0;i<7;i++){const x=((i*110-lt*260)%800+800)%800-90,y=200+x*180/612;s+=g(x,y-6,0,.9+.2*(i%2),`<path d="M0 -70 L22 -10 H-22Z M0 -50 L28 10 H-28Z" fill="#1f5c4a"/><rect x="-4" y="10" width="8" height="12" fill="#5a3a1a"/>`)}
+ const hx=280,hy=200+hx*180/612+30;const bb=Math.sin(lt*6)*4;
+ s+=g(hx,hy,16,1,`<path d="M-70 4 H70 q10 0 14 -8" stroke="#ff4d5e" stroke-width="6" fill="none" stroke-linecap="round"/>`+hero({x:0,y:0,s:.95,lean:-6,aL:-40,aR:40,lL:-14,lR:14,mouth:'grin',eyes:'happy',bob:bb,scarf:2}));
+ for(let i=0;i<14;i++){const d=((lt*2.2+i/14)%1);s+=`<circle cx="${hx-60-d*160}" cy="${hy-10-Math.sin(d*3)*30+d*20}" r="${3+d*5}" fill="#fff" opacity="${1-d}"/>`}
+ return s+`<text x="580" y="50" text-anchor="end" font-size="24" font-weight="800" fill="#fff">${Math.round(38+lt*6+6*Math.sin(t*3))} км/ч</text>`}},
+{t0:31.81,c:'#c7b8ff',ico:'✨',ib:'#9b7bff',h:'Волшебство',s:'земля белым-бела',cor:'⭐',draw(t,l){
+ let s=sky('#070a24','#1c2160')+starsSvg(70,24,t,330);
+ const au=(c,o,y)=>`<path d="M0 ${y} Q150 ${y-60+Math.sin(t*1.2+o)*30} 306 ${y-10} T612 ${y-30}" stroke="${c}" stroke-width="46" fill="none" opacity=".35" stroke-linecap="round"/>`;
+ s+=au('#5cffb0',0,120)+au('#b38cff',2,160)+mnt(300,'#e6ecff',25,110)+mnt(340,'#cfd8f5',26,70)+snowGround(612,458,400,'#f4f7ff');
+ const R=rnd(27);for(let i=0;i<40;i++){const x=R()*612,y=200+R()*240,tw=Math.pow(Math.abs(Math.sin(t*3+R()*9)),6);s+=`<path d="M${x} ${y-7*tw}l1.5 ${5.5*tw}l${5.5*tw} 1.5l${-5.5*tw} 1.5l-1.5 ${5.5*tw}l-1.5 ${-5.5*tw}l${-5.5*tw} -1.5l${5.5*tw} -1.5z" fill="#fff"/>`}
+ s+=hero({x:306,y:430,s:.9,mouth:'o',eyes:'wide',aL:-140,aR:140,bob:-4*beatE(t),look:0});return s}},
+{t0:34.62,c:'#6f86c9',ico:'🪑',ib:'#4a5f9e',h:'Один',s:'если ты остался один',cor:'🌨️',draw(t,l){
+ const lt=t-34.62;let s=sky('#070a1e','#151c40')+starsSvg(25,28,t,200)+snowGround(612,458,380,'#c9d3f0')+flakes(70,29,t,55);
+ s+=`<rect x="440" y="80" width="8" height="310" fill="#22263c"/><ellipse cx="444" cy="84" rx="16" ry="7" fill="#ffe7a6" opacity="${.5+.5*Math.abs(Math.sin(t*7))*(Math.sin(t*13)>.6?0:1)}"/><path d="M430 90 L340 390 L560 390 Z" fill="url(#gy)" opacity=".18"/>`;
+ s+=`<rect x="190" y="320" width="220" height="14" rx="5" fill="#5a4030"/><rect x="200" y="334" width="10" height="50" fill="#3a2a20"/><rect x="390" y="334" width="10" height="50" fill="#3a2a20"/>`;
+ s+=hero({x:300,y:385,s:1,lL:-80,lR:-80,aL:-20,aR:20,mouth:'frown',brow:.7,eyes:'open',look:-.5,tilt:-8});
+ const pile=eio(lt/2.8);s+=`<ellipse cx="300" cy="${178-pile*6}" rx="${30*pile}" ry="${12*pile}" fill="#fff"/><ellipse cx="300" cy="316" rx="${110*pile}" ry="${16*pile}" fill="#fff"/>`;
+ return s+`<foreignObject x="20" y="20" width="220" height="50"><div xmlns="http://www.w3.org/1999/xhtml" class="chip" style="position:static;display:inline-block">рядом: 0 человек</div></foreignObject>`}},
+{t0:37.45,c:'#ff8a3c',ico:'🔥',ib:'#e8590c',h:'Огонёк',s:'будто гаснет уголёк',cor:'🕯️',draw(t,l){
+ const dim=eio(ph(t,37.5,2.0));let s=`<rect width="612" height="458" fill="#120d18"/><rect y="360" width="612" height="98" fill="#22172a"/>`;
+ s+=`<rect x="330" y="150" width="210" height="240" rx="14" fill="#3a2a30"/><path d="M360 360 V300 a75 70 0 0 1 150 0 V360Z" fill="#0c0808"/>`;
+ const fl=1-dim*.85,fs=fl*(1+.12*Math.sin(t*17)+.08*Math.sin(t*29));s+=`<circle cx="435" cy="330" r="${150*fl}" fill="url(#go)" opacity="${.8*fl}"/>`;
+ s+=g(435,350,0,fs,`<path d="M0 -70 C30 -40 34 -10 0 0 C-34 -10 -30 -40 0 -70Z" fill="#ff7a1a"/><path d="M0 -40 C14 -24 16 -8 0 0 C-16 -8 -14 -24 0 -40Z" fill="#ffd166"/>`);
+ s+=`<ellipse cx="435" cy="355" rx="44" ry="10" fill="#4a1a0a"/>`;
+ for(let i=0;i<5;i++){const d=((t*.8+i*.2)%1);s+=`<circle cx="${435+Math.sin(d*8+i)*20}" cy="${300-d*140}" r="3" fill="#ff9a3c" opacity="${(1-d)*fl}"/>`}
+ s+=hero({x:200,y:400,s:1.05,lL:-60,lR:-60,aL:-60,aR:60,mouth:'frown',brow:.8,eyes:dim>.7?'closed':'open',shiver:dim*1.4,look:1});
+ return s+`<rect width="612" height="458" fill="#000" opacity="${dim*.35}"/>`}},
+{t0:40.26,c:'#ffb347',ico:'🪕',ib:'#f08c2e',h:'Комуз',s:'музыка греет душу',cor:'🔥',draw(t,l){
+ const wm=eo(ph(t,40.3,1.6));let s=`<rect width="612" height="458" fill="#160f1a"/><circle cx="306" cy="300" r="${200+160*wm}" fill="url(#go)" opacity="${.35+.45*wm}"/><rect y="370" width="612" height="88" fill="#2a1a20"/>`;
+ const bE=beatE(t,9);for(let i=0;i<4;i++){const r=((t*1.4+i/4)%1);s+=`<circle cx="306" cy="250" r="${60+r*240}" stroke="#ffb347" stroke-width="${4*(1-r)}" fill="none" opacity="${(1-r)*wm}"/>`}
+ const komuz=`<g transform="translate(18 -96) rotate(-38)"><ellipse cx="0" cy="40" rx="20" ry="30" fill="#b5651d"/><rect x="-4" y="-60" width="8" height="90" rx="3" fill="#8a4a14"/><path d="M-2 -60 V60 M2 -60 V60" stroke="#ffe0a0" stroke-width="1"/></g>`;
+ s+=hero({x:306,y:410,s:1.2,mouth:'grin',eyes:'closed',aL:-60+Math.sin(t*14)*12,aR:-30,bob:-6*bE,tilt:Math.sin(t*4)*5,mittR:''});s=s.replace(/<\/g><\/g>$/,komuz+'</g></g>');
+ const R=rnd(31);for(const b of B){const d=t-b;if(d<0||d>2||b<40.2)continue;s+=`<text x="${306+(R()-.5)*260}" y="${230-d*90}" font-size="28" fill="#ffd166" opacity="${1-d/2}">${R()<.5?'♪':'♫'}</text>`}
+ return s+`<foreignObject x="20" y="20" width="240" height="50"><div xmlns="http://www.w3.org/1999/xhtml" class="chip" style="position:static;display:inline-block">тепло: ${Math.round(12+wm*88)}%</div></foreignObject>`}},
+{t0:43.14,c:'#9be15d',ico:'🌷',ib:'#52b33a',h:'Весна',s:'потерпи, осталось чуть-чуть',cor:'☀️',draw(t,l){
+ const p=eio(ph(t,43.2,2.3));let s=sky(p<.5?'#13234a':'#2a5c8a',p<.5?'#2d4a7a':'#7ec4e8')+`<circle cx="520" cy="${120-60*p}" r="${30+20*p}" fill="#fff3b0" opacity="${p}"/><circle cx="520" cy="${120-60*p}" r="100" fill="url(#gy)" opacity="${p}"/>`;
+ s+=`<rect y="370" width="612" height="88" fill="#6fb04a"/><path d="M0 370 Q150 ${370-40*(1-p)} 306 370 T612 370 V${380+80*(1-p)} H0Z" fill="#eef3ff" opacity="${1-p*.9}"/>`;
+ for(let i=0;i<5;i++){const gp=eo(ph(t,43.75+i*.35,.6));const x=80+i*110;s+=`<path d="M${x} 375 v${-50*gp}" stroke="#2e8b3a" stroke-width="5"/><ellipse cx="${x-10}" cy="${360-20*gp}" rx="${10*gp}" ry="${5*gp}" fill="#3aa65b"/>${gp>.6?`<path d="M${x-12} ${325-50*gp+50} q12 -26 24 0 q-12 10 -24 0z" fill="${['#ff4d6d','#ffd166','#ff8ad8','#ff4d6d','#c77dff'][i]}" transform="translate(0 ${-50*gp+40})"/>`:''}`}
+ s+=hero({x:306,y:400,s:1,mouth:'smile',eyes:'open',look:1,aL:20,aR:-120,tilt:-6});
+ const left=Math.max(0,45.88-t);return s+`<foreignObject x="20" y="20" width="260" height="50"><div xmlns="http://www.w3.org/1999/xhtml" class="chip" style="position:static;display:inline-block">до праздника: ${left.toFixed(1)} c</div></foreignObject>`}},
+{t0:45.88,c:'#ff5ca8',ico:'🎆',ib:'#e03a87',h:'Жаңы жыл',s:'пусть придёт Новый год!',cor:'🎉',draw(t,l){
+ let s=sky('#0a0a2a','#2a1650')+starsSvg(50,32,t);const R=rnd(33);
+ for(const b of B){if(b<45.8||b>48.8)continue;const d=t-b;if(d<0||d>1.4)continue;const cx=80+R()*450,cy=70+R()*140,c=['#ff4d6d','#ffd166','#7bdff2','#c77dff','#80ed99'][Math.floor(R()*5)];
+  for(let k=0;k<18;k++){const a=k/18*6.28,r=eo(d/1.1)*(60+R()*20);s+=`<circle cx="${cx+Math.cos(a)*r}" cy="${cy+Math.sin(a)*r+d*d*30}" r="${3.4*(1-d/1.4)+.5}" fill="${c}" opacity="${1-d/1.4}"/>`}
+  s+=`<circle cx="${cx}" cy="${cy}" r="${Math.max(0,40*(1-d))}" fill="url(#gw)" opacity="${clamp(1-d*2)}"/>`}
+ s+=`<path d="M380 380 Q430 260 480 380Z" fill="#f4efe6"/><path d="M380 380 h100" stroke="#c42a39" stroke-width="6"/><path d="M405 330 q25 -10 50 0" stroke="#c42a39" stroke-width="4" fill="none"/>`;
+ for(let i=0;i<8;i++)s+=`<circle cx="${388+i*12}" cy="${360-Math.sin(i/7*Math.PI)*8}" r="3.5" fill="${['#ff4d6d','#ffd166','#7bdff2'][i%3]}" opacity="${.4+.6*Math.abs(Math.sin(t*6+i))}"/>`;
+ s+=snowGround(612,458,388,'#e9e6ff');const bE=beatE(t,9),j=lastB(t);
+ s+=hero({x:190,y:420,s:1.05,mouth:'grin',eyes:'happy',aL:-150+Math.sin(t*10)*15,aR:150-Math.sin(t*10)*15,bob:-14*bE,lL:-10*bE,lR:10*bE});
+ s+=snowman({x:310,y:425,s:.95,bob:-12*bE,aL:-40+Math.sin(t*10)*20,aR:-40,tilt:(j%2?6:-6)});
+ const tp=popS(t,46.0,.45);return s+g(306,60,0,tp,`<text text-anchor="middle" font-size="44" font-weight="900" fill="#fff" stroke="#ff4d8d" stroke-width="2">Жаңы жыл!</text>`)}},
+{t0:48.72,c:'#5cff9d',ico:'🎄',ib:'#1fae5a',h:'Ёлка',s:'огни, что не гаснут',cor:'⭐',draw(t,l){
+ let s=sky('#07102a','#152a4a')+starsSvg(40,34,t)+snowGround(612,458,400,'#dfe7ff');
+ s+=`<path d="M306 70 L420 230 H370 L450 330 H380 L470 410 H142 L232 330 H162 L242 230 H192Z" fill="#1d6b45"/><rect x="292" y="410" width="28" height="30" fill="#5a3a1a"/>`;
+ const R=rnd(35);const lit=t-48.72;for(let i=0;i<34;i++){const y=100+R()*300,w=(y-70)/340*150,x=306+(R()*2-1)*w*.9,on=lit*14>i;const c=['#ff4d6d','#ffd166','#7bdff2','#c77dff'][i%4];
+  if(on)s+=`<circle cx="${x}" cy="${y}" r="14" fill="${c}" opacity=".25"/>`;s+=`<circle cx="${x}" cy="${y}" r="5.5" fill="${on?c:'#2c3b34'}" opacity="${on?.6+.4*Math.abs(Math.sin(t*5+i)):1}"/>`}
+ const st=popS(t,49.2,.5);s+=g(306,68,t*40,st*(1+.15*beatE(t)),`<circle r="40" fill="url(#gy)"/><path d="M0 -22l6 14 16 1-12 10 4 16-14-8-14 8 4-16-12-10 16-1z" fill="#ffd166"/>`);
+ s+=hero({x:120,y:425,s:.85,mouth:'o',eyes:'wide',look:1,aL:20,aR:-130});s+=snowman({x:500,y:428,s:.75,aR:-60,aL:20});return s}},
+{t0:50.83,c:'#ffd166',ico:'🏠',ib:'#f4a300',h:'Свет',s:'в каждый дом',cor:'💛',draw(t,l){
+ let s=sky('#0a0d28','#24204e')+starsSvg(40,36,t)+mnt(250,'#1a1d44',37,40);const R=rnd(38);let k=0;
+ for(let r=0;r<2;r++)for(let i=0;i<6;i++){const x=20+i*100+r*45,y=300+r*60,h=60+R()*30;s+=`<path d="M${x} ${y} l35 -30 l35 30 v${h*.6} h-70z" fill="${r?'#2b2f5c':'#232650'}"/><path d="M${x-6} ${y+2} l41 -36 l41 36" stroke="#eef3ff" stroke-width="7" fill="none"/>`;
+  const on=t>=(B[72+((k*5)%6)]||51)+(k%3)*.12;k++;s+=`<rect x="${x+24}" y="${y+10}" width="22" height="20" rx="3" fill="${on?'#ffd166':'#11132a'}"/>${on?`<circle cx="${x+35}" cy="${y+20}" r="34" fill="url(#gy)" opacity=".55"/>`:''}`}
+ s+=snowGround(612,458,420,'#e2e6ff');const bE=beatE(t,9);
+ s+=hero({x:306,y:450,s:.8,mouth:'grin',eyes:'happy',aL:-140,aR:140,bob:-8*bE});
+ const q=popS(t,53.5,.5);return s+g(460,90,8,q,`<rect x="-92" y="-30" width="184" height="60" rx="30" fill="#fff"/><text y="11" text-anchor="middle" font-size="28" font-weight="900" fill="#222">эмне? 😎</text>`)}},
+];
+SC.forEach((c,i)=>{c.t1=i<SC.length-1?SC[i+1].t0:54.35});
+
+// ---------- build ----------
+const stage=$('stage');
+SC.forEach((c,i)=>{const d=document.createElement('div');d.className='card';d.innerHTML=`<div class="glow" style="background:${c.c}"></div><div class="hdr"><div class="ico" style="background:${c.ib}">${c.ico}</div><div><div class="ht">${c.h}</div><div class="hs">${c.s}</div></div></div><div class="cor">${c.cor}</div><div class="scn"><svg viewBox="0 0 612 458" width="612" height="458"></svg></div>`;stage.appendChild(d);c.el=d;c.svg=d.querySelector('svg');c.glow=d.querySelector('.glow');c.corEl=d.querySelector('.cor')});
+const SR=rnd(5);const STARS=Array.from({length:160},()=>({x:SR()*720,y:SR()*1280,r:.4+SR()*1.5,p:SR()*6,s:.5+SR()*2}));
+const FL=Array.from({length:150},()=>({x:SR()*720,y:SR()*1280,r:.8+SR()*2.8,v:25+SR()*70,w:SR()*6,z:SR()}));
+const BURST=[];{const R=rnd(9);B.forEach((b,i)=>{if((i-1)%4!==0||b<.8)return;const n=b>45.8&&b<54?26:12;for(let k=0;k<n;k++){const a=R()*6.28,sp=120+R()*260;BURST.push({t0:b,x:360+Math.cos(a)*300,y:530+Math.sin(a)*270,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,r:1.5+R()*3,c:b>45.8?['#ff4d8d','#ffd166','#7bdff2','#c77dff'][k%4]:'#ffffff'})}})}
+const stx=$('stars').getContext('2d');stx.scale(1.5,1.5);const snx=$('snow').getContext('2d');snx.scale(1.5,1.5);
+const aur=$('aur').children;const hexA=(h,a)=>{const n=parseInt(h.slice(1),16);return `rgba(${n>>16},${(n>>8)&255},${n&255},${a})`};
+const wordsOf=l=>{const w=l[1].split(' ');const tot=w.reduce((a,x)=>a+x.length+2,0);let acc=0;const dur=(l[3]-l[0])*.92;return w.map(x=>{const st=l[0]+acc/tot*dur;acc+=x.length+2;return [x,st]})};
+L.forEach(l=>l[4]=wordsOf(l));
+
+function setTime(T){T_=T;const t=T;
+ const bE=beatE(T,8),kE=kickE(T,10,.55);const chorus=T>=45.88;
+ let cur=0;SC.forEach((c,i)=>{if(T>=c.t0-.001)cur=i});const cc=SC[cur].c;
+ // background
+ const bp=[[Math.sin(T*.2)*120+80,Math.cos(T*.17)*120+260],[Math.cos(T*.15)*140+420,Math.sin(T*.22)*140+620],[Math.sin(T*.25+2)*140+240,Math.cos(T*.2+1)*140+900]];
+ for(let i=0;i<3;i++){aur[i].style.cssText=`left:${bp[i][0]}px;top:${bp[i][1]}px;width:520px;height:520px;background:${hexA(i==1?cc:(i?'#3a2d8a':'#1d3a8a'),i==1?.35+.25*bE:.45)}`}
+ stx.clearRect(0,0,720,1280);for(const s of STARS){const a=.25+.75*Math.pow(Math.abs(Math.sin(T*s.s+s.p)),3);stx.globalAlpha=a;stx.fillStyle='#fff';stx.beginPath();stx.arc(s.x,s.y,s.r*(1+.5*bE),0,6.28);stx.fill()}
+ // camera
+ const j=lastB(T);const dir=j%2?1:-1;const intro=T<.81;
+ const sc=1+.018*bE+(chorus?.03*Math.exp(-(T-45.88)*1.5):0)+.008*Math.sin(T*.6);
+ const shx=Math.sin(T*47)*1.6*kE+(chorus?Math.sin(T*71)*9*Math.exp(-(T-45.88)*2.5):0),shy=Math.cos(T*53)*1.6*kE;
+ $('world').style.transform=`translate(${shx}px,${shy}px) scale(${sc}) rotate(${dir*.35*bE+Math.sin(T*.5)*.25}deg)`;
+ // header bars
+ const bars=$('bars').children;for(let i=0;i<4;i++)bars[i].style.height=(5+13*clamp(rms(T)*(.4+.6*Math.abs(Math.sin(T*(7+i*2.1)+i)))))+'px';
+ // cards
+ SC.forEach((c,i)=>{const el=c.el;const vis=T>=c.t0-.001&&T<c.t1+.18;if(!vis||T<.75){el.style.display='none';return}el.style.display='block';
+  const L0=T-c.t0;const q=spr(L0/.6);let s=lerp(1.08,1,q),ty=(1-q)*40,bl=18*clamp(1-L0/.25),op=clamp(L0/.12),rx=(1-q)*-14;
+  if(T>c.t1){const p=clamp((T-c.t1)/.18);s*=1-.06*p;bl+=16*p;op*=1-p;ty-=20*p}
+  if(i==SC.length-1&&T>54.35){const p=eio(ph(T,54.35,.6));s*=1-.25*p;op*=1-p;bl+=12*p}
+  rx+=3*Math.sin(T*1.1+i);const ry=4*Math.sin(T*.8+i*1.3);s*=1+(L0>.3?.022*bE:0);
+  el.style.transform=`translateY(${ty+Math.sin(T*1.4)*4}px) rotateX(${rx}deg) rotateY(${ry}deg) scale(${s})`;el.style.opacity=op;el.style.zIndex=10+i;
+  if(bl>.5){$('bg'+(i%2)).setAttribute('stdDeviation',bl);el.style.filter=`url(#b${i%2})`}else el.style.filter='none';
+  c.glow.style.opacity=.38+.35*bE+(chorus?.15:0);c.corEl.style.transform=`scale(${1+.25*bE}) rotate(${dir*8*bE}deg)`;
+  c.svg.innerHTML=c.draw(Math.max(T,c.t0),L0)});
+ // subtitles
+ let li=-1;L.forEach((l,i)=>{if(T>=l[0]-.25)li=i});const sub=$('sub');
+ if(li>=0&&T<55.2){const l=L[li];const a=clamp((T-(l[0]-.25))/.25)*(1-clamp((T-l[3])/.2)*(li==L.length-1?1:0));
+  $('ky').innerHTML=l[4].map(([w,st])=>{const on=T>=st;const p=clamp((T-st)/.15);return `<b style="color:${on?'#fff':'rgba(255,255,255,.3)'};text-shadow:${on?`0 0 ${14*(1-p)+6}px ${hexA(cc,.8)}`:'none'};display:inline-block;transform:translateY(${on?-3*(1-p):0}px)">${w}</b>`}).join(' ');
+  $('ru').textContent=l[2];sub.style.opacity=a*(1-eo(ph(T,55.0,.4)));sub.style.transform=`translateY(${(1-eo(clamp((T-(l[0]-.25))/.3)))*14}px)`}else sub.style.opacity=0;
+ // progress
+ $('barf').style.width=(T/DUR*100)+'%';const fm=s=>Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0');$('t0').textContent=fm(T);$('t1').textContent='-'+fm(Math.ceil(Math.max(0,DUR-T)));
+ ['bar','t0','t1','top'].forEach(id=>$(id).style.opacity=eo(ph(T,.5,.4))*(1-eo(ph(T,55.3,.5))));
+ // intro: snowflake logo that bursts into first card
+ const ip=$('intro');if(T<1.2){const a=popS(T,0,.5),o=1-eo(ph(T,.7,.3));ip.style.opacity=o;ip.innerHTML=`<div style="position:absolute;left:0;right:0;top:420px;text-align:center;transform:scale(${a*(1+.08*bE)}) rotate(${T*60}deg);font-size:150px">❄️</div><div style="position:absolute;left:0;right:0;top:640px;text-align:center;color:#fff;font-weight:900;font-size:56px;opacity:${clamp(T*4)}">КЫШ</div><div style="position:absolute;left:0;right:0;top:712px;text-align:center;color:#b9b2f0;font-weight:700;font-size:22px;opacity:${clamp(T*4-.5)}">Бегиш ft. Арсен</div>`}else ip.innerHTML='';
+ // outro text
+ if(T>54.35){const p=popS(T,54.5,.6);ip.style.opacity=1-eo(ph(T,56.0,.6));ip.innerHTML=`<div style="position:absolute;left:0;right:0;top:470px;text-align:center;font-size:120px;transform:scale(${p}) rotate(${T*40}deg)">❄️</div><div style="position:absolute;left:0;right:0;top:640px;text-align:center;color:#fff;font-weight:900;font-size:40px;opacity:${p}">Жаңы жылыңыздар менен!</div><div style="position:absolute;left:0;right:0;top:696px;text-align:center;color:#b9b2f0;font-weight:700;font-size:21px;opacity:${p}">С Новым годом!</div>`}
+ // snow + bursts (foreground)
+ snx.clearRect(0,0,720,1280);const wind=Math.sin(T*.4)*20+(T>20.5&&T<23.3?40:0);
+ for(const f of FL){const y=(f.y+T*f.v*(chorus?1.4:1))%1300-10,x=((f.x+Math.sin(T*.9+f.w)*18+T*wind*f.z)%740+740)%740-10;snx.globalAlpha=.25+.55*f.z;snx.fillStyle='#fff';snx.beginPath();snx.arc(x,y,f.r*(.6+.6*f.z),0,6.28);snx.fill()}
+ for(const b of BURST){const d=T-b.t0;if(d<0||d>1.2)continue;const f=1-Math.exp(-d*3);snx.globalAlpha=(1-d/1.2)*.9;snx.fillStyle=b.c;snx.beginPath();snx.arc(b.x+b.vx*f*.5,b.y+b.vy*f*.5+d*d*50,b.r,0,6.28);snx.fill()}
+ snx.globalAlpha=1;
+ // flashes / warm light / vignette
+ let fl=0;for(const[p,a]of[[45.88,.85],[23.36,.25],[40.26,.18],[0.81,.35]]){const d=T-p;if(d>=0&&d<.8)fl=Math.max(fl,a*Math.exp(-d*6))}$('flash').style.opacity=fl;
+ $('warm').style.opacity=(T>=40.26&&T<43.3?eo(ph(T,40.3,1.2))*(1-eo(ph(T,42.9,.4)))*.8:0)+(T>=37.45&&T<40.26?.0:0)+(chorus?.25*bE:0);
+ $('vig').style.opacity=.8+(T>=37.45&&T<40.3?.6*eio(ph(T,37.5,1.5)):0);
+}
+window.setTime=setTime;
+</script></body></html>
