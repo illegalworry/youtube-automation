@@ -26,6 +26,7 @@ export const POSES = {
   ready:      P({ head: [12, -182], sh: [6, -148], hip: [0, -80], eF: [34, -132], hF: [56, -146], eB: [-26, -132], hB: [-46, -146], kF: [26, -44], fF: [22, 0], kB: [-24, -44], fB: [-24, 0] }),
   crouch:     P({ head: [16, -150], sh: [8, -118], hip: [0, -58], eF: [28, -88], hF: [38, -60], eB: [18, -86], hB: [26, -58], kF: [34, -54], fF: [20, 0], kB: [20, -50], fB: [-8, 0] }),
   sit:        P({ head: [4, -180], sh: [1, -146], hip: [0, -72], eF: [16, -110], hF: [38, -84], eB: [10, -110], hB: [30, -84], kF: [44, -74], fF: [46, 0], kB: [40, -72], fB: [38, 0] }),
+  sitGround:  P({ head: [6, -112], sh: [3, -80], hip: [0, -8], eF: [18, -50], hF: [44, -36], eB: [10, -50], hB: [36, -36], kF: [44, -44], fF: [74, 0], kB: [38, -42], fB: [66, 0] }),
   sitBack:    P({ head: [-8, -176], sh: [-6, -144], hip: [0, -72], eF: [2, -108], hF: [26, -86], eB: [-14, -110], hB: [-24, -80], kF: [44, -78], fF: [54, -2], kB: [40, -76], fB: [44, 0] }),
   kneel:      P({ head: [10, -168], sh: [5, -134], hip: [0, -62], eF: [24, -100], hF: [38, -76], eB: [-4, -100], hB: [-6, -66], kF: [36, -46], fF: [36, 0], kB: [-6, -4], fB: [-48, 0] }),
   lie:        P({ head: [3, -208], sh: [0, -174], hip: [0, -100], eF: [14, -136], hF: [18, -100], eB: [-12, -138], hB: [-20, -104], kF: [4, -50], fF: [2, 0], kB: [-4, -50], fB: [-6, 0] }), // use with rot: ±Math.PI/2
@@ -104,10 +105,10 @@ export function face(g, hx, hy, r, o = {}) {
   });
   const by = ey - r * 0.3, bw = r * 0.15;
   const brow = (x, a) => seg(g, [[x - bw, by + a], [x + bw, by - a]], r * 0.075, col);
-  if (ex.brows === 'worried') { brow(eyeX[0], -r * 0.06); brow(eyeX[1], r * 0.06); }
-  if (ex.brows === 'angry') { brow(eyeX[0], r * 0.08); brow(eyeX[1], -r * 0.08); }
+  if (ex.brows === 'worried') { brow(eyeX[0], r * 0.06); brow(eyeX[1], -r * 0.06); }
+  if (ex.brows === 'angry') { brow(eyeX[0], -r * 0.08); brow(eyeX[1], r * 0.08); }
   if (ex.brows === 'raised') eyeX.forEach(x => { g.strokeStyle = col; g.lineWidth = r * 0.07; g.beginPath(); g.arc(x, by + r * 0.12, r * 0.15, Math.PI * 1.2, Math.PI * 1.8); g.stroke(); });
-  if (ex.brows === 'confused') { brow(eyeX[0], r * 0.07); g.strokeStyle = col; g.lineWidth = r * 0.07; g.beginPath(); g.arc(eyeX[1], by + r * 0.08, r * 0.15, Math.PI * 1.2, Math.PI * 1.8); g.stroke(); }
+  if (ex.brows === 'confused') { brow(eyeX[0], -r * 0.07); g.strokeStyle = col; g.lineWidth = r * 0.07; g.beginPath(); g.arc(eyeX[1], by + r * 0.08, r * 0.15, Math.PI * 1.2, Math.PI * 1.8); g.stroke(); }
   const mx = fx + (o.front ? 0 : r * 0.04), my = fy + r * 0.42;
   const talk = o.talk || 0;
   if (talk > 0.05) { g.fillStyle = col; g.beginPath(); g.ellipse(mx, my, r * 0.16, r * (0.05 + 0.2 * talk), 0, 0, Math.PI * 2); g.fill(); }

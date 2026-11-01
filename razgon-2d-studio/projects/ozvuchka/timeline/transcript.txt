@@ -1,0 +1,541 @@
+[00:00.00 -> 00:00.42] Breakfast.
+[00:01.16 -> 00:02.96] Your little sister points her spoon at you.
+[00:03.48 -> 00:05.10] Broccoli is a fruit, she says.
+[00:05.68 -> 00:07.00] She talks for 10 seconds.
+[00:07.52 -> 00:08.58] You answer in two.
+[00:09.08 -> 00:10.14] Broccoli is a flower.
+[00:10.70 -> 00:12.00] You're about to eat a flower.
+[00:12.62 -> 00:13.26] She stares.
+[00:13.82 -> 00:14.88] Then she eats it.
+[00:15.48 -> 00:17.80] At school, your teacher says your essay is late.
+[00:18.24 -> 00:19.02] You point at the clock.
+[00:19.52 -> 00:21.28] It was early, by four minutes.
+[00:21.90 -> 00:22.32] He checks.
+[00:22.88 -> 00:23.34] He sighs.
+[00:24.04 -> 00:24.48] Full marks.
+[00:25.32 -> 00:28.26] A man at the bus stop yells that buses never come on time.
+[00:28.70 -> 00:29.76] You show him the timetable.
+[00:30.00 -> 00:30.84] He reads it.
+[00:31.22 -> 00:33.26] He apologizes to the timetable.
+[00:33.92 -> 00:37.12] A lawyer in an expensive suit says you can't lock your bike here.
+[00:37.52 -> 00:38.00] You smile.
+[00:38.52 -> 00:40.56] You quote the sign, word for word.
+[00:41.04 -> 00:41.80] He moves his car.
+[00:42.34 -> 00:44.02] Three arguments, three wins.
+[00:44.78 -> 00:47.30] Before lunch, you didn't raise your voice once.
+[00:47.72 -> 00:51.52] You barely even thought, and your cat still won't get off your keyboard.
+[00:52.28 -> 00:55.10] Your name is Max, and your brain works differently.
+[00:55.68 -> 00:58.50] A normal person speaks about 150 words a minute.
+[00:58.94 -> 01:01.02] They hold about four ideas in mind at once.
+[01:01.62 -> 01:01.78] You?
+[01:02.20 -> 01:03.06] You hold 40.
+[01:03.48 -> 01:07.20] And when someone stops talking, they answer in roughly two tenths of a second.
+[01:07.64 -> 01:08.22] That's a blink.
+[01:08.88 -> 01:09.06] You?
+[01:09.40 -> 01:11.92] You hear half a sentence and see the weak spot.
+[01:12.28 -> 01:12.88] Every gap.
+[01:13.18 -> 01:13.82] Every trick.
+[01:14.18 -> 01:14.86] Every flaw.
+[01:15.36 -> 01:17.02] You know which word they'll use next.
+[01:17.30 -> 01:18.38] Which fact they'll dodge.
+[01:18.90 -> 01:21.18] It's like watching a chess game three moves early.
+[01:21.62 -> 01:23.34] Then the perfect words arrive.
+[01:23.70 -> 01:24.24] Instantly.
+[01:24.58 -> 01:25.78] Like they were waiting for you.
+[01:25.78 -> 01:27.44] Nobody gave you a manual.
+[01:27.78 -> 01:30.62] Just a normal Tuesday and a brain that woke up faster.
+[01:31.20 -> 01:31.98] But there's a rule.
+[01:32.44 -> 01:34.08] Your brain got faster at words.
+[01:34.58 -> 01:36.56] People did not get faster at changing.
+[01:37.16 -> 01:39.74] You can win the argument, but you can't win the person.
+[01:40.20 -> 01:41.04] They'll say you're right.
+[01:41.34 -> 01:43.22] Then they'll do exactly what they wanted.
+[01:43.68 -> 01:45.40] So what if you could win every argument?
+[01:46.00 -> 01:46.82] It starts small.
+[01:47.26 -> 01:48.86] Your phone bill has a mystery fee.
+[01:49.30 -> 01:50.62] The agent says it's policy.
+[01:51.20 -> 01:53.16] You read her own policy back to her.
+[01:53.16 -> 01:53.98] Calmly.
+[01:54.30 -> 01:55.10] She goes quiet.
+[01:55.60 -> 01:56.52] The fee disappears.
+[01:57.06 -> 01:58.64] Plus $40 saved.
+[01:59.10 -> 01:59.60] Minus.
+[01:59.98 -> 02:01.60] She sounds tired when she says goodbye.
+[02:02.42 -> 02:02.82] Bedtime.
+[02:03.32 -> 02:05.50] Your little sister Mia says she's not tired.
+[02:05.82 -> 02:06.50] Not even a little.
+[02:06.96 -> 02:08.66] You list five reasons she is.
+[02:09.14 -> 02:11.04] She yawns halfway through her own answer.
+[02:11.50 -> 02:12.22] She goes to bed.
+[02:12.70 -> 02:13.32] No hug tonight.
+[02:13.88 -> 02:14.44] Minus.
+[02:14.98 -> 02:17.18] Your uncle swears he cooks better than your aunt.
+[02:17.54 -> 02:18.70] You settle it at the table.
+[02:19.16 -> 02:20.20] Nobody eats dessert.
+[02:20.20 -> 02:22.82] A classmate swears the earth is flat.
+[02:23.10 -> 02:23.92] Just to test you.
+[02:24.32 -> 02:26.20] You prove it's round in 60 seconds.
+[02:26.48 -> 02:27.74] With a lamp and a spoon.
+[02:28.26 -> 02:28.92] He says fine.
+[02:29.38 -> 02:30.88] He still squints at the horizon.
+[02:31.50 -> 02:33.10] Next week, Mia wants a puppy.
+[02:33.60 -> 02:34.56] Your parents say no.
+[02:34.92 -> 02:35.70] So you teach her.
+[02:36.16 -> 02:36.74] Five points.
+[02:37.06 -> 02:37.62] Short ones.
+[02:38.04 -> 02:38.56] Calm ones.
+[02:39.00 -> 02:39.70] Your mom listens.
+[02:40.16 -> 02:40.86] Your dad listens.
+[02:41.26 -> 02:42.32] They say maybe.
+[02:42.96 -> 02:43.64] Mia screams.
+[02:44.22 -> 02:45.84] In Mia language, that's a yes.
+[02:46.38 -> 02:47.42] Mia draws a horse.
+[02:47.88 -> 02:49.46] You spot the mistake instantly.
+[02:49.46 -> 02:50.70] Five legs.
+[02:51.24 -> 02:51.76] You tell her.
+[02:51.98 -> 02:52.42] Kindly.
+[02:52.78 -> 02:53.16] You're right.
+[02:53.64 -> 02:54.68] Mia's face crumbles.
+[02:55.22 -> 02:56.92] She never shows you a drawing again.
+[02:57.38 -> 02:57.78] Right.
+[02:58.34 -> 02:59.66] And somehow wrong.
+[03:00.20 -> 03:01.94] Your teacher signs you up for debate club.
+[03:02.30 -> 03:02.88] First round.
+[03:03.20 -> 03:03.72] Eight students.
+[03:04.18 -> 03:04.86] One after another.
+[03:05.20 -> 03:06.96] You beat the first in 40 seconds.
+[03:07.28 -> 03:08.38] The second in 30.
+[03:08.70 -> 03:10.22] The eighth just shakes your hand.
+[03:10.54 -> 03:11.64] The coach stares at you.
+[03:12.04 -> 03:12.60] How…
+[03:12.60 -> 03:13.70] how did you do that?
+[03:14.10 -> 03:14.56] You shrug.
+[03:14.90 -> 03:15.84] You really don't know.
+[03:16.24 -> 03:17.60] You apply for a summer job.
+[03:17.94 -> 03:19.12] 12 minutes with the manager.
+[03:19.12 -> 03:21.02] He asks why he should hire you.
+[03:21.28 -> 03:21.78] You tell him.
+[03:22.06 -> 03:23.24] He asks when you can start.
+[03:23.72 -> 03:27.24] Today, he says, he's already sliding a uniform across the desk.
+[03:27.68 -> 03:28.90] Then you open the internet.
+[03:29.40 -> 03:30.10] Big mistake.
+[03:30.52 -> 03:31.38] A comment war.
+[03:31.72 -> 03:32.86] 200 strangers.
+[03:33.48 -> 03:35.84] You answer every single one in one evening.
+[03:36.18 -> 03:37.60] Not one changes their mind.
+[03:37.92 -> 03:38.52] Of course not.
+[03:38.84 -> 03:39.58] They just…
+[03:39.58 -> 03:40.22] stop replying.
+[03:40.60 -> 03:41.32] You still win.
+[03:41.68 -> 03:41.98] Technically.
+[03:42.54 -> 03:44.10] Your neighbor argues about the fence.
+[03:44.46 -> 03:46.00] You settle it in 90 seconds.
+[03:46.40 -> 03:47.56] He stops waving at you.
+[03:47.56 -> 03:48.34] Minus.
+[03:48.78 -> 03:51.40] The principal wants to close the library on Saturdays.
+[03:51.66 -> 03:52.86] You give her three reasons.
+[03:53.26 -> 03:53.92] She keeps it open.
+[03:54.34 -> 03:54.52] Plus.
+[03:55.22 -> 03:57.60] A boy in your class gets blamed for a missing laptop.
+[03:57.96 -> 03:59.04] His story has a hole.
+[03:59.38 -> 04:00.78] You find it in 10 seconds.
+[04:01.18 -> 04:02.70] The time on the camera doesn't match.
+[04:03.06 -> 04:03.52] He's cleared.
+[04:03.92 -> 04:05.34] His mom hugs you in the hallway.
+[04:05.80 -> 04:06.98] Best wins so far.
+[04:07.42 -> 04:09.98] On Saturday, a referee cancels Leo's goal.
+[04:10.32 -> 04:11.46] Leo is furious.
+[04:11.98 -> 04:12.62] You walk over.
+[04:12.94 -> 04:13.22] Calm.
+[04:13.58 -> 04:15.10] You explain the offside law.
+[04:15.10 -> 04:16.14] Law 11.
+[04:16.60 -> 04:18.04] The referee asks the linesman.
+[04:18.38 -> 04:18.72] Nods.
+[04:19.10 -> 04:19.72] Changes the call.
+[04:20.14 -> 04:21.36] Leo grabs your shoulders.
+[04:21.80 -> 04:22.06] Dude.
+[04:22.40 -> 04:24.88] That man has never changed a call in his life.
+[04:25.44 -> 04:27.20] Leo's dad works nights at a warehouse.
+[04:27.72 -> 04:29.80] His boss says the extra hours don't count.
+[04:30.16 -> 04:31.86] You sit at their kitchen table with a notebook.
+[04:32.24 -> 04:33.56] You add up every hour.
+[04:33.98 -> 04:34.68] Three pages.
+[04:35.14 -> 04:36.22] His dad reads it twice.
+[04:36.70 -> 04:38.48] Next month, his paycheck is bigger.
+[04:38.84 -> 04:40.02] He tries to pay you in cake.
+[04:40.42 -> 04:40.86] You accept.
+[04:41.20 -> 04:41.60] Obviously.
+[04:42.13 -> 04:47.00] A real lawyer, 40 years in court, volunteers to face you in a school mock trial.
+[04:47.36 -> 04:47.96] 12 minutes.
+[04:48.40 -> 04:50.28] Halfway through, she closes her folder.
+[04:50.62 -> 04:52.36] Nobody has ever done that to her.
+[04:52.66 -> 04:54.04] She asks to shake your hand.
+[04:54.46 -> 04:55.86] Your landlord raises the rent.
+[04:56.20 -> 04:57.60] Your mom stares at the letter.
+[04:57.96 -> 04:59.18] You read the contract once.
+[04:59.54 -> 05:00.30] You find the clause.
+[05:00.72 -> 05:01.28] You call him.
+[05:01.58 -> 05:02.06] Four minutes.
+[05:02.48 -> 05:03.44] He cancels the raise.
+[05:03.86 -> 05:04.62] Your mom cries.
+[05:05.12 -> 05:05.58] Good tears.
+[05:06.02 -> 05:08.28] She hugs you so tight your ribs creak.
+[05:08.40 -> 05:10.34] And you think, this is why you have it.
+[05:10.34 -> 05:13.20] Then a famous host invites you on live TV.
+[05:13.64 -> 05:15.04] Two million people watch.
+[05:15.46 -> 05:16.44] He tries to corner you.
+[05:16.72 -> 05:18.40] Three questions in, he's nodding.
+[05:18.74 -> 05:20.46] Five questions in, he's agreeing.
+[05:21.06 -> 05:21.52] With you.
+[05:22.06 -> 05:23.62] Your phone won't stop buzzing.
+[05:24.10 -> 05:25.22] Even you have limits.
+[05:25.82 -> 05:27.58] Your coin gets stuck in a vending machine.
+[05:28.14 -> 05:29.66] You give it your best argument.
+[05:30.16 -> 05:30.64] Out loud.
+[05:31.06 -> 05:32.00] For two minutes.
+[05:32.52 -> 05:34.00] The machine does not care.
+[05:34.50 -> 05:34.82] The catch?
+[05:35.36 -> 05:36.60] You win every time.
+[05:36.90 -> 05:39.88] And every time, the other person leaves a little smaller.
+[05:40.32 -> 05:43.12] But where it gets really crazy is the city council.
+[05:43.66 -> 05:45.30] Your street has no crosswalk.
+[05:45.72 -> 05:46.52] Kids cross anyway.
+[05:47.08 -> 05:48.42] You speak for three minutes.
+[05:48.92 -> 05:50.88] When you finish, the room is silent.
+[05:51.36 -> 05:52.20] Then they vote.
+[05:52.68 -> 05:53.60] 11 to 0.
+[05:54.12 -> 05:55.86] By spring, there's paint on the road.
+[05:56.32 -> 05:56.86] Bright yellow.
+[05:57.32 -> 05:59.66] A little girl crosses it on her first day of school.
+[05:59.98 -> 06:02.20] And you think, maybe this is what it's for.
+[06:02.68 -> 06:04.20] Now the part nobody mentions.
+[06:04.78 -> 06:06.32] Winning feels amazing.
+[06:06.32 -> 06:10.14] At first, dopamine cells fire hardest for surprises.
+[06:10.56 -> 06:11.60] For better than expected.
+[06:12.08 -> 06:13.50] But you always expect to win.
+[06:13.88 -> 06:14.78] And you always do.
+[06:15.22 -> 06:16.66] So nothing fires.
+[06:17.28 -> 06:17.76] No spark.
+[06:18.32 -> 06:19.38] Just a quiet click.
+[06:19.84 -> 06:20.76] Like closing a drawer.
+[06:21.30 -> 06:23.06] A win used to feel like a trophy.
+[06:23.54 -> 06:25.06] Now it feels like a receipt.
+[06:25.50 -> 06:27.20] And your brain is paying for it.
+[06:27.50 -> 06:29.30] It's about 2 % of your body weight.
+[06:29.50 -> 06:31.68] But it burns about 20 % of your energy.
+[06:32.18 -> 06:33.12] Yours burns more.
+[06:33.12 -> 06:34.74] You're starving by 10.
+[06:35.30 -> 06:36.20] Headaches by noon.
+[06:36.70 -> 06:37.98] At night, it gets worse.
+[06:38.54 -> 06:39.26] You lie awake.
+[06:39.74 -> 06:42.12] Your brain replays arguments from hours ago.
+[06:42.54 -> 06:44.10] It finds a better answer to each.
+[06:44.64 -> 06:47.56] At 2am, you're still winning fights that ended at lunch.
+[06:48.08 -> 06:49.94] You start spotting flaws in everything.
+[06:50.52 -> 06:51.00] A song.
+[06:51.36 -> 06:51.80] A joke.
+[06:52.18 -> 06:53.60] Your friend's story about his weekend.
+[06:54.06 -> 06:54.70] You say so.
+[06:55.08 -> 06:55.48] Out loud.
+[06:55.96 -> 06:56.26] Once.
+[06:56.82 -> 06:58.32] He never finishes the story.
+[06:58.76 -> 06:59.02] Dr.
+[06:59.20 -> 07:00.08] Lee checks your scans.
+[07:00.60 -> 07:01.68] Your brain is fine, Max.
+[07:01.68 -> 07:03.06] It's just running hot.
+[07:03.48 -> 07:03.70] Eat.
+[07:04.18 -> 07:04.44] Sleep.
+[07:05.04 -> 07:05.54] She pauses.
+[07:06.00 -> 07:07.60] And try losing sometimes.
+[07:08.40 -> 07:08.70] Losing?
+[07:09.14 -> 07:09.46] Why?
+[07:09.98 -> 07:12.92] Because a mind that never loses forgets how to listen.
+[07:13.42 -> 07:16.10] Then at dinner, your dad says the garage needs cleaning.
+[07:16.56 -> 07:18.36] You list six reasons it can wait.
+[07:18.76 -> 07:19.54] He opens his mouth.
+[07:20.02 -> 07:20.60] Closes it.
+[07:21.02 -> 07:21.52] Fine, Max.
+[07:21.94 -> 07:22.20] Fine.
+[07:22.72 -> 07:23.56] Not you're right.
+[07:23.90 -> 07:24.86] Just fine.
+[07:25.40 -> 07:27.00] Mia stops showing you her drawings.
+[07:27.36 -> 07:29.00] She says you only look for mistakes.
+[07:29.00 -> 07:31.64] At school, you stop raising your hand.
+[07:32.00 -> 07:33.72] Everyone already knows how it ends.
+[07:34.24 -> 07:36.88] A teacher calls you the last word in every room.
+[07:37.26 -> 07:38.54] It doesn't sound like a compliment.
+[07:39.12 -> 07:40.60] Nobody argues with you anymore.
+[07:41.08 -> 07:42.80] Your friends go quiet when you walk in.
+[07:43.24 -> 07:44.92] Your mom stops asking what you think.
+[07:45.40 -> 07:45.98] Why would she?
+[07:46.34 -> 07:47.16] You already won.
+[07:47.60 -> 07:48.74] And something is coming.
+[07:49.20 -> 07:49.98] You can feel it.
+[07:50.30 -> 07:52.58] There's one person you never argue against.
+[07:53.02 -> 07:53.30] Leo.
+[07:53.82 -> 07:55.46] Your best friend since you were six.
+[07:55.46 -> 07:57.22] Left foot like a cannon.
+[07:57.64 -> 08:00.42] His dad works night shifts so Leo can have real boots.
+[08:00.86 -> 08:02.62] His dream fits in one sentence.
+[08:03.12 -> 08:04.42] Play for a real club.
+[08:04.92 -> 08:07.72] And between you two, every fight ends the same way.
+[08:08.14 -> 08:09.76] The loser says, you win.
+[08:10.18 -> 08:10.82] I hate it.
+[08:11.24 -> 08:12.54] The winner buys the churros.
+[08:13.14 -> 08:16.50] Since you were eight, you've never used your power on Leo.
+[08:16.86 -> 08:17.56] Not once.
+[08:17.96 -> 08:20.18] Because with Leo, you lose half the time.
+[08:20.54 -> 08:22.26] And somehow, you love it.
+[08:22.66 -> 08:24.86] He's the only person who tells you you're wrong.
+[08:24.86 -> 08:26.18] Then buys you food.
+[08:26.72 -> 08:29.12] His dad comes to every match in work boots.
+[08:29.30 -> 08:30.46] Straight off a night shift.
+[08:30.92 -> 08:32.88] He falls asleep on the bench by half time.
+[08:33.36 -> 08:34.58] Leo pretends not to notice.
+[08:35.16 -> 08:36.10] He always looks.
+[08:36.78 -> 08:39.12] On your 10th birthday, Leo gave you a drawing.
+[08:39.60 -> 08:40.40] Two stick figures.
+[08:40.86 -> 08:41.70] One holds a trophy.
+[08:42.12 -> 08:43.12] One eats churros.
+[08:43.58 -> 08:44.58] It's still on your wall.
+[08:45.10 -> 08:47.02] Last spring, Leo missed a penalty.
+[08:47.48 -> 08:48.50] In front of everyone.
+[08:49.18 -> 08:51.06] Afterward, he sat alone on the grass.
+[08:51.62 -> 08:52.74] You sat down next to him.
+[08:52.74 -> 08:54.76] You didn't say one clever thing.
+[08:55.16 -> 08:55.88] You just stayed.
+[08:56.42 -> 08:56.82] An hour.
+[08:57.30 -> 08:57.66] Quiet.
+[08:58.28 -> 08:59.30] Then he laughed.
+[08:59.80 -> 09:00.34] Churros?
+[09:00.60 -> 09:01.10] He asked.
+[09:01.54 -> 09:02.02] You nodded.
+[09:02.44 -> 09:02.86] That's all.
+[09:03.36 -> 09:05.78] And it was the best conversation you've ever had.
+[09:06.16 -> 09:07.66] Thursday, 9 p .m.
+[09:08.10 -> 09:08.82] Your phone rings.
+[09:09.32 -> 09:10.34] Leo is out of breath.
+[09:10.86 -> 09:12.30] Max, I met a scout.
+[09:12.88 -> 09:13.14] Mr.
+[09:13.30 -> 09:13.46] Black.
+[09:13.88 -> 09:14.56] Big club.
+[09:14.88 -> 09:15.70] He saw me play.
+[09:16.30 -> 09:17.24] Your stomach drops.
+[09:17.76 -> 09:18.18] Slowly.
+[09:18.86 -> 09:20.50] Don't tell my dad, Leo adds.
+[09:20.90 -> 09:21.48] It's a surprise.
+[09:22.04 -> 09:23.24] You search for the club.
+[09:23.68 -> 09:23.98] Nothing.
+[09:24.50 -> 09:25.12] No website.
+[09:25.54 -> 09:26.28] No phone number.
+[09:26.70 -> 09:27.10] Nothing.
+[09:27.76 -> 09:29.10] On the bus, you rehearse.
+[09:29.44 -> 09:30.20] 40 arguments.
+[09:30.58 -> 09:31.40] 10 answers each.
+[09:31.82 -> 09:33.92] You've never prepared for anything in your life.
+[09:34.34 -> 09:35.20] You've never needed to.
+[09:35.86 -> 09:37.52] Saturday, a hotel lobby.
+[09:38.02 -> 09:38.22] Mr.
+[09:38.40 -> 09:40.58] Black wears a gray suit and a perfect smile.
+[09:41.04 -> 09:42.32] A black car waits outside.
+[09:42.90 -> 09:43.80] The engine is running.
+[09:44.34 -> 09:45.62] Leo sits across from him.
+[09:46.00 -> 09:47.42] On the table lies an envelope.
+[09:47.42 -> 09:48.80] In his dad's handwriting.
+[09:49.32 -> 09:50.32] For Leo's future.
+[09:50.84 -> 09:52.20] Four years of night shifts.
+[09:52.70 -> 09:53.22] All of it.
+[09:53.66 -> 09:54.98] He opens a glossy folder.
+[09:55.38 -> 09:56.02] A club crest.
+[09:56.44 -> 09:56.84] A signature.
+[09:57.36 -> 09:58.38] A photo of a stadium.
+[09:58.96 -> 10:00.44] You notice the crest is blurry.
+[10:00.82 -> 10:01.84] Pixelated at the edges.
+[10:02.44 -> 10:03.92] Just a draft, says Mr.
+[10:04.04 -> 10:04.16] Black.
+[10:04.54 -> 10:06.00] Just a registration fee, son.
+[10:06.48 -> 10:07.52] Then a flight tonight.
+[10:08.02 -> 10:08.48] A trial.
+[10:08.90 -> 10:09.34] A contract.
+[10:09.94 -> 10:11.22] You listen for 10 seconds.
+[10:11.64 -> 10:12.74] You find five holes.
+[10:12.74 -> 10:13.94] No club name.
+[10:14.30 -> 10:14.82] No website.
+[10:15.18 -> 10:15.86] Cash only.
+[10:16.20 -> 10:16.80] Today only.
+[10:17.22 -> 10:17.96] Tell no one.
+[10:18.40 -> 10:20.66] You say all five in 30 seconds.
+[10:21.12 -> 10:21.48] Calm.
+[10:21.94 -> 10:22.28] Perfect.
+[10:22.86 -> 10:24.32] A waiter freezes with a tray.
+[10:24.78 -> 10:26.92] A woman at the next table stops mid -sip.
+[10:27.32 -> 10:28.98] Nobody in the lobby breathes.
+[10:29.32 -> 10:29.56] Mr.
+[10:29.72 -> 10:30.68] Black opens his mouth.
+[10:31.22 -> 10:32.04] Nothing comes out.
+[10:32.50 -> 10:33.16] He tries again.
+[10:33.70 -> 10:33.98] Nothing.
+[10:34.50 -> 10:35.52] Then he smiles.
+[10:36.16 -> 10:38.06] Other scouts are watching, he tells Leo.
+[10:38.42 -> 10:39.70] If you wait, they'll go.
+[10:40.10 -> 10:41.96] And somebody will try to talk you out of this.
+[10:41.96 -> 10:43.44] Probably someone jealous.
+[10:44.06 -> 10:45.14] Leo turns to you.
+[10:45.40 -> 10:45.82] Slowly.
+[10:46.48 -> 10:47.72] He said you'd say this.
+[10:48.00 -> 10:48.56] Leo whispers.
+[10:49.14 -> 10:50.58] Your stomach turns to ice.
+[10:51.14 -> 10:52.02] He saw you coming.
+[10:52.56 -> 10:55.92] Every argument you build is already inside his story.
+[10:56.38 -> 10:58.78] You're right, Leo says, about everything.
+[10:59.40 -> 10:59.82] You exhale.
+[11:00.46 -> 11:01.96] Then Leo picks up the pen.
+[11:02.46 -> 11:02.74] What?
+[11:03.12 -> 11:03.44] Why?
+[11:04.00 -> 11:04.60] You won!
+[11:05.10 -> 11:06.32] Leo's eyes are wet.
+[11:06.66 -> 11:08.56] Because if you're right, it's gone.
+[11:09.08 -> 11:09.60] His dream.
+[11:09.60 -> 11:10.56] His boots.
+[11:11.14 -> 11:11.86] His dad's face.
+[11:12.52 -> 11:13.96] Leo doesn't need you to be right.
+[11:14.30 -> 11:15.64] He needs this to be true.
+[11:16.00 -> 11:16.78] That's the rule.
+[11:17.14 -> 11:17.84] The one you forgot.
+[11:18.42 -> 11:20.70] Leo's hand is 40 centimeters from the paper.
+[11:21.16 -> 11:23.16] A nervous reach takes about two seconds.
+[11:23.66 -> 11:25.30] Two seconds is five words.
+[11:25.78 -> 11:27.16] You have a thousand arguments.
+[11:27.56 -> 11:28.60] Not one fits.
+[11:29.30 -> 11:29.96] 30 centimeters.
+[11:30.64 -> 11:30.86] Mr.
+[11:31.04 -> 11:32.40] Black slides the page closer.
+[11:32.94 -> 11:33.24] 20.
+[11:33.74 -> 11:34.70] The engine hums.
+[11:35.02 -> 11:36.12] The flight leaves at 8.
+[11:36.12 -> 11:36.78] 10.
+[11:37.34 -> 11:39.52] Win the point or keep your best friend.
+[11:40.02 -> 11:40.58] You let go.
+[11:40.92 -> 11:42.18] Your arguments fall away.
+[11:42.52 -> 11:43.18] Every fact.
+[11:43.52 -> 11:44.14] Every number.
+[11:44.50 -> 11:45.76] And you say five words.
+[11:46.20 -> 11:46.68] You win.
+[11:47.22 -> 11:47.94] I hate it.
+[11:48.32 -> 11:49.44] The lobby goes silent.
+[11:49.86 -> 11:51.14] A waiter lowers his tray.
+[11:51.64 -> 11:52.46] Leo freezes.
+[11:52.92 -> 11:53.70] The pen stops.
+[11:54.20 -> 11:55.68] Three centimeters above the paper.
+[11:56.04 -> 11:57.32] Because that's his line.
+[11:57.74 -> 11:58.58] The loser's line.
+[11:58.96 -> 12:00.04] And you just said it.
+[12:00.30 -> 12:00.88] On purpose.
+[12:01.40 -> 12:01.80] To him.
+[12:02.28 -> 12:04.02] How long has it been since you lost?
+[12:04.02 -> 12:05.56] Leo looks at you.
+[12:06.02 -> 12:06.86] Really looks.
+[12:07.50 -> 12:07.78] Max?
+[12:08.34 -> 12:09.34] You never lose.
+[12:09.82 -> 12:10.30] For me?
+[12:10.76 -> 12:11.26] He whispers.
+[12:11.92 -> 12:12.40] For you.
+[12:12.86 -> 12:13.24] You say.
+[12:13.80 -> 12:15.02] Then your voice shakes.
+[12:15.62 -> 12:16.24] I'm scared.
+[12:16.76 -> 12:17.40] Not of him.
+[12:17.88 -> 12:18.74] Of losing you.
+[12:19.24 -> 12:20.48] I don't have a better argument.
+[12:20.94 -> 12:23.86] I only know real scouts never ask for money first.
+[12:24.44 -> 12:25.64] It's not a perfect sentence.
+[12:26.12 -> 12:27.32] It's not even a good one.
+[12:27.62 -> 12:29.32] But Leo hears every word.
+[12:29.80 -> 12:31.32] The pen slips from his fingers.
+[12:31.32 -> 12:32.90] It rolls off the table.
+[12:33.46 -> 12:34.90] Leo laughs through his tears.
+[12:35.48 -> 12:36.82] You really hate it.
+[12:37.02 -> 12:37.46] He says.
+[12:38.22 -> 12:38.74] So much.
+[12:39.14 -> 12:39.50] You say.
+[12:40.18 -> 12:40.18] Mr.
+[12:40.34 -> 12:40.92] Black stands.
+[12:41.40 -> 12:42.34] Smoothes his tie.
+[12:42.82 -> 12:43.34] Walks out.
+[12:43.82 -> 12:45.26] The black car drives away.
+[12:45.64 -> 12:46.70] With an empty seat.
+[12:47.22 -> 12:47.96] You could chase him.
+[12:48.42 -> 12:49.72] Ruin his name in an hour.
+[12:50.18 -> 12:52.72] But then you'd just be another man who needs to win.
+[12:53.14 -> 12:58.00] Instead, the hotel manager, who heard everything, picks up the phone and calls the police.
+[12:58.00 -> 12:59.68] Leo calls his dad.
+[13:00.06 -> 13:02.38] Ten minutes later, he arrives in his work boots.
+[13:02.80 -> 13:03.72] He sees the envelope.
+[13:04.22 -> 13:05.78] He sits down on the lobby floor.
+[13:06.26 -> 13:07.40] He doesn't say a word.
+[13:07.82 -> 13:09.18] He just holds his son.
+[13:09.66 -> 13:13.44] A week later, the police find a drawer full of envelopes just like it.
+[13:13.80 -> 13:16.04] Nobody in that lobby forgets what they saw.
+[13:16.50 -> 13:18.64] That night, Leo's dad hugs you too.
+[13:19.04 -> 13:20.82] He smells like cardboard and coffee.
+[13:21.28 -> 13:22.34] He doesn't say thank you.
+[13:22.70 -> 13:24.60] He says, You're welcome at our table.
+[13:24.92 -> 13:25.28] Always.
+[13:25.84 -> 13:29.02] Soon after, a real club offers Leo a free trial.
+[13:29.50 -> 13:29.76] Free.
+[13:30.36 -> 13:32.82] At home, your mom says you're wrong about the garage.
+[13:33.34 -> 13:33.76] You grin.
+[13:34.26 -> 13:34.52] Wrong?
+[13:34.90 -> 13:35.30] Explain.
+[13:35.88 -> 13:36.40] And she does.
+[13:36.90 -> 13:39.36] For an hour, you lose every point.
+[13:39.68 -> 13:43.02] And somewhere around the fifth, something lights up in your chest.
+[13:43.48 -> 13:43.74] Tiny.
+[13:44.28 -> 13:44.54] Warm.
+[13:45.08 -> 13:45.50] A spark.
+[13:46.06 -> 13:47.40] You laugh right on time.
+[13:47.80 -> 13:48.62] You can win a point.
+[13:49.00 -> 13:50.58] But a point isn't a person.
+[13:50.58 -> 13:53.14] Saturday, Leo buys the churros.
+[13:53.50 -> 13:55.08] That night, your phone buzzes.
+[13:55.36 -> 13:56.12] Unknown number.
+[13:56.48 -> 13:57.04] One message.
+[13:57.60 -> 13:58.06] Impressive.
+[13:58.52 -> 14:00.86] I know someone who has never lost an argument either.
+[14:01.32 -> 14:01.74] A pause.
+[14:02.20 -> 14:03.32] Then a second message.
+[14:03.80 -> 14:04.74] Her name is Nova.
+[14:05.14 -> 14:06.00] She'd like to meet you.
+[14:06.42 -> 14:07.52] So what's real?
+[14:08.02 -> 14:09.66] Nobody wins every argument.
+[14:10.08 -> 14:11.24] Winning needs a judge.
+[14:11.56 -> 14:13.62] And the judge is always a person.
+[14:14.04 -> 14:21.54] In 2011, Hugo Mercier and Dan Sperber argued that human reasoning evolved partly to persuade others and to judge their arguments.
+[14:22.02 -> 14:23.54] But a brain that always wins?
+[14:24.02 -> 14:24.66] Pure fiction.
+[14:25.24 -> 14:26.52] The cost is half real.
+[14:26.88 -> 14:29.62] Your brain really does burn about 20 % of your energy.
+[14:30.04 -> 14:31.52] The starving part is exaggerated.
+[14:32.18 -> 14:33.66] The dopamine part is real.
+[14:34.08 -> 14:37.36] In the 90s, Wolfram Schultz recorded dopamine cells in monkeys.
+[14:37.82 -> 14:40.48] They fire most when a reward is better than expected.
+[14:40.96 -> 14:42.64] The speed is real, in part.
+[14:43.04 -> 14:48.70] In 2001, Nelson Cowan estimated that working memory holds about four items, not 40.
+[14:49.06 -> 14:54.38] And a 2009 study of 10 languages found people reply in about 200 milliseconds.
+[14:54.74 -> 14:57.98] Fast enough that they start planning before the other person finishes.
+[14:58.76 -> 14:59.58] Now, facts.
+[15:00.30 -> 15:03.72] Scientists once worried that corrections make people dig in harder.
+[15:04.16 -> 15:05.22] The backfire effect.
+[15:05.66 -> 15:10.20] But a 2019 study by Thomas Wood and Ethan Porter found it's actually rare.
+[15:10.62 -> 15:12.14] People can change their minds.
+[15:12.46 -> 15:13.40] Just slowly.
+[15:13.78 -> 15:15.58] And more easily when they feel heard.
+[15:15.58 -> 15:17.98] And one lesson from this story is real.
+[15:18.42 -> 15:21.88] If someone says, pay today and tell no one, walk away.
+[15:22.48 -> 15:24.10] So what really changes a mind?
+[15:24.60 -> 15:26.36] Being right or being heard?
+[15:26.90 -> 15:27.44] What do you think?
+[15:27.88 -> 15:30.46] Tell us in the comments which argument you'd win first.
+[15:30.90 -> 15:33.12] Tell us the worst argument you ever lost.
+[15:33.46 -> 15:34.70] We promise not to win it.
+[15:35.02 -> 15:37.10] And tell us which superpower we should do next.
+[15:37.54 -> 15:42.66] And if your heart skipped when Max said those five words, hit like and subscribe for part two.
