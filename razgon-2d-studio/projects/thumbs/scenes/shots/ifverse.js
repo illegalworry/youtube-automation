@@ -167,4 +167,7 @@ const V = {
 };
 function lerp2(a, b, k) { return a + (b - a) * k; }
 
-for (const s of E.shots) if (s.params?.tpl === 'ifv') registerShot(s.id, { draw(g, t, info) { V[info.k](g, t); } });
+export { INK, W, wash, vign, bokeh, motes, star, panelGlow };
+
+// default pack = never-forget; other videos live in their own files (params.pack, e.g. ifverse_argue.js)
+for (const s of E.shots) if (s.params?.tpl === 'ifv' && !s.params.pack) registerShot(s.id, { draw(g, t, info) { V[info.k](g, t); } });
