@@ -1,0 +1,6 @@
+node_modules/
+out/
+backup/
+public/bridge/kenney/*.glb
+*.wav
+*.mp4

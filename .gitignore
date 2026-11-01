@@ -4,3 +4,5 @@ razgon-2d-studio/projects/*/out/
 razgon-2d-studio/projects/*/input/*.mp3
 razgon-2d-studio/projects/*/input/*.wav
 __pycache__/
+.claude/skills/cartoon-3d-short/references/frames/
+.claude/skills/cartoon-3d-short/references/sheets/
