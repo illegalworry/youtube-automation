@@ -5,7 +5,28 @@ Always run `node render.mjs --project P --catalog` for the live list. The tables
 ## Sets (`scene.set`, `scene.setOpts`)
 Each set builds a location around the origin and returns named **spots** (`"at": "spot:door"`). The default camera side is +Z, and interiors are open toward +Z. Units are studs (an avatar is 5 tall).
 
-<!-- SETS_TABLE -->
+| set | default light | description and spots |
+|---|---|---|
+| `baseplate` | day | classic green studded baseplate with a spawn pad — the iconic empty Roblox world |
+| `park` | day | sunny park: grass, path along Z, trees, bushes, flowers, benches, lamp posts, a pond |
+| `city` | day | city street along Z: road with markings, sidewalks at x=±11, tall buildings both sides, lamp posts, cars, traffic light. opts {night:true} |
+| `suburb` | day | suburban street: road along Z, houses with lawns, fences, trees and mailboxes on both sides |
+| `classroom` | interior | school classroom: whiteboard at the back (z=-16), teacher desk, 3x3 student desks with chairs (spots desk1..desk9 = seat positions), windows, door at x=+19 |
+| `livingRoom` | interior | living room: sofa at z=-9 facing a TV at z=+9, rug, coffee table, lamp, bookshelf, windows, door at x=+17 |
+| `obby` | day | obby: floating coloured platforms over glowing lava, start pad at z=+12, platforms p1..p9 ([x,y,z] incl. height) going to -Z, finish pad with trophy |
+| `arena` | night | fighting arena: square ring (38x38) with ropes and corner posts on a dark floor, tiered stands, spotlights. fighters at red [-8,0] / blue [8,0] |
+| `forest` | day | dense forest of pines and trees around a clearing at the origin; campfire at [0,-5] with log seats, two tents behind (opts {campfire:false, tent:false, trees:N, night:true}) |
+| `desert` | day | sandy desert: rounded dunes, cacti, red rocks, mesas, pyramids far away at -Z, an "OASIS" sign. spots cactus, rock, sign |
+| `winter` | day | snowy winter landscape: snow ground, snowy pines, snowman at [-9,-1], frozen pond at [15,-9], log cabin with glowing windows behind-left |
+| `beach` | day | sunny beach: sand, ocean towards -Z (shore at z=-17), palm trees, striped umbrellas with towels, lifeguard tower, sandcastle, surfboard, boat |
+| `space` | space | moon surface: grey cratered ground, ringed planet in the black starry sky, rocket on a launch pad at [13,-12], white base dome with airlock at [-15,-16], solar panels, flag |
+| `cave` | cave | dark underground cave: rock walls and ceiling with stalactites, glowing crystals (purple/cyan light), torches, mine rails along X at z=-8 with an ore minecart |
+| `bedroom` | interior | kid bedroom: bed (back-left), nightstand+lamp, desk with computer and chair (back-right), wardrobe and bookshelf on the right wall, window, posters, round rug, beanbag |
+| `kitchen` | interior | kitchen: checker floor, blue counters along the back wall with fridge, stove (opts {cooking:true} glows), sink under a window, upper cabinets, table with 4 chairs at [8,3] (spots seat1..seat4) |
+| `shop` | interior | store interior: SUPER SHOP sign, wall shelves of colourful goods and a glass drinks fridge at the back, two aisle shelves on the left, blue checkout counter with register on the right (customer at counter, clerk at cashier), glass door + OPEN sign on the right wall |
+| `castle` | day | medieval castle courtyard: stone-tiled yard, crenellated walls, gatehouse with wooden gate and raised portcullis at z=-24, round towers with red/blue roofs, keep behind, hanging banners, well, hay, barrels, torches |
+| `spooky` | spooky | haunted house at night: crooked purple house with glowing and boarded windows and a tower at -Z, porch, dirt path, graveyard with tombstones and iron fence on the left, dead trees, jack-o-lanterns, moon, low purple mist |
+| `stage` | night | concert: raised stage (top y=3, front edge z=-8) with LED screen, neon bars, lighting truss with coloured beams, speaker stacks, drum kit and mic stand; crowd area at the origin behind a barrier at z=-6.5. 3-value spots [x,y,z] are on the stage |
 
 Mix sets with extra props (`scene.props`) to make each location specific. For example: a classroom plus a `cake` on the teacher desk; a park plus a `tent` and a `campfire`.
 
