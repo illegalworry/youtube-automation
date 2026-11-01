@@ -4,3 +4,9 @@ razgon-2d-studio/projects/*/out/
 razgon-2d-studio/projects/*/input/*.mp3
 razgon-2d-studio/projects/*/input/*.wav
 __pycache__/
+roblox-3d-studio/projects/*/build/
+roblox-3d-studio/projects/*/out/
+roblox-3d-studio/projects/*/input/*.mp3
+roblox-3d-studio/projects/*/input/*.wav
+roblox-3d-studio/examples/*/build/
+roblox-3d-studio/examples/*/out/

@@ -1,0 +1,7 @@
+{
+  "name": "roblox-3d-studio",
+  "version": "1.0.0",
+  "description": "Voiceover → fully animated Roblox-style 3D video. Claude writes the scenes as code: blocky avatars with clothes, hair, hats and faces, 60+ animations (walk, run, jump, fights, falls, gestures, dances), multi-character interactions, cinematic camera moves, sets, lighting, shadows, particles, lip-sync to the voiceover, auto SFX, music and a final MP4. Three.js rendered frame by frame; no image AI.",
+  "author": { "name": "Razgon" },
+  "keywords": ["video", "animation", "3d", "roblox", "blocky", "voiceover", "whisper", "three.js", "faceless youtube", "cartoon"]
+}
