@@ -187,6 +187,18 @@ const track = (t: number, keys: Key[]): [number, number] => {
   }
   const l = keys[keys.length - 1]; return [l[1], l[2]];
 };
+// Позы рук для эмоций (локальные x, z в метрах): удивление — руки к голове, смех — за живот, гордость — кулак вверх…
+const EMO_POSE: Record<string, { f: [number, number]; b: [number, number] }> = {
+  shock: { f: [-0.34, HEAD_Z + 0.02], b: [0.34, HEAD_Z + 0.02] },
+  laugh: { f: [-0.13, HIP + 0.18], b: [0.13, HIP + 0.18] },
+  proud: { f: [-0.24, HIP + 0.1], b: [0.3, HEAD_Z + 0.28] },
+  nervous: { f: [-0.07, HIP + 0.3], b: [0.07, HIP + 0.3] },
+  realize: { f: [-0.3, HEAD_Z + 0.18], b: [0.2, HIP + 0.06] },
+  grin: { f: [-0.28, HIP + 0.3], b: [0.3, HIP + 0.38] },
+  smug: { f: [0.12, HIP + 0.26], b: [-0.12, HIP + 0.24] },
+  stern: { f: [-0.27, HIP + 0.14], b: [0.27, HIP + 0.14] },
+  blank: { f: [-0.21, HIP + 0.03], b: [0.21, HIP + 0.03] },
+};
 export type Actor = {
   pos: V3; look: Look; seed: number;
   expr: [number, string][];                 // [[секунда, эмоция], ...] — бонк на каждой смене
@@ -208,22 +220,34 @@ export const Doodle: React.FC<{ a: Actor }> = ({ a }) => {
   const f2 = Math.floor(sec * FPS / 2) * 2;                              // по двойкам
   const t = f2 / FPS;
   if (a.hidden?.some(([s, e]) => t >= s && t < e)) return null;
-  let ex = a.expr[0][1], tc = -10;
-  for (const [tt, e] of a.expr) if (t >= tt) { ex = e; tc = tt; }
+  let ex = a.expr[0][1], tc = -10, prevEx = ex;
+  for (const [tt, e] of a.expr) if (t >= tt) { prevEx = tc > -10 ? ex : e; ex = e; tc = tt; }
   const tb = (t - tc) * FPS;
   const bonk = tc > -10 && tb >= 0 ? Math.exp(-tb / 3.5) * Math.cos(tb * 1.25) : 0;
   let sd = a.seed * 9301 + f2 * 49297; const rnd = () => ((sd = (sd * 233280 + 49297) % 233280) / 233280);
   const dart = Math.sin(t * 1.7 + a.seed * 2) > 0.6 ? 0.9 : Math.sin(t * 1.3 + a.seed) < -0.7 ? -0.9 : 0;
   const talking = a.talk?.some(([s, e]) => t >= s && t < e);
+  // руки: явные ключи действуют только внутри своего интервала; вне его — поза эмоции (плавно, с перелётом) + лёгкое покачивание
+  const k = Easing.out(Easing.back(1.6))(Math.min(1, Math.max(0, (t - tc) / 0.28)));
+  const emo = (side: "f" | "b"): [number, number] => {
+    const a0 = EMO_POSE[prevEx]?.[side] ?? (side === "f" ? REST_F : REST_B), a1 = EMO_POSE[ex]?.[side] ?? (side === "f" ? REST_F : REST_B);
+    const sw = side === "f" ? 0 : 1.7;
+    return [a0[0] + (a1[0] - a0[0]) * k + Math.sin(t * 2.3 + a.seed + sw) * 0.025, a0[1] + (a1[1] - a0[1]) * k + Math.sin(t * 2.9 + a.seed + sw) * 0.03];
+  };
+  const hand = (keys: Key[] | undefined, side: "f" | "b") =>
+    keys && t >= keys[0][0] - 0.01 && t <= keys[keys.length - 1][0] + 0.01 && keys.length > 1 ? track(t, keys) : keys && keys.length === 1 ? track(t, keys) : emo(side);
+  const hop = tc > -10 && tb >= 0 && tb < 9 ? Math.sin((tb / 9) * Math.PI) * 0.06 : 0;   // подпрыгивание на смене эмоции
   const pose: Pose = {
     expr: ex, blink: (f2 + a.seed * 37) % 79 < 3, bonk, breathe: Math.sin(f2 / 14) * 0.012, lookX: dart,
     talk: talking ? 0.25 + 0.75 * Math.abs(Math.sin(t * FPS * Math.PI / 3.5)) : 0,
-    handF: a.handF ? track(t, a.handF) : REST_F, handB: a.handB ? track(t, a.handB) : REST_B,
-    lean: a.lean ? track(t, a.lean)[0] : 0, tilt: Math.sin(t * 1.1 + a.seed) * 0.03,
+    handF: hand(a.handF, "f"), handB: hand(a.handB, "b"),
+    lean: (a.lean ? track(t, a.lean)[0] : 0) + Math.sin(t * 1.5 + a.seed) * 0.05 + bonk * 0.1, tilt: Math.sin(t * 1.1 + a.seed) * 0.05,
   };
   drawDoodle(canvas.getContext("2d")!, a.look, pose, rnd);
   tex.needsUpdate = true;
-  const pos = a.walk ? (() => { const [x, z] = track(t, a.walk!); return [x, a.pos[1], z] as V3; })() : a.pos;
+  const pos0 = a.walk ? (() => { const [x, z] = track(t, a.walk!); return [x, a.pos[1], z] as V3; })() : a.pos;
+  const moving = a.walk ? Math.hypot(...(track(t + 0.05, a.walk).map((v, i) => v - track(t, a.walk!)[i]) as [number, number])) > 0.004 : false;
+  const pos: V3 = [pos0[0], pos0[1] + hop + (moving ? Math.abs(Math.sin(t * 14)) * 0.07 : 0), pos0[2]];
   const yaw = Math.atan2(cam.x - pos[0], cam.z - pos[2]);
   return (
     <mesh position={[pos[0], pos[1] + PLANE_H / 2, pos[2]]} rotation={[0, yaw, 0]} receiveShadow>
@@ -259,7 +283,7 @@ const Lights: React.FC<{ preset: LightPreset; windowX: number }> = ({ preset, wi
     <directionalLight position={[windowX - 3, 4.5, 1.5]} intensity={2.6} color="#ffd9a8" castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024}
       shadow-radius={8} shadow-bias={-0.0005} shadow-camera-left={-5} shadow-camera-right={5} shadow-camera-top={5} shadow-camera-bottom={-5} />
     <directionalLight position={[3, 2.5, 5]} intensity={0.7} color="#cfe0ff" />
-    <pointLight position={[0.4, 2.75, -0.3]} intensity={5} decay={1.4} color="#fff0d8" />
+    <pointLight position={[0.4, 2.3, -0.3]} intensity={3.5} decay={1.4} color="#fff0d8" />
   </>) : preset === "night" ? (<>
     <hemisphereLight args={["#5a6fb0", "#0c1430", 0.5]} />
     <directionalLight position={[windowX - 3, 4, 1]} intensity={1.4} color="#7d95ff" castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} shadow-radius={8}
@@ -282,7 +306,11 @@ export const Scene3D: React.FC<{ t0: number; cam: CamKey[]; focus: V3; light?: L
     const dpr = typeof window !== "undefined" ? Math.min(1, window.devicePixelRatio) : 1;
     const [, p, l, fov] = camAt(t, cam);
     const pos = new THREE.Vector3(...p);
-    pos.x += Math.sin(frame / 23) * 0.012; pos.y += Math.sin(frame / 17) * 0.008;   // «ручная» камера
+    // въезд в шот: первые ~0.6 с камера доезжает 0.45 м вперёд к своей траектории (плавно, без наездов на предмет)
+    const into = 1 - Easing.out(Easing.cubic)(Math.min(1, Math.max(0, (t - cam[0][0] + 0.15) / 0.75)));
+    const dir = new THREE.Vector3(...l).sub(pos).normalize();
+    pos.addScaledVector(dir, -0.45 * into); pos.y += 0.08 * into;
+    pos.x += Math.sin(frame / 23) * 0.02; pos.y += Math.sin(frame / 17) * 0.012;   // «ручная» камера
     return (
       <ShotCtx.Provider value={{ t0, cam: pos }}>
         <ThreeCanvas width={width} height={height} dpr={dpr} shadows={{ type: THREE.PCFSoftShadowMap }}

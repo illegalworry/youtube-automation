@@ -1,7 +1,7 @@
 // РОЛИК «The Clerk Who Broke Time»: шоты по таймингам голоса + голос + музыка + субтитры. Всё время — в секундах ГОЛОСА.
 import React from "react";
 import * as THREE from "three";
-import { AbsoluteFill, Audio, Sequence, continueRender, delayRender, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Audio, Easing, Sequence, continueRender, delayRender, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import plan from "./plan.json";
 import { FPS, Scene3D, Room, Box, Sign, Clock, Bench, Plant, Desk, Chair, Shelf, Door, Doodle, Actor, pointKeys, bonkAt, useSec, HIP, HEAD_Z } from "./kit";
 
@@ -345,16 +345,31 @@ const Caption: React.FC = () => {
 };
 
 export const TOTAL = Math.round(SHOTS[SHOTS.length - 1].t1 * FPS);
+export const MUSIC_VOL = 0.17;   // голос всегда громче (макс 0.18)
+const XF = 5;                    // переход: новый шот проявляется за 2×XF кадров вокруг первого слова абзаца
+
+// Плавный переход: входящий шот проявляется поверх уходящего с лёгким «въездом» (масштаб 1.08 → 1) и размытием.
+const Fade: React.FC<{ on: boolean; children: React.ReactNode }> = ({ on, children }) => {
+  const f = useCurrentFrame();
+  const k = on ? interpolate(f, [0, XF * 2], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.cubic) }) : 1;
+  return <AbsoluteFill style={{ opacity: k, transform: `scale(${1.08 - 0.08 * k})`, filter: k < 1 ? `blur(${(1 - k) * 10}px)` : undefined }}>{children}</AbsoluteFill>;
+};
+
 export const Video: React.FC = () => {
   const { durationInFrames } = useVideoConfig();
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
-      {SHOTS.map((s, i) => (
-        <Sequence key={i} from={Math.round(s.t0 * FPS)} durationInFrames={Math.round((s.t1 - s.t0) * FPS)}>{s.el}</Sequence>
-      ))}
+      {SHOTS.map((s, i) => {
+        const pre = i > 0 ? XF : 0, post = i < SHOTS.length - 1 ? XF : 0;
+        const from = Math.round(s.t0 * FPS) - pre, dur = Math.round(s.t1 * FPS) - Math.round(s.t0 * FPS) + pre + post;
+        return (
+          <Sequence key={i} from={from} durationInFrames={Math.min(dur, durationInFrames - from)}>
+            <Fade on={i > 0}>{React.cloneElement(s.el as React.ReactElement, { t0: s.t0 - pre / FPS })}</Fade>
+          </Sequence>);
+      })}
       <Audio src={staticFile(plan.voice)} />
       <Audio src={staticFile("music.wav")}
-        volume={(f) => interpolate(f, [0, 20, durationInFrames - 45, durationInFrames], [0, 0.11, 0.11, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
+        volume={(f) => interpolate(f, [0, 15, durationInFrames - 45, durationInFrames], [0, MUSIC_VOL, MUSIC_VOL, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
       <Caption />
     </AbsoluteFill>
   );
