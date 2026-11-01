@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "android-phone": {
+      "type": "http",
+      "url": "${ANDROID_MCP_URL}"
+    }
+  }
+}
