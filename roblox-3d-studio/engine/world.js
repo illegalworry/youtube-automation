@@ -110,4 +110,3 @@ defineSet('arena', (st, o) => {
   for (const s of [-1, 1]) { const sp = new THREE.SpotLight('#ffffff', 900, 120, 0.5, 0.5, 1.5); sp.position.set(s * 30, 40, 30); sp.target.position.set(0, 0, 0); st.scene.add(sp, sp.target); }
   return { spots: { red: [-8, 0], blue: [8, 0], center: [0, 0] } };
 }, { light: 'night', desc: 'fighting arena: square ring (38x38) with ropes and corner posts on a dark floor, tiered stands, spotlights. fighters at red [-8,0] / blue [8,0]' });
-import './sets-extra.js';

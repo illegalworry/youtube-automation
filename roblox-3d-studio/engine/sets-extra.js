@@ -1,14 +1,11 @@
 // engine/sets-extra.js — more locations (forest, desert, winter, beach, space, cave, bedroom, kitchen, shop, castle, spooky, stage)
-// and the props they need. Loaded by world.js (last line). Same conventions as world.js: ground y = 0, action area around the
+// and the props they need. Loaded by director.js right after world.js (no circular import). Same conventions as world.js: ground y = 0, action area around the
 // origin (x,z ∈ [-12,12] kept mostly clear), default camera on +Z, so backdrops go to -Z and the sides. Deterministic (rng(seed)).
-import { defineSet as _defineSet, put, room, windowOn } from './world.js';
+import { defineSet, put, room, windowOn } from './world.js';
 import { THREE, part, block, cyl, ball, cone, wedge, ground, patternTex, plastic, neon, glass, textPlane, canvasTex, group, at, prep, D2R } from './r3d.js';
 import { defineItem } from './items.js';
 import { rng, shade } from './core.js';
 
-// world.js imports this file at its end, so on first load world.js's SETS table is not initialised yet (circular import):
-// register then on the next microtask (before any scene is built).
-const defineSet = (...a) => { try { _defineSet(...a); } catch (e) { queueMicrotask(() => _defineSet(...a)); } };
 // ---------- small helpers ----------
 const texMat = (tex, color = '#ffffff', o = {}) => plastic(color, { map: tex, ...o });
 const glowBasic = (color) => new THREE.MeshBasicMaterial({ color, fog: false });          // sky objects (moon, planet) ignore fog

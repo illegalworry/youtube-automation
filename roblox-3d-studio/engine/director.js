@@ -17,6 +17,7 @@ import { makeAvatar } from './avatar.js';
 import { CLIPS, full, blend, rampTravel } from './anim.js';
 import { makeItem } from './items.js';
 import { buildSet, setMeta } from './world.js';
+import './sets-extra.js';   // more locations (forest, desert, winter, beach, space, cave, bedroom, kitchen, shop, castle, spooky, stage)
 import { makeFx } from './fx3d.js';
 import { evalCam, applyCam } from './camera3d.js';
 import { drawText } from './ui.js';
