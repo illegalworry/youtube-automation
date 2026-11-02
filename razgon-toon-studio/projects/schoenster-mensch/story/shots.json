@@ -1,0 +1,4484 @@
+{
+ "title": "Was wäre, wenn du der schönste Mensch der Welt wärst?",
+ "duration": 400.05,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.6,
+   "line": "Du steigst in den Bus.",
+   "scene": "Bus interior wide: doors fold open, SAM steps in from the left; passengers' heads turn one by one; slow push",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s002",
+   "start": 1.6,
+   "end": 3.25,
+   "line": "Das Gespräch verstummt.",
+   "scene": "Medium on two passengers chatting (EXTRAS 0,1): they freeze mid-word, mouths 'o', eyes slide to Sam off-screen; slow pan right",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "freeze",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s003",
+   "start": 3.25,
+   "end": 5.3,
+   "line": "Der Fahrer vergisst zu blinken.",
+   "scene": "Driver FAHRER in the rear mirror insert: star eyes, indicator lever untouched; outside a car swerves past",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "carpass",
+     "at": 0.5,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s004",
+   "start": 5.3,
+   "end": 7.4,
+   "line": "Ein Kind lässt sein Eis fallen.",
+   "scene": "KIND with ice-cream cone looks up at Sam; scoop slides off and splats on the floor",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 1.4,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s005",
+   "start": 7.4,
+   "end": 8.95,
+   "line": "Und start dich an.",
+   "scene": "bigToon KIND: awe, mouth 'o', looking up-right; blurred bus behind; push",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s006",
+   "start": 8.95,
+   "end": 10.55,
+   "line": "Ein Fremder springt auf.",
+   "scene": "Stranger (EXTRAS 2) jumps up from his seat, arm sweeping toward it; Sam surprised",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.1,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s007",
+   "start": 10.55,
+   "end": 12.3,
+   "line": "Erbietet dir seinen Platz an.",
+   "scene": "Two-shot: stranger bows, bubble 'BITTE!', Sam holds the strap",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s008",
+   "start": 12.3,
+   "end": 14.35,
+   "line": "Du hast noch nicht mal Hallo gesagt.",
+   "scene": "bigToon SAM: confused, looks sideways, small bubble '…?'; gentle drift",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s009",
+   "start": 14.35,
+   "end": 16.95,
+   "line": "In der Bäckerei bestellst du zwei Brötchen.",
+   "scene": "Bäckerei wide: sign BÄCKEREI, bread shelves; Sam at the counter holds up two fingers, VERKAEUFERIN star eyes",
+   "set": "baeckerei",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s010",
+   "start": 16.95,
+   "end": 19.2,
+   "line": "Die Verkäuferin packt drei ein.",
+   "scene": "Insert: three rolls drop into the paper bag one by one, sticker '3' pops",
+   "set": "baeckerei",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.4,
+     "gain": -12.0
+    },
+    {
+     "name": "pop",
+     "at": 0.8,
+     "gain": -12.0
+    },
+    {
+     "name": "pop",
+     "at": 1.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s011",
+   "start": 19.2,
+   "end": 20.55,
+   "line": "Und kassiert nichts.",
+   "scene": "Sam holds out a coin, Verkäuferin waves it off; sticker '0 €'",
+   "set": "baeckerei",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "at": 0.6,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s012",
+   "start": 20.55,
+   "end": 21.6,
+   "line": "Dein Kaffee?",
+   "scene": "Insert: coffee cup slides across the counter, handwritten 'FÜR DICH' on the sleeve",
+   "set": "baeckerei",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.1,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s013",
+   "start": 21.6,
+   "end": 22.45,
+   "line": "Gratis.",
+   "scene": "Sam grins with the cup; big green sticker 'GRATIS' slaps on",
+   "set": "baeckerei",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s014",
+   "start": 22.45,
+   "end": 25.05,
+   "line": "Dein Bus wartet extra auf dich.",
+   "scene": "Bus stop wide: bus waits with doors open, driver waves out of the window, label 'NUR FÜR DICH', Sam jogs over; tracking",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s015",
+   "start": 25.05,
+   "end": 28.15,
+   "line": "Ein normaler Mensch wird in einer Zehntelsekunde eingeschätzt.",
+   "scene": "Busy pavement: NORMAL walks past people; tiny judging labels pop over heads, counter '0,1 s'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.3,
+     "gain": -14.0
+    },
+    {
+     "name": "blip",
+     "at": 1.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s016",
+   "start": 28.15,
+   "end": 31.45,
+   "line": "Das zeigten Willis und Todorov 2006.",
+   "scene": "Whiteboard: paperNote 'Willis & Todorov, 2006', counter 2006 ticks up",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s017",
+   "start": 31.45,
+   "end": 34.7,
+   "line": "Du? Du wirst in dieser Zeit bewundert.",
+   "scene": "Same pavement, now SAM walks: everyone stops dead with star eyes, label 'BEWUNDERT'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "shimmer",
+     "at": 0.5,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s018",
+   "start": 34.7,
+   "end": 35.95,
+   "line": "Hier ist die Regel.",
+   "scene": "Bright flat backdrop: labelBox 'DIE REGEL' drops in, Sam centre",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1,
+     "gain": -8.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 35.95,
+   "end": 38.25,
+   "line": "Dein Gesicht öffnet jede Tür.",
+   "scene": "Hallway of colourful doors; each swings open by itself as Sam walks past; tracking, foreground door frames wipe",
+   "set": "tueren",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.4,
+     "gain": -14.0
+    },
+    {
+     "name": "swish",
+     "at": 1.1,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s020",
+   "start": 38.25,
+   "end": 40.1,
+   "line": "Aber es beweist nichts.",
+   "scene": "bigToon SAM neutral in the open doorway; behind every door: empty",
+   "set": "tueren",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s021",
+   "start": 40.1,
+   "end": 41.1,
+   "line": "Nicht dein Können.",
+   "scene": "Sticker 'KÖNNEN?' gets a red X",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 41.1,
+   "end": 42.5,
+   "line": "Nicht deine Ehrlichkeit.",
+   "scene": "Sticker 'EHRLICHKEIT?' gets a red X",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 42.5,
+   "end": 44.0,
+   "line": "Nicht die Wahrheit.",
+   "scene": "Sticker 'WAHRHEIT?' gets a red X",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.2,
+     "gain": -8.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 44.0,
+   "end": 45.35,
+   "line": "Alle glauben dir.",
+   "scene": "Crowd wide: everyone nods at once, bubbles 'JA!' 'KLAR!'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "murmur",
+     "at": 0.0,
+     "gain": -20.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s025",
+   "start": 45.35,
+   "end": 47.6,
+   "line": "Aber Glauben ist kein Beweis.",
+   "scene": "Two label boxes 'GLAUBEN' ≠ 'BEWEIS'; a little balance tips toward BEWEIS",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "blip",
+     "at": 0.4,
+     "gain": -12.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 47.6,
+   "end": 50.55,
+   "line": "Also was, wenn du der schönste Mensch der Welt wärst?",
+   "scene": "TITLE: toonTitle 'WAS WÄRE, WENN DU DER SCHÖNSTE MENSCH DER WELT WÄRST?' over the street wide, Sam glowing gold in the centre",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "name": "riser",
+     "at": 0.0,
+     "gain": -10.0
+    },
+    {
+     "name": "impact",
+     "at": 1.2,
+     "gain": -6.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s027",
+   "start": 50.55,
+   "end": 52.55,
+   "line": "Und was, wenn das nicht reicht?",
+   "scene": "Title holds; small label 'UND WAS, WENN DAS NICHT REICHT?', Sam's smile turns worried",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "stinger",
+     "at": 0.3,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s028",
+   "start": 52.55,
+   "end": 55.2,
+   "line": "Plus, dein Lehrer gibt dir eine Eins.",
+   "scene": "Classroom wide: LEHRER hands Sam the essay with a big smile; green PLUS sticker",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.6,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s029",
+   "start": 55.2,
+   "end": 56.9,
+   "line": "Dein Aufsatz hat vier Fehler.",
+   "scene": "Insert: essay page with four red circles (counter 4 'FEHLER') and a huge red grade '1'",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s030",
+   "start": 56.9,
+   "end": 60.85,
+   "line": "Minus, du fragst dich, ob du sie verdient hast.",
+   "scene": "bigToon SAM thinking/worried, red MINUS sticker",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 1.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s031",
+   "start": 60.85,
+   "end": 63.25,
+   "line": "Forscher nennen das den Halo Effekt.",
+   "scene": "Whiteboard: 'HALO-EFFEKT' with a golden halo drawn above a head",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "shimmer",
+     "at": 0.3,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s032",
+   "start": 63.25,
+   "end": 66.65,
+   "line": "Schöne Menschen wirken klüger, netter, ehrlicher.",
+   "scene": "NORMAL and SAM side by side; labels pop over Sam: KLÜGER, NETTER, EHRLICHER",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.4,
+     "gain": -12.0
+    },
+    {
+     "name": "pop",
+     "at": 1.2,
+     "gain": -12.0
+    },
+    {
+     "name": "pop",
+     "at": 2.0,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s033",
+   "start": 66.65,
+   "end": 68.25,
+   "line": "Auch wenn sie es nicht sind.",
+   "scene": "The three labels flicker and drop off; Sam shrugs",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "glitch",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s034",
+   "start": 68.25,
+   "end": 70.1,
+   "line": "Dann kommt der Bewerbungstag.",
+   "scene": "Office tower lobby wide, label 'BEWERBUNGSTAG', Sam walks in with a folder",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s035",
+   "start": 70.1,
+   "end": 71.45,
+   "line": "Du betrittst das Büro.",
+   "scene": "Glass office: Sam enters, CHEF behind the desk is already smiling",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "footstep",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s036",
+   "start": 71.45,
+   "end": 73.0,
+   "line": "Der Chef lächelt schon.",
+   "scene": "bigToon CHEF: grin, star eyes",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s037",
+   "start": 73.0,
+   "end": 75.15,
+   "line": "Er hat deinen Lebenslauf noch nicht gelesen.",
+   "scene": "Insert: Lebenslauf envelope still sealed on the desk; slow push",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s038",
+   "start": 75.15,
+   "end": 76.85,
+   "line": "Die Stelle gehört dir.",
+   "scene": "Chef stamps a paper 'EINGESTELLT'",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.4,
+     "gain": -8.0
+    },
+    {
+     "name": "ding",
+     "at": 0.7,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s039",
+   "start": 76.85,
+   "end": 79.2,
+   "line": "Leo, dein neuer Kollege, flüstert.",
+   "scene": "LEO leans out from behind a monitor, hand by his mouth, whispering",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s040",
+   "start": 79.2,
+   "end": 80.6,
+   "line": "Wie machst du das?",
+   "scene": "Leo talks: bubble 'WIE MACHST DU DAS?'",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s041",
+   "start": 80.6,
+   "end": 82.1,
+   "line": "Du zuckst mit den Schultern.",
+   "scene": "Sam shrugs, palms up",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.2,
+     "gain": -16.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s042",
+   "start": 82.1,
+   "end": 83.55,
+   "line": "Ich hab nichts gemacht.",
+   "scene": "bigToon SAM talks, innocent smile ('Ich hab nichts gemacht')",
+   "set": "buero",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s043",
+   "start": 83.55,
+   "end": 85.8,
+   "line": "Im Restaurant bekommst du den besten Tisch.",
+   "scene": "Restaurant wide: KELLNER leads Sam and JONAS to the window table with a 'RESERVIERT' sign",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s044",
+   "start": 85.8,
+   "end": 87.9,
+   "line": "Und ein Dessert aufs Haus.",
+   "scene": "Waiter sets down a dessert; sticker 'AUFS HAUS'",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.5,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s045",
+   "start": 87.9,
+   "end": 90.25,
+   "line": "Der Kellner stolpert über Jonas Fuß.",
+   "scene": "Waiter trips over Jonas's foot, tray wobbles",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.5,
+     "gain": -8.0
+    },
+    {
+     "name": "swish",
+     "at": 0.6,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s046",
+   "start": 90.25,
+   "end": 91.95,
+   "line": "Und entschuldigt sich bei dir.",
+   "scene": "Waiter bows to Sam apologising; Jonas behind holds his foot, wince",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s047",
+   "start": 91.95,
+   "end": 95.05,
+   "line": "Jonas, dein bester Freund, hebt die Augenbrauen.",
+   "scene": "bigToon JONAS: sly, one eyebrow up, looking at the camera",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s048",
+   "start": 95.05,
+   "end": 97.15,
+   "line": "Hallo, das war mein Fuß.",
+   "scene": "Jonas talks, points at his foot, bubble 'HALLO?!'",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s049",
+   "start": 97.15,
+   "end": 99.25,
+   "line": "Dann dein erstes Foto im Netz.",
+   "scene": "Bedroom evening: Sam on the bed with the phone, label '20:00'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.6,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s050",
+   "start": 99.25,
+   "end": 101.3,
+   "line": "Um acht Uhr abends postest du es.",
+   "scene": "Insert phone: photo post, thumb taps POSTEN",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "blip",
+     "at": 0.8,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s051",
+   "start": 101.3,
+   "end": 103.8,
+   "line": "Um neun hast du hunderttausend Likes.",
+   "scene": "Insert phone: likes counter races to 100.000, label '21:00'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s052",
+   "start": 103.8,
+   "end": 106.0,
+   "line": "Um Mitternacht eine Million.",
+   "scene": "Night: counter 1.000.000, label '00:00', phone buzzing non-stop",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "phonebuzz",
+     "at": 0.2,
+     "gain": -10.0
+    },
+    {
+     "name": "phonebuzz",
+     "at": 1.0,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s053",
+   "start": 106.0,
+   "end": 107.6,
+   "line": "Dein Akku leer.",
+   "scene": "Insert: battery icon drains to 0 %",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "blip",
+     "at": 0.6,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s054",
+   "start": 107.6,
+   "end": 109.35,
+   "line": "Deine Mailbox voll.",
+   "scene": "Insert: mailbox overflowing with envelopes, label 'VOLL'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.5,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s055",
+   "start": 109.35,
+   "end": 111.45,
+   "line": "Plus, dein Konto füllt sich.",
+   "scene": "Banking app: money counter climbs, green PLUS sticker",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s056",
+   "start": 111.45,
+   "end": 113.8,
+   "line": "Minus, keiner fragt, was du denkst.",
+   "scene": "bigToon SAM sad, phone glow; comments float up only 'WOW' 'SCHÖN'; red MINUS sticker",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 1.0,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s057",
+   "start": 113.8,
+   "end": 116.3,
+   "line": "Auf der Straße bleibt ein Mann stehen.",
+   "scene": "Street day: a man stops dead and raises his phone",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s058",
+   "start": 116.3,
+   "end": 118.55,
+   "line": "Er filmt dich, ohne zu fragen.",
+   "scene": "Medium: man filming, phone pointed at Sam; Sam uncomfortable",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.4,
+     "gain": -16.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s059",
+   "start": 118.55,
+   "end": 119.65,
+   "line": "Dann eine Frau.",
+   "scene": "A woman joins with her phone",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s060",
+   "start": 119.65,
+   "end": 120.85,
+   "line": "Dann eine Gruppe.",
+   "scene": "A whole group joins, phones up",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "murmur",
+     "at": 0.0,
+     "gain": -20.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s061",
+   "start": 120.85,
+   "end": 123.45,
+   "line": "Nach einer Minute sind es 30 Handys.",
+   "scene": "Wide: ring of phones around Sam, counter 30 'HANDYS'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s062",
+   "start": 123.45,
+   "end": 125.25,
+   "line": "Und immer dieselben Sätze.",
+   "scene": "Crowd bubbles 'WUNDERSCHÖN!'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s063",
+   "start": 125.25,
+   "end": 127.9,
+   "line": "Du bist wunderschön. Du bist perfekt.",
+   "scene": "Crowd bubbles 'PERFEKT!'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s064",
+   "start": 127.9,
+   "end": 129.45,
+   "line": "Du bist... Ja.",
+   "scene": "Everyone freezes with mouths open 'DU BIST…'; Sam waits, awkward",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "freeze",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s065",
+   "start": 129.45,
+   "end": 130.55,
+   "line": "Was eigentlich?",
+   "scene": "bigToon SAM confused, bubble '…WAS EIGENTLICH?'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s066",
+   "start": 130.55,
+   "end": 134.2,
+   "line": "Ein Spaziergang im Park dauert normalerweise 30 Minuten.",
+   "scene": "Park wide: path through round trees, clock graphic '30 MIN'",
+   "set": "park",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s067",
+   "start": 134.2,
+   "end": 136.2,
+   "line": "Bei dir 3 Stunden.",
+   "scene": "Selfie queue all along the path, counter '3 STD'; camera slides along the queue",
+   "set": "park",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s068",
+   "start": 136.2,
+   "end": 137.3,
+   "line": "Wegen Selfies.",
+   "scene": "Insert: selfie flashes, Sam squinting",
+   "set": "park",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "flash",
+     "at": 0.2,
+     "gain": -12.0
+    },
+    {
+     "name": "flash",
+     "at": 0.6,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s069",
+   "start": 137.3,
+   "end": 140.2,
+   "line": "Minus, du kannst dich nirgends mehr verstecken.",
+   "scene": "Sam hides behind a tree, fans peek from every side; red MINUS sticker",
+   "set": "park",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 1.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s070",
+   "start": 140.2,
+   "end": 142.6,
+   "line": "Aber richtig verrückt wird es in Paris.",
+   "scene": "Paris rooftops at sunset, label 'PARIS', camera rises",
+   "set": "paris",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    },
+    {
+     "name": "riser",
+     "at": 0.6,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s071",
+   "start": 142.6,
+   "end": 144.3,
+   "line": "Eine Modenschau.",
+   "scene": "Fashion show hall wide, label 'MODENSCHAU', spotlights sweep",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s072",
+   "start": 144.3,
+   "end": 145.6,
+   "line": "200 Plätze.",
+   "scene": "Rows of seats, counter 200 'PLÄTZE'",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s073",
+   "start": 145.6,
+   "end": 147.75,
+   "line": "2000 Menschen wollen hinein.",
+   "scene": "Outside the doors: huge crowd pushing, counter 2000",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s074",
+   "start": 147.75,
+   "end": 149.4,
+   "line": "Du gehst über den Laufsteg.",
+   "scene": "Sam walks the runway, tracking side shot, audience heads turn",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "footstep",
+     "at": 0.3,
+     "gain": -14.0
+    },
+    {
+     "name": "footstep",
+     "at": 0.9,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s075",
+   "start": 149.4,
+   "end": 150.5,
+   "line": "20 Meter.",
+   "scene": "Wide from the end of the runway, label '20 m'",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "blip",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s076",
+   "start": 150.5,
+   "end": 151.9,
+   "line": "30 Sekunden.",
+   "scene": "Timer counter '30 s' over the walk",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.0,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s077",
+   "start": 151.9,
+   "end": 154.95,
+   "line": "Ein Mensch blinzelt etwa 15 Mal pro Minute.",
+   "scene": "Insert: an eye blinking, counter '15× / MIN'",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "blip",
+     "at": 0.4,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s078",
+   "start": 154.95,
+   "end": 156.8,
+   "line": "Im Saal blinzelt keiner.",
+   "scene": "Audience frozen, wide star eyes, nobody blinks",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "freeze",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s079",
+   "start": 156.8,
+   "end": 159.1,
+   "line": "Sogar der Fotograf vergisst zu knipsen.",
+   "scene": "FOTOGRAF with camera, mouth open, finger hovering, not pressing",
+   "set": "laufsteg",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s080",
+   "start": 159.1,
+   "end": 160.3,
+   "line": "Am nächsten Morgen?",
+   "scene": "Morning newsstand: every paper shows Sam, label 'AM NÄCHSTEN MORGEN'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.5,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s081",
+   "start": 160.3,
+   "end": 162.45,
+   "line": "Dein Foto läuft in 100 Ländern.",
+   "scene": "Bright world map, pins pop all over, counter 100 'LÄNDER'",
+   "set": "weltkarte",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3,
+     "gain": -14.0
+    },
+    {
+     "name": "pop",
+     "at": 0.7,
+     "gain": -14.0
+    },
+    {
+     "name": "counter",
+     "at": 0.4,
+     "gain": -16.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 162.45,
+   "end": 164.95,
+   "line": "Eine Sängerin will dich in ihrem Video.",
+   "scene": "Music studio: SAENGERIN with mic points at Sam, bubble 'IN MEIN VIDEO!'",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s083",
+   "start": 164.95,
+   "end": 167.7,
+   "line": "Ein Konzern will dein Gesicht auf Plakaten.",
+   "scene": "Crane lifts a giant poster up a building",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.6,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s084",
+   "start": 167.7,
+   "end": 169.35,
+   "line": "20 Meter hoch.",
+   "scene": "Tilt up: giant billboard of Sam's face, tiny people below, label '20 m'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "riser",
+     "at": 0.0,
+     "gain": -16.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s085",
+   "start": 169.35,
+   "end": 171.45,
+   "line": "Nur du. Und dein Lächeln.",
+   "scene": "Billboard close: Sam's huge smile shimmers",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "shimmer",
+     "at": 0.4,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s086",
+   "start": 171.45,
+   "end": 173.8,
+   "line": "Und es gibt einen Preis.",
+   "scene": "Evening: labelBox 'DER PREIS'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "name": "stinger",
+     "at": 0.2,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s087",
+   "start": 173.8,
+   "end": 175.05,
+   "line": "Den sieht keiner.",
+   "scene": "Sam alone under the billboard in the evening, nobody looks at the real Sam",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s088",
+   "start": 175.05,
+   "end": 177.1,
+   "line": "Du hörst nie wieder die Wahrheit.",
+   "scene": "Party: Sam sings off-key into a hairbrush, everyone smiles politely",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s089",
+   "start": 177.1,
+   "end": 178.55,
+   "line": "Niemand widerspricht dir.",
+   "scene": "Friends give thumbs up, star eyes",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s090",
+   "start": 178.55,
+   "end": 180.95,
+   "line": "Niemand sagt, das war schlecht.",
+   "scene": "paperNote 'DAS WAR SCHLECHT' gets crossed out",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s091",
+   "start": 180.95,
+   "end": 184.5,
+   "line": "Der Grund? Dein Anblick aktiviert ihr Belohnungssystem.",
+   "scene": "Whiteboard: simple brain drawing, area 'BELOHNUNGSSYSTEM' lights up gold",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "shimmer",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s092",
+   "start": 184.5,
+   "end": 185.9,
+   "line": "Sie wollen dir gefallen.",
+   "scene": "People crowd around Sam to please, offering cups and snacks",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s093",
+   "start": 185.9,
+   "end": 188.35,
+   "line": "Du bekommst Applaus statt Ehrlichkeit.",
+   "scene": "Applause; stickers 'APPLAUS' ≠ 'EHRLICHKEIT'",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "applause",
+     "at": 0.0,
+     "gain": -16.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s094",
+   "start": 188.35,
+   "end": 191.5,
+   "line": "Ein ganzes Jahr ohne ein einziges Nein.",
+   "scene": "Calendar counter 365 TAGE, small counter 'NEIN: 0'",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 191.5,
+   "end": 194.95,
+   "line": "Und plötzlich fragst du dich, was an dir wirklich zählt.",
+   "scene": "Night bedroom: Sam at the mirror, thinking",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   },
+   "params": {
+    "rain": true
+   }
+  },
+  {
+   "id": "s096",
+   "start": 194.95,
+   "end": 197.8,
+   "line": "Wer mag dich? Und wer nur dein Gesicht?",
+   "scene": "Mirror close: two labels 'WER MAG DICH?' / 'WER NUR DEIN GESICHT?'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "blip",
+     "at": 0.2,
+     "gain": -14.0
+    },
+    {
+     "name": "blip",
+     "at": 1.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   },
+   "params": {
+    "rain": true
+   }
+  },
+  {
+   "id": "s097",
+   "start": 197.8,
+   "end": 200.45,
+   "line": "Wer nie Fehler gezeigt bekommt, lernt nie.",
+   "scene": "Rain on the window, Sam sits alone, sad; label 'NIE FEHLER = NIE LERNEN'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   },
+   "params": {
+    "rain": true
+   }
+  },
+  {
+   "id": "s098",
+   "start": 200.45,
+   "end": 203.7,
+   "line": "Das macht einsam und gefährlich.",
+   "scene": "bigToon SAM sad, rain light on the face, label 'EINSAM'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   },
+   "params": {
+    "rain": true
+   }
+  },
+  {
+   "id": "s099",
+   "start": 203.7,
+   "end": 205.6,
+   "line": "Nur einer ist anders.",
+   "scene": "Morning: JONAS walks into the frame, hands in pockets, orange cap; push",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dipWhite",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s100",
+   "start": 205.6,
+   "end": 208.7,
+   "line": "Jonas, dein bester Freund seit der ersten Klasse.",
+   "scene": "Flashback: kid Sam and kid Jonas in front of the school, label '1. KLASSE'",
+   "set": "schoolLot",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "name": "shimmer",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s101",
+   "start": 208.7,
+   "end": 210.75,
+   "line": "Jeden Morgen klopft er an deine Tür.",
+   "scene": "Sam's front door, morning: Jonas knocks",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.5,
+     "gain": -12.0
+    },
+    {
+     "name": "hit",
+     "at": 0.8,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s102",
+   "start": 210.75,
+   "end": 212.95,
+   "line": "Dreimal kurz, einmal lang.",
+   "scene": "Insert: knuckles + knock graphic '• • • —'",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.1,
+     "gain": -12.0
+    },
+    {
+     "name": "hit",
+     "at": 0.35,
+     "gain": -12.0
+    },
+    {
+     "name": "hit",
+     "at": 0.6,
+     "gain": -12.0
+    },
+    {
+     "name": "hit",
+     "at": 1.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s103",
+   "start": 212.95,
+   "end": 216.65,
+   "line": "Dann sagt er immer dasselbe. Du siehst furchtbar aus.",
+   "scene": "Door opens, Jonas talks, bubble 'DU SIEHST FURCHTBAR AUS.'",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 1.6,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s104",
+   "start": 216.65,
+   "end": 217.6,
+   "line": "Er lügt.",
+   "scene": "bigToon JONAS sly wink — he's lying",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s105",
+   "start": 217.6,
+   "end": 219.5,
+   "line": "Und genau das liebst du.",
+   "scene": "bigToon SAM joy",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s106",
+   "start": 219.5,
+   "end": 222.45,
+   "line": "Bei ihm ist dein Gesicht nur ein Gesicht.",
+   "scene": "Two-shot: Sam and Jonas walking, Sam relaxed, no star eyes anywhere",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s107",
+   "start": 222.45,
+   "end": 224.05,
+   "line": "Er streitet mit dir über Pizza.",
+   "scene": "Living room: they argue over a pizza box, pointing",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s108",
+   "start": 224.05,
+   "end": 225.9,
+   "line": "Er lacht über deine Witze.",
+   "scene": "Sam tells a joke, Jonas laughs",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s109",
+   "start": 225.9,
+   "end": 227.6,
+   "line": "Über die schlechten noch lauter.",
+   "scene": "Bad joke: Jonas laughs even louder, falls back on the couch",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.4,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s110",
+   "start": 227.6,
+   "end": 231.1,
+   "line": "Sam, hast du heute wieder nichts gelernt?",
+   "scene": "Jonas talks: 'SAM, HAST DU HEUTE WIEDER NICHTS GELERNT?'",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s111",
+   "start": 231.1,
+   "end": 233.95,
+   "line": "Du lachst zum ersten Mal seit Wochen.",
+   "scene": "Sam laughs, joy, first time in weeks",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s112",
+   "start": 233.95,
+   "end": 237.2,
+   "line": "Er ist der Einzige der nie nach deinem Foto fragt.",
+   "scene": "Jonas with his phone face-down on the table, label 'KEIN FOTO'",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s113",
+   "start": 237.2,
+   "end": 238.75,
+   "line": "Dann kommt Herr Brandt.",
+   "scene": "Glass tower 'BRANDT AGENTUR', tilt up",
+   "set": "agentur",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    },
+    {
+     "name": "riser",
+     "at": 0.4,
+     "gain": -16.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s114",
+   "start": 238.75,
+   "end": 241.15,
+   "line": "Ihm gehört die größte Agentur der Stadt.",
+   "scene": "Top-floor office: BRANDT behind the desk, skyline, label 'GRÖSSTE AGENTUR DER STADT'",
+   "set": "agentur",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s115",
+   "start": 241.15,
+   "end": 243.75,
+   "line": "Sein Angebot? 10 Millionen Euro.",
+   "scene": "Brandt slides a contract across, counter '10.000.000 €'",
+   "set": "agentur",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s116",
+   "start": 243.75,
+   "end": 244.8,
+   "line": "3 Jahre.",
+   "scene": "Label '3 JAHRE'",
+   "set": "agentur",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.1,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s117",
+   "start": 244.8,
+   "end": 246.9,
+   "line": "Dein Gesicht auf jedem Plakat.",
+   "scene": "Montage: Sam's face on every billboard in the city",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s118",
+   "start": 246.9,
+   "end": 248.6,
+   "line": "Es gibt nur einen Haken.",
+   "scene": "bigToon BRANDT smirk; labelBox 'DER HAKEN'",
+   "set": "agentur",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "stinger",
+     "at": 0.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s119",
+   "start": 248.6,
+   "end": 250.95,
+   "line": "Jonas, Brandt beschuldigt ihn.",
+   "scene": "Brandt pins a photo of Jonas on the board, stamp 'VERDÄCHTIG'",
+   "set": "agentur",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.6,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s120",
+   "start": 250.95,
+   "end": 252.55,
+   "line": "Der Diebstahl im Studio.",
+   "scene": "Studio at night, safe door open",
+   "set": "tatort",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s121",
+   "start": 252.55,
+   "end": 253.7,
+   "line": "Um Mitternacht.",
+   "scene": "Clock '00:00'",
+   "set": "tatort",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "clock",
+     "at": 0.0,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s122",
+   "start": 253.7,
+   "end": 255.3,
+   "line": "50 .000 Euro.",
+   "scene": "Empty safe, counter '50.000 €'",
+   "set": "tatort",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.1,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s123",
+   "start": 255.3,
+   "end": 255.62,
+   "line": "Weg.",
+   "scene": "Counter smashes to 0, label 'WEG'",
+   "set": "tatort",
+   "bars": null,
+   "in": {
+    "type": "smash",
+    "dur": 0.15
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.0,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s124",
+   "start": 255.62,
+   "end": 257.4,
+   "line": "Du weißt die Wahrheit.",
+   "scene": "bigToon SAM determined",
+   "set": "agentur",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s125",
+   "start": 257.4,
+   "end": 258.85,
+   "line": "Jonas war bei dir.",
+   "scene": "Flashback night: Sam and Jonas gaming on the couch",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s126",
+   "start": 258.85,
+   "end": 260.15,
+   "line": "Die ganze Nacht.",
+   "scene": "Same, clock spins, label 'DIE GANZE NACHT'",
+   "set": "wohnzimmer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "clock",
+     "at": 0.0,
+     "gain": -16.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s127",
+   "start": 260.15,
+   "end": 261.55,
+   "line": "Die Presse wartet.",
+   "scene": "Press hall: rows of cameras, red 'LIVE' sign",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    },
+    {
+     "name": "murmur",
+     "at": 0.3,
+     "gain": -20.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s128",
+   "start": 261.55,
+   "end": 264.4,
+   "line": "Liveübertragung. 20 Millionen Zuschauer.",
+   "scene": "Counter '20.000.000 ZUSCHAUER'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s129",
+   "start": 264.4,
+   "end": 265.95,
+   "line": "Noch 60 Sekunden.",
+   "scene": "Countdown clock '60 s'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "clock",
+     "at": 0.0,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s130",
+   "start": 265.95,
+   "end": 269.0,
+   "line": "Brandt flüstert. Sag, du hast Jonas gesehen.",
+   "scene": "Backstage curtain: Brandt leans in and whispers to Sam",
+   "set": "backstage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s131",
+   "start": 269.0,
+   "end": 269.95,
+   "line": "Mit dem Geld.",
+   "scene": "Brandt talks, bubble 'MIT DEM GELD.'",
+   "set": "backstage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s132",
+   "start": 269.95,
+   "end": 271.15,
+   "line": "Dir glaubt jeder.",
+   "scene": "bigToon BRANDT sly: 'DIR GLAUBT JEDER.'",
+   "set": "backstage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s133",
+   "start": 271.15,
+   "end": 273.8,
+   "line": "Er hat recht. Das ist das Schlimmste.",
+   "scene": "bigToon SAM worried",
+   "set": "backstage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s134",
+   "start": 273.8,
+   "end": 275.9,
+   "line": "70 Herzschläge pro Minute.",
+   "scene": "Heart graphic pulsing, counter '70 / MIN'",
+   "set": "backstage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.0,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s135",
+   "start": 275.9,
+   "end": 277.95,
+   "line": "Du spürst jeden Einzelnen.",
+   "scene": "bigToon SAM, heartbeat pulse in the frame",
+   "set": "backstage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "heartbeat",
+     "at": 0.0,
+     "gain": -8.0
+    },
+    {
+     "name": "heartbeat",
+     "at": 0.9,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s136",
+   "start": 277.95,
+   "end": 280.05,
+   "line": "Dein Gesicht öffnet jede Tür.",
+   "scene": "Callback: the hallway doors swing open",
+   "set": "tueren",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s137",
+   "start": 280.05,
+   "end": 282.1,
+   "line": "Doch es beweist nichts.",
+   "scene": "Doors slam shut, label 'BEWEIST NICHTS'",
+   "set": "tueren",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.3,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s138",
+   "start": 282.1,
+   "end": 283.8,
+   "line": "Der Vertrag oder Jonas.",
+   "scene": "Split: contract (10 Mio) on the left, photo of Jonas on the right",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.0,
+     "gain": -14.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s139",
+   "start": 283.8,
+   "end": 286.15,
+   "line": "Schöne Gesichter gibt es viele.",
+   "scene": "Row of pretty faces sliding past",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s140",
+   "start": 286.15,
+   "end": 288.55,
+   "line": "Einen Jonas gibt es nur einmal.",
+   "scene": "Only Jonas stays, label 'NUR EINMAL'",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s141",
+   "start": 288.55,
+   "end": 289.85,
+   "line": "Du gehst auf die Bühne.",
+   "scene": "Sam walks onto the stage to the podium, cameras flash",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "footstep",
+     "at": 0.3,
+     "gain": -14.0
+    },
+    {
+     "name": "flash",
+     "at": 0.8,
+     "gain": -16.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s142",
+   "start": 289.85,
+   "end": 291.2,
+   "line": "Dein Mund ist trocken.",
+   "scene": "bigToon SAM nervous, swallows",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s143",
+   "start": 291.2,
+   "end": 292.35,
+   "line": "Brandt lächelt.",
+   "scene": "Brandt in the wings smiles",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s144",
+   "start": 292.35,
+   "end": 293.75,
+   "line": "Er erwartet die Lüge.",
+   "scene": "bigToon BRANDT smirk",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "riser",
+     "at": 0.0,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s145",
+   "start": 293.75,
+   "end": 295.5,
+   "line": "Du sagst die Wahrheit.",
+   "scene": "Sam at the mic, determined",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s146",
+   "start": 295.5,
+   "end": 296.75,
+   "line": "Jonas war bei mir.",
+   "scene": "Sam talks into the mic: 'JONAS WAR BEI MIR.'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "impact",
+     "at": 0.1,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s147",
+   "start": 296.75,
+   "end": 298.8,
+   "line": "Meine Türkamera hat es aufgenommen.",
+   "scene": "Sam talks: 'MEINE TÜRKAMERA…'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s148",
+   "start": 298.8,
+   "end": 300.15,
+   "line": "Du hebst dein Handy.",
+   "scene": "Sam raises the phone toward the cameras",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "swish",
+     "at": 0.2,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s149",
+   "start": 300.15,
+   "end": 303.5,
+   "line": "Die Aufnahme läuft. 23 Uhr 41.",
+   "scene": "Door-camera footage (fisheye, REC dot): timestamp '23:41'",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "blip",
+     "at": 0.2,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s150",
+   "start": 303.5,
+   "end": 304.7,
+   "line": "Dreimal kurz.",
+   "scene": "Footage: Jonas knocks '• • •'",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.1,
+     "gain": -12.0
+    },
+    {
+     "name": "hit",
+     "at": 0.35,
+     "gain": -12.0
+    },
+    {
+     "name": "hit",
+     "at": 0.6,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s151",
+   "start": 304.7,
+   "end": 305.65,
+   "line": "Einmal lang.",
+   "scene": "Footage: '—'",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s152",
+   "start": 305.65,
+   "end": 308.95,
+   "line": "Dann eine leise Stimme. Du siehst furchtbar aus.",
+   "scene": "Footage: Jonas talks quietly, bubble 'DU SIEHST FURCHTBAR AUS.'",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s153",
+   "start": 308.95,
+   "end": 311.6,
+   "line": "Und er bleibt bis 6 Uhr morgens.",
+   "scene": "Footage fast-forward: timestamp jumps to '06:00'",
+   "set": "haustuer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "tick",
+     "at": 0.0,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s154",
+   "start": 311.6,
+   "end": 312.6,
+   "line": "Der Saal wird still.",
+   "scene": "Hall silent, wide",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "freeze",
+     "at": 0.0,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s155",
+   "start": 312.6,
+   "end": 315.25,
+   "line": "20 Millionen Menschen hören.",
+   "scene": "Counter '20.000.000 HÖREN'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s156",
+   "start": 315.25,
+   "end": 316.45,
+   "line": "Einen Freund.",
+   "scene": "labelBox 'EINEN FREUND'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "at": 0.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s157",
+   "start": 316.45,
+   "end": 318.1,
+   "line": "Dann bricht Applaus los.",
+   "scene": "Applause breaks out, everyone stands",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "applause",
+     "at": 0.0,
+     "gain": -10.0
+    },
+    {
+     "name": "cheer",
+     "at": 0.3,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s158",
+   "start": 318.1,
+   "end": 319.4,
+   "line": "Brandt wird blass.",
+   "scene": "bigToon BRANDT shocked, turning pale",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "stinger",
+     "at": 0.1,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s159",
+   "start": 319.4,
+   "end": 320.8,
+   "line": "Der Vertrag platzt.",
+   "scene": "Contract rips in two, label 'VERTRAG GEPLATZT'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.3,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s160",
+   "start": 320.8,
+   "end": 322.7,
+   "line": "10 Millionen? Weg!",
+   "scene": "Counter '10 Mio' crashes to 0, 'WEG!'",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "counter",
+     "at": 0.0,
+     "gain": -14.0
+    },
+    {
+     "name": "impact",
+     "at": 1.3,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s161",
+   "start": 322.7,
+   "end": 325.55,
+   "line": "Du hättest Jonas opfern können. Alles behalten.",
+   "scene": "Sam walks off stage, reflective",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s162",
+   "start": 325.55,
+   "end": 327.45,
+   "line": "Doch dann wärst du wie Brandt.",
+   "scene": "Brandt alone in the empty wings",
+   "set": "pressesaal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s163",
+   "start": 327.45,
+   "end": 329.1,
+   "line": "Draußen wartet Jonas.",
+   "scene": "Outside at dusk: Jonas waits at the stage door",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s164",
+   "start": 329.1,
+   "end": 330.05,
+   "line": "Er grinst.",
+   "scene": "Jonas grins",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s165",
+   "start": 330.05,
+   "end": 331.9,
+   "line": "Du siehst furchtbar aus.",
+   "scene": "Jonas talks, bubble 'DU SIEHST FURCHTBAR AUS.'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s166",
+   "start": 331.9,
+   "end": 334.8,
+   "line": "Und du lachst. Richtig laut.",
+   "scene": "Sam laughs loudly, joy",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s167",
+   "start": 334.8,
+   "end": 336.6,
+   "line": "Und endlich echt.",
+   "scene": "Two-shot: both laughing, real",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s168",
+   "start": 336.6,
+   "end": 339.0,
+   "line": "Er sagt, das war leichtsinnig.",
+   "scene": "Jonas wags a finger: 'DAS WAR LEICHTSINNIG.'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s169",
+   "start": 339.0,
+   "end": 343.85,
+   "line": "Endlich widerspricht er jemand. Und es fühlt sich wunderbar an.",
+   "scene": "bigToon SAM joy, warm sunset glow",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "shimmer",
+     "at": 0.5,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s170",
+   "start": 343.85,
+   "end": 345.7,
+   "line": "Schöne Gesichter gibt es viele.",
+   "scene": "Both walk away into the sunset, label 'SCHÖNE GESICHTER GIBT ES VIELE.'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s171",
+   "start": 345.7,
+   "end": 348.3,
+   "line": "Einen Jonas gibt es nur einmal.",
+   "scene": "Wide: label 'EINEN JONAS GIBT ES NUR EINMAL.'",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s172",
+   "start": 348.3,
+   "end": 350.25,
+   "line": "Und was ist davon wahr?",
+   "scene": "labelBox 'FAKTEN-CHECK' on the whiteboard",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "at": 0.0,
+     "gain": -10.0
+    },
+    {
+     "name": "pop",
+     "at": 0.4,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s173",
+   "start": 350.25,
+   "end": 352.75,
+   "line": "Schönheit öffnet tatsächlich Türen.",
+   "scene": "Board: 'SCHÖNHEIT ÖFFNET TÜREN' ✓",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "at": 0.4,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s174",
+   "start": 352.75,
+   "end": 357.75,
+   "line": "1972 zeigten Dion, Berscheid und Walster genau das.",
+   "scene": "paperNote 'Dion, Berscheid & Walster 1972'",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s175",
+   "start": 357.75,
+   "end": 361.15,
+   "line": "Attraktive Menschen gelten als klüger und freundlicher.",
+   "scene": "Labels 'KLÜGER' 'FREUNDLICHER' over a stick face",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.4,
+     "gain": -14.0
+    },
+    {
+     "name": "pop",
+     "at": 1.4,
+     "gain": -14.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s176",
+   "start": 361.15,
+   "end": 363.4,
+   "line": "1990 fanden Langlois",
+   "scene": "paperNote 'Langlois & Roggman 1990'",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s177",
+   "start": 363.4,
+   "end": 367.1,
+   "line": "und Rockmann, gemittelte Gesichter wirken anziehender.",
+   "scene": "Three faces slide together into one averaged face",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "shimmer",
+     "at": 0.6,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s178",
+   "start": 367.1,
+   "end": 371.4,
+   "line": "Für den goldenen Schnitt als Schönheitsformel gibt es keinen sicheren Beleg.",
+   "scene": "Golden spiral drawn, stamp 'KEIN SICHERER BELEG' ✗",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 1.5,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s179",
+   "start": 371.4,
+   "end": 374.0,
+   "line": "Und ein Gesicht beweist keine Ehrlichkeit.",
+   "scene": "'EHRLICHKEIT' ✗",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.4,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s180",
+   "start": 374.0,
+   "end": 375.85,
+   "line": "Es macht dich nur glaubwürdiger.",
+   "scene": "'GLAUBWÜRDIGER' ✓",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "at": 0.3,
+     "gain": -12.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s181",
+   "start": 375.85,
+   "end": 377.7,
+   "line": "Der Rest ist Fiktion.",
+   "scene": "Stamp 'DER REST IST FIKTION'",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "hit",
+     "at": 0.3,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s182",
+   "start": 377.7,
+   "end": 380.65,
+   "line": "Aber was bedeutet eigentlich schön?",
+   "scene": "toonTitle 'WAS IST SCHÖN?'",
+   "set": "regel",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s183",
+   "start": 380.65,
+   "end": 382.55,
+   "line": "Nachts vibriert dein Handy.",
+   "scene": "Night bedroom: phone vibrates on the nightstand",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "name": "phonebuzz",
+     "at": 0.2,
+     "gain": -8.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s184",
+   "start": 382.55,
+   "end": 383.75,
+   "line": "Unbekannte Nummer.",
+   "scene": "Phone insert: 'UNBEKANNTE NUMMER'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "phonebuzz",
+     "at": 0.0,
+     "gain": -10.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s185",
+   "start": 383.75,
+   "end": 385.3,
+   "line": "Eine Stimme flüstert.",
+   "scene": "Silhouette in shadow whispering into a phone",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s186",
+   "start": 385.3,
+   "end": 386.45,
+   "line": "Gut gemacht.",
+   "scene": "Bubble 'GUT GEMACHT.'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s187",
+   "start": 386.45,
+   "end": 389.1,
+   "line": "Aber du bist nicht der Einzige mit diesem Gesicht.",
+   "scene": "bigToon SAM shocked; a second silhouette with the same shape in the window; smash",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "smash",
+    "dur": 0.15
+   },
+   "sfx": [
+    {
+     "name": "stinger",
+     "at": 0.0,
+     "gain": -6.0
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s188",
+   "start": 389.1,
+   "end": 391.95,
+   "line": "Was denkst du? Schreib es uns in die Kommentare.",
+   "scene": "toonEnd 'WAS DENKST DU?' + cast line-up (Sam, Jonas, Leo, Brandt), comments icon",
+   "set": "endscreen",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.8
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.4,
+     "gain": -10.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s189",
+   "start": 391.95,
+   "end": 395.25,
+   "line": "Und sag uns, welche Superkraft wir als nächstes machen sollen.",
+   "scene": "Label 'WELCHE SUPERKRAFT ALS NÄCHSTES?'",
+   "set": "endscreen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "pop",
+     "at": 0.2,
+     "gain": -10.0
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s190",
+   "start": 395.25,
+   "end": 400.05,
+   "line": "Lass ein Like da. Und abonniere für Teil 2.",
+   "scene": "Subscribe pill + like, label 'TEIL 2'",
+   "set": "endscreen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "at": 0.3,
+     "gain": -10.0
+    }
+   ],
+   "notes": ""
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 47.6,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 47.6,
+   "end": 52.5,
+   "mood": "wonder",
+   "intensity": 0.6
+  },
+  {
+   "start": 52.5,
+   "end": 140.2,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 140.2,
+   "end": 171.4,
+   "mood": "wonder",
+   "intensity": 0.65
+  },
+  {
+   "start": 171.4,
+   "end": 203.6,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 203.6,
+   "end": 237.2,
+   "mood": "hopeful",
+   "intensity": 0.4
+  },
+  {
+   "start": 237.2,
+   "end": 288.5,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 288.5,
+   "end": 311.5,
+   "mood": "tension",
+   "intensity": 0.8
+  },
+  {
+   "start": 311.5,
+   "end": 327.4,
+   "mood": "triumph",
+   "intensity": 0.6
+  },
+  {
+   "start": 327.4,
+   "end": 348.3,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 348.3,
+   "end": 380.6,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 380.6,
+   "end": 389.0,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 389.0,
+   "end": 400.05,
+   "mood": "playful",
+   "intensity": 0.4
+  }
+ ],
+ "sfx": []
+}

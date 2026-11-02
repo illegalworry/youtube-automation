@@ -1,0 +1,1034 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 0.0,
+  "speechEnd": 1.06,
+  "text": "Du steigst in den Bus.",
+  "end": 1.59
+ },
+ {
+  "i": 1,
+  "start": 1.59,
+  "speechStart": 1.74,
+  "speechEnd": 2.98,
+  "text": "Das Gespräch verstummt.",
+  "end": 3.23
+ },
+ {
+  "i": 2,
+  "start": 3.23,
+  "speechStart": 3.38,
+  "speechEnd": 5.0,
+  "text": "Der Fahrer vergisst zu blinken.",
+  "end": 5.29
+ },
+ {
+  "i": 3,
+  "start": 5.29,
+  "speechStart": 5.44,
+  "speechEnd": 10.22,
+  "text": "Ein Kind lässt sein Eis fallen. Und start dich an. Ein Fremder springt auf.",
+  "end": 10.53
+ },
+ {
+  "i": 4,
+  "start": 10.53,
+  "speechStart": 10.68,
+  "speechEnd": 12.0,
+  "text": "Erbietet dir seinen Platz an.",
+  "end": 12.27
+ },
+ {
+  "i": 5,
+  "start": 12.27,
+  "speechStart": 12.42,
+  "speechEnd": 13.84,
+  "text": "Du hast noch nicht mal Hallo gesagt.",
+  "end": 14.35
+ },
+ {
+  "i": 6,
+  "start": 14.35,
+  "speechStart": 14.5,
+  "speechEnd": 16.68,
+  "text": "In der Bäckerei bestellst du zwei Brötchen.",
+  "end": 16.93
+ },
+ {
+  "i": 7,
+  "start": 16.93,
+  "speechStart": 17.08,
+  "speechEnd": 22.22,
+  "text": "Die Verkäuferin packt drei ein. Und kassiert nichts. Dein Kaffee? Gratis.",
+  "end": 22.43
+ },
+ {
+  "i": 8,
+  "start": 22.43,
+  "speechStart": 22.58,
+  "speechEnd": 24.68,
+  "text": "Dein Bus wartet extra auf dich.",
+  "end": 25.03
+ },
+ {
+  "i": 9,
+  "start": 25.03,
+  "speechStart": 25.18,
+  "speechEnd": 28.3,
+  "text": "Ein normaler Mensch wird in einer Zehntelsekunde eingeschätzt.",
+  "end": 28.15
+ },
+ {
+  "i": 10,
+  "start": 28.15,
+  "speechStart": 28.3,
+  "speechEnd": 31.82,
+  "text": "Das zeigten Willis und Todorov 2006. Du?",
+  "end": 31.97
+ },
+ {
+  "i": 11,
+  "start": 31.97,
+  "speechStart": 32.12,
+  "speechEnd": 35.64,
+  "text": "Du wirst in dieser Zeit bewundert. Hier ist die Regel.",
+  "end": 35.97
+ },
+ {
+  "i": 12,
+  "start": 35.97,
+  "speechStart": 36.12,
+  "speechEnd": 37.94,
+  "text": "Dein Gesicht öffnet jede Tür.",
+  "end": 38.23
+ },
+ {
+  "i": 13,
+  "start": 38.23,
+  "speechStart": 38.38,
+  "speechEnd": 45.02,
+  "text": "Aber es beweist nichts. Nicht dein Können. Nicht deine Ehrlichkeit. Nicht die Wahrheit. Alle glauben dir.",
+  "end": 45.35
+ },
+ {
+  "i": 14,
+  "start": 45.35,
+  "speechStart": 45.5,
+  "speechEnd": 47.22,
+  "text": "Aber Glauben ist kein Beweis.",
+  "end": 47.59
+ },
+ {
+  "i": 15,
+  "start": 47.59,
+  "speechStart": 47.74,
+  "speechEnd": 50.42,
+  "text": "Also was, wenn du der schönste Mensch der Welt wärst?",
+  "end": 50.55
+ },
+ {
+  "i": 16,
+  "start": 50.55,
+  "speechStart": 50.7,
+  "speechEnd": 52.16,
+  "text": "Und was, wenn das nicht reicht?",
+  "end": 52.55
+ },
+ {
+  "i": 17,
+  "start": 52.55,
+  "speechStart": 52.7,
+  "speechEnd": 54.96,
+  "text": "Plus, dein Lehrer gibt dir eine Eins.",
+  "end": 55.21
+ },
+ {
+  "i": 18,
+  "start": 55.21,
+  "speechStart": 55.36,
+  "speechEnd": 57.04,
+  "text": "Dein Aufsatz hat vier Fehler.",
+  "end": 56.89
+ },
+ {
+  "i": 19,
+  "start": 56.89,
+  "speechStart": 57.04,
+  "speechEnd": 60.58,
+  "text": "Minus, du fragst dich, ob du sie verdient hast.",
+  "end": 60.87
+ },
+ {
+  "i": 20,
+  "start": 60.87,
+  "speechStart": 61.02,
+  "speechEnd": 63.08,
+  "text": "Forscher nennen das den Halo Effekt.",
+  "end": 63.27
+ },
+ {
+  "i": 21,
+  "start": 63.27,
+  "speechStart": 63.42,
+  "speechEnd": 67.94,
+  "text": "Schöne Menschen wirken klüger, netter, ehrlicher. Auch wenn sie es nicht sind.",
+  "end": 68.25
+ },
+ {
+  "i": 22,
+  "start": 68.25,
+  "speechStart": 68.4,
+  "speechEnd": 72.78,
+  "text": "Dann kommt der Bewerbungstag. Du betrittst das Büro. Der Chef lächelt schon.",
+  "end": 72.99
+ },
+ {
+  "i": 23,
+  "start": 72.99,
+  "speechStart": 73.14,
+  "speechEnd": 74.94,
+  "text": "Er hat deinen Lebenslauf noch nicht gelesen.",
+  "end": 75.17
+ },
+ {
+  "i": 24,
+  "start": 75.17,
+  "speechStart": 75.32,
+  "speechEnd": 76.58,
+  "text": "Die Stelle gehört dir.",
+  "end": 76.87
+ },
+ {
+  "i": 25,
+  "start": 76.87,
+  "speechStart": 77.02,
+  "speechEnd": 83.24,
+  "text": "Leo, dein neuer Kollege, flüstert. Wie machst du das? Du zuckst mit den Schultern. Ich hab nichts gemacht.",
+  "end": 83.55
+ },
+ {
+  "i": 26,
+  "start": 83.55,
+  "speechStart": 83.7,
+  "speechEnd": 85.96,
+  "text": "Im Restaurant bekommst du den besten Tisch.",
+  "end": 85.81
+ },
+ {
+  "i": 27,
+  "start": 85.81,
+  "speechStart": 85.96,
+  "speechEnd": 87.52,
+  "text": "Und ein Dessert aufs Haus.",
+  "end": 87.93
+ },
+ {
+  "i": 28,
+  "start": 87.93,
+  "speechStart": 88.08,
+  "speechEnd": 89.94,
+  "text": "Der Kellner stolpert über Jonas Fuß.",
+  "end": 90.25
+ },
+ {
+  "i": 29,
+  "start": 90.25,
+  "speechStart": 90.4,
+  "speechEnd": 91.72,
+  "text": "Und entschuldigt sich bei dir.",
+  "end": 91.99
+ },
+ {
+  "i": 30,
+  "start": 91.99,
+  "speechStart": 92.14,
+  "speechEnd": 94.78,
+  "text": "Jonas, dein bester Freund, hebt die Augenbrauen.",
+  "end": 95.07
+ },
+ {
+  "i": 31,
+  "start": 95.07,
+  "speechStart": 95.22,
+  "speechEnd": 96.7,
+  "text": "Hallo, das war mein Fuß.",
+  "end": 97.17
+ },
+ {
+  "i": 32,
+  "start": 97.17,
+  "speechStart": 97.32,
+  "speechEnd": 99.0,
+  "text": "Dann dein erstes Foto im Netz.",
+  "end": 99.25
+ },
+ {
+  "i": 33,
+  "start": 99.25,
+  "speechStart": 99.4,
+  "speechEnd": 101.16,
+  "text": "Um acht Uhr abends postest du es.",
+  "end": 101.29
+ },
+ {
+  "i": 34,
+  "start": 101.29,
+  "speechStart": 101.44,
+  "speechEnd": 103.56,
+  "text": "Um neun hast du hunderttausend Likes.",
+  "end": 103.79
+ },
+ {
+  "i": 35,
+  "start": 103.79,
+  "speechStart": 103.94,
+  "speechEnd": 107.3,
+  "text": "Um Mitternacht eine Million. Dein Akku leer.",
+  "end": 107.63
+ },
+ {
+  "i": 36,
+  "start": 107.63,
+  "speechStart": 107.78,
+  "speechEnd": 109.1,
+  "text": "Deine Mailbox voll.",
+  "end": 109.37
+ },
+ {
+  "i": 37,
+  "start": 109.37,
+  "speechStart": 109.52,
+  "speechEnd": 111.26,
+  "text": "Plus, dein Konto füllt sich.",
+  "end": 111.47
+ },
+ {
+  "i": 38,
+  "start": 111.47,
+  "speechStart": 111.62,
+  "speechEnd": 113.96,
+  "text": "Minus, keiner fragt, was du denkst.",
+  "end": 113.81
+ },
+ {
+  "i": 39,
+  "start": 113.81,
+  "speechStart": 113.96,
+  "speechEnd": 116.06,
+  "text": "Auf der Straße bleibt ein Mann stehen.",
+  "end": 116.29
+ },
+ {
+  "i": 40,
+  "start": 116.29,
+  "speechStart": 116.44,
+  "speechEnd": 120.6,
+  "text": "Er filmt dich, ohne zu fragen. Dann eine Frau. Dann eine Gruppe.",
+  "end": 120.83
+ },
+ {
+  "i": 41,
+  "start": 120.83,
+  "speechStart": 120.98,
+  "speechEnd": 123.34,
+  "text": "Nach einer Minute sind es 30 Handys.",
+  "end": 123.47
+ },
+ {
+  "i": 42,
+  "start": 123.47,
+  "speechStart": 123.62,
+  "speechEnd": 130.1,
+  "text": "Und immer dieselben Sätze. Du bist wunderschön. Du bist perfekt. Du bist... Ja. Was eigentlich?",
+  "end": 130.57
+ },
+ {
+  "i": 43,
+  "start": 130.57,
+  "speechStart": 130.72,
+  "speechEnd": 133.88,
+  "text": "Ein Spaziergang im Park dauert normalerweise 30 Minuten.",
+  "end": 134.21
+ },
+ {
+  "i": 44,
+  "start": 134.21,
+  "speechStart": 134.36,
+  "speechEnd": 137.1,
+  "text": "Bei dir 3 Stunden. Wegen Selfies.",
+  "end": 137.33
+ },
+ {
+  "i": 45,
+  "start": 137.33,
+  "speechStart": 137.48,
+  "speechEnd": 139.94,
+  "text": "Minus, du kannst dich nirgends mehr verstecken.",
+  "end": 140.21
+ },
+ {
+  "i": 46,
+  "start": 140.21,
+  "speechStart": 140.36,
+  "speechEnd": 142.76,
+  "text": "Aber richtig verrückt wird es in Paris.",
+  "end": 142.61
+ },
+ {
+  "i": 47,
+  "start": 142.61,
+  "speechStart": 142.76,
+  "speechEnd": 145.42,
+  "text": "Eine Modenschau. 200 Plätze.",
+  "end": 145.61
+ },
+ {
+  "i": 48,
+  "start": 145.61,
+  "speechStart": 145.76,
+  "speechEnd": 147.62,
+  "text": "2000 Menschen wollen hinein.",
+  "end": 147.75
+ },
+ {
+  "i": 49,
+  "start": 147.75,
+  "speechStart": 147.9,
+  "speechEnd": 151.7,
+  "text": "Du gehst über den Laufsteg. 20 Meter. 30 Sekunden.",
+  "end": 151.89
+ },
+ {
+  "i": 50,
+  "start": 151.89,
+  "speechStart": 152.04,
+  "speechEnd": 154.68,
+  "text": "Ein Mensch blinzelt etwa 15 Mal pro Minute.",
+  "end": 154.97
+ },
+ {
+  "i": 51,
+  "start": 154.97,
+  "speechStart": 155.12,
+  "speechEnd": 156.5,
+  "text": "Im Saal blinzelt keiner.",
+  "end": 156.79
+ },
+ {
+  "i": 52,
+  "start": 156.79,
+  "speechStart": 156.94,
+  "speechEnd": 160.04,
+  "text": "Sogar der Fotograf vergisst zu knipsen. Am nächsten Morgen?",
+  "end": 160.29
+ },
+ {
+  "i": 53,
+  "start": 160.29,
+  "speechStart": 160.44,
+  "speechEnd": 162.2,
+  "text": "Dein Foto läuft in 100 Ländern.",
+  "end": 162.45
+ },
+ {
+  "i": 54,
+  "start": 162.45,
+  "speechStart": 162.6,
+  "speechEnd": 164.58,
+  "text": "Eine Sängerin will dich in ihrem Video.",
+  "end": 164.97
+ },
+ {
+  "i": 55,
+  "start": 164.97,
+  "speechStart": 165.12,
+  "speechEnd": 167.44,
+  "text": "Ein Konzern will dein Gesicht auf Plakaten.",
+  "end": 167.71
+ },
+ {
+  "i": 56,
+  "start": 167.71,
+  "speechStart": 167.86,
+  "speechEnd": 171.58,
+  "text": "20 Meter hoch. Nur du. Und dein Lächeln.",
+  "end": 171.43
+ },
+ {
+  "i": 57,
+  "start": 171.43,
+  "speechStart": 171.58,
+  "speechEnd": 174.66,
+  "text": "Und es gibt einen Preis. Den sieht keiner.",
+  "end": 175.03
+ },
+ {
+  "i": 58,
+  "start": 175.03,
+  "speechStart": 175.18,
+  "speechEnd": 178.38,
+  "text": "Du hörst nie wieder die Wahrheit. Niemand widerspricht dir.",
+  "end": 178.55
+ },
+ {
+  "i": 59,
+  "start": 178.55,
+  "speechStart": 178.7,
+  "speechEnd": 181.42,
+  "text": "Niemand sagt, das war schlecht. Der Grund?",
+  "end": 181.81
+ },
+ {
+  "i": 60,
+  "start": 181.81,
+  "speechStart": 181.96,
+  "speechEnd": 185.5,
+  "text": "Dein Anblick aktiviert ihr Belohnungssystem. Sie wollen dir gefallen.",
+  "end": 185.93
+ },
+ {
+  "i": 61,
+  "start": 185.93,
+  "speechStart": 186.08,
+  "speechEnd": 188.14,
+  "text": "Du bekommst Applaus statt Ehrlichkeit.",
+  "end": 188.35
+ },
+ {
+  "i": 62,
+  "start": 188.35,
+  "speechStart": 188.5,
+  "speechEnd": 191.12,
+  "text": "Ein ganzes Jahr ohne ein einziges Nein.",
+  "end": 191.49
+ },
+ {
+  "i": 63,
+  "start": 191.49,
+  "speechStart": 191.64,
+  "speechEnd": 197.4,
+  "text": "Und plötzlich fragst du dich, was an dir wirklich zählt. Wer mag dich? Und wer nur dein Gesicht?",
+  "end": 197.81
+ },
+ {
+  "i": 64,
+  "start": 197.81,
+  "speechStart": 197.96,
+  "speechEnd": 200.62,
+  "text": "Wer nie Fehler gezeigt bekommt, lernt nie.",
+  "end": 200.47
+ },
+ {
+  "i": 65,
+  "start": 200.47,
+  "speechStart": 200.62,
+  "speechEnd": 204.96,
+  "text": "Das macht einsam und gefährlich. Nur einer ist anders.",
+  "end": 205.59
+ },
+ {
+  "i": 66,
+  "start": 205.59,
+  "speechStart": 205.74,
+  "speechEnd": 208.34,
+  "text": "Jonas, dein bester Freund seit der ersten Klasse.",
+  "end": 208.69
+ },
+ {
+  "i": 67,
+  "start": 208.69,
+  "speechStart": 208.84,
+  "speechEnd": 210.5,
+  "text": "Jeden Morgen klopft er an deine Tür.",
+  "end": 210.73
+ },
+ {
+  "i": 68,
+  "start": 210.73,
+  "speechStart": 210.88,
+  "speechEnd": 212.68,
+  "text": "Dreimal kurz, einmal lang.",
+  "end": 212.93
+ },
+ {
+  "i": 69,
+  "start": 212.93,
+  "speechStart": 213.08,
+  "speechEnd": 214.48,
+  "text": "Dann sagt er immer dasselbe.",
+  "end": 214.71
+ },
+ {
+  "i": 70,
+  "start": 214.71,
+  "speechStart": 214.86,
+  "speechEnd": 217.32,
+  "text": "Du siehst furchtbar aus. Er lügt.",
+  "end": 217.61
+ },
+ {
+  "i": 71,
+  "start": 217.61,
+  "speechStart": 217.76,
+  "speechEnd": 219.28,
+  "text": "Und genau das liebst du.",
+  "end": 219.47
+ },
+ {
+  "i": 72,
+  "start": 219.47,
+  "speechStart": 219.62,
+  "speechEnd": 222.12,
+  "text": "Bei ihm ist dein Gesicht nur ein Gesicht.",
+  "end": 222.47
+ },
+ {
+  "i": 73,
+  "start": 222.47,
+  "speechStart": 222.62,
+  "speechEnd": 224.1,
+  "text": "Er streitet mit dir über Pizza.",
+  "end": 224.41
+ },
+ {
+  "i": 74,
+  "start": 224.41,
+  "speechStart": 224.56,
+  "speechEnd": 225.86,
+  "text": "Er lacht über deine Witze.",
+  "end": 226.03
+ },
+ {
+  "i": 75,
+  "start": 226.03,
+  "speechStart": 226.18,
+  "speechEnd": 227.74,
+  "text": "Über die schlechten noch lauter.",
+  "end": 227.59
+ },
+ {
+  "i": 76,
+  "start": 227.59,
+  "speechStart": 227.74,
+  "speechEnd": 230.8,
+  "text": "Sam, hast du heute wieder nichts gelernt?",
+  "end": 231.13
+ },
+ {
+  "i": 77,
+  "start": 231.13,
+  "speechStart": 231.28,
+  "speechEnd": 233.7,
+  "text": "Du lachst zum ersten Mal seit Wochen.",
+  "end": 234.05
+ },
+ {
+  "i": 78,
+  "start": 234.05,
+  "speechStart": 234.2,
+  "speechEnd": 236.98,
+  "text": "Er ist der Einzige der nie nach deinem Foto fragt.",
+  "end": 237.23
+ },
+ {
+  "i": 79,
+  "start": 237.23,
+  "speechStart": 237.38,
+  "speechEnd": 238.84,
+  "text": "Dann kommt Herr Brandt.",
+  "end": 238.75
+ },
+ {
+  "i": 80,
+  "start": 238.75,
+  "speechStart": 238.9,
+  "speechEnd": 244.48,
+  "text": "Ihm gehört die größte Agentur der Stadt. Sein Angebot? 10 Millionen Euro. 3 Jahre.",
+  "end": 244.81
+ },
+ {
+  "i": 81,
+  "start": 244.81,
+  "speechStart": 244.96,
+  "speechEnd": 246.54,
+  "text": "Dein Gesicht auf jedem Plakat.",
+  "end": 246.89
+ },
+ {
+  "i": 82,
+  "start": 246.89,
+  "speechStart": 247.04,
+  "speechEnd": 248.28,
+  "text": "Es gibt nur einen Haken.",
+  "end": 248.61
+ },
+ {
+  "i": 83,
+  "start": 248.61,
+  "speechStart": 248.76,
+  "speechEnd": 250.68,
+  "text": "Jonas, Brandt beschuldigt ihn.",
+  "end": 250.95
+ },
+ {
+  "i": 84,
+  "start": 250.95,
+  "speechStart": 251.1,
+  "speechEnd": 255.66,
+  "text": "Der Diebstahl im Studio. Um Mitternacht. 50 .000 Euro. Weg.",
+  "end": 255.51
+ },
+ {
+  "i": 85,
+  "start": 255.51,
+  "speechStart": 255.66,
+  "speechEnd": 262.44,
+  "text": "Du weißt die Wahrheit. Jonas war bei dir. Die ganze Nacht. Die Presse wartet. Liveübertragung.",
+  "end": 262.57
+ },
+ {
+  "i": 86,
+  "start": 262.57,
+  "speechStart": 262.72,
+  "speechEnd": 264.24,
+  "text": "20 Millionen Zuschauer.",
+  "end": 264.43
+ },
+ {
+  "i": 87,
+  "start": 264.43,
+  "speechStart": 264.58,
+  "speechEnd": 266.88,
+  "text": "Noch 60 Sekunden. Brandt flüstert.",
+  "end": 267.15
+ },
+ {
+  "i": 88,
+  "start": 267.15,
+  "speechStart": 267.3,
+  "speechEnd": 273.52,
+  "text": "Sag, du hast Jonas gesehen. Mit dem Geld. Dir glaubt jeder. Er hat recht. Das ist das Schlimmste.",
+  "end": 273.83
+ },
+ {
+  "i": 89,
+  "start": 273.83,
+  "speechStart": 273.98,
+  "speechEnd": 275.6,
+  "text": "70 Herzschläge pro Minute.",
+  "end": 275.93
+ },
+ {
+  "i": 90,
+  "start": 275.93,
+  "speechStart": 276.08,
+  "speechEnd": 277.7,
+  "text": "Du spürst jeden Einzelnen.",
+  "end": 277.99
+ },
+ {
+  "i": 91,
+  "start": 277.99,
+  "speechStart": 278.14,
+  "speechEnd": 279.82,
+  "text": "Dein Gesicht öffnet jede Tür.",
+  "end": 280.05
+ },
+ {
+  "i": 92,
+  "start": 280.05,
+  "speechStart": 280.2,
+  "speechEnd": 281.72,
+  "text": "Doch es beweist nichts.",
+  "end": 282.13
+ },
+ {
+  "i": 93,
+  "start": 282.13,
+  "speechStart": 282.28,
+  "speechEnd": 283.98,
+  "text": "Der Vertrag oder Jonas.",
+  "end": 283.83
+ },
+ {
+  "i": 94,
+  "start": 283.83,
+  "speechStart": 283.98,
+  "speechEnd": 285.96,
+  "text": "Schöne Gesichter gibt es viele.",
+  "end": 286.17
+ },
+ {
+  "i": 95,
+  "start": 286.17,
+  "speechStart": 286.32,
+  "speechEnd": 292.1,
+  "text": "Einen Jonas gibt es nur einmal. Du gehst auf die Bühne. Dein Mund ist trocken. Brandt lächelt.",
+  "end": 292.35
+ },
+ {
+  "i": 96,
+  "start": 292.35,
+  "speechStart": 292.5,
+  "speechEnd": 293.54,
+  "text": "Er erwartet die Lüge.",
+  "end": 293.79
+ },
+ {
+  "i": 97,
+  "start": 293.79,
+  "speechStart": 293.94,
+  "speechEnd": 296.58,
+  "text": "Du sagst die Wahrheit. Jonas war bei mir.",
+  "end": 296.79
+ },
+ {
+  "i": 98,
+  "start": 296.79,
+  "speechStart": 296.94,
+  "speechEnd": 301.1,
+  "text": "Meine Türkamera hat es aufgenommen. Du hebst dein Handy. Die Aufnahme läuft.",
+  "end": 301.43
+ },
+ {
+  "i": 99,
+  "start": 301.43,
+  "speechStart": 301.58,
+  "speechEnd": 305.4,
+  "text": "23 Uhr 41. Dreimal kurz. Einmal lang.",
+  "end": 305.69
+ },
+ {
+  "i": 100,
+  "start": 305.69,
+  "speechStart": 305.84,
+  "speechEnd": 307.04,
+  "text": "Dann eine leise Stimme.",
+  "end": 307.31
+ },
+ {
+  "i": 101,
+  "start": 307.31,
+  "speechStart": 307.46,
+  "speechEnd": 308.74,
+  "text": "Du siehst furchtbar aus.",
+  "end": 308.99
+ },
+ {
+  "i": 102,
+  "start": 308.99,
+  "speechStart": 309.14,
+  "speechEnd": 312.74,
+  "text": "Und er bleibt bis 6 Uhr morgens. Der Saal wird still.",
+  "end": 312.59
+ },
+ {
+  "i": 103,
+  "start": 312.59,
+  "speechStart": 312.74,
+  "speechEnd": 319.12,
+  "text": "20 Millionen Menschen hören. Einen Freund. Dann bricht Applaus los. Brandt wird blass.",
+  "end": 319.39
+ },
+ {
+  "i": 104,
+  "start": 319.39,
+  "speechStart": 319.54,
+  "speechEnd": 322.4,
+  "text": "Der Vertrag platzt. 10 Millionen? Weg!",
+  "end": 322.73
+ },
+ {
+  "i": 105,
+  "start": 322.73,
+  "speechStart": 322.88,
+  "speechEnd": 325.3,
+  "text": "Du hättest Jonas opfern können. Alles behalten.",
+  "end": 325.57
+ },
+ {
+  "i": 106,
+  "start": 325.57,
+  "speechStart": 325.72,
+  "speechEnd": 329.7,
+  "text": "Doch dann wärst du wie Brandt. Draußen wartet Jonas. Er grinst.",
+  "end": 330.07
+ },
+ {
+  "i": 107,
+  "start": 330.07,
+  "speechStart": 330.22,
+  "speechEnd": 331.7,
+  "text": "Du siehst furchtbar aus.",
+  "end": 331.91
+ },
+ {
+  "i": 108,
+  "start": 331.91,
+  "speechStart": 332.06,
+  "speechEnd": 336.12,
+  "text": "Und du lachst. Richtig laut. Und endlich echt.",
+  "end": 336.61
+ },
+ {
+  "i": 109,
+  "start": 336.61,
+  "speechStart": 336.76,
+  "speechEnd": 338.8,
+  "text": "Er sagt, das war leichtsinnig.",
+  "end": 339.01
+ },
+ {
+  "i": 110,
+  "start": 339.01,
+  "speechStart": 339.16,
+  "speechEnd": 340.7,
+  "text": "Endlich widerspricht er jemand.",
+  "end": 340.55
+ },
+ {
+  "i": 111,
+  "start": 340.55,
+  "speechStart": 340.7,
+  "speechEnd": 343.44,
+  "text": "Und es fühlt sich wunderbar an.",
+  "end": 343.87
+ },
+ {
+  "i": 112,
+  "start": 343.87,
+  "speechStart": 344.02,
+  "speechEnd": 345.42,
+  "text": "Schöne Gesichter gibt es viele.",
+  "end": 345.69
+ },
+ {
+  "i": 113,
+  "start": 345.69,
+  "speechStart": 345.84,
+  "speechEnd": 347.74,
+  "text": "Einen Jonas gibt es nur einmal.",
+  "end": 348.29
+ },
+ {
+  "i": 114,
+  "start": 348.29,
+  "speechStart": 348.44,
+  "speechEnd": 349.82,
+  "text": "Und was ist davon wahr?",
+  "end": 350.25
+ },
+ {
+  "i": 115,
+  "start": 350.25,
+  "speechStart": 350.4,
+  "speechEnd": 352.44,
+  "text": "Schönheit öffnet tatsächlich Türen.",
+  "end": 352.75
+ },
+ {
+  "i": 116,
+  "start": 352.75,
+  "speechStart": 352.9,
+  "speechEnd": 357.38,
+  "text": "1972 zeigten Dion, Berscheid und Walster genau das.",
+  "end": 357.73
+ },
+ {
+  "i": 117,
+  "start": 357.73,
+  "speechStart": 357.88,
+  "speechEnd": 360.8,
+  "text": "Attraktive Menschen gelten als klüger und freundlicher.",
+  "end": 361.17
+ },
+ {
+  "i": 118,
+  "start": 361.17,
+  "speechStart": 361.32,
+  "speechEnd": 366.68,
+  "text": "1990 fanden Langlois und Rockmann, gemittelte Gesichter wirken anziehender.",
+  "end": 367.11
+ },
+ {
+  "i": 119,
+  "start": 367.11,
+  "speechStart": 367.26,
+  "speechEnd": 371.08,
+  "text": "Für den goldenen Schnitt als Schönheitsformel gibt es keinen sicheren Beleg.",
+  "end": 371.39
+ },
+ {
+  "i": 120,
+  "start": 371.39,
+  "speechStart": 371.54,
+  "speechEnd": 373.78,
+  "text": "Und ein Gesicht beweist keine Ehrlichkeit.",
+  "end": 374.01
+ },
+ {
+  "i": 121,
+  "start": 374.01,
+  "speechStart": 374.16,
+  "speechEnd": 375.56,
+  "text": "Es macht dich nur glaubwürdiger.",
+  "end": 375.83
+ },
+ {
+  "i": 122,
+  "start": 375.83,
+  "speechStart": 375.98,
+  "speechEnd": 377.36,
+  "text": "Der Rest ist Fiktion.",
+  "end": 377.69
+ },
+ {
+  "i": 123,
+  "start": 377.69,
+  "speechStart": 377.84,
+  "speechEnd": 380.18,
+  "text": "Aber was bedeutet eigentlich schön?",
+  "end": 380.67
+ },
+ {
+  "i": 124,
+  "start": 380.67,
+  "speechStart": 380.82,
+  "speechEnd": 385.98,
+  "text": "Nachts vibriert dein Handy. Unbekannte Nummer. Eine Stimme flüstert. Gut gemacht.",
+  "end": 386.45
+ },
+ {
+  "i": 125,
+  "start": 386.45,
+  "speechStart": 386.6,
+  "speechEnd": 389.92,
+  "text": "Aber du bist nicht der Einzige mit diesem Gesicht. Was denkst du?",
+  "end": 390.13
+ },
+ {
+  "i": 126,
+  "start": 390.13,
+  "speechStart": 390.28,
+  "speechEnd": 391.48,
+  "text": "Schreib es uns in die Kommentare.",
+  "end": 391.95
+ },
+ {
+  "i": 127,
+  "start": 391.95,
+  "speechStart": 392.1,
+  "speechEnd": 396.18,
+  "text": "Und sag uns, welche Superkraft wir als nächstes machen sollen. Lass ein Like da.",
+  "end": 396.49
+ },
+ {
+  "i": 128,
+  "start": 396.49,
+  "speechStart": 396.64,
+  "speechEnd": 398.18,
+  "text": "Und abonniere für Teil 2.",
+  "end": 399.68
+ }
+]

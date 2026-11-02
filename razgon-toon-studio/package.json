@@ -1,0 +1,15 @@
+{
+  "name": "razgon-toon-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Razgon Toon Studio: code-rendered flat cartoon story videos (bright 2.5D sets, hoodie characters), rendered frame-by-frame",
+  "dependencies": {
+    "@fontsource/fredoka": "5.1.0",
+    "@fontsource/nunito": "5.1.0",
+    "@fontsource/patrick-hand": "5.3.0",
+    "@fontsource/playfair-display": "5.1.0",
+    "playwright": "1.56.0",
+    "three": "0.169.0"
+  }
+}

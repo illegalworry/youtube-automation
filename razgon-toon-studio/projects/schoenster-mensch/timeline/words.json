@@ -1,0 +1,4730 @@
+{
+ "source": "whisper:small",
+ "words": [
+  {
+   "word": "Du",
+   "start": 0.0,
+   "end": 0.18
+  },
+  {
+   "word": "steigst",
+   "start": 0.18,
+   "end": 0.62
+  },
+  {
+   "word": "in",
+   "start": 0.62,
+   "end": 0.72
+  },
+  {
+   "word": "den",
+   "start": 0.72,
+   "end": 0.84
+  },
+  {
+   "word": "Bus.",
+   "start": 0.84,
+   "end": 1.06
+  },
+  {
+   "word": "Das",
+   "start": 1.74,
+   "end": 1.84
+  },
+  {
+   "word": "Gespräch",
+   "start": 1.84,
+   "end": 2.34
+  },
+  {
+   "word": "verstummt.",
+   "start": 2.34,
+   "end": 2.98
+  },
+  {
+   "word": "Der",
+   "start": 3.38,
+   "end": 3.5
+  },
+  {
+   "word": "Fahrer",
+   "start": 3.5,
+   "end": 3.96
+  },
+  {
+   "word": "vergisst",
+   "start": 3.96,
+   "end": 4.34
+  },
+  {
+   "word": "zu",
+   "start": 4.34,
+   "end": 4.56
+  },
+  {
+   "word": "blinken.",
+   "start": 4.56,
+   "end": 5.0
+  },
+  {
+   "word": "Ein",
+   "start": 5.44,
+   "end": 5.58
+  },
+  {
+   "word": "Kind",
+   "start": 5.58,
+   "end": 5.84
+  },
+  {
+   "word": "lässt",
+   "start": 5.84,
+   "end": 6.12
+  },
+  {
+   "word": "sein",
+   "start": 6.12,
+   "end": 6.38
+  },
+  {
+   "word": "Eis",
+   "start": 6.38,
+   "end": 6.66
+  },
+  {
+   "word": "fallen.",
+   "start": 6.66,
+   "end": 6.96
+  },
+  {
+   "word": "Und",
+   "start": 7.54,
+   "end": 7.82
+  },
+  {
+   "word": "start",
+   "start": 7.82,
+   "end": 8.06
+  },
+  {
+   "word": "dich",
+   "start": 8.06,
+   "end": 8.32
+  },
+  {
+   "word": "an.",
+   "start": 8.32,
+   "end": 8.56
+  },
+  {
+   "word": "Ein",
+   "start": 9.1,
+   "end": 9.22
+  },
+  {
+   "word": "Fremder",
+   "start": 9.22,
+   "end": 9.58
+  },
+  {
+   "word": "springt",
+   "start": 9.58,
+   "end": 10.0
+  },
+  {
+   "word": "auf.",
+   "start": 10.0,
+   "end": 10.22
+  },
+  {
+   "word": "Erbietet",
+   "start": 10.68,
+   "end": 11.0
+  },
+  {
+   "word": "dir",
+   "start": 11.0,
+   "end": 11.2
+  },
+  {
+   "word": "seinen",
+   "start": 11.2,
+   "end": 11.42
+  },
+  {
+   "word": "Platz",
+   "start": 11.42,
+   "end": 11.74
+  },
+  {
+   "word": "an.",
+   "start": 11.74,
+   "end": 12.0
+  },
+  {
+   "word": "Du",
+   "start": 12.42,
+   "end": 12.5
+  },
+  {
+   "word": "hast",
+   "start": 12.5,
+   "end": 12.64
+  },
+  {
+   "word": "noch",
+   "start": 12.64,
+   "end": 12.84
+  },
+  {
+   "word": "nicht",
+   "start": 12.84,
+   "end": 12.98
+  },
+  {
+   "word": "mal",
+   "start": 12.98,
+   "end": 13.16
+  },
+  {
+   "word": "Hallo",
+   "start": 13.16,
+   "end": 13.54
+  },
+  {
+   "word": "gesagt.",
+   "start": 13.54,
+   "end": 13.84
+  },
+  {
+   "word": "In",
+   "start": 14.5,
+   "end": 14.6
+  },
+  {
+   "word": "der",
+   "start": 14.6,
+   "end": 14.72
+  },
+  {
+   "word": "Bäckerei",
+   "start": 14.72,
+   "end": 15.14
+  },
+  {
+   "word": "bestellst",
+   "start": 15.14,
+   "end": 15.7
+  },
+  {
+   "word": "du",
+   "start": 15.7,
+   "end": 15.82
+  },
+  {
+   "word": "zwei",
+   "start": 15.82,
+   "end": 16.16
+  },
+  {
+   "word": "Brötchen.",
+   "start": 16.16,
+   "end": 16.68
+  },
+  {
+   "word": "Die",
+   "start": 17.08,
+   "end": 17.18
+  },
+  {
+   "word": "Verkäuferin",
+   "start": 17.18,
+   "end": 17.88
+  },
+  {
+   "word": "packt",
+   "start": 17.88,
+   "end": 18.3
+  },
+  {
+   "word": "drei",
+   "start": 18.3,
+   "end": 18.58
+  },
+  {
+   "word": "ein.",
+   "start": 18.58,
+   "end": 18.92
+  },
+  {
+   "word": "Und",
+   "start": 19.36,
+   "end": 19.5
+  },
+  {
+   "word": "kassiert",
+   "start": 19.5,
+   "end": 19.88
+  },
+  {
+   "word": "nichts.",
+   "start": 19.88,
+   "end": 20.16
+  },
+  {
+   "word": "Dein",
+   "start": 20.7,
+   "end": 20.84
+  },
+  {
+   "word": "Kaffee?",
+   "start": 20.84,
+   "end": 21.24
+  },
+  {
+   "word": "Gratis.",
+   "start": 21.72,
+   "end": 22.22
+  },
+  {
+   "word": "Dein",
+   "start": 22.58,
+   "end": 22.8
+  },
+  {
+   "word": "Bus",
+   "start": 22.8,
+   "end": 23.02
+  },
+  {
+   "word": "wartet",
+   "start": 23.02,
+   "end": 23.78
+  },
+  {
+   "word": "extra",
+   "start": 23.78,
+   "end": 24.2
+  },
+  {
+   "word": "auf",
+   "start": 24.2,
+   "end": 24.5
+  },
+  {
+   "word": "dich.",
+   "start": 24.5,
+   "end": 24.68
+  },
+  {
+   "word": "Ein",
+   "start": 25.18,
+   "end": 25.32
+  },
+  {
+   "word": "normaler",
+   "start": 25.32,
+   "end": 25.8
+  },
+  {
+   "word": "Mensch",
+   "start": 25.8,
+   "end": 26.06
+  },
+  {
+   "word": "wird",
+   "start": 26.06,
+   "end": 26.28
+  },
+  {
+   "word": "in",
+   "start": 26.28,
+   "end": 26.48
+  },
+  {
+   "word": "einer",
+   "start": 26.48,
+   "end": 26.68
+  },
+  {
+   "word": "Zehntelsekunde",
+   "start": 26.68,
+   "end": 27.58
+  },
+  {
+   "word": "eingeschätzt.",
+   "start": 27.58,
+   "end": 28.3
+  },
+  {
+   "word": "Das",
+   "start": 28.3,
+   "end": 28.66
+  },
+  {
+   "word": "zeigten",
+   "start": 28.66,
+   "end": 29.0
+  },
+  {
+   "word": "Willis",
+   "start": 29.0,
+   "end": 29.54
+  },
+  {
+   "word": "und",
+   "start": 29.54,
+   "end": 29.72
+  },
+  {
+   "word": "Todorov",
+   "start": 29.72,
+   "end": 30.24
+  },
+  {
+   "word": "2006.",
+   "start": 30.24,
+   "end": 31.0
+  },
+  {
+   "word": "Du?",
+   "start": 31.6,
+   "end": 31.82
+  },
+  {
+   "word": "Du",
+   "start": 32.12,
+   "end": 32.36
+  },
+  {
+   "word": "wirst",
+   "start": 32.36,
+   "end": 32.56
+  },
+  {
+   "word": "in",
+   "start": 32.56,
+   "end": 32.78
+  },
+  {
+   "word": "dieser",
+   "start": 32.78,
+   "end": 32.96
+  },
+  {
+   "word": "Zeit",
+   "start": 32.96,
+   "end": 33.38
+  },
+  {
+   "word": "bewundert.",
+   "start": 33.38,
+   "end": 34.26
+  },
+  {
+   "word": "Hier",
+   "start": 34.86,
+   "end": 35.04
+  },
+  {
+   "word": "ist",
+   "start": 35.04,
+   "end": 35.22
+  },
+  {
+   "word": "die",
+   "start": 35.22,
+   "end": 35.42
+  },
+  {
+   "word": "Regel.",
+   "start": 35.42,
+   "end": 35.64
+  },
+  {
+   "word": "Dein",
+   "start": 36.12,
+   "end": 36.28
+  },
+  {
+   "word": "Gesicht",
+   "start": 36.28,
+   "end": 36.58
+  },
+  {
+   "word": "öffnet",
+   "start": 36.58,
+   "end": 37.18
+  },
+  {
+   "word": "jede",
+   "start": 37.18,
+   "end": 37.56
+  },
+  {
+   "word": "Tür.",
+   "start": 37.56,
+   "end": 37.94
+  },
+  {
+   "word": "Aber",
+   "start": 38.38,
+   "end": 38.66
+  },
+  {
+   "word": "es",
+   "start": 38.66,
+   "end": 39.08
+  },
+  {
+   "word": "beweist",
+   "start": 39.08,
+   "end": 39.52
+  },
+  {
+   "word": "nichts.",
+   "start": 39.52,
+   "end": 39.78
+  },
+  {
+   "word": "Nicht",
+   "start": 40.26,
+   "end": 40.4
+  },
+  {
+   "word": "dein",
+   "start": 40.4,
+   "end": 40.58
+  },
+  {
+   "word": "Können.",
+   "start": 40.58,
+   "end": 41.02
+  },
+  {
+   "word": "Nicht",
+   "start": 41.24,
+   "end": 41.4
+  },
+  {
+   "word": "deine",
+   "start": 41.4,
+   "end": 41.64
+  },
+  {
+   "word": "Ehrlichkeit.",
+   "start": 41.64,
+   "end": 42.28
+  },
+  {
+   "word": "Nicht",
+   "start": 42.64,
+   "end": 42.96
+  },
+  {
+   "word": "die",
+   "start": 42.96,
+   "end": 43.32
+  },
+  {
+   "word": "Wahrheit.",
+   "start": 43.32,
+   "end": 43.78
+  },
+  {
+   "word": "Alle",
+   "start": 44.18,
+   "end": 44.4
+  },
+  {
+   "word": "glauben",
+   "start": 44.4,
+   "end": 44.72
+  },
+  {
+   "word": "dir.",
+   "start": 44.72,
+   "end": 45.02
+  },
+  {
+   "word": "Aber",
+   "start": 45.5,
+   "end": 45.7
+  },
+  {
+   "word": "Glauben",
+   "start": 45.7,
+   "end": 46.24
+  },
+  {
+   "word": "ist",
+   "start": 46.24,
+   "end": 46.52
+  },
+  {
+   "word": "kein",
+   "start": 46.52,
+   "end": 46.8
+  },
+  {
+   "word": "Beweis.",
+   "start": 46.8,
+   "end": 47.22
+  },
+  {
+   "word": "Also",
+   "start": 47.74,
+   "end": 47.96
+  },
+  {
+   "word": "was,",
+   "start": 47.96,
+   "end": 48.22
+  },
+  {
+   "word": "wenn",
+   "start": 48.46,
+   "end": 48.52
+  },
+  {
+   "word": "du",
+   "start": 48.52,
+   "end": 48.64
+  },
+  {
+   "word": "der",
+   "start": 48.64,
+   "end": 48.78
+  },
+  {
+   "word": "schönste",
+   "start": 48.78,
+   "end": 49.3
+  },
+  {
+   "word": "Mensch",
+   "start": 49.3,
+   "end": 49.56
+  },
+  {
+   "word": "der",
+   "start": 49.56,
+   "end": 49.78
+  },
+  {
+   "word": "Welt",
+   "start": 49.78,
+   "end": 49.96
+  },
+  {
+   "word": "wärst?",
+   "start": 49.96,
+   "end": 50.42
+  },
+  {
+   "word": "Und",
+   "start": 50.7,
+   "end": 50.82
+  },
+  {
+   "word": "was,",
+   "start": 50.82,
+   "end": 51.1
+  },
+  {
+   "word": "wenn",
+   "start": 51.42,
+   "end": 51.5
+  },
+  {
+   "word": "das",
+   "start": 51.5,
+   "end": 51.7
+  },
+  {
+   "word": "nicht",
+   "start": 51.7,
+   "end": 51.9
+  },
+  {
+   "word": "reicht?",
+   "start": 51.9,
+   "end": 52.16
+  },
+  {
+   "word": "Plus,",
+   "start": 52.7,
+   "end": 52.92
+  },
+  {
+   "word": "dein",
+   "start": 53.46,
+   "end": 53.62
+  },
+  {
+   "word": "Lehrer",
+   "start": 53.62,
+   "end": 53.92
+  },
+  {
+   "word": "gibt",
+   "start": 53.92,
+   "end": 54.24
+  },
+  {
+   "word": "dir",
+   "start": 54.24,
+   "end": 54.38
+  },
+  {
+   "word": "eine",
+   "start": 54.38,
+   "end": 54.56
+  },
+  {
+   "word": "Eins.",
+   "start": 54.56,
+   "end": 54.96
+  },
+  {
+   "word": "Dein",
+   "start": 55.36,
+   "end": 55.56
+  },
+  {
+   "word": "Aufsatz",
+   "start": 55.56,
+   "end": 56.04
+  },
+  {
+   "word": "hat",
+   "start": 56.04,
+   "end": 56.32
+  },
+  {
+   "word": "vier",
+   "start": 56.32,
+   "end": 56.64
+  },
+  {
+   "word": "Fehler.",
+   "start": 56.64,
+   "end": 57.04
+  },
+  {
+   "word": "Minus,",
+   "start": 57.04,
+   "end": 58.0
+  },
+  {
+   "word": "du",
+   "start": 58.28,
+   "end": 58.42
+  },
+  {
+   "word": "fragst",
+   "start": 58.42,
+   "end": 58.84
+  },
+  {
+   "word": "dich,",
+   "start": 58.84,
+   "end": 59.04
+  },
+  {
+   "word": "ob",
+   "start": 59.36,
+   "end": 59.62
+  },
+  {
+   "word": "du",
+   "start": 59.62,
+   "end": 59.74
+  },
+  {
+   "word": "sie",
+   "start": 59.74,
+   "end": 59.88
+  },
+  {
+   "word": "verdient",
+   "start": 59.88,
+   "end": 60.26
+  },
+  {
+   "word": "hast.",
+   "start": 60.26,
+   "end": 60.58
+  },
+  {
+   "word": "Forscher",
+   "start": 61.02,
+   "end": 61.44
+  },
+  {
+   "word": "nennen",
+   "start": 61.44,
+   "end": 61.7
+  },
+  {
+   "word": "das",
+   "start": 61.7,
+   "end": 61.98
+  },
+  {
+   "word": "den",
+   "start": 61.98,
+   "end": 62.2
+  },
+  {
+   "word": "Halo",
+   "start": 62.2,
+   "end": 62.6
+  },
+  {
+   "word": "Effekt.",
+   "start": 62.6,
+   "end": 63.08
+  },
+  {
+   "word": "Schöne",
+   "start": 63.42,
+   "end": 63.74
+  },
+  {
+   "word": "Menschen",
+   "start": 63.74,
+   "end": 64.02
+  },
+  {
+   "word": "wirken",
+   "start": 64.02,
+   "end": 64.48
+  },
+  {
+   "word": "klüger,",
+   "start": 64.48,
+   "end": 64.94
+  },
+  {
+   "word": "netter,",
+   "start": 65.34,
+   "end": 65.64
+  },
+  {
+   "word": "ehrlicher.",
+   "start": 65.98,
+   "end": 66.38
+  },
+  {
+   "word": "Auch",
+   "start": 66.8,
+   "end": 67.0
+  },
+  {
+   "word": "wenn",
+   "start": 67.0,
+   "end": 67.26
+  },
+  {
+   "word": "sie",
+   "start": 67.26,
+   "end": 67.4
+  },
+  {
+   "word": "es",
+   "start": 67.4,
+   "end": 67.52
+  },
+  {
+   "word": "nicht",
+   "start": 67.52,
+   "end": 67.66
+  },
+  {
+   "word": "sind.",
+   "start": 67.66,
+   "end": 67.94
+  },
+  {
+   "word": "Dann",
+   "start": 68.4,
+   "end": 68.56
+  },
+  {
+   "word": "kommt",
+   "start": 68.56,
+   "end": 68.86
+  },
+  {
+   "word": "der",
+   "start": 68.86,
+   "end": 69.02
+  },
+  {
+   "word": "Bewerbungstag.",
+   "start": 69.02,
+   "end": 69.8
+  },
+  {
+   "word": "Du",
+   "start": 70.28,
+   "end": 70.34
+  },
+  {
+   "word": "betrittst",
+   "start": 70.34,
+   "end": 70.78
+  },
+  {
+   "word": "das",
+   "start": 70.78,
+   "end": 70.9
+  },
+  {
+   "word": "Büro.",
+   "start": 70.9,
+   "end": 71.18
+  },
+  {
+   "word": "Der",
+   "start": 71.62,
+   "end": 71.76
+  },
+  {
+   "word": "Chef",
+   "start": 71.76,
+   "end": 72.06
+  },
+  {
+   "word": "lächelt",
+   "start": 72.06,
+   "end": 72.56
+  },
+  {
+   "word": "schon.",
+   "start": 72.56,
+   "end": 72.78
+  },
+  {
+   "word": "Er",
+   "start": 73.14,
+   "end": 73.24
+  },
+  {
+   "word": "hat",
+   "start": 73.24,
+   "end": 73.4
+  },
+  {
+   "word": "deinen",
+   "start": 73.4,
+   "end": 73.56
+  },
+  {
+   "word": "Lebenslauf",
+   "start": 73.56,
+   "end": 74.14
+  },
+  {
+   "word": "noch",
+   "start": 74.14,
+   "end": 74.34
+  },
+  {
+   "word": "nicht",
+   "start": 74.34,
+   "end": 74.5
+  },
+  {
+   "word": "gelesen.",
+   "start": 74.5,
+   "end": 74.94
+  },
+  {
+   "word": "Die",
+   "start": 75.32,
+   "end": 75.42
+  },
+  {
+   "word": "Stelle",
+   "start": 75.42,
+   "end": 75.72
+  },
+  {
+   "word": "gehört",
+   "start": 75.72,
+   "end": 76.3
+  },
+  {
+   "word": "dir.",
+   "start": 76.3,
+   "end": 76.58
+  },
+  {
+   "word": "Leo,",
+   "start": 77.02,
+   "end": 77.38
+  },
+  {
+   "word": "dein",
+   "start": 77.56,
+   "end": 77.66
+  },
+  {
+   "word": "neuer",
+   "start": 77.66,
+   "end": 77.94
+  },
+  {
+   "word": "Kollege,",
+   "start": 77.94,
+   "end": 78.28
+  },
+  {
+   "word": "flüstert.",
+   "start": 78.58,
+   "end": 78.92
+  },
+  {
+   "word": "Wie",
+   "start": 79.36,
+   "end": 79.5
+  },
+  {
+   "word": "machst",
+   "start": 79.5,
+   "end": 79.84
+  },
+  {
+   "word": "du",
+   "start": 79.84,
+   "end": 80.04
+  },
+  {
+   "word": "das?",
+   "start": 80.04,
+   "end": 80.26
+  },
+  {
+   "word": "Du",
+   "start": 80.74,
+   "end": 80.88
+  },
+  {
+   "word": "zuckst",
+   "start": 80.88,
+   "end": 81.22
+  },
+  {
+   "word": "mit",
+   "start": 81.22,
+   "end": 81.36
+  },
+  {
+   "word": "den",
+   "start": 81.36,
+   "end": 81.5
+  },
+  {
+   "word": "Schultern.",
+   "start": 81.5,
+   "end": 81.88
+  },
+  {
+   "word": "Ich",
+   "start": 82.28,
+   "end": 82.48
+  },
+  {
+   "word": "hab",
+   "start": 82.48,
+   "end": 82.62
+  },
+  {
+   "word": "nichts",
+   "start": 82.62,
+   "end": 82.82
+  },
+  {
+   "word": "gemacht.",
+   "start": 82.82,
+   "end": 83.24
+  },
+  {
+   "word": "Im",
+   "start": 83.7,
+   "end": 83.84
+  },
+  {
+   "word": "Restaurant",
+   "start": 83.84,
+   "end": 84.32
+  },
+  {
+   "word": "bekommst",
+   "start": 84.32,
+   "end": 84.84
+  },
+  {
+   "word": "du",
+   "start": 84.84,
+   "end": 84.96
+  },
+  {
+   "word": "den",
+   "start": 84.96,
+   "end": 85.1
+  },
+  {
+   "word": "besten",
+   "start": 85.1,
+   "end": 85.5
+  },
+  {
+   "word": "Tisch.",
+   "start": 85.5,
+   "end": 85.96
+  },
+  {
+   "word": "Und",
+   "start": 85.96,
+   "end": 86.38
+  },
+  {
+   "word": "ein",
+   "start": 86.38,
+   "end": 86.62
+  },
+  {
+   "word": "Dessert",
+   "start": 86.62,
+   "end": 87.0
+  },
+  {
+   "word": "aufs",
+   "start": 87.0,
+   "end": 87.34
+  },
+  {
+   "word": "Haus.",
+   "start": 87.34,
+   "end": 87.52
+  },
+  {
+   "word": "Der",
+   "start": 88.08,
+   "end": 88.16
+  },
+  {
+   "word": "Kellner",
+   "start": 88.16,
+   "end": 88.56
+  },
+  {
+   "word": "stolpert",
+   "start": 88.56,
+   "end": 89.02
+  },
+  {
+   "word": "über",
+   "start": 89.02,
+   "end": 89.26
+  },
+  {
+   "word": "Jonas",
+   "start": 89.26,
+   "end": 89.56
+  },
+  {
+   "word": "Fuß.",
+   "start": 89.56,
+   "end": 89.94
+  },
+  {
+   "word": "Und",
+   "start": 90.4,
+   "end": 90.58
+  },
+  {
+   "word": "entschuldigt",
+   "start": 90.58,
+   "end": 91.12
+  },
+  {
+   "word": "sich",
+   "start": 91.12,
+   "end": 91.34
+  },
+  {
+   "word": "bei",
+   "start": 91.34,
+   "end": 91.56
+  },
+  {
+   "word": "dir.",
+   "start": 91.56,
+   "end": 91.72
+  },
+  {
+   "word": "Jonas,",
+   "start": 92.14,
+   "end": 92.44
+  },
+  {
+   "word": "dein",
+   "start": 92.76,
+   "end": 92.88
+  },
+  {
+   "word": "bester",
+   "start": 92.88,
+   "end": 93.24
+  },
+  {
+   "word": "Freund,",
+   "start": 93.24,
+   "end": 93.56
+  },
+  {
+   "word": "hebt",
+   "start": 93.86,
+   "end": 93.96
+  },
+  {
+   "word": "die",
+   "start": 93.96,
+   "end": 94.12
+  },
+  {
+   "word": "Augenbrauen.",
+   "start": 94.12,
+   "end": 94.78
+  },
+  {
+   "word": "Hallo,",
+   "start": 95.22,
+   "end": 95.48
+  },
+  {
+   "word": "das",
+   "start": 95.96,
+   "end": 96.08
+  },
+  {
+   "word": "war",
+   "start": 96.08,
+   "end": 96.24
+  },
+  {
+   "word": "mein",
+   "start": 96.24,
+   "end": 96.4
+  },
+  {
+   "word": "Fuß.",
+   "start": 96.4,
+   "end": 96.7
+  },
+  {
+   "word": "Dann",
+   "start": 97.32,
+   "end": 97.46
+  },
+  {
+   "word": "dein",
+   "start": 97.46,
+   "end": 97.72
+  },
+  {
+   "word": "erstes",
+   "start": 97.72,
+   "end": 98.3
+  },
+  {
+   "word": "Foto",
+   "start": 98.3,
+   "end": 98.56
+  },
+  {
+   "word": "im",
+   "start": 98.56,
+   "end": 98.76
+  },
+  {
+   "word": "Netz.",
+   "start": 98.76,
+   "end": 99.0
+  },
+  {
+   "word": "Um",
+   "start": 99.4,
+   "end": 99.54
+  },
+  {
+   "word": "acht",
+   "start": 99.54,
+   "end": 99.76
+  },
+  {
+   "word": "Uhr",
+   "start": 99.76,
+   "end": 99.9
+  },
+  {
+   "word": "abends",
+   "start": 99.9,
+   "end": 100.32
+  },
+  {
+   "word": "postest",
+   "start": 100.32,
+   "end": 100.8
+  },
+  {
+   "word": "du",
+   "start": 100.8,
+   "end": 100.96
+  },
+  {
+   "word": "es.",
+   "start": 100.96,
+   "end": 101.16
+  },
+  {
+   "word": "Um",
+   "start": 101.44,
+   "end": 101.58
+  },
+  {
+   "word": "neun",
+   "start": 101.58,
+   "end": 101.98
+  },
+  {
+   "word": "hast",
+   "start": 101.98,
+   "end": 102.2
+  },
+  {
+   "word": "du",
+   "start": 102.2,
+   "end": 102.38
+  },
+  {
+   "word": "hunderttausend",
+   "start": 102.38,
+   "end": 103.2
+  },
+  {
+   "word": "Likes.",
+   "start": 103.2,
+   "end": 103.56
+  },
+  {
+   "word": "Um",
+   "start": 103.94,
+   "end": 104.06
+  },
+  {
+   "word": "Mitternacht",
+   "start": 104.06,
+   "end": 104.66
+  },
+  {
+   "word": "eine",
+   "start": 104.66,
+   "end": 105.28
+  },
+  {
+   "word": "Million.",
+   "start": 105.28,
+   "end": 105.6
+  },
+  {
+   "word": "Dein",
+   "start": 106.16,
+   "end": 106.36
+  },
+  {
+   "word": "Akku",
+   "start": 106.36,
+   "end": 106.72
+  },
+  {
+   "word": "leer.",
+   "start": 106.72,
+   "end": 107.3
+  },
+  {
+   "word": "Deine",
+   "start": 107.78,
+   "end": 107.96
+  },
+  {
+   "word": "Mailbox",
+   "start": 107.96,
+   "end": 108.42
+  },
+  {
+   "word": "voll.",
+   "start": 108.42,
+   "end": 109.1
+  },
+  {
+   "word": "Plus,",
+   "start": 109.52,
+   "end": 109.76
+  },
+  {
+   "word": "dein",
+   "start": 110.22,
+   "end": 110.34
+  },
+  {
+   "word": "Konto",
+   "start": 110.34,
+   "end": 110.66
+  },
+  {
+   "word": "füllt",
+   "start": 110.66,
+   "end": 110.96
+  },
+  {
+   "word": "sich.",
+   "start": 110.96,
+   "end": 111.26
+  },
+  {
+   "word": "Minus,",
+   "start": 111.62,
+   "end": 112.14
+  },
+  {
+   "word": "keiner",
+   "start": 112.5,
+   "end": 112.72
+  },
+  {
+   "word": "fragt,",
+   "start": 112.72,
+   "end": 113.26
+  },
+  {
+   "word": "was",
+   "start": 113.26,
+   "end": 113.34
+  },
+  {
+   "word": "du",
+   "start": 113.34,
+   "end": 113.52
+  },
+  {
+   "word": "denkst.",
+   "start": 113.52,
+   "end": 113.96
+  },
+  {
+   "word": "Auf",
+   "start": 113.96,
+   "end": 114.44
+  },
+  {
+   "word": "der",
+   "start": 114.44,
+   "end": 114.62
+  },
+  {
+   "word": "Straße",
+   "start": 114.62,
+   "end": 115.02
+  },
+  {
+   "word": "bleibt",
+   "start": 115.02,
+   "end": 115.3
+  },
+  {
+   "word": "ein",
+   "start": 115.3,
+   "end": 115.52
+  },
+  {
+   "word": "Mann",
+   "start": 115.52,
+   "end": 115.7
+  },
+  {
+   "word": "stehen.",
+   "start": 115.7,
+   "end": 116.06
+  },
+  {
+   "word": "Er",
+   "start": 116.44,
+   "end": 116.58
+  },
+  {
+   "word": "filmt",
+   "start": 116.58,
+   "end": 116.94
+  },
+  {
+   "word": "dich,",
+   "start": 116.94,
+   "end": 117.1
+  },
+  {
+   "word": "ohne",
+   "start": 117.38,
+   "end": 117.64
+  },
+  {
+   "word": "zu",
+   "start": 117.64,
+   "end": 117.86
+  },
+  {
+   "word": "fragen.",
+   "start": 117.86,
+   "end": 118.14
+  },
+  {
+   "word": "Dann",
+   "start": 118.7,
+   "end": 118.8
+  },
+  {
+   "word": "eine",
+   "start": 118.8,
+   "end": 119.08
+  },
+  {
+   "word": "Frau.",
+   "start": 119.08,
+   "end": 119.34
+  },
+  {
+   "word": "Dann",
+   "start": 119.8,
+   "end": 119.94
+  },
+  {
+   "word": "eine",
+   "start": 119.94,
+   "end": 120.26
+  },
+  {
+   "word": "Gruppe.",
+   "start": 120.26,
+   "end": 120.6
+  },
+  {
+   "word": "Nach",
+   "start": 120.98,
+   "end": 121.12
+  },
+  {
+   "word": "einer",
+   "start": 121.12,
+   "end": 121.42
+  },
+  {
+   "word": "Minute",
+   "start": 121.42,
+   "end": 121.76
+  },
+  {
+   "word": "sind",
+   "start": 121.76,
+   "end": 122.08
+  },
+  {
+   "word": "es",
+   "start": 122.08,
+   "end": 122.28
+  },
+  {
+   "word": "30",
+   "start": 122.28,
+   "end": 122.68
+  },
+  {
+   "word": "Handys.",
+   "start": 122.68,
+   "end": 123.34
+  },
+  {
+   "word": "Und",
+   "start": 123.62,
+   "end": 123.72
+  },
+  {
+   "word": "immer",
+   "start": 123.72,
+   "end": 124.08
+  },
+  {
+   "word": "dieselben",
+   "start": 124.08,
+   "end": 124.66
+  },
+  {
+   "word": "Sätze.",
+   "start": 124.66,
+   "end": 124.96
+  },
+  {
+   "word": "Du",
+   "start": 125.38,
+   "end": 125.52
+  },
+  {
+   "word": "bist",
+   "start": 125.52,
+   "end": 125.7
+  },
+  {
+   "word": "wunderschön.",
+   "start": 125.7,
+   "end": 126.52
+  },
+  {
+   "word": "Du",
+   "start": 126.88,
+   "end": 126.96
+  },
+  {
+   "word": "bist",
+   "start": 126.96,
+   "end": 127.12
+  },
+  {
+   "word": "perfekt.",
+   "start": 127.12,
+   "end": 127.48
+  },
+  {
+   "word": "Du",
+   "start": 128.04,
+   "end": 128.14
+  },
+  {
+   "word": "bist...",
+   "start": 128.14,
+   "end": 128.9
+  },
+  {
+   "word": "Ja.",
+   "start": 128.9,
+   "end": 129.16
+  },
+  {
+   "word": "Was",
+   "start": 129.58,
+   "end": 129.68
+  },
+  {
+   "word": "eigentlich?",
+   "start": 129.68,
+   "end": 130.1
+  },
+  {
+   "word": "Ein",
+   "start": 130.72,
+   "end": 130.82
+  },
+  {
+   "word": "Spaziergang",
+   "start": 130.82,
+   "end": 131.42
+  },
+  {
+   "word": "im",
+   "start": 131.42,
+   "end": 131.6
+  },
+  {
+   "word": "Park",
+   "start": 131.6,
+   "end": 131.88
+  },
+  {
+   "word": "dauert",
+   "start": 131.88,
+   "end": 132.26
+  },
+  {
+   "word": "normalerweise",
+   "start": 132.26,
+   "end": 133.02
+  },
+  {
+   "word": "30",
+   "start": 133.02,
+   "end": 133.4
+  },
+  {
+   "word": "Minuten.",
+   "start": 133.4,
+   "end": 133.88
+  },
+  {
+   "word": "Bei",
+   "start": 134.36,
+   "end": 134.5
+  },
+  {
+   "word": "dir",
+   "start": 134.5,
+   "end": 134.74
+  },
+  {
+   "word": "3",
+   "start": 134.74,
+   "end": 135.36
+  },
+  {
+   "word": "Stunden.",
+   "start": 135.36,
+   "end": 135.9
+  },
+  {
+   "word": "Wegen",
+   "start": 136.34,
+   "end": 136.56
+  },
+  {
+   "word": "Selfies.",
+   "start": 136.56,
+   "end": 137.1
+  },
+  {
+   "word": "Minus,",
+   "start": 137.48,
+   "end": 137.98
+  },
+  {
+   "word": "du",
+   "start": 138.24,
+   "end": 138.34
+  },
+  {
+   "word": "kannst",
+   "start": 138.34,
+   "end": 138.52
+  },
+  {
+   "word": "dich",
+   "start": 138.52,
+   "end": 138.76
+  },
+  {
+   "word": "nirgends",
+   "start": 138.76,
+   "end": 139.26
+  },
+  {
+   "word": "mehr",
+   "start": 139.26,
+   "end": 139.44
+  },
+  {
+   "word": "verstecken.",
+   "start": 139.44,
+   "end": 139.94
+  },
+  {
+   "word": "Aber",
+   "start": 140.36,
+   "end": 140.6
+  },
+  {
+   "word": "richtig",
+   "start": 140.6,
+   "end": 140.98
+  },
+  {
+   "word": "verrückt",
+   "start": 140.98,
+   "end": 141.44
+  },
+  {
+   "word": "wird",
+   "start": 141.44,
+   "end": 141.66
+  },
+  {
+   "word": "es",
+   "start": 141.66,
+   "end": 141.92
+  },
+  {
+   "word": "in",
+   "start": 141.92,
+   "end": 142.36
+  },
+  {
+   "word": "Paris.",
+   "start": 142.36,
+   "end": 142.76
+  },
+  {
+   "word": "Eine",
+   "start": 142.76,
+   "end": 143.48
+  },
+  {
+   "word": "Modenschau.",
+   "start": 143.48,
+   "end": 144.16
+  },
+  {
+   "word": "200",
+   "start": 144.46,
+   "end": 144.8
+  },
+  {
+   "word": "Plätze.",
+   "start": 144.8,
+   "end": 145.42
+  },
+  {
+   "word": "2000",
+   "start": 145.76,
+   "end": 146.2
+  },
+  {
+   "word": "Menschen",
+   "start": 146.2,
+   "end": 146.84
+  },
+  {
+   "word": "wollen",
+   "start": 146.84,
+   "end": 147.06
+  },
+  {
+   "word": "hinein.",
+   "start": 147.06,
+   "end": 147.62
+  },
+  {
+   "word": "Du",
+   "start": 147.9,
+   "end": 148.02
+  },
+  {
+   "word": "gehst",
+   "start": 148.02,
+   "end": 148.34
+  },
+  {
+   "word": "über",
+   "start": 148.34,
+   "end": 148.5
+  },
+  {
+   "word": "den",
+   "start": 148.5,
+   "end": 148.68
+  },
+  {
+   "word": "Laufsteg.",
+   "start": 148.68,
+   "end": 149.2
+  },
+  {
+   "word": "20",
+   "start": 149.54,
+   "end": 149.88
+  },
+  {
+   "word": "Meter.",
+   "start": 149.88,
+   "end": 150.26
+  },
+  {
+   "word": "30",
+   "start": 150.68,
+   "end": 150.98
+  },
+  {
+   "word": "Sekunden.",
+   "start": 150.98,
+   "end": 151.7
+  },
+  {
+   "word": "Ein",
+   "start": 152.04,
+   "end": 152.18
+  },
+  {
+   "word": "Mensch",
+   "start": 152.18,
+   "end": 152.48
+  },
+  {
+   "word": "blinzelt",
+   "start": 152.48,
+   "end": 153.02
+  },
+  {
+   "word": "etwa",
+   "start": 153.02,
+   "end": 153.24
+  },
+  {
+   "word": "15",
+   "start": 153.24,
+   "end": 153.82
+  },
+  {
+   "word": "Mal",
+   "start": 153.82,
+   "end": 154.1
+  },
+  {
+   "word": "pro",
+   "start": 154.1,
+   "end": 154.3
+  },
+  {
+   "word": "Minute.",
+   "start": 154.3,
+   "end": 154.68
+  },
+  {
+   "word": "Im",
+   "start": 155.12,
+   "end": 155.26
+  },
+  {
+   "word": "Saal",
+   "start": 155.26,
+   "end": 155.7
+  },
+  {
+   "word": "blinzelt",
+   "start": 155.7,
+   "end": 156.22
+  },
+  {
+   "word": "keiner.",
+   "start": 156.22,
+   "end": 156.5
+  },
+  {
+   "word": "Sogar",
+   "start": 156.94,
+   "end": 157.24
+  },
+  {
+   "word": "der",
+   "start": 157.24,
+   "end": 157.38
+  },
+  {
+   "word": "Fotograf",
+   "start": 157.38,
+   "end": 157.92
+  },
+  {
+   "word": "vergisst",
+   "start": 157.92,
+   "end": 158.3
+  },
+  {
+   "word": "zu",
+   "start": 158.3,
+   "end": 158.5
+  },
+  {
+   "word": "knipsen.",
+   "start": 158.5,
+   "end": 158.92
+  },
+  {
+   "word": "Am",
+   "start": 159.28,
+   "end": 159.4
+  },
+  {
+   "word": "nächsten",
+   "start": 159.4,
+   "end": 159.64
+  },
+  {
+   "word": "Morgen?",
+   "start": 159.64,
+   "end": 160.04
+  },
+  {
+   "word": "Dein",
+   "start": 160.44,
+   "end": 160.58
+  },
+  {
+   "word": "Foto",
+   "start": 160.58,
+   "end": 160.92
+  },
+  {
+   "word": "läuft",
+   "start": 160.92,
+   "end": 161.24
+  },
+  {
+   "word": "in",
+   "start": 161.24,
+   "end": 161.44
+  },
+  {
+   "word": "100",
+   "start": 161.44,
+   "end": 161.82
+  },
+  {
+   "word": "Ländern.",
+   "start": 161.82,
+   "end": 162.2
+  },
+  {
+   "word": "Eine",
+   "start": 162.6,
+   "end": 162.82
+  },
+  {
+   "word": "Sängerin",
+   "start": 162.82,
+   "end": 163.32
+  },
+  {
+   "word": "will",
+   "start": 163.32,
+   "end": 163.58
+  },
+  {
+   "word": "dich",
+   "start": 163.58,
+   "end": 163.74
+  },
+  {
+   "word": "in",
+   "start": 163.74,
+   "end": 163.92
+  },
+  {
+   "word": "ihrem",
+   "start": 163.92,
+   "end": 164.14
+  },
+  {
+   "word": "Video.",
+   "start": 164.14,
+   "end": 164.58
+  },
+  {
+   "word": "Ein",
+   "start": 165.12,
+   "end": 165.26
+  },
+  {
+   "word": "Konzern",
+   "start": 165.26,
+   "end": 165.74
+  },
+  {
+   "word": "will",
+   "start": 165.74,
+   "end": 166.0
+  },
+  {
+   "word": "dein",
+   "start": 166.0,
+   "end": 166.24
+  },
+  {
+   "word": "Gesicht",
+   "start": 166.24,
+   "end": 166.68
+  },
+  {
+   "word": "auf",
+   "start": 166.68,
+   "end": 166.9
+  },
+  {
+   "word": "Plakaten.",
+   "start": 166.9,
+   "end": 167.44
+  },
+  {
+   "word": "20",
+   "start": 167.86,
+   "end": 168.32
+  },
+  {
+   "word": "Meter",
+   "start": 168.32,
+   "end": 168.7
+  },
+  {
+   "word": "hoch.",
+   "start": 168.7,
+   "end": 169.08
+  },
+  {
+   "word": "Nur",
+   "start": 169.5,
+   "end": 169.76
+  },
+  {
+   "word": "du.",
+   "start": 169.76,
+   "end": 170.06
+  },
+  {
+   "word": "Und",
+   "start": 170.52,
+   "end": 170.82
+  },
+  {
+   "word": "dein",
+   "start": 170.82,
+   "end": 171.14
+  },
+  {
+   "word": "Lächeln.",
+   "start": 171.14,
+   "end": 171.58
+  },
+  {
+   "word": "Und",
+   "start": 171.58,
+   "end": 172.18
+  },
+  {
+   "word": "es",
+   "start": 172.18,
+   "end": 172.54
+  },
+  {
+   "word": "gibt",
+   "start": 172.54,
+   "end": 172.72
+  },
+  {
+   "word": "einen",
+   "start": 172.72,
+   "end": 172.9
+  },
+  {
+   "word": "Preis.",
+   "start": 172.9,
+   "end": 173.32
+  },
+  {
+   "word": "Den",
+   "start": 173.96,
+   "end": 174.08
+  },
+  {
+   "word": "sieht",
+   "start": 174.08,
+   "end": 174.3
+  },
+  {
+   "word": "keiner.",
+   "start": 174.3,
+   "end": 174.66
+  },
+  {
+   "word": "Du",
+   "start": 175.18,
+   "end": 175.3
+  },
+  {
+   "word": "hörst",
+   "start": 175.3,
+   "end": 175.62
+  },
+  {
+   "word": "nie",
+   "start": 175.62,
+   "end": 175.84
+  },
+  {
+   "word": "wieder",
+   "start": 175.84,
+   "end": 176.18
+  },
+  {
+   "word": "die",
+   "start": 176.18,
+   "end": 176.34
+  },
+  {
+   "word": "Wahrheit.",
+   "start": 176.34,
+   "end": 176.86
+  },
+  {
+   "word": "Niemand",
+   "start": 177.24,
+   "end": 177.58
+  },
+  {
+   "word": "widerspricht",
+   "start": 177.58,
+   "end": 178.14
+  },
+  {
+   "word": "dir.",
+   "start": 178.14,
+   "end": 178.38
+  },
+  {
+   "word": "Niemand",
+   "start": 178.7,
+   "end": 179.0
+  },
+  {
+   "word": "sagt,",
+   "start": 179.0,
+   "end": 179.32
+  },
+  {
+   "word": "das",
+   "start": 179.76,
+   "end": 179.92
+  },
+  {
+   "word": "war",
+   "start": 179.92,
+   "end": 180.12
+  },
+  {
+   "word": "schlecht.",
+   "start": 180.12,
+   "end": 180.44
+  },
+  {
+   "word": "Der",
+   "start": 181.12,
+   "end": 181.16
+  },
+  {
+   "word": "Grund?",
+   "start": 181.16,
+   "end": 181.42
+  },
+  {
+   "word": "Dein",
+   "start": 181.96,
+   "end": 182.14
+  },
+  {
+   "word": "Anblick",
+   "start": 182.14,
+   "end": 182.54
+  },
+  {
+   "word": "aktiviert",
+   "start": 182.54,
+   "end": 183.16
+  },
+  {
+   "word": "ihr",
+   "start": 183.16,
+   "end": 183.3
+  },
+  {
+   "word": "Belohnungssystem.",
+   "start": 183.3,
+   "end": 184.1
+  },
+  {
+   "word": "Sie",
+   "start": 184.66,
+   "end": 184.78
+  },
+  {
+   "word": "wollen",
+   "start": 184.78,
+   "end": 185.0
+  },
+  {
+   "word": "dir",
+   "start": 185.0,
+   "end": 185.14
+  },
+  {
+   "word": "gefallen.",
+   "start": 185.14,
+   "end": 185.5
+  },
+  {
+   "word": "Du",
+   "start": 186.08,
+   "end": 186.16
+  },
+  {
+   "word": "bekommst",
+   "start": 186.16,
+   "end": 186.58
+  },
+  {
+   "word": "Applaus",
+   "start": 186.58,
+   "end": 187.02
+  },
+  {
+   "word": "statt",
+   "start": 187.02,
+   "end": 187.48
+  },
+  {
+   "word": "Ehrlichkeit.",
+   "start": 187.48,
+   "end": 188.14
+  },
+  {
+   "word": "Ein",
+   "start": 188.5,
+   "end": 188.7
+  },
+  {
+   "word": "ganzes",
+   "start": 188.7,
+   "end": 189.24
+  },
+  {
+   "word": "Jahr",
+   "start": 189.24,
+   "end": 189.5
+  },
+  {
+   "word": "ohne",
+   "start": 189.5,
+   "end": 189.9
+  },
+  {
+   "word": "ein",
+   "start": 189.9,
+   "end": 190.22
+  },
+  {
+   "word": "einziges",
+   "start": 190.22,
+   "end": 190.76
+  },
+  {
+   "word": "Nein.",
+   "start": 190.76,
+   "end": 191.12
+  },
+  {
+   "word": "Und",
+   "start": 191.64,
+   "end": 191.76
+  },
+  {
+   "word": "plötzlich",
+   "start": 191.76,
+   "end": 192.1
+  },
+  {
+   "word": "fragst",
+   "start": 192.1,
+   "end": 192.56
+  },
+  {
+   "word": "du",
+   "start": 192.56,
+   "end": 192.66
+  },
+  {
+   "word": "dich,",
+   "start": 192.66,
+   "end": 192.9
+  },
+  {
+   "word": "was",
+   "start": 193.3,
+   "end": 193.46
+  },
+  {
+   "word": "an",
+   "start": 193.46,
+   "end": 193.64
+  },
+  {
+   "word": "dir",
+   "start": 193.64,
+   "end": 193.74
+  },
+  {
+   "word": "wirklich",
+   "start": 193.74,
+   "end": 194.1
+  },
+  {
+   "word": "zählt.",
+   "start": 194.1,
+   "end": 194.58
+  },
+  {
+   "word": "Wer",
+   "start": 195.1,
+   "end": 195.26
+  },
+  {
+   "word": "mag",
+   "start": 195.26,
+   "end": 195.6
+  },
+  {
+   "word": "dich?",
+   "start": 195.6,
+   "end": 195.88
+  },
+  {
+   "word": "Und",
+   "start": 196.26,
+   "end": 196.46
+  },
+  {
+   "word": "wer",
+   "start": 196.46,
+   "end": 196.7
+  },
+  {
+   "word": "nur",
+   "start": 196.7,
+   "end": 196.9
+  },
+  {
+   "word": "dein",
+   "start": 196.9,
+   "end": 197.1
+  },
+  {
+   "word": "Gesicht?",
+   "start": 197.1,
+   "end": 197.4
+  },
+  {
+   "word": "Wer",
+   "start": 197.96,
+   "end": 198.14
+  },
+  {
+   "word": "nie",
+   "start": 198.14,
+   "end": 198.38
+  },
+  {
+   "word": "Fehler",
+   "start": 198.38,
+   "end": 198.74
+  },
+  {
+   "word": "gezeigt",
+   "start": 198.74,
+   "end": 199.02
+  },
+  {
+   "word": "bekommt,",
+   "start": 199.02,
+   "end": 199.5
+  },
+  {
+   "word": "lernt",
+   "start": 200.12,
+   "end": 200.36
+  },
+  {
+   "word": "nie.",
+   "start": 200.36,
+   "end": 200.62
+  },
+  {
+   "word": "Das",
+   "start": 200.62,
+   "end": 201.18
+  },
+  {
+   "word": "macht",
+   "start": 201.18,
+   "end": 201.4
+  },
+  {
+   "word": "einsam",
+   "start": 201.4,
+   "end": 201.98
+  },
+  {
+   "word": "und",
+   "start": 201.98,
+   "end": 202.54
+  },
+  {
+   "word": "gefährlich.",
+   "start": 202.54,
+   "end": 203.36
+  },
+  {
+   "word": "Nur",
+   "start": 203.84,
+   "end": 203.98
+  },
+  {
+   "word": "einer",
+   "start": 203.98,
+   "end": 204.38
+  },
+  {
+   "word": "ist",
+   "start": 204.38,
+   "end": 204.66
+  },
+  {
+   "word": "anders.",
+   "start": 204.66,
+   "end": 204.96
+  },
+  {
+   "word": "Jonas,",
+   "start": 205.74,
+   "end": 205.82
+  },
+  {
+   "word": "dein",
+   "start": 206.28,
+   "end": 206.48
+  },
+  {
+   "word": "bester",
+   "start": 206.48,
+   "end": 206.94
+  },
+  {
+   "word": "Freund",
+   "start": 206.94,
+   "end": 207.24
+  },
+  {
+   "word": "seit",
+   "start": 207.24,
+   "end": 207.44
+  },
+  {
+   "word": "der",
+   "start": 207.44,
+   "end": 207.62
+  },
+  {
+   "word": "ersten",
+   "start": 207.62,
+   "end": 207.96
+  },
+  {
+   "word": "Klasse.",
+   "start": 207.96,
+   "end": 208.34
+  },
+  {
+   "word": "Jeden",
+   "start": 208.84,
+   "end": 209.12
+  },
+  {
+   "word": "Morgen",
+   "start": 209.12,
+   "end": 209.4
+  },
+  {
+   "word": "klopft",
+   "start": 209.4,
+   "end": 209.84
+  },
+  {
+   "word": "er",
+   "start": 209.84,
+   "end": 209.94
+  },
+  {
+   "word": "an",
+   "start": 209.94,
+   "end": 210.06
+  },
+  {
+   "word": "deine",
+   "start": 210.06,
+   "end": 210.2
+  },
+  {
+   "word": "Tür.",
+   "start": 210.2,
+   "end": 210.5
+  },
+  {
+   "word": "Dreimal",
+   "start": 210.88,
+   "end": 211.26
+  },
+  {
+   "word": "kurz,",
+   "start": 211.26,
+   "end": 211.54
+  },
+  {
+   "word": "einmal",
+   "start": 212.04,
+   "end": 212.28
+  },
+  {
+   "word": "lang.",
+   "start": 212.28,
+   "end": 212.68
+  },
+  {
+   "word": "Dann",
+   "start": 213.08,
+   "end": 213.22
+  },
+  {
+   "word": "sagt",
+   "start": 213.22,
+   "end": 213.48
+  },
+  {
+   "word": "er",
+   "start": 213.48,
+   "end": 213.64
+  },
+  {
+   "word": "immer",
+   "start": 213.64,
+   "end": 213.9
+  },
+  {
+   "word": "dasselbe.",
+   "start": 213.9,
+   "end": 214.48
+  },
+  {
+   "word": "Du",
+   "start": 214.86,
+   "end": 214.98
+  },
+  {
+   "word": "siehst",
+   "start": 214.98,
+   "end": 215.32
+  },
+  {
+   "word": "furchtbar",
+   "start": 215.32,
+   "end": 216.0
+  },
+  {
+   "word": "aus.",
+   "start": 216.0,
+   "end": 216.34
+  },
+  {
+   "word": "Er",
+   "start": 216.8,
+   "end": 216.96
+  },
+  {
+   "word": "lügt.",
+   "start": 216.96,
+   "end": 217.32
+  },
+  {
+   "word": "Und",
+   "start": 217.76,
+   "end": 217.84
+  },
+  {
+   "word": "genau",
+   "start": 217.84,
+   "end": 218.3
+  },
+  {
+   "word": "das",
+   "start": 218.3,
+   "end": 218.62
+  },
+  {
+   "word": "liebst",
+   "start": 218.62,
+   "end": 219.04
+  },
+  {
+   "word": "du.",
+   "start": 219.04,
+   "end": 219.28
+  },
+  {
+   "word": "Bei",
+   "start": 219.62,
+   "end": 219.8
+  },
+  {
+   "word": "ihm",
+   "start": 219.8,
+   "end": 220.02
+  },
+  {
+   "word": "ist",
+   "start": 220.02,
+   "end": 220.24
+  },
+  {
+   "word": "dein",
+   "start": 220.24,
+   "end": 220.42
+  },
+  {
+   "word": "Gesicht",
+   "start": 220.42,
+   "end": 220.86
+  },
+  {
+   "word": "nur",
+   "start": 220.86,
+   "end": 221.56
+  },
+  {
+   "word": "ein",
+   "start": 221.56,
+   "end": 221.8
+  },
+  {
+   "word": "Gesicht.",
+   "start": 221.8,
+   "end": 222.12
+  },
+  {
+   "word": "Er",
+   "start": 222.62,
+   "end": 222.74
+  },
+  {
+   "word": "streitet",
+   "start": 222.74,
+   "end": 223.1
+  },
+  {
+   "word": "mit",
+   "start": 223.1,
+   "end": 223.34
+  },
+  {
+   "word": "dir",
+   "start": 223.34,
+   "end": 223.52
+  },
+  {
+   "word": "über",
+   "start": 223.52,
+   "end": 223.76
+  },
+  {
+   "word": "Pizza.",
+   "start": 223.76,
+   "end": 224.1
+  },
+  {
+   "word": "Er",
+   "start": 224.56,
+   "end": 224.68
+  },
+  {
+   "word": "lacht",
+   "start": 224.68,
+   "end": 224.96
+  },
+  {
+   "word": "über",
+   "start": 224.96,
+   "end": 225.2
+  },
+  {
+   "word": "deine",
+   "start": 225.2,
+   "end": 225.44
+  },
+  {
+   "word": "Witze.",
+   "start": 225.44,
+   "end": 225.86
+  },
+  {
+   "word": "Über",
+   "start": 226.18,
+   "end": 226.32
+  },
+  {
+   "word": "die",
+   "start": 226.32,
+   "end": 226.48
+  },
+  {
+   "word": "schlechten",
+   "start": 226.48,
+   "end": 226.92
+  },
+  {
+   "word": "noch",
+   "start": 226.92,
+   "end": 227.34
+  },
+  {
+   "word": "lauter.",
+   "start": 227.34,
+   "end": 227.74
+  },
+  {
+   "word": "Sam,",
+   "start": 227.74,
+   "end": 228.5
+  },
+  {
+   "word": "hast",
+   "start": 228.88,
+   "end": 229.08
+  },
+  {
+   "word": "du",
+   "start": 229.08,
+   "end": 229.22
+  },
+  {
+   "word": "heute",
+   "start": 229.22,
+   "end": 229.52
+  },
+  {
+   "word": "wieder",
+   "start": 229.52,
+   "end": 230.12
+  },
+  {
+   "word": "nichts",
+   "start": 230.12,
+   "end": 230.42
+  },
+  {
+   "word": "gelernt?",
+   "start": 230.42,
+   "end": 230.8
+  },
+  {
+   "word": "Du",
+   "start": 231.28,
+   "end": 231.46
+  },
+  {
+   "word": "lachst",
+   "start": 231.46,
+   "end": 231.98
+  },
+  {
+   "word": "zum",
+   "start": 231.98,
+   "end": 232.4
+  },
+  {
+   "word": "ersten",
+   "start": 232.4,
+   "end": 232.86
+  },
+  {
+   "word": "Mal",
+   "start": 232.86,
+   "end": 233.18
+  },
+  {
+   "word": "seit",
+   "start": 233.18,
+   "end": 233.44
+  },
+  {
+   "word": "Wochen.",
+   "start": 233.44,
+   "end": 233.7
+  },
+  {
+   "word": "Er",
+   "start": 234.2,
+   "end": 234.28
+  },
+  {
+   "word": "ist",
+   "start": 234.28,
+   "end": 234.44
+  },
+  {
+   "word": "der",
+   "start": 234.44,
+   "end": 234.56
+  },
+  {
+   "word": "Einzige",
+   "start": 234.56,
+   "end": 235.06
+  },
+  {
+   "word": "der",
+   "start": 235.06,
+   "end": 235.34
+  },
+  {
+   "word": "nie",
+   "start": 235.34,
+   "end": 235.62
+  },
+  {
+   "word": "nach",
+   "start": 235.62,
+   "end": 235.84
+  },
+  {
+   "word": "deinem",
+   "start": 235.84,
+   "end": 236.14
+  },
+  {
+   "word": "Foto",
+   "start": 236.14,
+   "end": 236.4
+  },
+  {
+   "word": "fragt.",
+   "start": 236.4,
+   "end": 236.98
+  },
+  {
+   "word": "Dann",
+   "start": 237.38,
+   "end": 237.54
+  },
+  {
+   "word": "kommt",
+   "start": 237.54,
+   "end": 237.92
+  },
+  {
+   "word": "Herr",
+   "start": 237.92,
+   "end": 238.1
+  },
+  {
+   "word": "Brandt.",
+   "start": 238.1,
+   "end": 238.84
+  },
+  {
+   "word": "Ihm",
+   "start": 238.9,
+   "end": 239.1
+  },
+  {
+   "word": "gehört",
+   "start": 239.1,
+   "end": 239.34
+  },
+  {
+   "word": "die",
+   "start": 239.34,
+   "end": 239.5
+  },
+  {
+   "word": "größte",
+   "start": 239.5,
+   "end": 239.96
+  },
+  {
+   "word": "Agentur",
+   "start": 239.96,
+   "end": 240.44
+  },
+  {
+   "word": "der",
+   "start": 240.44,
+   "end": 240.6
+  },
+  {
+   "word": "Stadt.",
+   "start": 240.6,
+   "end": 240.82
+  },
+  {
+   "word": "Sein",
+   "start": 241.3,
+   "end": 241.5
+  },
+  {
+   "word": "Angebot?",
+   "start": 241.5,
+   "end": 242.02
+  },
+  {
+   "word": "10",
+   "start": 242.38,
+   "end": 242.6
+  },
+  {
+   "word": "Millionen",
+   "start": 242.6,
+   "end": 243.0
+  },
+  {
+   "word": "Euro.",
+   "start": 243.0,
+   "end": 243.5
+  },
+  {
+   "word": "3",
+   "start": 243.9,
+   "end": 244.14
+  },
+  {
+   "word": "Jahre.",
+   "start": 244.14,
+   "end": 244.48
+  },
+  {
+   "word": "Dein",
+   "start": 244.96,
+   "end": 245.16
+  },
+  {
+   "word": "Gesicht",
+   "start": 245.16,
+   "end": 245.44
+  },
+  {
+   "word": "auf",
+   "start": 245.44,
+   "end": 245.78
+  },
+  {
+   "word": "jedem",
+   "start": 245.78,
+   "end": 246.06
+  },
+  {
+   "word": "Plakat.",
+   "start": 246.06,
+   "end": 246.54
+  },
+  {
+   "word": "Es",
+   "start": 247.04,
+   "end": 247.16
+  },
+  {
+   "word": "gibt",
+   "start": 247.16,
+   "end": 247.32
+  },
+  {
+   "word": "nur",
+   "start": 247.32,
+   "end": 247.52
+  },
+  {
+   "word": "einen",
+   "start": 247.52,
+   "end": 247.86
+  },
+  {
+   "word": "Haken.",
+   "start": 247.86,
+   "end": 248.28
+  },
+  {
+   "word": "Jonas,",
+   "start": 248.76,
+   "end": 249.08
+  },
+  {
+   "word": "Brandt",
+   "start": 249.6,
+   "end": 249.98
+  },
+  {
+   "word": "beschuldigt",
+   "start": 249.98,
+   "end": 250.46
+  },
+  {
+   "word": "ihn.",
+   "start": 250.46,
+   "end": 250.68
+  },
+  {
+   "word": "Der",
+   "start": 251.1,
+   "end": 251.22
+  },
+  {
+   "word": "Diebstahl",
+   "start": 251.22,
+   "end": 251.7
+  },
+  {
+   "word": "im",
+   "start": 251.7,
+   "end": 251.86
+  },
+  {
+   "word": "Studio.",
+   "start": 251.86,
+   "end": 252.3
+  },
+  {
+   "word": "Um",
+   "start": 252.7,
+   "end": 252.86
+  },
+  {
+   "word": "Mitternacht.",
+   "start": 252.86,
+   "end": 253.4
+  },
+  {
+   "word": "50",
+   "start": 253.84,
+   "end": 254.16
+  },
+  {
+   "word": ".000",
+   "start": 254.16,
+   "end": 254.64
+  },
+  {
+   "word": "Euro.",
+   "start": 254.64,
+   "end": 255.04
+  },
+  {
+   "word": "Weg.",
+   "start": 255.46,
+   "end": 255.66
+  },
+  {
+   "word": "Du",
+   "start": 255.66,
+   "end": 256.28
+  },
+  {
+   "word": "weißt",
+   "start": 256.28,
+   "end": 256.62
+  },
+  {
+   "word": "die",
+   "start": 256.62,
+   "end": 256.76
+  },
+  {
+   "word": "Wahrheit.",
+   "start": 256.76,
+   "end": 257.26
+  },
+  {
+   "word": "Jonas",
+   "start": 257.56,
+   "end": 257.9
+  },
+  {
+   "word": "war",
+   "start": 257.9,
+   "end": 258.18
+  },
+  {
+   "word": "bei",
+   "start": 258.18,
+   "end": 258.36
+  },
+  {
+   "word": "dir.",
+   "start": 258.36,
+   "end": 258.56
+  },
+  {
+   "word": "Die",
+   "start": 259.0,
+   "end": 259.06
+  },
+  {
+   "word": "ganze",
+   "start": 259.06,
+   "end": 259.44
+  },
+  {
+   "word": "Nacht.",
+   "start": 259.44,
+   "end": 259.84
+  },
+  {
+   "word": "Die",
+   "start": 260.3,
+   "end": 260.38
+  },
+  {
+   "word": "Presse",
+   "start": 260.38,
+   "end": 260.74
+  },
+  {
+   "word": "wartet.",
+   "start": 260.74,
+   "end": 261.1
+  },
+  {
+   "word": "Liveübertragung.",
+   "start": 261.72,
+   "end": 262.44
+  },
+  {
+   "word": "20",
+   "start": 262.72,
+   "end": 263.14
+  },
+  {
+   "word": "Millionen",
+   "start": 263.14,
+   "end": 263.62
+  },
+  {
+   "word": "Zuschauer.",
+   "start": 263.62,
+   "end": 264.24
+  },
+  {
+   "word": "Noch",
+   "start": 264.58,
+   "end": 264.74
+  },
+  {
+   "word": "60",
+   "start": 264.74,
+   "end": 265.16
+  },
+  {
+   "word": "Sekunden.",
+   "start": 265.16,
+   "end": 265.82
+  },
+  {
+   "word": "Brandt",
+   "start": 266.12,
+   "end": 266.54
+  },
+  {
+   "word": "flüstert.",
+   "start": 266.54,
+   "end": 266.88
+  },
+  {
+   "word": "Sag,",
+   "start": 267.3,
+   "end": 267.48
+  },
+  {
+   "word": "du",
+   "start": 267.8,
+   "end": 267.92
+  },
+  {
+   "word": "hast",
+   "start": 267.92,
+   "end": 268.06
+  },
+  {
+   "word": "Jonas",
+   "start": 268.06,
+   "end": 268.38
+  },
+  {
+   "word": "gesehen.",
+   "start": 268.38,
+   "end": 268.82
+  },
+  {
+   "word": "Mit",
+   "start": 269.18,
+   "end": 269.28
+  },
+  {
+   "word": "dem",
+   "start": 269.28,
+   "end": 269.4
+  },
+  {
+   "word": "Geld.",
+   "start": 269.4,
+   "end": 269.68
+  },
+  {
+   "word": "Dir",
+   "start": 270.12,
+   "end": 270.26
+  },
+  {
+   "word": "glaubt",
+   "start": 270.26,
+   "end": 270.66
+  },
+  {
+   "word": "jeder.",
+   "start": 270.66,
+   "end": 270.82
+  },
+  {
+   "word": "Er",
+   "start": 271.3,
+   "end": 271.44
+  },
+  {
+   "word": "hat",
+   "start": 271.44,
+   "end": 271.66
+  },
+  {
+   "word": "recht.",
+   "start": 271.66,
+   "end": 271.86
+  },
+  {
+   "word": "Das",
+   "start": 272.42,
+   "end": 272.6
+  },
+  {
+   "word": "ist",
+   "start": 272.6,
+   "end": 272.84
+  },
+  {
+   "word": "das",
+   "start": 272.84,
+   "end": 273.02
+  },
+  {
+   "word": "Schlimmste.",
+   "start": 273.02,
+   "end": 273.52
+  },
+  {
+   "word": "70",
+   "start": 273.98,
+   "end": 274.32
+  },
+  {
+   "word": "Herzschläge",
+   "start": 274.32,
+   "end": 275.06
+  },
+  {
+   "word": "pro",
+   "start": 275.06,
+   "end": 275.22
+  },
+  {
+   "word": "Minute.",
+   "start": 275.22,
+   "end": 275.6
+  },
+  {
+   "word": "Du",
+   "start": 276.08,
+   "end": 276.18
+  },
+  {
+   "word": "spürst",
+   "start": 276.18,
+   "end": 276.72
+  },
+  {
+   "word": "jeden",
+   "start": 276.72,
+   "end": 277.06
+  },
+  {
+   "word": "Einzelnen.",
+   "start": 277.06,
+   "end": 277.7
+  },
+  {
+   "word": "Dein",
+   "start": 278.14,
+   "end": 278.3
+  },
+  {
+   "word": "Gesicht",
+   "start": 278.3,
+   "end": 278.58
+  },
+  {
+   "word": "öffnet",
+   "start": 278.58,
+   "end": 279.08
+  },
+  {
+   "word": "jede",
+   "start": 279.08,
+   "end": 279.42
+  },
+  {
+   "word": "Tür.",
+   "start": 279.42,
+   "end": 279.82
+  },
+  {
+   "word": "Doch",
+   "start": 280.2,
+   "end": 280.34
+  },
+  {
+   "word": "es",
+   "start": 280.34,
+   "end": 280.5
+  },
+  {
+   "word": "beweist",
+   "start": 280.5,
+   "end": 281.04
+  },
+  {
+   "word": "nichts.",
+   "start": 281.04,
+   "end": 281.72
+  },
+  {
+   "word": "Der",
+   "start": 282.28,
+   "end": 282.38
+  },
+  {
+   "word": "Vertrag",
+   "start": 282.38,
+   "end": 282.88
+  },
+  {
+   "word": "oder",
+   "start": 282.88,
+   "end": 283.52
+  },
+  {
+   "word": "Jonas.",
+   "start": 283.52,
+   "end": 283.98
+  },
+  {
+   "word": "Schöne",
+   "start": 283.98,
+   "end": 284.86
+  },
+  {
+   "word": "Gesichter",
+   "start": 284.86,
+   "end": 285.34
+  },
+  {
+   "word": "gibt",
+   "start": 285.34,
+   "end": 285.48
+  },
+  {
+   "word": "es",
+   "start": 285.48,
+   "end": 285.66
+  },
+  {
+   "word": "viele.",
+   "start": 285.66,
+   "end": 285.96
+  },
+  {
+   "word": "Einen",
+   "start": 286.32,
+   "end": 286.58
+  },
+  {
+   "word": "Jonas",
+   "start": 286.58,
+   "end": 287.0
+  },
+  {
+   "word": "gibt",
+   "start": 287.0,
+   "end": 287.44
+  },
+  {
+   "word": "es",
+   "start": 287.44,
+   "end": 287.62
+  },
+  {
+   "word": "nur",
+   "start": 287.62,
+   "end": 287.78
+  },
+  {
+   "word": "einmal.",
+   "start": 287.78,
+   "end": 288.16
+  },
+  {
+   "word": "Du",
+   "start": 288.72,
+   "end": 288.78
+  },
+  {
+   "word": "gehst",
+   "start": 288.78,
+   "end": 289.06
+  },
+  {
+   "word": "auf",
+   "start": 289.06,
+   "end": 289.18
+  },
+  {
+   "word": "die",
+   "start": 289.18,
+   "end": 289.34
+  },
+  {
+   "word": "Bühne.",
+   "start": 289.34,
+   "end": 289.66
+  },
+  {
+   "word": "Dein",
+   "start": 290.04,
+   "end": 290.24
+  },
+  {
+   "word": "Mund",
+   "start": 290.24,
+   "end": 290.4
+  },
+  {
+   "word": "ist",
+   "start": 290.4,
+   "end": 290.66
+  },
+  {
+   "word": "trocken.",
+   "start": 290.66,
+   "end": 291.02
+  },
+  {
+   "word": "Brandt",
+   "start": 291.38,
+   "end": 291.82
+  },
+  {
+   "word": "lächelt.",
+   "start": 291.82,
+   "end": 292.1
+  },
+  {
+   "word": "Er",
+   "start": 292.5,
+   "end": 292.6
+  },
+  {
+   "word": "erwartet",
+   "start": 292.6,
+   "end": 293.04
+  },
+  {
+   "word": "die",
+   "start": 293.04,
+   "end": 293.24
+  },
+  {
+   "word": "Lüge.",
+   "start": 293.24,
+   "end": 293.54
+  },
+  {
+   "word": "Du",
+   "start": 293.94,
+   "end": 294.14
+  },
+  {
+   "word": "sagst",
+   "start": 294.14,
+   "end": 294.66
+  },
+  {
+   "word": "die",
+   "start": 294.66,
+   "end": 294.8
+  },
+  {
+   "word": "Wahrheit.",
+   "start": 294.8,
+   "end": 295.28
+  },
+  {
+   "word": "Jonas",
+   "start": 295.68,
+   "end": 295.94
+  },
+  {
+   "word": "war",
+   "start": 295.94,
+   "end": 296.22
+  },
+  {
+   "word": "bei",
+   "start": 296.22,
+   "end": 296.4
+  },
+  {
+   "word": "mir.",
+   "start": 296.4,
+   "end": 296.58
+  },
+  {
+   "word": "Meine",
+   "start": 296.94,
+   "end": 297.12
+  },
+  {
+   "word": "Türkamera",
+   "start": 297.12,
+   "end": 297.78
+  },
+  {
+   "word": "hat",
+   "start": 297.78,
+   "end": 297.94
+  },
+  {
+   "word": "es",
+   "start": 297.94,
+   "end": 298.06
+  },
+  {
+   "word": "aufgenommen.",
+   "start": 298.06,
+   "end": 298.5
+  },
+  {
+   "word": "Du",
+   "start": 298.96,
+   "end": 299.08
+  },
+  {
+   "word": "hebst",
+   "start": 299.08,
+   "end": 299.4
+  },
+  {
+   "word": "dein",
+   "start": 299.4,
+   "end": 299.54
+  },
+  {
+   "word": "Handy.",
+   "start": 299.54,
+   "end": 299.86
+  },
+  {
+   "word": "Die",
+   "start": 300.3,
+   "end": 300.36
+  },
+  {
+   "word": "Aufnahme",
+   "start": 300.36,
+   "end": 300.76
+  },
+  {
+   "word": "läuft.",
+   "start": 300.76,
+   "end": 301.1
+  },
+  {
+   "word": "23",
+   "start": 301.58,
+   "end": 302.08
+  },
+  {
+   "word": "Uhr",
+   "start": 302.08,
+   "end": 302.48
+  },
+  {
+   "word": "41.",
+   "start": 302.48,
+   "end": 303.04
+  },
+  {
+   "word": "Dreimal",
+   "start": 303.66,
+   "end": 304.02
+  },
+  {
+   "word": "kurz.",
+   "start": 304.02,
+   "end": 304.34
+  },
+  {
+   "word": "Einmal",
+   "start": 304.86,
+   "end": 305.14
+  },
+  {
+   "word": "lang.",
+   "start": 305.14,
+   "end": 305.4
+  },
+  {
+   "word": "Dann",
+   "start": 305.84,
+   "end": 305.98
+  },
+  {
+   "word": "eine",
+   "start": 305.98,
+   "end": 306.34
+  },
+  {
+   "word": "leise",
+   "start": 306.34,
+   "end": 306.66
+  },
+  {
+   "word": "Stimme.",
+   "start": 306.66,
+   "end": 307.04
+  },
+  {
+   "word": "Du",
+   "start": 307.46,
+   "end": 307.56
+  },
+  {
+   "word": "siehst",
+   "start": 307.56,
+   "end": 307.86
+  },
+  {
+   "word": "furchtbar",
+   "start": 307.86,
+   "end": 308.38
+  },
+  {
+   "word": "aus.",
+   "start": 308.38,
+   "end": 308.74
+  },
+  {
+   "word": "Und",
+   "start": 309.14,
+   "end": 309.3
+  },
+  {
+   "word": "er",
+   "start": 309.3,
+   "end": 309.42
+  },
+  {
+   "word": "bleibt",
+   "start": 309.42,
+   "end": 309.7
+  },
+  {
+   "word": "bis",
+   "start": 309.7,
+   "end": 310.28
+  },
+  {
+   "word": "6",
+   "start": 310.28,
+   "end": 310.62
+  },
+  {
+   "word": "Uhr",
+   "start": 310.62,
+   "end": 310.88
+  },
+  {
+   "word": "morgens.",
+   "start": 310.88,
+   "end": 311.32
+  },
+  {
+   "word": "Der",
+   "start": 311.76,
+   "end": 311.92
+  },
+  {
+   "word": "Saal",
+   "start": 311.92,
+   "end": 312.24
+  },
+  {
+   "word": "wird",
+   "start": 312.24,
+   "end": 312.4
+  },
+  {
+   "word": "still.",
+   "start": 312.4,
+   "end": 312.74
+  },
+  {
+   "word": "20",
+   "start": 312.74,
+   "end": 313.4
+  },
+  {
+   "word": "Millionen",
+   "start": 313.4,
+   "end": 313.94
+  },
+  {
+   "word": "Menschen",
+   "start": 313.94,
+   "end": 314.46
+  },
+  {
+   "word": "hören.",
+   "start": 314.46,
+   "end": 314.84
+  },
+  {
+   "word": "Einen",
+   "start": 315.42,
+   "end": 315.56
+  },
+  {
+   "word": "Freund.",
+   "start": 315.56,
+   "end": 315.92
+  },
+  {
+   "word": "Dann",
+   "start": 316.62,
+   "end": 316.68
+  },
+  {
+   "word": "bricht",
+   "start": 316.68,
+   "end": 317.06
+  },
+  {
+   "word": "Applaus",
+   "start": 317.06,
+   "end": 317.48
+  },
+  {
+   "word": "los.",
+   "start": 317.48,
+   "end": 317.8
+  },
+  {
+   "word": "Brandt",
+   "start": 318.28,
+   "end": 318.68
+  },
+  {
+   "word": "wird",
+   "start": 318.68,
+   "end": 318.76
+  },
+  {
+   "word": "blass.",
+   "start": 318.76,
+   "end": 319.12
+  },
+  {
+   "word": "Der",
+   "start": 319.54,
+   "end": 319.62
+  },
+  {
+   "word": "Vertrag",
+   "start": 319.62,
+   "end": 320.04
+  },
+  {
+   "word": "platzt.",
+   "start": 320.04,
+   "end": 320.56
+  },
+  {
+   "word": "10",
+   "start": 320.96,
+   "end": 321.22
+  },
+  {
+   "word": "Millionen?",
+   "start": 321.22,
+   "end": 321.62
+  },
+  {
+   "word": "Weg!",
+   "start": 322.16,
+   "end": 322.4
+  },
+  {
+   "word": "Du",
+   "start": 322.88,
+   "end": 322.94
+  },
+  {
+   "word": "hättest",
+   "start": 322.94,
+   "end": 323.22
+  },
+  {
+   "word": "Jonas",
+   "start": 323.22,
+   "end": 323.5
+  },
+  {
+   "word": "opfern",
+   "start": 323.5,
+   "end": 323.98
+  },
+  {
+   "word": "können.",
+   "start": 323.98,
+   "end": 324.22
+  },
+  {
+   "word": "Alles",
+   "start": 324.58,
+   "end": 324.82
+  },
+  {
+   "word": "behalten.",
+   "start": 324.82,
+   "end": 325.3
+  },
+  {
+   "word": "Doch",
+   "start": 325.72,
+   "end": 325.86
+  },
+  {
+   "word": "dann",
+   "start": 325.86,
+   "end": 326.14
+  },
+  {
+   "word": "wärst",
+   "start": 326.14,
+   "end": 326.6
+  },
+  {
+   "word": "du",
+   "start": 326.6,
+   "end": 326.72
+  },
+  {
+   "word": "wie",
+   "start": 326.72,
+   "end": 326.84
+  },
+  {
+   "word": "Brandt.",
+   "start": 326.84,
+   "end": 327.36
+  },
+  {
+   "word": "Draußen",
+   "start": 327.6,
+   "end": 328.0
+  },
+  {
+   "word": "wartet",
+   "start": 328.0,
+   "end": 328.38
+  },
+  {
+   "word": "Jonas.",
+   "start": 328.38,
+   "end": 328.76
+  },
+  {
+   "word": "Er",
+   "start": 329.26,
+   "end": 329.38
+  },
+  {
+   "word": "grinst.",
+   "start": 329.38,
+   "end": 329.7
+  },
+  {
+   "word": "Du",
+   "start": 330.22,
+   "end": 330.36
+  },
+  {
+   "word": "siehst",
+   "start": 330.36,
+   "end": 330.72
+  },
+  {
+   "word": "furchtbar",
+   "start": 330.72,
+   "end": 331.36
+  },
+  {
+   "word": "aus.",
+   "start": 331.36,
+   "end": 331.7
+  },
+  {
+   "word": "Und",
+   "start": 332.06,
+   "end": 332.28
+  },
+  {
+   "word": "du",
+   "start": 332.28,
+   "end": 332.76
+  },
+  {
+   "word": "lachst.",
+   "start": 332.76,
+   "end": 333.3
+  },
+  {
+   "word": "Richtig",
+   "start": 333.48,
+   "end": 333.96
+  },
+  {
+   "word": "laut.",
+   "start": 333.96,
+   "end": 334.36
+  },
+  {
+   "word": "Und",
+   "start": 334.96,
+   "end": 335.14
+  },
+  {
+   "word": "endlich",
+   "start": 335.14,
+   "end": 335.7
+  },
+  {
+   "word": "echt.",
+   "start": 335.7,
+   "end": 336.12
+  },
+  {
+   "word": "Er",
+   "start": 336.76,
+   "end": 336.94
+  },
+  {
+   "word": "sagt,",
+   "start": 336.94,
+   "end": 337.2
+  },
+  {
+   "word": "das",
+   "start": 337.7,
+   "end": 337.84
+  },
+  {
+   "word": "war",
+   "start": 337.84,
+   "end": 338.02
+  },
+  {
+   "word": "leichtsinnig.",
+   "start": 338.02,
+   "end": 338.8
+  },
+  {
+   "word": "Endlich",
+   "start": 339.16,
+   "end": 339.66
+  },
+  {
+   "word": "widerspricht",
+   "start": 339.66,
+   "end": 340.26
+  },
+  {
+   "word": "er",
+   "start": 340.26,
+   "end": 340.42
+  },
+  {
+   "word": "jemand.",
+   "start": 340.42,
+   "end": 340.7
+  },
+  {
+   "word": "Und",
+   "start": 340.7,
+   "end": 341.38
+  },
+  {
+   "word": "es",
+   "start": 341.38,
+   "end": 341.56
+  },
+  {
+   "word": "fühlt",
+   "start": 341.56,
+   "end": 341.82
+  },
+  {
+   "word": "sich",
+   "start": 341.82,
+   "end": 342.1
+  },
+  {
+   "word": "wunderbar",
+   "start": 342.1,
+   "end": 343.22
+  },
+  {
+   "word": "an.",
+   "start": 343.22,
+   "end": 343.44
+  },
+  {
+   "word": "Schöne",
+   "start": 344.02,
+   "end": 344.3
+  },
+  {
+   "word": "Gesichter",
+   "start": 344.3,
+   "end": 344.76
+  },
+  {
+   "word": "gibt",
+   "start": 344.76,
+   "end": 344.92
+  },
+  {
+   "word": "es",
+   "start": 344.92,
+   "end": 345.1
+  },
+  {
+   "word": "viele.",
+   "start": 345.1,
+   "end": 345.42
+  },
+  {
+   "word": "Einen",
+   "start": 345.84,
+   "end": 346.06
+  },
+  {
+   "word": "Jonas",
+   "start": 346.06,
+   "end": 346.48
+  },
+  {
+   "word": "gibt",
+   "start": 346.48,
+   "end": 347.02
+  },
+  {
+   "word": "es",
+   "start": 347.02,
+   "end": 347.22
+  },
+  {
+   "word": "nur",
+   "start": 347.22,
+   "end": 347.38
+  },
+  {
+   "word": "einmal.",
+   "start": 347.38,
+   "end": 347.74
+  },
+  {
+   "word": "Und",
+   "start": 348.44,
+   "end": 348.64
+  },
+  {
+   "word": "was",
+   "start": 348.64,
+   "end": 349.04
+  },
+  {
+   "word": "ist",
+   "start": 349.04,
+   "end": 349.22
+  },
+  {
+   "word": "davon",
+   "start": 349.22,
+   "end": 349.52
+  },
+  {
+   "word": "wahr?",
+   "start": 349.52,
+   "end": 349.82
+  },
+  {
+   "word": "Schönheit",
+   "start": 350.4,
+   "end": 350.94
+  },
+  {
+   "word": "öffnet",
+   "start": 350.94,
+   "end": 351.38
+  },
+  {
+   "word": "tatsächlich",
+   "start": 351.38,
+   "end": 351.88
+  },
+  {
+   "word": "Türen.",
+   "start": 351.88,
+   "end": 352.44
+  },
+  {
+   "word": "1972",
+   "start": 352.9,
+   "end": 353.62
+  },
+  {
+   "word": "zeigten",
+   "start": 353.62,
+   "end": 354.7
+  },
+  {
+   "word": "Dion,",
+   "start": 354.7,
+   "end": 355.1
+  },
+  {
+   "word": "Berscheid",
+   "start": 355.52,
+   "end": 355.98
+  },
+  {
+   "word": "und",
+   "start": 355.98,
+   "end": 356.18
+  },
+  {
+   "word": "Walster",
+   "start": 356.18,
+   "end": 356.62
+  },
+  {
+   "word": "genau",
+   "start": 356.62,
+   "end": 357.08
+  },
+  {
+   "word": "das.",
+   "start": 357.08,
+   "end": 357.38
+  },
+  {
+   "word": "Attraktive",
+   "start": 357.88,
+   "end": 358.48
+  },
+  {
+   "word": "Menschen",
+   "start": 358.48,
+   "end": 358.78
+  },
+  {
+   "word": "gelten",
+   "start": 358.78,
+   "end": 359.24
+  },
+  {
+   "word": "als",
+   "start": 359.24,
+   "end": 359.46
+  },
+  {
+   "word": "klüger",
+   "start": 359.46,
+   "end": 359.96
+  },
+  {
+   "word": "und",
+   "start": 359.96,
+   "end": 360.26
+  },
+  {
+   "word": "freundlicher.",
+   "start": 360.26,
+   "end": 360.8
+  },
+  {
+   "word": "1990",
+   "start": 361.32,
+   "end": 362.18
+  },
+  {
+   "word": "fanden",
+   "start": 362.18,
+   "end": 362.82
+  },
+  {
+   "word": "Langlois",
+   "start": 362.82,
+   "end": 363.5
+  },
+  {
+   "word": "und",
+   "start": 363.5,
+   "end": 363.72
+  },
+  {
+   "word": "Rockmann,",
+   "start": 363.72,
+   "end": 364.2
+  },
+  {
+   "word": "gemittelte",
+   "start": 364.46,
+   "end": 365.2
+  },
+  {
+   "word": "Gesichter",
+   "start": 365.2,
+   "end": 365.72
+  },
+  {
+   "word": "wirken",
+   "start": 365.72,
+   "end": 366.06
+  },
+  {
+   "word": "anziehender.",
+   "start": 366.06,
+   "end": 366.68
+  },
+  {
+   "word": "Für",
+   "start": 367.26,
+   "end": 367.38
+  },
+  {
+   "word": "den",
+   "start": 367.38,
+   "end": 367.52
+  },
+  {
+   "word": "goldenen",
+   "start": 367.52,
+   "end": 368.04
+  },
+  {
+   "word": "Schnitt",
+   "start": 368.04,
+   "end": 368.32
+  },
+  {
+   "word": "als",
+   "start": 368.32,
+   "end": 368.58
+  },
+  {
+   "word": "Schönheitsformel",
+   "start": 368.58,
+   "end": 369.5
+  },
+  {
+   "word": "gibt",
+   "start": 369.5,
+   "end": 369.76
+  },
+  {
+   "word": "es",
+   "start": 369.76,
+   "end": 369.94
+  },
+  {
+   "word": "keinen",
+   "start": 369.94,
+   "end": 370.2
+  },
+  {
+   "word": "sicheren",
+   "start": 370.2,
+   "end": 370.74
+  },
+  {
+   "word": "Beleg.",
+   "start": 370.74,
+   "end": 371.08
+  },
+  {
+   "word": "Und",
+   "start": 371.54,
+   "end": 371.7
+  },
+  {
+   "word": "ein",
+   "start": 371.7,
+   "end": 371.86
+  },
+  {
+   "word": "Gesicht",
+   "start": 371.86,
+   "end": 372.26
+  },
+  {
+   "word": "beweist",
+   "start": 372.26,
+   "end": 372.78
+  },
+  {
+   "word": "keine",
+   "start": 372.78,
+   "end": 373.1
+  },
+  {
+   "word": "Ehrlichkeit.",
+   "start": 373.1,
+   "end": 373.78
+  },
+  {
+   "word": "Es",
+   "start": 374.16,
+   "end": 374.3
+  },
+  {
+   "word": "macht",
+   "start": 374.3,
+   "end": 374.48
+  },
+  {
+   "word": "dich",
+   "start": 374.48,
+   "end": 374.64
+  },
+  {
+   "word": "nur",
+   "start": 374.64,
+   "end": 374.84
+  },
+  {
+   "word": "glaubwürdiger.",
+   "start": 374.84,
+   "end": 375.56
+  },
+  {
+   "word": "Der",
+   "start": 375.98,
+   "end": 376.14
+  },
+  {
+   "word": "Rest",
+   "start": 376.14,
+   "end": 376.42
+  },
+  {
+   "word": "ist",
+   "start": 376.42,
+   "end": 376.84
+  },
+  {
+   "word": "Fiktion.",
+   "start": 376.84,
+   "end": 377.36
+  },
+  {
+   "word": "Aber",
+   "start": 377.84,
+   "end": 378.08
+  },
+  {
+   "word": "was",
+   "start": 378.08,
+   "end": 378.56
+  },
+  {
+   "word": "bedeutet",
+   "start": 378.56,
+   "end": 379.06
+  },
+  {
+   "word": "eigentlich",
+   "start": 379.06,
+   "end": 379.6
+  },
+  {
+   "word": "schön?",
+   "start": 379.6,
+   "end": 380.18
+  },
+  {
+   "word": "Nachts",
+   "start": 380.82,
+   "end": 381.34
+  },
+  {
+   "word": "vibriert",
+   "start": 381.34,
+   "end": 381.7
+  },
+  {
+   "word": "dein",
+   "start": 381.7,
+   "end": 381.84
+  },
+  {
+   "word": "Handy.",
+   "start": 381.84,
+   "end": 382.18
+  },
+  {
+   "word": "Unbekannte",
+   "start": 382.68,
+   "end": 383.2
+  },
+  {
+   "word": "Nummer.",
+   "start": 383.2,
+   "end": 383.42
+  },
+  {
+   "word": "Eine",
+   "start": 383.88,
+   "end": 384.08
+  },
+  {
+   "word": "Stimme",
+   "start": 384.08,
+   "end": 384.4
+  },
+  {
+   "word": "flüstert.",
+   "start": 384.4,
+   "end": 384.94
+  },
+  {
+   "word": "Gut",
+   "start": 385.44,
+   "end": 385.68
+  },
+  {
+   "word": "gemacht.",
+   "start": 385.68,
+   "end": 385.98
+  },
+  {
+   "word": "Aber",
+   "start": 386.6,
+   "end": 386.8
+  },
+  {
+   "word": "du",
+   "start": 386.8,
+   "end": 386.92
+  },
+  {
+   "word": "bist",
+   "start": 386.92,
+   "end": 387.08
+  },
+  {
+   "word": "nicht",
+   "start": 387.08,
+   "end": 387.26
+  },
+  {
+   "word": "der",
+   "start": 387.26,
+   "end": 387.44
+  },
+  {
+   "word": "Einzige",
+   "start": 387.44,
+   "end": 387.86
+  },
+  {
+   "word": "mit",
+   "start": 387.86,
+   "end": 388.06
+  },
+  {
+   "word": "diesem",
+   "start": 388.06,
+   "end": 388.26
+  },
+  {
+   "word": "Gesicht.",
+   "start": 388.26,
+   "end": 388.56
+  },
+  {
+   "word": "Was",
+   "start": 389.22,
+   "end": 389.44
+  },
+  {
+   "word": "denkst",
+   "start": 389.44,
+   "end": 389.78
+  },
+  {
+   "word": "du?",
+   "start": 389.78,
+   "end": 389.92
+  },
+  {
+   "word": "Schreib",
+   "start": 390.28,
+   "end": 390.5
+  },
+  {
+   "word": "es",
+   "start": 390.5,
+   "end": 390.68
+  },
+  {
+   "word": "uns",
+   "start": 390.68,
+   "end": 390.82
+  },
+  {
+   "word": "in",
+   "start": 390.82,
+   "end": 390.98
+  },
+  {
+   "word": "die",
+   "start": 390.98,
+   "end": 391.06
+  },
+  {
+   "word": "Kommentare.",
+   "start": 391.06,
+   "end": 391.48
+  },
+  {
+   "word": "Und",
+   "start": 392.1,
+   "end": 392.2
+  },
+  {
+   "word": "sag",
+   "start": 392.2,
+   "end": 392.38
+  },
+  {
+   "word": "uns,",
+   "start": 392.38,
+   "end": 392.62
+  },
+  {
+   "word": "welche",
+   "start": 392.82,
+   "end": 392.96
+  },
+  {
+   "word": "Superkraft",
+   "start": 392.96,
+   "end": 393.64
+  },
+  {
+   "word": "wir",
+   "start": 393.64,
+   "end": 393.82
+  },
+  {
+   "word": "als",
+   "start": 393.82,
+   "end": 394.0
+  },
+  {
+   "word": "nächstes",
+   "start": 394.0,
+   "end": 394.38
+  },
+  {
+   "word": "machen",
+   "start": 394.38,
+   "end": 394.62
+  },
+  {
+   "word": "sollen.",
+   "start": 394.62,
+   "end": 394.9
+  },
+  {
+   "word": "Lass",
+   "start": 395.38,
+   "end": 395.54
+  },
+  {
+   "word": "ein",
+   "start": 395.54,
+   "end": 395.72
+  },
+  {
+   "word": "Like",
+   "start": 395.72,
+   "end": 395.94
+  },
+  {
+   "word": "da.",
+   "start": 395.94,
+   "end": 396.18
+  },
+  {
+   "word": "Und",
+   "start": 396.64,
+   "end": 396.72
+  },
+  {
+   "word": "abonniere",
+   "start": 396.72,
+   "end": 397.46
+  },
+  {
+   "word": "für",
+   "start": 397.46,
+   "end": 397.66
+  },
+  {
+   "word": "Teil",
+   "start": 397.66,
+   "end": 397.86
+  },
+  {
+   "word": "2.",
+   "start": 397.86,
+   "end": 398.18
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "title": "The One Dollar Show",
+ "aspect": "16:9",
+ "resolution": "720p",
+ "fps": 24,
+ "style": "toon",
+ "voiceover": null,
+ "script": null,
+ "duration": 28,
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0.4,
+ "fadeOut": 0.8,
+ "music": { "enabled": true, "gainDb": -17 },
+ "sfx": { "enabled": true, "gainDb": -6 },
+ "loudness": -14
+}

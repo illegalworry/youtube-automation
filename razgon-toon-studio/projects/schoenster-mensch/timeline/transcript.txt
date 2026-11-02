@@ -1,0 +1,208 @@
+[00:00.00 -> 00:01.06] Du steigst in den Bus.
+[00:01.74 -> 00:02.98] Das Gespräch verstummt.
+[00:03.38 -> 00:05.00] Der Fahrer vergisst zu blinken.
+[00:05.44 -> 00:06.96] Ein Kind lässt sein Eis fallen.
+[00:07.54 -> 00:08.56] Und start dich an.
+[00:09.10 -> 00:10.22] Ein Fremder springt auf.
+[00:10.68 -> 00:12.00] Erbietet dir seinen Platz an.
+[00:12.42 -> 00:13.84] Du hast noch nicht mal Hallo gesagt.
+[00:14.50 -> 00:16.68] In der Bäckerei bestellst du zwei Brötchen.
+[00:17.08 -> 00:18.92] Die Verkäuferin packt drei ein.
+[00:19.36 -> 00:20.16] Und kassiert nichts.
+[00:20.70 -> 00:21.24] Dein Kaffee?
+[00:21.72 -> 00:22.22] Gratis.
+[00:22.58 -> 00:24.68] Dein Bus wartet extra auf dich.
+[00:25.18 -> 00:28.30] Ein normaler Mensch wird in einer Zehntelsekunde eingeschätzt.
+[00:28.30 -> 00:31.00] Das zeigten Willis und Todorov 2006.
+[00:31.60 -> 00:31.82] Du?
+[00:32.12 -> 00:34.26] Du wirst in dieser Zeit bewundert.
+[00:34.86 -> 00:35.64] Hier ist die Regel.
+[00:36.12 -> 00:37.94] Dein Gesicht öffnet jede Tür.
+[00:38.38 -> 00:39.78] Aber es beweist nichts.
+[00:40.26 -> 00:41.02] Nicht dein Können.
+[00:41.24 -> 00:42.28] Nicht deine Ehrlichkeit.
+[00:42.64 -> 00:43.78] Nicht die Wahrheit.
+[00:44.18 -> 00:45.02] Alle glauben dir.
+[00:45.50 -> 00:47.22] Aber Glauben ist kein Beweis.
+[00:47.74 -> 00:50.42] Also was, wenn du der schönste Mensch der Welt wärst?
+[00:50.70 -> 00:52.16] Und was, wenn das nicht reicht?
+[00:52.70 -> 00:54.96] Plus, dein Lehrer gibt dir eine Eins.
+[00:55.36 -> 00:57.04] Dein Aufsatz hat vier Fehler.
+[00:57.04 -> 01:00.58] Minus, du fragst dich, ob du sie verdient hast.
+[01:01.02 -> 01:03.08] Forscher nennen das den Halo Effekt.
+[01:03.42 -> 01:06.38] Schöne Menschen wirken klüger, netter, ehrlicher.
+[01:06.80 -> 01:07.94] Auch wenn sie es nicht sind.
+[01:08.40 -> 01:09.80] Dann kommt der Bewerbungstag.
+[01:10.28 -> 01:11.18] Du betrittst das Büro.
+[01:11.62 -> 01:12.78] Der Chef lächelt schon.
+[01:13.14 -> 01:14.94] Er hat deinen Lebenslauf noch nicht gelesen.
+[01:15.32 -> 01:16.58] Die Stelle gehört dir.
+[01:17.02 -> 01:18.92] Leo, dein neuer Kollege, flüstert.
+[01:19.36 -> 01:20.26] Wie machst du das?
+[01:20.74 -> 01:21.88] Du zuckst mit den Schultern.
+[01:22.28 -> 01:23.24] Ich hab nichts gemacht.
+[01:23.70 -> 01:25.96] Im Restaurant bekommst du den besten Tisch.
+[01:25.96 -> 01:27.52] Und ein Dessert aufs Haus.
+[01:28.08 -> 01:29.94] Der Kellner stolpert über Jonas Fuß.
+[01:30.40 -> 01:31.72] Und entschuldigt sich bei dir.
+[01:32.14 -> 01:34.78] Jonas, dein bester Freund, hebt die Augenbrauen.
+[01:35.22 -> 01:36.70] Hallo, das war mein Fuß.
+[01:37.32 -> 01:39.00] Dann dein erstes Foto im Netz.
+[01:39.40 -> 01:41.16] Um acht Uhr abends postest du es.
+[01:41.44 -> 01:43.56] Um neun hast du hunderttausend Likes.
+[01:43.94 -> 01:45.60] Um Mitternacht eine Million.
+[01:46.16 -> 01:47.30] Dein Akku leer.
+[01:47.78 -> 01:49.10] Deine Mailbox voll.
+[01:49.52 -> 01:51.26] Plus, dein Konto füllt sich.
+[01:51.62 -> 01:53.96] Minus, keiner fragt, was du denkst.
+[01:53.96 -> 01:56.06] Auf der Straße bleibt ein Mann stehen.
+[01:56.44 -> 01:58.14] Er filmt dich, ohne zu fragen.
+[01:58.70 -> 01:59.34] Dann eine Frau.
+[01:59.80 -> 02:00.60] Dann eine Gruppe.
+[02:00.98 -> 02:03.34] Nach einer Minute sind es 30 Handys.
+[02:03.62 -> 02:04.96] Und immer dieselben Sätze.
+[02:05.38 -> 02:06.52] Du bist wunderschön.
+[02:06.88 -> 02:07.48] Du bist perfekt.
+[02:08.04 -> 02:08.90] Du bist...
+[02:08.90 -> 02:09.16] Ja.
+[02:09.58 -> 02:10.10] Was eigentlich?
+[02:10.72 -> 02:13.88] Ein Spaziergang im Park dauert normalerweise 30 Minuten.
+[02:14.36 -> 02:15.90] Bei dir 3 Stunden.
+[02:16.34 -> 02:17.10] Wegen Selfies.
+[02:17.48 -> 02:19.94] Minus, du kannst dich nirgends mehr verstecken.
+[02:20.36 -> 02:22.76] Aber richtig verrückt wird es in Paris.
+[02:22.76 -> 02:24.16] Eine Modenschau.
+[02:24.46 -> 02:25.42] 200 Plätze.
+[02:25.76 -> 02:27.62] 2000 Menschen wollen hinein.
+[02:27.90 -> 02:29.20] Du gehst über den Laufsteg.
+[02:29.54 -> 02:30.26] 20 Meter.
+[02:30.68 -> 02:31.70] 30 Sekunden.
+[02:32.04 -> 02:34.68] Ein Mensch blinzelt etwa 15 Mal pro Minute.
+[02:35.12 -> 02:36.50] Im Saal blinzelt keiner.
+[02:36.94 -> 02:38.92] Sogar der Fotograf vergisst zu knipsen.
+[02:39.28 -> 02:40.04] Am nächsten Morgen?
+[02:40.44 -> 02:42.20] Dein Foto läuft in 100 Ländern.
+[02:42.60 -> 02:44.58] Eine Sängerin will dich in ihrem Video.
+[02:45.12 -> 02:47.44] Ein Konzern will dein Gesicht auf Plakaten.
+[02:47.86 -> 02:49.08] 20 Meter hoch.
+[02:49.50 -> 02:50.06] Nur du.
+[02:50.52 -> 02:51.58] Und dein Lächeln.
+[02:51.58 -> 02:53.32] Und es gibt einen Preis.
+[02:53.96 -> 02:54.66] Den sieht keiner.
+[02:55.18 -> 02:56.86] Du hörst nie wieder die Wahrheit.
+[02:57.24 -> 02:58.38] Niemand widerspricht dir.
+[02:58.70 -> 03:00.44] Niemand sagt, das war schlecht.
+[03:01.12 -> 03:01.42] Der Grund?
+[03:01.96 -> 03:04.10] Dein Anblick aktiviert ihr Belohnungssystem.
+[03:04.66 -> 03:05.50] Sie wollen dir gefallen.
+[03:06.08 -> 03:08.14] Du bekommst Applaus statt Ehrlichkeit.
+[03:08.50 -> 03:11.12] Ein ganzes Jahr ohne ein einziges Nein.
+[03:11.64 -> 03:14.58] Und plötzlich fragst du dich, was an dir wirklich zählt.
+[03:15.10 -> 03:15.88] Wer mag dich?
+[03:16.26 -> 03:17.40] Und wer nur dein Gesicht?
+[03:17.96 -> 03:20.62] Wer nie Fehler gezeigt bekommt, lernt nie.
+[03:20.62 -> 03:23.36] Das macht einsam und gefährlich.
+[03:23.84 -> 03:24.96] Nur einer ist anders.
+[03:25.74 -> 03:28.34] Jonas, dein bester Freund seit der ersten Klasse.
+[03:28.84 -> 03:30.50] Jeden Morgen klopft er an deine Tür.
+[03:30.88 -> 03:32.68] Dreimal kurz, einmal lang.
+[03:33.08 -> 03:34.48] Dann sagt er immer dasselbe.
+[03:34.86 -> 03:36.34] Du siehst furchtbar aus.
+[03:36.80 -> 03:37.32] Er lügt.
+[03:37.76 -> 03:39.28] Und genau das liebst du.
+[03:39.62 -> 03:42.12] Bei ihm ist dein Gesicht nur ein Gesicht.
+[03:42.62 -> 03:44.10] Er streitet mit dir über Pizza.
+[03:44.56 -> 03:45.86] Er lacht über deine Witze.
+[03:46.18 -> 03:47.74] Über die schlechten noch lauter.
+[03:47.74 -> 03:50.80] Sam, hast du heute wieder nichts gelernt?
+[03:51.28 -> 03:53.70] Du lachst zum ersten Mal seit Wochen.
+[03:54.20 -> 03:56.98] Er ist der Einzige der nie nach deinem Foto fragt.
+[03:57.38 -> 03:58.84] Dann kommt Herr Brandt.
+[03:58.90 -> 04:00.82] Ihm gehört die größte Agentur der Stadt.
+[04:01.30 -> 04:02.02] Sein Angebot?
+[04:02.38 -> 04:03.50] 10 Millionen Euro.
+[04:03.90 -> 04:04.48] 3 Jahre.
+[04:04.96 -> 04:06.54] Dein Gesicht auf jedem Plakat.
+[04:07.04 -> 04:08.28] Es gibt nur einen Haken.
+[04:08.76 -> 04:10.68] Jonas, Brandt beschuldigt ihn.
+[04:11.10 -> 04:12.30] Der Diebstahl im Studio.
+[04:12.70 -> 04:13.40] Um Mitternacht.
+[04:13.84 -> 04:15.04] 50 .000 Euro.
+[04:15.46 -> 04:15.66] Weg.
+[04:15.66 -> 04:17.26] Du weißt die Wahrheit.
+[04:17.56 -> 04:18.56] Jonas war bei dir.
+[04:19.00 -> 04:19.84] Die ganze Nacht.
+[04:20.30 -> 04:21.10] Die Presse wartet.
+[04:21.72 -> 04:22.44] Liveübertragung.
+[04:22.72 -> 04:24.24] 20 Millionen Zuschauer.
+[04:24.58 -> 04:25.82] Noch 60 Sekunden.
+[04:26.12 -> 04:26.88] Brandt flüstert.
+[04:27.30 -> 04:28.82] Sag, du hast Jonas gesehen.
+[04:29.18 -> 04:29.68] Mit dem Geld.
+[04:30.12 -> 04:30.82] Dir glaubt jeder.
+[04:31.30 -> 04:31.86] Er hat recht.
+[04:32.42 -> 04:33.52] Das ist das Schlimmste.
+[04:33.98 -> 04:35.60] 70 Herzschläge pro Minute.
+[04:36.08 -> 04:37.70] Du spürst jeden Einzelnen.
+[04:38.14 -> 04:39.82] Dein Gesicht öffnet jede Tür.
+[04:40.20 -> 04:41.72] Doch es beweist nichts.
+[04:42.28 -> 04:43.98] Der Vertrag oder Jonas.
+[04:43.98 -> 04:45.96] Schöne Gesichter gibt es viele.
+[04:46.32 -> 04:48.16] Einen Jonas gibt es nur einmal.
+[04:48.72 -> 04:49.66] Du gehst auf die Bühne.
+[04:50.04 -> 04:51.02] Dein Mund ist trocken.
+[04:51.38 -> 04:52.10] Brandt lächelt.
+[04:52.50 -> 04:53.54] Er erwartet die Lüge.
+[04:53.94 -> 04:55.28] Du sagst die Wahrheit.
+[04:55.68 -> 04:56.58] Jonas war bei mir.
+[04:56.94 -> 04:58.50] Meine Türkamera hat es aufgenommen.
+[04:58.96 -> 04:59.86] Du hebst dein Handy.
+[05:00.30 -> 05:01.10] Die Aufnahme läuft.
+[05:01.58 -> 05:03.04] 23 Uhr 41.
+[05:03.66 -> 05:04.34] Dreimal kurz.
+[05:04.86 -> 05:05.40] Einmal lang.
+[05:05.84 -> 05:07.04] Dann eine leise Stimme.
+[05:07.46 -> 05:08.74] Du siehst furchtbar aus.
+[05:09.14 -> 05:11.32] Und er bleibt bis 6 Uhr morgens.
+[05:11.76 -> 05:12.74] Der Saal wird still.
+[05:12.74 -> 05:14.84] 20 Millionen Menschen hören.
+[05:15.42 -> 05:15.92] Einen Freund.
+[05:16.62 -> 05:17.80] Dann bricht Applaus los.
+[05:18.28 -> 05:19.12] Brandt wird blass.
+[05:19.54 -> 05:20.56] Der Vertrag platzt.
+[05:20.96 -> 05:21.62] 10 Millionen?
+[05:22.16 -> 05:22.40] Weg!
+[05:22.88 -> 05:24.22] Du hättest Jonas opfern können.
+[05:24.58 -> 05:25.30] Alles behalten.
+[05:25.72 -> 05:27.36] Doch dann wärst du wie Brandt.
+[05:27.60 -> 05:28.76] Draußen wartet Jonas.
+[05:29.26 -> 05:29.70] Er grinst.
+[05:30.22 -> 05:31.70] Du siehst furchtbar aus.
+[05:32.06 -> 05:33.30] Und du lachst.
+[05:33.48 -> 05:34.36] Richtig laut.
+[05:34.96 -> 05:36.12] Und endlich echt.
+[05:36.76 -> 05:38.80] Er sagt, das war leichtsinnig.
+[05:39.16 -> 05:40.70] Endlich widerspricht er jemand.
+[05:40.70 -> 05:43.44] Und es fühlt sich wunderbar an.
+[05:44.02 -> 05:45.42] Schöne Gesichter gibt es viele.
+[05:45.84 -> 05:47.74] Einen Jonas gibt es nur einmal.
+[05:48.44 -> 05:49.82] Und was ist davon wahr?
+[05:50.40 -> 05:52.44] Schönheit öffnet tatsächlich Türen.
+[05:52.90 -> 05:57.38] 1972 zeigten Dion, Berscheid und Walster genau das.
+[05:57.88 -> 06:00.80] Attraktive Menschen gelten als klüger und freundlicher.
+[06:01.32 -> 06:06.68] 1990 fanden Langlois und Rockmann, gemittelte Gesichter wirken anziehender.
+[06:07.26 -> 06:11.08] Für den goldenen Schnitt als Schönheitsformel gibt es keinen sicheren Beleg.
+[06:11.54 -> 06:13.78] Und ein Gesicht beweist keine Ehrlichkeit.
+[06:14.16 -> 06:15.56] Es macht dich nur glaubwürdiger.
+[06:15.98 -> 06:17.36] Der Rest ist Fiktion.
+[06:17.84 -> 06:20.18] Aber was bedeutet eigentlich schön?
+[06:20.82 -> 06:22.18] Nachts vibriert dein Handy.
+[06:22.68 -> 06:23.42] Unbekannte Nummer.
+[06:23.88 -> 06:24.94] Eine Stimme flüstert.
+[06:25.44 -> 06:25.98] Gut gemacht.
+[06:26.60 -> 06:28.56] Aber du bist nicht der Einzige mit diesem Gesicht.
+[06:29.22 -> 06:29.92] Was denkst du?
+[06:30.28 -> 06:31.48] Schreib es uns in die Kommentare.
+[06:32.10 -> 06:34.90] Und sag uns, welche Superkraft wir als nächstes machen sollen.
+[06:35.38 -> 06:36.18] Lass ein Like da.
+[06:36.64 -> 06:38.18] Und abonniere für Teil 2.
