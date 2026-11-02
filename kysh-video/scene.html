@@ -48,7 +48,7 @@ canvas.full{position:absolute;inset:0;width:720px;height:1280px}
 <div id="bg"></div><div id="aur"><div></div><div></div><div></div></div>
 <canvas class="full" id="stars" width="1080" height="1920"></canvas>
 <div id="world">
- <div id="top"><div id="bars"><i></i><i></i><i></i><i></i></div>Бегиш ft. Арсен<span>· Кыш</span></div>
+ <div id="top"><div id="bars"><i></i><i></i><i></i><i></i></div>И</div>
  <div id="stage"></div>
  <div id="sub"><div id="ky"></div><div id="ru"></div></div>
  <div id="bar"><div id="barf"></div></div><div id="t0"></div><div id="t1"></div>
@@ -313,7 +313,7 @@ function setTime(T){T_=T;const t=T;
  $('barf').style.width=(T/DUR*100)+'%';const fm=s=>Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0');$('t0').textContent=fm(T);$('t1').textContent='-'+fm(Math.ceil(Math.max(0,DUR-T)));
  ['bar','t0','t1','top'].forEach(id=>$(id).style.opacity=eo(ph(T,.5,.4))*(1-eo(ph(T,55.3,.5))));
  // intro: snowflake logo that bursts into first card
- const ip=$('intro');if(T<1.2){const a=popS(T,0,.5),o=1-eo(ph(T,.7,.3));ip.style.opacity=o;ip.innerHTML=`<div style="position:absolute;left:0;right:0;top:420px;text-align:center;transform:scale(${a*(1+.08*bE)}) rotate(${T*60}deg);font-size:150px">❄️</div><div style="position:absolute;left:0;right:0;top:640px;text-align:center;color:#fff;font-weight:900;font-size:56px;opacity:${clamp(T*4)}">КЫШ</div><div style="position:absolute;left:0;right:0;top:712px;text-align:center;color:#b9b2f0;font-weight:700;font-size:22px;opacity:${clamp(T*4-.5)}">Бегиш ft. Арсен</div>`}else ip.innerHTML='';
+ const ip=$('intro');if(T<1.2){const a=popS(T,0,.5),o=1-eo(ph(T,.7,.3));ip.style.opacity=o;ip.innerHTML=`<div style="position:absolute;left:0;right:0;top:420px;text-align:center;transform:scale(${a*(1+.08*bE)}) rotate(${T*60}deg);font-size:150px">❄️</div><div style="position:absolute;left:0;right:0;top:640px;text-align:center;color:#fff;font-weight:900;font-size:72px;opacity:${clamp(T*4)}">И</div>`}else ip.innerHTML='';
  // outro text
  if(T>54.35){const p=popS(T,54.5,.6);ip.style.opacity=1-eo(ph(T,56.0,.6));ip.innerHTML=`<div style="position:absolute;left:0;right:0;top:470px;text-align:center;font-size:120px;transform:scale(${p}) rotate(${T*40}deg)">❄️</div><div style="position:absolute;left:0;right:0;top:640px;text-align:center;color:#fff;font-weight:900;font-size:40px;opacity:${p}">Жаңы жылыңыздар менен!</div><div style="position:absolute;left:0;right:0;top:696px;text-align:center;color:#b9b2f0;font-weight:700;font-size:21px;opacity:${p}">С Новым годом!</div>`}
  // snow + bursts (foreground)
