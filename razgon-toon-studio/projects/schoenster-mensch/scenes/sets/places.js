@@ -316,8 +316,8 @@ export function pressesaal(g, t, cam, o = {}) {
     if (o.live !== false) { const on = (t * 1.2) % 1 < 0.75; rr(g, CX + 560, GY - 640, 220, 80, 12); g.fillStyle = on ? '#e8443a' : '#8a2a24'; g.fill(); text(g, '● LIVE', CX + 670, GY - 598, { size: 44, font: FONTS.ui, weight: 900, color: '#ffffff' }); }
     g.save(); g.globalCompositeOperation = 'lighter'; poly(g, [[CX - 40, -200], [CX + 40, -200], [CX + 420, GY], [CX - 420, GY]], alpha('#fff3d0', 0.12)); g.restore(); });
   layer(g, cam, 0.9, (g) => { g.fillStyle = '#16203e'; g.fillRect(-E.W * 2, GY - 40, E.W * 5, E.H * 2); rr(g, -E.W * 2, GY - 60, E.W * 5, 40, 4); g.fillStyle = '#c9a77a'; g.fill(); softEllipse(g, CX, GY - 30, 500, 60, '#fff6d8', 0.5); });
-  const podium = (g) => { const x = CX + (o.podiumX ?? 0); poly(g, [[x - 130, GY - 300], [x + 130, GY - 300], [x + 110, GY - 40], [x - 110, GY - 40]], '#f2efe6'); g.fillStyle = '#16244a'; g.fillRect(x - 80, GY - 230, 160, 70); circle(g, x, GY - 195, 26, '#f7c948');
-    seg(g, [[x - 20, GY - 300], [x - 40, GY - 400]], 6, '#2a2d34'); rr(g, x - 58, GY - 430, 34, 46, 14); g.fillStyle = '#2a2d34'; g.fill(); };
+  const podium = (g) => { const x = CX + (o.podiumX ?? 0); poly(g, [[x - 130, GY - 230], [x + 130, GY - 230], [x + 110, GY - 40], [x - 110, GY - 40]], '#f2efe6'); g.fillStyle = '#16244a'; g.fillRect(x - 80, GY - 180, 160, 64); circle(g, x, GY - 148, 24, '#f7c948');
+    seg(g, [[x + 40, GY - 230], [x + 70, GY - 330]], 6, '#2a2d34'); rr(g, x + 56, GY - 362, 30, 42, 13); g.fillStyle = '#2a2d34'; g.fill(); };
   const cams = (g) => { for (let i = -6; i <= 6; i++) { const x = CX + i * 330, y = GY + 360; seg(g, [[x, y], [x, y + 300]], 12, '#2a2d34'); rr(g, x - 90, y - 90, 180, 110, 12); g.fillStyle = '#2a2d34'; g.fill(); circle(g, x + (i < 0 ? 100 : -100), y - 36, 40, '#131316'); circle(g, x + (i < 0 ? 100 : -100), y - 36, 22, '#3a4a6a');
     if (o.flash && ((t * 3 + i * 0.37) % 1) < 0.08) lamplight(g, x, y - 60, 300, '#ffffff', 1); } };
   return done(GY, CX, M, (g) => { if (o.podium !== false) layer(g, cam, 1.0, podium); if (o.cams) layer(g, cam, 1.35, cams); });
