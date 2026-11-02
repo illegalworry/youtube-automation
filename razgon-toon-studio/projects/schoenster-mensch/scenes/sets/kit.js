@@ -74,7 +74,7 @@ import { counter as _counter } from '/engine/toonui.js';
 export function cnt(g, t, o) {
   const { from = 0, to = 100, start = 0, dur = 1.2, decimals = 0 } = o;
   const v = from + (to - from) * ease.out(clamp(prog(t, start, start + dur)));
-  const str = (o.prefix || '') + v.toLocaleString('de-DE', { minimumFractionDigits: decimals, maximumFractionDigits: decimals }) + (o.suffix || '');
+  const str = (o.prefix || '') + v.toLocaleString('de-DE', { minimumFractionDigits: decimals, maximumFractionDigits: decimals, useGrouping: !o.plain }) + (o.suffix || '');
   if (t < start) return;
   const k = ease.outBack(clamp(prog(t, start, start + 0.25))), size = o.size || 110, x = o.x ?? E.W / 2, y = o.y ?? E.H * 0.3;
   g.save(); g.translate(x, y); g.scale(k, k);
