@@ -56,8 +56,8 @@ export function toonFace(g, hx, hy, r, o = {}) {
   }
   const by = ey - r * 0.27, bw = r * 0.13;
   const brow = (x, a) => seg(g, [[x - bw, by + a], [x + bw, by - a]], lw * 0.85, col);
-  if (ex.brows === 'worried') { brow(eyes[0][0], -r * 0.05); brow(eyes[1][0], r * 0.05); }
-  if (ex.brows === 'angry') { brow(eyes[0][0], r * 0.06); brow(eyes[1][0], -r * 0.06); }
+  if (ex.brows === 'worried') { brow(eyes[0][0], r * 0.05); brow(eyes[1][0], -r * 0.05); }   // inner ends raised
+  if (ex.brows === 'angry') { brow(eyes[0][0], -r * 0.06); brow(eyes[1][0], r * 0.06); }    // inner ends lowered
   if (ex.brows === 'up') eyes.forEach(([x]) => seg(g, [[x - bw, by - r * 0.04], [x + bw, by - r * 0.04]], lw * 0.85, col));
   if (ex.brows === 'one') { brow(eyes[0][0], 0); seg(g, [[eyes[1][0] - bw, by - r * 0.1], [eyes[1][0] + bw, by - r * 0.04]], lw * 0.85, col); }
   const mx = fx + (o.front ? 0 : sd * r * 0.03), my = fy + r * 0.34, talk = o.talk || 0;

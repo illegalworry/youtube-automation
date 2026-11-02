@@ -23,29 +23,6 @@ registerShot('s031', { draw(g, t, info) {
   layer(g, cam, 1, (g) => {});
 } });
 
-// s061 — wide: ring of phones around Sam, counter "30 HANDYS"
-registerShot('s061', { draw(g, t, info) {
-  const cam = camAdd(camPath(t, [[0, { z: 1.2, y: 60, x: 0 }], [info.dur, { z: 1.32, y: 70, x: 20 }]]), drift(t, 4, 2));
-  const { GY, CX, M } = street(g, t, cam);
-  layer(g, cam, 1, (g) => {
-    const ring = [[-560, 0, 1], [-400, 30, 1], [-250, 50, 1], [250, 50, -1], [400, 30, -1], [560, 0, -1], [-690, -20, 1], [690, -20, -1]];
-    ring.forEach(([dx, dy, f], i) => drawToon(g, { x: CX + dx, y: GY + dy - 30, s: 1.15, facing: f, outfit: EXTRAS[i % EXTRAS.length], pose: breathe(PHONE_UP, t, 1, i), prop: 'phone', expr: 'awe', look: [-f * -0.5, 0], blink: blinkAt(t, 3 + i * 0.3, i) }));
-    drawToon(g, { x: CX, y: GY + 20, s: 1.3, facing: 1, outfit: SAM, pose: breathe(POSES.crossArms, t), expr: 'nervous', look: [0.4, -0.1], blink: blinkAt(t, 2.8) });
-  });
-  counter(g, t, { from: 0, to: 30, start: 0.2, dur: 1.0, x: E.W * 0.5, y: E.H * 0.2, label: 'HANDYS' });
-} });
-
-// s065 — giant close-up: Sam confused, "…WAS EIGENTLICH?"
-registerShot('s065', { draw(g, t, info) {
-  blurLayer(g, 14, (g) => street(g, t, { z: 1.5, x: 200, y: -150 })); veil(g, '#ffffff', 0.06);
-  const im = impact(t, 0.15, { amp: 6 });
-  g.save(); g.translate(im.x, im.y);
-  const r = V(260, 290) * (1 + 0.03 * t);
-  bigToon(g, E.W * 0.42, E.H * 0.5, r, { outfit: SAM, expr: 'confused', look: [0.5, -0.2], rimSide: 1, tilt: -0.06, blink: blinkAt(t, 2.6) });
-  toonBubble(g, E.W * 0.74, E.H * 0.3, '…WAS EIGENTLICH?', { size: 46, k: Math.min(1, t * 5) });
-  g.restore();
-} });
-
 // s167 — two-shot on the street at dusk: Sam and Jonas laughing, "real"
 registerShot('s167', { draw(g, t, info) {
   const cam = camAdd(camPath(t, [[0, { z: 1.6, y: 120, x: -20 }], [info.dur, { z: 1.72, y: 130, x: 0 }]]), drift(t, 4, 5));
