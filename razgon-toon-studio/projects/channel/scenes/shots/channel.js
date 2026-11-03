@@ -50,7 +50,7 @@ const BRAND = '#3f63c8';
 // banner like the reference: flat colour, big white bold text in the centre
 registerShot('flatbanner', { draw(g, t) {
   g.fillStyle = BRAND; g.fillRect(0, 0, E.W, E.H);
-  text(g, 'Abonnieren :)', E.W / 2, E.H / 2 + 4, { size: 150, font: FONTS.ui, weight: 900, color: '#ffffff', spacing: 2 });
+  text(g, 'Abonnieren :)', E.W / 2, E.H / 2 + 3, { size: 100, font: FONTS.ui, weight: 900, color: '#ffffff', spacing: 2 });
 } });
 // avatar like the reference: flat colour + the channel's character (Sam, shrugging), waist up
 registerShot('flatavatar', { draw(g, t) {
