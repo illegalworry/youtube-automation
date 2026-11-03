@@ -13,7 +13,8 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "vignette": false
   },
   {
    "id": "avatar",
@@ -26,7 +27,8 @@
    "in": {
     "type": "cut"
    },
-   "sfx": []
+   "sfx": [],
+   "vignette": false
   }
  ]
 }
