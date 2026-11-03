@@ -1,0 +1,6507 @@
+{
+ "title": "What If You Turned Invisible?",
+ "duration": 672.5,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.37,
+   "line": "What if you turned invisible and nobody noticed?",
+   "scene": "busy street: you fade into a glowing outline, walkers never turn",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "inv": [
+     0,
+     0.94
+    ],
+    "invT": [
+     0.6,
+     2.2
+    ],
+    "walkers": 5,
+    "expr": [
+     [
+      0,
+      "calm"
+     ],
+     [
+      1.6,
+      "surprised"
+     ]
+    ],
+    "look": [
+     0,
+     0.4
+    ],
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s002",
+   "start": 3.37,
+   "end": 5.71,
+   "line": "In one second, you'd go blind.",
+   "scene": "close-up of the invisible head; the world goes dark on \"blind\"",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "street",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "open"
+     ],
+     [
+      0.9,
+      "scared"
+     ]
+    ],
+    "blind": 1.0,
+    "blindW": "blind",
+    "tpl": "bigYou"
+   },
+   "sfx": [
+    {
+     "at": 1.59,
+     "name": "slowmo",
+     "gain": -12
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 5.71,
+   "end": 8.29,
+   "line": "In one day, you'd lose everyone.",
+   "scene": "dusk park: friends walk away, the outline stays alone",
+   "set": "parkAlone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "parkAlone"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 8.29,
+   "end": 11.81,
+   "line": "But the worst part is why nobody came looking.",
+   "scene": "night porch, closed door, the outline waits; nobody comes",
+   "set": "porch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "sad",
+    "youX": 0.58,
+    "tpl": "porch"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 11.81,
+   "end": 13.67,
+   "line": "So, let's do it properly.",
+   "scene": "title card over a blurred street",
+   "set": "title",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "params": {
+    "title": "WHAT IF YOU TURNED INVISIBLE?",
+    "sub": "HOUR BY HOUR",
+    "tpl": "title"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "stinger",
+     "gain": -9,
+     "minor": false
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 13.67,
+   "end": 18.71,
+   "line": "One ordinary person, one ordinary day, and one thing that's different.",
+   "scene": "studio: you, visible teal hoodie; pills one person / one day / one change",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "inv": 0,
+    "pills": [
+     [
+      "1 PERSON",
+      "person",
+      0.22,
+      0.2
+     ],
+     [
+      "1 DAY",
+      "day",
+      0.5,
+      0.12
+     ],
+     [
+      "1 CHANGE",
+      "thing",
+      0.78,
+      0.2
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "calm"
+     ]
+    ],
+    "tpl": "studio"
+   },
+   "sfx": [
+    {
+     "at": 0.87,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 2.41,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 3.65,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 18.71,
+   "end": 22.41,
+   "line": "You are completely, perfectly invisible.",
+   "scene": "close-up: your face fades to an outline",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "studio",
+    "inv": [
+     0,
+     0.94
+    ],
+    "invT": [
+     0.4,
+     2.2
+    ],
+    "expr": [
+     [
+      0,
+      "calm"
+     ],
+     [
+      1.8,
+      "awe"
+     ]
+    ],
+    "tpl": "bigYou"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 22.41,
+   "end": 24.13,
+   "line": "We'll go hour by hour.",
+   "scene": "a wall clock spins through the day",
+   "set": "clock",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "to": [
+     23,
+     59
+    ],
+    "night": false,
+    "pill": "HOUR BY HOUR",
+    "from": [
+     7,
+     12
+    ],
+    "tpl": "clock"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 24.13,
+   "end": 27.05,
+   "line": "We'll follow the rules of real physics, not movie magic.",
+   "scene": "classroom board: REAL PHYSICS / not movie magic",
+   "set": "board",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lines": [
+     "REAL PHYSICS",
+     "NOT MOVIE MAGIC"
+    ],
+    "tpl": "board"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 27.05,
+   "end": 31.11,
+   "line": "And by midnight, you'll know why this power is a trap.",
+   "scene": "rainy night street, the outline alone; pill A TRAP",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mood": "rainy",
+    "walkers": 2,
+    "expr": [
+     [
+      0,
+      "worried"
+     ]
+    ],
+    "tag": "MIDNIGHT",
+    "pill": "A TRAP",
+    "pillW": "trap",
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 3.43,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 31.11,
+   "end": 36.13,
+   "line": "You'll also know why the scariest part has nothing to do with science.",
+   "scene": "fogged window: a finger writes \"not science\"",
+   "set": "fogRule",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "str": "not science",
+    "w": "nothing",
+    "tpl": "fogRule"
+   },
+   "sfx": [
+    {
+     "at": 2.53,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 36.13,
+   "end": 39.23,
+   "line": "7 .12 AM It starts.",
+   "scene": "morning bedroom: you sit on the bed and fade out",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "mode": "wake",
+    "chapter": "7:12 AM",
+    "chTitle": "It starts",
+    "tpl": "bedroom"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    },
+    {
+     "at": 0.5,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 39.23,
+   "end": 41.69,
+   "line": "You look down, and there's nothing there.",
+   "scene": "you look down at nothing",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "down",
+    "expr": [
+     [
+      0,
+      "look"
+     ],
+     [
+      0.8,
+      "shocked"
+     ]
+    ],
+    "tpl": "bedroom"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 41.69,
+   "end": 43.61,
+   "line": "No hands, no feet.",
+   "scene": "top-down: the outline over the carpet; no hands, no feet",
+   "set": "carpet",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tag": "NO HANDS. NO FEET.",
+    "tpl": "carpet"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 43.61,
+   "end": 47.07,
+   "line": "You can see the carpet straight through where your stomach should be.",
+   "scene": "push in: the carpet pattern straight through your stomach",
+   "set": "carpet",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "big": true,
+    "z0": 1.0,
+    "z1": 1.12,
+    "tpl": "carpet"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 47.07,
+   "end": 50.51,
+   "line": "The first feeling isn't fear. It's excitement.",
+   "scene": "close-up: worry flips into excitement",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "bedroom",
+    "mood": "day",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      2.0,
+      "joy"
+     ]
+    ],
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s017",
+   "start": 50.51,
+   "end": 53.49,
+   "line": "Because every kid has played this game in their head.",
+   "scene": "a kid in bed imagines being an invisible outline",
+   "set": "dream",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "dream"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s018",
+   "start": 53.49,
+   "end": 55.73,
+   "line": "What would I do if nobody could see me?",
+   "scene": "the kid’s question appears",
+   "set": "dream",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "q": "What would I do?",
+    "tpl": "dream"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 55.73,
+   "end": 58.33,
+   "line": "You could walk into any cinema,",
+   "scene": "outline strolls past the cinema rows",
+   "set": "venue",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "v": "cinema",
+    "label": "ANY CINEMA",
+    "tpl": "venue"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 58.33,
+   "end": 59.29,
+   "line": "any concert,",
+   "scene": "concert with spotlights; outline in front of the crowd",
+   "set": "venue",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "v": "concert",
+    "label": "ANY CONCERT",
+    "tpl": "venue"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 59.29,
+   "end": 60.63,
+   "line": "any locker room.",
+   "scene": "locker room; nobody notices the outline",
+   "set": "venue",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "v": "lockers",
+    "label": "ANY LOCKER ROOM",
+    "tpl": "venue"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 60.63,
+   "end": 65.15,
+   "line": "You could stand behind the most powerful people on earth and listen to them talk.",
+   "scene": "top-secret meeting; the outline listens behind the table",
+   "set": "power",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "power"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 65.15,
+   "end": 71.15,
+   "line": "You could take whatever you want from any shop in the world, and no camera would ever catch your face.",
+   "scene": "shop aisle: a can floats into the air; the CCTV sees nobody",
+   "set": "shop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "floatItem": true,
+    "cctv": true,
+    "label": "ANY SHOP",
+    "tpl": "shop"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 71.15,
+   "end": 75.59,
+   "line": "For about 10 minutes, this is the greatest morning of your life.",
+   "scene": "you jump on the bed, joyful; pill 10 MIN",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "joy",
+    "pill": "10 MIN",
+    "pillW": "10",
+    "tpl": "bedroom"
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 75.59,
+   "end": 80.97,
+   "line": "Then, you try to open your eyes a little wider, and something's wrong.",
+   "scene": "close-up: eyes open wider; something is wrong",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "bedroom",
+    "mood": "day",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "joy"
+     ],
+     [
+      1.5,
+      "open"
+     ],
+     [
+      3.0,
+      "worried"
+     ]
+    ],
+    "blur": 2.6,
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 80.97,
+   "end": 83.11,
+   "line": "Here's the first rule nobody tells you.",
+   "scene": "fogged glass: Rule 1",
+   "set": "fogRule",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "str": "Rule 1",
+    "w": "first",
+    "sub": "nobody tells you",
+    "subT": 1.0,
+    "tpl": "fogRule"
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 83.11,
+   "end": 86.93,
+   "line": "To see anything, your eyes have to catch light.",
+   "scene": "eye diagram: a ray of light enters",
+   "set": "eye",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "catch",
+    "w": "catch",
+    "tpl": "eye"
+   },
+   "sfx": [
+    {
+     "at": 2.71,
+     "name": "whoosh",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 86.93,
+   "end": 92.37,
+   "line": "Light hits the back of your eye, your retina absorbs it, and your brain turns that into a picture.",
+   "scene": "the ray hits the retina; arrow to the brain; a picture appears",
+   "set": "eye",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "retina",
+    "w": "hits",
+    "tpl": "eye"
+   },
+   "sfx": [
+    {
+     "at": 0.31,
+     "name": "whoosh",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 92.37,
+   "end": 95.95,
+   "line": "But being invisible means light doesn't stop when it hits you.",
+   "scene": "rays pass straight through an invisible body",
+   "set": "through",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tags": [
+     [
+      "NO STOP",
+      "doesn't",
+      0.78,
+      0.3
+     ]
+    ],
+    "tpl": "through"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -15
+    },
+    {
+     "at": 1.87,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 95.95,
+   "end": 97.97,
+   "line": "It passes straight through.",
+   "scene": "the ray passes straight through the eye",
+   "set": "eye",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "through",
+    "w": "passes",
+    "labels": false,
+    "tpl": "eye"
+   },
+   "sfx": [
+    {
+     "at": 0.31,
+     "name": "whoosh",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 97.97,
+   "end": 103.59,
+   "line": "If your retina is invisible too, light flies through your eyes and out the back of your head.",
+   "scene": "invisible eye: light flies out the back",
+   "set": "eye",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "none",
+    "w": "flies",
+    "kt": "out the back of your head",
+    "ktW": "out",
+    "tpl": "eye"
+   },
+   "sfx": [
+    {
+     "at": 2.47,
+     "name": "whoosh",
+     "gain": -15
+    },
+    {
+     "at": 3.87,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 103.59,
+   "end": 104.85,
+   "line": "Nothing gets caught.",
+   "scene": "meter LIGHT ABSORBED 0%",
+   "set": "eye",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "none",
+    "w": "nothing",
+    "meter": 0.0,
+    "labels": false,
+    "kt": "NOTHING CAUGHT",
+    "ktW": "nothing",
+    "tpl": "eye"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 104.85,
+   "end": 106.37,
+   "line": "Nothing gets absorbed.",
+   "scene": "still nothing absorbed",
+   "set": "eye",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "none",
+    "w": "nothing",
+    "meter": 0.0,
+    "labels": false,
+    "kt": "NOTHING ABSORBED",
+    "ktW": "absorbed",
+    "tpl": "eye"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -15
+    },
+    {
+     "at": 0.67,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 106.37,
+   "end": 110.53,
+   "line": "So a truly invisible person is blind.",
+   "scene": "close-up goes dark: BLIND",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "studio",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "open"
+     ]
+    ],
+    "blind": 0.8,
+    "blindW": "blind",
+    "kt": "BLIND",
+    "ktW": "blind",
+    "ktMode": "slam",
+    "tpl": "bigYou"
+   },
+   "sfx": [
+    {
+     "at": 2.69,
+     "name": "impact",
+     "gain": -8
+    },
+    {
+     "at": 2.69,
+     "name": "slowmo",
+     "gain": -12
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 110.53,
+   "end": 112.61,
+   "line": "Writers spotted this problem a long time ago.",
+   "scene": "a Victorian writer at his desk by lamplight",
+   "set": "writer",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "writer"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 112.61,
+   "end": 117.11,
+   "line": "In 1897, H .G. Wells wrote The Invisible Man.",
+   "scene": "book cover: THE INVISIBLE MAN, 1897",
+   "set": "book",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "pill": "1897",
+    "pillW": "1897",
+    "tag": "H. G. WELLS",
+    "tagW": "wells",
+    "cite": "H. G. Wells, The Invisible Man (1897)",
+    "tpl": "book"
+   },
+   "sfx": [
+    {
+     "at": 0.69,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 2.59,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 117.11,
+   "end": 120.23,
+   "line": "And even back then, people ask the obvious question.",
+   "scene": "readers in a parlour, puzzled; a big ?",
+   "set": "question",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "question"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 120.23,
+   "end": 123.19,
+   "line": "If light goes through him, how does he see?",
+   "scene": "the bandaged invisible man in dark glasses",
+   "set": "wellsMan",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "bub": "How does he see?",
+    "tpl": "wellsMan"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 123.19,
+   "end": 125.75,
+   "line": "So for our story, we'll cheat a little.",
+   "scene": "studio: the outline shrugs slyly",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "sly"
+     ]
+    ],
+    "pose": [
+     [
+      0,
+      "shrug"
+     ]
+    ],
+    "kt": "WE'LL CHEAT A LITTLE",
+    "ktW": "cheat",
+    "tpl": "studio"
+   },
+   "sfx": [
+    {
+     "at": 1.69,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 125.75,
+   "end": 129.51,
+   "line": "We'll say your eyes are the one part of you that still works.",
+   "scene": "close-up: a ring highlights the eyes",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "studio",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "open"
+     ]
+    ],
+    "ringEyes": 1.2,
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 129.51,
+   "end": 134.45,
+   "line": "Two tiny dark dots floating in the air at about the height of a person's head.",
+   "scene": "hallway: just two dark dots floating at head height; ruler ≈1.7 m",
+   "set": "dots",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ruler": true,
+    "tpl": "dots"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 134.45,
+   "end": 137.77,
+   "line": "Remember those dots. They're going to matter.",
+   "scene": "push in on the dots",
+   "set": "dots",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "z0": 1.3,
+    "z1": 1.6,
+    "ringT": 0.4,
+    "tag": "REMEMBER THESE",
+    "tagW": "remember",
+    "tpl": "dots"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 137.77,
+   "end": 141.63,
+   "line": "8 a .m. You get dressed, because that's what you do every morning.",
+   "scene": "clothes float onto your invisible body",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "mode": "dressed",
+    "chapter": "8:00 AM",
+    "chTitle": "Getting dressed",
+    "tpl": "bedroom"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 141.63,
+   "end": 144.17,
+   "line": "And then you look in the mirror.",
+   "scene": "hallway mirror reflects an empty hoodie",
+   "set": "hallway",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "mirror",
+    "youX": 0.3,
+    "tpl": "hallway"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 144.17,
+   "end": 149.19,
+   "line": "A hoodie and a pair of jeans are standing in your hallway with nobody inside them.",
+   "scene": "a hoodie and jeans stand in the hallway, nobody inside",
+   "set": "hallway",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "clothes",
+    "mirror": false,
+    "youX": 0.5,
+    "z0": 1.05,
+    "z1": 1.15,
+    "tpl": "hallway"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 149.19,
+   "end": 152.21,
+   "line": "Your power covers your body, not your stuff.",
+   "scene": "studio: body vs stuff",
+   "set": "items",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "items": [
+     [
+      "HOODIE",
+      "body"
+     ],
+     [
+      "PHONE",
+      "stuff"
+     ]
+    ],
+    "kt": "BODY ✓   STUFF ✗",
+    "ktW": "stuff",
+    "tpl": "items"
+   },
+   "sfx": [
+    {
+     "at": 1.29,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 2.33,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.33,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 152.21,
+   "end": 157.43,
+   "line": "Your clothes, your phone, your keys, and your shoes are all perfectly visible.",
+   "scene": "clothes, phone, keys, shoes pop up around the outline",
+   "set": "items",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "items"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 157.43,
+   "end": 160.93,
+   "line": "So if you want to stay invisible, you have one option.",
+   "scene": "clothes drop to the floor",
+   "set": "hallway",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "drop",
+    "mirror": false,
+    "youX": 0.5,
+    "pill": "1 OPTION",
+    "pillW": "one",
+    "tpl": "hallway"
+   },
+   "sfx": [
+    {
+     "at": 2.45,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 160.93,
+   "end": 163.61,
+   "line": "You go outside with nothing on.",
+   "scene": "you step outside with nothing on",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "walkers": 2,
+    "expr": [
+     [
+      0,
+      "nervous"
+     ]
+    ],
+    "youX": 0.3,
+    "youWalk": true,
+    "tpl": "street"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 163.61,
+   "end": 165.27,
+   "line": "Wells figured this out too.",
+   "scene": "the Wells book again",
+   "set": "book",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tag": "WELLS KNEW",
+    "tagW": "wells",
+    "tpl": "book"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 165.27,
+   "end": 171.21,
+   "line": "His Invisible Man ends up wandering the streets of London in winter, naked and freezing.",
+   "scene": "snowy London night street; the outline shivers",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mood": "rainy",
+    "snow": true,
+    "walkers": 3,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tag": "LONDON, WINTER",
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 171.21,
+   "end": 173.23,
+   "line": "That's the first big trade.",
+   "scene": "stat card: UNSEEN vs EXPOSED",
+   "set": "trade",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "trade"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 173.23,
+   "end": 178.47,
+   "line": "Being unseen means being exposed to everything, including the weather.",
+   "scene": "close-up in falling snow",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "street",
+    "mood": "rainy",
+    "snow": true,
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 178.47,
+   "end": 184.45,
+   "line": "9 a .m. You step outside and the world doesn't care about your superpower at all.",
+   "scene": "busy morning street; nobody cares",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "walkers": 6,
+    "chapter": "9:00 AM",
+    "chTitle": "Outside",
+    "expr": [
+     [
+      0,
+      "look"
+     ],
+     [
+      2.5,
+      "confused"
+     ]
+    ],
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 184.45,
+   "end": 188.35,
+   "line": "People walk straight into you because they can't see you to step aside.",
+   "scene": "a walker on her phone bumps straight into you",
+   "set": "walkStreet",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ev": "bump",
+    "hit": 1.6,
+    "hitW": "straight",
+    "tpl": "walkStreet"
+   },
+   "sfx": [
+    {
+     "at": 0.65,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 188.35,
+   "end": 190.81,
+   "line": "A cyclist almost knocks you flat.",
+   "scene": "a cyclist almost knocks you flat",
+   "set": "walkStreet",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ev": "cyclist",
+    "hit": 0.9,
+    "hitW": "knocks",
+    "tpl": "walkStreet"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 1.29,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 190.81,
+   "end": 194.45,
+   "line": "You try to cross the road and you realize something horrible.",
+   "scene": "you wait at the crossing, worried",
+   "set": "crossing",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "crossing"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 194.45,
+   "end": 197.23,
+   "line": "No driver will ever stop for you.",
+   "scene": "a car whizzes past without stopping",
+   "set": "crossing",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "car": true,
+    "carT": 0.4,
+    "tpl": "crossing"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "carpass",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 197.23,
+   "end": 200.49,
+   "line": "A green man means nothing when there's no man.",
+   "scene": "the green walking man becomes an empty outline",
+   "set": "signal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "signal"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 200.49,
+   "end": 204.69,
+   "line": "Then a dog stops dead and starts barking right at you.",
+   "scene": "a dog stops dead and barks at you",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "dog": true,
+    "dogT": 0.6,
+    "walkers": 1,
+    "expr": [
+     [
+      0,
+      "look"
+     ],
+     [
+      1.0,
+      "shocked"
+     ]
+    ],
+    "youX": 0.42,
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "kick",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 204.69,
+   "end": 206.11,
+   "line": "Dogs don't need to see you.",
+   "scene": "close: the dog barking",
+   "set": "dogClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "bark": true,
+    "kt": "DOGS DON'T NEED TO SEE",
+    "ktW": "dogs",
+    "tpl": "dogClose"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "kick",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 206.11,
+   "end": 207.21,
+   "line": "They smell you.",
+   "scene": "scent lines from you to the dog nose",
+   "set": "dogClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "sniff": true,
+    "kt": "THEY SMELL YOU",
+    "ktW": "smell",
+    "tpl": "dogClose"
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 207.21,
+   "end": 211.05,
+   "line": "And a dog's nose works just fine on someone who's invisible.",
+   "scene": "sniffing, barking",
+   "set": "dogClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "sniff": true,
+    "bark": true,
+    "tpl": "dogClose"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "kick",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 211.05,
+   "end": 216.13,
+   "line": "It's a cold morning, so every breath you take makes a little cloud of steam in the air.",
+   "scene": "close: little clouds of breath out of nowhere",
+   "set": "breath",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tag": "COLD MORNING",
+    "tagW": "cold",
+    "tpl": "breath"
+   },
+   "sfx": [
+    {
+     "at": 0.37,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 216.13,
+   "end": 218.89,
+   "line": "A ghost breathing on a busy street.",
+   "scene": "a ghost breathing on a busy street",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "walkers": 6,
+    "breath": true,
+    "tpl": "street"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 218.89,
+   "end": 222.13,
+   "line": "And this is when you notice the first strange thing.",
+   "scene": "close-up: thinking",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "street",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "thinking"
+     ]
+    ],
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 222.13,
+   "end": 223.79,
+   "line": "Nobody looks scared.",
+   "scene": "walkers stare at their phones",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "walkers": 6,
+    "phones": true,
+    "expr": [
+     [
+      0,
+      "confused"
+     ]
+    ],
+    "tag": "NOBODY LOOKS SCARED",
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 223.79,
+   "end": 225.43,
+   "line": "Nobody says, did you see that?",
+   "scene": "close-up of a bored walker; \"did you see that?\" crossed out",
+   "set": "bigPerson",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "bub": "Did you see that?",
+    "strike": true,
+    "expr": "bored",
+    "look": [
+     0,
+     0.8
+    ],
+    "outfitRef": [
+     "C",
+     "mustard"
+    ],
+    "tpl": "bigPerson"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 225.43,
+   "end": 231.31,
+   "line": "They see a footprint, a puff of breath, a barking dog, and they just keep walking.",
+   "scene": "footprints, breath and a barking dog; people keep walking",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "walkers": 5,
+    "prints": true,
+    "dog": true,
+    "breath": true,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "youX": 0.4,
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "kick",
+     "gain": -16
+    },
+    {
+     "at": 0.8,
+     "name": "blip",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 231.31,
+   "end": 233.45,
+   "line": "They look straight past you.",
+   "scene": "close-up: a walker looks straight past you",
+   "set": "bigPerson",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "expr": "neutral",
+    "look": [
+     1,
+     0
+    ],
+    "arrow": true,
+    "outfitRef": [
+     "C",
+     "coral"
+    ],
+    "tpl": "bigPerson"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 233.45,
+   "end": 236.67,
+   "line": "Honestly, that part feels familiar.",
+   "scene": "you alone in the crowd; that feels familiar",
+   "set": "crowdPast",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "sad",
+    "tpl": "crowdPast"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 236.67,
+   "end": 242.17,
+   "line": "10 .30 a .m. You walk past a bank and the doors slide open for someone else.",
+   "scene": "bank doors slide open for someone else; you slip in behind",
+   "set": "bankOutside",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "chapter": "10:30 AM",
+    "chTitle": "The bank",
+    "tpl": "bankOutside"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    },
+    {
+     "at": 1.0,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 242.17,
+   "end": 244.07,
+   "line": "You slip inside behind them.",
+   "scene": "inside the bank",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "x0": -120,
+    "x1": -60,
+    "ex": "sly",
+    "tpl": "bank"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 244.07,
+   "end": 245.41,
+   "line": "It's right there.",
+   "scene": "insert: the pile of cash",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "insert": true,
+    "tpl": "bank"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 245.41,
+   "end": 251.97,
+   "line": "A pile of cash on the counter, a guard looking at his phone, and a vault door standing open for a delivery.",
+   "scene": "pan: cash, guard on his phone, open vault",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "labels": [
+     [
+      "CASH",
+      "cash",
+      0.3,
+      0.3
+     ],
+     [
+      "GUARD",
+      "guard",
+      0.58,
+      0.22
+     ],
+     [
+      "VAULT",
+      "vault",
+      0.82,
+      0.2
+     ]
+    ],
+    "z0": 1.0,
+    "z1": 1.08,
+    "tpl": "bank"
+   },
+   "sfx": [
+    {
+     "at": 0.79,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 2.17,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 3.95,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 251.97,
+   "end": 254.41,
+   "line": "Nobody on earth could stop you.",
+   "scene": "close-up: nobody could stop you",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "bank",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "sly"
+     ]
+    ],
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 254.41,
+   "end": 257.33,
+   "line": "And this is the part people don't like to admit.",
+   "scene": "dark title: the part people don’t admit",
+   "set": "strikes",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "items": [
+     [
+      "THE HONEST TRUTH",
+      "part",
+      0.5,
+      false
+     ]
+    ],
+    "tpl": "strikes"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.93,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 257.33,
+   "end": 263.91,
+   "line": "When people on Reddit were asked what they'd do first if they turned invisible, the top answer in one thread was simple.",
+   "scene": "a monitor shows a Reddit thread",
+   "set": "reddit",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "reddit"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 263.91,
+   "end": 266.23,
+   "line": "Steal as much money as possible.",
+   "scene": "top answer highlighted: steal as much money as possible",
+   "set": "reddit",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "hi": true,
+    "tpl": "reddit"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 266.23,
+   "end": 267.63,
+   "line": "Not save someone.",
+   "scene": "SAVE SOMEONE crossed out",
+   "set": "strikes",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "items": [
+     [
+      "SAVE SOMEONE",
+      "save",
+      0.5,
+      true
+     ]
+    ],
+    "tpl": "strikes"
+   },
+   "sfx": [
+    {
+     "at": 0.43,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 267.63,
+   "end": 269.13,
+   "line": "Not fight crime.",
+   "scene": "FIGHT CRIME crossed out",
+   "set": "strikes",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "items": [
+     [
+      "FIGHT CRIME",
+      "fight",
+      0.5,
+      true
+     ]
+    ],
+    "tpl": "strikes"
+   },
+   "sfx": [
+    {
+     "at": 0.29,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 269.13,
+   "end": 270.63,
+   "line": "Take money.",
+   "scene": "TAKE MONEY slams in",
+   "set": "strikes",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "items": [
+     [
+      "TAKE MONEY",
+      "take",
+      0.5,
+      false
+     ]
+    ],
+    "tpl": "strikes"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 270.63,
+   "end": 272.33,
+   "line": "So, you reach for it.",
+   "scene": "you reach for the cash",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "reach": true,
+    "youX": 0.3,
+    "z0": 1.1,
+    "z1": 1.2,
+    "x0": -150,
+    "x1": -120,
+    "tpl": "bank"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s084",
+   "start": 272.33,
+   "end": 279.05,
+   "line": "And the second your fingers touch the stack, it lifts into the air, floating at waist height in the middle of a bank.",
+   "scene": "the stack lifts and floats at waist height",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lift": true,
+    "youX": 0.3,
+    "z0": 1.0,
+    "z1": 1.1,
+    "tpl": "bank"
+   },
+   "sfx": [
+    {
+     "at": 2.65,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 279.05,
+   "end": 280.39,
+   "line": "The guard looks up.",
+   "scene": "the guard looks up, shocked",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "guardLook": true,
+    "lift": true,
+    "youX": 0.3,
+    "z0": 1.25,
+    "z1": 1.3,
+    "x0": 140,
+    "x1": 160,
+    "tpl": "bank"
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 280.39,
+   "end": 281.67,
+   "line": "You drop it and run.",
+   "scene": "you drop it and run",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "drop": true,
+    "run": true,
+    "lift": true,
+    "youX": 0.3,
+    "tpl": "bank"
+   },
+   "sfx": [
+    {
+     "at": 0.35,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 281.67,
+   "end": 287.75,
+   "line": "That's the thing about invisibility. Everything you touch becomes evidence.",
+   "scene": "fingerprints bloom on the cash: EVIDENCE",
+   "set": "bank",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "prints": true,
+    "kt": "EVIDENCE",
+    "ktW": "evidence",
+    "youX": 0.1,
+    "insert": true,
+    "tpl": "bank"
+   },
+   "sfx": [
+    {
+     "at": 4.25,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 4.25,
+     "name": "blip",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 287.75,
+   "end": 292.33,
+   "line": "12 p .m. You're starving, so you take a croissant from a café.",
+   "scene": "café: a croissant lifts off the counter",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "chapter": "12:00 PM",
+    "chTitle": "Lunch",
+    "hold": true,
+    "expr": [
+     [
+      0,
+      "sly"
+     ]
+    ],
+    "tpl": "cafe"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 292.33,
+   "end": 294.23,
+   "line": "Easy, nobody can see you.",
+   "scene": "easy, nobody can see you",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "hold": true,
+    "insert": false,
+    "z0": 1.08,
+    "z1": 1.14,
+    "tpl": "cafe"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 294.23,
+   "end": 296.57,
+   "line": "But the croissant isn't invisible.",
+   "scene": "close: the croissant is not invisible",
+   "set": "croissantClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "float",
+    "ex": "happy",
+    "tpl": "croissantClose"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 296.57,
+   "end": 303.69,
+   "line": "So, you bite it, chew it, swallow it, and a soggy, half -chewed lump floats down through the air,",
+   "scene": "bite, chew, swallow; a lump drops",
+   "set": "croissantClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "bite",
+    "tpl": "croissantClose"
+   },
+   "sfx": [
+    {
+     "at": 0.81,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.61,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 2.35,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 303.69,
+   "end": 306.81,
+   "line": "slowly, into the place where your stomach should be.",
+   "scene": "the soggy lump floats down slowly to your stomach",
+   "set": "croissantClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "fall",
+    "ex": "worried",
+    "tpl": "croissantClose"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 306.81,
+   "end": 308.59,
+   "line": "Your body is invisible.",
+   "scene": "diagram: body invisible",
+   "set": "digest",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tags": [
+     [
+      "BODY: INVISIBLE",
+      "body",
+      0.22,
+      0.3
+     ]
+    ],
+    "tpl": "digest"
+   },
+   "sfx": [
+    {
+     "at": 0.31,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 308.59,
+   "end": 309.87,
+   "line": "Your food is not.",
+   "scene": "food visible",
+   "set": "digest",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tags": [
+     [
+      "BODY: INVISIBLE",
+      "body",
+      0.22,
+      0.3
+     ],
+     [
+      "FOOD: VISIBLE",
+      "food",
+      0.78,
+      0.3
+     ]
+    ],
+    "arrowLump": true,
+    "tpl": "digest"
+   },
+   "sfx": [
+    {
+     "at": 0.31,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 309.87,
+   "end": 313.43,
+   "line": "Not until your body breaks it down into you.",
+   "scene": "the lump slowly digests into you",
+   "set": "digest",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "fade": true,
+    "tpl": "digest"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 313.43,
+   "end": 316.31,
+   "line": "So, every meal you eat turns into a show.",
+   "scene": "every meal turns into a show",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lump": 0.5,
+    "watch": true,
+    "z0": 1.0,
+    "z1": 1.05,
+    "tpl": "cafe"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 316.31,
+   "end": 320.73,
+   "line": "Everyone in the café watches a croissant get digested in mid -air.",
+   "scene": "customers watch a croissant digest in mid-air",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lump": 0.6,
+    "watch": true,
+    "z0": 1.05,
+    "z1": 1.12,
+    "tpl": "cafe"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 320.73,
+   "end": 323.67,
+   "line": "That's the moment people finally start screaming.",
+   "scene": "people finally start screaming",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lump": 0.6,
+    "scream": true,
+    "screamW": "screaming",
+    "tpl": "cafe"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 2.15,
+     "name": "stinger",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 323.67,
+   "end": 327.83,
+   "line": "Not when you vanish, but when your lunch hangs in the middle of the room.",
+   "scene": "your lunch hangs in the middle of the room",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lump": 0.6,
+    "scream": true,
+    "screamW": "not",
+    "z0": 1.1,
+    "z1": 1.15,
+    "tpl": "cafe"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "stinger",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 327.83,
+   "end": 328.93,
+   "line": "You run.",
+   "scene": "you run",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lump": 0.6,
+    "run": true,
+    "tpl": "cafe"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 328.93,
+   "end": 334.19,
+   "line": "Lesson 3. Invisibility has a waiting period after every meal.",
+   "scene": "title card: Lesson 3, a waiting clock",
+   "set": "lesson",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "params": {
+    "title": "LESSON 3",
+    "sub": "WAIT AFTER EVERY MEAL",
+    "icon": "clock",
+    "tpl": "lesson"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -11
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 334.19,
+   "end": 337.31,
+   "line": "1 p .m. You think, fine.",
+   "scene": "shop aisle: you think, fine",
+   "set": "shop",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "chapter": "1:00 PM",
+    "chTitle": "The shop",
+    "youX": 0.4,
+    "expr": [
+     [
+      0,
+      "content"
+     ]
+    ],
+    "cctv": false,
+    "tpl": "shop"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 337.31,
+   "end": 339.47,
+   "line": "At least the cameras can't catch me.",
+   "scene": "CCTV camera, nobody detected",
+   "set": "shop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "cctv": true,
+    "youX": 0.4,
+    "expr": [
+     [
+      0,
+      "sly"
+     ]
+    ],
+    "tpl": "shop"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 339.47,
+   "end": 340.89,
+   "line": "Wrong again.",
+   "scene": "WRONG AGAIN",
+   "set": "tagsYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "WRONG AGAIN",
+    "ktW": "wrong",
+    "ktMode": "slam",
+    "ktColor": "#ff6a5c",
+    "expr": [
+     [
+      0,
+      "shocked"
+     ]
+    ],
+    "tpl": "tagsYou"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 340.89,
+   "end": 344.59,
+   "line": "Being invisible means visible light passes through you.",
+   "scene": "camera light misses the invisible body",
+   "set": "thermalDiag",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "light",
+    "tpl": "thermalDiag"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 344.59,
+   "end": 346.69,
+   "line": "But your body is still warm.",
+   "scene": "the outline glows warm",
+   "set": "through",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "warm": true,
+    "tags": [
+     [
+      "STILL WARM",
+      "warm",
+      0.75,
+      0.3
+     ]
+    ],
+    "tpl": "through"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -15
+    },
+    {
+     "at": 1.29,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 346.69,
+   "end": 351.31,
+   "line": "You're alive, your heart is beating, and you're giving off heat.",
+   "scene": "heart beating, heat rising",
+   "set": "through",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "warm": true,
+    "heart": true,
+    "tags": [
+     [
+      "ALIVE",
+      "alive",
+      0.22,
+      0.3
+     ],
+     [
+      "HEARTBEAT",
+      "heart",
+      0.78,
+      0.3
+     ],
+     [
+      "HEAT",
+      "heat",
+      0.5,
+      0.12
+     ]
+    ],
+    "tpl": "through"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -15
+    },
+    {
+     "at": 0.31,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 0.6,
+     "name": "heartbeat",
+     "gain": -10,
+     "dur": 2.5
+    },
+    {
+     "at": 1.27,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 3.41,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 351.31,
+   "end": 354.09,
+   "line": "Thermal cameras don't look for light bouncing off you.",
+   "scene": "cameras look for bounced light",
+   "set": "thermalDiag",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "light",
+    "tpl": "thermalDiag"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 354.09,
+   "end": 356.63,
+   "line": "They look for heat coming out of you.",
+   "scene": "thermal cameras look for heat",
+   "set": "thermalDiag",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "heat",
+    "tpl": "thermalDiag"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 356.63,
+   "end": 363.85,
+   "line": "On a thermal camera, you're a glowing orange shape walking through the aisle, as obvious as anyone else in the shop.",
+   "scene": "monitor: an orange body walks the aisle",
+   "set": "thermal",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tag": "THERMAL CAMERA",
+    "zoom": true,
+    "tpl": "thermal"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "buzz",
+     "gain": -18
+    },
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 363.85,
+   "end": 366.37,
+   "line": "And you still leave footprints in mud.",
+   "scene": "footprints appear in mud",
+   "set": "evidence",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "mud",
+    "tag": "FOOTPRINTS",
+    "tpl": "evidence"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 366.37,
+   "end": 367.85,
+   "line": "You still push open doors.",
+   "scene": "a shop door swings open by itself",
+   "set": "evidence",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "door",
+    "tpl": "evidence"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 367.85,
+   "end": 371.83,
+   "line": "You still leave fingerprints on everything you touch.",
+   "scene": "fingerprints bloom on glass",
+   "set": "evidence",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "prints",
+    "tag": "FINGERPRINTS",
+    "tpl": "evidence"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 371.83,
+   "end": 375.73,
+   "line": "You can't be seen, but you're anything but untraceable.",
+   "scene": "traceable",
+   "set": "tagsYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tags": [
+     [
+      "FOOTPRINTS",
+      "seen"
+     ],
+     [
+      "HEAT",
+      "seen"
+     ],
+     [
+      "PRINTS",
+      "untraceable"
+     ]
+    ],
+    "kt": "TRACEABLE",
+    "ktW": "untraceable",
+    "expr": [
+     [
+      0,
+      "worried"
+     ]
+    ],
+    "tpl": "tagsYou"
+   },
+   "sfx": [
+    {
+     "at": 0.69,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 2.63,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 2.63,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 375.73,
+   "end": 378.47,
+   "line": "So you aren't the perfect thief after all.",
+   "scene": "not the perfect thief",
+   "set": "tagsYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "NOT THE PERFECT THIEF",
+    "ktW": "perfect",
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "tagsYou"
+   },
+   "sfx": [
+    {
+     "at": 1.01,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 378.47,
+   "end": 384.45,
+   "line": "Just a naked, half -blind person who's hungry, freezing, and easy to track.",
+   "scene": "naked, half-blind, hungry, freezing, easy to track",
+   "set": "tagsYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tags": [
+     [
+      "NAKED",
+      "naked"
+     ],
+     [
+      "HALF-BLIND",
+      "half"
+     ],
+     [
+      "HUNGRY",
+      "hungry"
+     ],
+     [
+      "FREEZING",
+      "freezing"
+     ],
+     [
+      "EASY TO TRACK",
+      "easy"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "shiver": true,
+    "tpl": "tagsYou"
+   },
+   "sfx": [
+    {
+     "at": 0.57,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 1.23,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 2.63,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 3.35,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 4.19,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 384.45,
+   "end": 389.67,
+   "line": "2 p .m. You're cold and scared, and you decide to ask for help.",
+   "scene": "bus stop; you shiver at the side",
+   "set": "busStop",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "chapter": "2:00 PM",
+    "chTitle": "Asking for help",
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "busStop"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 389.67,
+   "end": 393.57,
+   "line": "You walk up to a woman at a bus stop and say, gently,",
+   "scene": "you walk up to the woman",
+   "set": "busStop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "approach": true,
+    "expr": [
+     [
+      0,
+      "worried"
+     ]
+    ],
+    "tpl": "busStop"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 393.57,
+   "end": 397.41,
+   "line": "Excuse me. Please don't panic. I need help.",
+   "scene": "speech bubbles from nowhere",
+   "set": "busStop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "near": true,
+    "startle": true,
+    "voice": [
+     [
+      "Excuse me.",
+      "excuse"
+     ],
+     [
+      "Please don't panic.",
+      "please"
+     ],
+     [
+      "I need help.",
+      "need"
+     ]
+    ],
+    "expr": [
+     [
+      0,
+      "worried"
+     ]
+    ],
+    "tpl": "busStop"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 397.41,
+   "end": 399.51,
+   "line": "She doesn't hear a person.",
+   "scene": "close: she hears no person",
+   "set": "earClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "surprised",
+    "tag": "NO ONE THERE",
+    "tagW": "person",
+    "tpl": "earClose"
+   },
+   "sfx": [
+    {
+     "at": 1.23,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 399.51,
+   "end": 403.51,
+   "line": "She hears a voice coming out of nowhere, right next to her ear.",
+   "scene": "a voice right next to her ear",
+   "set": "earClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "scared",
+    "bub": "…help?",
+    "tpl": "earClose"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 403.51,
+   "end": 406.75,
+   "line": "She screams, drops her shopping, and runs.",
+   "scene": "she screams, drops her shopping and runs",
+   "set": "busStop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "near": true,
+    "scream": true,
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      1.0,
+      "sad"
+     ]
+    ],
+    "tpl": "busStop"
+   },
+   "sfx": [
+    {
+     "at": 0.27,
+     "name": "stinger",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 406.75,
+   "end": 408.21,
+   "line": "Try it with anyone.",
+   "scene": "try it with anyone",
+   "set": "lineup",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "n": 1,
+    "tpl": "lineup"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s124",
+   "start": 408.21,
+   "end": 411.67,
+   "line": "A police officer. A doctor. Your best friend.",
+   "scene": "a police officer, a doctor, your best friend all recoil",
+   "set": "lineup",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "n": 3,
+    "tpl": "lineup"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s125",
+   "start": 411.67,
+   "end": 415.83,
+   "line": "Every single time, the first reaction isn't, How can I help?",
+   "scene": "friend close-up, scared; \"how can I help?\" crossed out",
+   "set": "bigPerson",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "expr": "scared",
+    "look": [
+     -0.6,
+     0
+    ],
+    "bub": "How can I help?",
+    "strike": true,
+    "outfitRef": [
+     "FRIEND"
+    ],
+    "tpl": "bigPerson"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s126",
+   "start": 415.83,
+   "end": 417.23,
+   "line": "It's fear.",
+   "scene": "FEAR",
+   "set": "tagsYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "FEAR",
+    "ktW": "fear",
+    "ktMode": "slam",
+    "ktSize": 120,
+    "ktColor": "#ff6a5c",
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "tagsYou"
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s127",
+   "start": 417.23,
+   "end": 420.71,
+   "line": "A voice without a face doesn't sound like someone in trouble.",
+   "scene": "a voice without a face",
+   "set": "earClose",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "scared",
+    "outfitRef": [
+     "COP"
+    ],
+    "tpl": "earClose"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s128",
+   "start": 420.71,
+   "end": 423.15,
+   "line": "It sounds like a horror movie.",
+   "scene": "a dark room, a voice from nowhere: horror movie",
+   "set": "alone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "LIKE A HORROR MOVIE",
+    "ktW": "horror",
+    "lamp": 0,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "alone"
+   },
+   "sfx": [
+    {
+     "at": 1.21,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s129",
+   "start": 423.15,
+   "end": 424.67,
+   "line": "That's rule 5.",
+   "scene": "fogged glass: Rule 5",
+   "set": "fogRule",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "str": "Rule 5",
+    "w": "rule",
+    "sub": "no face, no listening",
+    "subT": 0.8,
+    "tpl": "fogRule"
+   },
+   "sfx": [
+    {
+     "at": 0.57,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s130",
+   "start": 424.67,
+   "end": 429.47,
+   "line": "You can still talk, but nobody wants to listen to someone they can't see.",
+   "scene": "you talk; nobody listens",
+   "set": "trust",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mood": "day",
+    "tpl": "trust"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s131",
+   "start": 429.47,
+   "end": 431.97,
+   "line": "Without a face, you lose trust.",
+   "scene": "TRUST meter drains",
+   "set": "trust",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "meter": true,
+    "mood": "park",
+    "tpl": "trust"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "slowmo",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s132",
+   "start": 431.97,
+   "end": 435.13,
+   "line": "And without trust, you're on your own.",
+   "scene": "alone at the empty stop",
+   "set": "trust",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "sit": true,
+    "mood": "park",
+    "kt": "YOU'RE ON YOUR OWN",
+    "ktW": "own",
+    "tpl": "trust"
+   },
+   "sfx": [
+    {
+     "at": 2.03,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s133",
+   "start": 435.13,
+   "end": 442.03,
+   "line": "3 p .m. You sit on a bench in the park, shivering, and you do something you've been avoiding all day.",
+   "scene": "park bench, shivering",
+   "set": "parkBench",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "chapter": "3:00 PM",
+    "chTitle": "The park",
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "parkBench"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s134",
+   "start": 442.03,
+   "end": 443.69,
+   "line": "You check your phone.",
+   "scene": "you check your phone; it floats up",
+   "set": "parkBench",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "phone": true,
+    "lift": true,
+    "expr": [
+     [
+      0,
+      "look"
+     ]
+    ],
+    "z0": 1.1,
+    "z1": 1.2,
+    "tpl": "parkBench"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "phonebuzz",
+     "gain": -14
+    },
+    {
+     "at": 1.5,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s135",
+   "start": 443.69,
+   "end": 447.43,
+   "line": "You hid it under this bench this morning so it wouldn't float around with you.",
+   "scene": "the phone hidden under the bench",
+   "set": "parkBench",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "hidden": true,
+    "z0": 1.2,
+    "z1": 1.3,
+    "tpl": "parkBench"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s136",
+   "start": 447.43,
+   "end": 450.33,
+   "line": "You've been missing since 7 -12 this morning.",
+   "scene": "phone: last seen 7:12 AM",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "missing",
+    "pill": "MISSING",
+    "pillW": "missing",
+    "tpl": "phone"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -15
+    },
+    {
+     "at": 0.57,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s137",
+   "start": 450.33,
+   "end": 455.71,
+   "line": "You didn't show up to work. You didn't reply to anyone. You didn't post anything.",
+   "scene": "phone: work, messages, posts — all crossed",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "list",
+    "tpl": "phone"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s138",
+   "start": 455.71,
+   "end": 458.11,
+   "line": "Zero new messages.",
+   "scene": "phone: 0 new messages",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "zero",
+    "tpl": "phone"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -15
+    },
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s139",
+   "start": 458.11,
+   "end": 461.71,
+   "line": "Okay, it's only been a few hours. People are busy.",
+   "scene": "okay, only a few hours",
+   "set": "parkBench",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "expr": [
+     [
+      0,
+      "calm"
+     ]
+    ],
+    "phone": true,
+    "pill": "ONLY A FEW HOURS",
+    "pillW": "few",
+    "tpl": "parkBench"
+   },
+   "sfx": [
+    {
+     "at": 1.33,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s140",
+   "start": 461.71,
+   "end": 463.47,
+   "line": "You wait.",
+   "scene": "you wait; the light fades",
+   "set": "parkBench",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "timelapse": true,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "parkBench"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s141",
+   "start": 463.47,
+   "end": 468.85,
+   "line": "7 p .m. You go home and stand in the corner of your own kitchen and watch.",
+   "scene": "home kitchen: family dinner, you watch from the corner",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "chapter": "7:00 PM",
+    "chTitle": "Home",
+    "tpl": "dinner"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s142",
+   "start": 468.85,
+   "end": 470.65,
+   "line": "Dinner happens without you.",
+   "scene": "your empty chair",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "chairTag": true,
+    "z0": 1.15,
+    "z1": 1.2,
+    "x0": -40,
+    "x1": -30,
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s143",
+   "start": 470.65,
+   "end": 472.67,
+   "line": "Somebody says, Where's?",
+   "scene": "somebody asks where you are",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "say": 0,
+    "bub": [
+     "Where's…?",
+     "where",
+     0.42
+    ],
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s144",
+   "start": 472.67,
+   "end": 475.61,
+   "line": "And somebody else says, Probably out.",
+   "scene": "probably out",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "say": 1,
+    "bub": [
+     "Probably out.",
+     "probably",
+     0.58
+    ],
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s145",
+   "start": 475.61,
+   "end": 476.73,
+   "line": "And that's it.",
+   "scene": "and that’s it",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "z0": 1.06,
+    "z1": 1.08,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s146",
+   "start": 476.73,
+   "end": 478.35,
+   "line": "The TV goes on.",
+   "scene": "the TV goes on",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tv": true,
+    "tpl": "dinner"
+   },
+   "sfx": [
+    {
+     "at": 0.31,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s147",
+   "start": 478.35,
+   "end": 481.13,
+   "line": "Someone laughs at a joke you won't hear again.",
+   "scene": "someone laughs",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tvOn": true,
+    "laugh": true,
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s148",
+   "start": 481.13,
+   "end": 482.91,
+   "line": "You could knock something over.",
+   "scene": "a glass at the table edge",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tvOn": true,
+    "glass": true,
+    "z0": 1.2,
+    "z1": 1.25,
+    "x0": 120,
+    "x1": 140,
+    "expr": [
+     [
+      0,
+      "sly"
+     ]
+    ],
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s149",
+   "start": 482.91,
+   "end": 483.59,
+   "line": "You could whisper.",
+   "scene": "you could whisper",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tvOn": true,
+    "whisper": true,
+    "z0": 1.25,
+    "z1": 1.3,
+    "x0": 300,
+    "x1": 320,
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s150",
+   "start": 483.59,
+   "end": 487.63,
+   "line": "You could make the lights flicker like a ghost in a movie.",
+   "scene": "the lights could flicker",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tvOn": true,
+    "flicker": true,
+    "tpl": "dinner"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s151",
+   "start": 487.63,
+   "end": 490.81,
+   "line": "But part of you wants to know what happens if you don't.",
+   "scene": "close-up: what if you don’t?",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "room",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "thinking"
+     ]
+    ],
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s152",
+   "start": 490.81,
+   "end": 496.31,
+   "line": "What happens if you just stay quiet and let the world decide whether you matter?",
+   "scene": "pull back: you stay quiet in the corner",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tvOn": true,
+    "z0": 1.1,
+    "z1": 0.98,
+    "youX": 0.9,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s153",
+   "start": 496.31,
+   "end": 499.63,
+   "line": "8 p .m. Work hasn't called.",
+   "scene": "phone: no calls from work",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "mode": "call",
+    "time": "8:00 PM",
+    "bg": "home",
+    "chapter": "8:00 PM",
+    "tpl": "phone"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -15
+    },
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s154",
+   "start": 499.63,
+   "end": 505.19,
+   "line": "9 p .m. Your group chat is full of messages, but none of them are about you.",
+   "scene": "group chat full of messages, none about you",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "mode": "chat",
+    "time": "9:00 PM",
+    "bg": "home",
+    "chapter": "9:00 PM",
+    "tpl": "phone"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -15
+    },
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    },
+    {
+     "at": 0.4,
+     "name": "phonebuzz",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s155",
+   "start": 505.19,
+   "end": 508.79,
+   "line": "This is the moment the video stops being about physics.",
+   "scene": "the physics board is wiped clean",
+   "set": "board",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lines": [
+     "LIGHT",
+     "HEAT",
+     "SMELL"
+    ],
+    "erase": 1.0,
+    "after": "?",
+    "tpl": "board"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s156",
+   "start": 508.79,
+   "end": 510.69,
+   "line": "Here's the uncomfortable thought.",
+   "scene": "close-up: the uncomfortable thought",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "room",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "thinking"
+     ]
+    ],
+    "tpl": "bigYou"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s157",
+   "start": 510.69,
+   "end": 512.27,
+   "line": "You turned invisible this morning.",
+   "scene": "this morning, fading out",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "wake",
+    "tpl": "bedroom"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s158",
+   "start": 512.27,
+   "end": 515.75,
+   "line": "But were you really visible yesterday?",
+   "scene": "visible you, close-up; the question",
+   "set": "bigVisible",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "Were you visible yesterday?",
+    "ktW": "were",
+    "serif": true,
+    "ktSize": 64,
+    "tpl": "bigVisible"
+   },
+   "sfx": [
+    {
+     "at": 0.85,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s159",
+   "start": 515.75,
+   "end": 517.19,
+   "line": "Think about yesterday.",
+   "scene": "yesterday on the bus",
+   "set": "busRide",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "v": "bus",
+    "label": "YESTERDAY",
+    "tpl": "busRide"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s160",
+   "start": 517.19,
+   "end": 518.03,
+   "line": "The bus,",
+   "scene": "nobody looks up on the bus",
+   "set": "busRide",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "v": "bus",
+    "label": "THE BUS",
+    "tpl": "busRide"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s161",
+   "start": 518.03,
+   "end": 518.89,
+   "line": "the store,",
+   "scene": "the store; cashier on her phone",
+   "set": "busRide",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "v": "store",
+    "label": "THE STORE",
+    "tpl": "busRide"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s162",
+   "start": 518.89,
+   "end": 520.93,
+   "line": "the hallway at school or at work.",
+   "scene": "the hallway",
+   "set": "busRide",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "v": "hall",
+    "label": "SCHOOL / WORK",
+    "tpl": "busRide"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s163",
+   "start": 520.93,
+   "end": 523.57,
+   "line": "How many people actually looked at you?",
+   "scene": "how many people looked at you? counts to 0",
+   "set": "bigVisible",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "pill": true,
+    "pillW": "how",
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "bigVisible"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s164",
+   "start": 523.57,
+   "end": 525.07,
+   "line": "Not past you.",
+   "scene": "a face looking past you",
+   "set": "bigPerson",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "expr": "bored",
+    "look": [
+     1,
+     0
+    ],
+    "mood": "park",
+    "outfitRef": [
+     "C",
+     "pink"
+    ],
+    "tpl": "bigPerson"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s165",
+   "start": 525.07,
+   "end": 526.03,
+   "line": "At you.",
+   "scene": "at you — straight into the lens",
+   "set": "bigVisible",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "expr": [
+     [
+      0,
+      "open"
+     ]
+    ],
+    "look": [
+     0,
+     0
+    ],
+    "tpl": "bigVisible"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s166",
+   "start": 526.03,
+   "end": 529.83,
+   "line": "You might have gone a whole day without anyone saying your name.",
+   "scene": "a blank name tag",
+   "set": "bigVisible",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "nameTag": true,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "bigVisible"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s167",
+   "start": 529.83,
+   "end": 535.67,
+   "line": "You might know what it feels like to be in a room full of people and still be completely alone.",
+   "scene": "a room full of people; you fade in the middle",
+   "set": "party",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "youFade": true,
+    "kt": "COMPLETELY ALONE",
+    "ktW": "alone",
+    "tpl": "party"
+   },
+   "sfx": [
+    {
+     "at": 4.91,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -27
+   },
+   "notes": ""
+  },
+  {
+   "id": "s168",
+   "start": 535.67,
+   "end": 538.25,
+   "line": "We scroll past faces all day.",
+   "scene": "scrolling past faces",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "scroll",
+    "bg": "home",
+    "time": "YESTERDAY",
+    "tpl": "phone"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s169",
+   "start": 538.25,
+   "end": 540.87,
+   "line": "We say, Fine when someone asks how we are.",
+   "scene": "\"Fine.\"",
+   "set": "talkPair",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "speaker": 1,
+    "bub": "Fine.",
+    "bubW": "fine",
+    "ea": "calm",
+    "eb": "sad",
+    "tpl": "talkPair"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s170",
+   "start": 540.87,
+   "end": 543.93,
+   "line": "And they say, Cool without looking up.",
+   "scene": "\"Cool.\" without looking up",
+   "set": "talkPair",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "speaker": 0,
+    "bub": "Cool.",
+    "bubW": "cool",
+    "bPhone": true,
+    "bLookDown": true,
+    "ea": "bored",
+    "tpl": "talkPair"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s171",
+   "start": 543.93,
+   "end": 546.23,
+   "line": "We like a photo instead of calling.",
+   "scene": "a like instead of a call",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "mode": "like",
+    "bg": "home",
+    "time": "YESTERDAY",
+    "tpl": "phone"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "swish",
+     "gain": -15
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s172",
+   "start": 546.23,
+   "end": 548.13,
+   "line": "We're surrounded by people.",
+   "scene": "surrounded by people",
+   "set": "crowdPhones",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "crowdPhones"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s173",
+   "start": 548.13,
+   "end": 551.23,
+   "line": "And somehow we don't really see each other anymore.",
+   "scene": "everyone lit by phones",
+   "set": "crowdPhones",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "WE DON'T SEE EACH OTHER",
+    "ktW": "see",
+    "tpl": "crowdPhones"
+   },
+   "sfx": [
+    {
+     "at": 1.57,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s174",
+   "start": 551.23,
+   "end": 556.87,
+   "line": "Not because anyone's cruel, just because everyone's busy being invisible in their own way.",
+   "scene": "the crowd slowly turns into outlines",
+   "set": "crowdPhones",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "fade": true,
+    "tpl": "crowdPhones"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s175",
+   "start": 556.87,
+   "end": 561.03,
+   "line": "Maybe that's why nobody screamed when your footprints showed up on the pavement.",
+   "scene": "footprints on the pavement, nobody screams",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "walkers": 5,
+    "prints": true,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "youX": 0.4,
+    "tpl": "street"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "blip",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s176",
+   "start": 561.03,
+   "end": 566.09,
+   "line": "People had already learned to look past you long before 712 this morning.",
+   "scene": "people learned to look past you long before",
+   "set": "crowdPast",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "sad",
+    "pill": "7:12 AM",
+    "pillW": "712",
+    "tpl": "crowdPast"
+   },
+   "sfx": [
+    {
+     "at": 3.51,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s177",
+   "start": 566.09,
+   "end": 568.73,
+   "line": "That's the real trap of invisibility.",
+   "scene": "THE REAL TRAP",
+   "set": "crowdPast",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "sad",
+    "kt": "THE REAL TRAP",
+    "ktW": "real",
+    "ktMode": "slam",
+    "tpl": "crowdPast"
+   },
+   "sfx": [
+    {
+     "at": 0.73,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "city",
+    "gain": -25
+   },
+   "notes": ""
+  },
+  {
+   "id": "s178",
+   "start": 568.73,
+   "end": 570.55,
+   "line": "It doesn't make you disappear.",
+   "scene": "it doesn’t make you disappear",
+   "set": "bigVisible",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "bigVisible"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s179",
+   "start": 570.55,
+   "end": 574.53,
+   "line": "It shows you how much you'd already disappeared.",
+   "scene": "you were already fading",
+   "set": "bigVisible",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "fade": true,
+    "expr": [
+     [
+      0,
+      "sad"
+     ]
+    ],
+    "tpl": "bigVisible"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s180",
+   "start": 574.53,
+   "end": 576.23,
+   "line": "This isn't a new idea.",
+   "scene": "ancient hills, a shepherd and his sheep",
+   "set": "greek",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "params": {
+    "chapter": "The Ring of Gyges",
+    "chTitle": "An old idea",
+    "tpl": "greek"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "clock",
+     "gain": -16,
+     "dur": 1.6
+    },
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s181",
+   "start": 576.23,
+   "end": 582.51,
+   "line": "About 2400 years ago, the philosopher Plato told a story about a shepherd called Gaijis.",
+   "scene": "Plato’s shepherd; ≈2,400 years ago",
+   "set": "greek",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "greek"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s182",
+   "start": 582.51,
+   "end": 584.99,
+   "line": "Gaijis finds a gold ring in a cave.",
+   "scene": "a gold ring glows in a cave",
+   "set": "cave",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "cave"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "notes": ""
+  },
+  {
+   "id": "s183",
+   "start": 584.99,
+   "end": 588.37,
+   "line": "When he turns the ring on his finger, he becomes invisible.",
+   "scene": "he turns the ring and vanishes",
+   "set": "cave",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "vanish": true,
+    "tpl": "cave"
+   },
+   "sfx": [
+    {
+     "at": 2.33,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "notes": ""
+  },
+  {
+   "id": "s184",
+   "start": 588.37,
+   "end": 589.55,
+   "line": "What does he do with it?",
+   "scene": "what does he do with it?",
+   "set": "cave",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "vanish": true,
+    "close": true,
+    "tpl": "cave"
+   },
+   "sfx": [
+    {
+     "at": 1.13,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "notes": ""
+  },
+  {
+   "id": "s185",
+   "start": 589.55,
+   "end": 594.95,
+   "line": "He goes straight to the palace, seduces the queen, kills the king and takes the throne.",
+   "scene": "palace: queen, king, throne",
+   "set": "palace",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "palace"
+   },
+   "sfx": [
+    {
+     "at": 3.23,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 4.61,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s186",
+   "start": 594.95,
+   "end": 597.19,
+   "line": "Plato used the story to ask one question.",
+   "scene": "Plato with a scroll and a question",
+   "set": "plato",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "bub": true,
+    "tpl": "plato"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s187",
+   "start": 597.19,
+   "end": 602.85,
+   "line": "If you could never be seen and never be caught, would you still be a good person?",
+   "scene": "the question in serif text",
+   "set": "bigQuestion",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lines": [
+     [
+      "Never seen. Never caught.",
+      "never",
+      0.36
+     ],
+     [
+      "Would you still be good?",
+      "would",
+      0.56
+     ]
+    ],
+    "tpl": "bigQuestion"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s188",
+   "start": 602.85,
+   "end": 606.19,
+   "line": "Or are you only good because someone is watching?",
+   "scene": "watching eyes appear",
+   "set": "bigQuestion",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "kitchen",
+    "lines": [
+     [
+      "Or only good because",
+      "or",
+      0.3
+     ],
+     [
+      "someone is watching?",
+      "someone",
+      0.44
+     ]
+    ],
+    "eyes": true,
+    "tpl": "bigQuestion"
+   },
+   "sfx": [
+    {
+     "at": 2.51,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s189",
+   "start": 606.19,
+   "end": 608.55,
+   "line": "And that question cuts both ways.",
+   "scene": "empty room under moonlight",
+   "set": "alone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "IT CUTS BOTH WAYS",
+    "ktW": "cuts",
+    "tpl": "alone"
+   },
+   "sfx": [
+    {
+     "at": 0.91,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s190",
+   "start": 608.55,
+   "end": 613.49,
+   "line": "Because if nobody is watching you, that's the moment you choose who you really are.",
+   "scene": "nobody watching: who you really are",
+   "set": "alone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "expr": [
+     [
+      0,
+      "calm"
+     ],
+     [
+      2.0,
+      "determined"
+     ]
+    ],
+    "kt": "WHO YOU REALLY ARE",
+    "ktW": "who",
+    "tpl": "alone"
+   },
+   "sfx": [
+    {
+     "at": 3.47,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s191",
+   "start": 613.49,
+   "end": 617.11,
+   "line": "Not for likes, not for your boss, not for your parents.",
+   "scene": "likes, boss, parents crossed out",
+   "set": "alone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "strike": true,
+    "tags": [
+     [
+      "LIKES",
+      "likes",
+      0.22,
+      0.3
+     ],
+     [
+      "YOUR BOSS",
+      "boss",
+      0.5,
+      0.2
+     ],
+     [
+      "YOUR PARENTS",
+      "parents",
+      0.78,
+      0.3
+     ]
+    ],
+    "tpl": "alone"
+   },
+   "sfx": [
+    {
+     "at": 0.57,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 1.77,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 2.91,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s192",
+   "start": 617.11,
+   "end": 621.35,
+   "line": "Just you, alone, with nobody to see.",
+   "scene": "just you, alone",
+   "set": "bigYou",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "set": "room",
+    "inv": 0.94,
+    "expr": [
+     [
+      0,
+      "calm"
+     ]
+    ],
+    "kt": "JUST YOU",
+    "ktW": "just",
+    "tpl": "bigYou"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s193",
+   "start": 621.35,
+   "end": 626.23,
+   "line": "Imagine you get one choice before the day ends.",
+   "scene": "the clock nearly at midnight",
+   "set": "clock",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "to": [
+     23,
+     59
+    ],
+    "pill": "11:59 PM",
+    "kt": "ONE CHOICE",
+    "ktW": "one",
+    "from": [
+     23,
+     55
+    ],
+    "tpl": "clock"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -13
+    },
+    {
+     "at": 3.19,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s194",
+   "start": 626.23,
+   "end": 630.91,
+   "line": "You can stay invisible forever, or you can be seen again.",
+   "scene": "two doors: stay invisible / be seen again",
+   "set": "doors",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tpl": "doors"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s195",
+   "start": 630.91,
+   "end": 633.59,
+   "line": "Most of us would say invisible this morning.",
+   "scene": "this morning: most choose invisible",
+   "set": "doors",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "meter": "THIS MORNING",
+    "v": 0.85,
+    "meterW": "most",
+    "tpl": "doors"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s196",
+   "start": 633.59,
+   "end": 636.09,
+   "line": "By midnight, almost nobody would.",
+   "scene": "by midnight almost nobody",
+   "set": "doors",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "meter": "BY MIDNIGHT",
+    "v": 0.05,
+    "meterW": "midnight",
+    "lookR": true,
+    "tpl": "doors"
+   },
+   "sfx": [],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s197",
+   "start": 636.09,
+   "end": 639.73,
+   "line": "Because the power you actually want isn't invisibility.",
+   "scene": "the lit door opens a crack",
+   "set": "doors",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "lookR": true,
+    "openRight": true,
+    "tpl": "doors"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "shimmer",
+     "gain": -11
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s198",
+   "start": 639.73,
+   "end": 641.05,
+   "line": "It's the opposite.",
+   "scene": "you half-visible again",
+   "set": "alone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "IT'S THE OPPOSITE",
+    "ktW": "opposite",
+    "lamp": 1,
+    "inv": 0.5,
+    "tpl": "alone"
+   },
+   "sfx": [
+    {
+     "at": 0.49,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s199",
+   "start": 641.05,
+   "end": 645.97,
+   "line": "It's someone looking up when you walk in and saying your name like they're glad you're there.",
+   "scene": "the family looks up, glad you’re there",
+   "set": "dinner",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "tvOn": false,
+    "lookUp": true,
+    "youA": 1,
+    "youX": 0.88,
+    "expr": [
+     [
+      0,
+      "happy"
+     ]
+    ],
+    "bub": [
+     "There you are!",
+     "name",
+     0.5
+    ],
+    "tpl": "dinner"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -29
+   },
+   "notes": ""
+  },
+  {
+   "id": "s200",
+   "start": 645.97,
+   "end": 648.19,
+   "line": "So, you knock on the door.",
+   "scene": "you knock; the door opens with warm light",
+   "set": "porch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "knock": 0.6,
+    "open": 1.4,
+    "x0": -60,
+    "x1": -80,
+    "z0": 1.1,
+    "z1": 1.16,
+    "tpl": "porch"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "kick",
+     "gain": -6
+    },
+    {
+     "at": 0.95,
+     "name": "kick",
+     "gain": -6
+    },
+    {
+     "at": 1.3,
+     "name": "kick",
+     "gain": -6
+    },
+    {
+     "at": 1.4,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s201",
+   "start": 648.19,
+   "end": 649.85,
+   "line": "So, that's the answer.",
+   "scene": "recap title",
+   "set": "recap",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "kt": "SO, THAT'S THE ANSWER",
+    "ktW": "answer",
+    "tpl": "recap"
+   },
+   "sfx": [
+    {
+     "at": 1.11,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s202",
+   "start": 649.85,
+   "end": 653.01,
+   "line": "If you turned invisible, you'd lose your sight in an instant.",
+   "scene": "recap: blind",
+   "set": "recap",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "icons": [
+     [
+      "BLIND",
+      "sight"
+     ]
+    ],
+    "tpl": "recap"
+   },
+   "sfx": [
+    {
+     "at": 2.19,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s203",
+   "start": 653.01,
+   "end": 658.85,
+   "line": "You'd be naked, freezing, and tracked by every thermal camera and every dog in the city.",
+   "scene": "recap: naked, freezing, thermal, dogs",
+   "set": "recap",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "icons": [
+     [
+      "NAKED",
+      "naked"
+     ],
+     [
+      "FREEZING",
+      "freezing"
+     ],
+     [
+      "THERMAL",
+      "thermal"
+     ],
+     [
+      "DOGS",
+      "dog"
+     ]
+    ],
+    "tpl": "recap"
+   },
+   "sfx": [
+    {
+     "at": 0.89,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 1.63,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 3.41,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 4.81,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s204",
+   "start": 658.85,
+   "end": 665.19,
+   "line": "Your lunch would give you away in public, and your own voice would scare off anyone you asked for help.",
+   "scene": "recap: lunch, voice",
+   "set": "recap",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "icons": [
+     [
+      "LUNCH",
+      "lunch"
+     ],
+     [
+      "VOICE",
+      "voice"
+     ]
+    ],
+    "tpl": "recap"
+   },
+   "sfx": [
+    {
+     "at": 0.29,
+     "name": "pop",
+     "gain": -15
+    },
+    {
+     "at": 3.09,
+     "name": "pop",
+     "gain": -15
+    }
+   ],
+   "amb": null,
+   "notes": ""
+  },
+  {
+   "id": "s205",
+   "start": 665.19,
+   "end": 666.91,
+   "line": "And the hardest part of all?",
+   "scene": "the hardest part of all?",
+   "set": "porch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "params": {
+    "ex": "sad",
+    "youX": 0.55,
+    "x0": 0,
+    "x1": -20,
+    "tpl": "porch"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   },
+   "notes": ""
+  },
+  {
+   "id": "s206",
+   "start": 666.91,
+   "end": 672.5,
+   "line": "It might take the people around you a long time to notice you were gone.",
+   "scene": "rainy street; the outline fades; end card",
+   "set": "endCard",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "params": {
+    "card": "Would anyone notice?",
+    "cardT": 2.2,
+    "tpl": "endCard"
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "stinger",
+     "gain": -12,
+     "minor": false
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   },
+   "notes": ""
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 11.8,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 11.8,
+   "end": 36.1,
+   "mood": "wonder",
+   "intensity": 0.5
+  },
+  {
+   "start": 36.1,
+   "end": 80.9,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 80.9,
+   "end": 137.7,
+   "mood": "mystery",
+   "intensity": 0.35
+  },
+  {
+   "start": 137.7,
+   "end": 236.6,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 236.6,
+   "end": 334.1,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 334.1,
+   "end": 384.4,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 384.4,
+   "end": 463.4,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 463.4,
+   "end": 505.1,
+   "mood": "sad",
+   "intensity": 0.3
+  },
+  {
+   "start": 505.1,
+   "end": 574.5,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 574.5,
+   "end": 621.3,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 621.3,
+   "end": 649.8,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 649.8,
+   "end": 672.5,
+   "mood": "calm",
+   "intensity": 0.35
+  }
+ ],
+ "sfx": []
+}

@@ -4,3 +4,7 @@ razgon-2d-studio/projects/*/out/
 razgon-2d-studio/projects/*/input/*.mp3
 razgon-2d-studio/projects/*/input/*.wav
 __pycache__/
+razgon-glow-studio/projects/*/build/
+razgon-glow-studio/projects/*/out/
+razgon-glow-studio/projects/*/input/*.mp3
+razgon-glow-studio/projects/*/input/*.wav
