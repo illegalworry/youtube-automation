@@ -9,7 +9,8 @@ x = int(sys.argv[5]) if len(sys.argv) > 5 else 70; y = int(sys.argv[6]) if len(s
 align = (sys.argv[8] if len(sys.argv) > 8 else 'L').upper(); ow = int(sys.argv[9]) if len(sys.argv) > 9 else 1280
 F = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fonts', 'LilitaOne.ttf')
 im = Image.open(src).convert('RGBA'); im = ImageEnhance.Color(im).enhance(1.15)
-cols = [(255, 255, 255), (255, 212, 28)]; outline = (16, 12, 24)
+acc = tuple(int(sys.argv[10].lstrip('#')[i:i+2], 16) for i in (0, 2, 4)) if len(sys.argv) > 10 else None  # optional accent colour (hex) for line 2 + tag
+cols = [(255, 255, 255), acc or (255, 212, 28)]; outline = (16, 12, 24)
 sh = Image.new('RGBA', im.size, (0, 0, 0, 0)); sd = ImageDraw.Draw(sh)
 fg = Image.new('RGBA', im.size, (0, 0, 0, 0)); fd = ImageDraw.Draw(fg)
 yy = y; f = ImageFont.truetype(F, size)
@@ -21,8 +22,8 @@ for i, ln in enumerate(lines):
 if tag:
     tf = ImageFont.truetype(F, 54); w = int(fd.textlength(tag, font=tf)) + 44; h = 76
     t = Image.new('RGBA', (w + 20, h + 20), (0, 0, 0, 0)); td = ImageDraw.Draw(t)
-    td.rounded_rectangle((10, 10, w + 10, h + 10), 8, fill=(222, 38, 38), outline=(255, 255, 255), width=4)
-    td.text((w / 2 + 10, h / 2 + 12), tag, font=tf, fill=(255, 255, 255), anchor='mm')
+    td.rounded_rectangle((10, 10, w + 10, h + 10), 8, fill=acc or (222, 38, 38), outline=(255, 255, 255), width=4)
+    td.text((w / 2 + 10, h / 2 + 12), tag, font=tf, fill=(16, 12, 24) if acc else (255, 255, 255), anchor='mm')
     t = t.rotate(2.5, expand=True, resample=Image.BICUBIC)
     fg.alpha_composite(t, (x + 4 if align == 'L' else im.width - x - t.width - 4, yy + 18))
 im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(8))); im.alpha_composite(fg)

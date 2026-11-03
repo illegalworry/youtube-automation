@@ -59,9 +59,10 @@ export function heroFull(g, x, fy, r, emo = 'smug', o = {}) {
   g.fillStyle = shade(col, -0.5); g.beginPath(); g.ellipse(x, sy + r * 0.04, r * 0.56, r * 0.18, 0, 0, Math.PI * 2); g.fill();
   g.fillStyle = shade(col, -0.18); g.beginPath(); g.ellipse(x, sy, r * 0.56, r * 0.12, 0, Math.PI, Math.PI * 2); g.fill();
   for (const k of [-1, 1]) { seg(g, [[x + k * r * 0.15, sy + r * 0.12], [x + k * r * 0.19, sy + r * 0.62]], r * 0.035, W); circle(g, x + k * r * 0.19, sy + r * 0.64, r * 0.035, W); }
-  g.fillStyle = INK; g.fillRect(x - r * 0.15, y + r * 0.8, r * 0.3, r * 0.2);
+  if (!o.headless) { g.fillStyle = INK; g.fillRect(x - r * 0.15, y + r * 0.8, r * 0.3, r * 0.2); }
   if (!over) hands[dir] = arm(dir);
-  face(g, x, y, r, emo, { ...o, dir, rim });
+  if (o.headless) { g.save(); g.setLineDash([r * 0.12, r * 0.1]); g.strokeStyle = alpha('#ffffff', 0.55); g.lineWidth = r * 0.03; g.beginPath(); g.arc(x, y, r, 0, 7); g.stroke(); g.restore(); }
+  else face(g, x, y, r, emo, { ...o, dir, rim });
   if (over) { hands[-dir] = arm(-dir); hands[dir] = arm(dir); }   // raised hands / hands on the head go in front of it
   return { head: [x, y], hands, top: y - r };
 }
