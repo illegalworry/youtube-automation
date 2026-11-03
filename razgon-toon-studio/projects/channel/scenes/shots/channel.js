@@ -46,6 +46,22 @@ registerShot('sunbanner', { draw(g, t) {
   softEllipse(g, E.W / 2, E.H / 2, 520, 520, '#fff3c8', 0.7);
 } });
 
+const BRAND = '#7c4dea';
+// banner like the reference: flat colour, big white bold text in the centre
+registerShot('flatbanner', { draw(g, t) {
+  g.fillStyle = BRAND; g.fillRect(0, 0, E.W, E.H);
+  text(g, 'Abonnieren :)', E.W / 2, E.H / 2 + 4, { size: 150, font: FONTS.ui, weight: 900, color: '#ffffff', spacing: 2 });
+} });
+// avatar like the reference: flat colour + the channel's character (Sam, shrugging), waist up
+registerShot('flatavatar', { draw(g, t) {
+  g.fillStyle = BRAND; g.fillRect(0, 0, E.W, E.H);
+  const cx = E.W / 2, cy = 470, r = 250;
+  // shrugging arms: yellow sleeves out to the sides, black mitten hands palms up
+  for (const k of [-1, 1]) { g.strokeStyle = '#141418'; g.lineCap = 'round'; g.lineWidth = 92; g.beginPath(); g.moveTo(cx + k * 170, cy + 430); g.quadraticCurveTo(cx + k * 330, cy + 400, cx + k * 380, cy + 250); g.stroke();
+    g.strokeStyle = SAM.color; g.lineWidth = 80; g.stroke(); circle(g, cx + k * 390, cy + 205, 52, '#141418'); circle(g, cx + k * 390, cy + 205, 46, '#141418'); }
+  bigToon(g, cx, cy, r, { outfit: SAM, expr: 'smile', look: [0, 0], rimSide: 1, blink: false, tilt: -0.05 });
+} });
+
 registerShot('avatar', { draw(g, t) {
   backdrop(g, ['#7fbbe8', '#b7dcf3']);
   const cx = E.W / 2, cy = E.H / 2;

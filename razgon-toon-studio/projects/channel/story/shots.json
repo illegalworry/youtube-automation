@@ -1,6 +1,6 @@
 {
  "title": "Channel",
- "duration": 3,
+ "duration": 5,
  "shots": [
   {
    "id": "banner",
@@ -36,6 +36,34 @@
    "end": 3,
    "line": "",
    "scene": "sunbanner",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "vignette": false
+  },
+  {
+   "id": "flatbanner",
+   "start": 3,
+   "end": 4,
+   "line": "",
+   "scene": "flatbanner",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "vignette": false
+  },
+  {
+   "id": "flatavatar",
+   "start": 4,
+   "end": 5,
+   "line": "",
+   "scene": "flatavatar",
    "set": "street",
    "bars": null,
    "in": {
