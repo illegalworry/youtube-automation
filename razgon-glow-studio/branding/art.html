@@ -23,7 +23,7 @@ function clock(cx, cy, r, a = 1, H = 7, Mi = 12) {
 }
 function stars(w, h, n, seed) { const R = rng(seed); for (let i = 0; i < n; i++) { const x = R() * w, y = R() * h, s = 1 + R() * 2.5; circle(g, x, y, s, alpha('#ffffff', 0.15 + R() * 0.45)); } }
 
-const BG = '#2d5bd7';
+const BG = '#' + (new URLSearchParams(location.search).get('bg') || '2d5bd7');
 if (kind === 'banner') {
   c.width = 2560; c.height = 1440;
   g.fillStyle = BG; g.fillRect(0, 0, 2560, 1440);
