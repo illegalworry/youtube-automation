@@ -15,10 +15,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-schoen",
+    "tpl": "pop5",
     "k": 1
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t2",
@@ -33,10 +33,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-schoen",
+    "tpl": "pop5",
     "k": 2
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t3",
@@ -51,10 +51,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-schoen",
+    "tpl": "pop5",
     "k": 3
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t4",
@@ -69,10 +69,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-schoen",
+    "tpl": "pop5",
     "k": 4
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t5",
@@ -87,10 +87,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-schoen",
+    "tpl": "pop5",
     "k": 5
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t6",
