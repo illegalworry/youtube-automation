@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head><body>
+<canvas id="c"></canvas>
+<script type="module">
+// Channel art for "Hour by Hour": ?kind=banner (2560×1440) | avatar (800×800)
+import { E, setStyle, circle, ring, seg, rr, glow, alpha, text, linGrad, radGrad, rng, measure } from '/engine/core.js';
+import { drawGlow, bigGlow, eyes } from '/engine/glow.js';
+const kind = new URLSearchParams(location.search).get('kind') || 'banner';
+setStyle('vivid'); Object.assign(E, { W: 1920, H: 1080 });
+for (const [fam, w, f] of [['Montserrat', '800', 'montserrat/files/montserrat-latin-800-normal.woff2'], ['Montserrat', '700', 'montserrat/files/montserrat-latin-700-normal.woff2'], ['Caveat', '700', 'caveat/files/caveat-latin-700-normal.woff2'], ['Fredoka', '700', 'fredoka/files/fredoka-latin-700-normal.woff2']]) { const ff = new FontFace(fam, `url(/node_modules/@fontsource/${f})`, { weight: w }); await ff.load(); document.fonts.add(ff); }
+const c = document.getElementById('c'), g = c.getContext('2d');
+const TEAL = '#69b39e', CREAM = '#fff6e8', GOLD = '#ffad45';
+
+// glowing clock: face of soft light, 12 dots, hands at 7:12 (the moment it all starts)
+function clock(cx, cy, r, a = 1, H = 7, Mi = 12) {
+  g.save(); g.globalAlpha = a;
+  glow(g, cx, cy, r * 2.2, '#ffd59a', 0.35);
+  circle(g, cx, cy, r, alpha('#1c1f3e', 0.85)); ring(g, cx, cy, r, r * 0.06, alpha(CREAM, 0.9));
+  for (let i = 0; i < 12; i++) { const an = i / 12 * Math.PI * 2; circle(g, cx + Math.sin(an) * r * 0.8, cy - Math.cos(an) * r * 0.8, r * (i % 3 ? 0.03 : 0.055), alpha(CREAM, i % 3 ? 0.6 : 1)); }
+  const hh = (H + Mi / 60) / 12 * Math.PI * 2, mm = Mi / 60 * Math.PI * 2;
+  seg(g, [[cx, cy], [cx + Math.sin(hh) * r * 0.48, cy - Math.cos(hh) * r * 0.48]], r * 0.075, CREAM);
+  seg(g, [[cx, cy], [cx + Math.sin(mm) * r * 0.7, cy - Math.cos(mm) * r * 0.7]], r * 0.045, GOLD);
+  circle(g, cx, cy, r * 0.06, GOLD); g.restore();
+}
+function stars(w, h, n, seed) { const R = rng(seed); for (let i = 0; i < n; i++) { const x = R() * w, y = R() * h, s = 1 + R() * 2.5; circle(g, x, y, s, alpha('#ffffff', 0.15 + R() * 0.45)); } }
+
+const BG = '#' + (new URLSearchParams(location.search).get('bg') || '1c2142');
+if (kind === 'banner') {
+  c.width = 2560; c.height = 1440;
+  g.fillStyle = BG; g.fillRect(0, 0, 2560, 1440);
+  // text sized to sit well inside the safe area (1546×423 in the centre)
+  text(g, 'Subscribe :)', 1280, 720, { size: 190, font: 'Fredoka', weight: 700, color: '#ffffff' });
+} else {
+  c.width = 800; c.height = 800; Object.assign(E, { W: 800, H: 800 });
+  g.fillStyle = BG; g.fillRect(0, 0, 800, 800);
+  // bust: big smiling head tilted to one side, one hand waving hello next to the head
+  const sh = '#ffffff';
+  // waving arm (behind the head edge, in front of the shoulder)
+  const arm = () => { g.lineCap = 'round'; g.strokeStyle = sh; g.lineWidth = 84; g.beginPath(); g.moveTo(560, 640); g.quadraticCurveTo(705, 520, 676, 340); g.stroke();
+    g.strokeStyle = '#5ea993'; g.lineWidth = 76; g.beginPath(); g.moveTo(560, 640); g.quadraticCurveTo(705, 520, 676, 340); g.stroke();
+    circle(g, 678, 318, 48, sh); circle(g, 678, 318, 44, '#141218');
+    // little wave lines
+    g.strokeStyle = alpha('#ffffff', 0.9); g.lineWidth = 9; for (const [r, a0] of [[78, 0], [108, 0]]) { g.beginPath(); g.arc(678, 318, r, -1.25, -0.45); g.stroke(); } };
+  arm();
+  bigGlow(g, 380, 375, 195, { outfit: { top: 'hoodie', color: TEAL }, expr: 'smile', face: { lid: 0.04, low: 0.12, sc: 1.1, mouth: 'smile' }, look: [0.15, -0.05], turn: 0.05, tilt: -0.12, rim: { color: '#fff2d8' }, rimSide: 1, shoulders: 1.4 });
+}
+window.DONE = true;
+</script></body></html>
