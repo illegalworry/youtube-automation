@@ -39,6 +39,13 @@ registerShot('banner', { draw(g, t) {
   text(g, 'ABONNIEREN', cx + 34, by + 3, { size: 44, font: FONTS.ui, weight: 900, color: '#ffffff', spacing: 6 });
 } });
 
+registerShot('sunbanner', { draw(g, t) {
+  // same look as the avatar background: flat blue, sun rays and a soft glow from the centre — no text
+  backdrop(g, ['#7fbbe8', '#b7dcf3']);
+  rays(g, E.W / 2, E.H / 2, 0.22);
+  softEllipse(g, E.W / 2, E.H / 2, 520, 520, '#fff3c8', 0.7);
+} });
+
 registerShot('avatar', { draw(g, t) {
   backdrop(g, ['#7fbbe8', '#b7dcf3']);
   const cx = E.W / 2, cy = E.H / 2;
