@@ -45,8 +45,6 @@ registerShot('avatar', { draw(g, t) {
   const cx = E.W / 2, cy = E.H / 2;
   rays(g, cx, cy, 0.22);
   softEllipse(g, cx, cy, 520, 520, '#fff3c8', 0.7);
-  calendarX(g, cx - 40, cy - 60, 1.35, -0.1);
-  // Sam peeking in from the bottom right, grinning
-  bigToon(g, cx + 230, cy + 300, 170, { outfit: SAM, expr: 'grin', look: [-0.6, -0.4], rimSide: 1, tilt: 0.12, blink: false });
-  sparkle(g, cx - 330, cy - 280, 1.0); sparkle(g, cx + 300, cy - 300, 0.8);
+  calendarX(g, cx, cy + 20, 1.45, -0.08);
+  sparkle(g, cx - 330, cy - 260, 1.0); sparkle(g, cx + 320, cy - 280, 0.8); sparkle(g, cx + 330, cy + 250, 0.7); sparkle(g, cx - 320, cy + 260, 0.6);
 } });
