@@ -69,23 +69,25 @@ was wäre wenn, was wäre wenn du, schönster mensch der welt, der schönste men
 
 ## Kanalname (Название канала)
 
-**Was Wäre Wenn?! Toons** (основной вариант)
+**Tag X Toons** ✅ (выбрано)
 
 Альтернативы:
+- Was Wäre Wenn?! Toons
 - Stell Dir Vor Toons
 - Was Wäre Wenn Animiert
-- Tag X Toons
 
-Handle-идея: `@WasWaereWennToons`
+Handle-идея: `@TagXToons`
+
+Аватарка: `youtube/channel_avatar_800x800.png` · Баннер: `youtube/channel_banner_2560x1440.jpg`
 
 ---
 
 ## Kanalbeschreibung (Описание канала)
 
 ```
-Was wäre, wenn du der schönste Mensch der Welt wärst? Unsichtbar? Unendlich reich? Oder die Zeit anhalten könntest?
+Tag X – der Tag, an dem alles anders ist. Was wäre, wenn du der schönste Mensch der Welt wärst? Unsichtbar? Unendlich reich? Oder die Zeit anhalten könntest?
 
-Bei „Was Wäre Wenn?! Toons“ spielen wir verrückte Gedankenexperimente als animierte Geschichten durch – mit dir in der Hauptrolle. Jede Folge zeigt, was eine Superkraft wirklich mit deinem Leben machen würde: die Vorteile, die Schattenseiten und die eine Entscheidung, die alles verändert.
+Bei „Tag X Toons“ spielen wir verrückte Gedankenexperimente als animierte Geschichten durch – mit dir in der Hauptrolle. Jede Folge zeigt, was eine Superkraft wirklich mit deinem Leben machen würde: die Vorteile, die Schattenseiten und die eine Entscheidung, die alles verändert.
 
 Am Ende jeder Geschichte gibt es einen kurzen Fakten-Check: Was davon ist echte Wissenschaft – und was ist Fiktion?
 
