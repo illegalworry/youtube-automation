@@ -3,7 +3,7 @@
 //   node render.mjs --project P --from 30 --to 45 --scale 0.5         preview a range
 //   node render.mjs --project P --sheet                               one still per shot -> build/sheets/*.png
 //   node render.mjs --project P --stills 3.5,12,40                    stills at times -> build/stills
-//   node render.mjs --project P --styles soft,nocturne,peach,pastel,crisp --at 3.5,12,40   style comparison grid
+//   node render.mjs --project P --styles vivid,soft,clear,nocturne,peach,pastel,crisp --at 3.5,12,40   style comparison grid
 // Options: --workers N  --scale K  --style ID  --debug  --format png|jpeg  --crf 18  --gl auto|gpu|swiftshader  --out FILE
 import http from 'node:http';
 import fs from 'node:fs';

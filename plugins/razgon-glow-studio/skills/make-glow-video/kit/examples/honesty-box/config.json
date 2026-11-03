@@ -3,7 +3,7 @@
  "aspect": "16:9",
  "resolution": "720p",
  "fps": 24,
- "style": "soft",
+ "style": "vivid",
  "voiceover": "input/voiceover.mp3",
  "script": "input/script.txt",
  "duration": 24.0,

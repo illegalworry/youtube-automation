@@ -40,7 +40,7 @@ async function boot() {
   const outW = Math.round(((vertical ? short : long) * scale) / 2) * 2, outH = Math.round(((vertical ? long : short) * scale) / 2) * 2;
   Object.assign(E, { vertical, W: vertical ? 1080 : 1920, H: vertical ? 1920 : 1080, fps: cfg.fps || 24, cfg, words: words.words || words, shots: story.shots, outW, outH });
   E.PX = outW / E.W;
-  setStyle(q.get('style') || cfg.style || 'soft');
+  setStyle(q.get('style') || cfg.style || 'vivid');
   await loadFonts();
   main = document.getElementById('main'); main.width = outW; main.height = outH; mg = main.getContext('2d', { willReadFrequently: true });
   buildLUT();

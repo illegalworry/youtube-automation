@@ -1,7 +1,7 @@
 {
   "name": "razgon-glow-studio",
   "version": "1.0.0",
-  "description": "Voiceover → soft-lit 2.5D 'What if…?' video: big round black heads with white oval eyes, muted hoodies with drawstrings, thin stick legs and a warm edge light; night porches, office kitchens, sunset farm stands, dusk parks, monitor-lit rooms; invisible outline people, orange percentage pills, navy study cards, handwritten signs, soft bloom and depth of field. Successor of Razgon 2D Studio (same pipeline: Whisper timestamps, director pass, music + SFX), five Glow styles, Cyrillic text, 16:9 or 9:16 up to 4K.",
+  "description": "Voiceover → soft-lit 2.5D 'What if…?' video: big round black heads with white oval eyes, muted hoodies with drawstrings, thin stick legs and a warm edge light; night porches, office kitchens, sunset farm stands, dusk parks, monitor-lit rooms; invisible outline people, orange percentage pills, navy study cards, handwritten signs, depth of field. Successor of Razgon 2D Studio (same pipeline: Whisper timestamps, director pass, music + SFX), seven Glow styles (default Vivid: juicy colours, no haze), Cyrillic text, 16:9 or 9:16 up to 4K.",
   "author": { "name": "Razgon" },
   "keywords": ["video", "animation", "faceless youtube", "what if", "explainer", "hoodie", "soft light", "whisper", "three.js", "motion design"]
 }

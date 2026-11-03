@@ -42,7 +42,7 @@ Ask once (AskUserQuestion when available) for:
 - **Music:** generated, the user's own file, or none. **SFX:** on or off.
 - **Title** and the **language** of the narration (Russian and other Cyrillic scripts are supported in on-screen text).
 
-Don't ask about style yet. Defaults: 16:9, 1080p, 24 fps, generated music (gain −6 dB, ducking −7 dB) + SFX, style `soft`.
+Don't ask about style yet. Defaults: 16:9, 1080p, 24 fps, generated music (gain −6 dB, ducking −7 dB) + SFX, style `vivid`.
 
 ## Stage 2: Install or check the studio
 Follow `references/install.md`: copy `kit/` to `razgon-glow-studio/` in the workspace (skip if already present), install dependencies, run `python tools/verify_kit.py` and `python tools/doctor.py`, then run the example self-test. Report what was installed in one short list. If Chromium can't be downloaded but one is installed, prefix renders with `CHROMIUM_PATH=<path>`.
@@ -64,9 +64,9 @@ Read `references/style-bible.md`, `references/director-pass.md` and `references/
 ## Stage 5: Style choice
 Build the 1–2 most-used sets plus 3 representative shots (a wide group shot, a `bigGlow` close-up, a data shot with a pill or a study card). Then render:
 ```bash
-node render.mjs --project projects/<slug> --styles soft,nocturne,peach,pastel,crisp --at <t1>,<t2>,<t3> --scale 0.5
+node render.mjs --project projects/<slug> --styles vivid,soft,clear,nocturne,peach,pastel,crisp --at <t1>,<t2>,<t3> --scale 0.5
 ```
-Open `build/styles/style_grid.png`, then show it with one line per style: **soft** (the reference look: milky shadows, warm/cool key light, gentle bloom), **nocturne** (cooler and deeper, for night and mystery), **peach** (warm, nostalgic), **pastel** (lighter, family-friendly), **crisp** (more contrast and colour, for Shorts). Save the pick in `config.json` → `style`. For tweaks, add a custom entry to `STYLES` in `engine/styles.js` (moods overrides plus the `grade`: lift/gamma/gain, sat, contrast, vignette, grain, bloom, glow) and re-render that row.
+Open `build/styles/style_grid.png`, then show it with one line per style: **vivid** (default: juicy saturated colours, clean contrast, no haze — built to hold attention), **soft** (the hazy reference look: milky shadows, gentle bloom), **clear** (soft colours without haze), **nocturne** (cooler and deeper, for night and mystery), **peach** (warm, nostalgic), **pastel** (lighter, family-friendly), **crisp** (more contrast and colour, for Shorts). Save the pick in `config.json` → `style`. For tweaks, add a custom entry to `STYLES` in `engine/styles.js` (moods overrides plus the `grade`: lift/gamma/gain, sat, contrast, vignette, grain, bloom, glow) and re-render that row.
 
 ## Stage 6: Build every shot
 Read `references/engine-api.md`, `references/director-pass.md` and the example scenes in `examples/honesty-box/scenes/` once. Work in batches of 8–12 shots:

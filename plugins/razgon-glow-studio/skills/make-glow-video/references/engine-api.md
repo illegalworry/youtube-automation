@@ -17,7 +17,7 @@ razgon-glow-studio/
 Every `.js` under `scenes/` is loaded automatically (files starting with `_` are skipped). Import the engine with absolute paths (`'/engine/core.js'`) and project files relatively (`'../cast.js'`).
 
 ## config.json
-`{ title, aspect: "16:9"|"9:16", resolution: "720p"|"1080p"|"1440p"|"2160p", fps: 24, style: "soft", voiceover, script, duration, captions: bool, captionStyle?: {y,size,max}, bars: null|"wide"|"scope"|"none"|number, fadeIn: 0.5, fadeOut: 0.8, music: {enabled, gainDb (default −6), duckDb (default −7), file?, seed?, key?}, sfx: {enabled, gainDb}, loudness: -14 }`
+`{ title, aspect: "16:9"|"9:16", resolution: "720p"|"1080p"|"1440p"|"2160p", fps: 24, style: "vivid", voiceover, script, duration, captions: bool, captionStyle?: {y,size,max}, bars: null|"wide"|"scope"|"none"|number, fadeIn: 0.5, fadeOut: 0.8, music: {enabled, gainDb (default −6), duckDb (default −7), file?, seed?, key?}, sfx: {enabled, gainDb}, loudness: -14 }`
 
 ## story/shots.json
 ```json

@@ -21,7 +21,7 @@ Ask once (AskUserQuestion when available), skipping anything the user already sa
 - **Music:** generated, own file, or none. **SFX:** on or off.
 - **Title.**
 
-Defaults: 16:9, 1080p, generated music (−6 dB, ducking −7 dB) + SFX, style `soft`.
+Defaults: 16:9, 1080p, generated music (−6 dB, ducking −7 dB) + SFX, style `vivid`.
 
 ## 2. Studio
 If `razgon-glow-studio/render.mjs` doesn't exist in the workspace, follow `../make-glow-video/references/install.md` in full. Otherwise run `python tools/doctor.py` inside it and fix anything reported.

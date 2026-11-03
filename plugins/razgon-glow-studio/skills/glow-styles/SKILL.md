@@ -1,6 +1,6 @@
 ---
 name: glow-styles
-description: "This skill should be used when the user runs /glow-styles or asks to \"show me style options\", \"compare the looks\", \"pick a visual style\", \"make it warmer / cooler / softer / punchier\", \"create a custom style\", or \"change the colour grade\" for a Razgon Glow Studio video. It renders the same shots of the user's story in five Glow presets (soft, nocturne, peach, pastel, crisp) as a comparison grid, records the choice, and builds custom styles.
+description: "This skill should be used when the user runs /glow-styles or asks to \"show me style options\", \"compare the looks\", \"pick a visual style\", \"make it warmer / cooler / softer / punchier\", \"create a custom style\", or \"change the colour grade\" for a Razgon Glow Studio video. It renders the same shots of the user's story in seven Glow presets (vivid, soft, clear, nocturne, peach, pastel, crisp) as a comparison grid, records the choice, and builds custom styles.
 "
 metadata:
   version: "1.0.0"
@@ -20,10 +20,12 @@ Pick one time inside each shot (about 45% through it) for the grid columns.
 
 ## 2. Render the grid
 ```bash
-node render.mjs --project projects/<slug> --styles soft,nocturne,peach,pastel,crisp --at <t1>,<t2>,<t3> --scale 0.5
+node render.mjs --project projects/<slug> --styles vivid,soft,clear,nocturne,peach,pastel,crisp --at <t1>,<t2>,<t3> --scale 0.5
 ```
 Open `build/styles/style_grid.png` (one row per style) and check it, then send it to the user with one line each:
-- **soft — Soft Glow:** the reference look: milky shadows, one warm or cool key light, cream edge light, gentle bloom.
+- **vivid — Vivid (default):** juicy saturated colours, clean contrast, no milky haze or grain; glow only around lamps and screens.
+- **clear — Clear:** the soft palette without haze.
+- **soft — Soft Glow:** the hazy reference look: milky shadows, one warm or cool key light, cream edge light, gentle bloom.
 - **nocturne — Nocturne:** cooler and deeper, navy shadows, blue-white edges; night, mystery, loneliness.
 - **peach — Peach Hour:** warm peach highlights, honey edges, bigger bloom; memories, summer, hope.
 - **pastel — Pastel Air:** lighter, lifted shadows, low contrast; family and wholesome topics.

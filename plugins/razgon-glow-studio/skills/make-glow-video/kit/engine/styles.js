@@ -38,14 +38,30 @@ const UI = { card: 'rgba(24,29,52,.96)', cardLine: 'rgba(170,185,230,.18)', text
   blueprint: '#8fb8e8', bpBg: '#141a30', good: '#7fd39a', pill: 'rgba(28,30,44,.92)', pillLine: 'rgba(255,255,255,.08)', price: '#c24c4c', paper: '#eceae6', paperShade: '#d2d0cf', ink2: '#3c3d4a', chalk: '#2d2a22', bar1: '#d9a8c8', bar2: '#f3a64a' };
 
 export const STYLES = {
+  vivid: {
+    name: 'Vivid', desc: 'Default: juicy, saturated colours, clean contrast, no milky haze or grain; glow only around lamps, windows and screens. Built to hold attention.',
+    ink: '#121016', inkFar: '#1e1a24', inkHi: '#36303f', feature: '#ffffff', rimWidth: 3.2, haze: 0.15, ui: { ...UI, gold: '#ffa630' },
+    grade: { contrast: 1.1, sat: 1.32, lift: [0, 0, 0], gamma: [1.03, 1.03, 1.03], gain: [1.03, 1.03, 1.03], vignette: 0.16, grain: 0, bloom: 0.45, glow: 0.1, glowRadius: 9 },
+    moods: {
+      porch:  { wall: '#7d72b0', wall2: '#675c9a', trim: '#a89ed8', floor: '#1b2266', floor2: '#131856', key: '#ffd08a', rim: '#ffb860' },
+      office: { wall: '#6d90b8', wall2: '#5d7fa8', trim: '#a6c2e0', floor: '#3b5a8e', floor2: '#30497a', sky: ['#6ab8f0', '#c4e6ff'], grass: '#4cb85a', haze: '#a8c8e8' },
+      sunset: { sky: ['#e8607a', '#ff8a6a', '#ffb060', '#ffd890'], floor: '#f0964a', grass: '#b08a2a', wall: '#c8784a' },
+      park:   { sky: ['#6a3a9a', '#d8507a', '#ff9a6a'], grass: '#3f8a35', floor: '#c88a6a', floor2: '#b0765a', wall: '#7a5a9a', haze: '#e08a90', practical: '#ffd890', leaf: ['#d8582a', '#f0a22a', '#c8382a', '#6ab03a', '#e8b830'] },
+      dark:   { floor: '#2a3a6a', practical: '#f4f8ff', rim: '#a8c8ff' },
+      rainy:  { sky: ['#14205a', '#22387a', '#3a5aa0'], wall: '#2e4078' },
+      home:   { wall: '#a0645a', wall2: '#86504a', floor: '#5a3a3a', sky: ['#18206a', '#2a3a90', '#4a4ab0'] },
+      day:    { sky: ['#4aa8f0', '#a8d8ff', '#e8f4ff'], grass: '#5ab84a', wall: '#e0b890', wall2: '#c89a70' },
+      school: { wall: '#9ec890', wall2: '#86b078', floor: '#a07a50', sky: ['#5ab0f0', '#c0e4ff'] },
+    },
+  },
   soft: {
-    name: 'Soft Glow', desc: 'The reference look: soft milky shadows, one warm or cool key light, cream edge light on every character, gentle bloom, light haze, full frame.',
+    name: 'Soft Glow', desc: 'The hazy reference look: soft milky shadows, one warm or cool key light, cream edge light on every character, gentle bloom, light haze, full frame.',
     ink: '#16131b', inkFar: '#211d27', inkHi: '#3a3340', feature: '#fbf7f0', rimWidth: 3, ui: UI,
     grade: { contrast: 0.95, sat: 0.94, lift: [0.018, 0.018, 0.03], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.3, grain: 0.022, bloom: 0.5, glow: 0.32, glowRadius: 14 },
     moods: {},
   },
   clear: {
-    name: 'Clear', desc: 'Same look without the haze: no milky shadows or grain, normal contrast, light bloom only around lamps and screens.', ink: '#16131b', inkFar: '#211d27', inkHi: '#3a3340', feature: '#fbf7f0', rimWidth: 3, ui: UI,
+    name: 'Clear', desc: 'Same look without the haze: no milky shadows or grain, normal contrast, light bloom only around lamps and screens.', ink: '#16131b', inkFar: '#211d27', inkHi: '#3a3340', feature: '#fbf7f0', rimWidth: 3, haze: 0.4, ui: UI,
     grade: { contrast: 1.03, sat: 1.0, lift: [0, 0, 0], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.2, grain: 0, bloom: 0.4, glow: 0.12, glowRadius: 10 },
     moods: {},
   },
@@ -75,4 +91,4 @@ export const STYLES = {
   },
 };
 export const STYLE_IDS = Object.keys(STYLES);
-export const DEFAULT_STYLE = 'soft';
+export const DEFAULT_STYLE = 'vivid';

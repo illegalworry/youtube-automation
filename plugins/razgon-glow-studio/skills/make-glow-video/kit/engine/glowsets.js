@@ -13,14 +13,14 @@
 //   corkBoard mugTree kettle honestyBox awningStand crate chalkSign fence fieldRows cloud sunDisc telePole blobTree bench
 //   streetLamp skylineSoft monitor keyboard mouse fogGlass bokeh bed nightLamp plant frame house car desk chair
 //   bookshelf fridge clockWall door leaves lightPool softShadow haze
-import { E, V, clamp, lerp, rng, noise, mood, alpha, shade, mix, rr, seg, poly, circle, ring, linGrad, radGrad, glow, backdrop, layer, blurLayer, veil, text, measure, FONTS, ease, prog } from './core.js';
+import { E, V, S, clamp, lerp, rng, noise, mood, alpha, shade, mix, rr, seg, poly, circle, ring, linGrad, radGrad, glow, backdrop, layer, blurLayer, veil, text, measure, FONTS, ease, prog } from './core.js';
 // shrink a font size so the string fits maxW (long Russian/German words on posters, boxes and signs)
 export const fitSize = (g, str, size, maxW, font = FONTS.sans, weight = 700) => Math.min(size, size * maxW / Math.max(1, measure(g, str, size, font, weight) + str.length * size * 0.08));
 
 // ---------- light & atmosphere ----------
 export function lightPool(g, x, y, r, color, a = 0.35, sy = 1) { g.save(); g.globalCompositeOperation = 'screen'; g.translate(x, y); g.scale(1, sy); g.fillStyle = radGrad(g, 0, 0, 0, r, [alpha(color, a), alpha(color, a * 0.45), alpha(color, a * 0.12), alpha(color, 0)]); g.beginPath(); g.arc(0, 0, r, 0, Math.PI * 2); g.fill(); g.restore(); }
 export function softShadow(g, x, y, w, h = w * 0.16, a = 0.3) { g.save(); g.translate(x, y); g.scale(1, h / w); g.fillStyle = radGrad(g, 0, 0, 0, w, [alpha('#000', a), alpha('#000', a * 0.5), alpha('#000', 0)]); g.beginPath(); g.arc(0, 0, w, 0, Math.PI * 2); g.fill(); g.restore(); }
-export function haze(g, y0, y1, color, a = 0.35) { g.fillStyle = linGrad(g, 0, y0, 0, y1, [alpha(color, 0), alpha(color, a), alpha(color, 0)]); g.fillRect(-E.W, y0, E.W * 3, y1 - y0); }
+export function haze(g, y0, y1, color, a = 0.35) { a *= S().haze ?? 1; if (a <= 0.005) return; g.fillStyle = linGrad(g, 0, y0, 0, y1, [alpha(color, 0), alpha(color, a), alpha(color, 0)]); g.fillRect(-E.W, y0, E.W * 3, y1 - y0); }
 // floor that darkens toward the camera
 function floorGrad(g, y0, y1, c0, c1) { g.fillStyle = linGrad(g, 0, y0, 0, y1, [c0, c1]); g.fillRect(-E.W, y0, E.W * 3, y1 - y0 + E.H); }
 export function bokeh(g, t, o = {}) {
