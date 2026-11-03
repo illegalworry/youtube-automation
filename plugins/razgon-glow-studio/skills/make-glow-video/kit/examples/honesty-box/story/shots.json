@@ -1,0 +1,16 @@
+{
+"title": "What If Nobody Was Watching?",
+"duration": 24.0,
+"shots": [
+ {"id": "s001", "start": 0.0, "end": 3.4, "line": "A bowl of candy, and a sign: please take one.", "scene": "night porch wide: adult by the door, witch + ghost + blue kid at the bowl, slow push", "set": "porch", "in": {"type": "cut"}, "sfx": [{"at": 0.2, "name": "wind", "gain": -26}], "amb": {"name": "wind", "gain": -28}},
+ {"id": "s002", "start": 3.4, "end": 6.6, "line": "When someone is watching, fifty-seven percent take just one.", "scene": "same porch, kids take one each, pill counts to 57 %", "set": "porch", "in": {"type": "cut"}, "sfx": [{"at": 1.0, "name": "pop", "gain": -12}, {"at": 1.05, "name": "counter", "gain": -18, "dur": 0.8}], "amb": {"name": "wind", "gain": -28}},
+ {"id": "s003", "start": 6.6, "end": 9.8, "line": "But when the watcher fades away… only eight percent do.", "scene": "adult fades to invisible, hooded kid alone looks around, grabs more; pill drops to 8 %", "set": "porch", "in": {"type": "cut"}, "sfx": [{"at": 0.4, "name": "shimmer", "gain": -12}, {"at": 2.0, "name": "pop", "gain": -12}], "amb": {"name": "wind", "gain": -28}},
+ {"id": "s004", "start": 9.8, "end": 12.8, "line": "Grown-ups are no different. Take an office honesty box.", "scene": "office kitchenette, three colleagues: kettle, mugs, PAY HERE box; chapter title", "set": "kitchen", "in": {"type": "whip", "dir": 1, "dur": 0.35}, "mb": 0, "sfx": [{"at": 0.0, "name": "whoosh", "gain": -10}], "amb": {"name": "roomtone", "gain": -26}},
+ {"id": "s005", "start": 12.8, "end": 16.0, "line": "Swap the flowers on the poster for a pair of eyes, and payments almost triple.", "scene": "push in on the poster: flowers become eyes; stat card FLOWERS vs EYES ≈3x + citation", "set": "kitchen", "in": {"type": "cut"}, "sfx": [{"at": 0.9, "name": "blip", "gain": -14}, {"at": 1.6, "name": "pop", "gain": -12}], "amb": {"name": "roomtone", "gain": -26}},
+ {"id": "s006", "start": 16.0, "end": 18.6, "line": "Paper eyes. That's all it takes.", "scene": "close-up: mustard hoodie looks sideways at the eyes, sly; hand on hip", "set": "kitchen", "in": {"type": "cut"}, "sfx": [], "amb": {"name": "roomtone", "gain": -26}},
+ {"id": "s007", "start": 18.6, "end": 21.4, "line": "So what would you do… if you were truly invisible?", "scene": "farm stand at sunset, an invisible outline reaches for an apple, pay box waits", "set": "farmStand", "in": {"type": "fade", "dur": 0.6}, "sfx": [{"at": 1.4, "name": "shimmer", "gain": -14}], "amb": {"name": "wind", "gain": -26}},
+ {"id": "s008", "start": 21.4, "end": 24.0, "line": "", "scene": "park at dusk, friends on a bench, invisible eyes watch; end card question", "set": "park", "in": {"type": "dip", "dur": 0.5}, "captions": false, "sfx": [{"at": 0.8, "name": "ding", "gain": -14}], "amb": {"name": "city", "gain": -28}}
+],
+"music": [ {"start": 0, "end": 9.8, "mood": "mystery", "intensity": 0.35}, {"start": 9.8, "end": 18.6, "mood": "playful", "intensity": 0.35}, {"start": 18.6, "end": 24.0, "mood": "wonder", "intensity": 0.4} ],
+"sfx": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "razgon-studios",
+  "owner": { "name": "Razgon" },
+  "plugins": [
+    {
+      "name": "razgon-glow-studio",
+      "source": "./plugins/razgon-glow-studio",
+      "description": "Voiceover → soft-lit 2.5D 'What if…?' video with black-headed hoodie characters (successor of Razgon 2D Studio)."
+    }
+  ]
+}
