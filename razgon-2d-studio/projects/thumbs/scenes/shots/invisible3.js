@@ -31,7 +31,8 @@ const V = {
     // spilled gold coins in front
     const r = rng(41); for (let i = 0; i < 26; i++) { const x = vx - 120 + r() * 520, y = 1010 + r() * 50, s = 22 + r() * 12; glow(g, x, y, s * 2.4, c, 0.5); g.fillStyle = linGrad(g, 0, y - s, 0, y + s, ['#fff2a0', '#e8a010']); g.beginPath(); g.ellipse(x, y, s, s * 0.5, r() * 0.6, 0, 7); g.fill(); g.strokeStyle = '#a8680a'; g.lineWidth = 3; g.stroke(); }
     motes(g, 42, 24, '#fff2a0', [300, 200, 1500, 800]);
-    heroFull(g, 400, 1070, 215, 'shocked', { ...GH, pose: 'up', dir: 1, rim: c, haloA: 0.3 });
+    spot(g, 400, 640, 760, '#ff3a2a', 0.38);
+    heroFull(g, 400, 1070, 215, 'shocked', { hoodie: '#ff3b2a', pants: '#26307a', pose: 'up', dir: 1, rim: c, haloA: 0.3 });
   },
   2(g, t) {
     grayBg(g, t, 'kitchenNight', 402, { veil: 0.45, vig: 0.7 });
@@ -46,7 +47,8 @@ const V = {
     seg(g, [[cx, 680], [cx, 596]], 20, '#e0e3ee'); flame(g, cx, 592, 160, 38, '#ff7a1a', '#fff2a0'); star(g, cx, 510, 44, '#fff2a0');
     g.restore();
     motes(g, 43, 26, '#ffd08a', [900, 250, 900, 700]);
-    heroFull(g, 470, 1560, 270, 'angry', { ...GH, pose: 'point', dir: 1, rim: '#ffb060', haloA: 0.3 });
+    spot(g, 470, 760, 900, '#ff3a2a', 0.34);
+    heroFull(g, 470, 1560, 270, 'angry', { hoodie: '#ff3b2a', pants: '#26307a', pose: 'point', dir: 1, rim: '#ffb060', haloA: 0.3 });
   },
 };
 for (const s of E.shots) if (s.params?.tpl === 'ifv-invisible3') registerShot(s.id, { draw(g, t, info) { V[info.k](g, t); } });
