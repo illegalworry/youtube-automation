@@ -8,7 +8,8 @@ src, out, lines, tag = sys.argv[1], sys.argv[2], sys.argv[3].split('|'), sys.arg
 x = int(sys.argv[5]) if len(sys.argv) > 5 else 70; y = int(sys.argv[6]) if len(sys.argv) > 6 else 50; size = int(sys.argv[7]) if len(sys.argv) > 7 else 170
 align = (sys.argv[8] if len(sys.argv) > 8 else 'L').upper(); ow = int(sys.argv[9]) if len(sys.argv) > 9 else 1280
 F = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fonts', 'LilitaOne.ttf')
-im = Image.open(src).convert('RGBA'); im = ImageEnhance.Color(im).enhance(1.15)
+im = Image.open(src).convert('RGBA'); K = im.width / 1920  # all sizes below are for a 1920-wide still; scale for 2K/4K sources
+x = round(x * K); y = round(y * K); size = round(size * K); im = ImageEnhance.Color(im).enhance(1.15)
 acc = tuple(int(sys.argv[10].lstrip('#')[i:i+2], 16) for i in (0, 2, 4)) if len(sys.argv) > 10 else None  # optional accent colour (hex) for line 2 + tag
 cols = [(255, 255, 255), acc or (255, 212, 28)]; outline = (16, 12, 24)
 sh = Image.new('RGBA', im.size, (0, 0, 0, 0)); sd = ImageDraw.Draw(sh)
@@ -16,17 +17,17 @@ fg = Image.new('RGBA', im.size, (0, 0, 0, 0)); fd = ImageDraw.Draw(fg)
 yy = y; f = ImageFont.truetype(F, size)
 for i, ln in enumerate(lines):
     lx = x if align == 'L' else im.width - x - int(fd.textlength(ln, font=f))
-    sd.text((lx + 8, yy + 14), ln, font=f, fill=(0, 0, 0, 200), stroke_width=14, stroke_fill=(0, 0, 0, 200))
-    fd.text((lx, yy), ln, font=f, fill=cols[i % 2] + (255,), stroke_width=11, stroke_fill=outline + (255,))
+    sd.text((lx + 8 * K, yy + 14 * K), ln, font=f, fill=(0, 0, 0, 200), stroke_width=round(14 * K), stroke_fill=(0, 0, 0, 200))
+    fd.text((lx, yy), ln, font=f, fill=cols[i % 2] + (255,), stroke_width=round(11 * K), stroke_fill=outline + (255,))
     yy += int(size * 0.92)
 if tag:
-    tf = ImageFont.truetype(F, 54); w = int(fd.textlength(tag, font=tf)) + 44; h = 76
-    t = Image.new('RGBA', (w + 20, h + 20), (0, 0, 0, 0)); td = ImageDraw.Draw(t)
-    td.rounded_rectangle((10, 10, w + 10, h + 10), 8, fill=acc or (222, 38, 38), outline=(255, 255, 255), width=4)
-    td.text((w / 2 + 10, h / 2 + 12), tag, font=tf, fill=(16, 12, 24) if acc else (255, 255, 255), anchor='mm')
+    tf = ImageFont.truetype(F, round(54 * K)); w = int(fd.textlength(tag, font=tf)) + round(44 * K); h = round(76 * K)
+    P = round(10 * K); t = Image.new('RGBA', (w + 2 * P, h + 2 * P), (0, 0, 0, 0)); td = ImageDraw.Draw(t)
+    td.rounded_rectangle((P, P, w + P, h + P), round(8 * K), fill=acc or (222, 38, 38), outline=(255, 255, 255), width=max(1, round(4 * K)))
+    td.text((w / 2 + P, h / 2 + P + 2 * K), tag, font=tf, fill=(16, 12, 24) if acc else (255, 255, 255), anchor='mm')
     t = t.rotate(2.5, expand=True, resample=Image.BICUBIC)
-    fg.alpha_composite(t, (x + 4 if align == 'L' else im.width - x - t.width - 4, yy + 18))
-im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(8))); im.alpha_composite(fg)
+    fg.alpha_composite(t, (round(x + 4 * K) if align == 'L' else im.width - x - t.width - round(4 * K), yy + round(18 * K)))
+im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(8 * K))); im.alpha_composite(fg)
 im = im.convert('RGB')
 if ow != im.width: im = im.resize((ow, round(ow * im.height / im.width)), Image.LANCZOS)
 im.save(out, quality=95)
