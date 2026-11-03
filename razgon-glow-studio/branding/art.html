@@ -32,8 +32,16 @@ if (kind === 'banner') {
 } else {
   c.width = 800; c.height = 800; Object.assign(E, { W: 800, H: 800 });
   g.fillStyle = BG; g.fillRect(0, 0, 800, 800);
-  // full-body character, waving hello with a happy face
-  drawGlow(g, { x: 400, y: 1290, s: 4.2, facing: 1, turn: 0.1, outfit: { top: 'hoodie', color: TEAL }, pose: 'think', expr: 'thinking', look: [0.5, -0.6], rim: { color: '#ffffff', dir: [-0.6, -0.8] }, shadow: false });
+  // bust: big smiling head tilted to one side, one hand waving hello next to the head
+  const sh = '#ffffff';
+  // waving arm (behind the head edge, in front of the shoulder)
+  const arm = () => { g.lineCap = 'round'; g.strokeStyle = sh; g.lineWidth = 84; g.beginPath(); g.moveTo(560, 640); g.quadraticCurveTo(705, 520, 676, 340); g.stroke();
+    g.strokeStyle = '#5ea993'; g.lineWidth = 76; g.beginPath(); g.moveTo(560, 640); g.quadraticCurveTo(705, 520, 676, 340); g.stroke();
+    circle(g, 678, 318, 48, sh); circle(g, 678, 318, 44, '#141218');
+    // little wave lines
+    g.strokeStyle = alpha('#ffffff', 0.9); g.lineWidth = 9; for (const [r, a0] of [[78, 0], [108, 0]]) { g.beginPath(); g.arc(678, 318, r, -1.25, -0.45); g.stroke(); } };
+  arm();
+  bigGlow(g, 380, 375, 195, { outfit: { top: 'hoodie', color: TEAL }, expr: 'smile', face: { lid: 0.04, low: 0.12, sc: 1.1, mouth: 'smile' }, look: [0.15, -0.05], turn: 0.05, tilt: -0.12, rim: { color: '#fff2d8' }, rimSide: 1, shoulders: 1.4 });
 }
 window.DONE = true;
 </script></body></html>
