@@ -1,7 +1,6 @@
 ---
 name: glow-styles
-description: "This skill should be used when the user runs /glow-styles or asks to \"show me style options\", \"compare the looks\", \"pick a visual style\", \"make it warmer / cooler / softer / punchier\", \"create a custom style\", or \"change the colour grade\" for a Razgon Glow Studio video. It renders the same shots of the user's story in seven Glow presets (vivid, soft, clear, nocturne, peach, pastel, crisp) as a comparison grid, records the choice, and builds custom styles.
-"
+description: "Use when the user runs /glow-styles or asks to compare looks, pick a visual style, make it brighter/warmer/cooler, or create a custom colour grade for a Razgon Glow Studio video. Renders the user's shots in the Glow presets (vivid, soft, clear, nocturne, peach, pastel, crisp) as a grid and saves the choice."
 metadata:
   version: "1.0.0"
   author: Razgon

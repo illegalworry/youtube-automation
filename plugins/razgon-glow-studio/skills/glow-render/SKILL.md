@@ -1,7 +1,6 @@
 ---
 name: glow-render
-description: "This skill should be used when the user runs /glow-render or asks to \"build the scenes\", \"check the shots\", \"show me a contact sheet\", \"preview the video\", \"render the video\", \"render in 4K / 9:16\", \"re-render after a fix\", or \"export the final MP4\" for a Razgon Glow Studio project. It writes or repairs shot code in batches with contact-sheet QC, makes preview clips, runs the full frame-by-frame render, and muxes the final video with sound.
-"
+description: "Use when the user runs /glow-render or asks to build or check the scenes, show a contact sheet, preview, render (4K, 9:16), re-render after a fix, or export the final MP4 for a Razgon Glow Studio project. Writes and repairs shot code with contact-sheet QC, previews, renders and muxes sound."
 metadata:
   version: "1.0.0"
   author: Razgon

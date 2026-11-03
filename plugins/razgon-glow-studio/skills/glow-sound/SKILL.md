@@ -1,7 +1,6 @@
 ---
 name: glow-sound
-description: "This skill should be used when the user runs /glow-sound or asks to \"add music\", \"add sound effects\", \"design the sound\", \"change the music mood\", \"use my own music\", \"the music is too loud/quiet\", \"remix the audio\", or \"redo the soundtrack\" for a Razgon Glow Studio video. It plans mood-based generated music, places SFX and ambience cues on the shot list, mixes them under the voiceover with ducking and loudness normalisation, and muxes the final MP4.
-"
+description: "Use when the user runs /glow-sound or asks to add or change music, sound effects, ambience, levels or the final mix for a Razgon Glow Studio video. Plans mood-based music, places SFX and ambience cues, ducks under the voice, normalises loudness and muxes the MP4."
 metadata:
   version: "1.0.0"
   author: Razgon

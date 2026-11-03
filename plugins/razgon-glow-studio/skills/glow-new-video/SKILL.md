@@ -1,7 +1,6 @@
 ---
 name: glow-new-video
-description: "This skill should be used when the user runs /glow-new-video or asks to \"start a new glow video\", \"set up a soft What-If style video from this voiceover\", \"timestamp my voiceover\", \"transcribe and time my narration\", \"import my SRT/timestamped script\", or \"plan the shots for my script\" in the Razgon Glow Studio. It covers intake, installing or checking the studio, creating the project, building word-level timestamps (Whisper or the user's timestamped script), and the story breakdown with the shot list.
-"
+description: "Use when the user runs /glow-new-video or asks to start a new glow video, timestamp a voiceover, import an SRT/timestamped script, or plan the shots in Razgon Glow Studio. Covers intake, installing the studio, creating the project, word-level timestamps and the story breakdown with the shot list."
 metadata:
   version: "1.0.0"
   author: Razgon

@@ -1,6 +1,6 @@
 ---
 name: make-glow-video
-description: "This skill should be used when the user wants a narrated animated video in the Razgon Glow style (soft-lit 2.5D 'What if…?' look: big round black heads with white oval eyes, muted hoodies with drawstrings, thin stick legs, a thin warm edge light; cosy night porches, office kitchens, sunset farm stands, dusk parks, monitor-lit rooms; invisible outline people, orange percentage pills, navy study cards, handwritten signs), e.g. \"make a glow video from this voiceover\", \"animate my script in the soft What If style\", \"make a video in my competitor's style with black-headed hoodie characters\", \"turn this narration into a thought-experiment video\", or \"do the whole video\". It runs the full pipeline: install, timestamps (Whisper), story breakdown, style choice, scene building, rendering, music, SFX and final MP4 in 16:9 or 9:16 at 720p to 4K.\n"
+description: "Use when the user wants a narrated animated video in the Razgon Glow style (bright 2.5D 'What if…?' look: black-headed hoodie characters with white oval eyes, stick legs, invisible outline people, number pills, study cards), e.g. \"make a glow video from this voiceover\" or \"do the whole video\". Runs the full pipeline: install, Whisper timestamps, story, style, scenes, render, music, SFX, final MP4 (16:9 or 9:16, 720p–4K)."
 metadata:
   version: "1.0.0"
   author: Razgon
