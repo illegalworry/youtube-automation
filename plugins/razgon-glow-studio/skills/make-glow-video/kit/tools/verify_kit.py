@@ -19,7 +19,7 @@ EXPECTED = {
     "engine/motion.js": "274ef93daa740a41",
     "engine/player.js": "f1668f521dc74782",
     "engine/rig2d.js": "ec2a665e0aa8ffed",
-    "engine/styles.js": "0d3cb18573d912a0",
+    "engine/styles.js": "7024a4b712c9ea71",
     "engine/three-kit.js": "d61f2689483ed615",
     "engine/ui2d.js": "babd2978a5d2a6db",
     "examples/honesty-box/config.json": "c6be17a4e4db6e14",

@@ -44,6 +44,11 @@ export const STYLES = {
     grade: { contrast: 0.95, sat: 0.94, lift: [0.018, 0.018, 0.03], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.3, grain: 0.022, bloom: 0.5, glow: 0.32, glowRadius: 14 },
     moods: {},
   },
+  clear: {
+    name: 'Clear', desc: 'Same look without the haze: no milky shadows or grain, normal contrast, light bloom only around lamps and screens.', ink: '#16131b', inkFar: '#211d27', inkHi: '#3a3340', feature: '#fbf7f0', rimWidth: 3, ui: UI,
+    grade: { contrast: 1.03, sat: 1.0, lift: [0, 0, 0], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.2, grain: 0, bloom: 0.4, glow: 0.12, glowRadius: 10 },
+    moods: {},
+  },
   nocturne: {
     name: 'Nocturne', desc: 'Cooler and deeper: navy shadows, blue-white edge light, warm lamps pop harder. Night, mystery, loneliness.',
     ink: '#0f0e16', inkFar: '#1c1b28', inkHi: '#2e2c40', feature: '#f2f5ff', rimWidth: 3, ui: { ...UI, gold: '#ffb85c' },
