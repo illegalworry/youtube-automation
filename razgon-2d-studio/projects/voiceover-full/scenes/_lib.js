@@ -174,7 +174,7 @@ export function timeCard(id, hh, mm, ampm, o = {}) {
     const T = lerp(s0, s1, ease.inOut(prog(t, 0, Math.min(info.dur * 0.8, 1.0))));
     g.save(); g.fillStyle = radGrad(g, E.W * V(0.66, 0.5), E.H * V(0.5, 0.6), 0, 700, ['rgba(8,6,16,.62)', 'rgba(8,6,16,0)']); g.fillRect(0, 0, E.W, E.H); g.restore();
     glow(g, cx, cy, r * 1.8, M.key, 0.15); FX.clock(g, cx, cy, r, T, { face: '#f2efe8' });
-    const lbl = `${hh}${mm ? ':' + String(mm).padStart(2, '0') : ''}`;
+    const lbl = `${(hh % 12) || 12}${mm ? ':' + String(mm).padStart(2, '0') : ''}`;
     kText(g, t, lbl, E.W * V(0.66, 0.5), E.H * V(0.46, 0.6), { start: 0.05, mode: 'slam', size: V(260, 230), font: FONTS.title, color: S().ui.cream, glow: 30, align: 'center' });
     kText(g, t, ampm, E.W * V(0.66, 0.5), E.H * V(0.46, 0.6) + V(170, 150), { start: 0.25, mode: 'rise', size: V(84, 80), color: S().ui.gold, glow: 20, spacing: 6 });
     if (o.sub) kText(g, t, o.sub, E.W * V(0.66, 0.5), E.H * V(0.46, 0.6) + V(300, 280), { start: 0.9, mode: 'rise', size: V(76, 72), color: S().ui.cream, glow: 18, spacing: 4 });
