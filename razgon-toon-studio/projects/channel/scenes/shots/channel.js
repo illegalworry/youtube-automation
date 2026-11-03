@@ -46,7 +46,7 @@ registerShot('sunbanner', { draw(g, t) {
   softEllipse(g, E.W / 2, E.H / 2, 520, 520, '#fff3c8', 0.7);
 } });
 
-const BRAND = '#7c4dea';
+const BRAND = '#3f63c8';
 // banner like the reference: flat colour, big white bold text in the centre
 registerShot('flatbanner', { draw(g, t) {
   g.fillStyle = BRAND; g.fillRect(0, 0, E.W, E.H);
