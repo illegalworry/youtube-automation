@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "installedAt": "2026-11-03T08:05:09.931Z",
+  "files": {
+    "/home/user/youtube-automation/.claude/settings.json": {
+      "plugins": [
+        "ruflo-mods@ruflo",
+        "ruflo-swarm@ruflo",
+        "ruflo-console@ruflo"
+      ],
+      "marketplace": true,
+      "env": true,
+      "claudeInstalled": [
+        "ruflo-mods@ruflo",
+        "ruflo-swarm@ruflo",
+        "ruflo-console@ruflo"
+      ]
+    }
+  }
+}
