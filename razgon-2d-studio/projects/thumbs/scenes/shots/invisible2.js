@@ -6,15 +6,15 @@ import { bgBlur } from './_common.js';
 import { INK, W, wash, vign, bokeh, motes, star, hero } from './ifverse.js';
 import { heroFull } from './brain10.js';
 
-const GH = { hoodie: '#868a96', pants: '#3a3d48', rim: '#e8ebf4' };            // gray hero
-const mono = (g) => { g.save(); g.globalCompositeOperation = 'saturation'; g.fillStyle = '#808080'; g.fillRect(0, 0, E.W, E.H); g.restore(); };
-const grayBg = (g, t, set, seed, o = {}) => {
+export const GH = { hoodie: '#868a96', pants: '#3a3d48', rim: '#e8ebf4' };            // gray hero
+export const mono = (g) => { g.save(); g.globalCompositeOperation = 'saturation'; g.fillStyle = '#808080'; g.fillRect(0, 0, E.W, E.H); g.restore(); };
+export const grayBg = (g, t, set, seed, o = {}) => {
   bgBlur(g, t, set, {}, { z: o.z ?? 1.25, blur: 7, veil: o.veil ?? 0.3, y: -110 }); mono(g);
   wash(g, '#e6e9f2', '#0c0e16', 0.55); bokeh(g, seed, 22, ['#ffffff', '#c4c8d4', '#9aa0b0'], 0.2); vign(g, o.vig ?? 0.62);
 };
-const spot = (g, x, y, r, c, a = 0.4) => glow(g, x, y, r, c, a);
+export const spot = (g, x, y, r, c, a = 0.4) => glow(g, x, y, r, c, a);
 // faceless silhouette; (x, y) = bottom centre. s = head radius scale.
-const person = (g, x, y, s, c, o = {}) => {
+export const person = (g, x, y, s, c, o = {}) => {
   g.save();
   if (o.arms) for (const k of [-1, 1]) seg(g, [[x + k * s * 1.0, y - s * 2.3], [x + k * s * 1.7, y - s * 3.4], [x + k * s * 1.5, y - s * 4.6]], s * 0.42, c);
   g.fillStyle = linGrad(g, 0, y - s * 3, 0, y, [shade(c, 0.1), shade(c, -0.15)]);
@@ -23,11 +23,11 @@ const person = (g, x, y, s, c, o = {}) => {
   if (o.phone) { const px = x + (o.dir || 1) * s * 0.55; rr(g, px - s * 0.28, y - s * 2.35, s * 0.56, s * 0.86, s * 0.08); g.fillStyle = o.phone; g.fill(); glow(g, px, y - s * 1.95, s * 1.6, o.phone, 0.35); }
   g.restore();
 };
-const row = (g, seed, n, x0, x1, y, s, cols, o = {}) => { const r = rng(seed); for (let i = 0; i < n; i++) person(g, x0 + (x1 - x0) * (i + r() * 0.5) / n, y + (r() - 0.5) * 24, s * (0.9 + r() * 0.25), cols[i % cols.length], { ...o, dir: r() < 0.5 ? -1 : 1, phone: o.phone && r() < 0.6 ? o.phone : null, arms: o.arms && r() < 0.8 }); };
+export const row = (g, seed, n, x0, x1, y, s, cols, o = {}) => { const r = rng(seed); for (let i = 0; i < n; i++) person(g, x0 + (x1 - x0) * (i + r() * 0.5) / n, y + (r() - 0.5) * 24, s * (0.9 + r() * 0.25), cols[i % cols.length], { ...o, dir: r() < 0.5 ? -1 : 1, phone: o.phone && r() < 0.6 ? o.phone : null, arms: o.arms && r() < 0.8 }); };
 const digits = (g, s, x, y, size, c) => text(g, s, x, y, { size, color: c, font: FONTS.ui, weight: 900, glow: 36, glowColor: c });
-const flame = (g, x, y, h, w, c1, c2) => { g.save(); g.globalCompositeOperation = 'lighter'; glow(g, x, y - h * 0.4, h * 0.9, c1, 0.6); g.fillStyle = linGrad(g, 0, y - h, 0, y, [alpha(c2, 0.95), alpha(c1, 0.95)]); g.beginPath(); g.moveTo(x - w, y); g.bezierCurveTo(x - w * 1.1, y - h * 0.5, x - w * 0.2, y - h * 0.6, x, y - h); g.bezierCurveTo(x + w * 0.3, y - h * 0.55, x + w * 1.1, y - h * 0.5, x + w, y); g.closePath(); g.fill(); g.restore(); };
-const neon = (g, x, y, w, h, c, rad = 30) => { g.save(); g.shadowColor = c; g.shadowBlur = 36; rr(g, x, y, w, h, rad); g.lineWidth = 7; g.strokeStyle = alpha(c, 0.95); g.stroke(); g.restore(); };
-const G = ['#7a7e8a', '#656975', '#575b66'];
+export const flame = (g, x, y, h, w, c1, c2) => { g.save(); g.globalCompositeOperation = 'lighter'; glow(g, x, y - h * 0.4, h * 0.9, c1, 0.6); g.fillStyle = linGrad(g, 0, y - h, 0, y, [alpha(c2, 0.95), alpha(c1, 0.95)]); g.beginPath(); g.moveTo(x - w, y); g.bezierCurveTo(x - w * 1.1, y - h * 0.5, x - w * 0.2, y - h * 0.6, x, y - h); g.bezierCurveTo(x + w * 0.3, y - h * 0.55, x + w * 1.1, y - h * 0.5, x + w, y); g.closePath(); g.fill(); g.restore(); };
+export const neon = (g, x, y, w, h, c, rad = 30) => { g.save(); g.shadowColor = c; g.shadowBlur = 36; rr(g, x, y, w, h, rad); g.lineWidth = 7; g.strokeStyle = alpha(c, 0.95); g.stroke(); g.restore(); };
+export const G = ['#7a7e8a', '#656975', '#575b66'];
 
 const V = {
   // 1 SMUG, full body — a gray crowd, only he has colour, waving at 1000 people who don't see him: "1000 PEOPLE. / 0 NOTICED."
