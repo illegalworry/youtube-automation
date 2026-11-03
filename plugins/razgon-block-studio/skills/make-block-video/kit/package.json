@@ -1,0 +1,17 @@
+{
+  "name": "razgon-block-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Razgon Block Studio: code-rendered game-world What-If videos (blocky / voxel / royale worlds), rendered frame-by-frame",
+  "dependencies": {
+    "@fontsource/fredoka": "5.1.0",
+    "@fontsource/lilita-one": "5.3.0",
+    "@fontsource/luckiest-guy": "5.3.0",
+    "@fontsource/press-start-2p": "5.3.0",
+    "@fontsource/nunito": "5.1.0",
+    "@fontsource/playfair-display": "5.1.0",
+    "playwright": "1.56.0",
+    "three": "0.169.0"
+  }
+}

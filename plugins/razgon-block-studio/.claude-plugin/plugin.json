@@ -1,0 +1,7 @@
+{
+  "name": "razgon-block-studio",
+  "version": "1.0.0",
+  "description": "Voiceover → 'What if <X> became <game>?' video in a 1M-view competitor's format. The world follows the topic: blocky avatars (Roblox-type), pixel cube sandbox (Minecraft-type) or cartoon battle royale (Fortnite-type). Giant 1–2-word captions, RULE cards, DAY counters, countdown rings, red-alarm / grey-death looks, VHS rewind transitions, game UI, comic SFX. Code-rendered, Whisper timestamps, 16:9 or 9:16 up to 4K.",
+  "author": { "name": "Razgon" },
+  "keywords": ["video", "animation", "faceless youtube", "what if", "roblox style", "minecraft style", "fortnite style", "game", "captions", "retention", "whisper"]
+}

@@ -1,0 +1,369 @@
+{
+"words": [
+{
+"word": "I",
+"start": 0.0,
+"end": 0.127
+},
+{
+"word": "opened",
+"start": 0.141,
+"end": 0.48
+},
+{
+"word": "my",
+"start": 0.518,
+"end": 0.687
+},
+{
+"word": "eyes...",
+"start": 0.706,
+"end": 1.087
+},
+{
+"word": "and",
+"start": 1.129,
+"end": 1.341
+},
+{
+"word": "my",
+"start": 1.365,
+"end": 1.534
+},
+{
+"word": "whole",
+"start": 1.553,
+"end": 1.849
+},
+{
+"word": "town",
+"start": 1.882,
+"end": 2.136
+},
+{
+"word": "was",
+"start": 2.165,
+"end": 2.376
+},
+{
+"word": "a",
+"start": 2.4,
+"end": 2.527
+},
+{
+"word": "video",
+"start": 2.541,
+"end": 2.838
+},
+{
+"word": "game.",
+"start": 2.871,
+"end": 3.167
+},
+{
+"word": "Five",
+"start": 3.5,
+"end": 3.88
+},
+{
+"word": "days.",
+"start": 3.922,
+"end": 4.366
+},
+{
+"word": "One",
+"start": 4.415,
+"end": 4.731
+},
+{
+"word": "server.",
+"start": 4.767,
+"end": 5.337
+},
+{
+"word": "And",
+"start": 5.8,
+"end": 6.043
+},
+{
+"word": "on",
+"start": 6.07,
+"end": 6.264
+},
+{
+"word": "day",
+"start": 6.286,
+"end": 6.529
+},
+{
+"word": "five,",
+"start": 6.556,
+"end": 6.896
+},
+{
+"word": "the",
+"start": 6.933,
+"end": 7.176
+},
+{
+"word": "server",
+"start": 7.203,
+"end": 7.592
+},
+{
+"word": "had",
+"start": 7.635,
+"end": 7.878
+},
+{
+"word": "thirty",
+"start": 7.905,
+"end": 8.293
+},
+{
+"word": "seconds",
+"start": 8.337,
+"end": 8.774
+},
+{
+"word": "left.",
+"start": 8.822,
+"end": 9.162
+},
+{
+"word": "Server",
+"start": 9.5,
+"end": 9.888
+},
+{
+"word": "closing",
+"start": 9.931,
+"end": 10.367
+},
+{
+"word": "in",
+"start": 10.415,
+"end": 10.609
+},
+{
+"word": "thirty",
+"start": 10.631,
+"end": 11.018
+},
+{
+"word": "seconds.",
+"start": 11.062,
+"end": 11.546
+},
+{
+"word": "Okay,",
+"start": 12.0,
+"end": 12.382
+},
+{
+"word": "okay.",
+"start": 12.424,
+"end": 12.806
+},
+{
+"word": "Let",
+"start": 12.848,
+"end": 13.121
+},
+{
+"word": "me",
+"start": 13.152,
+"end": 13.37
+},
+{
+"word": "explain.",
+"start": 13.394,
+"end": 13.939
+},
+{
+"word": "It",
+"start": 14.6,
+"end": 14.789
+},
+{
+"word": "all",
+"start": 14.811,
+"end": 15.047
+},
+{
+"word": "started",
+"start": 15.074,
+"end": 15.5
+},
+{
+"word": "with",
+"start": 15.547,
+"end": 15.832
+},
+{
+"word": "one",
+"start": 15.863,
+"end": 16.1
+},
+{
+"word": "button.",
+"start": 16.126,
+"end": 16.553
+},
+{
+"word": "Last",
+"start": 17.0,
+"end": 17.309
+},
+{
+"word": "night.",
+"start": 17.343,
+"end": 17.754
+},
+{
+"word": "Day",
+"start": 18.2,
+"end": 18.45
+},
+{
+"word": "one,",
+"start": 18.478,
+"end": 18.778
+},
+{
+"word": "you",
+"start": 18.811,
+"end": 19.061
+},
+{
+"word": "learn",
+"start": 19.089,
+"end": 19.439
+},
+{
+"word": "the",
+"start": 19.478,
+"end": 19.728
+},
+{
+"word": "rules.",
+"start": 19.756,
+"end": 20.156
+},
+{
+"word": "Rule",
+"start": 20.6,
+"end": 20.887
+},
+{
+"word": "one:",
+"start": 20.918,
+"end": 21.205
+},
+{
+"word": "you",
+"start": 21.237,
+"end": 21.476
+},
+{
+"word": "can",
+"start": 21.502,
+"end": 21.741
+},
+{
+"word": "jump",
+"start": 21.767,
+"end": 22.054
+},
+{
+"word": "ten",
+"start": 22.086,
+"end": 22.324
+},
+{
+"word": "times",
+"start": 22.351,
+"end": 22.685
+},
+{
+"word": "higher.",
+"start": 22.722,
+"end": 23.152
+},
+{
+"word": "Rule",
+"start": 23.6,
+"end": 23.913
+},
+{
+"word": "two:",
+"start": 23.947,
+"end": 24.26
+},
+{
+"word": "anything",
+"start": 24.295,
+"end": 24.816
+},
+{
+"word": "red",
+"start": 24.874,
+"end": 25.134
+},
+{
+"word": "is",
+"start": 25.163,
+"end": 25.372
+},
+{
+"word": "lava.",
+"start": 25.395,
+"end": 25.759
+},
+{
+"word": "Rule",
+"start": 26.2,
+"end": 26.522
+},
+{
+"word": "three:",
+"start": 26.558,
+"end": 26.987
+},
+{
+"word": "when",
+"start": 27.035,
+"end": 27.357
+},
+{
+"word": "you",
+"start": 27.393,
+"end": 27.661
+},
+{
+"word": "die...",
+"start": 27.691,
+"end": 28.121
+},
+{
+"word": "you",
+"start": 28.168,
+"end": 28.437
+},
+{
+"word": "respawn",
+"start": 28.467,
+"end": 28.95
+},
+{
+"word": "in",
+"start": 29.004,
+"end": 29.218
+},
+{
+"word": "bed.",
+"start": 29.242,
+"end": 29.564
+}
+]
+}

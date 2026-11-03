@@ -1,0 +1,18 @@
+{
+ "title": "What If Your Whole Town Became a Video Game?",
+ "aspect": "16:9",
+ "resolution": "720p",
+ "fps": 24,
+ "style": "blocky",
+ "world": null,
+ "voiceover": null,
+ "duration": 31.0,
+ "captions": true,
+ "captionStyle": { "mode": "game", "max": 2, "emph": { "video": "#ffd23f", "game.": "#ffd23f", "five": "#ff4a3a", "thirty": "#ff4a3a", "lava.": "#ff4a3a", "ten": "#ffd23f", "respawn": "#3fe0ff", "button.": "#3fe0ff" } },
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.6,
+ "music": { "enabled": true, "gainDb": -6, "duckDb": -7 },
+ "sfx": { "enabled": true, "gainDb": -6 },
+ "loudness": -14
+}

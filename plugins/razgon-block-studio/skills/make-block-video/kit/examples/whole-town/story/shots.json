@@ -1,0 +1,323 @@
+{
+ "title": "What If Your Whole Town Became a Video Game?",
+ "duration": 31.0,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0,
+   "end": 1.6,
+   "line": "I opened my eyes...",
+   "scene": "COLD OPEN: giant close-up, hero sits up in bed, eyes snap open (shocked), push-in",
+   "set": "bedroom",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "start": 1.6,
+   "end": 3.4,
+   "line": "and my whole town was a video game.",
+   "scene": "the whole town row, a sparkle beam sweeps across, pull back, title words slam on 'video game'",
+   "set": "cityRow",
+   "in": {
+    "type": "pop"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 0.9,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "captions": false
+  },
+  {
+   "id": "s03",
+   "start": 3.4,
+   "end": 4.6,
+   "line": "Five days.",
+   "scene": "calendar page DAY 1 flips to DAY 5 on a cube-cloud sky",
+   "set": "voidStage",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pagetear",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "pagetear",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "start": 4.6,
+   "end": 5.7,
+   "line": "One server.",
+   "scene": "game-tile UI: THE WHOLE TOWN, 12,408 playing, PLAY button pulses",
+   "set": "ui",
+   "in": {
+    "type": "pop"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "notify",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "start": 5.7,
+   "end": 9.3,
+   "line": "And on day five, the server had thirty seconds left.",
+   "scene": "town row; on 'server' the world flips to RED ALARM, countdown ring 30 slams in on 'thirty'",
+   "set": "cityRow",
+   "look": {
+    "type": "alarm",
+    "from": 1.4,
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "alarm",
+     "gain": -10
+    },
+    {
+     "at": 2.2,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "start": 9.3,
+   "end": 11.9,
+   "line": "Server closing in thirty seconds.",
+   "scene": "street, neighbours panic with chat bubbles, hazard banner types in, countdown ticks",
+   "set": "suburb",
+   "look": "alarm",
+   "capMode": "type",
+   "in": {
+    "type": "glitch"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 0.2,
+     "name": "typing",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "start": 11.9,
+   "end": 14.4,
+   "line": "Okay, okay. Let me explain.",
+   "scene": "giant nervous close-up, sweat drops, arms out, countdown in the corner, red world blurred",
+   "set": "cityRow",
+   "look": "alarm",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "boing",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "start": 14.4,
+   "end": 17.9,
+   "line": "It all started with one button. Last night.",
+   "scene": "VHS REWIND to last night: bedroom at night, a pop-up floats over the bed, cursor clicks YES",
+   "set": "bedroom",
+   "look": {
+    "type": "vhs",
+    "mode": "play",
+    "time": "2:00:00"
+   },
+   "in": {
+    "type": "rewind",
+    "dur": 0.9,
+    "time": "6:41:04"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "rewind",
+     "gain": -6
+    },
+    {
+     "at": 1.1,
+     "name": "notify",
+     "gain": -8
+    },
+    {
+     "at": 2.6,
+     "name": "click",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "start": 17.9,
+   "end": 20.4,
+   "line": "Day one, you learn the rules.",
+   "scene": "sunny street, hero waves, DAY 1 bounces in letter by letter, then thinking face",
+   "set": "suburb",
+   "in": {
+    "type": "whip",
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 20.4,
+   "end": 23.4,
+   "line": "Rule one: you can jump ten times higher.",
+   "scene": "rule card 1 slides in and types, jump gauge fills to 10x, hero crouches then launches out the top",
+   "set": "suburb",
+   "mb": 0,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 0.9,
+     "name": "counter",
+     "gain": -12
+    },
+    {
+     "at": 2.2,
+     "name": "boing",
+     "gain": -6
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 23.4,
+   "end": 26.0,
+   "line": "Rule two: anything red is lava.",
+   "scene": "obby in the sky, rule card 2, red platforms glow, hero worried on a purple platform",
+   "set": "obby",
+   "in": {
+    "type": "whip",
+    "vertical": true,
+    "dir": -1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 1.6,
+     "name": "sizzle",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "start": 26.0,
+   "end": 28.0,
+   "line": "Rule three: when you die...",
+   "scene": "hero drops into the lava tub, AAAH, BONK, world drains grey, You died / Respawning in 3",
+   "set": "suburb",
+   "look": {
+    "type": "dead",
+    "from": 0.9,
+    "dur": 0.2
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "riser",
+     "gain": -12,
+     "dur": 0.5
+    },
+    {
+     "at": 0.9,
+     "name": "bonk",
+     "gain": -4
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "start": 28.0,
+   "end": 31.0,
+   "line": "you respawn in bed.",
+   "scene": "bedroom day, hero pops back on the bed inside a sparkly forcefield, star eyes, rule card 3",
+   "set": "bedroom",
+   "in": {
+    "type": "pop"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "respawn",
+     "gain": -6
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 5.7,
+   "mood": "bouncy",
+   "intensity": 0.6
+  },
+  {
+   "start": 5.7,
+   "end": 14.4,
+   "mood": "panic",
+   "intensity": 0.8
+  },
+  {
+   "start": 14.4,
+   "end": 31.0,
+   "mood": "bouncy",
+   "intensity": 0.7
+  }
+ ]
+}
