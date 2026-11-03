@@ -23,14 +23,20 @@ function rays(g, cx, cy, a = 0.18, c = '#ffffff') { g.save(); g.globalAlpha = a;
 
 registerShot('banner', { draw(g, t) {
   g.fillStyle = '#7fbbe8'; g.fillRect(0, 0, E.W, E.H);   // flat single-colour background
-  // logo panel in the safe area (x 380–1540, y 381–698)
-  const px = E.W / 2, py = E.H / 2 + 6;
-  rr(g, px - 560 + 8, py - 150 + 12, 1120, 300, 40); g.fillStyle = 'rgba(0,0,0,.25)'; g.fill();
-  rr(g, px - 560, py - 150, 1120, 300, 40); g.fillStyle = alpha('#16161a', 0.92); g.fill(); g.strokeStyle = '#f7c948'; g.lineWidth = 8; g.stroke();
-  calendarX(g, px - 400, py - 4, 0.72, -0.1);
-  text(g, 'TAG X TOONS', px + 135, py - 42, { size: 100, font: FONTS.ui, weight: 900, color: '#f7c948', stroke: 18, strokeColor: '#141418', spacing: 4 });
-  text(g, 'WAS WÄRE, WENN …?', px + 135, py + 56, { size: 52, font: FONTS.ui, weight: 900, color: '#ffffff', spacing: 3 });
-  text(g, 'Animierte Gedankenexperimente · jede Woche neu', px + 135, py + 112, { size: 32, font: FONTS.ui, weight: 800, color: '#c9c3b8' });
+  // centred bold text in the mobile safe area (x 380–1540, y 381–698), decor outside it for desktop/TV
+  const cx = E.W / 2;
+  calendarX(g, 190, E.H / 2 + 10, 0.72, -0.14); calendarX(g, E.W - 190, E.H / 2 + 10, 0.72, 0.14);
+  for (const [x, y, k] of [[400, 320, 0.8], [1520, 320, 0.8], [470, 770, 0.6], [1450, 770, 0.6]]) sparkle(g, x, y, k, '#ffffff');
+  text(g, 'TAG X TOONS', cx + 7, 462, { size: 122, font: FONTS.ui, weight: 900, color: 'rgba(0,0,0,.28)', spacing: 10 });
+  text(g, 'TAG X TOONS', cx, 452, { size: 122, font: FONTS.ui, weight: 900, color: '#f7c948', stroke: 26, strokeColor: '#141418', spacing: 10 });
+  text(g, 'WAS WÄRE, WENN …?', cx, 560, { size: 46, font: FONTS.ui, weight: 900, color: '#ffffff', stroke: 12, strokeColor: '#141418', spacing: 8 });
+  // subscribe button
+  const bw = 500, bh = 76, by = 648;
+  rr(g, cx - bw / 2 + 6, by - bh / 2 + 8, bw, bh, bh / 2); g.fillStyle = 'rgba(0,0,0,.28)'; g.fill();
+  rr(g, cx - bw / 2, by - bh / 2, bw, bh, bh / 2); g.fillStyle = '#e8443a'; g.fill(); g.strokeStyle = '#141418'; g.lineWidth = 8; g.stroke();
+  // bell
+  const bx = cx - bw / 2 + 58; g.fillStyle = '#ffffff'; g.beginPath(); g.moveTo(bx - 22, by + 16); g.quadraticCurveTo(bx - 20, by - 26, bx, by - 26); g.quadraticCurveTo(bx + 20, by - 26, bx + 22, by + 16); g.closePath(); g.fill(); circle(g, bx, by + 22, 7, '#ffffff');
+  text(g, 'ABONNIEREN', cx + 34, by + 3, { size: 44, font: FONTS.ui, weight: 900, color: '#ffffff', spacing: 6 });
 } });
 
 registerShot('avatar', { draw(g, t) {
