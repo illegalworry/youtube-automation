@@ -9,3 +9,4 @@ razgon-toon-studio/projects/*/out/
 razgon-toon-studio/projects/*/input/*.mp3
 razgon-toon-studio/projects/*/input/*.wav
 *.mp4
+razgon-toon-studio/projects/thumbnail/build/

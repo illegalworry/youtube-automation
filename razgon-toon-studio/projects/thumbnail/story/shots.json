@@ -1,0 +1,19 @@
+{
+ "title": "Thumbnail",
+ "duration": 2,
+ "shots": [
+  {
+   "id": "thumb",
+   "start": 0,
+   "end": 2,
+   "line": "",
+   "scene": "YouTube thumbnail",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ]
+}
