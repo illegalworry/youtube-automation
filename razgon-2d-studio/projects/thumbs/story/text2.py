@@ -24,7 +24,7 @@ if tag:
     tf = ImageFont.truetype(F, round(54 * K)); w = int(fd.textlength(tag, font=tf)) + round(44 * K); h = round(76 * K)
     P = round(10 * K); t = Image.new('RGBA', (w + 2 * P, h + 2 * P), (0, 0, 0, 0)); td = ImageDraw.Draw(t)
     td.rounded_rectangle((P, P, w + P, h + P), round(8 * K), fill=acc or (222, 38, 38), outline=(255, 255, 255), width=max(1, round(4 * K)))
-    td.text((w / 2 + P, h / 2 + P + 2 * K), tag, font=tf, fill=(16, 12, 24) if acc else (255, 255, 255), anchor='mm')
+    td.text((w / 2 + P, h / 2 + P + 2 * K), tag, font=tf, fill=(16, 12, 24) if (acc and 0.299 * acc[0] + 0.587 * acc[1] + 0.114 * acc[2] > 150) else (255, 255, 255), anchor='mm')
     t = t.rotate(2.5, expand=True, resample=Image.BICUBIC)
     fg.alpha_composite(t, (round(x + 4 * K) if align == 'L' else im.width - x - t.width - round(4 * K), yy + round(18 * K)))
 im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(8 * K))); im.alpha_composite(fg)

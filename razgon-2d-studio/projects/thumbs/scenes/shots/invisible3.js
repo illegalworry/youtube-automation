@@ -53,13 +53,13 @@ const V = {
 };
 
 // 3 — "WHERE'S WALDO" poster: flat pop-art blue + sunburst, a dense gray crowd, ONE headless red hoodie circled with a yellow marker.
-V[3] = (g, t) => {
+const poster = (th) => (g, t) => {
   const hx = 1150, fy = 945, r = 160;
-  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#1636ff', '#5a1fe0']); g.fillRect(0, 0, E.W, E.H);
-  g.save(); g.globalCompositeOperation = 'lighter'; for (let i = 0; i < 40; i += 2) { const a0 = i / 40 * Math.PI * 2, a1 = (i + 1) / 40 * Math.PI * 2; g.fillStyle = 'rgba(120,170,255,0.16)'; g.beginPath(); g.moveTo(hx, 640); g.lineTo(hx + Math.cos(a0) * 2600, 640 + Math.sin(a0) * 2600); g.lineTo(hx + Math.cos(a1) * 2600, 640 + Math.sin(a1) * 2600); g.fill(); } g.restore();
-  for (let y = 20; y < E.H; y += 36) for (let x = ((y / 36) % 2) * 18 + 10; x < E.W; x += 36) { g.fillStyle = `rgba(255,255,255,${0.05 + 0.07 * (1 - y / E.H)})`; g.beginPath(); g.arc(x, y, 5 + 4 * (1 - y / E.H), 0, 7); g.fill(); }
+  g.fillStyle = linGrad(g, 0, 0, 0, E.H, th.bg); g.fillRect(0, 0, E.W, E.H);
+  g.save(); g.globalCompositeOperation = th.rayOp; for (let i = 0; i < 40; i += 2) { const a0 = i / 40 * Math.PI * 2, a1 = (i + 1) / 40 * Math.PI * 2; g.fillStyle = th.ray; g.beginPath(); g.moveTo(hx, 640); g.lineTo(hx + Math.cos(a0) * 2600, 640 + Math.sin(a0) * 2600); g.lineTo(hx + Math.cos(a1) * 2600, 640 + Math.sin(a1) * 2600); g.fill(); } g.restore();
+  for (let y = 20; y < E.H; y += 36) for (let x = ((y / 36) % 2) * 18 + 10; x < E.W; x += 36) { g.fillStyle = `rgba(${th.dot},${0.06 + 0.08 * (1 - y / E.H)})`; g.beginPath(); g.arc(x, y, 5 + 4 * (1 - y / E.H), 0, 7); g.fill(); }
   const P = (x, y, s, c) => { // sticker-style silhouette with a dark outline
-    g.save(); g.lineJoin = 'round'; g.lineWidth = Math.max(4, s * 0.16); g.strokeStyle = '#0a0f3a';
+    g.save(); g.lineJoin = 'round'; g.lineWidth = Math.max(4, s * 0.16); g.strokeStyle = th.line;
     g.beginPath(); g.moveTo(x - s * 1.3, y); g.lineTo(x - s * 1.2, y - s * 2.2); g.quadraticCurveTo(x - s * 1.1, y - s * 2.95, x, y - s * 3); g.quadraticCurveTo(x + s * 1.1, y - s * 2.95, x + s * 1.2, y - s * 2.2); g.lineTo(x + s * 1.3, y); g.closePath(); g.stroke(); g.fillStyle = c; g.fill();
     g.beginPath(); g.arc(x, y - s * 3.75, s * 0.95, 0, 7); g.stroke(); g.fillStyle = shade(c, 0.08); g.fill(); g.restore(); };
   const rowP = (seed, n, x0, x1, y, s, cols, skip) => { const rg = rng(seed); for (let i = 0; i < n; i++) { const x = x0 + (x1 - x0) * (i + rg() * 0.6) / n; if (skip && Math.abs(x - hx) < skip) continue; P(x, y + (rg() - 0.5) * 22, s * (0.92 + rg() * 0.2), cols[Math.floor(rg() * cols.length)]); } };
@@ -69,12 +69,14 @@ V[3] = (g, t) => {
   heroFull(g, hx, fy, r, 'smug', { headless: true, hoodie: '#ff2e1f', pants: '#1a2a8a', rim: '#ffb0a0', haloA: 0.2, pose: 'idle', dir: 1 });
   rowP(64, 12, 0, 1960, 990, 78, grays, 280); rowP(65, 7, -40, 2000, 1190, 120, ['#cfd3e0', '#aeb4c6', '#8e95aa'], 330);
   // hand-drawn yellow marker circle (two wobbly loops)
-  const cx = hx, cy = 665, rx = 285, ry = 420; g.save(); g.lineCap = 'round'; g.shadowColor = 'rgba(0,0,0,.55)'; g.shadowBlur = 18;
-  for (const [k, w] of [[0, 17], [1, 13]]) { g.strokeStyle = '#ffe01a'; g.lineWidth = w; g.beginPath(); for (let i = 0; i <= 150; i++) { const a = -2 + i / 150 * (Math.PI * 2 * 1.06) + k * 0.12, wob = 1 + 0.025 * Math.sin(a * 3 + k) + 0.012 * Math.sin(a * 7), q = 1 + k * 0.035; const x = cx + Math.cos(a) * rx * wob * q, y = cy + Math.sin(a) * ry * wob * q; i ? g.lineTo(x, y) : g.moveTo(x, y); } g.stroke(); } g.restore();
+  const cx = hx, cy = 665, rx = 285, ry = 420; g.save(); g.lineCap = 'round'; g.shadowColor = th.shadow; g.shadowBlur = 18;
+  for (const [k, w] of [[0, 17], [1, 13]]) { g.strokeStyle = th.mark; g.lineWidth = w; g.beginPath(); for (let i = 0; i <= 150; i++) { const a = -2 + i / 150 * (Math.PI * 2 * 1.06) + k * 0.12, wob = 1 + 0.025 * Math.sin(a * 3 + k) + 0.012 * Math.sin(a * 7), q = 1 + k * 0.035; const x = cx + Math.cos(a) * rx * wob * q, y = cy + Math.sin(a) * ry * wob * q; i ? g.lineTo(x, y) : g.moveTo(x, y); } g.stroke(); } g.restore();
   // hand-drawn arrow from the right pointing at the circle + a '?' over the missing head
-  g.save(); g.strokeStyle = '#ffe01a'; g.lineWidth = 15; g.lineCap = 'round'; g.lineJoin = 'round'; g.shadowColor = 'rgba(0,0,0,.5)'; g.shadowBlur = 14;
+  g.save(); g.strokeStyle = th.mark; g.lineWidth = 15; g.lineCap = 'round'; g.lineJoin = 'round'; g.shadowColor = 'rgba(0,0,0,.5)'; g.shadowBlur = 14;
   g.beginPath(); g.moveTo(1790, 330); g.bezierCurveTo(1700, 250, 1560, 300, 1420, 450); g.stroke(); g.beginPath(); g.moveTo(1420, 450); g.lineTo(1430, 370); g.moveTo(1420, 450); g.lineTo(1498, 430); g.stroke(); g.restore();
   star(g, 1190, 430, 38, '#ffffff');
 };
+V[3] = poster({ bg: ['#1636ff', '#5a1fe0'], rayOp: 'lighter', ray: 'rgba(120,170,255,0.16)', dot: '255,255,255', line: '#0a0f3a', mark: '#ffe01a', shadow: 'rgba(0,0,0,.55)' });
+V[4] = poster({ bg: ['#ffe11a', '#ffa500'], rayOp: 'source-over', ray: 'rgba(255,255,255,0.30)', dot: '255,140,0', line: '#14102a', mark: '#14102a', shadow: 'rgba(255,255,255,.6)' });
 
 for (const s of E.shots) if (s.params?.tpl === 'ifv-invisible3') registerShot(s.id, { draw(g, t, info) { V[info.k](g, t); } });
