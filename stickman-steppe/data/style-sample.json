@@ -1,0 +1,198 @@
+{
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "duration": 12,
+ "theme": "golden",
+ "letterbox": true,
+ "subtitles": false,
+ "audio": {
+  "voice": "audio/voice.mp3",
+  "musicDb": -22,
+  "sfxDb": -13
+ },
+ "scenes": [
+  {
+   "start": 0,
+   "end": 4,
+   "note": "steppe camp wide",
+   "location": "steppe",
+   "camera": {
+    "shot": "wide",
+    "move": "static",
+    "target": [
+     0,
+     0,
+     -1
+    ]
+   },
+   "actors": [
+    {
+     "id": "temu",
+     "x": -2.2,
+     "z": 1.2,
+     "shirt": "#2bb3a3",
+     "hair": "none",
+     "action": "idle",
+     "face": "happy",
+     "facing": 20,
+     "print": "none"
+    },
+    {
+     "id": "elder",
+     "x": 3.4,
+     "z": 0.2,
+     "shirt": "#ee5b4a",
+     "action": "talk",
+     "talking": true,
+     "face": "neutral",
+     "facing": -40
+    }
+   ],
+   "props": [
+    {
+     "type": "yurt",
+     "x": -6,
+     "z": -5,
+     "scale": 1.3
+    },
+    {
+     "type": "yurt",
+     "x": 5.5,
+     "z": -6,
+     "scale": 1.5
+    },
+    {
+     "type": "yurt",
+     "x": 0.5,
+     "z": -9,
+     "scale": 1.2
+    },
+    {
+     "type": "campfire",
+     "x": 0.6,
+     "z": 0.6
+    },
+    {
+     "type": "horse",
+     "x": -4.8,
+     "z": -1.2,
+     "rotation": 70
+    },
+    {
+     "type": "horse",
+     "x": 7.2,
+     "z": -2.0,
+     "rotation": -60,
+     "color": "#e9e2d2"
+    },
+    {
+     "type": "banner",
+     "x": 9,
+     "z": -4
+    },
+    {
+     "type": "cart",
+     "x": -9,
+     "z": -3,
+     "rotation": 30,
+     "label": "wool"
+    }
+   ]
+  },
+  {
+   "start": 4,
+   "end": 8,
+   "note": "rider + horse medium",
+   "location": "steppe",
+   "time": "day",
+   "camera": {
+    "shot": "medium",
+    "move": "static",
+    "target": "temu",
+    "angle": 35
+   },
+   "actors": [
+    {
+     "id": "temu",
+     "x": -1.0,
+     "z": 0.8,
+     "y": 0.42,
+     "action": "ride",
+     "to": [
+      2.5,
+      0.8
+     ],
+     "shirt": "#2bb3a3",
+     "hair": "none",
+     "face": "grin"
+    }
+   ],
+   "props": [
+    {
+     "type": "horse",
+     "x": -1.0,
+     "z": 0.8,
+     "to": [
+      2.5,
+      0.8
+     ],
+     "color": "#7a4a2e"
+    },
+    {
+     "type": "torch",
+     "x": 3.8,
+     "z": -1
+    },
+    {
+     "type": "arrows",
+     "x": -3.5,
+     "z": -1.4
+    }
+   ]
+  },
+  {
+   "start": 8,
+   "end": 12,
+   "note": "collar close + city",
+   "location": "city",
+   "camera": {
+    "shot": "medium",
+    "move": "static",
+    "target": [
+     0,
+     0,
+     0
+    ]
+   },
+   "actors": [
+    {
+     "id": "temu",
+     "x": -1.2,
+     "z": 0.6,
+     "shirt": "#2bb3a3",
+     "action": "idle",
+     "face": "sad",
+     "collar": true,
+     "facing": 15,
+     "y": 0
+    }
+   ],
+   "props": [
+    {
+     "type": "horse",
+     "x": 2.6,
+     "z": 0.4,
+     "rotation": -90,
+     "color": "#5a3a24"
+    },
+    {
+     "type": "flag",
+     "x": 4.6,
+     "z": -1.5,
+     "color": "#b0452f"
+    }
+   ]
+  }
+ ]
+}
