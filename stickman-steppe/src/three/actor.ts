@@ -51,7 +51,7 @@ export const buildSegments = (actor: Actor, sceneLen: number): Segment[] => {
 
     if (b.to) {
       const act: ActionName = isMoving(action) || action === "dance" ? action : "walk";
-      const speed = MOVE_SPEED[act] || 1.5;
+      const speed = actor.speed || MOVE_SPEED[act] || 1.5;
       const dx = b.to[0] - pos[0];
       const dz = b.to[1] - pos[1];
       const dist = Math.hypot(dx, dz);

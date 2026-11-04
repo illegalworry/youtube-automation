@@ -28,7 +28,7 @@ if (values.test) {
 } else {
   out = out ?? "out/final.mp4";
 }
-args.push(out, "--gl=angle", "--codec=h264", "--crf=18");
+args.push(out, `--gl=${process.env.GL ?? "angle"}`, "--codec=h264", "--crf=18");
 if (values.concurrency) args.push(`--concurrency=${values.concurrency}`);
 
 mkdirSync("out", { recursive: true });

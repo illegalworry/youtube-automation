@@ -78,6 +78,7 @@ export type Actor = {
   hair?: HairName;
   hairColor?: string;
   scale?: number;
+  speed?: number; // скорость при to (по умолчанию ходьба 1.5, бег 4.2, верхом 3.5)
   y?: number; // поднять героя (верхом на коне ≈ 0.55)
   collar?: boolean; // деревянная колодка на шее
   held?: HeldName;
