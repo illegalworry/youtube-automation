@@ -77,6 +77,6 @@ const poster = (th) => (g, t) => {
   star(g, 1190, 430, 38, '#ffffff');
 };
 V[3] = poster({ bg: ['#1636ff', '#5a1fe0'], rayOp: 'lighter', ray: 'rgba(120,170,255,0.16)', dot: '255,255,255', line: '#0a0f3a', mark: '#ffe01a', shadow: 'rgba(0,0,0,.55)' });
-V[4] = poster({ bg: ['#ffe11a', '#ffa500'], rayOp: 'source-over', ray: 'rgba(255,255,255,0.30)', dot: '255,140,0', line: '#14102a', mark: '#14102a', shadow: 'rgba(255,255,255,.6)' });
+V[4] = poster({ bg: ['#ffe11a', '#ffa500'], rayOp: 'source-over', ray: 'rgba(255,255,255,0.30)', dot: '255,140,0', line: '#14102a', mark: '#ff1fa8', shadow: 'rgba(80,0,60,.55)' });
 
 for (const s of E.shots) if (s.params?.tpl === 'ifv-invisible3') registerShot(s.id, { draw(g, t, info) { V[info.k](g, t); } });
