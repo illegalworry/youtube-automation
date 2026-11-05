@@ -4,3 +4,6 @@ razgon-2d-studio/projects/*/out/
 razgon-2d-studio/projects/*/input/*.mp3
 razgon-2d-studio/projects/*/input/*.wav
 __pycache__/
+stickman-video/out/
+stickman-video/input/*.mp3
+stickman-video/public/music/*.wav
