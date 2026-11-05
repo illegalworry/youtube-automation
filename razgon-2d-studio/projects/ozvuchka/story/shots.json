@@ -1,0 +1,4409 @@
+{
+ "title": "Genghis Khan: You Are Born",
+ "duration": 700.48,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 5.19,
+   "line": "You are born with a blood clot clenched in your fist. The midwives freeze.",
+   "scene": "ger: ",
+   "set": "ger",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -10
+    },
+    {
+     "at": 2.7,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 5.19,
+   "end": 10.31,
+   "line": "The old men whisper that it is a sign that this boy will command men.",
+   "scene": "ger: x, hoelun",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 10.31,
+   "end": 12.83,
+   "line": "But a sign promises nothing.",
+   "scene": "steppe: yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s004",
+   "start": 12.83,
+   "end": 16.15,
+   "line": "By the time you are nine, your father will be poisoned.",
+   "scene": "steppe: yesugei, tatar, fire, bowl",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s005",
+   "start": 16.15,
+   "end": 20.07,
+   "line": "Your own tribe will abandon your family to die on the steppe.",
+   "scene": "steppe: hoelun, kid, khasar, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s006",
+   "start": 20.07,
+   "end": 24.87,
+   "line": "At sixteen, you will walk through an enemy camp with a wooden board locked around your neck",
+   "scene": "steppe: guard, temu, tent",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s007",
+   "start": 24.87,
+   "end": 27.19,
+   "line": "and anyone will be free to strike you.",
+   "scene": "steppe: temu, x, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s008",
+   "start": 27.19,
+   "end": 34.11,
+   "line": "And from that position, you will build the largest land empire in history. Here is how.",
+   "scene": "void: ",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s009",
+   "start": 34.11,
+   "end": 36.79,
+   "line": "The year is around 1162.",
+   "scene": "steppe: yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 1.04,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s010",
+   "start": 36.79,
+   "end": 38.65,
+   "line": "You are born by the Onon River.",
+   "scene": "river: yurt",
+   "set": "river",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s011",
+   "start": 38.65,
+   "end": 45.57,
+   "line": "At the edge of a world no one is writing books about yet. There are no kings here. No cities. No laws.",
+   "scene": "steppe: x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.92,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s012",
+   "start": 45.57,
+   "end": 52.51,
+   "line": "Only pastures, horse herds, and tribes that have been slaughtering each other for generations over every stream.",
+   "scene": "steppe: riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s013",
+   "start": 52.51,
+   "end": 54.53,
+   "line": "Your father's name is Yesuge.",
+   "scene": "steppe: yesugei, yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.18,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s014",
+   "start": 54.53,
+   "end": 56.37,
+   "line": "He is the leader of a small clan.",
+   "scene": "steppe: yesugei, yurt, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s015",
+   "start": 56.37,
+   "end": 60.19,
+   "line": "A warrior and a raider with far too many enemies.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s016",
+   "start": 60.19,
+   "end": 65.47,
+   "line": "On the very day you are born, he returns from a raid with a captured tatar named Temujin.",
+   "scene": "steppe: tatar, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s017",
+   "start": 65.47,
+   "end": 67.59,
+   "line": "So that is the name you are given.",
+   "scene": "ger: hoelun, yesugei",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s018",
+   "start": 67.59,
+   "end": 69.57,
+   "line": "It is not yet Genghis Khan.",
+   "scene": "steppe: kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s019",
+   "start": 69.57,
+   "end": 71.65,
+   "line": "That name you will have to earn.",
+   "scene": "steppe: kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s020",
+   "start": 71.65,
+   "end": 74.17,
+   "line": "And the price will be enormous.",
+   "scene": "giant face close-up of kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s021",
+   "start": 74.17,
+   "end": 76.49,
+   "line": "You are taught what the steppe demands.",
+   "scene": "steppe: yesugei, kid, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s022",
+   "start": 76.49,
+   "end": 78.31,
+   "line": "At five, you ride.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s023",
+   "start": 78.31,
+   "end": 80.61,
+   "line": "At six, you shoot a small bow.",
+   "scene": "steppe: kid, arrows",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s024",
+   "start": 80.61,
+   "end": 83.31,
+   "line": "You know what a coming blizzard smells like.",
+   "scene": "steppe: kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s025",
+   "start": 83.31,
+   "end": 85.85,
+   "line": "You know how horses behave when wolves are near.",
+   "scene": "steppe: kid, horse, wolf",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s026",
+   "start": 85.85,
+   "end": 89.17,
+   "line": "You cannot read because your people have no writing.",
+   "scene": "ger: kid, scroll",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s027",
+   "start": 89.17,
+   "end": 91.07,
+   "line": "But you know how to listen.",
+   "scene": "giant face close-up of kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s028",
+   "start": 91.07,
+   "end": 93.07,
+   "line": "And that will matter more.",
+   "scene": "steppe: kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s029",
+   "start": 93.07,
+   "end": 96.09,
+   "line": "When you turn nine, your father takes you on a journey.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s030",
+   "start": 96.09,
+   "end": 98.87,
+   "line": "He wants to find you a bride from another tribe.",
+   "scene": "steppe: yesugei, kid, yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s031",
+   "start": 98.87,
+   "end": 101.73,
+   "line": "On the steppe, alliances were made this way.",
+   "scene": "steppe: yesugei, x, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s032",
+   "start": 101.73,
+   "end": 106.87,
+   "line": "Children were betrothed early so that blood would bind clans tighter than promises.",
+   "scene": "steppe: kid, borte, rope",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s033",
+   "start": 106.87,
+   "end": 109.33,
+   "line": "On the road, you meet a family you like.",
+   "scene": "steppe: x, yesugei, kid, yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s034",
+   "start": 109.33,
+   "end": 112.47,
+   "line": "The girl's name is Borte. She is older than you.",
+   "scene": "steppe: borte",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.14,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s035",
+   "start": 112.47,
+   "end": 115.85,
+   "line": "She looks you straight in the eye and she is not afraid.",
+   "scene": "giant face close-up of borte",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s036",
+   "start": 115.85,
+   "end": 120.33,
+   "line": "Your father leaves you with her family as a pledge and rides home alone.",
+   "scene": "steppe: kid, borte, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s037",
+   "start": 120.33,
+   "end": 122.75,
+   "line": "It is the last time you will see him.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s038",
+   "start": 122.75,
+   "end": 126.29,
+   "line": "On his way back, your father stops at a stranger's fire.",
+   "scene": "steppe: yesugei, tatar, fire, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s039",
+   "start": 126.29,
+   "end": 129.09,
+   "line": "Tatars sit around it, his old enemies.",
+   "scene": "steppe: tatar, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s040",
+   "start": 129.09,
+   "end": 131.33,
+   "line": "But the law of the steppe is strong.",
+   "scene": "steppe: yesugei, tatar, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s041",
+   "start": 131.33,
+   "end": 133.51,
+   "line": "A guest must never be harmed.",
+   "scene": "steppe: tatar, yesugei, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s042",
+   "start": 133.51,
+   "end": 135.37,
+   "line": "A guest must be fed.",
+   "scene": "steppe: tatar, yesugei, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s043",
+   "start": 135.37,
+   "end": 137.31,
+   "line": "They feed him, smiling.",
+   "scene": "giant face close-up of tatar",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s044",
+   "start": 137.31,
+   "end": 139.33,
+   "line": "And they poison the food.",
+   "scene": "ger: bowl",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s045",
+   "start": 139.33,
+   "end": 142.39,
+   "line": "Yesuge makes it home, but he is already dying.",
+   "scene": "ger: yesugei, hoelun",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s046",
+   "start": 142.39,
+   "end": 143.83,
+   "line": "He manages to send for you.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s047",
+   "start": 143.83,
+   "end": 148.39,
+   "line": "You ride across the entire steppe, but you arrive too late.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s048",
+   "start": 148.39,
+   "end": 152.25,
+   "line": "You stand over your father's body and you are nine years old.",
+   "scene": "ger: yesugei, kid",
+   "set": "ger",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s049",
+   "start": 152.25,
+   "end": 154.37,
+   "line": "But the worst is still ahead.",
+   "scene": "steppe: kid",
+   "set": "steppe",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s050",
+   "start": 154.37,
+   "end": 158.77,
+   "line": "You assume the tribe will protect you, but all they see is this.",
+   "scene": "steppe: hoelun, kid, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s051",
+   "start": 158.77,
+   "end": 163.07,
+   "line": "The leader is dead and his sons are too young to lead warriors.",
+   "scene": "ger: kid, hoelun, lamp",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s052",
+   "start": 163.07,
+   "end": 165.97,
+   "line": "No one wants to feed a widow and her children.",
+   "scene": "steppe: hoelun, kid, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s053",
+   "start": 165.97,
+   "end": 169.05,
+   "line": "One morning, you wake up and the camp is empty.",
+   "scene": "steppe: kid, yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s054",
+   "start": 169.05,
+   "end": 171.61,
+   "line": "The people left in the night and took the herds with them.",
+   "scene": "steppe: hoelun, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s055",
+   "start": 171.61,
+   "end": 178.65,
+   "line": "You, your mother, and your brothers are alone. No one offers help. No one comes back.",
+   "scene": "steppe: hoelun, kid, khasar",
+   "set": "steppe",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.84,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s056",
+   "start": 178.65,
+   "end": 181.03,
+   "line": "You learn the first truth of your life.",
+   "scene": "giant face close-up of kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s057",
+   "start": 181.03,
+   "end": 184.39,
+   "line": "A word means nothing without strength behind it.",
+   "scene": "steppe: kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.22,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s058",
+   "start": 184.39,
+   "end": 188.49,
+   "line": "For the next years, you live like an animal. You dig for roots.",
+   "scene": "steppe: kid, khasar",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s059",
+   "start": 188.49,
+   "end": 190.81,
+   "line": "You catch fish in freezing rivers.",
+   "scene": "river: kid",
+   "set": "river",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s060",
+   "start": 190.81,
+   "end": 193.03,
+   "line": "You hunt marmots and mice.",
+   "scene": "steppe: kid, wolf",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s061",
+   "start": 193.03,
+   "end": 195.35,
+   "line": "Your mother teaches you patience.",
+   "scene": "giant face close-up of hoelun",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s062",
+   "start": 195.35,
+   "end": 199.57,
+   "line": "One day, she snaps a single arrow shaft in front of you. Easy.",
+   "scene": "steppe: hoelun, kid, arrows",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.3,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 3.56,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s063",
+   "start": 199.57,
+   "end": 205.07,
+   "line": "Then she takes a bundle of shafts and hands it to you. Try. No one can break it.",
+   "scene": "steppe: hoelun, kid, arrows",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 3.46,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s064",
+   "start": 205.07,
+   "end": 209.29,
+   "line": "You are strong, she says, only while you stand together.",
+   "scene": "steppe: hoelun, temu, khasar, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s065",
+   "start": 209.29,
+   "end": 211.65,
+   "line": "But even this family has a crack in it.",
+   "scene": "steppe: hoelun, khasar, temu, bektor",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s066",
+   "start": 211.65,
+   "end": 215.95,
+   "line": "Your half -brother, Bektor, steals your food and insists he is the eldest.",
+   "scene": "steppe: bektor, temu, bag",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s067",
+   "start": 215.95,
+   "end": 218.05,
+   "line": "You endure it for a long time.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s068",
+   "start": 218.05,
+   "end": 222.89,
+   "line": "Then you walk out into the step with your brother and together you kill Bektor.",
+   "scene": "steppe: bektor, temu, khasar",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s069",
+   "start": 222.89,
+   "end": 224.73,
+   "line": "Your mother is furious.",
+   "scene": "giant face close-up of hoelun",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s070",
+   "start": 224.73,
+   "end": 228.93,
+   "line": "She calls you murderers, but you understand what she refuses to admit.",
+   "scene": "ger: hoelun, temu, khasar",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s071",
+   "start": 228.93,
+   "end": 235.61,
+   "line": "In a world where the weak are abandoned, a family either survives as one or dies piece by piece.",
+   "scene": "steppe: hoelun, temu, khasar, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s072",
+   "start": 235.61,
+   "end": 237.25,
+   "line": "It is your first blood.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s073",
+   "start": 237.25,
+   "end": 239.09,
+   "line": "It will not be your last.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s074",
+   "start": 239.09,
+   "end": 241.09,
+   "line": "But you are not cruel by nature.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s075",
+   "start": 241.09,
+   "end": 244.79,
+   "line": "You are simply learning that the world does not forgive weakness.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s076",
+   "start": 244.79,
+   "end": 248.49,
+   "line": "And while you are learning it, someone is already watching you.",
+   "scene": "steppe: temu, guard",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s077",
+   "start": 248.49,
+   "end": 250.55,
+   "line": "Your father's enemies fear you.",
+   "scene": "giant face close-up of guard",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s078",
+   "start": 250.55,
+   "end": 254.85,
+   "line": "They remember that a boy grows and that a wolf cub becomes a wolf.",
+   "scene": "steppe: wolf",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s079",
+   "start": 254.85,
+   "end": 257.33,
+   "line": "They decide to remove you before you get strong.",
+   "scene": "steppe: guard, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s080",
+   "start": 257.33,
+   "end": 260.89,
+   "line": "You are about 16. They catch you.",
+   "scene": "steppe: temu, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -8
+    },
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s081",
+   "start": 260.89,
+   "end": 267.43,
+   "line": "They lock a wooden collar around your neck, heavy as a door. You cannot eat properly. You cannot lie down.",
+   "scene": "ger: guard, temu",
+   "set": "ger",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s082",
+   "start": 267.43,
+   "end": 269.75,
+   "line": "You cannot even brush away a fly.",
+   "scene": "giant face close-up of temu",
+   "set": "ger",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "buzz",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s083",
+   "start": 269.75,
+   "end": 276.81,
+   "line": "They drag you from tent to tent and anyone has the right to humiliate you. But you do not beg. You watch.",
+   "scene": "steppe: guard, temu, x, tent, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s084",
+   "start": 276.81,
+   "end": 278.57,
+   "line": "You count the guard's steps.",
+   "scene": "steppe: guard, temu, tent",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.26,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s085",
+   "start": 278.57,
+   "end": 281.27,
+   "line": "You remember who drinks and who doesn't.",
+   "scene": "steppe: x, guard, temu, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s086",
+   "start": 281.27,
+   "end": 284.69,
+   "line": "On the night of a great feast, you are guarded by a weak young man.",
+   "scene": "steppe: x, guard, temu, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s087",
+   "start": 284.69,
+   "end": 287.69,
+   "line": "You swing the collar into his head and run.",
+   "scene": "steppe: guard, temu, fire",
+   "set": "steppe",
+   "bars": "scope",
+   "in": {
+    "type": "smash",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 0.95,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s088",
+   "start": 287.69,
+   "end": 290.59,
+   "line": "The camp wakes up and men chase you with torches.",
+   "scene": "steppe: temu, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s089",
+   "start": 290.59,
+   "end": 295.27,
+   "line": "You dive into the river and lie on the bottom, leaving only your face above the water.",
+   "scene": "river: temu, x",
+   "set": "river",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s090",
+   "start": 295.27,
+   "end": 297.47,
+   "line": "A man from the enemy clan spots you.",
+   "scene": "river: temu, sorgan",
+   "set": "river",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s091",
+   "start": 297.47,
+   "end": 300.81,
+   "line": "His name is Sorganshira. He could shout.",
+   "scene": "steppe: sorgan",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.84,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s092",
+   "start": 300.81,
+   "end": 302.87,
+   "line": "Instead, he says nothing.",
+   "scene": "giant face close-up of sorgan",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s093",
+   "start": 302.87,
+   "end": 308.35,
+   "line": "Then he hides you in a cart full of wool and saves your life. Remember this lesson.",
+   "scene": "steppe: sorgan, cart",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s094",
+   "start": 308.35,
+   "end": 310.89,
+   "line": "You did not survive because you were stronger.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s095",
+   "start": 310.89,
+   "end": 314.33,
+   "line": "You survived because the people around you chose to help you.",
+   "scene": "steppe: sorgan, temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s096",
+   "start": 314.33,
+   "end": 316.99,
+   "line": "Power is not built on fear.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.86,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s097",
+   "start": 316.99,
+   "end": 319.95,
+   "line": "It is built on people wanting to follow you.",
+   "scene": "steppe: temu, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s098",
+   "start": 319.95,
+   "end": 322.81,
+   "line": "You go back for Borte and you marry her.",
+   "scene": "steppe: temu, borte, yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s099",
+   "start": 322.81,
+   "end": 325.61,
+   "line": "You are happy, but not for long.",
+   "scene": "steppe: temu, borte, fire",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s100",
+   "start": 325.61,
+   "end": 328.41,
+   "line": "One dawn, the Merkits attack your camp.",
+   "scene": "steppe: yurt, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 0.5,
+     "name": "kick",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s101",
+   "start": 328.41,
+   "end": 331.47,
+   "line": "They have wanted revenge on your clan for years.",
+   "scene": "giant face close-up of x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s102",
+   "start": 331.47,
+   "end": 337.59,
+   "line": "They take the one thing most precious to you and they carry your wife away. You have no army.",
+   "scene": "steppe: borte, temu, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s103",
+   "start": 337.59,
+   "end": 341.53,
+   "line": "You have a handful of men and one old friend of your father's.",
+   "scene": "steppe: temu, x, tent",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s104",
+   "start": 341.53,
+   "end": 343.25,
+   "line": "Togrul, the Khan of the Karaites.",
+   "scene": "steppe: togrul, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s105",
+   "start": 343.25,
+   "end": 347.19,
+   "line": "You ride to him with gifts and he agrees to help.",
+   "scene": "steppe: temu, togrul, bag",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s106",
+   "start": 347.19,
+   "end": 353.19,
+   "line": "Your sworn brother Jamuka joins you, a friend from childhood with whom you once exchanged oaths.",
+   "scene": "steppe: temu, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.86,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s107",
+   "start": 353.19,
+   "end": 355.87,
+   "line": "Together, you attack the Merkits at night.",
+   "scene": "steppe: riders, tent",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s108",
+   "start": 355.87,
+   "end": 358.99,
+   "line": "You burst into the camp, shouting your wife's name.",
+   "scene": "steppe: tent, torch, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -8
+    },
+    {
+     "at": 2.08,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s109",
+   "start": 358.99,
+   "end": 362.71,
+   "line": "In the darkness, she hears you and runs toward your voice.",
+   "scene": "steppe: borte, temu, fire, tent",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s110",
+   "start": 362.71,
+   "end": 368.41,
+   "line": "But sometime later, Borte gives birth to a son and no one knows whose child he is.",
+   "scene": "ger: borte, temu",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.16,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s111",
+   "start": 368.41,
+   "end": 371.81,
+   "line": "You accept him as your own and you name him Jochi.",
+   "scene": "ger: temu",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.52,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s112",
+   "start": 371.81,
+   "end": 375.59,
+   "line": "Many whisper that you are weak. You do not answer them.",
+   "scene": "steppe: x, temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s113",
+   "start": 375.59,
+   "end": 377.55,
+   "line": "You have already understood.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s114",
+   "start": 377.55,
+   "end": 380.53,
+   "line": "Real strength is not in answering everyone.",
+   "scene": "steppe: temu, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s115",
+   "start": 380.53,
+   "end": 383.13,
+   "line": "Over the years, people are drawn to you.",
+   "scene": "steppe: temu, yurt, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s116",
+   "start": 383.13,
+   "end": 389.11,
+   "line": "Not because you are noble, but because beside you, a simple herdsman can become a commander.",
+   "scene": "steppe: herd, gen, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s117",
+   "start": 389.11,
+   "end": 391.75,
+   "line": "You value skill, not bloodline.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.58,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s118",
+   "start": 391.75,
+   "end": 393.91,
+   "line": "You divide the spoils fairly.",
+   "scene": "steppe: temu, x, bag",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s119",
+   "start": 393.91,
+   "end": 397.05,
+   "line": "You remember the name of every man who served you.",
+   "scene": "steppe: temu, x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s120",
+   "start": 397.05,
+   "end": 398.63,
+   "line": "But the nobles hate this.",
+   "scene": "steppe: noble",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s121",
+   "start": 398.63,
+   "end": 403.15,
+   "line": "And the first to grow unhappy is Jamuka, your sworn brother.",
+   "scene": "giant face close-up of jamuka",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s122",
+   "start": 403.15,
+   "end": 405.31,
+   "line": "He believes in the old order.",
+   "scene": "steppe: jamuka, noble",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s123",
+   "start": 405.31,
+   "end": 407.81,
+   "line": "Power belongs to those born noble.",
+   "scene": "steppe: noble, jamuka, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -12
+    },
+    {
+     "at": 1.26,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s124",
+   "start": 407.81,
+   "end": 409.79,
+   "line": "You believe in a new one.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s125",
+   "start": 409.79,
+   "end": 412.31,
+   "line": "Power belongs to those who earn it.",
+   "scene": "steppe: x, temu, herd",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.58,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s126",
+   "start": 412.31,
+   "end": 414.09,
+   "line": "This is not just an argument.",
+   "scene": "steppe: temu, jamuka",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s127",
+   "start": 414.09,
+   "end": 417.71,
+   "line": "It is a fight over what kind of world will exist.",
+   "scene": "steppe: temu, jamuka, yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s128",
+   "start": 417.71,
+   "end": 420.01,
+   "line": "One day, you split your camps.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s129",
+   "start": 420.01,
+   "end": 423.97,
+   "line": "You part without a quarrel, but both of you know you will meet again.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s130",
+   "start": 423.97,
+   "end": 426.79,
+   "line": "And next time, it will be on the battlefield.",
+   "scene": "steppe: army",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s131",
+   "start": 426.79,
+   "end": 429.73,
+   "line": "He will become your greatest enemy.",
+   "scene": "giant face close-up of jamuka",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s132",
+   "start": 429.73,
+   "end": 432.31,
+   "line": "You will defeat him, and he will return.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s133",
+   "start": 432.31,
+   "end": 435.95,
+   "line": "He will beat you once, and you will survive only by luck.",
+   "scene": "steppe: horse, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s134",
+   "start": 435.95,
+   "end": 438.31,
+   "line": "But in the end, you will capture him.",
+   "scene": "steppe: jamuka, guard, temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s135",
+   "start": 438.31,
+   "end": 443.35,
+   "line": "You will offer him a place at your side, as it once was. He will refuse.",
+   "scene": "steppe: temu, jamuka",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s136",
+   "start": 443.35,
+   "end": 448.33,
+   "line": "He will ask for only one thing, to die without his blood being spilled.",
+   "scene": "steppe: jamuka",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s137",
+   "start": 448.33,
+   "end": 451.53,
+   "line": "You will grant his request. You lost a friend.",
+   "scene": "steppe: temu, jamuka",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s138",
+   "start": 451.53,
+   "end": 453.97,
+   "line": "But you stayed true to what you believed.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s139",
+   "start": 453.97,
+   "end": 456.77,
+   "line": "For the next 20 years, you fight.",
+   "scene": "steppe: riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 0.76,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s140",
+   "start": 456.77,
+   "end": 463.17,
+   "line": "You crush the Tatars, the poisoners of your father. You defeat the Merkits. You conquer the Naimans.",
+   "scene": "steppe: army",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.82,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s141",
+   "start": 463.17,
+   "end": 466.23,
+   "line": "Even Togru, your old protector, becomes your enemy.",
+   "scene": "giant face close-up of togrul",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s142",
+   "start": 466.23,
+   "end": 468.33,
+   "line": "And you must defeat him, too.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s143",
+   "start": 468.33,
+   "end": 470.99,
+   "line": "You do what no one before you has done.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s144",
+   "start": 470.99,
+   "end": 473.31,
+   "line": "You break the old system.",
+   "scene": "steppe: temu, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.26,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s145",
+   "start": 473.31,
+   "end": 476.19,
+   "line": "Tribes stop being the main unit of society.",
+   "scene": "steppe: yurt, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s146",
+   "start": 476.19,
+   "end": 480.09,
+   "line": "Your army is divided into tens, hundreds, and thousands.",
+   "scene": "steppe: army, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.44,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s147",
+   "start": 480.09,
+   "end": 483.23,
+   "line": "And commanders are chosen for merit, not birth.",
+   "scene": "steppe: temu, gen, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s148",
+   "start": 483.23,
+   "end": 485.59,
+   "line": "Betrayal is punished by death.",
+   "scene": "steppe: x, guard",
+   "set": "steppe",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s149",
+   "start": 485.59,
+   "end": 487.39,
+   "line": "Plunder is shared fairly.",
+   "scene": "steppe: x, bag",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s150",
+   "start": 487.39,
+   "end": 489.29,
+   "line": "A promise is kept.",
+   "scene": "steppe: temu, gen",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.28,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s151",
+   "start": 489.29,
+   "end": 493.23,
+   "line": "You establish a code of rules that will later be known as the Yasa.",
+   "scene": "ger: scribe, temu, scroll",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.12,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s152",
+   "start": 493.23,
+   "end": 497.41,
+   "line": "It is simple and harsh, but it applies to everyone equally.",
+   "scene": "steppe: noble, herd, temu, gen, x, scroll",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s153",
+   "start": 497.41,
+   "end": 499.25,
+   "line": "In the year 1206,",
+   "scene": "steppe: yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dipWhite",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "flash",
+     "gain": -8
+    },
+    {
+     "at": 0.52,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s154",
+   "start": 499.25,
+   "end": 504.05,
+   "line": "the leaders of all the tribes gather at a great assembly near the source of the Onan,",
+   "scene": "assembly: x, yurt, banner",
+   "set": "assembly",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s155",
+   "start": 504.05,
+   "end": 506.39,
+   "line": "the very place where you were born.",
+   "scene": "river: temu, yurt",
+   "set": "river",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s156",
+   "start": 506.39,
+   "end": 509.63,
+   "line": "Above the steppe, they raise a white banner with nine tails.",
+   "scene": "assembly: x, banner",
+   "set": "assembly",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s157",
+   "start": 509.63,
+   "end": 512.81,
+   "line": "They proclaim you Genghis Khan.",
+   "scene": "assembly: x, temu, banner",
+   "set": "assembly",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.3,
+     "name": "cheer",
+     "gain": -14
+    },
+    {
+     "at": 1.54,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s158",
+   "start": 512.81,
+   "end": 517.13,
+   "line": "It means universal ruler or ruler of the oceans.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.14,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s159",
+   "start": 517.13,
+   "end": 519.45,
+   "line": "You are 44 years old.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s160",
+   "start": 519.45,
+   "end": 523.77,
+   "line": "Behind you, the wooden collar, the hunger, the betrayals.",
+   "scene": "steppe: temu, kid",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s161",
+   "start": 523.77,
+   "end": 526.57,
+   "line": "Ahead of you, the whole world.",
+   "scene": "steppe: temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s162",
+   "start": 526.57,
+   "end": 530.79,
+   "line": "You do not want war with the Shah of Khwarezm. You want trade.",
+   "scene": "city: shah, temu",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s163",
+   "start": 530.79,
+   "end": 535.77,
+   "line": "You send a caravan loaded with goods and envoys carrying an offer of peace.",
+   "scene": "steppe: merch, cart, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s164",
+   "start": 535.77,
+   "end": 540.93,
+   "line": "But the governor of a border city orders the merchants killed and their goods seized.",
+   "scene": "city: shah, merch, bag",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s165",
+   "start": 540.93,
+   "end": 545.03,
+   "line": "You send new envoys and demand that the guilty man be handed over.",
+   "scene": "city: merch, shah",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s166",
+   "start": 545.03,
+   "end": 547.53,
+   "line": "The Shah kills your envoys too.",
+   "scene": "city: shah, merch",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s167",
+   "start": 547.53,
+   "end": 550.37,
+   "line": "And now, this is no longer just an insult.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s168",
+   "start": 550.37,
+   "end": 552.95,
+   "line": "To you, it is a broken treaty.",
+   "scene": "ger: temu, scroll",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.34,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s169",
+   "start": 552.95,
+   "end": 555.43,
+   "line": "And you consider a treaty sacred.",
+   "scene": "ger: temu, scroll",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s170",
+   "start": 555.43,
+   "end": 557.81,
+   "line": "In 1219, you march.",
+   "scene": "steppe: army, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s171",
+   "start": 557.81,
+   "end": 561.17,
+   "line": "Your army is organized better than any in the world.",
+   "scene": "steppe: army, banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s172",
+   "start": 561.17,
+   "end": 566.51,
+   "line": "It has scouts who know the roads before the troops ever reach them. It has communication.",
+   "scene": "steppe: riders, army",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s173",
+   "start": 566.51,
+   "end": 571.15,
+   "line": "Riders carry news for hundreds of miles faster than an enemy can prepare.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s174",
+   "start": 571.15,
+   "end": 574.15,
+   "line": "It has a discipline no one else possesses.",
+   "scene": "steppe: army",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s175",
+   "start": 574.15,
+   "end": 576.25,
+   "line": "Cities that surrender live.",
+   "scene": "city: x",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s176",
+   "start": 576.25,
+   "end": 578.63,
+   "line": "Cities that resist vanish.",
+   "scene": "city: ",
+   "set": "city",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s177",
+   "start": 578.63,
+   "end": 582.09,
+   "line": "The news runs ahead of you. Fear becomes your weapon.",
+   "scene": "steppe: merch, horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s178",
+   "start": 582.09,
+   "end": 586.39,
+   "line": "And often, a fortress opens its gates without a single arrow fired.",
+   "scene": "city: x, army",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s179",
+   "start": 586.39,
+   "end": 589.53,
+   "line": "But you do not only destroy. You build.",
+   "scene": "steppe: temu, yurt",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s180",
+   "start": 589.53,
+   "end": 594.29,
+   "line": "You create a relay system where messengers ride day and night. You protect merchants.",
+   "scene": "steppe: yurt, horse, cart",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s181",
+   "start": 594.29,
+   "end": 600.17,
+   "line": "You allow every faith because what matters to you is not prayer but loyalty.",
+   "scene": "steppe: temu, x, merch, scribe, noble",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s182",
+   "start": 600.17,
+   "end": 606.51,
+   "line": "You bring in scholars and scribes because your own people have no writing and you quickly understand its power.",
+   "scene": "ger: scribe, temu, scroll",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s183",
+   "start": 606.51,
+   "end": 608.45,
+   "line": "Your empire is brutal.",
+   "scene": "city: army",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s184",
+   "start": 608.45,
+   "end": 613.13,
+   "line": "But a merchant can cross it with gold through half the world and arrive safe.",
+   "scene": "steppe: horse, bag",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s185",
+   "start": 613.13,
+   "end": 615.39,
+   "line": "That is the paradox of your power.",
+   "scene": "steppe: ",
+   "set": "steppe",
+   "bars": "none",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "flash",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s186",
+   "start": 615.39,
+   "end": 619.45,
+   "line": "You destroy those who resist and you protect those who submit.",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s187",
+   "start": 619.45,
+   "end": 622.27,
+   "line": "You are about 65 now, an old man.",
+   "scene": "ger: temu, fire",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s188",
+   "start": 622.27,
+   "end": 627.87,
+   "line": "Your body is worn down by decades of campaigns. But you cannot stop.",
+   "scene": "steppe: horse",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s189",
+   "start": 627.87,
+   "end": 632.69,
+   "line": "In 1227, you lead your army against the Tanguts who broke their word.",
+   "scene": "steppe: army, riders",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.16,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s190",
+   "start": 632.69,
+   "end": 637.05,
+   "line": "During the campaign, you fall from your horse and you never fully recover.",
+   "scene": "steppe: temu, horse",
+   "set": "steppe",
+   "bars": "scope",
+   "in": {
+    "type": "smash",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 1.0,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s191",
+   "start": 637.05,
+   "end": 641.73,
+   "line": "What exactly killed you no one knows because the chroniclers tell it differently.",
+   "scene": "ger: scribe",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.64,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s192",
+   "start": 641.73,
+   "end": 644.87,
+   "line": "You want your death kept secret until the war is over.",
+   "scene": "ger: gen, x, lamp",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s193",
+   "start": 644.87,
+   "end": 646.65,
+   "line": "You are buried in secret.",
+   "scene": "steppe: x",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "wind",
+     "gain": -20
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s194",
+   "start": 646.65,
+   "end": 648.29,
+   "line": "The location remains unknown.",
+   "scene": "grave: ",
+   "set": "grave",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.16,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s195",
+   "start": 648.29,
+   "end": 652.61,
+   "line": "According to legend, everyone who saw the road was killed.",
+   "scene": "grave: guard, x",
+   "set": "grave",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s196",
+   "start": 652.61,
+   "end": 658.03,
+   "line": "According to legend, a herd of horses was driven over the grave to erase every trace.",
+   "scene": "grave: riders",
+   "set": "grave",
+   "bars": "scope",
+   "in": {
+    "type": "whip",
+    "dur": 0.3,
+    "dir": 1
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "kick",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "kick",
+     "gain": -10
+    },
+    {
+     "at": 2.0,
+     "name": "kick",
+     "gain": -10
+    },
+    {
+     "at": 3.0,
+     "name": "kick",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "mb": 3,
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s197",
+   "start": 658.03,
+   "end": 660.81,
+   "line": "To this day, no one knows where you lie.",
+   "scene": "grave: x",
+   "set": "grave",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s198",
+   "start": 660.81,
+   "end": 662.93,
+   "line": "But your empire lives on.",
+   "scene": "steppe: banner",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.8
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s199",
+   "start": 662.93,
+   "end": 667.63,
+   "line": "It will stretch from the Pacific Ocean to the Caspian Sea and beyond.",
+   "scene": "void: ",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s200",
+   "start": 667.63,
+   "end": 671.31,
+   "line": "Your sons and grandsons will rule half the known world.",
+   "scene": "ger: x, banner",
+   "set": "ger",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s201",
+   "start": 671.31,
+   "end": 675.43,
+   "line": "Within a few generations, you will be the ancestor of millions.",
+   "scene": "void: ",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s202",
+   "start": 675.43,
+   "end": 681.85,
+   "line": "And it all began with a boy whose father was murdered and who was left on the step to die.",
+   "scene": "steppe: kid",
+   "set": "steppe",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s203",
+   "start": 681.85,
+   "end": 685.01,
+   "line": "Now, a question for you. Would you have survived?",
+   "scene": "giant face close-up of temu",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 2.36,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s204",
+   "start": 685.01,
+   "end": 689.63,
+   "line": "At which moment would you have broken? The wooden collar? Losing Borte?",
+   "scene": "void: ",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 3.0,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s205",
+   "start": 689.63,
+   "end": 693.53,
+   "line": "Or the betrayal of your closest friend? Tell me in the comments.",
+   "scene": "steppe: temu, jamuka",
+   "set": "steppe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.68,
+     "name": "pop",
+     "gain": -13
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -27
+   }
+  },
+  {
+   "id": "s206",
+   "start": 693.53,
+   "end": 697.07,
+   "line": "And in the next video, you will be born in ancient Rome.",
+   "scene": "city: ",
+   "set": "city",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s207",
+   "start": 697.07,
+   "end": 700.48,
+   "line": "And the arena is waiting for you.",
+   "scene": "void: ",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 34,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 34,
+   "end": 74,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 74,
+   "end": 122,
+   "mood": "hopeful",
+   "intensity": 0.3
+  },
+  {
+   "start": 122,
+   "end": 150,
+   "mood": "dark",
+   "intensity": 0.55
+  },
+  {
+   "start": 150,
+   "end": 257,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 257,
+   "end": 320,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 320,
+   "end": 352,
+   "mood": "hopeful",
+   "intensity": 0.4
+  },
+  {
+   "start": 352,
+   "end": 370,
+   "mood": "action",
+   "intensity": 0.7
+  },
+  {
+   "start": 370,
+   "end": 420,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 420,
+   "end": 454,
+   "mood": "sad",
+   "intensity": 0.5
+  },
+  {
+   "start": 454,
+   "end": 497,
+   "mood": "action",
+   "intensity": 0.6
+  },
+  {
+   "start": 497,
+   "end": 526,
+   "mood": "triumph",
+   "intensity": 0.65
+  },
+  {
+   "start": 526,
+   "end": 557,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 557,
+   "end": 615,
+   "mood": "epic",
+   "intensity": 0.7
+  },
+  {
+   "start": 615,
+   "end": 645,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 645,
+   "end": 662,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 662,
+   "end": 690,
+   "mood": "epic",
+   "intensity": 0.55
+  },
+  {
+   "start": 690,
+   "end": 700.48,
+   "mood": "calm",
+   "intensity": 0.35
+  }
+ ],
+ "sfx": []
+}
