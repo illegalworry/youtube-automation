@@ -25,7 +25,7 @@ const run = async (w) => {
 		const t0 = Date.now();
 		say(`worker ${w}: chunk ${k + 1}/${n} frames ${s}-${e}`);
 		for (let a = 1; a <= 3; a++) {
-			const r = await npx(['remotion', 'render', 'out/bundle', id, tmp, `--frames=${s}-${e}`, '--muted', '--gl=angle', '--concurrency=1', '--crf=18', '--log=error', '--timeout=180000'], {quiet: false});
+			const r = await npx(['remotion', 'render', 'out/bundle', id, tmp, `--frames=${s}-${e}`, '--muted', '--gl=angle', '--concurrency=1', '--crf=18', '--log=error', '--timeout=900000'], {quiet: false});
 			if (r === 0) {
 				fs.renameSync(tmp, f);
 				say(`worker ${w}: chunk ${k + 1} done in ${Math.round((Date.now() - t0) / 60000)} min`);

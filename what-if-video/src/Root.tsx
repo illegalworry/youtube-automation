@@ -8,7 +8,7 @@ import {PauseTime} from './reference/PauseTime';
 /* open-licence fonts from public/fonts, loaded before the first frame renders */
 // generous timeout: with several render tabs at once a cold font load can take a while;
 // if it still fails the frame renders with the fallback font instead of crashing
-const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 120000});
+const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 900000});
 Promise.all(
 	[
 		['Rubik', 'fonts/Rubik.ttf', '300 900'],
@@ -25,7 +25,7 @@ function release() {
 	released = true;
 	continueRender(fontsReady);
 }
-setTimeout(release, 60000); // never let a slow font kill a render
+setTimeout(release, 600000); // never let a slow font kill a render
 
 // headings are heavy unless a text asks for another weight (the style's chunky lettering)
 const css = document.createElement('style');
