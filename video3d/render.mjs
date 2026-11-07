@@ -15,7 +15,7 @@ async function worker(id, list) {
   const b = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium', args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--no-sandbox'] });
   const pg = await b.newPage({ viewport: { width: W, height: H } });
   pg.on('console', m => { if (/error|fail/i.test(m.text())) console.log('[page]', m.text()); }); pg.on('pageerror', e => console.log('[pageerror]', e.message));
-  await pg.goto(`http://localhost:${port}/index.html?w=${W}&h=${H}`); await pg.waitForFunction('window.ready === true', null, { timeout: 120000 });
+  await pg.goto(`http://localhost:${port}/index.html?w=${W}&h=${H}${process.env.QS||''}`); await pg.waitForFunction('window.ready === true', null, { timeout: 120000 });
   let n = 0, t0 = Date.now();
   for (const f of list) {
     await pg.evaluate(t => window.drawFrame(t), f / FPS);
