@@ -1,0 +1,71 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #000; overflow: hidden; }
+body { font-family: 'Manrope', sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+#stage { position: absolute; left: 0; top: 0; width: 1080px; overflow: hidden; transform-origin: 0 0; background: #120c26; }
+#stage > * { position: absolute; }
+#bg, #fx, #grain { left: 0; top: 0; width: 100%; height: 100%; }
+#tint { inset: 0; mix-blend-mode: soft-light; }
+#shade { inset: 0; background:
+  linear-gradient(180deg, rgba(8,5,20,.72) 0%, rgba(8,5,20,.25) 24%, rgba(8,5,20,0) 40%, rgba(8,5,20,0) 70%, rgba(8,5,20,.55) 100%),
+  radial-gradient(ellipse at 50% 55%, rgba(0,0,0,0) 45%, rgba(0,0,0,.45) 100%); }
+#grain { mix-blend-mode: overlay; opacity: .09; }
+
+/* ---------- header ---------- */
+#header { left: 44px; top: 34px; font-size: 25px; font-weight: 700; display: flex; align-items: center; gap: 10px; color: rgba(255,255,255,.92); text-shadow: 0 2px 10px rgba(0,0,0,.4); white-space: nowrap; }
+#header .dot, #header #title { color: rgba(255,255,255,.62); font-weight: 600; }
+#header #artist { font-weight: 800; }
+.eq { display: inline-flex; align-items: flex-end; gap: 3px; height: 20px; width: 26px; margin-right: 4px; }
+.eq i { display: block; width: 4px; border-radius: 2px; background: linear-gradient(#fff, #c9a2ff); }
+
+/* ---------- lyrics ---------- */
+#lyrics { left: 0; width: 100%; height: 190px; }
+.line { position: absolute; left: 50%; top: 0; width: 980px; margin-left: -490px; text-align: center; font-size: 66px; font-weight: 800; line-height: 1.12; letter-spacing: -0.01em; }
+.w { display: inline-block; margin: 0 .13em; -webkit-background-clip: text; background-clip: text; color: transparent; padding: 0 .04em .08em; will-change: transform, filter; }
+
+/* ---------- cards ---------- */
+#cards { left: 0; top: 0; width: 100%; height: 100%; perspective: 1400px; }
+.cardwrap { position: absolute; left: 50%; width: 0; height: 0; transform-style: preserve-3d; }
+.glow { position: absolute; left: -330px; top: -170px; width: 660px; height: 340px; border-radius: 80px; filter: blur(60px); opacity: .55; }
+.card { position: absolute; left: -350px; width: 700px; border-radius: 40px; padding: 30px 36px 32px; overflow: hidden;
+  box-shadow: 0 40px 80px -20px rgba(10,0,30,.55), inset 0 1.5px 0 rgba(255,255,255,.55), inset 0 -1px 0 rgba(255,255,255,.12); }
+.card.glass { background: linear-gradient(140deg, rgba(255,255,255,.26), rgba(255,255,255,.08)); backdrop-filter: blur(26px) saturate(1.5); border: 1.5px solid rgba(255,255,255,.34); }
+.card.white { background: linear-gradient(170deg, #ffffff, #f7f0f8); color: #1d1330; border: 1.5px solid rgba(255,255,255,.9); }
+.card.grad { border: 1.5px solid rgba(255,255,255,.3); }
+.card .sheen { position: absolute; top: -50%; left: 0; width: 160px; height: 200%; background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.38), rgba(255,255,255,0)); transform: rotate(18deg); pointer-events: none; mix-blend-mode: overlay; }
+.card .orn { position: absolute; right: -10px; bottom: -14px; width: 190px; opacity: .13; pointer-events: none; }
+.card.white .orn { opacity: .07; }
+.hdr { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; position: relative; }
+.kicker { font-size: 17px; font-weight: 800; letter-spacing: .12em; opacity: .72; }
+.ico { font-size: 40px; line-height: 1; filter: drop-shadow(0 6px 10px rgba(0,0,0,.25)); }
+.big { font-family: 'Unbounded', sans-serif; font-weight: 800; font-size: 86px; line-height: 1; letter-spacing: -0.03em; }
+.unit { font-family: 'Manrope'; font-size: 26px; font-weight: 800; letter-spacing: 0; opacity: .8; margin-left: 8px; }
+.lbl { font-size: 20px; font-weight: 700; opacity: .7; }
+.row { display: flex; align-items: center; justify-content: space-between; border-radius: 18px; padding: 14px 18px; font-size: 21px; font-weight: 700; position: relative; overflow: hidden; }
+.glass .row, .grad .row { background: rgba(255,255,255,.14); }
+.white .row { background: #f0e8f3; }
+.chip { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 7px 16px; font-size: 19px; font-weight: 800; white-space: nowrap; }
+.track { position: relative; height: 12px; border-radius: 6px; background: rgba(255,255,255,.18); overflow: hidden; }
+.white .track { background: #eadff0; }
+.track .f { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 6px; }
+.btn { flex: 1; text-align: center; border-radius: 18px; padding: 17px 0; font-size: 23px; font-weight: 800; position: relative; overflow: hidden; }
+.avatar { width: 92px; height: 92px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Unbounded'; font-weight: 800; font-size: 36px; color: #fff; box-shadow: 0 10px 24px rgba(0,0,0,.25), inset 0 2px 0 rgba(255,255,255,.4); position: absolute; }
+.toggle { width: 74px; height: 42px; border-radius: 21px; position: relative; }
+.toggle i { position: absolute; top: 4px; width: 34px; height: 34px; border-radius: 50%; background: #fff; box-shadow: 0 3px 8px rgba(0,0,0,.3); }
+
+/* toast notification */
+.toast { position: absolute; left: -300px; width: 600px; border-radius: 30px; padding: 16px 20px; display: flex; align-items: center; gap: 16px; background: rgba(28,22,48,.78); backdrop-filter: blur(20px); border: 1.5px solid rgba(255,255,255,.2); box-shadow: 0 24px 50px rgba(0,0,0,.4); }
+.toast .av { width: 58px; height: 58px; border-radius: 16px; background: linear-gradient(135deg, #34d399, #3b82f6); display: flex; align-items: center; justify-content: center; font-family: 'Unbounded'; font-weight: 800; font-size: 26px; flex: none; }
+.toast .nm { font-size: 20px; font-weight: 800; }
+.toast .nm span { font-weight: 600; opacity: .55; margin-left: 8px; }
+.toast .msg { font-size: 23px; font-weight: 700; margin-top: 2px; }
+
+/* fx */
+.streak { position: absolute; height: 3px; border-radius: 2px; }
+.pop { position: absolute; font-size: 54px; line-height: 1; filter: drop-shadow(0 8px 14px rgba(0,0,0,.35)); }
+
+/* progress */
+#progress { left: 240px; width: 600px; }
+#progress .bar { position: relative; height: 6px; border-radius: 3px; background: rgba(255,255,255,.28); }
+#progress .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; background: #fff; box-shadow: 0 0 10px rgba(255,255,255,.6); }
+#progress .knob { position: absolute; top: -5px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.4); }
+#progress .times { display: flex; justify-content: space-between; margin-top: 12px; font-size: 18px; font-weight: 700; color: rgba(255,255,255,.75); font-variant-numeric: tabular-nums; }

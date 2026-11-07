@@ -4,3 +4,5 @@ razgon-2d-studio/projects/*/out/
 razgon-2d-studio/projects/*/input/*.mp3
 razgon-2d-studio/projects/*/input/*.wav
 __pycache__/
+lyric-cards-studio/projects/*/build/
+lyric-cards-studio/projects/*/out/

@@ -1,0 +1,9 @@
+{
+  "audio": "input/song.m4a",
+  "artist": "Мирбек Атабеков & Бегиш Айтчы",
+  "title": "ИЙА",
+  "fps": 60,
+  "clipOffset": 62,
+  "songLength": 201,
+  "formats": { "square": [1080, 1080], "vertical": [1080, 1920] }
+}
