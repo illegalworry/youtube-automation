@@ -29,7 +29,7 @@ const banner = `<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="144
 <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="${LIME}" stop-opacity=".55"/><stop offset="1" stop-color="${LIME}" stop-opacity="0"/></radialGradient>
 </defs>
 <rect width="2560" height="1440" fill="url(#bg)"/>
-<circle cx="720" cy="700" r="520" fill="url(#glow)"/>
+<circle cx="1000" cy="720" r="560" fill="url(#glow)"/>
 <g fill="${LIME}" opacity=".10" style="${FONT}">
  <text x="160" y="300" font-size="260" transform="rotate(-12 160 300)">?</text>
  <text x="2300" y="360" font-size="300" transform="rotate(14 2300 360)">?</text>
@@ -38,10 +38,10 @@ const banner = `<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="144
  <text x="1280" y="1380" font-size="180">?</text>
 </g>
 <!-- safe area guide: x507-2053 y508-932 -->
-<g transform="translate(700 625) scale(.66)">${char('c')}</g>
-<text x="1000" y="780" font-size="215" fill="${LIME}" style="${FONT}" stroke="#000" stroke-width="14" paint-order="stroke" letter-spacing="-4">IFLAB<tspan fill="#fff">?</tspan></text>
-<rect x="1010" y="830" width="880" height="64" rx="8" fill="#e5252a" transform="rotate(-1.5 1010 830)"/>
-<text x="1040" y="878" font-size="40" fill="#fff" style="${FONT}" letter-spacing="3" transform="rotate(-1.5 1010 830)">WHAT IF? WE TEST IT.</text>
+<g transform="translate(930 660) scale(.58)">${char('c')}</g>
+<text x="1100" y="770" font-size="195" fill="${LIME}" style="${FONT}" stroke="#000" stroke-width="14" paint-order="stroke" letter-spacing="-4">IFLAB<tspan fill="#fff">?</tspan></text>
+<rect x="1105" y="800" width="600" height="56" rx="8" fill="#e5252a" transform="rotate(-1.5 1105 800)"/>
+<text x="1130" y="840" font-size="36" fill="#fff" style="${FONT}" letter-spacing="3" transform="rotate(-1.5 1105 800)">WHAT IF? WE TEST IT.</text>
 </svg>`;
 (async () => {
   fs.writeFileSync('avatar.svg', avatar); fs.writeFileSync('banner.svg', banner);
