@@ -6,3 +6,5 @@ razgon-2d-studio/projects/*/input/*.wav
 __pycache__/
 razgon-toon-studio/projects/*/build/
 razgon-toon-studio/examples/*/build/
+video3d/build/
+video3d/node_modules/
