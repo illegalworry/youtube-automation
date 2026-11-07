@@ -1,0 +1,5 @@
+node_modules
+out/
+build/
+*.mp4
+public/sfx/bed.wav

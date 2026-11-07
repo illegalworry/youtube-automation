@@ -1,0 +1,162 @@
+[
+ {
+  "id": "001_N",
+  "sp": "N",
+  "t": "What if you became the luckiest human alive?",
+  "gap": 0.67,
+  "src": [
+   0,
+   2.91
+  ]
+ },
+ {
+  "id": "002_N",
+  "sp": "N",
+  "t": "Every coin, every light, every lottery ticket, all yours.",
+  "gap": 0.7,
+  "src": [
+   2.91,
+   7.94
+  ]
+ },
+ {
+  "id": "003_N",
+  "sp": "N",
+  "t": "You wake up. Every light is green.",
+  "gap": 0.54,
+  "src": [
+   7.94,
+   10.98
+  ]
+ },
+ {
+  "id": "004_N",
+  "sp": "N",
+  "t": "A forgotten lottery ticket wins one in 292 million.",
+  "gap": 0.7,
+  "src": [
+   10.98,
+   15.93
+  ]
+ },
+ {
+  "id": "005_N",
+  "sp": "N",
+  "t": "Day two. You bet everything on red at a casino.",
+  "gap": 0.7,
+  "src": [
+   15.93,
+   19.75
+  ]
+ },
+ {
+  "id": "006_N",
+  "sp": "N",
+  "t": "Red. Again. Red.",
+  "gap": 0.63,
+  "src": [
+   19.75,
+   22.49
+  ]
+ },
+ {
+  "id": "007_N",
+  "sp": "N",
+  "t": "Day three. You walk across a busy road without looking.",
+  "gap": 0.45,
+  "src": [
+   22.49,
+   26.21
+  ]
+ },
+ {
+  "id": "008_N",
+  "sp": "N",
+  "t": "A truck stops an inch away.",
+  "gap": 0.43,
+  "src": [
+   26.21,
+   28.34
+  ]
+ },
+ {
+  "id": "009_N",
+  "sp": "N",
+  "t": "But by day five, something strange happens.",
+  "gap": 0.49,
+  "src": [
+   28.34,
+   31.55
+  ]
+ },
+ {
+  "id": "010_N",
+  "sp": "N",
+  "t": "Your team scores in the last second.",
+  "gap": 0.29,
+  "src": [
+   31.55,
+   33.84
+  ]
+ },
+ {
+  "id": "011_N",
+  "sp": "N",
+  "t": "The whole stadium screams and you feel nothing.",
+  "gap": 0.63,
+  "src": [
+   33.84,
+   37.79
+  ]
+ },
+ {
+  "id": "012_N",
+  "sp": "N",
+  "t": "By day eight, you'd give everything you own for one single bad day.",
+  "gap": 0.43,
+  "src": [
+   37.79,
+   42.86
+  ]
+ },
+ {
+  "id": "013_N",
+  "sp": "N",
+  "t": "And then you meet someone who changes everything because she's the one thing your luck can't control.",
+  "gap": 0.47,
+  "src": [
+   42.86,
+   49.94
+  ]
+ },
+ {
+  "id": "014_N",
+  "sp": "N",
+  "t": "What she says to you on day nine breaks the whole system.",
+  "gap": 0.38,
+  "src": [
+   49.94,
+   53.71
+  ]
+ },
+ {
+  "id": "015_N",
+  "sp": "N",
+  "t": "The full video is already on my channel.",
+  "gap": 0.41,
+  "src": [
+   53.71,
+   56.33
+  ]
+ },
+ {
+  "id": "016_N",
+  "sp": "N",
+  "t": "It's called what if you were the luckiest human alive?",
+  "gap": 0.45,
+  "src": [
+   56.33,
+   59.82
+  ]
+ }
+]
