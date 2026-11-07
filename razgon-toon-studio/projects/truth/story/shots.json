@@ -1,0 +1,265 @@
+{
+ "title": "Truth",
+ "duration": 22.96,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0,
+   "end": 2.5,
+   "line": "Начальник спрашивает, как тебе его презентация?",
+   "scene": "Boss presents slide, asks Lyosha; push-in",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 2.5,
+   "end": 3.65,
+   "line": "Мильярик?",
+   "scene": "Boss close-up with ? bubble",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.35,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 3.65,
+   "end": 6.1,
+   "line": "И слово нормально застряла в горле.",
+   "scene": "Morning: НОРМАЛЬНО slams, Lyosha scared",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.95,
+     "name": "impact",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s004",
+   "start": 6.1,
+   "end": 8.75,
+   "line": "Ты пытаешь о соврать, а выходит и исповедь.",
+   "scene": "Close-up: tries to lie, truth comes out",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.75,
+     "name": "blip",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 8.75,
+   "end": 11.8,
+   "line": "Это не странность, это отключенная функция.",
+   "scene": "Lie switch turns OFF on the board",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.95,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s006",
+   "start": 11.8,
+   "end": 14.6,
+   "line": "Мозг тратит на ложь в пять раз больше времени.",
+   "scene": "Bars: truth 0,1 s vs lie 0,5 s, x5",
+   "set": "card",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.2,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 14.6,
+   "end": 16.4,
+   "line": "Сегодня этот шаг выключили.",
+   "scene": "Lie bar cancelled, ВЫКЛЮЧЕНО slams",
+   "set": "card",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s008",
+   "start": 16.4,
+   "end": 19.4,
+   "line": "Мрета спрашивает, ты ведь не злишься на меня.",
+   "scene": "Rita asks, Lyosha nervous",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s009",
+   "start": 19.4,
+   "end": 22.96,
+   "line": "Ты открываешь рот и вдруг...",
+   "scene": "Cliffhanger close-up",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "smash",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -5
+    },
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 16.4,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 16.4,
+   "end": 22.96,
+   "mood": "tension",
+   "intensity": 0.5
+  }
+ ]
+}
