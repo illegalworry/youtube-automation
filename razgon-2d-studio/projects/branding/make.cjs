@@ -19,9 +19,9 @@ const char = (id) => `
 const avatar = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
 <defs><radialGradient id="g" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#4f7a0a"/><stop offset="1" stop-color="#0A0E06"/></radialGradient></defs>
 <rect width="800" height="800" fill="url(#g)"/>
-<text x="575" y="290" font-size="210" fill="#B6FF1A" style="${FONT}" text-anchor="middle" transform="rotate(12 575 290)">?</text>
-<g transform="translate(375 360) scale(.78)">${char('c')}</g>
-<rect x="258" y="680" width="234" height="130" fill="${LIME}"/>
+<text x="545" y="275" font-size="160" fill="#B6FF1A" style="${FONT}" text-anchor="middle" transform="rotate(12 545 275)">?</text>
+<g transform="translate(385 365) scale(.6)">${char('c')}</g>
+<rect x="295" y="617" width="180" height="170" fill="${LIME}"/>
 </svg>`;
 const banner = `<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440">
 <defs>
