@@ -14,6 +14,7 @@ fs.mkdirSync(dir, {recursive: true});
 const n = Math.ceil(total / chunk);
 let next = 0;
 const run = async (w) => {
+	await new Promise((r) => setTimeout(r, (w - 1) * 60000)); // stagger starts: cold font loads time out when all browsers boot at once
 	while (next < n) {
 		const k = next++;
 		const s = k * chunk;
@@ -24,7 +25,7 @@ const run = async (w) => {
 		const t0 = Date.now();
 		say(`worker ${w}: chunk ${k + 1}/${n} frames ${s}-${e}`);
 		for (let a = 1; a <= 3; a++) {
-			const r = await npx(['remotion', 'render', 'out/bundle', id, tmp, `--frames=${s}-${e}`, '--muted', '--gl=angle', '--concurrency=2', '--crf=18', '--log=error', '--timeout=180000'], {quiet: false});
+			const r = await npx(['remotion', 'render', 'out/bundle', id, tmp, `--frames=${s}-${e}`, '--muted', '--gl=angle', '--concurrency=1', '--crf=18', '--log=error', '--timeout=180000'], {quiet: false});
 			if (r === 0) {
 				fs.renameSync(tmp, f);
 				say(`worker ${w}: chunk ${k + 1} done in ${Math.round((Date.now() - t0) / 60000)} min`);
