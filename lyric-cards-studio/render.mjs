@@ -71,7 +71,7 @@ const list = path.join(parts, 'list.txt');
 fs.writeFileSync(list, fs.readdirSync(parts).filter(f => f.endsWith('.mp4')).sort().map(f => `file '${path.join(parts, f)}'`).join('\n'));
 const silent = path.join(BUILD, `silent_${FMT}.mp4`);
 spawnSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', silent], { stdio: 'inherit' });
-const out = path.join(OUT, `${(args.name || CFG.title).replace(/[\\/:*?"<>|\s]+/g, '_')}_${FMT}.mp4`);
+const out = path.join(OUT, `${(args.name || CFG.outName || CFG.title).replace(/[\\/:*?"<>|\s]+/g, '_')}_${FMT}.mp4`);
 const ss = (+args.from || 0);
 spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', silent, '-ss', String(ss), '-i', path.join(PROJECT, CFG.audio), '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '256k', '-shortest', '-movflags', '+faststart', out], { stdio: 'inherit' });
 console.log(`done in ${((Date.now() - t0) / 1000).toFixed(0)}s ->`, out);

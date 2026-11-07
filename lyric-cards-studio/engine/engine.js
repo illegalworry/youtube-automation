@@ -17,6 +17,7 @@ $('header').style.top = L.head + 'px';
 $('lyrics').style.top = L.lyr + 'px'; $('lyrics').style.height = L.lyrH + 'px';
 $('progress').style.top = L.prog + 'px';
 $('artist').textContent = CFG.artist; $('title').textContent = CFG.title;
+if (!CFG.title) document.querySelector('#header .dot').style.display = 'none';
 
 // ---------- audio helpers ----------
 const envAt = t => { const e = AUDIO.env; const i = clamp(t * AUDIO.fps, 0, e.length - 1); const a = Math.floor(i); return lerp(e[a], e[Math.min(a + 1, e.length - 1)], i - a); };
