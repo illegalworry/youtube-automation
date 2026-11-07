@@ -1,0 +1,9 @@
+{
+  "page": "engine/kinetic.html",
+  "audio": "input/song.wav",
+  "artist": "И",
+  "title": "",
+  "outName": "И",
+  "fps": 60,
+  "formats": { "vertical": [1080, 1920] }
+}

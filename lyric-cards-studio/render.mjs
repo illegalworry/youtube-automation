@@ -19,7 +19,8 @@ const CFG = JSON.parse(fs.readFileSync(path.join(PROJECT, 'config.json'), 'utf8'
 const BUILD = path.join(PROJECT, 'build'), OUT = path.join(PROJECT, 'out');
 fs.mkdirSync(BUILD, { recursive: true }); fs.mkdirSync(OUT, { recursive: true });
 if (!fs.existsSync(path.join(BUILD, 'audio.json'))) spawnSync('python3', [path.join(ROOT, 'tools/analyze.py'), PROJECT, String(CFG.fps || 60)], { stdio: 'inherit' });
-const FMT = args.fmt || 'square';
+const FMT = args.fmt || Object.keys(CFG.formats)[0];
+const PAGE = CFG.page || 'engine/index.html';
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.woff2': 'font/woff2', '.woff': 'font/woff' };
 
 const server = http.createServer((req, res) => {
@@ -35,7 +36,7 @@ async function open(browser) {
   const page = await browser.newPage({ viewport: { width: w, height: h } });
   page.on('pageerror', e => console.log('[pageerror]', e.message));
   page.on('console', m => { if (m.type() === 'error') console.log('[page]', m.text()); });
-  await page.goto(`http://localhost:${PORT}/engine/index.html?fmt=${FMT}`);
+  await page.goto(`http://localhost:${PORT}/${PAGE}?fmt=${FMT}`);
   await page.waitForFunction('window.READY === true || !!window.BOOT_ERROR', null, { timeout: 60000 });
   const err = await page.evaluate('window.BOOT_ERROR'); if (err) throw new Error(err);
   return page;
