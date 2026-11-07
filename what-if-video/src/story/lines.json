@@ -1,5 +1,2442 @@
 [
- {"id": "001_N", "sp": "N", "t": "Что если бы над твоей головой висел шагомер?", "action": "герой входит слева, останавливается, поднимает глаза на табличку", "graphic": "табличка ШАГИ 0 над головой"},
- {"id": "002_FRIEND", "sp": "FRIEND", "t": "Ого, у тебя девять тысяч девятьсот девяносто девять шагов!", "action": "друг входит справа, тычет пальцем в табличку", "graphic": "цифры прокручиваются до 9999, выноска «9 999»"},
- {"id": "003_HERO", "sp": "HERO", "t": "Сейчас будет десять тысяч. Смотри.", "action": "трогает лицо, делает один шаг, дают пять", "graphic": "щелчок 10000, искры"}
+ {
+  "id": "001_N",
+  "sp": "N",
+  "t": "Every coin lands your way.",
+  "gap": 0.54,
+  "src": [
+   0,
+   1.94
+  ]
+ },
+ {
+  "id": "002_N",
+  "sp": "N",
+  "t": "Every door opens, and you have exactly nine days before it breaks you.",
+  "gap": 0.63,
+  "src": [
+   1.94,
+   7.71
+  ]
+ },
+ {
+  "id": "003_N",
+  "sp": "N",
+  "t": "Here's the deal. Tonight, while you sleep, something changes.",
+  "gap": 0.54,
+  "src": [
+   7.71,
+   12.44
+  ]
+ },
+ {
+  "id": "004_N",
+  "sp": "N",
+  "t": "Not your body, not your brain, your luck.",
+  "gap": 0.67,
+  "src": [
+   12.44,
+   16.05
+  ]
+ },
+ {
+  "id": "005_N",
+  "sp": "N",
+  "t": "Every random thing in the universe that could go your way will,",
+  "gap": 0.63,
+  "src": [
+   16.05,
+   20.51
+  ]
+ },
+ {
+  "id": "006_N",
+  "sp": "N",
+  "t": "and I'm going to follow you for nine days to see if that is a gift or a trap.",
+  "gap": 0.7,
+  "src": [
+   20.51,
+   26.03
+  ]
+ },
+ {
+  "id": "007_N",
+  "sp": "N",
+  "t": "You wake up one minute before your alarm.",
+  "gap": 0.47,
+  "src": [
+   26.03,
+   28.96
+  ]
+ },
+ {
+  "id": "008_N",
+  "sp": "N",
+  "t": "No reason, you just feel rested.",
+  "gap": 0.52,
+  "src": [
+   28.96,
+   31.47
+  ]
+ },
+ {
+  "id": "009_N",
+  "sp": "N",
+  "t": "You open the fridge. One egg left.",
+  "gap": 0.52,
+  "src": [
+   31.47,
+   34.47
+  ]
+ },
+ {
+  "id": "010_N",
+  "sp": "N",
+  "t": "You crack it, and it has two yolks.",
+  "gap": 0.65,
+  "src": [
+   34.47,
+   37.16
+  ]
+ },
+ {
+  "id": "011_N",
+  "sp": "N",
+  "t": "You step outside. The bus pulls up the exact second you reach the stop.",
+  "gap": 0.59,
+  "src": [
+   37.16,
+   42.33
+  ]
+ },
+ {
+  "id": "012_N",
+  "sp": "N",
+  "t": "Every light on the way is green.",
+  "gap": 0.52,
+  "src": [
+   42.33,
+   44.51
+  ]
+ },
+ {
+  "id": "013_N",
+  "sp": "N",
+  "t": "Not most of them. Every one.",
+  "gap": 0.56,
+  "src": [
+   44.51,
+   47.17
+  ]
+ },
+ {
+  "id": "014_N",
+  "sp": "N",
+  "t": "You laugh. This is nice.",
+  "gap": 0.49,
+  "src": [
+   47.17,
+   49.69
+  ]
+ },
+ {
+  "id": "015_N",
+  "sp": "N",
+  "t": "This is very nice. Then you reach into your pocket, and there is a crumpled lottery ticket you bought three days ago and forgot about.",
+  "gap": 0.5,
+  "src": [
+   49.69,
+   57.7
+  ]
+ },
+ {
+  "id": "016_N",
+  "sp": "N",
+  "t": "You check the numbers. Then you check them again.",
+  "gap": 0.7,
+  "src": [
+   57.7,
+   61.21
+  ]
+ },
+ {
+  "id": "017_N",
+  "sp": "N",
+  "t": "Here's the thing about that ticket.",
+  "gap": 0.54,
+  "src": [
+   61.21,
+   63.38
+  ]
+ },
+ {
+  "id": "018_N",
+  "sp": "N",
+  "t": "In the biggest American lottery, the odds of matching everything are about one in 292 million.",
+  "gap": 0.54,
+  "src": [
+   63.38,
+   70.32
+  ]
+ },
+ {
+  "id": "019_N",
+  "sp": "N",
+  "t": "For comparison, if you flipped a coin and needed heads 28 times in a row, you would be looking at roughly the same odds.",
+  "gap": 0.49,
+  "src": [
+   70.32,
+   77.65
+  ]
+ },
+ {
+  "id": "020_N",
+  "sp": "N",
+  "t": "You just did that without trying.",
+  "gap": 0.65,
+  "src": [
+   77.65,
+   80.68
+  ]
+ },
+ {
+  "id": "021_N",
+  "sp": "N",
+  "t": "By lunch, you are rich.",
+  "gap": 0.52,
+  "src": [
+   80.68,
+   82.99
+  ]
+ },
+ {
+  "id": "022_N",
+  "sp": "N",
+  "t": "Not nice dinner rich.",
+  "gap": 0.5,
+  "src": [
+   82.99,
+   84.98
+  ]
+ },
+ {
+  "id": "023_N",
+  "sp": "N",
+  "t": "Quit your job rich.",
+  "gap": 0.36,
+  "src": [
+   84.98,
+   86.72
+  ]
+ },
+ {
+  "id": "024_N",
+  "sp": "N",
+  "t": "Buy a house rich. And you think, this is the best day of my life.",
+  "gap": 0.7,
+  "src": [
+   86.72,
+   92.02
+  ]
+ },
+ {
+  "id": "025_N",
+  "sp": "N",
+  "t": "Day two, you want to test it.",
+  "gap": 0.4,
+  "src": [
+   92.02,
+   94.48
+  ]
+ },
+ {
+  "id": "026_N",
+  "sp": "N",
+  "t": "Of course you do. So you walk into a casino.",
+  "gap": 0.49,
+  "src": [
+   94.48,
+   97.71
+  ]
+ },
+ {
+  "id": "027_N",
+  "sp": "N",
+  "t": "You put everything on red.",
+  "gap": 0.52,
+  "src": [
+   97.71,
+   99.95
+  ]
+ },
+ {
+  "id": "028_N",
+  "sp": "N",
+  "t": "The ball spins. It lands on red.",
+  "gap": 0.52,
+  "src": [
+   99.95,
+   103.07
+  ]
+ },
+ {
+  "id": "029_N",
+  "sp": "N",
+  "t": "You put everything on red again.",
+  "gap": 0.65,
+  "src": [
+   103.07,
+   105.52
+  ]
+ },
+ {
+  "id": "030_N",
+  "sp": "N",
+  "t": "Red again. The dealer stops smiling.",
+  "gap": 0.54,
+  "src": [
+   105.52,
+   109.18
+  ]
+ },
+ {
+  "id": "031_N",
+  "sp": "N",
+  "t": "A man in a suit starts watching you from across the room.",
+  "gap": 0.61,
+  "src": [
+   109.18,
+   112.54
+  ]
+ },
+ {
+  "id": "032_N",
+  "sp": "N",
+  "t": "You are not cheating. There is nothing to catch.",
+  "gap": 0.52,
+  "src": [
+   112.54,
+   115.23
+  ]
+ },
+ {
+  "id": "033_N",
+  "sp": "N",
+  "t": "Nobody can find a trick because there is no trick.",
+  "gap": 0.45,
+  "src": [
+   115.23,
+   118.57
+  ]
+ },
+ {
+  "id": "034_N",
+  "sp": "N",
+  "t": "You are just lucky, and luck does not leave fingerprints.",
+  "gap": 0.68,
+  "src": [
+   118.57,
+   122.7
+  ]
+ },
+ {
+  "id": "035_N",
+  "sp": "N",
+  "t": "Still, they ask you to leave.",
+  "gap": 0.7,
+  "src": [
+   122.7,
+   125.24
+  ]
+ },
+ {
+  "id": "036_N",
+  "sp": "N",
+  "t": "On day three, you try something else.",
+  "gap": 0.5,
+  "src": [
+   125.24,
+   127.84
+  ]
+ },
+ {
+  "id": "037_N",
+  "sp": "N",
+  "t": "You cross a busy road without looking.",
+  "gap": 0.56,
+  "src": [
+   127.84,
+   130.21
+  ]
+ },
+ {
+  "id": "038_N",
+  "sp": "N",
+  "t": "A truck breaks an inch before you.",
+  "gap": 0.47,
+  "src": [
+   130.21,
+   132.76
+  ]
+ },
+ {
+  "id": "039_N",
+  "sp": "N",
+  "t": "A bird lands on the hood at the perfect moment, and the driver turns his head.",
+  "gap": 0.52,
+  "src": [
+   132.76,
+   137.27
+  ]
+ },
+ {
+  "id": "040_N",
+  "sp": "N",
+  "t": "A cyclist swerves around you like you are not even there.",
+  "gap": 0.61,
+  "src": [
+   137.27,
+   140.76
+  ]
+ },
+ {
+  "id": "041_N",
+  "sp": "N",
+  "t": "You don't feel fear. That is the strange part.",
+  "gap": 0.5,
+  "src": [
+   140.76,
+   144.12
+  ]
+ },
+ {
+  "id": "042_N",
+  "sp": "N",
+  "t": "You can't remember the last time you felt afraid.",
+  "gap": 0.59,
+  "src": [
+   144.12,
+   147.11
+  ]
+ },
+ {
+  "id": "043_N",
+  "sp": "N",
+  "t": "And you are not the first person to look absurdly lucky.",
+  "gap": 0.58,
+  "src": [
+   147.11,
+   150.72
+  ]
+ },
+ {
+  "id": "044_N",
+  "sp": "N",
+  "t": "History has a few people who look a lot like you.",
+  "gap": 0.59,
+  "src": [
+   150.72,
+   153.93
+  ]
+ },
+ {
+  "id": "045_N",
+  "sp": "N",
+  "t": "There was a man named Tsutomu Yamaguchi.",
+  "gap": 0.56,
+  "src": [
+   153.93,
+   156.61
+  ]
+ },
+ {
+  "id": "046_N",
+  "sp": "N",
+  "t": "In August 1945, he was in Hiroshima on a business trip when the atomic bomb fell.",
+  "gap": 0.52,
+  "src": [
+   156.61,
+   162.69
+  ]
+ },
+ {
+  "id": "047_N",
+  "sp": "N",
+  "t": "He survived. He went home to Nagasaki, and a few days later, the second bomb fell there.",
+  "gap": 0.52,
+  "src": [
+   162.69,
+   169.03
+  ]
+ },
+ {
+  "id": "048_N",
+  "sp": "N",
+  "t": "He survived that, too.",
+  "gap": 0.54,
+  "src": [
+   169.03,
+   170.84
+  ]
+ },
+ {
+  "id": "049_N",
+  "sp": "N",
+  "t": "Japan officially recognized him as a survivor of both.",
+  "gap": 0.36,
+  "src": [
+   170.84,
+   174.72
+  ]
+ },
+ {
+  "id": "050_N",
+  "sp": "N",
+  "t": "Is that luck? Or is that the worst luck imaginable?",
+  "gap": 0.47,
+  "src": [
+   174.72,
+   178.74
+  ]
+ },
+ {
+  "id": "051_N",
+  "sp": "N",
+  "t": "Being there both times?",
+  "gap": 0.58,
+  "src": [
+   178.74,
+   180.64
+  ]
+ },
+ {
+  "id": "052_N",
+  "sp": "N",
+  "t": "And that question is the trick of this whole video, so hold on to it.",
+  "gap": 0.08,
+  "src": [
+   180.64,
+   184.92
+  ]
+ },
+ {
+  "id": "053_N",
+  "sp": "N",
+  "t": "There was Violet Jessup, a ship stewardess who was aboard the Olympic when it collided with a warship, then aboard the Titanic,",
+  "gap": 0.7,
+  "src": [
+   184.92,
+   192.68
+  ]
+ },
+ {
+  "id": "054_N",
+  "sp": "N",
+  "t": "then aboard the Britannic when it sank.",
+  "gap": 0.54,
+  "src": [
+   192.68,
+   195.46
+  ]
+ },
+ {
+  "id": "055_N",
+  "sp": "N",
+  "t": "She lived through all three.",
+  "gap": 0.56,
+  "src": [
+   195.46,
+   197.75
+  ]
+ },
+ {
+  "id": "056_N",
+  "sp": "N",
+  "t": "There was a park ranger named Roy Sullivan who was struck by lightning seven times and survived every one.",
+  "gap": 0.49,
+  "src": [
+   197.75,
+   205.01
+  ]
+ },
+ {
+  "id": "057_N",
+  "sp": "N",
+  "t": "Look at those stories again.",
+  "gap": 0.67,
+  "src": [
+   205.01,
+   206.95
+  ]
+ },
+ {
+  "id": "058_N",
+  "sp": "N",
+  "t": "Every one of them is half terrible luck, half wonderful luck.",
+  "gap": 0.5,
+  "src": [
+   206.95,
+   211.66
+  ]
+ },
+ {
+  "id": "059_N",
+  "sp": "N",
+  "t": "The bad part makes the good part possible.",
+  "gap": 0.54,
+  "src": [
+   211.66,
+   214.46
+  ]
+ },
+ {
+  "id": "060_N",
+  "sp": "N",
+  "t": "You have to stand in the storm to be the one who walks out of it.",
+  "gap": 0.43,
+  "src": [
+   214.46,
+   218.4
+  ]
+ },
+ {
+  "id": "061_N",
+  "sp": "N",
+  "t": "But you? You don't get the storm.",
+  "gap": 0.4,
+  "src": [
+   218.4,
+   220.94
+  ]
+ },
+ {
+  "id": "062_N",
+  "sp": "N",
+  "t": "You only get the walking out.",
+  "gap": 0.47,
+  "src": [
+   220.94,
+   223.16
+  ]
+ },
+ {
+  "id": "063_N",
+  "sp": "N",
+  "t": "And that, it turns out, is where the problems begin.",
+  "gap": 0.65,
+  "src": [
+   223.16,
+   226.96
+  ]
+ },
+ {
+  "id": "064_N",
+  "sp": "N",
+  "t": "Before we go further, I need to be fair to the universe.",
+  "gap": 0.43,
+  "src": [
+   226.96,
+   230.44
+  ]
+ },
+ {
+  "id": "065_N",
+  "sp": "N",
+  "t": "Because luck, in real life, is a sneaky thing.",
+  "gap": 0.49,
+  "src": [
+   230.44,
+   234.05
+  ]
+ },
+ {
+  "id": "066_N",
+  "sp": "N",
+  "t": "Imagine a million people each flip a coin and everyone who gets tails sits down.",
+  "gap": 0.49,
+  "src": [
+   234.05,
+   239.55
+  ]
+ },
+ {
+  "id": "067_N",
+  "sp": "N",
+  "t": "After one round, half a million are standing.",
+  "gap": 0.49,
+  "src": [
+   239.55,
+   242.37
+  ]
+ },
+ {
+  "id": "068_N",
+  "sp": "N",
+  "t": "After 10 rounds, about a thousand.",
+  "gap": 0.52,
+  "src": [
+   242.37,
+   244.85
+  ]
+ },
+ {
+  "id": "069_N",
+  "sp": "N",
+  "t": "After 20 rounds, roughly one person is still on their feet and everyone is staring at them.",
+  "gap": 0.43,
+  "src": [
+   244.85,
+   251.44
+  ]
+ },
+ {
+  "id": "070_N",
+  "sp": "N",
+  "t": "That person will give interviews.",
+  "gap": 0.41,
+  "src": [
+   251.44,
+   253.45
+  ]
+ },
+ {
+  "id": "071_N",
+  "sp": "N",
+  "t": "They'll write a book. They'll say it was their morning routine.",
+  "gap": 0.59,
+  "src": [
+   253.45,
+   256.75
+  ]
+ },
+ {
+  "id": "072_N",
+  "sp": "N",
+  "t": "It wasn't. It was arithmetic.",
+  "gap": 0.67,
+  "src": [
+   256.75,
+   259.21
+  ]
+ },
+ {
+  "id": "073_N",
+  "sp": "N",
+  "t": "With enough people playing, somebody always wins.",
+  "gap": 0.49,
+  "src": [
+   259.21,
+   262.85
+  ]
+ },
+ {
+  "id": "074_N",
+  "sp": "N",
+  "t": "And the winner always thinks it was about them.",
+  "gap": 0.65,
+  "src": [
+   262.85,
+   265.82
+  ]
+ },
+ {
+  "id": "075_N",
+  "sp": "N",
+  "t": "Statisticians call this survivorship bias.",
+  "gap": 0.58,
+  "src": [
+   265.82,
+   268.92
+  ]
+ },
+ {
+  "id": "076_N",
+  "sp": "N",
+  "t": "We only hear from the people who walked out.",
+  "gap": 0.47,
+  "src": [
+   268.92,
+   271.84
+  ]
+ },
+ {
+  "id": "077_N",
+  "sp": "N",
+  "t": "The ones who didn't aren't invited to speak.",
+  "gap": 0.47,
+  "src": [
+   271.84,
+   274.62
+  ]
+ },
+ {
+  "id": "078_N",
+  "sp": "N",
+  "t": "But in your case, there is no corridor.",
+  "gap": 0.5,
+  "src": [
+   274.62,
+   277.52
+  ]
+ },
+ {
+  "id": "079_N",
+  "sp": "N",
+  "t": "Nobody falls behind you.",
+  "gap": 0.4,
+  "src": [
+   277.52,
+   279.48
+  ]
+ },
+ {
+  "id": "080_N",
+  "sp": "N",
+  "t": "The filter is gone.",
+  "gap": 0.52,
+  "src": [
+   279.48,
+   281.21
+  ]
+ },
+ {
+  "id": "081_N",
+  "sp": "N",
+  "t": "You are the one on the stage forever.",
+  "gap": 0.45,
+  "src": [
+   281.21,
+   283.93
+  ]
+ },
+ {
+  "id": "082_N",
+  "sp": "N",
+  "t": "And the arithmetic has been rewritten around you.",
+  "gap": 0.41,
+  "src": [
+   283.93,
+   287.13
+  ]
+ },
+ {
+  "id": "083_N",
+  "sp": "N",
+  "t": "Which sounds like a dream. Right up until the moment you try to enjoy it.",
+  "gap": 0.47,
+  "src": [
+   287.13,
+   291.8
+  ]
+ },
+ {
+  "id": "084_N",
+  "sp": "N",
+  "t": "On day four, you wake up in your new house and nothing in it feels like yours.",
+  "gap": 0.52,
+  "src": [
+   291.8,
+   296.95
+  ]
+ },
+ {
+  "id": "085_N",
+  "sp": "N",
+  "t": "You didn't pick the furniture. A designer did.",
+  "gap": 0.32,
+  "src": [
+   296.95,
+   299.78
+  ]
+ },
+ {
+  "id": "086_N",
+  "sp": "N",
+  "t": "Because you were too busy winning.",
+  "gap": 0.54,
+  "src": [
+   299.78,
+   301.74
+  ]
+ },
+ {
+  "id": "087_N",
+  "sp": "N",
+  "t": "You didn't earn the money. It just arrived.",
+  "gap": 0.54,
+  "src": [
+   301.74,
+   304.48
+  ]
+ },
+ {
+  "id": "088_N",
+  "sp": "N",
+  "t": "You didn't pick your friends in the new neighborhood.",
+  "gap": 0.49,
+  "src": [
+   304.48,
+   306.97
+  ]
+ },
+ {
+  "id": "089_N",
+  "sp": "N",
+  "t": "They arrived too. Smiling.",
+  "gap": 0.32,
+  "src": [
+   306.97,
+   309.22
+  ]
+ },
+ {
+  "id": "090_N",
+  "sp": "N",
+  "t": "Asking if you want to invest in something.",
+  "gap": 0.08,
+  "src": [
+   309.22,
+   311.24
+  ]
+ },
+ {
+  "id": "091_N",
+  "sp": "N",
+  "t": "You say yes to one of them.",
+  "gap": 0.25,
+  "src": [
+   311.24,
+   313.28
+  ]
+ },
+ {
+  "id": "092_N",
+  "sp": "N",
+  "t": "Just to see. The investment triples in a week.",
+  "gap": 0.52,
+  "src": [
+   313.28,
+   316.63
+  ]
+ },
+ {
+  "id": "093_N",
+  "sp": "N",
+  "t": "You say yes to another one.",
+  "gap": 0.36,
+  "src": [
+   316.63,
+   318.34
+  ]
+ },
+ {
+  "id": "094_N",
+  "sp": "N",
+  "t": "A terrible one. A plan so bad that your old accountant would have fainted.",
+  "gap": 0.41,
+  "src": [
+   318.34,
+   323.29
+  ]
+ },
+ {
+  "id": "095_N",
+  "sp": "N",
+  "t": "It triples too. And somewhere in the middle of all that winning, a very quiet thought walks into your head.",
+  "gap": 0.58,
+  "src": [
+   323.29,
+   330.44
+  ]
+ },
+ {
+  "id": "096_N",
+  "sp": "N",
+  "t": "What did I do? Nothing.",
+  "gap": 0.5,
+  "src": [
+   330.44,
+   332.98
+  ]
+ },
+ {
+  "id": "097_N",
+  "sp": "N",
+  "t": "You did nothing. You made a choice.",
+  "gap": 0.4,
+  "src": [
+   332.98,
+   335.7
+  ]
+ },
+ {
+  "id": "098_N",
+  "sp": "N",
+  "t": "And the universe quietly erased the risk from it.",
+  "gap": 0.08,
+  "src": [
+   335.7,
+   338.84
+  ]
+ },
+ {
+  "id": "099_N",
+  "sp": "N",
+  "t": "Here is something most people never think about.",
+  "gap": 0.68,
+  "src": [
+   338.84,
+   341.92
+  ]
+ },
+ {
+  "id": "100_N",
+  "sp": "N",
+  "t": "Every choice you've ever made has a tree behind it.",
+  "gap": 0.54,
+  "src": [
+   341.92,
+   345.72
+  ]
+ },
+ {
+  "id": "101_N",
+  "sp": "N",
+  "t": "Branches where it worked. Branches where it didn't.",
+  "gap": 0.67,
+  "src": [
+   345.72,
+   349.43
+  ]
+ },
+ {
+  "id": "102_N",
+  "sp": "N",
+  "t": "When you pick a restaurant, you are not just picking dinner.",
+  "gap": 0.36,
+  "src": [
+   349.43,
+   352.78
+  ]
+ },
+ {
+  "id": "103_N",
+  "sp": "N",
+  "t": "You are picking a little bundle of possible evenings.",
+  "gap": 0.59,
+  "src": [
+   352.78,
+   356.07
+  ]
+ },
+ {
+  "id": "104_N",
+  "sp": "N",
+  "t": "Some great. Some average.",
+  "gap": 0.59,
+  "src": [
+   356.07,
+   358.45
+  ]
+ },
+ {
+  "id": "105_N",
+  "sp": "N",
+  "t": "A few. Terrible.",
+  "gap": 0.56,
+  "src": [
+   358.45,
+   360.33
+  ]
+ },
+ {
+  "id": "106_N",
+  "sp": "N",
+  "t": "The terrible ones are the reason the great ones feel great.",
+  "gap": 0.7,
+  "src": [
+   360.33,
+   364.44
+  ]
+ },
+ {
+  "id": "107_N",
+  "sp": "N",
+  "t": "Psychologists have a name for the idea that we judge things by comparison, not by absolute value.",
+  "gap": 0.58,
+  "src": [
+   364.44,
+   370.78
+  ]
+ },
+ {
+  "id": "108_N",
+  "sp": "N",
+  "t": "A cold glass of water feels like heaven only after a long walk in the sun.",
+  "gap": 0.54,
+  "src": [
+   370.78,
+   375.92
+  ]
+ },
+ {
+  "id": "109_N",
+  "sp": "N",
+  "t": "The same glass on a rainy Tuesday is just water.",
+  "gap": 0.7,
+  "src": [
+   375.92,
+   379.42
+  ]
+ },
+ {
+  "id": "110_N",
+  "sp": "N",
+  "t": "Your luck deletes the desert.",
+  "gap": 0.5,
+  "src": [
+   379.42,
+   381.86
+  ]
+ },
+ {
+  "id": "111_N",
+  "sp": "N",
+  "t": "You will never be thirsty again.",
+  "gap": 0.52,
+  "src": [
+   381.86,
+   384.17
+  ]
+ },
+ {
+  "id": "112_N",
+  "sp": "N",
+  "t": "And a person who is never thirsty has no idea what water is.",
+  "gap": 0.52,
+  "src": [
+   384.17,
+   388.63
+  ]
+ },
+ {
+  "id": "113_N",
+  "sp": "N",
+  "t": "On day five, you go to a football match with a friend.",
+  "gap": 0.08,
+  "src": [
+   388.63,
+   391.8
+  ]
+ },
+ {
+  "id": "114_N",
+  "sp": "N",
+  "t": "Your team is down by three with one minute left.",
+  "gap": 0.56,
+  "src": [
+   391.8,
+   395.31
+  ]
+ },
+ {
+  "id": "115_N",
+  "sp": "N",
+  "t": "Your friend is screaming.",
+  "gap": 0.47,
+  "src": [
+   395.31,
+   397.1
+  ]
+ },
+ {
+  "id": "116_N",
+  "sp": "N",
+  "t": "Strangers are hugging. A kid beside you is holding his scarf so tight his knuckles turn white.",
+  "gap": 0.34,
+  "src": [
+   397.1,
+   402.97
+  ]
+ },
+ {
+  "id": "117_N",
+  "sp": "N",
+  "t": "And you are just sitting there.",
+  "gap": 0.5,
+  "src": [
+   402.97,
+   405.36
+  ]
+ },
+ {
+  "id": "118_N",
+  "sp": "N",
+  "t": "Calm. Because you already know.",
+  "gap": 0.59,
+  "src": [
+   405.36,
+   408.49
+  ]
+ },
+ {
+  "id": "119_N",
+  "sp": "N",
+  "t": "You can't explain how, but you just know deep in your stomach that it's going to work out.",
+  "gap": 0.45,
+  "src": [
+   408.49,
+   414.25
+  ]
+ },
+ {
+  "id": "120_N",
+  "sp": "N",
+  "t": "It always does. The ball goes in.",
+  "gap": 0.36,
+  "src": [
+   414.25,
+   417.6
+  ]
+ },
+ {
+  "id": "121_N",
+  "sp": "N",
+  "t": "The whole stadium explodes.",
+  "gap": 0.59,
+  "src": [
+   417.6,
+   419.69
+  ]
+ },
+ {
+  "id": "122_N",
+  "sp": "N",
+  "t": "Your friend jumps on your shoulders and you feel nothing.",
+  "gap": 0.7,
+  "src": [
+   419.69,
+   423.95
+  ]
+ },
+ {
+  "id": "123_N",
+  "sp": "N",
+  "t": "You smile because that is what faces do.",
+  "gap": 0.45,
+  "src": [
+   423.95,
+   427.03
+  ]
+ },
+ {
+  "id": "124_N",
+  "sp": "N",
+  "t": "But inside it is flat like a song played one note at a time.",
+  "gap": 0.49,
+  "src": [
+   427.03,
+   432.09
+  ]
+ },
+ {
+  "id": "125_N",
+  "sp": "N",
+  "t": "Day six, you try to find something that can still scare you.",
+  "gap": 0.38,
+  "src": [
+   432.09,
+   436.29
+  ]
+ },
+ {
+  "id": "126_N",
+  "sp": "N",
+  "t": "You climb a mountain without a rope.",
+  "gap": 0.31,
+  "src": [
+   436.29,
+   438.31
+  ]
+ },
+ {
+  "id": "127_N",
+  "sp": "N",
+  "t": "You swim in rough water.",
+  "gap": 0.34,
+  "src": [
+   438.31,
+   440.05
+  ]
+ },
+ {
+  "id": "128_N",
+  "sp": "N",
+  "t": "You drive too fast with the windows down.",
+  "gap": 0.47,
+  "src": [
+   440.05,
+   442.72
+  ]
+ },
+ {
+  "id": "129_N",
+  "sp": "N",
+  "t": "Nothing hurts you. Nothing even comes close.",
+  "gap": 0.52,
+  "src": [
+   442.72,
+   446.21
+  ]
+ },
+ {
+  "id": "130_N",
+  "sp": "N",
+  "t": "And slowly you realize why people climb mountains in the first place.",
+  "gap": 0.56,
+  "src": [
+   446.21,
+   450.77
+  ]
+ },
+ {
+  "id": "131_N",
+  "sp": "N",
+  "t": "It isn't to be safe. It is to feel the rope.",
+  "gap": 0.7,
+  "src": [
+   450.77,
+   454.57
+  ]
+ },
+ {
+  "id": "132_N",
+  "sp": "N",
+  "t": "That night your family throws you a dinner.",
+  "gap": 0.5,
+  "src": [
+   454.57,
+   457.24
+  ]
+ },
+ {
+  "id": "133_N",
+  "sp": "N",
+  "t": "Your mom cooked all day.",
+  "gap": 0.49,
+  "src": [
+   457.24,
+   459.13
+  ]
+ },
+ {
+  "id": "134_N",
+  "sp": "N",
+  "t": "Your dad tells the story of the time you fell off your bike.",
+  "gap": 0.32,
+  "src": [
+   459.13,
+   462.16
+  ]
+ },
+ {
+  "id": "135_N",
+  "sp": "N",
+  "t": "A story he has told a hundred times.",
+  "gap": 0.56,
+  "src": [
+   462.16,
+   464.67
+  ]
+ },
+ {
+  "id": "136_N",
+  "sp": "N",
+  "t": "You listen. You really do.",
+  "gap": 0.47,
+  "src": [
+   464.67,
+   466.8
+  ]
+ },
+ {
+  "id": "137_N",
+  "sp": "N",
+  "t": "But when the story ends, you realize you have no story of your own to add.",
+  "gap": 0.52,
+  "src": [
+   466.8,
+   471.73
+  ]
+ },
+ {
+  "id": "138_N",
+  "sp": "N",
+  "t": "Every story you have starts the same way.",
+  "gap": 0.49,
+  "src": [
+   471.73,
+   474.71
+  ]
+ },
+ {
+  "id": "139_N",
+  "sp": "N",
+  "t": "Something wonderful happened.",
+  "gap": 0.38,
+  "src": [
+   474.71,
+   476.57
+  ]
+ },
+ {
+  "id": "140_N",
+  "sp": "N",
+  "t": "And then something else wonderful happened.",
+  "gap": 0.63,
+  "src": [
+   476.57,
+   479.05
+  ]
+ },
+ {
+  "id": "141_N",
+  "sp": "N",
+  "t": "Think about it. The stories people tell at a table are almost never about perfect days.",
+  "gap": 0.32,
+  "src": [
+   479.05,
+   484.56
+  ]
+ },
+ {
+  "id": "142_N",
+  "sp": "N",
+  "t": "They're about the flat tire in the middle of nowhere.",
+  "gap": 0.36,
+  "src": [
+   484.56,
+   487.34
+  ]
+ },
+ {
+  "id": "143_N",
+  "sp": "N",
+  "t": "The wrong train. The lost wallet that turned into a three-hour adventure with a stranger.",
+  "gap": 0.61,
+  "src": [
+   487.34,
+   492.6
+  ]
+ },
+ {
+  "id": "144_N",
+  "sp": "N",
+  "t": "The mess is the memory.",
+  "gap": 0.63,
+  "src": [
+   492.6,
+   494.85
+  ]
+ },
+ {
+  "id": "145_N",
+  "sp": "N",
+  "t": "Grandma leans over and pats your hand.",
+  "gap": 0.08,
+  "src": [
+   494.85,
+   497.38
+  ]
+ },
+ {
+  "id": "146_N",
+  "sp": "N",
+  "t": "You look tired, sweetheart.",
+  "gap": 0.7,
+  "src": [
+   497.38,
+   499.5
+  ]
+ },
+ {
+  "id": "147_N",
+  "sp": "N",
+  "t": "I'm not, you say. That's the problem.",
+  "gap": 0.45,
+  "src": [
+   499.5,
+   502.71
+  ]
+ },
+ {
+  "id": "148_N",
+  "sp": "N",
+  "t": "I never am. She doesn't say anything clever.",
+  "gap": 0.36,
+  "src": [
+   502.71,
+   506.1
+  ]
+ },
+ {
+  "id": "149_N",
+  "sp": "N",
+  "t": "She just squeezes your hand a little tighter, as if she knows something you were about to find out.",
+  "gap": 0.38,
+  "src": [
+   506.1,
+   512.05
+  ]
+ },
+ {
+  "id": "150_N",
+  "sp": "N",
+  "t": "Day seven. An old friend visits.",
+  "gap": 0.7,
+  "src": [
+   512.05,
+   514.98
+  ]
+ },
+ {
+  "id": "151_N",
+  "sp": "N",
+  "t": "Someone from before the money.",
+  "gap": 0.59,
+  "src": [
+   514.98,
+   517.49
+  ]
+ },
+ {
+  "id": "152_N",
+  "sp": "N",
+  "t": "She is going through a hard time.",
+  "gap": 0.54,
+  "src": [
+   517.49,
+   519.74
+  ]
+ },
+ {
+  "id": "153_N",
+  "sp": "N",
+  "t": "Her small business is failing.",
+  "gap": 0.59,
+  "src": [
+   519.74,
+   521.69
+  ]
+ },
+ {
+  "id": "154_N",
+  "sp": "N",
+  "t": "She asks you for nothing, but you can see it on her face.",
+  "gap": 0.61,
+  "src": [
+   521.69,
+   525.62
+  ]
+ },
+ {
+  "id": "155_N",
+  "sp": "N",
+  "t": "So you help. Of course you do.",
+  "gap": 0.56,
+  "src": [
+   525.62,
+   528.15
+  ]
+ },
+ {
+  "id": "156_N",
+  "sp": "N",
+  "t": "You put money in. You introduce her to the right people.",
+  "gap": 0.4,
+  "src": [
+   528.15,
+   531.22
+  ]
+ },
+ {
+  "id": "157_N",
+  "sp": "N",
+  "t": "You do everything right.",
+  "gap": 0.43,
+  "src": [
+   531.22,
+   532.98
+  ]
+ },
+ {
+  "id": "158_N",
+  "sp": "N",
+  "t": "And everything works. Her shop recovers in weeks.",
+  "gap": 0.5,
+  "src": [
+   532.98,
+   536.84
+  ]
+ },
+ {
+  "id": "159_N",
+  "sp": "N",
+  "t": "She cries. She hugs you.",
+  "gap": 0.27,
+  "src": [
+   536.84,
+   538.97
+  ]
+ },
+ {
+  "id": "160_N",
+  "sp": "N",
+  "t": "She says thank you. But three days later, you overhear her talking to someone on the phone.",
+  "gap": 0.52,
+  "src": [
+   538.97,
+   544.43
+  ]
+ },
+ {
+  "id": "161_N",
+  "sp": "N",
+  "t": "Honestly, I don't think I did anything.",
+  "gap": 0.5,
+  "src": [
+   544.43,
+   547.28
+  ]
+ },
+ {
+  "id": "162_N",
+  "sp": "N",
+  "t": "It was all him. He just makes things work out.",
+  "gap": 0.56,
+  "src": [
+   547.28,
+   550.91
+  ]
+ },
+ {
+  "id": "163_N",
+  "sp": "N",
+  "t": "She isn't being cruel. She is just being accurate.",
+  "gap": 0.52,
+  "src": [
+   550.91,
+   554.53
+  ]
+ },
+ {
+  "id": "164_N",
+  "sp": "N",
+  "t": "And suddenly you understand something that no lottery ticket ever mentioned.",
+  "gap": 0.63,
+  "src": [
+   554.53,
+   559.15
+  ]
+ },
+ {
+  "id": "165_N",
+  "sp": "N",
+  "t": "If luck does everything for you, you don't get to be anyone's hero.",
+  "gap": 0.5,
+  "src": [
+   559.15,
+   563.36
+  ]
+ },
+ {
+  "id": "166_N",
+  "sp": "N",
+  "t": "You don't get to be anyone's anything.",
+  "gap": 0.7,
+  "src": [
+   563.36,
+   565.74
+  ]
+ },
+ {
+  "id": "167_N",
+  "sp": "N",
+  "t": "You are a weather system, not a person.",
+  "gap": 0.7,
+  "src": [
+   565.74,
+   569.32
+  ]
+ },
+ {
+  "id": "168_N",
+  "sp": "N",
+  "t": "Day eight is the worst one.",
+  "gap": 0.54,
+  "src": [
+   569.32,
+   571.9
+  ]
+ },
+ {
+  "id": "169_N",
+  "sp": "N",
+  "t": "You sit in your kitchen and you try to find one thing that can go wrong.",
+  "gap": 0.34,
+  "src": [
+   571.9,
+   576.05
+  ]
+ },
+ {
+  "id": "170_N",
+  "sp": "N",
+  "t": "Just one. You want it so badly it makes you laugh at yourself.",
+  "gap": 0.49,
+  "src": [
+   576.05,
+   580.77
+  ]
+ },
+ {
+  "id": "171_N",
+  "sp": "N",
+  "t": "You flip a coin and call tales.",
+  "gap": 0.7,
+  "src": [
+   580.77,
+   583.19
+  ]
+ },
+ {
+  "id": "172_N",
+  "sp": "N",
+  "t": "It's tales. You flip it again and call heads.",
+  "gap": 0.47,
+  "src": [
+   583.19,
+   586.66
+  ]
+ },
+ {
+  "id": "173_N",
+  "sp": "N",
+  "t": "Heads. You throw a glass at the wall.",
+  "gap": 0.49,
+  "src": [
+   586.66,
+   589.91
+  ]
+ },
+ {
+  "id": "174_N",
+  "sp": "N",
+  "t": "It bounces off a pillow that appeared out of nowhere.",
+  "gap": 0.67,
+  "src": [
+   589.91,
+   592.87
+  ]
+ },
+ {
+  "id": "175_N",
+  "sp": "N",
+  "t": "Then you remember something.",
+  "gap": 0.59,
+  "src": [
+   592.87,
+   595.09
+  ]
+ },
+ {
+  "id": "176_N",
+  "sp": "N",
+  "t": "A girl you used to see at the coffee shop.",
+  "gap": 0.41,
+  "src": [
+   595.09,
+   597.51
+  ]
+ },
+ {
+  "id": "177_N",
+  "sp": "N",
+  "t": "Before everything. She laughed at your terrible jokes.",
+  "gap": 0.58,
+  "src": [
+   597.51,
+   601.18
+  ]
+ },
+ {
+  "id": "178_N",
+  "sp": "N",
+  "t": "You never asked her name. You find her.",
+  "gap": 0.32,
+  "src": [
+   601.18,
+   604.08
+  ]
+ },
+ {
+  "id": "179_N",
+  "sp": "N",
+  "t": "Or maybe luck finds her for you.",
+  "gap": 0.34,
+  "src": [
+   604.08,
+   606.47
+  ]
+ },
+ {
+  "id": "180_N",
+  "sp": "N",
+  "t": "It doesn't matter. You sit across from her.",
+  "gap": 0.08,
+  "src": [
+   606.47,
+   608.92
+  ]
+ },
+ {
+  "id": "181_N",
+  "sp": "N",
+  "t": "You say something and she smiles.",
+  "gap": 0.67,
+  "src": [
+   608.92,
+   611.65
+  ]
+ },
+ {
+  "id": "182_N",
+  "sp": "N",
+  "t": "And for the first time in eight days, you are scared.",
+  "gap": 0.67,
+  "src": [
+   611.65,
+   615.69
+  ]
+ },
+ {
+  "id": "183_N",
+  "sp": "N",
+  "t": "Really scared. Because here is the one question your luck can't answer for you.",
+  "gap": 0.54,
+  "src": [
+   615.69,
+   621.44
+  ]
+ },
+ {
+  "id": "184_N",
+  "sp": "N",
+  "t": "Does she like me? Luck can bend a coin.",
+  "gap": 0.5,
+  "src": [
+   621.44,
+   625.1
+  ]
+ },
+ {
+  "id": "185_N",
+  "sp": "N",
+  "t": "It can bend traffic lights, stock prices, falling bricks and a roulette ball.",
+  "gap": 0.43,
+  "src": [
+   625.1,
+   630.04
+  ]
+ },
+ {
+  "id": "186_N",
+  "sp": "N",
+  "t": "But a person is not a coin.",
+  "gap": 0.56,
+  "src": [
+   630.04,
+   632.41
+  ]
+ },
+ {
+  "id": "187_N",
+  "sp": "N",
+  "t": "A person is a mind.",
+  "gap": 0.08,
+  "src": [
+   632.41,
+   634.06
+  ]
+ },
+ {
+  "id": "188_N",
+  "sp": "N",
+  "t": "And a mind is not a random event.",
+  "gap": 0.54,
+  "src": [
+   634.06,
+   636.8
+  ]
+ },
+ {
+  "id": "189_N",
+  "sp": "N",
+  "t": "Whatever she feels, she feels it for her own reasons.",
+  "gap": 0.58,
+  "src": [
+   636.8,
+   640.42
+  ]
+ },
+ {
+  "id": "190_N",
+  "sp": "N",
+  "t": "You've been searching all week for a risk you could still lose.",
+  "gap": 0.52,
+  "src": [
+   640.42,
+   644.29
+  ]
+ },
+ {
+  "id": "191_N",
+  "sp": "N",
+  "t": "And she is it. Day nine.",
+  "gap": 0.52,
+  "src": [
+   644.29,
+   647.49
+  ]
+ },
+ {
+  "id": "192_N",
+  "sp": "N",
+  "t": "You ask her to dinner. You do it badly.",
+  "gap": 0.5,
+  "src": [
+   647.49,
+   650.3
+  ]
+ },
+ {
+  "id": "193_N",
+  "sp": "N",
+  "t": "You say it too fast and your voice cracks.",
+  "gap": 0.59,
+  "src": [
+   650.3,
+   652.85
+  ]
+ },
+ {
+  "id": "194_N",
+  "sp": "N",
+  "t": "She looks at you. She is quiet for what feels like an hour.",
+  "gap": 0.49,
+  "src": [
+   652.85,
+   656.73
+  ]
+ },
+ {
+  "id": "195_N",
+  "sp": "N",
+  "t": "Then she says, I can't.",
+  "gap": 0.29,
+  "src": [
+   656.73,
+   659.18
+  ]
+ },
+ {
+  "id": "196_N",
+  "sp": "N",
+  "t": "I'm sorry. And you stand there and you feel it.",
+  "gap": 0.36,
+  "src": [
+   659.18,
+   662.98
+  ]
+ },
+ {
+  "id": "197_N",
+  "sp": "N",
+  "t": "A hit in the chest. Sharp.",
+  "gap": 0.34,
+  "src": [
+   662.98,
+   665.23
+  ]
+ },
+ {
+  "id": "198_N",
+  "sp": "N",
+  "t": "Heavy. Real. It is the best you felt in nine days.",
+  "gap": 0.67,
+  "src": [
+   665.23,
+   669.93
+  ]
+ },
+ {
+  "id": "199_N",
+  "sp": "N",
+  "t": "It hurts and the hurt tells you something wonderful.",
+  "gap": 0.58,
+  "src": [
+   669.93,
+   673.4
+  ]
+ },
+ {
+  "id": "200_N",
+  "sp": "N",
+  "t": "You are still in there.",
+  "gap": 0.38,
+  "src": [
+   673.4,
+   675.55
+  ]
+ },
+ {
+  "id": "201_N",
+  "sp": "N",
+  "t": "You are still a person who can lose.",
+  "gap": 0.7,
+  "src": [
+   675.55,
+   678.24
+  ]
+ },
+ {
+  "id": "202_N",
+  "sp": "N",
+  "t": "You walk home slowly.",
+  "gap": 0.63,
+  "src": [
+   678.24,
+   680.37
+  ]
+ },
+ {
+  "id": "203_N",
+  "sp": "N",
+  "t": "You notice the cracked sidewalk.",
+  "gap": 0.49,
+  "src": [
+   680.37,
+   682.39
+  ]
+ },
+ {
+  "id": "204_N",
+  "sp": "N",
+  "t": "You notice the smell of bread from a bakery.",
+  "gap": 0.08,
+  "src": [
+   682.39,
+   684.68
+  ]
+ },
+ {
+  "id": "205_N",
+  "sp": "N",
+  "t": "You notice that the sky is a very specific kind of pink.",
+  "gap": 0.25,
+  "src": [
+   684.68,
+   689.02
+  ]
+ },
+ {
+  "id": "206_N",
+  "sp": "N",
+  "t": "For nine days, nothing could touch you.",
+  "gap": 0.52,
+  "src": [
+   689.02,
+   691.77
+  ]
+ },
+ {
+  "id": "207_N",
+  "sp": "N",
+  "t": "Now, one small no has opened the whole world back up.",
+  "gap": 0.7,
+  "src": [
+   691.77,
+   696.72
+  ]
+ },
+ {
+  "id": "208_N",
+  "sp": "N",
+  "t": "Now, here is the part I promised.",
+  "gap": 0.7,
+  "src": [
+   696.72,
+   699.22
+  ]
+ },
+ {
+  "id": "209_N",
+  "sp": "N",
+  "t": "Remember Tomu Yamaguchi, the man who was in both cities?",
+  "gap": 0.65,
+  "src": [
+   699.22,
+   703.32
+  ]
+ },
+ {
+  "id": "210_N",
+  "sp": "N",
+  "t": "You asked, was that the luckiest man in the world or the unluckiest?",
+  "gap": 0.52,
+  "src": [
+   703.32,
+   707.97
+  ]
+ },
+ {
+  "id": "211_N",
+  "sp": "N",
+  "t": "The answer is, he was alive.",
+  "gap": 0.56,
+  "src": [
+   707.97,
+   710.67
+  ]
+ },
+ {
+  "id": "212_N",
+  "sp": "N",
+  "t": "And that is the answer for every one of us.",
+  "gap": 0.58,
+  "src": [
+   710.67,
+   713.98
+  ]
+ },
+ {
+  "id": "213_N",
+  "sp": "N",
+  "t": "Think about the odds of you, just you sitting here.",
+  "gap": 0.52,
+  "src": [
+   713.98,
+   718.21
+  ]
+ },
+ {
+  "id": "214_N",
+  "sp": "N",
+  "t": "A particular egg, a particular cell out of millions and your parents meeting and their parents all the way back through every war,",
+  "gap": 0.29,
+  "src": [
+   718.21,
+   727.24
+  ]
+ },
+ {
+  "id": "215_N",
+  "sp": "N",
+  "t": "every winter, every wrong turn that somehow missed.",
+  "gap": 0.5,
+  "src": [
+   727.24,
+   731.1
+  ]
+ },
+ {
+  "id": "216_N",
+  "sp": "N",
+  "t": "Nobody can give you an exact number for that.",
+  "gap": 0.36,
+  "src": [
+   731.1,
+   733.84
+  ]
+ },
+ {
+  "id": "217_N",
+  "sp": "N",
+  "t": "Anyone who does is guessing, but it is a staggeringly small chance and it landed on you.",
+  "gap": 0.63,
+  "src": [
+   733.84,
+   740.83
+  ]
+ },
+ {
+  "id": "218_N",
+  "sp": "N",
+  "t": "You are already the luckiest person alive, not because you win everything, because you get to try.",
+  "gap": 0.7,
+  "src": [
+   740.83,
+   748
+  ]
+ },
+ {
+  "id": "219_N",
+  "sp": "N",
+  "t": "On the morning of day 10, the glow goes.",
+  "gap": 0.63,
+  "src": [
+   748,
+   751.51
+  ]
+ },
+ {
+  "id": "220_N",
+  "sp": "N",
+  "t": "You can feel it leave. The first thing that happens is that you miss your bus.",
+  "gap": 0.56,
+  "src": [
+   751.51,
+   756.23
+  ]
+ },
+ {
+  "id": "221_N",
+  "sp": "N",
+  "t": "You run after it. You don't make it.",
+  "gap": 0.29,
+  "src": [
+   756.23,
+   758.5
+  ]
+ },
+ {
+  "id": "222_N",
+  "sp": "N",
+  "t": "You stand there out of breath and you start to laugh.",
+  "gap": 0.5,
+  "src": [
+   758.5,
+   761.86
+  ]
+ },
+ {
+  "id": "223_N",
+  "sp": "N",
+  "t": "You laugh so hard that a stranger asks if you're okay.",
+  "gap": 0.58,
+  "src": [
+   761.86,
+   765.54
+  ]
+ },
+ {
+  "id": "224_N",
+  "sp": "N",
+  "t": "You say, I'm great.",
+  "gap": 0.47,
+  "src": [
+   765.54,
+   767.56
+  ]
+ },
+ {
+  "id": "225_N",
+  "sp": "N",
+  "t": "I'm really great. The lottery money is gone.",
+  "gap": 0.59,
+  "src": [
+   767.56,
+   771.45
+  ]
+ },
+ {
+  "id": "226_N",
+  "sp": "N",
+  "t": "The mansion is gone. Most of the friends are gone, which is fine.",
+  "gap": 0.58,
+  "src": [
+   771.45,
+   776
+  ]
+ },
+ {
+  "id": "227_N",
+  "sp": "N",
+  "t": "The girl from the coffee shop is still just a girl you asked once.",
+  "gap": 0.4,
+  "src": [
+   776,
+   779.68
+  ]
+ },
+ {
+  "id": "228_N",
+  "sp": "N",
+  "t": "But you have a bruise on your knee from running.",
+  "gap": 0.56,
+  "src": [
+   779.68,
+   782.57
+  ]
+ },
+ {
+  "id": "229_N",
+  "sp": "N",
+  "t": "A cold coffee in your hand.",
+  "gap": 0.47,
+  "src": [
+   782.57,
+   784.62
+  ]
+ },
+ {
+  "id": "230_N",
+  "sp": "N",
+  "t": "An unread message from your old friend.",
+  "gap": 0.59,
+  "src": [
+   784.62,
+   786.99
+  ]
+ },
+ {
+  "id": "231_N",
+  "sp": "N",
+  "t": "Lunch? I'll pay.",
+  "gap": 0.43,
+  "src": [
+   786.99,
+   788.82
+  ]
+ },
+ {
+  "id": "232_N",
+  "sp": "N",
+  "t": "You owe me. You write back.",
+  "gap": 0.4,
+  "src": [
+   788.82,
+   790.9
+  ]
+ },
+ {
+  "id": "233_N",
+  "sp": "N",
+  "t": "Deal. But I'm picking the place and I'm warning you.",
+  "gap": 0.23,
+  "src": [
+   790.9,
+   794.31
+  ]
+ },
+ {
+  "id": "234_N",
+  "sp": "N",
+  "t": "It might be terrible. It might be.",
+  "gap": 0.5,
+  "src": [
+   794.31,
+   797.2
+  ]
+ },
+ {
+  "id": "235_N",
+  "sp": "N",
+  "t": "The food could be cold. The waiter could forget your order.",
+  "gap": 0.49,
+  "src": [
+   797.2,
+   800.51
+  ]
+ },
+ {
+  "id": "236_N",
+  "sp": "N",
+  "t": "It might rain on the way and you could forget your umbrella.",
+  "gap": 0.5,
+  "src": [
+   800.51,
+   803.4
+  ]
+ },
+ {
+  "id": "237_N",
+  "sp": "N",
+  "t": "And you can't wait.",
+  "gap": 0.36,
+  "src": [
+   803.4,
+   805.14
+  ]
+ },
+ {
+  "id": "238_N",
+  "sp": "N",
+  "t": "Because for nine days you had every outcome handed to you and you would",
+  "gap": 0.08,
+  "src": [
+   805.14,
+   809.82
+  ]
+ },
+ {
+  "id": "239_N",
+  "sp": "N",
+  "t": "trade all nine of them for one evening where the ending is still a secret.",
+  "gap": 0.45,
+  "src": [
+   809.82,
+   814.49
+  ]
+ },
+ {
+  "id": "240_N",
+  "sp": "N",
+  "t": "And you realize that the luckiest humans alive are not the ones who never lose.",
+  "gap": 0.61,
+  "src": [
+   814.49,
+   819.52
+  ]
+ },
+ {
+  "id": "241_N",
+  "sp": "N",
+  "t": "They are the ones who still get to find out.",
+  "gap": 0.7,
+  "src": [
+   819.52,
+   822.77
+  ]
+ },
+ {
+  "id": "242_N",
+  "sp": "N",
+  "t": "If you want to see what happens when luck goes the other way, tell me in the comments.",
+  "gap": 0.56,
+  "src": [
+   822.77,
+   827.57
+  ]
+ },
+ {
+  "id": "243_N",
+  "sp": "N",
+  "t": "Would you take perfect luck for nine days?",
+  "gap": 0.65,
+  "src": [
+   827.57,
+   830.56
+  ]
+ },
+ {
+  "id": "244_N",
+  "sp": "N",
+  "t": "I'm curious how many of you would last until day",
+  "gap": 0.45,
+  "src": [
+   830.56,
+   833.985
+  ]
+ }
 ]
