@@ -69,3 +69,7 @@ body { font-family: 'Manrope', sans-serif; color: #fff; -webkit-font-smoothing: 
 #progress .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; background: #fff; box-shadow: 0 0 10px rgba(255,255,255,.6); }
 #progress .knob { position: absolute; top: -5px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.4); }
 #progress .times { display: flex; justify-content: space-between; margin-top: 12px; font-size: 18px; font-weight: 700; color: rgba(255,255,255,.75); font-variant-numeric: tabular-nums; }
+
+#dark { inset: 0; background: radial-gradient(ellipse at 50% 50%, rgba(0,0,0,.3), rgba(0,0,0,.92) 75%); opacity: 0; }
+#flash { inset: 0; background: #fff; opacity: 0; mix-blend-mode: screen; }
+#cards { transform-origin: 50% 55%; }

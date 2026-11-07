@@ -264,4 +264,5 @@ C.eyes = (s, ctx) => {
 };
 
 window.CARDS = C;
+window.CARDKIT = { shell, show, popIn, icoBounce, refs: el => { const r = {}; el.querySelectorAll("[data-r]").forEach(n => r[n.dataset.r] = n); return r; } };
 })();

@@ -1,0 +1,11 @@
+{
+  "audio": "../i/input/song.wav",
+  "artist": "И",
+  "title": "",
+  "outName": "И",
+  "bg": "city",
+  "fps": 60,
+  "clipOffset": 0,
+  "songLength": 40.59,
+  "formats": { "square": [1080, 1080] }
+}

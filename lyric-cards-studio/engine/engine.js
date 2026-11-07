@@ -1,6 +1,6 @@
 // Lyric Cards engine: deterministic renderer. window.renderAt(t) draws the frame at time t (seconds).
 (async () => {
-const { clamp, lerp, eo, prog, rnd, hexA, mixHex } = window.U;
+const { clamp, lerp, eo, eio, prog, rnd, hexA, mixHex } = window.U;
 const qs = new URLSearchParams(location.search);
 const CFG = await (await fetch('/project/config.json')).json();
 const AUDIO = await (await fetch('/project/build/audio.json')).json();
@@ -21,6 +21,7 @@ if (!CFG.title) document.querySelector('#header .dot').style.display = 'none';
 
 // ---------- audio helpers ----------
 const envAt = t => { const e = AUDIO.env; const i = clamp(t * AUDIO.fps, 0, e.length - 1); const a = Math.floor(i); return lerp(e[a], e[Math.min(a + 1, e.length - 1)], i - a); };
+window.__GRID = AUDIO.grid;
 const pulseAt = t => { let lb = -9; for (const b of AUDIO.grid) { if (b <= t) lb = b; else break; } return Math.exp(-(t - lb) * 5.5); };
 
 // ---------- background painting (once) ----------
@@ -78,7 +79,31 @@ function paintBackground() {
   og.filter = 'blur(7px)'; og.drawImage(c, 0, 0); og.filter = 'none';
   return o;
 }
-const BG = paintBackground();
+
+// night city at raspberry sunset (bg: "city")
+function paintCity() {
+  const c = document.createElement('canvas'); c.width = BW; c.height = BH; const g = c.getContext('2d');
+  const R = rnd(21); const hz = BH * .66;
+  let gr = g.createLinearGradient(0, 0, 0, hz);
+  gr.addColorStop(0, '#120a2e'); gr.addColorStop(.4, '#3a1660'); gr.addColorStop(.7, '#a3286f'); gr.addColorStop(.9, '#ff5a7a'); gr.addColorStop(1, '#ffa07a');
+  g.fillStyle = gr; g.fillRect(0, 0, BW, BH);
+  for (let i = 0; i < 200; i++) { const y = R() ** 1.7 * hz * .6; g.globalAlpha = .2 + R() * .7; g.fillStyle = '#fff'; g.beginPath(); g.arc(R() * BW, y, R() * 1.6 + .4, 0, 7); g.fill(); }
+  g.globalAlpha = 1;
+  gr = g.createRadialGradient(BW * .5, hz, 0, BW * .5, hz, BW * .6); gr.addColorStop(0, 'rgba(255,190,150,.8)'); gr.addColorStop(.3, 'rgba(255,90,130,.35)'); gr.addColorStop(1, 'rgba(0,0,0,0)'); g.fillStyle = gr; g.fillRect(0, 0, BW, BH);
+  // two skyline layers with lit windows
+  for (const [col, hmin, hmax, wmin, seed, lit] of [['#4a1d5e', .08, .3, 50, 3, .25], ['#1a0b2a', .05, .22, 70, 9, .45]]) {
+    const RR = rnd(seed); let x = -20;
+    while (x < BW) { const w = wmin + RR() * 90, h = BH * (hmin + RR() * (hmax - hmin)); g.fillStyle = col; g.fillRect(x, hz - h, w, h + BH); if (RR() < .2) g.fillRect(x + w / 2 - 3, hz - h - 40, 6, 40);
+      for (let wy = hz - h + 14; wy < hz - 8; wy += 22) for (let wx = x + 8; wx < x + w - 10; wx += 16) if (RR() < lit) { g.fillStyle = RR() < .7 ? 'rgba(255,214,150,.9)' : 'rgba(255,140,200,.9)'; g.fillRect(wx, wy, 7, 10); }
+      x += w + 4; }
+  }
+  // street & reflections
+  gr = g.createLinearGradient(0, hz, 0, BH); gr.addColorStop(0, '#2a0f3a'); gr.addColorStop(1, '#0c0518'); g.fillStyle = gr; g.fillRect(0, hz, BW, BH - hz);
+  for (let i = 0; i < 90; i++) { const y = hz + 10 + R() ** 1.5 * (BH - hz); g.fillStyle = `rgba(255,${120 + R() * 110},${150 + R() * 80},${.15 + R() * .35})`; g.fillRect(R() * BW, y, 4 + R() * 30, 3 + R() * 10); }
+  for (let i = 0; i < 60; i++) { const x = R() * BW, y = hz - 20 + R() * 160, rr = 6 + R() * 22; gr = g.createRadialGradient(x, y, 0, x, y, rr); const cc = R() < .5 ? '255,200,140' : '255,90,160'; gr.addColorStop(0, `rgba(${cc},.8)`); gr.addColorStop(1, `rgba(${cc},0)`); g.fillStyle = gr; g.beginPath(); g.arc(x, y, rr, 0, 7); g.fill(); }
+  const o = document.createElement('canvas'); o.width = BW; o.height = BH; const og = o.getContext('2d'); og.filter = 'blur(8px)'; og.drawImage(c, 0, 0); og.filter = 'none'; return o;
+}
+const BG = CFG.bg === 'city' ? paintCity() : paintBackground();
 const bgc = $('bg'); bgc.width = 1080; bgc.height = SH; const bgx = bgc.getContext('2d');
 
 // ---------- particles ----------
@@ -236,6 +261,18 @@ window.renderAt = (t) => {
   document.querySelector('#progress .fill').style.width = fr * 100 + '%';
   document.querySelector('#progress .knob').style.left = fr * 100 + '%';
   $('tcur').textContent = fmtT(cur); $('tleft').textContent = '-' + fmtT(CFG.songLength - cur);
+
+  // optional drop / dips (dark build-up, flash on release)
+  if (SONG.drop) {
+    const D = SONG.drop; const b = t >= D.from && t < D.at ? eio(prog(t, D.from, D.at - D.from)) : 0;
+    let dk = b * .75; for (const d of SONG.dips || []) dk = Math.max(dk, Math.sin(Math.PI * prog(t, d.from, d.at - d.from + .08)) * .55);
+    dk = Math.max(dk, prog(t, SONG.end - 1, .95));
+    let fl = t >= D.at ? Math.exp(-(t - D.at) * 5) * .85 : 0; for (const d of SONG.dips || []) if (t >= d.at) fl = Math.max(fl, Math.exp(-(t - d.at) * 7) * .4);
+    $('dark').style.opacity = dk; $('flash').style.opacity = fl;
+    const rp = t >= D.at ? Math.exp(-(t - D.at) * 4) * Math.cos((t - D.at) * 14) : 0;
+    stage.style.transform = `scale(${OW / 1080})`;
+    $('cards').style.transform = `scale(${1 + b * .05 + rp * .06})`; $('cards').style.filter = b ? `blur(${b * 3}px)` : 'none';
+  }
   drawCards(t, pulse); drawStreaks(t); drawLyrics(t);
 };
 window.OUT = [OW, OH]; window.DUR = SONG.end; window.FPS = CFG.fps;
