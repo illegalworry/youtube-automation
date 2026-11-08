@@ -1,0 +1,82 @@
+# Distributed Remotion render: splits a composition into N frame ranges, renders them on
+# parallel runners, joins the chunks and muxes the pre-mixed soundtrack.
+# Triggered by pushing a change to videos/<project>/render-request.json:
+#   {"comp": "Long", "jobs": 20, "audio": "public/final-audio.m4a", "frames": 0}
+# frames 0 = whole composition.
+name: render
+on:
+  push:
+    paths: ['videos/*/render-request.json']
+  workflow_dispatch:
+    inputs:
+      project: {description: 'project folder, e.g. videos/whatif-long', required: true}
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      project: ${{ steps.p.outputs.project }}
+      matrix: ${{ steps.p.outputs.matrix }}
+      comp: ${{ steps.p.outputs.comp }}
+      audio: ${{ steps.p.outputs.audio }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 2}
+      - id: p
+        run: |
+          if [ -n "${{ github.event.inputs.project }}" ]; then P="${{ github.event.inputs.project }}"; else
+            P=$(git diff --name-only HEAD~1 HEAD | grep 'render-request.json' | head -1 | xargs dirname); fi
+          echo "project=$P" >> $GITHUB_OUTPUT
+          node -e '
+            const fs=require("fs");const p=process.argv[1];
+            const r=JSON.parse(fs.readFileSync(p+"/render-request.json"));
+            const tl=JSON.parse(fs.readFileSync(p+"/src/story/timeline.json"));
+            const total=r.frames||tl.total; const n=Math.max(1,Math.min(r.jobs||10,40));
+            const per=Math.ceil(total/n); const m=[];
+            for(let i=0;i<n;i++){const a=i*per,b=Math.min(total-1,a+per-1); if(a<=b) m.push({i:String(i).padStart(2,"0"),a,b});}
+            fs.appendFileSync(process.env.GITHUB_OUTPUT,"matrix="+JSON.stringify({include:m})+"\ncomp="+(r.comp||"Long")+"\naudio="+(r.audio||"")+"\n");
+          ' "$P"
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    defaults: {run: {working-directory: '${{ needs.plan.outputs.project }}'}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - run: npm ci --no-audit --no-fund
+      - run: npx remotion browser ensure
+      - name: render frames ${{ matrix.a }}-${{ matrix.b }}
+        run: |
+          for t in 1 2 3; do
+            C=$((4 / t)); [ $C -lt 1 ] && C=1
+            npx remotion render ${{ needs.plan.outputs.comp }} out/c${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --muted --gl=angle --concurrency=$C --crf=18 --timeout=120000 --log=error && exit 0
+            echo "retry $t"
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        with: {name: 'chunk-${{ matrix.i }}', path: '${{ needs.plan.outputs.project }}/out/c${{ matrix.i }}.mp4', retention-days: 7}
+  join:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    defaults: {run: {working-directory: '${{ needs.plan.outputs.project }}'}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'chunk-*', path: '${{ needs.plan.outputs.project }}/out/chunks', merge-multiple: true}
+      - run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null || true
+          cd out/chunks && ls c*.mp4 | sort | sed "s/^/file '/;s/$/'/" > list.txt && cd ../..
+          ffmpeg -v error -y -f concat -safe 0 -i out/chunks/list.txt -c copy out/video.mp4
+          A="${{ needs.plan.outputs.audio }}"
+          if [ -n "$A" ] && [ -f "$A" ]; then
+            ffmpeg -v error -y -i out/video.mp4 -i "$A" -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart out/${{ needs.plan.outputs.comp }}.mp4
+          else mv out/video.mp4 out/${{ needs.plan.outputs.comp }}.mp4; fi
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with: {name: '${{ needs.plan.outputs.comp }}-video', path: '${{ needs.plan.outputs.project }}/out/${{ needs.plan.outputs.comp }}.mp4', retention-days: 30, compression-level: 0}
