@@ -16,7 +16,13 @@ const ARMS = { // [elbow, hand] relative to the shoulder, in head radii, for the
   hips: [[0.56, 0.55], [-0.08, 1.02]],
   point: [[0.6, 0.02], [1.18, -0.16]],
   wave: [[0.62, -0.12], [0.78, -0.82]],
+  // added for the death-date thumbnails
+  cover: [[0.42, 0.12], [-0.4, -0.8]],     // both hands over the mouth
+  flail: [[0.72, -0.3], [1.1, -0.92]],     // falling: arms thrown up and out
+  reach: [[0.58, 0.02], [1.02, -0.1]],     // both arms reaching forward to the prop
+  shield: [[0.55, -0.05], [0.42, -0.62]],  // forearms up in front of the face (recoiling)
 };
+const BOTH = new Set(['cover', 'flail', 'reach', 'shield']);
 export function heroFull(g, x, fy, r, emo = 'smug', o = {}) {
   const dir = o.dir ?? 1, col = o.hoodie || '#d8402e', rim = o.rim || '#5fd8ff', pants = o.pants || '#1b2140';
   const hy = fy - r * 1.3, sy = hy - r * 1.25, y = sy - r * 0.93;
@@ -37,14 +43,15 @@ export function heroFull(g, x, fy, r, emo = 'smug', o = {}) {
   const armOf = (k) => (pose === 'point' || pose === 'wave') ? (k === dir ? ARMS[pose] : ARMS.idle) : ARMS[pose] || ARMS.idle;
   const arm = (k) => {
     const [e, h] = armOf(k), shx = x + k * r * 0.66, shy = sy + r * 0.22;
-    const ex = shx + k * e[0] * r, ey = shy + e[1] * r, hx2 = shx + k * h[0] * r, hy2 = shy + h[1] * r;
+    const kk = pose === 'reach' ? dir : k; // reach: the far arm also goes forward
+    const ex = shx + kk * e[0] * r, ey = shy + e[1] * r, hx2 = shx + kk * h[0] * r, hy2 = shy + h[1] * r;
     const c = k === dir ? shade(col, 0.06) : shade(col, -0.25);
     seg(g, [[shx, shy], [ex, ey], [hx2, hy2]], r * 0.31, c);
     circle(g, hx2, hy2, r * 0.17, INK);
     g.save(); g.globalCompositeOperation = 'lighter'; g.strokeStyle = alpha(rim, 0.4); g.lineWidth = r * 0.03; g.beginPath(); g.arc(hx2, hy2, r * 0.16, dir > 0 ? -1.2 : Math.PI - 0.4, dir > 0 ? 0.4 : Math.PI + 1.2); g.stroke(); g.restore();
     return [hx2, hy2];
   };
-  const hands = {}, over = pose === 'head' || pose === 'up';
+  const hands = {}, over = pose === 'head' || pose === 'up' || BOTH.has(pose);
   if (!over) hands[-dir] = arm(-dir);
   // torso: hoodie
   g.fillStyle = linGrad(g, x - r * 0.9, 0, x + r * 0.9, 0, dir > 0 ? [shade(col, -0.35), col, shade(col, 0.14)] : [shade(col, 0.14), col, shade(col, -0.35)]);

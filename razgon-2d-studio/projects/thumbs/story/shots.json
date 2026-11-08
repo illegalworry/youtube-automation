@@ -15,10 +15,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "pop5",
+    "tpl": "ifv-death",
     "k": 1
    },
-   "vignette": false
+   "vignette": true
   },
   {
    "id": "t2",
@@ -33,10 +33,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "pop5",
+    "tpl": "ifv-death",
     "k": 2
    },
-   "vignette": false
+   "vignette": true
   },
   {
    "id": "t3",
@@ -51,10 +51,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "pop5",
+    "tpl": "ifv-death",
     "k": 3
    },
-   "vignette": false
+   "vignette": true
   },
   {
    "id": "t4",
