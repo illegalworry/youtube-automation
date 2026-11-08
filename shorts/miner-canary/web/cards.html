@@ -1,0 +1,27 @@
+<!doctype html><html><body style="margin:0;background:#888"><canvas id="c" width="2400" height="2000"></canvas>
+<script>window.addEventListener('error',e=>{window.err=String(e.message)});</script>
+<script type="module">
+import * as T from './toon.js';
+const g=document.getElementById('c').getContext('2d'); g.fillStyle='#9cb0c0'; g.fillRect(0,0,2400,2000);
+const list=[
+ p=>T.minerFront(p,'you',{expr:'smile'}),
+ p=>T.minerFront(p,'you',{expr:'grin',items:{sandwich:1,pick:'hand'},L:'hold',R:'hang'}),
+ p=>T.minerFront(p,'foreman',{expr:'shout',L:'up',R:'point',facing:1}),
+ p=>T.minerFront(p,'crewA',{expr:'stern',swing:0.1,facing:1}),
+ p=>T.minerFront(p,'crewB',{expr:'stern',swing:0.9,facing:-1}),
+ p=>T.minerFront(p,'crewC',{expr:'laugh',L:'belly',R:'belly'}),
+ p=>T.minerFront(p,'you',{expr:'puzzled',L:'shrug',R:'shrug'}),
+ p=>T.minerFront(p,'you',{expr:'neutral',L:'holdUp',items:{cage:{beak:1}}}),
+ p=>T.canaryCage(p,{beak:1,proud:true,puff:1}),
+ p=>T.canaryCage(p,{tilt:20,eye:'spiral'}),
+ p=>T.haldaneBox(p,{bird:'sing',beak:1,gas:.3}),
+ p=>T.detector(p,{}),
+ p=>T.minerFront(p,'inspector',{expr:'smile',L:'hold',R:'hang'}),
+ p=>T.minerFront(p,'you',{expr:'yawn',L:'mouth',step:.25}),
+ p=>T.minerFront(p,'foreman',{expr:'nervous',L:'run',R:'run',step:.3,items:{box:{bird:'droop'}}}),
+ p=>{T.fxHeart(p,1);},
+];
+list.forEach((fn,i)=>{g.save();g.translate((i%8)*300,Math.floor(i/8)*1000);g.scale(0.5,1);g.scale(1,1);
+ g.setTransform(0.5,0,0,1,(i%8)*300,Math.floor(i/8)*1000); fn(new T.Pen(g)); g.restore();});
+window.ready=true;
+</script></body></html>
