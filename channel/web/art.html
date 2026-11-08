@@ -33,15 +33,15 @@ if (which === 'avatar') {
   cv.width = 2560; cv.height = 1440;
   sky(2560, 1440);
   cloud(560, 330, 70); cloud(2050, 290, 60); cloud(1300, 180, 50); cloud(300, 1120, 60); cloud(2300, 1150, 55);
-  hill(2560, 1020, 70, 0.6, '#8fbf5a', 1440); hill(2560, 1110, 50, 2.2, '#6fa548', 1440);
+  hill(2560, 912, 22, 0.6, '#8fbf5a', 1440); hill(2560, 1040, 40, 2.2, '#6fa548', 1440);
   // characters, safe area x 507..2053, y 508..931
-  const gy = 965, s = 0.56;
-  card(p => T.romanFront(p, 'legion', { expr: 'smile', facing: 1 }), 585, gy, s);
-  card(p => T.minerFront(p, 'you', { expr: 'smile', L: 'holdUp', items: { cage: { beak: 1, proud: true } } }), 765, gy, s);
-  card(p => T.minerFront(p, 'foreman', { expr: 'puzzled', L: 'shrug', R: 'shrug', facing: -1 }), 1800, gy, s);
-  card(p => T.romanFront(p, 'toga', { expr: 'laugh', facing: -1 }), 1975, gy, s);
-  title(NAME, 1290, 745, 140);
-  g.font = '54px Lilita'; g.textAlign = 'center'; g.lineWidth = 13; g.strokeStyle = INK; g.strokeText(TAG, 1290, 845); g.fillStyle = '#fff'; g.fillText(TAG, 1290, 845);
+  const gy = 905, s = 0.40;
+  card(p => T.romanFront(p, 'legion', { expr: 'smile', facing: 1 }), 770, gy, s);
+  card(p => T.minerFront(p, 'you', { expr: 'smile', L: 'holdUp', items: { cage: { beak: 1, proud: true } } }), 900, gy, s);
+  card(p => T.minerFront(p, 'foreman', { expr: 'puzzled', L: 'shrug', R: 'shrug', facing: -1 }), 1665, gy, s);
+  card(p => T.romanFront(p, 'toga', { expr: 'laugh', facing: -1 }), 1790, gy, s);
+  title(NAME, 1283, 740, 108);
+  g.font = '42px Lilita'; g.textAlign = 'center'; g.lineWidth = 11; g.strokeStyle = INK; g.strokeText(TAG, 1283, 818); g.fillStyle = '#fff'; g.fillText(TAG, 1283, 818);
 }
 window.ready = true;
 </script></body></html>
