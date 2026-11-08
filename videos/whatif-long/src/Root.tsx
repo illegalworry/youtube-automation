@@ -1,5 +1,5 @@
 import React from 'react';
-import {Composition, continueRender, delayRender} from 'remotion';
+import {Composition} from 'remotion';
 import {Long, LONG_FRAMES} from './Long';
 import {Short, SHORT_FRAMES} from './Short';
 import {Sheet, SheetProps, sheetSize} from './Sheet';
@@ -10,15 +10,12 @@ import {CAVEAT_TTF, RUBIK_TTF} from './fonts-data';
 /* open-licence fonts from public/fonts, loaded before the first frame renders */
 // generous timeout: with several render tabs at once a cold font load can take a while;
 // if it still fails the frame renders with the fallback font instead of crashing
-// fonts are embedded as data URIs (no network) and registered synchronously; the load
-// promise resolves without timers, so hidden render tabs never hang on a font
-const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 60000});
-const faces = [new FontFace('Rubik', `url(${RUBIK_TTF})`, {weight: '300 900'}), new FontFace('Caveat', `url(${CAVEAT_TTF})`, {weight: '400 700'})];
-faces.forEach((f) => document.fonts.add(f));
-Promise.all(faces.map((f) => f.load())).then(
-	() => continueRender(fontsReady),
-	() => continueRender(fontsReady),
-);
+// fonts are embedded as data URIs and registered synchronously; no delayRender: a reloaded
+// render tab must never block on a font (it did on CI, every time)
+[new FontFace('Rubik', `url(${RUBIK_TTF})`, {weight: '300 900'}), new FontFace('Caveat', `url(${CAVEAT_TTF})`, {weight: '400 700'})].forEach((f) => {
+	document.fonts.add(f);
+	f.load().catch(() => undefined);
+});
 
 // headings are heavy unless a text asks for another weight (the style's chunky lettering)
 const css = document.createElement('style');

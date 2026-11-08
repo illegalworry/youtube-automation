@@ -53,12 +53,23 @@ jobs:
       - run: npx remotion browser ensure
       - name: render frames ${{ matrix.a }}-${{ matrix.b }}
         run: |
-          for t in 1 2 3; do
-            C=$((4 / t)); [ $C -lt 1 ] && C=1
-            npx remotion render ${{ needs.plan.outputs.comp }} out/c${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --props='{"sound":false}' --muted --gl=angle --concurrency=$C --crf=18 --timeout=120000 --log=error && exit 0
-            echo "retry $t"
+          # small parts: a crash costs one part, not the whole range
+          mkdir -p out/parts && : > out/parts/list.txt
+          s=${{ matrix.a }}; E=${{ matrix.b }}; n=0
+          while [ $s -le $E ]; do
+            e=$((s + 149)); [ $e -gt $E ] && e=$E
+            f=out/parts/p$(printf %03d $n).mp4
+            ok=0
+            for t in 1 2 3 4; do
+              C=$((4 - t)); [ $C -lt 1 ] && C=1
+              if npx remotion render ${{ needs.plan.outputs.comp }} $f --frames=$s-$e --props='{"sound":false}' --muted --gl=angle --concurrency=$C --crf=18 --timeout=120000 --log=error; then ok=1; break; fi
+              echo "retry part $n ($s-$e), attempt $t"
+            done
+            [ $ok = 1 ] || exit 1
+            echo "file '$(basename $f)'" >> out/parts/list.txt
+            s=$((e + 1)); n=$((n + 1))
           done
-          exit 1
+          npx remotion ffmpeg -v error -y -f concat -safe 0 -i out/parts/list.txt -c copy out/c${{ matrix.i }}.mp4
       - uses: actions/upload-artifact@v4
         with: {name: 'chunk-${{ matrix.i }}', path: '${{ needs.plan.outputs.project }}/out/c${{ matrix.i }}.mp4', retention-days: 7}
   join:
