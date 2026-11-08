@@ -1,6 +1,6 @@
 {
  "title": "thumbs",
- "duration": 10,
+ "duration": 20,
  "shots": [
   {
    "id": "t1",
@@ -15,10 +15,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
+    "tpl": "pop5",
     "k": 1
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t2",
@@ -33,10 +33,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
+    "tpl": "pop5",
     "k": 2
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t3",
@@ -51,10 +51,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
+    "tpl": "pop5",
     "k": 3
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t4",
@@ -69,10 +69,10 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
+    "tpl": "pop5",
     "k": 4
    },
-   "vignette": true
+   "vignette": false
   },
   {
    "id": "t5",
@@ -87,8 +87,98 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "thumb",
+    "tpl": "pop5",
     "k": 5
+   },
+   "vignette": false
+  },
+  {
+   "id": "t6",
+   "start": 10,
+   "end": 12,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ifv-schoen",
+    "k": 6
+   },
+   "vignette": true
+  },
+  {
+   "id": "t7",
+   "start": 12,
+   "end": 14,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ifv-schoen",
+    "k": 7
+   },
+   "vignette": true
+  },
+  {
+   "id": "t8",
+   "start": 14,
+   "end": 16,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ifv-schoen",
+    "k": 8
+   },
+   "vignette": true
+  },
+  {
+   "id": "t9",
+   "start": 16,
+   "end": 18,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ifv-schoen",
+    "k": 9
+   },
+   "vignette": true
+  },
+  {
+   "id": "t10",
+   "start": 18,
+   "end": 20,
+   "line": "",
+   "scene": "thumb",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "ifv-schoen",
+    "k": 10
    },
    "vignette": true
   }
