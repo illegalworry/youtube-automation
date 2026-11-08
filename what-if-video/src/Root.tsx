@@ -4,7 +4,7 @@ import {Long, LONG_FRAMES} from './Long';
 import {Short, SHORT_FRAMES} from './Short';
 import {Sheet, SheetProps, sheetSize} from './Sheet';
 import {PauseTime} from './reference/PauseTime';
-import {Thumb, ThumbA, ThumbB, ThumbC, ThumbD} from './story/Thumb';
+import {Thumb, ThumbA, ThumbB, ThumbC, ThumbD, ThumbE} from './story/Thumb';
 
 /* open-licence fonts from public/fonts, loaded before the first frame renders */
 // generous timeout: with several render tabs at once a cold font load can take a while;
@@ -59,6 +59,7 @@ export const Root: React.FC = () => (
 		<Composition id="ThumbB" component={ThumbB} durationInFrames={1} fps={30} width={1920} height={1080} />
 		<Composition id="ThumbC" component={ThumbC} durationInFrames={1} fps={30} width={1920} height={1080} />
 		<Composition id="ThumbD" component={ThumbD} durationInFrames={1} fps={30} width={1920} height={1080} />
+		<Composition id="ThumbE" component={ThumbE} durationInFrames={1} fps={30} width={1920} height={1080} />
 		<Composition id="Reference" component={PauseTime} durationInFrames={300} fps={30} width={1920} height={1080} />
 	</>
 );

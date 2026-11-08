@@ -195,3 +195,15 @@ const Mono: React.FC<{dark: boolean; lines: [string, string]}> = ({dark, lines})
 };
 export const ThumbC: React.FC = () => <Mono dark lines={['I ALREADY', 'WON.']} />;
 export const ThumbD: React.FC = () => <Mono dark={false} lines={['I ALREADY', 'WON.']} />;
+
+/* ---- final: AI-drawn artwork (no text) + exact text overlay done here ---- */
+import {Img, staticFile} from 'remotion';
+export const ThumbE: React.FC = () => (
+	<AbsoluteFill style={{background: '#f0007a'}}>
+		<Img src={staticFile('thumb/art.png')} style={{width: 1920, height: 1080, objectFit: 'cover'}} />
+		<AbsoluteFill style={{padding: '60px 0 0 70px', fontFamily: "'Rubik', sans-serif", fontWeight: 900, textTransform: 'uppercase', transform: 'skewX(-6deg) rotate(-3deg)', transformOrigin: '0 0'}}>
+			<div style={{fontSize: 205, lineHeight: 0.92, color: '#fff', WebkitTextStroke: '16px #0b0b14', paintOrder: 'stroke fill', textShadow: '0 12px 0 #0b0b14', letterSpacing: -5}}>LET ME</div>
+			<div style={{fontSize: 340, lineHeight: 0.9, color: '#ffe11a', WebkitTextStroke: '18px #0b0b14', paintOrder: 'stroke fill', textShadow: '0 16px 0 #0b0b14', letterSpacing: -7}}>LOSE.</div>
+		</AbsoluteFill>
+	</AbsoluteFill>
+);
