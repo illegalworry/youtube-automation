@@ -176,7 +176,7 @@ const S154 = scene({
 	front: (c) => (
 		<g>
 			{[c.w(['154', 50]), c.w(['154', 80])].map((t, i) => (c.f >= t && c.f < t + 4 ? <rect key={i} x={-500} y={-400} width={2920} height={1900} fill="#fff" opacity={0.6} /> : null))}
-			<Callout f={c.f} t0={c.w('156')} t1={c.dur} from={[1246, tagY(900, 1) - 10]} to={[1500, 260]} text="TOP SECRET" c="#ff6a5a" />
+			{!c.short && <Callout f={c.f} t0={c.w('156')} t1={c.dur} from={[1246, tagY(900, 1) - 10]} to={[1500, 260]} text="TOP SECRET" c="#ff6a5a" />}
 		</g>
 	),
 	screen: (c) => acc(c, '154', 'SPIES PHOTOGRAPH FACES', 70),

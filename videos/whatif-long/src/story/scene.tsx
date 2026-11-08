@@ -12,7 +12,10 @@ import {DateTag, tagY} from './places';
 export type When = string | [string, number];
 /* the vertical short crops these shots: their 16:9 screen captions would be cut, so it hides them */
 export const NoScreen = createContext(false);
-export type Ctx = {f: number; gf: number; dur: number; w: (x: When) => number};
+export type Ctx = {f: number; gf: number; dur: number; w: (x: When) => number; short?: boolean; vcam?: [number, number, number]};
+/* the vertical short gives each shot its own camera (world x, y, zoom) so the people it is
+   about stay inside the 9:16 window */
+export const CamOverride = createContext<((c: Ctx) => [number, number, number]) | null>(null);
 type XYZ = [number, number, number];
 
 export type ActorSpec = {
@@ -119,7 +122,14 @@ const ActorNode: React.FC<{a: ActorSpec; c: Ctx; i: number}> = ({a, c, i}) => {
 	const armOver = a.armOver ? c.f >= c.w(a.armOver) && c.f < c.w(a.armOver) + 60 : undefined;
 	const tagX = x + (a.lie !== undefined ? -300 * s : 6 * facing);
 	const ty = a.lie !== undefined ? a.lie - 110 * s : a.seat !== undefined ? a.seat - 164 * s - 92 * s : tagY(fl, s);
-	const tag = a.tag ? (
+	// in the 9:16 short, a tag the narrow frame would cut is left out
+	let tagFits = true;
+	if (c.vcam) {
+		const [X, , z] = c.vcam;
+		const sx = 960 + (tagX - X) * z;
+		tagFits = Math.abs(sx - 960) + 150 * s * z < 300;
+	}
+	const tag = a.tag && tagFits ? (
 		<DateTag
 			x={tagX}
 			y={ty}
@@ -192,7 +202,16 @@ const Crowd: React.FC<{k: CrowdSpec; c: Ctx}> = ({k, c}) => {
 			pose = mode === 'walk' ? walk(ph) : mode === 'panic' ? {...run(ph), armF: [150, 20], armB: [-140, 20]} : run(ph);
 		}
 		out.push(<Extra key={'e' + i} i={i} x={x} floor={fl} s={k.s} pose={pose} seed={k.seed} facing={facing} expr={mode === 'panic' ? 'wide' : undefined} />);
-		if (k.tags)
+		// in the 9:16 short, a crowd tag that would be cut by the narrow frame is left out
+		let tagFits = true;
+		if (c.vcam) {
+			const [X, , z] = c.vcam;
+			const d = k.depth ?? 1.2;
+			const sc = 1 + (z - 1) / d;
+			const sx = 960 + (x - 960) * sc - ((X - 960) * z) / d;
+			tagFits = false; // background tags clutter the narrow frame and get cut; only the main people keep theirs
+		}
+		if (k.tags && tagFits)
 			out.push(
 				<DateTag
 					key={'t' + i}
@@ -214,7 +233,8 @@ export const scene = (sp: Spec): React.FC => {
 		const {f, gf, at, dur} = useShot();
 		const noScreen = useContext(NoScreen);
 		const w = (x: When) => (typeof x === 'string' ? at(x) : at(x[0]) + x[1]);
-		const c: Ctx = {f, gf, dur, w};
+		const camOv = useContext(CamOverride);
+		const c: Ctx = {f, gf, dur, w, short: noScreen};
 		const A = camOn(...sp.cam);
 		let cam: Cam = sp.cam2 ? mixCam(A, camOn(...sp.cam2), interpolate(f, [0, dur], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: ease})) : A;
 		if (sp.keys) {
@@ -225,6 +245,10 @@ export const scene = (sp: Spec): React.FC => {
 				if (k > 0) cur = mixCam(cur, camOn(...xyz), k);
 			}
 			cam = cur;
+		}
+		if (camOv) {
+			c.vcam = camOv(c);
+			cam = camOn(...c.vcam);
 		}
 		for (const [wk, amp] of sp.shake ?? []) {
 			const t0 = w(wk);

@@ -7,7 +7,7 @@ import {clamp, ease} from './kit/kit';
 import {Caption} from './kit/graphics';
 import {ShotHost, VoiceTrack, whipAt} from './Long';
 import {SHORT, Seg} from './story/short';
-import {NoScreen} from './story/scene';
+import {CamOverride, NoScreen} from './story/scene';
 import {STORY} from './story/config';
 
 /* 9:16 version. Two modes (src/story/short.ts):
@@ -105,6 +105,7 @@ const RecutSeg: React.FC<{seg: (typeof TIMED)[number]}> = ({seg}) => {
 	return (
 		<CropBox c={c}>
 			<NoScreen.Provider value={true}>
+			<CamOverride.Provider value={seg.cam ?? null}>
 			<TalkOverride.Provider value={(sp, g) => talkAt(sp, g - seg.ep0 + seg.start)}>
 				<SpeakOverride.Provider value={(g) => speakerAt(g - seg.ep0 + seg.start)}>
 					<ShotCtx.Provider value={ctx}>
@@ -114,6 +115,7 @@ const RecutSeg: React.FC<{seg: (typeof TIMED)[number]}> = ({seg}) => {
 					</ShotCtx.Provider>
 				</SpeakOverride.Provider>
 			</TalkOverride.Provider>
+			</CamOverride.Provider>
 			</NoScreen.Provider>
 		</CropBox>
 	);

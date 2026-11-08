@@ -79,7 +79,7 @@ const S001 = scene({
 		{who: 'hero', x: 780, facing: 1, enter: ['001', 50, -200], gest: [['point', ['001', 50], 60]], handF: 'point', look: [0.8, 0]},
 		{who: 'friend', x: 1150, facing: -1, look: [-0.7, 0], tag: 'OCT 14 2058', tagOn: ['002', 25], expr: [['003', 'worried']]},
 	],
-	front: (c) => <Callout f={c.f} t0={c.w(['003', 110])} t1={c.w(['003', 200])} from={[1150, tagY(900, 1) - 10]} to={[1450, 300]} text="THE DAY THEY DIE" c="#ff6a5a" />,
+	front: (c) => (!c.short ? <Callout f={c.f} t0={c.w(['003', 110])} t1={c.w(['003', 200])} from={[1150, tagY(900, 1) - 10]} to={[1450, 300]} text="THE DAY THEY DIE" c="#ff6a5a" /> : null),
 	screen: (c) => <>{acc(c, ['003', 0], 'NOT AGE · NOT WEIGHT', 100, 860)}</>,
 });
 
@@ -518,7 +518,7 @@ const S056 = scene({
 		<g>
 			<DeskFront x={980} w={520} c="#5a4a3a" y={770} />
 			<Paper x={960} y={640} rot={-2} title="30-YEAR MORTGAGE" st={c.f >= c.w(['058', 4]) ? c.f - c.w(['058', 4]) : -1} stamp="DENIED" />
-			<Callout f={c.f} t0={c.w(['057', 40])} t1={c.w('058') + 30} from={[760, tagY(900, 1) - 10]} to={[420, 300]} text="4 YEARS LEFT" c="#ff6a5a" />
+			{!c.short && <Callout f={c.f} t0={c.w(['057', 40])} t1={c.w('058') + 30} from={[760, tagY(900, 1) - 10]} to={[420, 300]} text="4 YEARS LEFT" c="#ff6a5a" />}
 		</g>
 	),
 	screen: (c) => acc(c, '059', 'YOUR DATE = YOUR CREDIT SCORE', 90),
@@ -719,7 +719,7 @@ const S100 = scene({
 			{c.f > c.w(['100', 50]) ? (
 				[0, 1].map((i) => <ellipse key={i} cx={918 + i * 6} cy={600 + ((c.f * 3 + i * 20) % 60)} rx={4} ry={7} fill="#8bd0f0" />)
 			) : null}
-			<Callout f={c.f} t0={c.w('101')} t1={c.dur} from={[990, 600]} to={[1130, 330]} text="WILL LIVE TO 108" align="center" />
+			{!c.short && <Callout f={c.f} t0={c.w('101')} t1={c.dur} from={[990, 600]} to={[1130, 330]} text="WILL LIVE TO 108" align="center" />}
 		</g>
 	),
 	screen: (c) => acc(c, '100', 'OHIO', 50),

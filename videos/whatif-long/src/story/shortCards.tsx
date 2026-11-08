@@ -44,7 +44,7 @@ export const CardSpike: React.FC<{f: number; dur: number}> = ({f, dur}) => {
 							const i = r * 3 + c;
 							const s = 0.5 + r * 0.14;
 							const fl = 1180 + r * 190;
-							const x = 200 + c * 340 + (r % 2) * 140 - 70;
+							const x = 240 + c * 300 + (r % 2) * 70;
 							return (
 								<g key={i} opacity={interpolate(f, [10 + i * 3, 20 + i * 3], [0, 1], cl)}>
 									<Extra i={i} x={x} floor={fl} s={s} seed="card" pose={idle(f + 5000, i)} facing={i % 2 ? 1 : -1} />
