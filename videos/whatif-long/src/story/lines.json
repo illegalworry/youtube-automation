@@ -1,5 +1,1402 @@
 [
- {"id": "001_N", "sp": "N", "t": "Что если бы над твоей головой висел шагомер?", "action": "герой входит слева, останавливается, поднимает глаза на табличку", "graphic": "табличка ШАГИ 0 над головой"},
- {"id": "002_FRIEND", "sp": "FRIEND", "t": "Ого, у тебя девять тысяч девятьсот девяносто девять шагов!", "action": "друг входит справа, тычет пальцем в табличку", "graphic": "цифры прокручиваются до 9999, выноска «9 999»"},
- {"id": "003_HERO", "sp": "HERO", "t": "Сейчас будет десять тысяч. Смотри.", "action": "трогает лицо, делает один шаг, дают пять", "graphic": "щелчок 10000, искры"}
+{
+"id": "001_N",
+"sp": "N",
+"t": "Look at the person closest to you right now."
+},
+{
+"id": "002_N",
+"sp": "N",
+"t": "Imagine a small number floating above their head."
+},
+{
+"id": "003_N",
+"sp": "N",
+"t": "Not their age, not their weight, the exact day they will die."
+},
+{
+"id": "004_N",
+"sp": "N",
+"t": "Now imagine everyone on Earth wakes up tomorrow and sees these numbers."
+},
+{
+"id": "005_N",
+"sp": "N",
+"t": "Your mom, your boss, the baby in the stroller across the street."
+},
+{
+"id": "006_N",
+"sp": "N",
+"t": "And you."
+},
+{
+"id": "007_N",
+"sp": "N",
+"t": "Except you can't see your own."
+},
+{
+"id": "008_N",
+"sp": "N",
+"t": "Within a week, the world economy collapses."
+},
+{
+"id": "009_N",
+"sp": "N",
+"t": "Within a month, a new religion is born."
+},
+{
+"id": "010_N",
+"sp": "N",
+"t": "And within a year, someone discovers something terrifying."
+},
+{
+"id": "011_N",
+"sp": "N",
+"t": "Two billion of these numbers show the exact same date."
+},
+{
+"id": "012_N",
+"sp": "N",
+"t": "This is what the first five years of that world would look like."
+},
+{
+"id": "013_N",
+"sp": "N",
+"t": "And the ending is not what you think."
+},
+{
+"id": "014_N",
+"sp": "N",
+"t": "It starts at 614 in the morning in Tokyo."
+},
+{
+"id": "015_N",
+"sp": "N",
+"t": "A nurse finishing a night shift looks up from her coffee"
+},
+{
+"id": "016_N",
+"sp": "N",
+"t": "and sees a thin line of white digits hovering above her colleague's head."
+},
+{
+"id": "017_N",
+"sp": "N",
+"t": "March 11th, 2061."
+},
+{
+"id": "018_N",
+"sp": "N",
+"t": "She blinks."
+},
+{
+"id": "019_N",
+"sp": "N",
+"t": "It's still there."
+},
+{
+"id": "020_N",
+"sp": "N",
+"t": "She turns to the patient in bed four."
+},
+{
+"id": "021_N",
+"sp": "N",
+"t": "His number shows today's date."
+},
+{
+"id": "022_N",
+"sp": "N",
+"t": "Within an hour, the same thing is happening on every continent."
+},
+{
+"id": "023_N",
+"sp": "N",
+"t": "Every human being now carries a date above their head,"
+},
+{
+"id": "024_N",
+"sp": "N",
+"t": "visible to everyone around them."
+},
+{
+"id": "025_N",
+"sp": "N",
+"t": "The digits don't cast shadows."
+},
+{
+"id": "026_N",
+"sp": "N",
+"t": "They don't show up on cameras."
+},
+{
+"id": "027_N",
+"sp": "N",
+"t": "You can't cover them with a hat or block them with your hand."
+},
+{
+"id": "028_N",
+"sp": "N",
+"t": "And there's one rule that makes all of this so much worse."
+},
+{
+"id": "029_N",
+"sp": "N",
+"t": "You can see everyone's date except your own."
+},
+{
+"id": "030_N",
+"sp": "N",
+"t": "At first, people think it's a mass hallucination."
+},
+{
+"id": "031_N",
+"sp": "N",
+"t": "Governments call emergency meetings."
+},
+{
+"id": "032_N",
+"sp": "N",
+"t": "Scientists scan brains, test eyes, check the water supply."
+},
+{
+"id": "033_N",
+"sp": "N",
+"t": "Nothing."
+},
+{
+"id": "034_N",
+"sp": "N",
+"t": "Then, at 437 that afternoon, the patient in bed four dies."
+},
+{
+"id": "035_N",
+"sp": "N",
+"t": "Exactly on his date."
+},
+{
+"id": "036_N",
+"sp": "N",
+"t": "And then another person dies on their date."
+},
+{
+"id": "037_N",
+"sp": "N",
+"t": "And another."
+},
+{
+"id": "038_N",
+"sp": "N",
+"t": "By midnight, roughly 170,000 people around the world have died."
+},
+{
+"id": "039_N",
+"sp": "N",
+"t": "About the same number that die on any normal day."
+},
+{
+"id": "040_N",
+"sp": "N",
+"t": "Every single one of them died on the date above their head."
+},
+{
+"id": "041_N",
+"sp": "N",
+"t": "Nobody can prove the numbers are real,"
+},
+{
+"id": "042_N",
+"sp": "N",
+"t": "but nobody can prove they're wrong either."
+},
+{
+"id": "043_N",
+"sp": "N",
+"t": "And that's when the panic starts."
+},
+{
+"id": "044_N",
+"sp": "N",
+"t": "The first thing to break isn't people."
+},
+{
+"id": "045_N",
+"sp": "N",
+"t": "It's money."
+},
+{
+"id": "046_N",
+"sp": "N",
+"t": "Think about how life insurance works."
+},
+{
+"id": "047_N",
+"sp": "N",
+"t": "Companies bet that you'll live longer than you expect."
+},
+{
+"id": "048_N",
+"sp": "N",
+"t": "Now, everybody knows exactly who will die and when."
+},
+{
+"id": "049_N",
+"sp": "N",
+"t": "People with a date next year rush to buy the biggest policies they can find."
+},
+{
+"id": "050_N",
+"sp": "N",
+"t": "People with a date in 2090 cancel theirs."
+},
+{
+"id": "051_N",
+"sp": "N",
+"t": "Within 72 hours, every major insurance company on the planet stops selling policies."
+},
+{
+"id": "052_N",
+"sp": "N",
+"t": "Pension funds, which are built on guesses about how long people will live,"
+},
+{
+"id": "053_N",
+"sp": "N",
+"t": "suddenly have perfect information."
+},
+{
+"id": "054_N",
+"sp": "N",
+"t": "And it's catastrophic."
+},
+{
+"id": "055_N",
+"sp": "N",
+"t": "Some countries realize they owe trillions more than they planned for."
+},
+{
+"id": "056_N",
+"sp": "N",
+"t": "Banks freeze too."
+},
+{
+"id": "057_N",
+"sp": "N",
+"t": "Would you give a 30-year mortgage to someone whose date says they have four years left?"
+},
+{
+"id": "058_N",
+"sp": "N",
+"t": "Neither would they."
+},
+{
+"id": "059_N",
+"sp": "N",
+"t": "Overnight, your date becomes your credit score."
+},
+{
+"id": "060_N",
+"sp": "N",
+"t": "Then it becomes your resume."
+},
+{
+"id": "061_N",
+"sp": "N",
+"t": "Companies don't want to train employees who will be gone in 18 months."
+},
+{
+"id": "062_N",
+"sp": "N",
+"t": "Job listings quietly start saying things like,"
+},
+{
+"id": "063_N",
+"sp": "N",
+"t": "long-term candidates preferred."
+},
+{
+"id": "064_N",
+"sp": "N",
+"t": "Everybody knows what it means."
+},
+{
+"id": "065_N",
+"sp": "N",
+"t": "And here's where it gets dark."
+},
+{
+"id": "066_N",
+"sp": "N",
+"t": "A new class system appears almost instantly."
+},
+{
+"id": "067_N",
+"sp": "N",
+"t": "People with long dates, call them the longs,"
+},
+{
+"id": "068_N",
+"sp": "N",
+"t": "get loans, jobs, apartments, and marriage proposals."
+},
+{
+"id": "069_N",
+"sp": "N",
+"t": "People with short dates, the shorts, get sympathy and get left behind."
+},
+{
+"id": "070_N",
+"sp": "N",
+"t": "But there's one industry that wants longs more than any other."
+},
+{
+"id": "071_N",
+"sp": "N",
+"t": "Because if your date is 10 years away, you are, in a way, untouchable."
+},
+{
+"id": "072_N",
+"sp": "N",
+"t": "Nothing can kill you before then."
+},
+{
+"id": "073_N",
+"sp": "N",
+"t": "Not a car crash."
+},
+{
+"id": "074_N",
+"sp": "N",
+"t": "Not a bullet."
+},
+{
+"id": "075_N",
+"sp": "N",
+"t": "Not a fall from a building."
+},
+{
+"id": "076_N",
+"sp": "N",
+"t": "Armies notice this first."
+},
+{
+"id": "077_N",
+"sp": "N",
+"t": "Soldiers with distant dates suddenly become the most valuable people on the planet."
+},
+{
+"id": "078_N",
+"sp": "N",
+"t": "Firefighters, miners, deep sea welders, test pilots."
+},
+{
+"id": "079_N",
+"sp": "N",
+"t": "Every dangerous job now hires by date."
+},
+{
+"id": "080_N",
+"sp": "N",
+"t": "But wait, is that actually true?"
+},
+{
+"id": "081_N",
+"sp": "N",
+"t": "Can you really not die before your date?"
+},
+{
+"id": "082_N",
+"sp": "N",
+"t": "Hold on to that question, because the answer changes everything."
+},
+{
+"id": "083_N",
+"sp": "N",
+"t": "Meanwhile, something quieter is happening in every home on Earth."
+},
+{
+"id": "084_N",
+"sp": "N",
+"t": "Imagine a couple lying in bed the night the numbers appear."
+},
+{
+"id": "085_N",
+"sp": "N",
+"t": "She looks at him, 2071."
+},
+{
+"id": "086_N",
+"sp": "N",
+"t": "He looks at her, 2029."
+},
+{
+"id": "087_N",
+"sp": "N",
+"t": "Neither of them says anything."
+},
+{
+"id": "088_N",
+"sp": "N",
+"t": "What do you even say?"
+},
+{
+"id": "089_N",
+"sp": "N",
+"t": "Dating apps add a new filter within a week."
+},
+{
+"id": "090_N",
+"sp": "N",
+"t": "Of course they do."
+},
+{
+"id": "091_N",
+"sp": "N",
+"t": "Some people only want partners whose dates match theirs,"
+},
+{
+"id": "092_N",
+"sp": "N",
+"t": "so neither of them has to be left alone."
+},
+{
+"id": "093_N",
+"sp": "N",
+"t": "Others do the opposite."
+},
+{
+"id": "094_N",
+"sp": "N",
+"t": "They look for someone with a short date,"
+},
+{
+"id": "095_N",
+"sp": "N",
+"t": "just to have a love story with a guaranteed ending,"
+},
+{
+"id": "096_N",
+"sp": "N",
+"t": "like a movie you already know the end of."
+},
+{
+"id": "097_N",
+"sp": "N",
+"t": "Then there are the parents."
+},
+{
+"id": "098_N",
+"sp": "N",
+"t": "New babies are born with their dates already glowing above their cribs."
+},
+{
+"id": "099_N",
+"sp": "N",
+"t": "A mother in Lagos holds her newborn and sees a date 11 months away."
+},
+{
+"id": "100_N",
+"sp": "N",
+"t": "A father in Ohio sees 2134 and starts crying,"
+},
+{
+"id": "101_N",
+"sp": "N",
+"t": "because his son will live to 108 and he'll miss almost all of it."
+},
+{
+"id": "102_N",
+"sp": "N",
+"t": "Hospitals change completely."
+},
+{
+"id": "103_N",
+"sp": "N",
+"t": "Doctors stop fighting for patients whose date is today."
+},
+{
+"id": "104_N",
+"sp": "N",
+"t": "Then a strange thing happens."
+},
+{
+"id": "105_N",
+"sp": "N",
+"t": "Some of those patients survive surgery anyway,"
+},
+{
+"id": "106_N",
+"sp": "N",
+"t": "and die 3 hours later of something completely unrelated."
+},
+{
+"id": "107_N",
+"sp": "N",
+"t": "The date isn't a prediction."
+},
+{
+"id": "108_N",
+"sp": "N",
+"t": "It's an appointment."
+},
+{
+"id": "109_N",
+"sp": "N",
+"t": "So, back to the question."
+},
+{
+"id": "110_N",
+"sp": "N",
+"t": "Can you die before your date?"
+},
+{
+"id": "111_N",
+"sp": "N",
+"t": "People test it."
+},
+{
+"id": "112_N",
+"sp": "N",
+"t": "Of course they do."
+},
+{
+"id": "113_N",
+"sp": "N",
+"t": "In the first month, thrill seekers with long dates do insane things."
+},
+{
+"id": "114_N",
+"sp": "N",
+"t": "They jump off bridges without ropes."
+},
+{
+"id": "115_N",
+"sp": "N",
+"t": "They play Russian Roulette on live streams."
+},
+{
+"id": "116_N",
+"sp": "N",
+"t": "And they survive."
+},
+{
+"id": "117_N",
+"sp": "N",
+"t": "Every time."
+},
+{
+"id": "118_N",
+"sp": "N",
+"t": "The gun jams."
+},
+{
+"id": "119_N",
+"sp": "N",
+"t": "The fall is broken by a truck full of mattresses that just happen to be passing underneath."
+},
+{
+"id": "120_N",
+"sp": "N",
+"t": "The universe, it seems,"
+},
+{
+"id": "121_N",
+"sp": "N",
+"t": "will bend itself into ridiculous shapes to keep you alive until your appointment."
+},
+{
+"id": "122_N",
+"sp": "N",
+"t": "If this is already messing with your head,"
+},
+{
+"id": "123_N",
+"sp": "N",
+"t": "hitting like helps more people find this video,"
+},
+{
+"id": "124_N",
+"sp": "N",
+"t": "because it gets so much stranger."
+},
+{
+"id": "125_N",
+"sp": "N",
+"t": "Surviving isn't the same as being okay."
+},
+{
+"id": "126_N",
+"sp": "N",
+"t": "A man in Brazil with a date 40 years away walks into traffic to prove he's immortal."
+},
+{
+"id": "127_N",
+"sp": "N",
+"t": "He survives."
+},
+{
+"id": "128_N",
+"sp": "N",
+"t": "He also spends those 40 years paralyzed from the neck down."
+},
+{
+"id": "129_N",
+"sp": "N",
+"t": "The date guarantees you'll be alive."
+},
+{
+"id": "130_N",
+"sp": "N",
+"t": "It doesn't guarantee what kind of life."
+},
+{
+"id": "131_N",
+"sp": "N",
+"t": "Suddenly the numbers don't feel like a gift."
+},
+{
+"id": "132_N",
+"sp": "N",
+"t": "They feel like a sentence."
+},
+{
+"id": "133_N",
+"sp": "N",
+"t": "And then, about 6 months in,"
+},
+{
+"id": "134_N",
+"sp": "N",
+"t": "a data scientist in Seoul does something nobody has done before."
+},
+{
+"id": "135_N",
+"sp": "N",
+"t": "She collects millions of dates from public photos, street footage,"
+},
+{
+"id": "136_N",
+"sp": "N",
+"t": "and volunteers and puts them all on one graph."
+},
+{
+"id": "137_N",
+"sp": "N",
+"t": "Most of it looks normal."
+},
+{
+"id": "138_N",
+"sp": "N",
+"t": "A smooth curve."
+},
+{
+"id": "139_N",
+"sp": "N",
+"t": "People dying a little bit every day spread out over the next hundred years."
+},
+{
+"id": "140_N",
+"sp": "N",
+"t": "Except for one spike."
+},
+{
+"id": "141_N",
+"sp": "N",
+"t": "One single day where the line shoots straight up off the chart."
+},
+{
+"id": "142_N",
+"sp": "N",
+"t": "On that day, according to the numbers,"
+},
+{
+"id": "143_N",
+"sp": "N",
+"t": "roughly 2 billion people die at once."
+},
+{
+"id": "144_N",
+"sp": "N",
+"t": "The date is September 9, 2031."
+},
+{
+"id": "145_N",
+"sp": "N",
+"t": "Less than five years away."
+},
+{
+"id": "146_N",
+"sp": "N",
+"t": "The graph goes viral in under an hour."
+},
+{
+"id": "147_N",
+"sp": "N",
+"t": "And the world splits into three groups."
+},
+{
+"id": "148_N",
+"sp": "N",
+"t": "The first group believes it's a war."
+},
+{
+"id": "149_N",
+"sp": "N",
+"t": "Two billion deaths in one day?"
+},
+{
+"id": "150_N",
+"sp": "N",
+"t": "What else could it be?"
+},
+{
+"id": "151_N",
+"sp": "N",
+"t": "Governments start checking the dates of their own leaders."
+},
+{
+"id": "152_N",
+"sp": "N",
+"t": "If the president's date is September 9, 2031, that tells you something."
+},
+{
+"id": "153_N",
+"sp": "N",
+"t": "If it isn't, that tells you something too."
+},
+{
+"id": "154_N",
+"sp": "N",
+"t": "Spies stop stealing documents and start photographing faces."
+},
+{
+"id": "155_N",
+"sp": "N",
+"t": "Suddenly, the most classified information in the world"
+},
+{
+"id": "156_N",
+"sp": "N",
+"t": "is the number floating above a general's head."
+},
+{
+"id": "157_N",
+"sp": "N",
+"t": "The second group believes it's something from space."
+},
+{
+"id": "158_N",
+"sp": "N",
+"t": "An asteroid."
+},
+{
+"id": "159_N",
+"sp": "N",
+"t": "A solar flare."
+},
+{
+"id": "160_N",
+"sp": "N",
+"t": "A gamma ray burst."
+},
+{
+"id": "161_N",
+"sp": "N",
+"t": "Astronomers scan the sky night after night."
+},
+{
+"id": "162_N",
+"sp": "N",
+"t": "They find nothing."
+},
+{
+"id": "163_N",
+"sp": "N",
+"t": "But they point out something unsettling."
+},
+{
+"id": "164_N",
+"sp": "N",
+"t": "The people with that date aren't spread evenly."
+},
+{
+"id": "165_N",
+"sp": "N",
+"t": "They're concentrated."
+},
+{
+"id": "166_N",
+"sp": "N",
+"t": "Coastal cities."
+},
+{
+"id": "167_N",
+"sp": "N",
+"t": "Low-lying countries."
+},
+{
+"id": "168_N",
+"sp": "N",
+"t": "Entire regions where almost every single person shares the same number."
+},
+{
+"id": "169_N",
+"sp": "N",
+"t": "The third group doesn't care about the cause at all."
+},
+{
+"id": "170_N",
+"sp": "N",
+"t": "They just want to get out."
+},
+{
+"id": "171_N",
+"sp": "N",
+"t": "People with the date start moving inland."
+},
+{
+"id": "172_N",
+"sp": "N",
+"t": "To mountains."
+},
+{
+"id": "173_N",
+"sp": "N",
+"t": "To other continents."
+},
+{
+"id": "174_N",
+"sp": "N",
+"t": "And here's the cruelest twist of all."
+},
+{
+"id": "175_N",
+"sp": "N",
+"t": "When they move, their numbers don't change."
+},
+{
+"id": "176_N",
+"sp": "N",
+"t": "A family flees from the coast of Bangladesh to the mountains of Nepal."
+},
+{
+"id": "177_N",
+"sp": "N",
+"t": "And the date stays exactly the same."
+},
+{
+"id": "178_N",
+"sp": "N",
+"t": "Wherever they go, whatever they do, September 9th follows them."
+},
+{
+"id": "179_N",
+"sp": "N",
+"t": "Which raises a question that keeps scientists awake at night."
+},
+{
+"id": "180_N",
+"sp": "N",
+"t": "Are the dates showing the future?"
+},
+{
+"id": "181_N",
+"sp": "N",
+"t": "Or creating it?"
+},
+{
+"id": "182_N",
+"sp": "N",
+"t": "Think about it."
+},
+{
+"id": "183_N",
+"sp": "N",
+"t": "If two billion people know they'll die on the same day,"
+},
+{
+"id": "184_N",
+"sp": "N",
+"t": "what do they do in the years before?"
+},
+{
+"id": "185_N",
+"sp": "N",
+"t": "Some quit their jobs."
+},
+{
+"id": "186_N",
+"sp": "N",
+"t": "Some stop paying debts."
+},
+{
+"id": "187_N",
+"sp": "N",
+"t": "Some spend everything they have."
+},
+{
+"id": "188_N",
+"sp": "N",
+"t": "Whole economies start to collapse."
+},
+{
+"id": "189_N",
+"sp": "N",
+"t": "Not because of a disaster, but because of the prediction of one."
+},
+{
+"id": "190_N",
+"sp": "N",
+"t": "Factories close."
+},
+{
+"id": "191_N",
+"sp": "N",
+"t": "Supply chains break."
+},
+{
+"id": "192_N",
+"sp": "N",
+"t": "Food prices explode."
+},
+{
+"id": "193_N",
+"sp": "N",
+"t": "And people start to wonder,"
+},
+{
+"id": "194_N",
+"sp": "N",
+"t": "what if the numbers aren't predicting a catastrophe?"
+},
+{
+"id": "195_N",
+"sp": "N",
+"t": "What if the catastrophe is us reacting to the numbers?"
+},
+{
+"id": "196_N",
+"sp": "N",
+"t": "Then the religions arrive."
+},
+{
+"id": "197_N",
+"sp": "N",
+"t": "A movement called The Appointed teaches that the date is a message."
+},
+{
+"id": "198_N",
+"sp": "N",
+"t": "Proof that every life has a fixed purpose and a fixed end."
+},
+{
+"id": "199_N",
+"sp": "N",
+"t": "So fear is pointless."
+},
+{
+"id": "200_N",
+"sp": "N",
+"t": "Millions join."
+},
+{
+"id": "201_N",
+"sp": "N",
+"t": "Another group, The Unwritten, believes the numbers are a test."
+},
+{
+"id": "202_N",
+"sp": "N",
+"t": "And that if enough people refuse to accept them, the future will change."
+},
+{
+"id": "203_N",
+"sp": "N",
+"t": "They hold mass gatherings and stare into mirrors together."
+},
+{
+"id": "204_N",
+"sp": "N",
+"t": "Trying to break the rule."
+},
+{
+"id": "205_N",
+"sp": "N",
+"t": "Trying to see their own date."
+},
+{
+"id": "206_N",
+"sp": "N",
+"t": "Nobody ever does."
+},
+{
+"id": "207_N",
+"sp": "N",
+"t": "Well, almost nobody."
+},
+{
+"id": "208_N",
+"sp": "N",
+"t": "About two years before the spike,"
+},
+{
+"id": "209_N",
+"sp": "N",
+"t": "a seven-year-old girl in a small town in Portugal tells her teacher something strange."
+},
+{
+"id": "210_N",
+"sp": "N",
+"t": "The number above her teacher's head is different from yesterday."
+},
+{
+"id": "211_N",
+"sp": "N",
+"t": "It moved."
+},
+{
+"id": "212_N",
+"sp": "N",
+"t": "From September 9, 2031 to the year 2068."
+},
+{
+"id": "213_N",
+"sp": "N",
+"t": "At first, nobody believes her."
+},
+{
+"id": "214_N",
+"sp": "N",
+"t": "Kids say things."
+},
+{
+"id": "215_N",
+"sp": "N",
+"t": "But the teacher's family checks."
+},
+{
+"id": "216_N",
+"sp": "N",
+"t": "The neighbor's check."
+},
+{
+"id": "217_N",
+"sp": "N",
+"t": "The whole town checks."
+},
+{
+"id": "218_N",
+"sp": "N",
+"t": "The number really did change."
+},
+{
+"id": "219_N",
+"sp": "N",
+"t": "It's the first confirmed case in history."
+},
+{
+"id": "220_N",
+"sp": "N",
+"t": "Investigators fly in from everywhere."
+},
+{
+"id": "221_N",
+"sp": "N",
+"t": "They want to know what she did."
+},
+{
+"id": "222_N",
+"sp": "N",
+"t": "Did she move?"
+},
+{
+"id": "223_N",
+"sp": "N",
+"t": "Take a medicine?"
+},
+{
+"id": "224_N",
+"sp": "N",
+"t": "Pray?"
+},
+{
+"id": "225_N",
+"sp": "N",
+"t": "The answer turns out to be almost disappointing."
+},
+{
+"id": "226_N",
+"sp": "N",
+"t": "She didn't do anything for herself."
+},
+{
+"id": "227_N",
+"sp": "N",
+"t": "The night before, she had decided to stay behind and run a shelter for elderly people"
+},
+{
+"id": "228_N",
+"sp": "N",
+"t": "who couldn't evacuate."
+},
+{
+"id": "229_N",
+"sp": "N",
+"t": "People who, like her, had the date."
+},
+{
+"id": "230_N",
+"sp": "N",
+"t": "She made the choice to stay."
+},
+{
+"id": "231_N",
+"sp": "N",
+"t": "And the next morning, her number moved."
+},
+{
+"id": "232_N",
+"sp": "N",
+"t": "Nobody knows why."
+},
+{
+"id": "233_N",
+"sp": "N",
+"t": "Maybe her choice changed some small chain of events that ended with her alive."
+},
+{
+"id": "234_N",
+"sp": "N",
+"t": "Maybe the shelter she organized ends up saving the town."
+},
+{
+"id": "235_N",
+"sp": "N",
+"t": "Maybe the numbers were never fixed at all."
+},
+{
+"id": "236_N",
+"sp": "N",
+"t": "And what looked like destiny was only the most likely future."
+},
+{
+"id": "237_N",
+"sp": "N",
+"t": "And after that, other numbers start to move."
+},
+{
+"id": "238_N",
+"sp": "N",
+"t": "Not many."
+},
+{
+"id": "239_N",
+"sp": "N",
+"t": "A few thousand."
+},
+{
+"id": "240_N",
+"sp": "N",
+"t": "Then, a few hundred thousand."
+},
+{
+"id": "241_N",
+"sp": "N",
+"t": "Always after someone decides to do something for someone else."
+},
+{
+"id": "242_N",
+"sp": "N",
+"t": "Never after someone tries to save only themselves."
+},
+{
+"id": "243_N",
+"sp": "N",
+"t": "By the time September 9, 2031 arrives, the spike on the graph has shrunk."
+},
+{
+"id": "244_N",
+"sp": "N",
+"t": "Not to zero."
+},
+{
+"id": "245_N",
+"sp": "N",
+"t": "But it's no longer two billion."
+},
+{
+"id": "246_N",
+"sp": "N",
+"t": "And when the day finally comes, the morning is quiet."
+},
+{
+"id": "247_N",
+"sp": "N",
+"t": "Unusually quiet."
+},
+{
+"id": "248_N",
+"sp": "N",
+"t": "Something happens that day."
+},
+{
+"id": "249_N",
+"sp": "N",
+"t": "And I won't pretend I know exactly what."
+},
+{
+"id": "250_N",
+"sp": "N",
+"t": "Because nobody could."
+},
+{
+"id": "251_N",
+"sp": "N",
+"t": "But the people who were supposed to be gone and are still here"
+},
+{
+"id": "252_N",
+"sp": "N",
+"t": "remember it as the day the world realized the numbers were never the point."
+},
+{
+"id": "253_N",
+"sp": "N",
+"t": "Because here's the thing about this scenario."
+},
+{
+"id": "254_N",
+"sp": "N",
+"t": "We're already living in it."
+},
+{
+"id": "255_N",
+"sp": "N",
+"t": "Not with glowing digits, but every person you know has a date."
+},
+{
+"id": "256_N",
+"sp": "N",
+"t": "Your mom."
+},
+{
+"id": "257_N",
+"sp": "N",
+"t": "Your best friend."
+},
+{
+"id": "258_N",
+"sp": "N",
+"t": "The stranger who held the door for you this morning."
+},
+{
+"id": "259_N",
+"sp": "N",
+"t": "You just can't see it."
+},
+{
+"id": "260_N",
+"sp": "N",
+"t": "And neither can they."
+},
+{
+"id": "261_N",
+"sp": "N",
+"t": "The only real difference between our world and that one"
+},
+{
+"id": "262_N",
+"sp": "N",
+"t": "is that in that world, people finally knew how much time they had."
+},
+{
+"id": "263_N",
+"sp": "N",
+"t": "And most of them spent it exactly the way we do."
+},
+{
+"id": "264_N",
+"sp": "N",
+"t": "Scrolling."
+},
+{
+"id": "265_N",
+"sp": "N",
+"t": "Waiting."
+},
+{
+"id": "266_N",
+"sp": "N",
+"t": "Postponing."
+},
+{
+"id": "267_N",
+"sp": "N",
+"t": "The ones who changed their numbers weren't the ones who knew the most."
+},
+{
+"id": "268_N",
+"sp": "N",
+"t": "They were the ones who stopped waiting."
+},
+{
+"id": "269_N",
+"sp": "N",
+"t": "So here's my question for you."
+},
+{
+"id": "270_N",
+"sp": "N",
+"t": "If you could see one person's date, just one, who's would you choose?"
+},
+{
+"id": "271_N",
+"sp": "N",
+"t": "And would you actually want to know?"
+},
+{
+"id": "272_N",
+"sp": "N",
+"t": "Tell me in the comments."
+},
+{
+"id": "273_N",
+"sp": "N",
+"t": "I read every single one."
+},
+{
+"id": "274_N",
+"sp": "N",
+"t": "And the best answers end up in a future video."
+},
+{
+"id": "275_N",
+"sp": "N",
+"t": "And if you think death dates are terrifying,"
+},
+{
+"id": "276_N",
+"sp": "N",
+"t": "wait until you see what happens if everyone on Earth"
+},
+{
+"id": "277_N",
+"sp": "N",
+"t": "could hear each other's thoughts for just 24 hours."
+},
+{
+"id": "278_N",
+"sp": "N",
+"t": "That one gets much, much worse."
+},
+{
+"id": "279_N",
+"sp": "N",
+"t": "It's right here on your screen."
+},
+{
+"id": "280_N",
+"sp": "N",
+"t": "I'll see you there."
+}
 ]

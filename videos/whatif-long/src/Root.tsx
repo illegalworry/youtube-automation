@@ -8,24 +8,25 @@ import {PauseTime} from './reference/PauseTime';
 /* open-licence fonts from public/fonts, loaded before the first frame renders */
 // generous timeout: with several render tabs at once a cold font load can take a while;
 // if it still fails the frame renders with the fallback font instead of crashing
-const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 120000});
-Promise.all(
-	[
-		['Rubik', 'fonts/Rubik.ttf', '300 900'],
-		['Caveat', 'fonts/Caveat.ttf', '400 700'],
-	].map(([family, file, weight]) => {
-		const f = new FontFace(family, `url(${staticFile(file)})`, {weight});
-		document.fonts.add(f);
-		return f.load();
-	}),
-).then(() => release(), () => release());
+// fonts are declared in CSS (served from public/fonts) and awaited for a few seconds at most:
+// a stuck font load must never block a frame (it did on CI runners)
+const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 60000});
+const fontCss = document.createElement('style');
+fontCss.textContent = [
+	['Rubik', 'fonts/Rubik.ttf', '300 900'],
+	['Caveat', 'fonts/Caveat.ttf', '400 700'],
+]
+	.map(([family, file, weight]) => `@font-face{font-family:'${family}';src:url('${staticFile(file)}') format('truetype');font-weight:${weight};font-display:block}`)
+	.join('');
+document.head.appendChild(fontCss);
 let released = false;
 function release() {
 	if (released) return;
 	released = true;
 	continueRender(fontsReady);
 }
-setTimeout(release, 60000); // never let a slow font kill a render
+Promise.all([document.fonts.load("800 40px 'Rubik'"), document.fonts.load("700 40px 'Caveat'")]).then(release, release);
+setTimeout(release, 4000);
 
 // headings are heavy unless a text asks for another weight (the style's chunky lettering)
 const css = document.createElement('style');

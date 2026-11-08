@@ -6,3 +6,4 @@ razgon-2d-studio/projects/*/input/*.wav
 __pycache__/
 videos/*/out/
 videos/*/node_modules/
+videos/*/public/sfx/bed.wav

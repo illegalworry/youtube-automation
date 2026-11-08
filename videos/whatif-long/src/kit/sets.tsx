@@ -406,10 +406,10 @@ export const ClassroomEve: React.FC = () => (
 		<rect x={200} y={140} width={900} height={400} rx={6} fill="#7b4c2c" />
 		<rect x={216} y={156} width={868} height={368} fill="#2f4a3a" />
 		<text x={650} y={290} textAnchor="middle" fontSize={64} fontFamily={HAND} fill="#f6f2e4">
-			Родительское
+			Lesson 7:
 		</text>
 		<text x={650} y={380} textAnchor="middle" fontSize={64} fontFamily={HAND} fill="#f6f2e4">
-			собрание 10 «Б»
+			Our Planet
 		</text>
 		<Win id="ce-win" x={1320} y={160} w={480} h={360} sky={['#1b2350', '#3a3f7a']} night frame="#e9e2cc" />
 		<Lamp x={700} y={60} c="#fff1c8" />
@@ -487,7 +487,7 @@ export const HallBack: React.FC<{f: number; smoke?: number; disco?: number}> = (
 		<rect x={94} y={444} width={142} height={286} fill="#1a2046" />
 		<rect x={110} y={390} width={110} height={36} rx={4} fill="#1f8a4a" />
 		<text x={165} y={416} textAnchor="middle" fontSize={20} fontFamily={FONT} fill="#e6ffe6">
-			ВЫХОД
+			EXIT
 		</text>
 		<rect x={1700} y={380} width={280} height={350} fill="#5a4a3a" />
 		<rect x={1716} y={396} width={120} height={334} fill="#6b5a48" />

@@ -55,7 +55,7 @@ jobs:
         run: |
           for t in 1 2 3; do
             C=$((4 / t)); [ $C -lt 1 ] && C=1
-            npx remotion render ${{ needs.plan.outputs.comp }} out/c${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --muted --gl=angle --concurrency=$C --crf=18 --timeout=120000 --log=error && exit 0
+            npx remotion render ${{ needs.plan.outputs.comp }} out/c${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --props='{"sound":false}' --muted --gl=angle --concurrency=$C --crf=18 --timeout=120000 --log=error && exit 0
             echo "retry $t"
           done
           exit 1
