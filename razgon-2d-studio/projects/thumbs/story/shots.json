@@ -15,7 +15,7 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-luck9",
+    "tpl": "ifv-luck3",
     "k": 1
    },
    "vignette": false
@@ -33,7 +33,7 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-luck9",
+    "tpl": "ifv-luck3",
     "k": 2
    },
    "vignette": false
@@ -51,7 +51,7 @@
    },
    "sfx": [],
    "params": {
-    "tpl": "ifv-luck9",
+    "tpl": "ifv-luck3",
     "k": 3
    },
    "vignette": false
