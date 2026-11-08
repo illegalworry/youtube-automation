@@ -5,3 +5,5 @@ out/*.mp4
 work/*.wav
 mix_raw.wav
 mix.wav
+work/*.log
+out/
