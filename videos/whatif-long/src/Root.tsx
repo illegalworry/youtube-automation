@@ -5,6 +5,7 @@ import {Short, SHORT_FRAMES} from './Short';
 import {Sheet, SheetProps, sheetSize} from './Sheet';
 import {PauseTime} from './reference/PauseTime';
 import {Thumb} from './Thumb';
+import {ThumbV} from './ThumbV';
 import {CAVEAT_TTF, RUBIK_TTF} from './fonts-data';
 
 /* open-licence fonts from public/fonts, loaded before the first frame renders */
@@ -44,6 +45,7 @@ export const Root: React.FC = () => (
 		/>
 		{/* the approved style reference: 10 s, built by hand, shows what "our level" means */}
 		<Composition id="Thumb" component={Thumb} durationInFrames={1} fps={30} width={1920} height={1080} />
+		<Composition id="ThumbV" component={ThumbV} durationInFrames={1} fps={30} width={1080} height={1920} />
 		<Composition id="Reference" component={PauseTime} durationInFrames={300} fps={30} width={1920} height={1080} />
 	</>
 );

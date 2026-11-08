@@ -313,6 +313,132 @@ const stepsAt = (t0, dur, amp = 0.15, pan = 0) => {
 		}
 	}
 };
+
+/* ------------------------- extra cinematic sounds (this video) ------------------------- */
+// clock tick: short woody click, alternating pitch (tick / tock)
+const tickAt = (t0, amp = 0.12, hi = true) => {
+	const i0 = Math.floor(t0 * SR);
+	const b = new BP();
+	for (let j = 0; j < 0.04 * SR; j++) put(i0 + j, b.f(noise(), hi ? 3800 : 2600, 4) * Math.exp(-(j / SR) / 0.004) * amp * 6, hi ? 0.15 : -0.15, 0.25);
+};
+const ticks = (t0, t1, amp = 0.12, step = 0.5) => {
+	let k = 0;
+	for (let t = t0; t < t1; t += step, k++) tickAt(t, amp, k % 2 === 0);
+};
+// digital glitch: a few bit-crushed stutters
+const glitch = (t0, amp = 0.12) => {
+	for (let k = 0; k < 5; k++) {
+		const t = t0 + k * 0.045 + rnd() * 0.02;
+		const f = 300 + rnd() * 2200;
+		const i0 = Math.floor(t * SR);
+		for (let j = 0; j < 0.035 * SR; j++) {
+			const tt = j / SR;
+			const v = Math.round(Math.sin(2 * Math.PI * f * tt) * 3) / 3 + (rnd() - 0.5) * 0.6;
+			put(i0 + j, v * amp * (1 - j / (0.035 * SR)), (rnd() - 0.5) * 0.8, 0.1);
+		}
+	}
+};
+// sub boom: deep pitch drop with a long tail
+const boom = (t0, amp = 0.6) => {
+	const i0 = Math.floor(t0 * SR);
+	let p = 0;
+	const lp = new LP();
+	for (let j = 0; j < 2.2 * SR; j++) {
+		const t = j / SR;
+		p += (2 * Math.PI * (32 + 60 * Math.exp(-t * 6))) / SR;
+		put(i0 + j, (Math.sin(p) * 0.9 + lp.f(noise(), 120) * 0.8) * Math.exp(-t * 1.8) * amp, 0, 0.35);
+	}
+};
+// cinematic hit: boom + noise crack + metallic ring
+const hit = (t0, amp = 0.5) => {
+	boom(t0, amp * 0.8);
+	const i0 = Math.floor(t0 * SR);
+	const b = new BP();
+	for (let j = 0; j < 0.4 * SR; j++) put(i0 + j, b.f(noise(), 1800, 0.6) * Math.exp(-(j / SR) / 0.05) * amp * 2, 0, 0.6);
+	blip(t0, 220, 210, amp * 0.25, 1.4, 0, 0.7);
+	blip(t0, 331, 329, amp * 0.15, 1.2, 0, 0.7);
+};
+// riser: noise sweep up + rising tone, ends at t0 + dur
+const riser = (t0, dur, amp = 0.2) => {
+	whoosh(t0, dur, 200, 6000, amp, true);
+	const i0 = Math.floor(t0 * SR);
+	let p = 0;
+	for (let j = 0; j < dur * SR; j++) {
+		const u = j / (dur * SR);
+		p += (2 * Math.PI * (110 * 2 ** (u * 2.5))) / SR;
+		put(i0 + j, Math.sin(p) * u ** 2 * amp * 0.5, 0, 0.4);
+	}
+};
+// reverse swell (cymbal-like) into a cut
+const swell = (t0, dur, amp = 0.2) => whoosh(t0, dur, 5000, 9000, amp, true);
+// shimmer: high bell chime cluster (revelation)
+const shimmer = (t0, amp = 0.1) => {
+	[88, 91, 95, 100, 103].forEach((m, i) => blip(t0 + i * 0.06, mtof(m), mtof(m), amp * (1 - i * 0.12), 1.6, (i - 2) * 0.3, 0.8));
+};
+// car passing by: doppler-ish engine hum + air
+const carPass = (t0, dur = 1.6, amp = 0.15, dir = 1) => {
+	const i0 = Math.floor(t0 * SR);
+	const b = new BP();
+	let p = 0;
+	for (let j = 0; j < dur * SR; j++) {
+		const u = j / (dur * SR);
+		const env = Math.exp(-((u - 0.5) ** 2) / 0.04);
+		p += (2 * Math.PI * (95 - 30 * u)) / SR;
+		put(i0 + j, (Math.sign(Math.sin(p)) * 0.25 + b.f(noise(), 700 - 300 * u, 0.6)) * env * amp, dir * (u * 2 - 1) * 0.8, 0.1);
+	}
+};
+// crowd gasp: short breathy rise of many voices
+const gasp = (t0, amp = 0.15) => {
+	const i0 = Math.floor(t0 * SR);
+	const b = new BP();
+	for (let j = 0; j < 0.7 * SR; j++) {
+		const u = j / (0.7 * SR);
+		put(i0 + j, b.f(noise(), 900 + 900 * u, 0.5) * Math.sin(Math.PI * u) ** 0.6 * (1 - u) * amp * 3, 0, 0.3);
+	}
+};
+// paper/number flip
+const flip = (t0, amp = 0.15) => {
+	for (let k = 0; k < 3; k++) {
+		const i0 = Math.floor((t0 + k * 0.05) * SR);
+		const b = new BP();
+		for (let j = 0; j < 0.05 * SR; j++) put(i0 + j, b.f(noise(), 4000, 1) * Math.exp(-(j / SR) / 0.01) * amp * 3, 0.2, 0.1);
+	}
+};
+
+/* thriller: low drone, ticking clock, pulsing bass, distant toms; builds over its length */
+const thrillerSection = (t0, t1, amp = 0.22) => {
+	pad(t0, t1, [26, 33, 38], amp * 0.45, 300);
+	const bpm = 100, beat = 60 / bpm;
+	const bass = [38, 38, 38, 41, 38, 38, 36, 36];
+	let k = 0;
+	for (let t = t0; t < t1 - 0.2; t += beat / 2, k++) {
+		const build = 0.6 + 0.4 * sm(t, t0, t1);
+		const fade = Math.min(sm(t, t0, t0 + 1), 1 - sm(t, t1 - 0.5, t1));
+		const duck = duckAt(t) ? 0.55 : 1;
+		const a = amp * fade * duck * build;
+		pluck(t, bass[k % 8], a * 0.7, 0.98, 0, 0.05, 0.2, 0.25);
+		tickAt(t, a * 0.35, k % 2 === 0);
+		if (k % 8 === 0) kick(t, a * 0.9);
+		if (k % 16 === 12) { kick(t, a * 0.6); kick(t + beat / 4, a * 0.5); }
+		if (k % 16 === 0) pluck(t, 74, a * 0.25, 0.997, 0.4, 0.6, 0.4, 1.5);
+	}
+};
+/* hope: warm piano arpeggios over a soft pad and a gentle kick */
+const hopeSection = (t0, t1, amp = 0.2) => {
+	const chords = [[50, 57, 62, 66], [47, 54, 59, 62], [43, 50, 55, 59], [45, 52, 57, 61]];
+	pad(t0, t1, [62, 66, 69], amp * 0.25, 1200);
+	const bpm = 92, step = 60 / bpm / 2;
+	let k = 0;
+	for (let t = t0; t < t1 - 0.3; t += step, k++) {
+		const fade = Math.min(sm(t, t0, t0 + 1.5), 1 - sm(t, t1 - 1.5, t1));
+		const duck = duckAt(t) ? 0.55 : 1;
+		const a = amp * fade * duck;
+		const c = chords[Math.floor(k / 8) % 4];
+		if (k % 8 === 0) { pluck(t, c[0] - 12, a * 0.9, 0.9993, -0.2, 0.4, 0.3, 2.6); kick(t, a * 0.35); }
+		pluck(t, c[1 + (k % 3)] + 12, a * 0.45, 0.9992, (k % 3 - 1) * 0.4, 0.5, 0.4, 1.4);
+	}
+};
+
 for (const a of SPEC.ambience ?? []) {
 	const t0 = tAt(a.from) - 0.2, t1 = tEnd(a.to);
 	if (a.kind === 'rain') rain(t0, t1, a.gain ?? 0.05);
@@ -327,6 +453,8 @@ for (const m of SPEC.music ?? []) {
 	if (m.style === 'pizz') pizzSection(t0, t1, m.bpm ?? 104, m.amp ?? 0.24);
 	else if (m.style === 'disco') discoSection(t0, t1, m.amp ?? 0.24);
 	else if (m.style === 'piano') pianoSection(t0, t1, m.amp ?? 0.2);
+	else if (m.style === 'thriller') thrillerSection(t0, t1, m.amp ?? 0.22);
+	else if (m.style === 'hope') hopeSection(t0, t1, m.amp ?? 0.2);
 	else if (m.style === 'pad-tense') pad(t0, t1, [38, 45, 50], m.amp ?? 0.08, 500);
 	else pad(t0, t1, [50, 57, 62, 69], m.amp ?? 0.06, 800);
 }
@@ -363,6 +491,17 @@ for (const s of SPEC.sfx ?? []) {
 		case 'crackle': crackle(t, t + d, a ?? 0.05); break;
 		case 'ring': ring(t, t + d, a ?? 0.06); break;
 		case 'birds': birds(t, t + d); break;
+		case 'tick': tickAt(t, a ?? 0.12); break;
+		case 'ticks': ticks(t, t + d, a ?? 0.1, s.step ?? 0.5); break;
+		case 'glitch': glitch(t, a ?? 0.1); break;
+		case 'boom': boom(t, a ?? 0.5); break;
+		case 'hit': hit(t, a ?? 0.45); break;
+		case 'riser': riser(t, d, a ?? 0.18); break;
+		case 'swell': swell(t, d, a ?? 0.18); break;
+		case 'shimmer': shimmer(t, a ?? 0.08); break;
+		case 'carPass': carPass(t, d, a ?? 0.15, s.pan ?? 1); break;
+		case 'gasp': gasp(t, a ?? 0.15); break;
+		case 'flip': flip(t, a ?? 0.15); break;
 		default: console.warn('unknown sfx type', s.type);
 	}
 }
