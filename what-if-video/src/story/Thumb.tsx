@@ -161,3 +161,37 @@ export const ThumbB: React.FC = () => {
 		</AbsoluteFill>
 	);
 };
+
+/* ---- minimal variants: ONE object (the hero) + a 2-3 word hook; everything else is black/white/grey ---- */
+const Hook: React.FC<{lines: [string, string]; dark: boolean}> = ({lines, dark}) => (
+	<AbsoluteFill style={{padding: '150px 0 0 70px', fontFamily: "'Rubik', sans-serif", fontWeight: 900, textTransform: 'uppercase', transform: 'skewX(-6deg) rotate(-2deg)', transformOrigin: '0 0'}}>
+		<div style={{fontSize: 190, lineHeight: 0.92, color: dark ? '#fff' : '#0b0b0b', letterSpacing: -5, WebkitTextStroke: dark ? '0px' : '0px'}}>{lines[0]}</div>
+		<div style={{fontSize: 360, lineHeight: 0.9, color: GOLD, letterSpacing: -6, WebkitTextStroke: '14px #0b0b0b', paintOrder: 'stroke fill', textShadow: '0 14px 0 #0b0b0b'}}>{lines[1]}</div>
+	</AbsoluteFill>
+);
+
+const Mono: React.FC<{dark: boolean; lines: [string, string]}> = ({dark, lines}) => {
+	const pose = gesture('shrug', idle(0, 9), 1, 0);
+	return (
+		<AbsoluteFill>
+			<Stage cam={camOn(960, 540, 1, {farBlur: 0})} still grain={dark ? 0.08 : 0.04} vig={dark ? 0.5 : 0.12} light={false}>
+				<Layer depth={1}>
+					<Svg>
+						<defs>
+							<radialGradient id={dark ? 'mgD' : 'mgL'} cx="0.72" cy="0.45" r="0.75">
+								<stop offset="0" stopColor={dark ? '#5a5a5a' : '#ffffff'} />
+								<stop offset="0.5" stopColor={dark ? '#1c1c1c' : '#e9e9e9'} />
+								<stop offset="1" stopColor={dark ? '#050505' : '#bdbdbd'} />
+							</radialGradient>
+						</defs>
+						<rect x={-50} y={-50} width={2020} height={1180} fill={`url(#${dark ? 'mgD' : 'mgL'})`} />
+						<Actor who="hero" x={1400} floor={1720} s={4.2} facing={-1} faceTurn={0.3} look={[-0.9, 0.05]} expr="normal" mouth="smirk" pose={pose} shadow={false} uid={dark ? 'mD' : 'mL'} />
+					</Svg>
+				</Layer>
+			</Stage>
+			<Hook lines={lines} dark={dark} />
+		</AbsoluteFill>
+	);
+};
+export const ThumbC: React.FC = () => <Mono dark lines={['I ALREADY', 'WON.']} />;
+export const ThumbD: React.FC = () => <Mono dark={false} lines={['I ALREADY', 'WON.']} />;
