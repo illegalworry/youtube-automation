@@ -207,3 +207,59 @@ export const ThumbE: React.FC = () => (
 		</AbsoluteFill>
 	</AbsoluteFill>
 );
+
+/* ---- v2: cut-out hero + gold pile placed in a real lit scene, condensed extruded type ---- */
+const Glow: React.FC<{x: number; y: number; r: number; c: string; o: number}> = ({x, y, r, c, o}) => (
+	<div style={{position: 'absolute', left: x - r, top: y - r, width: r * 2, height: r * 2, borderRadius: '50%', background: `radial-gradient(circle, ${c} 0%, rgba(0,0,0,0) 68%)`, opacity: o}} />
+);
+const T3D: React.FC<{text: string; size: number; top: string; bot: string; extrude?: number; stroke?: number; x?: number; y?: number; rot?: number}> = ({text, size, top, bot, extrude = 16, stroke = 22, x = 0, y = 0, rot = 0}) => {
+	const shadows = Array.from({length: extrude}).map((_, i) => `0 ${i + 1}px 0 #0a0612`).join(',');
+	const base: React.CSSProperties = {position: 'absolute', left: x, top: y, fontFamily: "'Anton', 'Rubik', sans-serif", fontSize: size, lineHeight: 1, textTransform: 'uppercase', letterSpacing: 2, whiteSpace: 'nowrap', transform: `rotate(${rot}deg)`, transformOrigin: '0 0'};
+	return (
+		<>
+			<div style={{...base, color: '#0a0612', WebkitTextStroke: `${stroke}px #0a0612`, textShadow: `${shadows}, 0 ${extrude + 14}px 40px rgba(0,0,0,0.65)`}}>{text}</div>
+			<div style={{...base, background: `linear-gradient(180deg, ${top} 20%, ${bot} 95%)`, WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent'}}>{text}</div>
+		</>
+	);
+};
+export const ThumbF: React.FC = () => (
+	<AbsoluteFill style={{background: '#07040f', overflow: 'hidden'}}>
+		{/* scene: dark indigo with a warm treasure glow behind the hero and a magenta kicker from the left */}
+		<AbsoluteFill style={{background: 'radial-gradient(ellipse at 66% 60%, #5a1b6e 0%, #230a3f 38%, #0a0418 75%, #05020c 100%)'}} />
+		<Glow x={1250} y={760} r={760} c="rgba(255,176,40,0.85)" o={0.55} />
+		<Glow x={1300} y={420} r={520} c="rgba(255,60,170,0.65)" o={0.45} />
+		{/* god rays */}
+		<svg width={1920} height={1080} style={{position: 'absolute', inset: 0, mixBlendMode: 'screen'}}>
+			{Array.from({length: 18}).map((_, i) => {
+				const a0 = (i / 18) * Math.PI * 2;
+				const a1 = a0 + 0.09;
+				const cx = 1260;
+				const cy = 700;
+				return <polygon key={i} points={`${cx},${cy} ${cx + Math.cos(a0) * 2200},${cy + Math.sin(a0) * 2200} ${cx + Math.cos(a1) * 2200},${cy + Math.sin(a1) * 2200}`} fill="#ffd48a" opacity={0.06 + (i % 3) * 0.02} />;
+			})}
+			{/* floating gold sparks */}
+			{Array.from({length: 46}).map((_, i) => {
+				const x = random('fx' + i) * 1920;
+				const y = random('fy' + i) * 1080;
+				const r = 2 + random('fr' + i) * 7;
+				return <circle key={i} cx={x} cy={y} r={r} fill="#ffd34a" opacity={0.25 + random('fo' + i) * 0.6} style={{filter: r > 6 ? 'blur(2px)' : undefined}} />;
+			})}
+		</svg>
+		{/* hero + gold, cut out, scaled up and rim-lit */}
+		<div style={{position: 'absolute', inset: 0, transform: 'scale(1.13)', transformOrigin: '1750px 1080px', filter: 'drop-shadow(0 0 26px rgba(255,70,180,0.75)) drop-shadow(0 18px 30px rgba(0,0,0,0.6))'}}>
+			<Img src={staticFile('thumb/cutout.png')} style={{width: 1920, height: 1080, objectFit: 'cover'}} />
+		</div>
+		{/* warm light spilling from the coins onto the hero */}
+		<AbsoluteFill style={{background: 'linear-gradient(0deg, rgba(255,170,40,0.28) 0%, rgba(255,170,40,0) 38%)', mixBlendMode: 'screen'}} />
+		{/* foreground bokeh coins for depth */}
+		<svg width={1920} height={1080} style={{position: 'absolute', inset: 0, filter: 'blur(14px)'}}>
+			<circle cx={90} cy={980} r={110} fill="#ffc83a" opacity={0.75} />
+			<circle cx={330} cy={1060} r={70} fill="#ffb21a" opacity={0.6} />
+			<circle cx={1860} cy={90} r={60} fill="#ff6ac8" opacity={0.5} />
+		</svg>
+		{/* type */}
+		<T3D text="LET ME" size={240} top="#ffffff" bot="#e7dcff" x={70} y={85} rot={-4} />
+		<T3D text="LOSE." size={440} top="#fff36b" bot="#ff9a1a" x={56} y={270} rot={-4} extrude={22} stroke={24} />
+		<AbsoluteFill style={{background: 'radial-gradient(ellipse at 55% 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.55) 100%)'}} />
+	</AbsoluteFill>
+);
