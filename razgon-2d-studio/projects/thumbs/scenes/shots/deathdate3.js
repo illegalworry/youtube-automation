@@ -81,7 +81,7 @@ const V = {
     rr(g, px + 34, py + 400, 150, 70, 35); g.fillStyle = '#f4f0ff'; g.fill(); for (let i = 0; i < 3; i++) circle(g, px + 74 + i * 36, py + 435, 11, '#8a80a0');
     g.restore();
     motes(g, 302, 34, '#c8ff8a');
-    const h = heroFull(g, 1440, 1520, 250, 'none', { pose: 'cover', dir: -1, rim: '#7aff3a', haloA: 0.4 });
+    const h = heroFull(g, 1440, 1520, 250, 'none', { pose: 'cover', hoodie: '#f2b21c', dir: -1, rim: '#7aff3a', haloA: 0.4 });
     feat(g, h.head[0], h.head[1], 250, 'terror', -1, { noMouth: true });
   },
   // 2 MANIAC grin, falling head-first through the frame, arms flailing — his date glows: "I CAN'T / DIE."
@@ -97,7 +97,7 @@ const V = {
     // the hero, tumbling backwards through the air, centre-right
     const R = 205;
     g.save(); g.translate(1360, 610); g.rotate(-0.62);
-    const h = heroFull(g, 0, 420, R, 'none', { pose: 'flail', dir: -1, rim: '#ffb04a', haloA: 0.45 });
+    const h = heroFull(g, 0, 420, R, 'none', { pose: 'flail', hoodie: '#f2b21c', dir: -1, rim: '#ffb04a', haloA: 0.45 });
     feat(g, h.head[0], h.head[1], R, 'maniac', -1);
     g.restore();
     // his own date tag, blazing (the camera sees it; he never can)
@@ -133,7 +133,7 @@ const V = {
     g.restore();
     motes(g, 323, 34, '#ffc8c8');
     const R = 175;
-    const h = heroFull(g, 560, 1045, R, 'none', { pose: 'reach', dir: 1, rim: '#ff5a6a', haloA: 0.4 });
+    const h = heroFull(g, 560, 1045, R, 'none', { pose: 'reach', hoodie: '#f2b21c', dir: 1, rim: '#ff5a6a', haloA: 0.4 });
     feat(g, h.head[0], h.head[1], R, 'cry', 1);
   },
 };
