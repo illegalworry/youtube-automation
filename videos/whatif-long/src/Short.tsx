@@ -7,6 +7,7 @@ import {clamp, ease} from './kit/kit';
 import {Caption} from './kit/graphics';
 import {ShotHost, VoiceTrack, whipAt} from './Long';
 import {SHORT, Seg} from './story/short';
+import {NoScreen} from './story/scene';
 import {STORY} from './story/config';
 
 /* 9:16 version. Two modes (src/story/short.ts):
@@ -103,6 +104,7 @@ const RecutSeg: React.FC<{seg: (typeof TIMED)[number]}> = ({seg}) => {
 	const C = shot.C;
 	return (
 		<CropBox c={c}>
+			<NoScreen.Provider value={true}>
 			<TalkOverride.Provider value={(sp, g) => talkAt(sp, g - seg.ep0 + seg.start)}>
 				<SpeakOverride.Provider value={(g) => speakerAt(g - seg.ep0 + seg.start)}>
 					<ShotCtx.Provider value={ctx}>
@@ -112,6 +114,7 @@ const RecutSeg: React.FC<{seg: (typeof TIMED)[number]}> = ({seg}) => {
 					</ShotCtx.Provider>
 				</SpeakOverride.Provider>
 			</TalkOverride.Provider>
+			</NoScreen.Provider>
 		</CropBox>
 	);
 };
@@ -144,7 +147,14 @@ export const Short: React.FC<{sound?: boolean}> = ({sound = true}) => {
 						))}
 			</AbsoluteFill>
 			{SHORT.hook && lines[1] ? <Caption f={f} from={0} to={lines[1].from - 4} top={190} lines={SHORT.hook} size={92} /> : null}
-			{STORY.endCaption && last ? <Caption f={f} from={last.from + last.dur + 8} to={SHORT_FRAMES} top={1450} lines={STORY.endCaption} size={72} /> : null}
+			{SHORT.mode === 'recut'
+				? (SHORT.caps ?? []).map(([id, off, words], i) => {
+						const l = SL(id);
+						const from = l.from + off;
+						return <Caption key={i} f={f} from={from} to={l.from + l.dur - 2} top={1360} lines={words} size={84} />;
+					})
+				: null}
+			{SHORT.mode === 'crop' && STORY.endCaption && last ? <Caption f={f} from={last.from + last.dur + 8} to={SHORT_FRAMES} top={1450} lines={STORY.endCaption} size={72} /> : null}
 			{sound ? (
 				<>
 					{SHORT.mode === 'recut'

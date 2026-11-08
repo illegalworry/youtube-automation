@@ -1,6 +1,6 @@
 /* A small scene builder for this video: a set, actors with entrances / gestures /
    expressions tied to line ids, date tags over heads, crowds, camera keys, extra layers. */
-import React from 'react';
+import React, {createContext, useContext} from 'react';
 import {AbsoluteFill, interpolate, random} from 'remotion';
 import type {Expr, Mouth, Pose} from '../engine/Stickman';
 import type {Cam} from '../engine/camera';
@@ -10,6 +10,8 @@ import {Extra, Layer, Stage, Svg, camOn, ease, mixCam, type Light} from '../kit/
 import {DateTag, tagY} from './places';
 
 export type When = string | [string, number];
+/* the vertical short crops these shots: their 16:9 screen captions would be cut, so it hides them */
+export const NoScreen = createContext(false);
 export type Ctx = {f: number; gf: number; dur: number; w: (x: When) => number};
 type XYZ = [number, number, number];
 
@@ -210,6 +212,7 @@ const Crowd: React.FC<{k: CrowdSpec; c: Ctx}> = ({k, c}) => {
 export const scene = (sp: Spec): React.FC => {
 	const C: React.FC = () => {
 		const {f, gf, at, dur} = useShot();
+		const noScreen = useContext(NoScreen);
 		const w = (x: When) => (typeof x === 'string' ? at(x) : at(x[0]) + x[1]);
 		const c: Ctx = {f, gf, dur, w};
 		const A = camOn(...sp.cam);
@@ -256,7 +259,7 @@ export const scene = (sp: Spec): React.FC => {
 						</Layer>
 					) : null}
 				</Stage>
-				{sp.screen ? <AbsoluteFill style={{pointerEvents: 'none'}}>{sp.screen(c)}</AbsoluteFill> : null}
+				{sp.screen && !noScreen ? <AbsoluteFill style={{pointerEvents: 'none'}}>{sp.screen(c)}</AbsoluteFill> : null}
 			</>
 		);
 	};
