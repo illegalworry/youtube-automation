@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Speak text in the owner's cloned voice. Supports inline tags ([laughter], [pause 1s], [slow]...[/slow]).
-# Usage: bash .claude/skills/my-voice/say.sh "text" out.wav [language]
-#        bash .claude/skills/my-voice/say.sh @script.txt out.wav [language]
+# Usage: bash .claude/skills/q2d/say.sh "text" out.wav [language]
+#        bash .claude/skills/q2d/say.sh @script.txt out.wav [language]
 set -euo pipefail
 
 API="${VS_API:-http://localhost:3900}"
-STATE="$HOME/.my-voice-profile-id"
+STATE="$HOME/.q2d-profile-id"
 text="${1:?text or @file required}"; out="${2:?output .wav required}"; lang="${3:-English}"
 [ -f "$STATE" ] || { echo "Run setup.sh first" >&2; exit 1; }
 [ "${text:0:1}" = "@" ] && text="$(cat "${text:1}")"
