@@ -36,6 +36,42 @@ const CropBox: React.FC<{c: {cx: number; cy: number; z: number}; children: React
 	);
 };
 
+/* fit: the whole 16:9 frame inside a 1080-wide box (nothing is cut), gentle push towards the focus */
+const BOX_Y = 640;
+const BOX_H = 1080 * (1080 / 1920);
+const FitBox: React.FC<{c: {cx: number; cy: number; z: number}; children: React.ReactNode}> = ({c, children}) => {
+	const z = Math.min(1.1, 1 + Math.max(0, c.z - 1) * 0.3);
+	return (
+		<AbsoluteFill style={{overflow: 'hidden'}}>
+			<div style={{position: 'absolute', width: 1920, height: 1080, transformOrigin: '0 0', transform: `scale(${1080 / 1920})`}}>
+				<div style={{position: 'absolute', inset: 0, transformOrigin: `${c.cx}px ${c.cy}px`, transform: `scale(${z})`}}>{children}</div>
+			</div>
+		</AbsoluteFill>
+	);
+};
+const Backdrop: React.FC = () => {
+	const f = useCurrentFrame();
+	return (
+		<AbsoluteFill style={{background: 'radial-gradient(120% 70% at 50% 45%, #1d4a16 0%, #0d2410 55%, #061208 100%)'}}>
+			<AbsoluteFill style={{backgroundImage: 'linear-gradient(rgba(184,242,36,.06) 2px, transparent 2px), linear-gradient(90deg, rgba(184,242,36,.06) 2px, transparent 2px)', backgroundSize: '90px 90px', backgroundPosition: `0 ${f * 1.2}px`}} />
+		</AbsoluteFill>
+	);
+};
+const TopTitle: React.FC = () => {
+	const f = useCurrentFrame();
+	const k = interpolate(f, [4, 16], [0, 1], {...clamp, easing: ease});
+	const b = 1 + 0.025 * Math.sin(f / 9);
+	return (
+		<div style={{position: 'absolute', top: 260, left: 40, right: 40, textAlign: 'center', transform: `scale(${(0.7 + 0.3 * k) * b})`, opacity: k}}>
+			{['WHAT IF YOU COULD', 'TELEPORT?'].map((t, i) => (
+				<div key={i} style={{fontFamily: FONT, fontWeight: 900, fontSize: i ? 128 : 76, lineHeight: 1.05, color: i ? '#b8f224' : '#fff', WebkitTextStroke: '8px #0b0d1e', paintOrder: 'stroke', textShadow: '0 8px 0 rgba(0,0,0,.45)'}}>
+					{t}
+				</div>
+			))}
+		</div>
+	);
+};
+
 /* ------------------------------- crop mode ------------------------------- */
 const CropShot: React.FC<{s: TimedShot}> = ({s}) => {
 	const f = useCurrentFrame();
@@ -85,11 +121,11 @@ const FxWrap: React.FC<{fx: {at: number; fx: Fx}[]; seed: number; children: Reac
 		}
 	}
 	return (
-		<AbsoluteFill style={{overflow: 'hidden', background: '#000'}}>
+		<div style={{position: 'absolute', left: 0, top: BOX_Y, width: 1080, height: BOX_H, overflow: 'hidden', background: '#000', borderTop: '6px solid #b8f224', borderBottom: '6px solid #b8f224', boxShadow: '0 20px 60px rgba(0,0,0,.6)'}}>
 			<AbsoluteFill style={{transform: `translate(${tx}px, ${ty}px) rotate(${rot}deg) scale(${sc})`, filter: blur > 0.5 ? `blur(${blur}px)` : undefined}}>{children}</AbsoluteFill>
 			{flash > 0 ? <AbsoluteFill style={{background: '#fff', opacity: flash}} /> : null}
 			{lime > 0 ? <AbsoluteFill style={{background: 'radial-gradient(circle, rgba(184,242,36,0) 30%, rgba(184,242,36,1) 100%)', opacity: lime}} /> : null}
-		</AbsoluteFill>
+		</div>
 	);
 };
 
@@ -194,7 +230,7 @@ const RecutSeg: React.FC<{seg: (typeof TIMED)[number]}> = ({seg}) => {
 	const c = lerpCrop(seg.a, seg.b, interpolate(f, [0, dur], [0, 1], {...clamp, easing: ease}));
 	const C = shot.C;
 	return (
-		<CropBox c={c}>
+		<FitBox c={c}>
 			<TalkOverride.Provider value={(sp, g) => talkAt(sp, g - seg.ep0 + seg.start)}>
 				<SpeakOverride.Provider value={(g) => speakerAt(g - seg.ep0 + seg.start)}>
 					<ShotCtx.Provider value={ctx}>
@@ -204,7 +240,7 @@ const RecutSeg: React.FC<{seg: (typeof TIMED)[number]}> = ({seg}) => {
 					</ShotCtx.Provider>
 				</SpeakOverride.Provider>
 			</TalkOverride.Provider>
-		</CropBox>
+		</FitBox>
 	);
 };
 
@@ -216,12 +252,14 @@ export const Short: React.FC<{sound?: boolean}> = ({sound = true}) => {
 	const last = lines[lines.length - 1];
 	const w = (SHORT.mode as string) === 'crop' ? whipAt(f) : null;
 	return (
-		<AbsoluteFill style={{background: '#000'}}>
+		<AbsoluteFill style={{background: '#061208'}}>
 			<svg width={0} height={0} style={{position: 'absolute'}}>
 				<filter id="whipBlurV" x="-20%" y="0%" width="140%" height="100%">
 					<feGaussianBlur stdDeviation={`${w ? 50 * w.k : 0} 0`} />
 				</filter>
 			</svg>
+			{SHORT.mode === 'recut' ? <Backdrop /> : null}
+			{SHORT.mode === 'recut' ? <TopTitle /> : null}
 			<AbsoluteFill style={w ? {transform: `translateX(${w.dir * 160 * w.k}px) scale(${1 + 0.1 * w.k})`, filter: 'url(#whipBlurV)'} : undefined}>
 				{SHORT.mode === 'recut'
 					? TIMED.map((s, i) => (
@@ -237,10 +275,10 @@ export const Short: React.FC<{sound?: boolean}> = ({sound = true}) => {
 							</Sequence>
 						))}
 			</AbsoluteFill>
-			{SHORT.hook && lines[1] ? <Caption f={f} from={0} to={lines[1].from - 4} top={190} lines={SHORT.hook} size={92} /> : null}
-			{CHUNKS.length ? <Subs chunks={CHUNKS} top={1160} /> : null}
+			{SHORT.mode !== 'recut' && SHORT.hook && lines[1] ? <Caption f={f} from={0} to={lines[1].from - 4} top={190} lines={SHORT.hook} size={92} /> : null}
+			{CHUNKS.length ? <Subs chunks={CHUNKS} top={1310} /> : null}
 			{SHORT.mode === 'recut' && (SHORT as {end?: string[]}).end ? (
-				<Caption f={f} from={SL((SHORT as {endFrom?: string}).endFrom ?? last.id).from} to={SHORT_FRAMES} top={300} lines={(SHORT as {end?: string[]}).end!} size={96} c="#b8f224" />
+				<Caption f={f} from={SL((SHORT as {endFrom?: string}).endFrom ?? last.id).from} to={SHORT_FRAMES} top={1560} lines={(SHORT as {end?: string[]}).end!} size={96} c="#b8f224" />
 			) : STORY.endCaption && last ? <Caption f={f} from={last.from + last.dur + 8} to={SHORT_FRAMES} top={1450} lines={STORY.endCaption} size={72} /> : null}
 			{sound ? (
 				<>
