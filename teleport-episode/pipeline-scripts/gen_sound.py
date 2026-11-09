@@ -60,6 +60,6 @@ s('317',0,'whoosh',dur=1); s('321',0,'ding',a=0.08); s('330','winks','ding',a=0.
 s('341',0,'steps',dur=2,a=0.12); s('344','ripples','whooshUp',dur=2.5,a=0.15); s('356','lemon','ding',a=0.12); s('358','jump','whooshUp',dur=1)
 s('359',0,'pop'); s('360',0,'ding')
 spec={"ambience":[dict(**{"from":a,"to":b,"kind":k,"gain":g}) for a,b,k,g in amb],
-"music":[{"from":a,"to":b,"style":st,"amp":g} for a,b,st,g in music],"sfx":S}
+"music":[{"from":a,"to":b,"style":st,"amp":round(g*0.5,3)} for a,b,st,g in music],"sfx":S}
 json.dump(spec,open(P+'/src/story/sound.json','w'),indent=0)
 print(len(S),'sfx')

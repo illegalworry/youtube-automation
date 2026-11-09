@@ -128,7 +128,7 @@ const pizzSection = (t0, t1, bpm = 104, amp = 0.26) => {
 	let k = 0;
 	for (let t = t0; t < t1 - 0.5; t += beat / 2, k++) {
 		const fade = Math.min(sm(t, t0, t0 + 2), 1 - sm(t, t1 - 2, t1));
-		const duck = duckAt(t) ? 0.45 : 1;
+		const duck = duckAt(t) ? 0.35 : 1;
 		const a = amp * fade * duck;
 		if (a < 0.003) continue;
 		if (k % 2 === 0) pluck(t, PIZZ_BASS[(k / 2) % PIZZ_BASS.length], a * 1.3, 0.992, -0.2, 0.15, 0.3, 0.6);
@@ -143,7 +143,7 @@ const discoSection = (t0, t1, amp = 0.26) => {
 	let k = 0;
 	for (let t = t0; t < t1; t += beat / 2, k++) {
 		const fade = Math.min(sm(t, t0, t0 + 1), 1 - sm(t, t1 - 0.4, t1));
-		const duck = duckAt(t) ? 0.5 : 1;
+		const duck = duckAt(t) ? 0.38 : 1;
 		const a = amp * fade * duck;
 		if (k % 2 === 0) kick(t, a * 1.2);
 		hat(t + (k % 2 ? 0 : beat / 4), a * 0.5, k % 2 === 1);
