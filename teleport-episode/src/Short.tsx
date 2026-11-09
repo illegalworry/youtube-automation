@@ -6,7 +6,8 @@ import {SHOT_TIMES, TimedShot} from './kit/coverage';
 import {clamp, ease} from './kit/kit';
 import {Caption} from './kit/graphics';
 import {ShotHost, VoiceTrack, whipAt} from './Long';
-import {SHORT, Seg} from './story/short';
+import {SHORT, Seg, Fx} from './story/short';
+import {FONT} from './kit/ui';
 import {STORY} from './story/config';
 
 /* 9:16 version. Two modes (src/story/short.ts):
@@ -52,6 +53,97 @@ const CropShot: React.FC<{s: TimedShot}> = ({s}) => {
 		</CropBox>
 	);
 };
+
+/* ------------------------------- segment fx ------------------------------- */
+const rnd = (n: number) => {
+	const x = Math.sin(n * 12.9898) * 43758.5453;
+	return x - Math.floor(x);
+};
+const FxWrap: React.FC<{fx: {at: number; fx: Fx}[]; seed: number; children: React.ReactNode}> = ({fx, seed, children}) => {
+	const f = useCurrentFrame();
+	let tx = 0, ty = 0, rot = 0, sc = 1, blur = 0, flash = 0, lime = 0;
+	for (const h of fx) {
+		const t = f - h.at;
+		if (t < 0 || t > 16) continue;
+		if (h.fx === 'whip') {
+			const k = interpolate(t, [0, 8], [1, 0], {...clamp, easing: ease});
+			const dir = rnd(seed) > 0.5 ? 1 : -1;
+			tx += dir * 420 * k;
+			blur = Math.max(blur, 28 * k);
+			sc *= 1 + 0.12 * k;
+		} else if (h.fx === 'punch' || h.fx === 'pop') {
+			const k = interpolate(t, [0, 7], [1, 0], {...clamp, easing: ease});
+			sc *= 1 + (h.fx === 'pop' ? 0.2 : 0.1) * k;
+			if (h.fx === 'pop') lime = Math.max(lime, 0.35 * k);
+		} else if (h.fx === 'shake') {
+			const k = interpolate(t, [0, 14], [1, 0], clamp);
+			tx += (rnd(seed + t) - 0.5) * 60 * k;
+			ty += (rnd(seed + t + 50) - 0.5) * 60 * k;
+			rot += (rnd(seed + t + 99) - 0.5) * 3 * k;
+		} else if (h.fx === 'flash') {
+			flash = Math.max(flash, interpolate(t, [0, 7], [0.85, 0], clamp));
+		}
+	}
+	return (
+		<AbsoluteFill style={{overflow: 'hidden', background: '#000'}}>
+			<AbsoluteFill style={{transform: `translate(${tx}px, ${ty}px) rotate(${rot}deg) scale(${sc})`, filter: blur > 0.5 ? `blur(${blur}px)` : undefined}}>{children}</AbsoluteFill>
+			{flash > 0 ? <AbsoluteFill style={{background: '#fff', opacity: flash}} /> : null}
+			{lime > 0 ? <AbsoluteFill style={{background: 'radial-gradient(circle, rgba(184,242,36,0) 30%, rgba(184,242,36,1) 100%)', opacity: lime}} /> : null}
+		</AbsoluteFill>
+	);
+};
+
+/* ------------------------------- subtitles ------------------------------- */
+type Chunk = {from: number; to: number; words: {t: string; f: number}[]};
+const buildChunks = (lines: Line[]): Chunk[] => {
+	const out: Chunk[] = [];
+	for (const l of lines) {
+		const ws: {t: string; f: number; end: boolean}[] = [];
+		for (const [w, o] of (l as unknown as {w: [string, number][]}).w) {
+			if (/^[.,]/.test(w) && ws.length) {
+				ws[ws.length - 1].t += w;
+				ws[ws.length - 1].end = /[.?!,]$/.test(w);
+				continue;
+			}
+			ws.push({t: w, f: l.from + o, end: /[.?!,]$/.test(w)});
+		}
+		for (const w of ws) w.t = w.t.replace(/^8\.59\.?$/, '8:59').replace(/[.,!]+$/, '').toUpperCase();
+		let cur: Chunk | null = null;
+		for (const w of ws) {
+			if (!cur || cur.words.length >= 3) {
+				cur = {from: w.f - 2, to: 0, words: []};
+				out.push(cur);
+			}
+			cur.words.push({t: w.t, f: w.f});
+			if (w.end) cur = null;
+		}
+	}
+	out.forEach((c, i) => (c.to = i + 1 < out.length ? Math.min(out[i + 1].from, c.words[c.words.length - 1].f + 40) : c.words[c.words.length - 1].f + 40));
+	return out;
+};
+const Subs: React.FC<{chunks: Chunk[]; top: number}> = ({chunks, top}) => {
+	const f = useCurrentFrame();
+	const {fps} = {fps: 30};
+	const c = chunks.find((x) => f >= x.from && f < x.to);
+	if (!c) return null;
+	const k = interpolate(f - c.from, [0, 5], [0, 1], {...clamp, easing: ease});
+	return (
+		<AbsoluteFill style={{pointerEvents: 'none'}}>
+			<div style={{position: 'absolute', top, left: 50, right: 50, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0 22px', transform: `scale(${0.75 + 0.25 * k}) rotate(${(1 - k) * -4}deg)`, opacity: k}}>
+				{c.words.map((w, i) => {
+					const on = f >= w.f && (i + 1 >= c.words.length || f < c.words[i + 1].f);
+					const b = interpolate(f - w.f, [0, 3, 7], [1, 1.14, 1], clamp);
+					return (
+						<span key={i} style={{fontFamily: FONT, fontWeight: 900, fontSize: 104, lineHeight: 1.08, color: on ? '#b8f224' : '#fff', WebkitTextStroke: '10px #0b0d1e', paintOrder: 'stroke', textShadow: '0 10px 0 rgba(0,0,0,.45)', display: 'inline-block', transform: `scale(${on ? b : 1})`}}>
+							{w.t}
+						</span>
+					);
+				})}
+			</div>
+		</AbsoluteFill>
+	);
+};
+const CHUNKS = SHORT.mode === 'recut' && (SHORT as {subs?: boolean}).subs ? buildChunks(STL.lines as Line[]) : [];
 
 /* ------------------------------- recut mode ------------------------------ */
 const SLINES = STL.lines as Line[];
@@ -122,7 +214,7 @@ export const Short: React.FC<{sound?: boolean}> = ({sound = true}) => {
 	const f = useCurrentFrame();
 	const lines = SHORT.mode === 'recut' ? SLINES : LINES;
 	const last = lines[lines.length - 1];
-	const w = SHORT.mode === 'crop' ? whipAt(f) : null;
+	const w = (SHORT.mode as string) === 'crop' ? whipAt(f) : null;
 	return (
 		<AbsoluteFill style={{background: '#000'}}>
 			<svg width={0} height={0} style={{position: 'absolute'}}>
@@ -134,7 +226,9 @@ export const Short: React.FC<{sound?: boolean}> = ({sound = true}) => {
 				{SHORT.mode === 'recut'
 					? TIMED.map((s, i) => (
 							<Sequence key={i} from={s.start} durationInFrames={s.end - s.start} name={s.line}>
-								<RecutSeg seg={s} />
+								<FxWrap seed={i * 7 + 1} fx={[...(s.fx ?? []).map((x) => ({at: 0, fx: x})), ...(s.hits ?? [])]}>
+									<RecutSeg seg={s} />
+								</FxWrap>
 							</Sequence>
 						))
 					: SHOT_TIMES.map((s, i) => (
@@ -144,7 +238,10 @@ export const Short: React.FC<{sound?: boolean}> = ({sound = true}) => {
 						))}
 			</AbsoluteFill>
 			{SHORT.hook && lines[1] ? <Caption f={f} from={0} to={lines[1].from - 4} top={190} lines={SHORT.hook} size={92} /> : null}
-			{STORY.endCaption && last ? <Caption f={f} from={last.from + last.dur + 8} to={SHORT_FRAMES} top={1450} lines={STORY.endCaption} size={72} /> : null}
+			{CHUNKS.length ? <Subs chunks={CHUNKS} top={1160} /> : null}
+			{SHORT.mode === 'recut' && (SHORT as {end?: string[]}).end ? (
+				<Caption f={f} from={SL((SHORT as {endFrom?: string}).endFrom ?? last.id).from} to={SHORT_FRAMES} top={300} lines={(SHORT as {end?: string[]}).end!} size={96} c="#b8f224" />
+			) : STORY.endCaption && last ? <Caption f={f} from={last.from + last.dur + 8} to={SHORT_FRAMES} top={1450} lines={STORY.endCaption} size={72} /> : null}
 			{sound ? (
 				<>
 					{SHORT.mode === 'recut'

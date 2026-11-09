@@ -1,0 +1,522 @@
+{
+ "ambience": [
+  {
+   "from": "s01",
+   "to": "s06",
+   "kind": "room",
+   "gain": 0.04
+  },
+  {
+   "from": "s06",
+   "to": "s10",
+   "kind": "hall",
+   "gain": 0.04
+  },
+  {
+   "from": "s15",
+   "to": "s16",
+   "kind": "wind",
+   "gain": 0.03
+  },
+  {
+   "from": "s16",
+   "to": "s17",
+   "kind": "crowd",
+   "gain": 0.04
+  }
+ ],
+ "music": [
+  {
+   "from": "s01",
+   "to": "s10",
+   "style": "pizz",
+   "bpm": 118,
+   "amp": 0.075
+  },
+  {
+   "from": "s10",
+   "to": "s15",
+   "style": "pad-tense",
+   "amp": 0.04
+  },
+  {
+   "from": "s15",
+   "to": "s17",
+   "style": "disco",
+   "amp": 0.07
+  },
+  {
+   "from": "s17",
+   "to": "s20",
+   "style": "pad-tense",
+   "amp": 0.045
+  },
+  {
+   "from": "s20",
+   "to": "end",
+   "style": "pizz",
+   "bpm": 118,
+   "amp": 0.075
+  }
+ ],
+ "sfx": [
+  {
+   "at": "s02",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s03",
+   "off": -8,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s03",
+   "off": 68,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s04",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s05",
+   "off": -8,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s06",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s07",
+   "off": -8,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s08",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s09",
+   "off": -8,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s10",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s11",
+   "off": -8,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s12",
+   "off": -8,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s13",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s13",
+   "off": 36,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s14",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s14",
+   "off": 102,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s14",
+   "off": 158,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s15",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s15",
+   "off": 102,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s15",
+   "off": 118,
+   "type": "pop",
+   "amp": 0.4
+  },
+  {
+   "at": "s15",
+   "off": 146,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s15",
+   "off": 184,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s16",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s16",
+   "off": 68,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s17",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s17",
+   "off": 90,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s18",
+   "off": -8,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s19",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s19",
+   "off": 38,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s19",
+   "off": 102,
+   "type": "swoosh",
+   "amp": 0.12
+  },
+  {
+   "at": "s20",
+   "off": -10,
+   "type": "whoosh",
+   "amp": 0.22,
+   "dur": 0.8
+  },
+  {
+   "at": "s01",
+   "off": 3,
+   "type": "alarm",
+   "dur": 1.3,
+   "amp": 0.07
+  },
+  {
+   "at": "s04",
+   "off": 30,
+   "type": "whooshUp",
+   "dur": 1.0,
+   "amp": 0.18
+  },
+  {
+   "at": "s05",
+   "off": 4,
+   "type": "pop",
+   "amp": 0.55
+  },
+  {
+   "at": "s05",
+   "off": 4,
+   "type": "thud",
+   "amp": 0.35
+  },
+  {
+   "at": "s07",
+   "off": 3,
+   "type": "click",
+   "amp": 0.25
+  },
+  {
+   "at": "s08",
+   "off": 34,
+   "type": "thud",
+   "amp": 0.45
+  },
+  {
+   "at": "s09",
+   "off": 24,
+   "type": "ding",
+   "amp": 0.2
+  },
+  {
+   "at": "s10",
+   "off": 29,
+   "type": "whooshUp",
+   "dur": 0.6,
+   "amp": 0.2
+  },
+  {
+   "at": "s10",
+   "off": 47,
+   "type": "stamp",
+   "amp": 0.4
+  },
+  {
+   "at": "s12",
+   "off": 24,
+   "type": "stamp",
+   "amp": 0.3
+  },
+  {
+   "at": "s13",
+   "off": 45,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 51,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 57,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 63,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 69,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 75,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 81,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 87,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 93,
+   "type": "click",
+   "amp": 0.18
+  },
+  {
+   "at": "s13",
+   "off": 90,
+   "type": "ding",
+   "amp": 0.2
+  },
+  {
+   "at": "s14",
+   "off": 165,
+   "type": "thud",
+   "amp": 0.6
+  },
+  {
+   "at": "s14",
+   "off": 196,
+   "type": "stamp",
+   "amp": 0.45
+  },
+  {
+   "at": "s15",
+   "off": 38,
+   "type": "pop",
+   "amp": 0.3
+  },
+  {
+   "at": "s15",
+   "off": 56,
+   "type": "pop",
+   "amp": 0.3
+  },
+  {
+   "at": "s15",
+   "off": 66,
+   "type": "pop",
+   "amp": 0.3
+  },
+  {
+   "at": "s15",
+   "off": 80,
+   "type": "pop",
+   "amp": 0.3
+  },
+  {
+   "at": "s15",
+   "off": 109,
+   "type": "pop",
+   "amp": 0.35
+  },
+  {
+   "at": "s15",
+   "off": 121,
+   "type": "pop",
+   "amp": 0.35
+  },
+  {
+   "at": "s15",
+   "off": 155,
+   "type": "pop",
+   "amp": 0.3
+  },
+  {
+   "at": "s15",
+   "off": 198,
+   "type": "ding",
+   "amp": 0.25
+  },
+  {
+   "at": "s16",
+   "off": 53,
+   "type": "ding",
+   "amp": 0.25
+  },
+  {
+   "at": "s16",
+   "off": 60,
+   "type": "chat",
+   "amp": 0.06,
+   "dur": 1.5
+  },
+  {
+   "at": "s16",
+   "off": 77,
+   "type": "stamp",
+   "amp": 0.4
+  },
+  {
+   "at": "s17",
+   "off": 86,
+   "type": "thud",
+   "amp": 0.4
+  },
+  {
+   "at": "s17",
+   "off": 94,
+   "type": "thud",
+   "amp": 0.4
+  },
+  {
+   "at": "s17",
+   "off": 102,
+   "type": "thud",
+   "amp": 0.4
+  },
+  {
+   "at": "s18",
+   "off": 0,
+   "type": "heartbeat",
+   "dur": 3,
+   "amp": 0.12
+  },
+  {
+   "at": "s19",
+   "off": 51,
+   "type": "whooshUp",
+   "dur": 0.8,
+   "amp": 0.25
+  },
+  {
+   "at": "s19",
+   "off": 95,
+   "type": "thud",
+   "amp": 0.45
+  },
+  {
+   "at": "s19",
+   "off": 135,
+   "type": "stamp",
+   "amp": 0.35
+  },
+  {
+   "at": "s20",
+   "off": 4,
+   "type": "ding",
+   "amp": 0.25
+  },
+  {
+   "at": "s21",
+   "off": 15,
+   "type": "pop",
+   "amp": 0.35
+  }
+ ]
+}
