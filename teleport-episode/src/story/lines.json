@@ -1,0 +1,1802 @@
+[
+{
+"id": "001_N",
+"sp": "N",
+"t": "8.59."
+},
+{
+"id": "002_N",
+"sp": "N",
+"t": "Your alarm didn't go off."
+},
+{
+"id": "003_N",
+"sp": "N",
+"t": "Your exam starts at 9 o'clock, on the other side of the city, 40 minutes by bus."
+},
+{
+"id": "004_N",
+"sp": "N",
+"t": "You're wearing one sock."
+},
+{
+"id": "005_N",
+"sp": "N",
+"t": "You squeeze your eyes shut, picture the school hallway, and pop!"
+},
+{
+"id": "006_N",
+"sp": "N",
+"t": "Gray floor, buzzing lights, locker 214."
+},
+{
+"id": "007_N",
+"sp": "N",
+"t": "You're standing in the hallway, still holding your toothbrush."
+},
+{
+"id": "008_N",
+"sp": "N",
+"t": "The janitor drops his mop."
+},
+{
+"id": "009_JANITOR",
+"sp": "JANITOR",
+"t": "Where, where did you come from?"
+},
+{
+"id": "010_HERO",
+"sp": "HERO",
+"t": "The bus."
+},
+{
+"id": "011_HERO",
+"sp": "HERO",
+"t": "The bus stop is outside."
+},
+{
+"id": "012_HERO",
+"sp": "HERO",
+"t": "Fast bus."
+},
+{
+"id": "013_N",
+"sp": "N",
+"t": "You walk into the exam at 8.59 and 40 seconds."
+},
+{
+"id": "014_N",
+"sp": "N",
+"t": "One sock, toothbrush in your pocket, best grade in the class."
+},
+{
+"id": "015_N",
+"sp": "N",
+"t": "Enjoy it."
+},
+{
+"id": "016_N",
+"sp": "N",
+"t": "That's the last normal morning you'll ever have."
+},
+{
+"id": "017_N",
+"sp": "N",
+"t": "In one week, you'll eat breakfast in Paris and be home before your parents wake up."
+},
+{
+"id": "018_N",
+"sp": "N",
+"t": "In three weeks, a government agent will know your name."
+},
+{
+"id": "019_N",
+"sp": "N",
+"t": "And in 40 days, you'll make one jump in front of the whole world."
+},
+{
+"id": "020_N",
+"sp": "N",
+"t": "A jump you can never take back."
+},
+{
+"id": "021_N",
+"sp": "N",
+"t": "So, what if you could teleport?"
+},
+{
+"id": "022_N",
+"sp": "N",
+"t": "First, you need to figure out how this thing works."
+},
+{
+"id": "023_N",
+"sp": "N",
+"t": "You spend the whole weekend testing in your bedroom."
+},
+{
+"id": "024_N",
+"sp": "N",
+"t": "Sam, your best friend, holds a stopwatch and a notebook."
+},
+{
+"id": "025_N",
+"sp": "N",
+"t": "Mostly, he eats your chips."
+},
+{
+"id": "026_N",
+"sp": "N",
+"t": "Rule 1."
+},
+{
+"id": "027_N",
+"sp": "N",
+"t": "Big jumps only work to places you've seen with your own eyes."
+},
+{
+"id": "028_N",
+"sp": "N",
+"t": "Not photos, not videos."
+},
+{
+"id": "029_N",
+"sp": "N",
+"t": "You stare at a picture of a beach in the Maldives for 10 minutes."
+},
+{
+"id": "030_N",
+"sp": "N",
+"t": "Close your eyes."
+},
+{
+"id": "031_N",
+"sp": "N",
+"t": "Pop!"
+},
+{
+"id": "032_N",
+"sp": "N",
+"t": "You land in your own shower, fully dressed."
+},
+{
+"id": "033_N",
+"sp": "N",
+"t": "Sam writes it down."
+},
+{
+"id": "034_N",
+"sp": "N",
+"t": "No Maldives."
+},
+{
+"id": "035_N",
+"sp": "N",
+"t": "Rule 2."
+},
+{
+"id": "036_N",
+"sp": "N",
+"t": "Short jumps, under about 50 kilometers, you can do blind."
+},
+{
+"id": "037_N",
+"sp": "N",
+"t": "You just face a direction and go."
+},
+{
+"id": "038_N",
+"sp": "N",
+"t": "You land roughly where you aimed, give or take a few hundred meters."
+},
+{
+"id": "039_N",
+"sp": "N",
+"t": "Sometimes that's a field."
+},
+{
+"id": "040_N",
+"sp": "N",
+"t": "Once, it's a car wash."
+},
+{
+"id": "041_N",
+"sp": "N",
+"t": "Rule 3."
+},
+{
+"id": "042_N",
+"sp": "N",
+"t": "Whatever you're touching comes with you."
+},
+{
+"id": "043_N",
+"sp": "N",
+"t": "Your backpack, your phone, Sam's arm."
+},
+{
+"id": "044_N",
+"sp": "N",
+"t": "Sam lands in the kitchen, looks at you, and throws up into the sink."
+},
+{
+"id": "045_SAM",
+"sp": "SAM",
+"t": "Next time, he says, warn me."
+},
+{
+"id": "046_N",
+"sp": "N",
+"t": "Rule four is the one that almost kills you."
+},
+{
+"id": "047_N",
+"sp": "N",
+"t": "Saturday afternoon, you try your first long jump, 80 kilometers, to the lake where your grandpa used to fish."
+},
+{
+"id": "048_N",
+"sp": "N",
+"t": "You arrive running."
+},
+{
+"id": "049_N",
+"sp": "N",
+"t": "Not walking, running."
+},
+{
+"id": "050_N",
+"sp": "N",
+"t": "Like someone shoved you off a moving bike."
+},
+{
+"id": "051_N",
+"sp": "N",
+"t": "you stumble three steps and fall face first into the water."
+},
+{
+"id": "052_N",
+"sp": "N",
+"t": "Here's what happened, and this part is real."
+},
+{
+"id": "053_N",
+"sp": "N",
+"t": "The Earth spins."
+},
+{
+"id": "054_N",
+"sp": "N",
+"t": "At the equator, the ground under your feet is moving at about 1,670 kilometers per hour, faster than the speed of sound."
+},
+{
+"id": "055_N",
+"sp": "N",
+"t": "You don't feel it because everything moves with you."
+},
+{
+"id": "056_N",
+"sp": "N",
+"t": "The air, the house, the chips."
+},
+{
+"id": "057_N",
+"sp": "N",
+"t": "But every spot on the planet moves at a slightly different speed in a slightly different direction."
+},
+{
+"id": "058_N",
+"sp": "N",
+"t": "When you teleport, you keep the speed of the place you left, so you arrive moving wrong."
+},
+{
+"id": "059_N",
+"sp": "N",
+"t": "80 kilometers?"
+},
+{
+"id": "060_N",
+"sp": "N",
+"t": "A shove."
+},
+{
+"id": "061_N",
+"sp": "N",
+"t": "Jump straight from your bedroom to Paris and you'd hit the ground at around 250 kilometers per hour, like falling out of a race car."
+},
+{
+"id": "062_N",
+"sp": "N",
+"t": "So you learn to hop, 50 kilometers at a time, each landing a small stumble."
+},
+{
+"id": "063_N",
+"sp": "N",
+"t": "Let the ground catch you, then jump again."
+},
+{
+"id": "064_N",
+"sp": "N",
+"t": "Sam does the math on a napkin."
+},
+{
+"id": "065_N",
+"sp": "N",
+"t": "Paris is about a thousand kilometers."
+},
+{
+"id": "066_N",
+"sp": "N",
+"t": "That's 20 hops."
+},
+{
+"id": "067_SAM",
+"sp": "SAM",
+"t": "If you hop every two seconds, 40 seconds, 40 seconds, Sam says, your knees are going to hate you."
+},
+{
+"id": "068_N",
+"sp": "N",
+"t": "And at first, your life just gets ridiculously convenient."
+},
+{
+"id": "069_N",
+"sp": "N",
+"t": "Most people spend almost an hour a day commuting."
+},
+{
+"id": "070_N",
+"sp": "N",
+"t": "Add that up, and it's about 10 full days a year staring at the back of someone else's car."
+},
+{
+"id": "071_N",
+"sp": "N",
+"t": "You?"
+},
+{
+"id": "072_N",
+"sp": "N",
+"t": "Zero."
+},
+{
+"id": "073_N",
+"sp": "N",
+"t": "You're never late."
+},
+{
+"id": "074_N",
+"sp": "N",
+"t": "Ever."
+},
+{
+"id": "075_N",
+"sp": "N",
+"t": "You forget your charger at home?"
+},
+{
+"id": "076_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "077_N",
+"sp": "N",
+"t": "Got it."
+},
+{
+"id": "078_N",
+"sp": "N",
+"t": "Your favorite pizza place is in Naples?"
+},
+{
+"id": "079_N",
+"sp": "N",
+"t": "20 hops."
+},
+{
+"id": "080_N",
+"sp": "N",
+"t": "Your pizza is still hot when you get it home."
+},
+{
+"id": "081_N",
+"sp": "N",
+"t": "The guy at the counter sees you every Friday at 7."
+},
+{
+"id": "082_PIZZA",
+"sp": "PIZZA",
+"t": "You live around here?"
+},
+{
+"id": "083_HERO",
+"sp": "HERO",
+"t": "Kind of."
+},
+{
+"id": "084_N",
+"sp": "N",
+"t": "You sleep 40 minutes longer every single morning."
+},
+{
+"id": "085_N",
+"sp": "N",
+"t": "Your mom thinks you've finally got your life together."
+},
+{
+"id": "086_N",
+"sp": "N",
+"t": "You haven't."
+},
+{
+"id": "087_N",
+"sp": "N",
+"t": "You've just got a superpower."
+},
+{
+"id": "088_N",
+"sp": "N",
+"t": "Then you get bolder."
+},
+{
+"id": "089_N",
+"sp": "N",
+"t": "Your first trip to Paris takes 20 blind hops."
+},
+{
+"id": "090_N",
+"sp": "N",
+"t": "You land in a cow field, a parking lot, a stranger's wedding right next to the cake."
+},
+{
+"id": "091_HERO",
+"sp": "HERO",
+"t": "Congratulations, you say."
+},
+{
+"id": "092_N",
+"sp": "N",
+"t": "Pop!"
+},
+{
+"id": "093_N",
+"sp": "N",
+"t": "But once you've stood on that bridge over the river, it's yours forever."
+},
+{
+"id": "094_N",
+"sp": "N",
+"t": "Now, Paris is one memory away."
+},
+{
+"id": "095_N",
+"sp": "N",
+"t": "Your weekends start to look like this."
+},
+{
+"id": "096_N",
+"sp": "N",
+"t": "A croissant in Paris at 8 a.m."
+},
+{
+"id": "097_N",
+"sp": "N",
+"t": "That's 2 a.m."
+},
+{
+"id": "098_N",
+"sp": "N",
+"t": "back home."
+},
+{
+"id": "099_N",
+"sp": "N",
+"t": "Back in bed before anyone notices."
+},
+{
+"id": "100_N",
+"sp": "N",
+"t": "You collect cities like stickers."
+},
+{
+"id": "101_N",
+"sp": "N",
+"t": "Paris, Rome, Barcelona."
+},
+{
+"id": "102_N",
+"sp": "N",
+"t": "Each one is a dot in your head that never fades."
+},
+{
+"id": "103_N",
+"sp": "N",
+"t": "You watch the sunset from a rooftop in Paris."
+},
+{
+"id": "104_N",
+"sp": "N",
+"t": "Then you hop home and watch it again an hour later from your own roof."
+},
+{
+"id": "105_N",
+"sp": "N",
+"t": "Two sunsets in one evening."
+},
+{
+"id": "106_N",
+"sp": "N",
+"t": "There's just one thing nobody warned you about."
+},
+{
+"id": "107_N",
+"sp": "N",
+"t": "Jet lag."
+},
+{
+"id": "108_N",
+"sp": "N",
+"t": "Your body has a clock inside it, and it doesn't care how you travel."
+},
+{
+"id": "109_N",
+"sp": "N",
+"t": "Pop between time zones every night, and your brain stops knowing what day it is."
+},
+{
+"id": "110_N",
+"sp": "N",
+"t": "You fall asleep in math class."
+},
+{
+"id": "111_N",
+"sp": "N",
+"t": "Twice."
+},
+{
+"id": "112_TEACHER",
+"sp": "TEACHER",
+"t": "Late night?"
+},
+{
+"id": "113_N",
+"sp": "N",
+"t": "The teacher asks."
+},
+{
+"id": "114_HERO",
+"sp": "HERO",
+"t": "Early morning, you say."
+},
+{
+"id": "115_HERO",
+"sp": "HERO",
+"t": "In France."
+},
+{
+"id": "116_N",
+"sp": "N",
+"t": "And here's something wild."
+},
+{
+"id": "117_N",
+"sp": "N",
+"t": "Teleportation is technically real."
+},
+{
+"id": "118_N",
+"sp": "N",
+"t": "In 2017, Chinese scientists teleported the quantum state of a single photon from the ground to a satellite more than 1,000 kilometers away."
+},
+{
+"id": "119_N",
+"sp": "N",
+"t": "Not a person, not even a whole particle, just its information."
+},
+{
+"id": "120_N",
+"sp": "N",
+"t": "Scientists teleported one photon."
+},
+{
+"id": "121_N",
+"sp": "N",
+"t": "You just teleported a large pepperoni pizza."
+},
+{
+"id": "122_N",
+"sp": "N",
+"t": "But every superpower has a price."
+},
+{
+"id": "123_N",
+"sp": "N",
+"t": "Yours is paperwork."
+},
+{
+"id": "124_N",
+"sp": "N",
+"t": "You've been to 11 countries this month."
+},
+{
+"id": "125_N",
+"sp": "N",
+"t": "Your passport has zero stamps."
+},
+{
+"id": "126_N",
+"sp": "N",
+"t": "Then you get careless."
+},
+{
+"id": "127_N",
+"sp": "N",
+"t": "You pop onto that Paris bridge at noon, right behind a girl filming her boyfriend's proposal."
+},
+{
+"id": "128_N",
+"sp": "N",
+"t": "She doesn't notice you."
+},
+{
+"id": "129_N",
+"sp": "N",
+"t": "Her phone does."
+},
+{
+"id": "130_N",
+"sp": "N",
+"t": "By Monday, the clip has 14 million views."
+},
+{
+"id": "131_N",
+"sp": "N",
+"t": "Hoodie guy appears out of thin air."
+},
+{
+"id": "132_N",
+"sp": "N",
+"t": "Slow motion replays."
+},
+{
+"id": "133_N",
+"sp": "N",
+"t": "Red circles."
+},
+{
+"id": "134_N",
+"sp": "N",
+"t": "Arrows."
+},
+{
+"id": "135_N",
+"sp": "N",
+"t": "Half the comments say it's fake."
+},
+{
+"id": "136_N",
+"sp": "N",
+"t": "The other half are trying to figure out who you are."
+},
+{
+"id": "137_N",
+"sp": "N",
+"t": "Sam texts you."
+},
+{
+"id": "138_SAM",
+"sp": "SAM",
+"t": "Bro, is that your hoodie?"
+},
+{
+"id": "139_HERO",
+"sp": "HERO",
+"t": "Lots of people have that hoodie."
+},
+{
+"id": "140_SAM",
+"sp": "SAM",
+"t": "It has my ketchup stain on it."
+},
+{
+"id": "141_N",
+"sp": "N",
+"t": "Three weeks after your first jump, there's a knock at the door."
+},
+{
+"id": "142_N",
+"sp": "N",
+"t": "A woman in a gray suit."
+},
+{
+"id": "143_N",
+"sp": "N",
+"t": "She doesn't smile."
+},
+{
+"id": "144_HALE",
+"sp": "HALE",
+"t": "My name is Agent Hale."
+},
+{
+"id": "145_HALE",
+"sp": "HALE",
+"t": "You've never left the country."
+},
+{
+"id": "146_HALE",
+"sp": "HALE",
+"t": "Zero stamps."
+},
+{
+"id": "147_HALE",
+"sp": "HALE",
+"t": "And yet you were filmed in Paris on Saturday, and 40 minutes later, you bought a pizza in Naples."
+},
+{
+"id": "148_N",
+"sp": "N",
+"t": "She slides a card across the kitchen table."
+},
+{
+"id": "149_HALE",
+"sp": "HALE",
+"t": "Nothing is locked for someone like you."
+},
+{
+"id": "150_HALE",
+"sp": "HALE",
+"t": "Vaults, server rooms, borders."
+},
+{
+"id": "151_HALE",
+"sp": "HALE",
+"t": "People will pay anything for that."
+},
+{
+"id": "152_HALE",
+"sp": "HALE",
+"t": "And some of them will do much worse than pay."
+},
+{
+"id": "153_HALE",
+"sp": "HALE",
+"t": "Work with us."
+},
+{
+"id": "154_HALE",
+"sp": "HALE",
+"t": "We'll protect you."
+},
+{
+"id": "155_N",
+"sp": "N",
+"t": "And here's the scary part."
+},
+{
+"id": "156_N",
+"sp": "N",
+"t": "She's right."
+},
+{
+"id": "157_N",
+"sp": "N",
+"t": "Every vault in the world has a door."
+},
+{
+"id": "158_N",
+"sp": "N",
+"t": "You don't need doors."
+},
+{
+"id": "159_N",
+"sp": "N",
+"t": "You could be a billionaire by Friday."
+},
+{
+"id": "160_N",
+"sp": "N",
+"t": "But every dollar you take belongs to somebody."
+},
+{
+"id": "161_N",
+"sp": "N",
+"t": "And if you say yes, you're not a person anymore."
+},
+{
+"id": "162_N",
+"sp": "N",
+"t": "You're a tool."
+},
+{
+"id": "163_HERO",
+"sp": "HERO",
+"t": "I'll think about it."
+},
+{
+"id": "164_HALE",
+"sp": "HALE",
+"t": "Think fast, she says."
+},
+{
+"id": "165_HALE",
+"sp": "HALE",
+"t": "You're not the only one who watched that video."
+},
+{
+"id": "166_N",
+"sp": "N",
+"t": "So now you hide."
+},
+{
+"id": "167_N",
+"sp": "N",
+"t": "No more bridges at noon."
+},
+{
+"id": "168_N",
+"sp": "N",
+"t": "You jump only from bathrooms and back alleys."
+},
+{
+"id": "169_N",
+"sp": "N",
+"t": "You check over your shoulder every time."
+},
+{
+"id": "170_N",
+"sp": "N",
+"t": "You can go anywhere on Earth, and suddenly, there's nowhere you feel safe."
+},
+{
+"id": "171_N",
+"sp": "N",
+"t": "So here's my question for you."
+},
+{
+"id": "172_N",
+"sp": "N",
+"t": "If you could teleport anywhere right now, where would you go first?"
+},
+{
+"id": "173_N",
+"sp": "N",
+"t": "Drop it in the comments."
+},
+{
+"id": "174_N",
+"sp": "N",
+"t": "Seriously, I want to know."
+},
+{
+"id": "175_N",
+"sp": "N",
+"t": "The only place you still go openly is the care home."
+},
+{
+"id": "176_N",
+"sp": "N",
+"t": "Your grandma Rosa lives there, 900 kilometers away."
+},
+{
+"id": "177_N",
+"sp": "N",
+"t": "Your family used to visit twice a year."
+},
+{
+"id": "178_N",
+"sp": "N",
+"t": "Now, you visit every Sunday."
+},
+{
+"id": "179_N",
+"sp": "N",
+"t": "18 hops."
+},
+{
+"id": "180_N",
+"sp": "N",
+"t": "Nobody asks."
+},
+{
+"id": "181_N",
+"sp": "N",
+"t": "Grandma has dementia."
+},
+{
+"id": "182_N",
+"sp": "N",
+"t": "Most days, she doesn't remember your name."
+},
+{
+"id": "183_N",
+"sp": "N",
+"t": "She calls you the nice boy."
+},
+{
+"id": "184_N",
+"sp": "N",
+"t": "But there's one thing she never forgets."
+},
+{
+"id": "185_N",
+"sp": "N",
+"t": "A lemon tree."
+},
+{
+"id": "186_N",
+"sp": "N",
+"t": "She grew up in a tiny village on a cliff above the sea in the south of Italy."
+},
+{
+"id": "187_N",
+"sp": "N",
+"t": "Behind her house stood a lemon tree her father planted the year she was born."
+},
+{
+"id": "188_N",
+"sp": "N",
+"t": "She left at 17 and never went back."
+},
+{
+"id": "189_N",
+"sp": "N",
+"t": "63 years."
+},
+{
+"id": "190_GRANDMA",
+"sp": "GRANDMA",
+"t": "The lemons were as big as your fist, she says."
+},
+{
+"id": "191_N",
+"sp": "N",
+"t": "Every single Sunday."
+},
+{
+"id": "192_GRANDMA",
+"sp": "GRANDMA",
+"t": "I'd give anything to smell that tree one more time."
+},
+{
+"id": "193_N",
+"sp": "N",
+"t": "The doctors say she's too weak to travel."
+},
+{
+"id": "194_N",
+"sp": "N",
+"t": "An airport, a plane, hours in a car."
+},
+{
+"id": "195_N",
+"sp": "N",
+"t": "It would be too much."
+},
+{
+"id": "196_NURSE",
+"sp": "NURSE",
+"t": "She doesn't have much time, the nurse tells your mom in the hallway."
+},
+{
+"id": "197_N",
+"sp": "N",
+"t": "You hear it anyway."
+},
+{
+"id": "198_N",
+"sp": "N",
+"t": "You could hop blind, but blind hops land you a few hundred meters off."
+},
+{
+"id": "199_N",
+"sp": "N",
+"t": "In a village on a cliff, a few hundred meters off means the sea."
+},
+{
+"id": "200_N",
+"sp": "N",
+"t": "Not with Grandma."
+},
+{
+"id": "201_N",
+"sp": "N",
+"t": "With her, every landing has to be perfect."
+},
+{
+"id": "202_N",
+"sp": "N",
+"t": "You need to see that tree with your own eyes."
+},
+{
+"id": "203_N",
+"sp": "N",
+"t": "So, you do it the slow way."
+},
+{
+"id": "204_N",
+"sp": "N",
+"t": "You spend your savings."
+},
+{
+"id": "205_N",
+"sp": "N",
+"t": "Two trains, a bus, and a ferry."
+},
+{
+"id": "206_N",
+"sp": "N",
+"t": "Two days."
+},
+{
+"id": "207_N",
+"sp": "N",
+"t": "You climb a hundred steps up a cliff and ask a very confused old man in terrible Italian, Rosa?"
+},
+{
+"id": "208_HERO",
+"sp": "HERO",
+"t": "Lemon tree?"
+},
+{
+"id": "209_HERO",
+"sp": "HERO",
+"t": "Big lemons?"
+},
+{
+"id": "210_N",
+"sp": "N",
+"t": "He takes you behind an empty house."
+},
+{
+"id": "211_N",
+"sp": "N",
+"t": "And there it is."
+},
+{
+"id": "212_N",
+"sp": "N",
+"t": "Huge."
+},
+{
+"id": "213_N",
+"sp": "N",
+"t": "Ancient."
+},
+{
+"id": "214_N",
+"sp": "N",
+"t": "Covered in lemons as big as your fist."
+},
+{
+"id": "215_N",
+"sp": "N",
+"t": "You stand there for ten minutes, memorizing it."
+},
+{
+"id": "216_N",
+"sp": "N",
+"t": "Every leaf."
+},
+{
+"id": "217_N",
+"sp": "N",
+"t": "The blue sea below."
+},
+{
+"id": "218_N",
+"sp": "N",
+"t": "The smell."
+},
+{
+"id": "219_N",
+"sp": "N",
+"t": "Then, you go back for her."
+},
+{
+"id": "220_N",
+"sp": "N",
+"t": "Sunday."
+},
+{
+"id": "221_N",
+"sp": "N",
+"t": "You tell the nurse you're taking Grandma for a walk in the garden."
+},
+{
+"id": "222_N",
+"sp": "N",
+"t": "Behind the hedge, you take her hand."
+},
+{
+"id": "223_HERO",
+"sp": "HERO",
+"t": "Grandma, close your eyes."
+},
+{
+"id": "224_N",
+"sp": "N",
+"t": "For her, you make the hops tiny."
+},
+{
+"id": "225_N",
+"sp": "N",
+"t": "Ten kilometers each."
+},
+{
+"id": "226_N",
+"sp": "N",
+"t": "Barely a breath of wind at every landing."
+},
+{
+"id": "227_N",
+"sp": "N",
+"t": "A hundred and forty jumps."
+},
+{
+"id": "228_N",
+"sp": "N",
+"t": "You hold her hand the whole way."
+},
+{
+"id": "229_N",
+"sp": "N",
+"t": "You catch her every time."
+},
+{
+"id": "230_N",
+"sp": "N",
+"t": "And then you're there."
+},
+{
+"id": "231_N",
+"sp": "N",
+"t": "Warm sun, salty air, and the smell of lemons."
+},
+{
+"id": "232_N",
+"sp": "N",
+"t": "She opens her eyes."
+},
+{
+"id": "233_N",
+"sp": "N",
+"t": "She doesn't say anything for a long time."
+},
+{
+"id": "234_N",
+"sp": "N",
+"t": "She walks up to the tree, slowly, and puts her hand on the trunk like she's touching an old friend."
+},
+{
+"id": "235_GRANDMA",
+"sp": "GRANDMA",
+"t": "Papa, she whispers."
+},
+{
+"id": "236_N",
+"sp": "N",
+"t": "She picks one lemon and holds it under her nose."
+},
+{
+"id": "237_N",
+"sp": "N",
+"t": "She starts crying, then laughing."
+},
+{
+"id": "238_GRANDMA",
+"sp": "GRANDMA",
+"t": "Then she turns to you and says, Nico, my Nico, how did you do this?"
+},
+{
+"id": "239_N",
+"sp": "N",
+"t": "Your name."
+},
+{
+"id": "240_N",
+"sp": "N",
+"t": "For the first time in a year, she remembers your name."
+},
+{
+"id": "241_N",
+"sp": "N",
+"t": "You stay for one hour."
+},
+{
+"id": "242_N",
+"sp": "N",
+"t": "She tells you stories you've never heard."
+},
+{
+"id": "243_N",
+"sp": "N",
+"t": "About her father, about the sea, about the boy she kissed under this tree, who was definitely not grandpa."
+},
+{
+"id": "244_GRANDMA",
+"sp": "GRANDMA",
+"t": "Don't tell your mother, she laughs."
+},
+{
+"id": "245_N",
+"sp": "N",
+"t": "Then you hop her home."
+},
+{
+"id": "246_N",
+"sp": "N",
+"t": "A hundred and forty jumps."
+},
+{
+"id": "247_N",
+"sp": "N",
+"t": "That night, she sleeps with the lemon on her pillow."
+},
+{
+"id": "248_N",
+"sp": "N",
+"t": "The nurse can't figure out where it came from."
+},
+{
+"id": "249_N",
+"sp": "N",
+"t": "You can't tell anyone."
+},
+{
+"id": "250_N",
+"sp": "N",
+"t": "But for the first time, it feels like this power was made for something."
+},
+{
+"id": "251_N",
+"sp": "N",
+"t": "Day forty."
+},
+{
+"id": "252_N",
+"sp": "N",
+"t": "You're at home doing homework when the TV turns red."
+},
+{
+"id": "253_N",
+"sp": "N",
+"t": "Breaking news."
+},
+{
+"id": "254_N",
+"sp": "N",
+"t": "A storm."
+},
+{
+"id": "255_N",
+"sp": "N",
+"t": "The dam above a small valley town has cracked."
+},
+{
+"id": "256_N",
+"sp": "N",
+"t": "The river is rising faster than anyone expected."
+},
+{
+"id": "257_N",
+"sp": "N",
+"t": "Helicopters can't fly in this wind."
+},
+{
+"id": "258_N",
+"sp": "N",
+"t": "Dozens of people are stuck on rooftops, and the water is still coming up."
+},
+{
+"id": "259_N",
+"sp": "N",
+"t": "You know that town."
+},
+{
+"id": "260_N",
+"sp": "N",
+"t": "You hop through it every Sunday on the way to Grandma."
+},
+{
+"id": "261_N",
+"sp": "N",
+"t": "Sam is on your couch."
+},
+{
+"id": "262_N",
+"sp": "N",
+"t": "He looks at the TV, then at you."
+},
+{
+"id": "263_SAM",
+"sp": "SAM",
+"t": "Don't, he says."
+},
+{
+"id": "264_SAM",
+"sp": "SAM",
+"t": "There are cameras everywhere."
+},
+{
+"id": "265_SAM",
+"sp": "SAM",
+"t": "If you go, everyone will know."
+},
+{
+"id": "266_SAM",
+"sp": "SAM",
+"t": "Hail."
+},
+{
+"id": "267_SAM",
+"sp": "SAM",
+"t": "Everyone."
+},
+{
+"id": "268_SAM",
+"sp": "SAM",
+"t": "Forever."
+},
+{
+"id": "269_N",
+"sp": "N",
+"t": "He's right."
+},
+{
+"id": "270_N",
+"sp": "N",
+"t": "If you go, there's no more hiding."
+},
+{
+"id": "271_N",
+"sp": "N",
+"t": "No more normal life."
+},
+{
+"id": "272_N",
+"sp": "N",
+"t": "This is the jump you can never take back."
+},
+{
+"id": "273_N",
+"sp": "N",
+"t": "On the screen, a little girl on a roof is waving a red jacket at a helicopter that can't land."
+},
+{
+"id": "274_N",
+"sp": "N",
+"t": "You look at Sam."
+},
+{
+"id": "275_HERO",
+"sp": "HERO",
+"t": "Hold the stopwatch."
+},
+{
+"id": "276_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "277_N",
+"sp": "N",
+"t": "Freezing rain."
+},
+{
+"id": "278_N",
+"sp": "N",
+"t": "The water roaring."
+},
+{
+"id": "279_N",
+"sp": "N",
+"t": "The roof is shaking under your feet."
+},
+{
+"id": "280_N",
+"sp": "N",
+"t": "You grab the girl and her dad."
+},
+{
+"id": "281_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "282_N",
+"sp": "N",
+"t": "A dry hill."
+},
+{
+"id": "283_N",
+"sp": "N",
+"t": "A school gym."
+},
+{
+"id": "284_N",
+"sp": "N",
+"t": "Blankets."
+},
+{
+"id": "285_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "286_N",
+"sp": "N",
+"t": "Back."
+},
+{
+"id": "287_N",
+"sp": "N",
+"t": "An old man on top of a car."
+},
+{
+"id": "288_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "289_N",
+"sp": "N",
+"t": "A woman holding a dog."
+},
+{
+"id": "290_WOMAN",
+"sp": "WOMAN",
+"t": "Take the dog first."
+},
+{
+"id": "291_HERO",
+"sp": "HERO",
+"t": "I'm taking you both."
+},
+{
+"id": "292_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "293_N",
+"sp": "N",
+"t": "Every jump, your knees hit the ground."
+},
+{
+"id": "294_N",
+"sp": "N",
+"t": "Every jump, your head spins."
+},
+{
+"id": "295_N",
+"sp": "N",
+"t": "Short hops only."
+},
+{
+"id": "296_N",
+"sp": "N",
+"t": "You can't risk the speed."
+},
+{
+"id": "297_N",
+"sp": "N",
+"t": "Back and forth."
+},
+{
+"id": "298_N",
+"sp": "N",
+"t": "Back and forth."
+},
+{
+"id": "299_N",
+"sp": "N",
+"t": "Sam's voice in your earbuds."
+},
+{
+"id": "300_SAM",
+"sp": "SAM",
+"t": "Jump 30."
+},
+{
+"id": "301_SAM",
+"sp": "SAM",
+"t": "Jump 31."
+},
+{
+"id": "302_SAM",
+"sp": "SAM",
+"t": "Bro, you're bleeding."
+},
+{
+"id": "303_HERO",
+"sp": "HERO",
+"t": "I'm fine."
+},
+{
+"id": "304_SAM",
+"sp": "SAM",
+"t": "You are not fine."
+},
+{
+"id": "305_N",
+"sp": "N",
+"t": "On jump 47, the last roof goes under the water."
+},
+{
+"id": "306_N",
+"sp": "N",
+"t": "Nobody on it."
+},
+{
+"id": "307_N",
+"sp": "N",
+"t": "47 jumps."
+},
+{
+"id": "308_N",
+"sp": "N",
+"t": "23 people."
+},
+{
+"id": "309_N",
+"sp": "N",
+"t": "Two dogs."
+},
+{
+"id": "310_N",
+"sp": "N",
+"t": "One very angry cat."
+},
+{
+"id": "311_N",
+"sp": "N",
+"t": "You lie on the floor of the school gym, soaking wet, staring at the ceiling."
+},
+{
+"id": "312_N",
+"sp": "N",
+"t": "Then you hear it."
+},
+{
+"id": "313_N",
+"sp": "N",
+"t": "A phone camera beep."
+},
+{
+"id": "314_N",
+"sp": "N",
+"t": "Then another."
+},
+{
+"id": "315_N",
+"sp": "N",
+"t": "Then 50."
+},
+{
+"id": "316_N",
+"sp": "N",
+"t": "Everyone in that gym is filming you."
+},
+{
+"id": "317_N",
+"sp": "N",
+"t": "By morning, the whole planet knows your face."
+},
+{
+"id": "318_N",
+"sp": "N",
+"t": "Two days later, you go to see grandma."
+},
+{
+"id": "319_N",
+"sp": "N",
+"t": "There are reporters outside your house, so you hop straight into her room."
+},
+{
+"id": "320_N",
+"sp": "N",
+"t": "The TV is on."
+},
+{
+"id": "321_N",
+"sp": "N",
+"t": "It's you."
+},
+{
+"id": "322_N",
+"sp": "N",
+"t": "Again."
+},
+{
+"id": "323_N",
+"sp": "N",
+"t": "Soaking wet, carrying a little girl in a red jacket."
+},
+{
+"id": "324_N",
+"sp": "N",
+"t": "The anchor says, Who is the teleporting teenager?"
+},
+{
+"id": "325_N",
+"sp": "N",
+"t": "Grandma points at the screen, then at you, and she smiles."
+},
+{
+"id": "326_GRANDMA",
+"sp": "GRANDMA",
+"t": "That's my Nico, she tells the nurse."
+},
+{
+"id": "327_GRANDMA",
+"sp": "GRANDMA",
+"t": "He takes me to see lemons."
+},
+{
+"id": "328_N",
+"sp": "N",
+"t": "The nurse laughs and pats her hand."
+},
+{
+"id": "329_N",
+"sp": "N",
+"t": "She thinks Grandma is confused."
+},
+{
+"id": "330_N",
+"sp": "N",
+"t": "Grandma winks at you."
+},
+{
+"id": "331_N",
+"sp": "N",
+"t": "She's not confused at all."
+},
+{
+"id": "332_N",
+"sp": "N",
+"t": "That evening, Agent Hale is waiting in your kitchen again."
+},
+{
+"id": "333_N",
+"sp": "N",
+"t": "This time, she isn't sliding a card across the table."
+},
+{
+"id": "334_N",
+"sp": "N",
+"t": "She's holding a newspaper with your face on it."
+},
+{
+"id": "335_HALE",
+"sp": "HALE",
+"t": "You know what you did, she says."
+},
+{
+"id": "336_HALE",
+"sp": "HALE",
+"t": "You made yourself impossible to hide and impossible to use."
+},
+{
+"id": "337_HALE",
+"sp": "HALE",
+"t": "Anyone who comes after you now, the whole world will be watching."
+},
+{
+"id": "338_N",
+"sp": "N",
+"t": "Then she does something you've never seen her do."
+},
+{
+"id": "339_N",
+"sp": "N",
+"t": "She smiles."
+},
+{
+"id": "340_HALE",
+"sp": "HALE",
+"t": "Smart kid."
+},
+{
+"id": "341_N",
+"sp": "N",
+"t": "She leaves."
+},
+{
+"id": "342_N",
+"sp": "N",
+"t": "You sit alone in the kitchen."
+},
+{
+"id": "343_N",
+"sp": "N",
+"t": "Finally, it's quiet."
+},
+{
+"id": "344_N",
+"sp": "N",
+"t": "Then the air in front of you ripples."
+},
+{
+"id": "345_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "346_N",
+"sp": "N",
+"t": "A girl about your age is standing in your kitchen."
+},
+{
+"id": "347_N",
+"sp": "N",
+"t": "Gray hoodie, wet shoes."
+},
+{
+"id": "348_N",
+"sp": "N",
+"t": "She looks around like she owns the place."
+},
+{
+"id": "349_STRANGER",
+"sp": "STRANGER",
+"t": "So, you're the one from the news."
+},
+{
+"id": "350_HERO",
+"sp": "HERO",
+"t": "Who are you?"
+},
+{
+"id": "351_N",
+"sp": "N",
+"t": "She smiles."
+},
+{
+"id": "352_STRANGER",
+"sp": "STRANGER",
+"t": "Someone who's been teleporting for six years."
+},
+{
+"id": "353_STRANGER",
+"sp": "STRANGER",
+"t": "And trust me, you're doing it all wrong."
+},
+{
+"id": "354_N",
+"sp": "N",
+"t": "Pop."
+},
+{
+"id": "355_N",
+"sp": "N",
+"t": "She's gone."
+},
+{
+"id": "356_N",
+"sp": "N",
+"t": "And on the table, right where she was standing, there's a lemon."
+},
+{
+"id": "357_N",
+"sp": "N",
+"t": "So, here's the question."
+},
+{
+"id": "358_N",
+"sp": "N",
+"t": "If you could teleport, would you stay invisible to keep your normal life, or would you jump, even if it meant the whole world would know your name forever?"
+},
+{
+"id": "359_N",
+"sp": "N",
+"t": "Tell me in the comments, and if you want to know who that girl is, hit like and subscribe."
+},
+{
+"id": "360_N",
+"sp": "N",
+"t": "Part 2 is coming."
+}
+]
