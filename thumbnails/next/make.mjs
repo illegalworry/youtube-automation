@@ -43,7 +43,7 @@ const scenes = {
       ${[-120, 0, 120].map(cx => `<circle cx="${cx}" cy="48" r="46" fill="#fff6d0" stroke="#a86a00" stroke-width="5"/><text x="${cx}" y="72" text-anchor="middle" font-family="P" font-weight="900" font-size="66" fill="#d6261e">7</text>`).join('')}
     </g>`;
     s += spark(700, 330, 34, '#ffffff') + spark(255, 360, 24, '#fff3c0') + spark(640, 600, 20, '#ffffff');
-    s += hero({ x: 1040, y: 400, r: 170, hoodie: '#2fb36b', hood: '#9ef0b8', gaze: -1, expr: 'bored', rim: '#d6ffe4' });
+    s += hero({ x: 1040, y: 380, r: 175, gaze: -1, expr: 'bored', star: true });
     s += vig + text('JACKPOT.', 40, 140, 122, '#ffffff') + text('AGAIN.', 40, 268, 122, '#ffd23f');
     return s;
   },
@@ -52,7 +52,7 @@ const scenes = {
     let s = nightBg('#0b0f26', '#241a44', 13, [820, 520, 300, '#9fd8ff']);
     s += `<rect x="0" y="600" width="${W}" height="120" fill="#0d0a1a"/>`;
     s += bolt(520, -20, 610, 618, 3, 1.15) + bolt(1220, -20, 1160, 622, 9, 0.9) + bolt(760, -20, 700, 640, 21, 0.75);
-    s += hero({ x: 905, y: 360, r: 165, hoodie: '#2f6fe0', hood: '#8fb7ff', gaze: -1, expr: 'bored', rim: '#e8f7ff' });
+    s += hero({ x: 905, y: 340, r: 170, gaze: -1, expr: 'bored' });
     s += vig + text('MISSED.', 40, 140, 124, '#ffffff') + text('100 TIMES.', 40, 268, 110, '#ffd23f');
     return s;
   },
@@ -60,10 +60,10 @@ const scenes = {
   death_friend() {
     let s = nightBg('#120f2a', '#2a1630', 17, [600, 380, 260, '#ff3b30']);
     s += `<g filter="url(#b6)" opacity="0.75">${crowdPerson(150, 500, 55, '#3a2f5a')}${crowdPerson(340, 530, 45, '#4a2f4a')}</g>${pill(150, 405, '2071', '#ffffff', 30)}${pill(340, 450, '2058', '#ffffff', 26)}`;
-    s += hero({ x: 600, y: 470, r: 120, hoodie: '#f0a020', hood: '#ffd58a', gaze: 1, expr: 'smile', rim: '#ffe2b0' });
+    s += hero({ x: 600, y: 460, r: 120, hoodie: '#ff8a1f', gaze: 1, expr: 'happy' });
     s += pill(600, 300, 'TODAY', '#ff3b30', 52);
     s += `<circle cx="600" cy="300" r="140" fill="#ff3b30" opacity="0.18" filter="url(#b40)"/>`;
-    s += hero({ x: 1050, y: 430, r: 175, hoodie: '#5a4bd1', hood: '#a99cff', gaze: -1, expr: 'shocked', rim: '#d9d2ff' });
+    s += hero({ x: 1050, y: 410, r: 175, gaze: -1, expr: 'shocked' });
     s += vig + text('HE HAS', 40, 130, 112, '#ffffff') + text('1 DAY.', 40, 250, 118, '#ff3b30');
     return s;
   },
@@ -72,7 +72,7 @@ const scenes = {
     let s = nightBg('#100c26', '#2b1840', 29, [880, 300, 280, '#ff3b30']);
     const crowd = [[150, 400, 52, '2063'], [380, 450, 46, '2047'], [1190, 520, 48, '2091'], [590, 500, 40, '2039']];
     s += `<g filter="url(#b6)" opacity="0.8">` + crowd.map(([x, y, sc]) => crowdPerson(x, y, sc, '#3a2f5a')).join('') + `</g>` + crowd.map(([x, y, sc, d]) => pill(x, y - sc - 48, d, '#ffffff', 30)).join('');
-    s += hero({ x: 880, y: 450, r: 175, hoodie: '#e2463a', hood: '#f08a6e', gaze: -1, expr: 'shocked', rim: '#ffd0c0' });
+    s += hero({ x: 880, y: 440, r: 175, gaze: 0, expr: 'shocked' });
     const gl = '??.??.????';
     s += `<g transform="translate(880 205)">
       <rect x="-250" y="-55" width="500" height="110" rx="55" fill="#0b0a10" fill-opacity="0.9" stroke="#ff3b30" stroke-width="4"/>

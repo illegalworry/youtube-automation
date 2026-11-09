@@ -10,50 +10,42 @@ const INK = '#0b0a10', EYE = '#f5f1e8';
 
 export function rng(seed) { let a = seed; return () => { a = (a * 9301 + 49297) % 233280; return a / 233280; }; }
 
-// ---------- character: big round head, coloured hood behind it, thin neck, hoodie cropped by frame ----------
-export function hero({ x, y, r, hoodie, hood, gaze = -1, expr = 'bored', star = false, rim = '#8fe9ff' }) {
-  const hg = id('h'), rg = id('r');
-  let s = `<defs><linearGradient id="${hg}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${hoodie}"/><stop offset="1" stop-color="${shade(hoodie, -0.35)}"/></linearGradient>
-    <radialGradient id="${rg}" cx="${0.5 - gaze * 0.35}" cy="0.25" r="0.8"><stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>`;
-  // body
-  s += `<path d="M${x - 0.95 * r},${H + 20} L${x - 0.92 * r},${y + 1.75 * r} Q${x - 0.85 * r},${y + 1.32 * r} ${x - 0.25 * r},${y + 1.25 * r} L${x + 0.25 * r},${y + 1.25 * r} Q${x + 0.85 * r},${y + 1.32 * r} ${x + 0.92 * r},${y + 1.75 * r} L${x + 0.95 * r},${H + 20} Z" fill="url(#${hg})"/>`;
-  s += `<path d="M${x - 0.32 * r},${y + 1.27 * r} Q${x},${y + 1.48 * r} ${x + 0.32 * r},${y + 1.27 * r}" fill="none" stroke="${shade(hoodie, -0.45)}" stroke-width="${0.08 * r}" stroke-linecap="round"/>`;
-  for (const k of [-1, 1]) s += `<path d="M${x + k * 0.16 * r},${y + 1.38 * r} L${x + k * 0.19 * r},${y + 1.95 * r}" stroke="${EYE}" stroke-opacity="0.85" stroke-width="${0.035 * r}" stroke-linecap="round"/><circle cx="${x + k * 0.19 * r}" cy="${y + 1.97 * r}" r="${0.03 * r}" fill="${EYE}" opacity="0.85"/>`;
-  // neck
-  s += `<rect x="${x - 0.09 * r}" y="${y + 0.85 * r}" width="${0.18 * r}" height="${0.45 * r}" rx="${0.04 * r}" fill="${INK}"/>`;
-  // hood behind the head
-  s += `<circle cx="${x + gaze * 0.04 * r}" cy="${y - 0.04 * r}" r="${1.08 * r}" fill="${hood}"/>`;
-  s += `<circle cx="${x + gaze * 0.04 * r}" cy="${y - 0.04 * r}" r="${1.08 * r}" fill="none" stroke="${rim}" stroke-opacity="0.5" stroke-width="${0.02 * r}"/>`;
-  // head
-  s += `<circle cx="${x}" cy="${y}" r="${r}" fill="${INK}"/><circle cx="${x}" cy="${y}" r="${r}" fill="url(#${rg})"/>`;
-  // eyes
-  const ex = x + gaze * 0.28 * r, ey = y - 0.06 * r, rx = 0.15 * r, ry = 0.1 * r;
+// ---------- character (channel's main hero): black round head with a soft gloss, white crescent eyes
+// without pupils, optional lime sparkle in one eye, thin long neck, hoodie with collar + two drawstrings ----------
+export const LIME = '#b6ff1c';
+export function hero({ x, y, r, hoodie = LIME, gaze = 0, expr = 'smile', star = false, starColor = LIME, gloss = true }) {
+  const g = gaze * 0.12 * r, hg = id('h');
+  let s = `<defs><linearGradient id="${hg}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${hoodie}"/><stop offset="1" stop-color="${shade(hoodie, -0.18)}"/></linearGradient></defs>`;
+  // hoodie (rounded block cropped by the frame)
+  const top = y + 1.31 * r, hw = 0.8 * r;
+  s += `<path d="M${x - hw},${H + 20} L${x - hw},${top + 0.55 * r} Q${x - hw},${top} ${x - 0.3 * r},${top} L${x + 0.3 * r},${top} Q${x + hw},${top} ${x + hw},${top + 0.55 * r} L${x + hw},${H + 20} Z" fill="url(#${hg})"/>`;
+  s += `<path d="M${x - 0.31 * r},${top} Q${x},${top + 0.17 * r} ${x + 0.31 * r},${top}" fill="none" stroke="${shade(hoodie, -0.45)}" stroke-width="${0.05 * r}" stroke-linecap="round"/>`;
+  for (const k of [-1, 1]) s += `<path d="M${x + k * 0.11 * r},${top + 0.2 * r} L${x + k * 0.11 * r},${top + 0.53 * r}" stroke="#ffffff" stroke-width="${0.035 * r}" stroke-linecap="round"/>`;
+  // neck + head
+  s += `<rect x="${x - 0.115 * r}" y="${y + 0.9 * r}" width="${0.23 * r}" height="${0.45 * r}" fill="${INK}"/>`;
+  s += `<circle cx="${x}" cy="${y}" r="${r}" fill="${INK}"/>`;
+  if (gloss) s += `<ellipse cx="${x - 0.5 * r}" cy="${y - 0.31 * r}" rx="${0.22 * r}" ry="${0.45 * r}" fill="#ffffff" opacity="0.1" transform="rotate(25 ${x - 0.5 * r} ${y - 0.31 * r})"/>`;
+  // eyes: flat top, round bottom, no pupils
+  const ex = x + 0.04 * r + g, ey = y - 0.04 * r, rx = 0.15 * r;
   for (const k of [-1, 1]) {
-    const cx = ex + k * 0.25 * r;
-    if (expr === 'bored') {
-      const t = -k * gaze * 0.02 * r;
-      s += `<path d="M${cx - rx},${ey + t} L${cx + rx},${ey - t} A${rx} ${ry * 0.8} 0 0 1 ${cx - rx},${ey + t} Z" fill="${EYE}"/>`;
-      s += `<rect x="${cx - rx * 1.15}" y="${ey - 0.065 * r + (k * gaze > 0 ? 0.01 * r : -0.01 * r)}" width="${rx * 2.3}" height="${0.045 * r}" rx="${0.02 * r}" fill="${EYE}" transform="rotate(${k * gaze * 4} ${cx} ${ey})"/>`;
-      s += `<circle cx="${cx + gaze * rx * 0.45}" cy="${ey + ry * 0.25}" r="${0.05 * r}" fill="${INK}"/>`;
-    } else if (expr === 'smile') {
-      s += `<path d="M${cx - rx},${ey + 0.02 * r} Q${cx},${ey - ry * 1.6} ${cx + rx},${ey + 0.02 * r}" fill="none" stroke="${EYE}" stroke-width="${0.05 * r}" stroke-linecap="round"/>`;
-    } else if (expr === 'shocked') {
-      s += `<ellipse cx="${cx}" cy="${ey - 0.02 * r}" rx="${rx * 0.95}" ry="${ry * 1.55}" fill="${EYE}"/>`;
-      s += `<circle cx="${cx + gaze * rx * 0.3}" cy="${ey - 0.02 * r}" r="${0.045 * r}" fill="${INK}"/>`;
-    } else {
-      s += `<path d="M${cx - rx},${ey - 0.02 * r * k * gaze} L${cx + rx},${ey + 0.03 * r * k * gaze} A${rx} ${ry} 0 0 1 ${cx - rx},${ey - 0.02 * r * k * gaze} Z" fill="${EYE}"/>`;
-      s += `<circle cx="${cx + gaze * rx * 0.4}" cy="${ey + ry * 0.4}" r="${0.055 * r}" fill="${INK}"/>`;
+    const cx = ex + k * 0.31 * r;
+    if (expr === 'shocked') s += `<ellipse cx="${cx}" cy="${ey}" rx="${rx * 0.75}" ry="${rx * 0.95}" fill="#ffffff"/>`;
+    else if (expr === 'happy') s += `<path d="M${cx - rx},${ey + 0.03 * r} Q${cx},${ey - 0.16 * r} ${cx + rx},${ey + 0.03 * r}" fill="none" stroke="#ffffff" stroke-width="${0.05 * r}" stroke-linecap="round"/>`;
+    else {
+      const lid = expr === 'bored' ? 0.035 * r : 0, t = k * 0.015 * r;
+      s += `<path d="M${cx - rx},${ey - 0.03 * r + lid - t} L${cx + rx},${ey - 0.03 * r + lid + t} Q${cx + rx * 0.9},${ey + 0.1 * r} ${cx},${ey + 0.1 * r} Q${cx - rx * 0.9},${ey + 0.1 * r} ${cx - rx},${ey - 0.03 * r + lid - t} Z" fill="#ffffff"/>`;
     }
   }
-  if (star) { const sx = ex + gaze * 0.25 * r + 0.06 * r, sy = ey - 0.07 * r; s += `<circle cx="${sx}" cy="${sy}" r="${0.18 * r}" fill="#fff6d6" opacity="0.45" filter="url(#b6)"/>${spark(sx, sy, 0.17 * r, '#ffffff')}`; }
+  if (star) { const sx = ex + 0.31 * r + 0.02 * r, sy = ey + 0.03 * r; s += star4(sx, sy, 0.11 * r, starColor); }
   // mouth
-  const mx = x + gaze * 0.3 * r, my = y + 0.36 * r;
-  if (expr === 'bored') s += `<path d="M${mx - 0.12 * r},${my + 0.01 * r} L${mx + 0.1 * r},${my - 0.015 * r}" stroke="${EYE}" stroke-width="${0.055 * r}" stroke-linecap="round"/>`;
-  else if (expr === 'smile') s += `<path d="M${mx - 0.18 * r},${my - 0.03 * r} Q${mx},${my + 0.16 * r} ${mx + 0.18 * r},${my - 0.03 * r} Z" fill="${EYE}"/>`;
-  else if (expr === 'shocked') s += `<ellipse cx="${mx}" cy="${my + 0.03 * r}" rx="${0.08 * r}" ry="${0.11 * r}" fill="${EYE}"/>`;
-  else s += `<path d="M${mx - 0.14 * r},${my} Q${mx - gaze * 0.02 * r},${my + 0.08 * r} ${mx + gaze * 0.16 * r},${my - 0.07 * r}" fill="none" stroke="${EYE}" stroke-width="${0.05 * r}" stroke-linecap="round"/>`;
+  const mx = x - 0.07 * r + g, my = y + 0.36 * r;
+  if (expr === 'shocked') s += `<ellipse cx="${mx + 0.05 * r}" cy="${my + 0.02 * r}" rx="${0.07 * r}" ry="${0.1 * r}" fill="#ffffff"/>`;
+  else if (expr === 'bored') s += `<path d="M${mx - 0.12 * r},${my} L${mx + 0.14 * r},${my - 0.01 * r}" stroke="#ffffff" stroke-width="${0.045 * r}" stroke-linecap="round"/>`;
+  else if (expr === 'happy') s += `<path d="M${mx - 0.2 * r},${my - 0.03 * r} Q${mx},${my + 0.18 * r} ${mx + 0.2 * r},${my - 0.03 * r} Z" fill="#ffffff"/>`;
+  else s += `<path d="M${mx - 0.23 * r},${my - 0.02 * r} Q${mx},${my + 0.12 * r} ${mx + 0.23 * r},${my}" fill="none" stroke="#ffffff" stroke-width="${0.045 * r}" stroke-linecap="round"/>`;
   return s;
 }
+export const star4 = (x, y, s, c) => `<path d="M${x},${y - s * 1.6} Q${x + s * 0.18},${y - s * 0.18} ${x + s},${y} Q${x + s * 0.18},${y + s * 0.18} ${x},${y + s * 1.6} Q${x - s * 0.18},${y + s * 0.18} ${x - s},${y} Q${x - s * 0.18},${y - s * 0.18} ${x},${y - s * 1.6} Z" fill="${c}"/>`;
 export const spark = (x, y, s, c) => `<path d="M${x},${y - s} Q${x + s * 0.12},${y - s * 0.12} ${x + s},${y} Q${x + s * 0.12},${y + s * 0.12} ${x},${y + s} Q${x - s * 0.12},${y + s * 0.12} ${x - s},${y} Q${x - s * 0.12},${y - s * 0.12} ${x},${y - s} Z" fill="${c}"/>`;
 export function shade(hex, k) { const v = parseInt(hex.slice(1), 16); const f = c => Math.round(k < 0 ? c * (1 + k) : c + (255 - c) * k); return '#' + [v >> 16, (v >> 8) & 255, v & 255].map(f).map(c => c.toString(16).padStart(2, '0')).join(''); }
 
